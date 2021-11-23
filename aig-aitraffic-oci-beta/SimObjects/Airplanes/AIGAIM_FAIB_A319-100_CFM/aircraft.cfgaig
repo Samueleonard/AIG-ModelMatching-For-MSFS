@@ -1,0 +1,2851 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text" ; 
+atc_model="TT:ATCCOM.AC_MODEL A319.0.text" ; 
+editable=0 ; 
+performance=; 
+category=airplane ; 
+pilot="Pilot_Female_Casual" ; 
+copilot="Pilot_Male_Casual" ; 
+instructor="Pilot_Male_Casual" ; 
+wip_indicator=2 ; 
+icao_type_designator="A319" ; 
+icao_manufacturer="AIRBUS" ; 
+icao_model="A-319" ; 
+icao_engine_type="Jet" ; 
+icao_engine_count=2 ; 
+icao_wtc="M" ; 
+icao_generic=0 ; 
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  32.861, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -18.379,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[fltsim.0]
+title=AIGAIM_Air Canada Airbus A319-100
+model=ACA-Air Canada
+texture=ACA-Air Canada
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada - NC 2017 C-GARG
+ui_createdby=Provided by: ATCO Filename: faib_a319_aca_nc2017.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.1]
+title=AIGAIM_Air Canada Airbus A319-100 - OC
+model=ACA-Air Canada_OC
+texture=ACA-Air Canada_OC
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada - C-GAQX
+ui_createdby=Provided by: ATCO Filename: faib_a319_aca_v2.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.2]
+title=AIGAIM_Air Canada Airbus A319-100 - Retro
+model=ACA-Air Canada_Retro
+texture=ACA-Air Canada_Retro
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada - Trans Canada Airlines C-FZUH
+ui_createdby=Provided by: ATCO Filename: faib_a319_aca_v2.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.3]
+title=AIGAIM_Air Canada Jetz Airbus A319-100 - OC
+model=-Air Canada Jetz_OC
+texture=-Air Canada Jetz_OC
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada Jetz - C-GBIA
+ui_createdby=Provided by: ATCO Filename: faib_a319_aca_v2.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+
+[fltsim.4]
+title=AIGAIM_Air Canada Rouge Airbus A319-100 - large AC titles
+model=ROU-Air Canada Rouge_large AC titles
+texture=ROU-Air Canada Rouge_large AC titles
+atc_airline=ROUGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROU
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada Rouge - C-GITR Dome Large Air Canada Titles
+ui_createdby=Provided by: ATCO Filename: faib_a319_rou_2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROU
+
+[fltsim.5]
+title=AIGAIM_Air Canada Rouge Airbus A319-100 - small AC titles
+model=ROU-Air Canada Rouge_small AC titles
+texture=ROU-Air Canada Rouge_small AC titles
+atc_airline=ROUGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROU
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada Rouge - C-GARJ Dome
+ui_createdby=Provided by: ATCO Filename: faib_a319_rou_2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROU
+
+[fltsim.6]
+title=AIGAIM_Air Canada Rouge Airbus A319-100 - OC
+model=ROU-Air Canada Rouge_OC
+texture=ROU-Air Canada Rouge_OC
+atc_airline=ROUGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROU
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Canada Rouge - C-GSJB OC Dome Wifi
+ui_createdby=Provided by: ATCO Filename: faib_a319_rou_2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROU
+
+[fltsim.7]
+title=AIGAIM_Air China Airbus A319-100 - CFM
+model=CCA-Air China_CFM
+texture=CCA-Air China_CFM
+atc_id=B-6223
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air China
+ui_createdby=Provided by: FSAI Filename: faib_cca_airbus_a319.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.8]
+title=AIGAIM_Air China Airbus A319-100 - CFM Bold Line
+model=CCA-Air China_CFM Bold Line
+texture=CCA-Air China_CFM Bold Line
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air China
+ui_createdby=Provided by: AVSIM Filename: faib_a319_cca_cfm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.9]
+title=AIGAIM_Air China Airbus A319-100 - CFM No Flag
+model=CCA-Air China_CFM No Flag
+texture=CCA-Air China_CFM No Flag
+atc_id=B-6046
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air China Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Air China.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.10]
+title=AIGAIM_Air China Airbus A319-100 - CFM No Flag Bold Line
+model=CCA-Air China_CFM No Flag Bold Line
+texture=CCA-Air China_CFM No Flag Bold Line
+atc_id=B-6044
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air China
+ui_createdby=Provided by: FSAI Filename: faib_cca_airbus_a319.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.11]
+title=AIGAIM_Air Cote d'Ivoire Airbus A319-100
+model=VRE-Air Cote d'Ivoire
+texture=VRE-Air Cote d'Ivoire
+atc_airline=COTE D'IVOIRE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Cote d'Ivoire - Sharklets
+ui_createdby=Provided by: FC75 Filename: faib_aircotedivoire_319.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRE
+
+[fltsim.12]
+title=AIGAIM_Air France Airbus A319-100
+model=AFR-Air France
+texture=AFR-Air France
+atc_id=F-GRHE
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air France F-GRHE (NC, WiFi dome)
+ui_createdby=Provided by: FC75 Filename: faib_a319_afr_nc_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.13]
+title=AIGAIM_Air France Airbus A319-100 - OC
+model=AFR-Air France_OC
+texture=AFR-Air France_OC
+atc_id=F-GRXC
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air France F-GRXC (WiFi dome)
+ui_createdby=Provided by: FC75 Filename: faib_a319_afr_nc_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.14]
+title=AIGAIM_Air France Airbus A319-100 - OC no WiFi
+model=AFR-Air France_OC no WiFi
+texture=AFR-Air France_OC no WiFi
+atc_id=F-GRXD
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air France F-GRXD (no WiFi dome)
+ui_createdby=Provided by: FC75 Filename: faib_a319_afr_nc_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.15]
+title=AIGAIM_Air France Airbus A319-100 - OC Paris 2024 no WiFi
+model=AFR-Air France_OC Paris 2024 no WiFi
+texture=AFR-Air France_OC Paris 2024 no WiFi
+atc_id=F-GRXL
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air France F-GRXL Paris Olympique 2024
+ui_createdby=Provided by: FC75 Filename: faib_a319_afr_paris2024_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.16]
+title=AIGAIM_Air India Airbus A319-100
+model=AIC-Air India
+texture=AIC-Air India
+atc_id=VT-SCG
+atc_airline=AIR INDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIC
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air India - VT-SCG
+ui_createdby=Provided by: KPK Filename: ai319aic_v2_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIC
+
+[fltsim.17]
+title=AIGAIM_Air Mauritius Airbus A319-100
+model=MAU-Air Mauritius
+texture=MAU-Air Mauritius
+atc_id=3B-NBF
+atc_airline=AIRMAURITIUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air Mauritius Limited,
+ui_createdby=Provided by: JB Filename: FAIB A319 Air Mauritius FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAU
+
+[fltsim.18]
+title=AIGAIM_Air Moldova Airbus A319-100 - CFM
+model=MLD-Air Moldova_CFM
+texture=MLD-Air Moldova_CFM
+atc_id=ER-AXM
+atc_airline=AIR MOLDOVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MLD
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air Moldova
+ui_createdby=Provided by: JB Filename: FAIB A319 Air Moldova FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MLD
+
+[fltsim.19]
+title=AIGAIM_Air Moldova Airbus A319-100 - CFM Albino
+model=MLD-Air Moldova_CFM Albino
+texture=MLD-Air Moldova_CFM Albino
+atc_id=ER-AXL
+atc_airline=AIR MOLDOVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MLD
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air Moldova
+ui_createdby=Provided by: JB Filename: FAIB A319 Air Moldova FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MLD
+
+[fltsim.20]
+title=AIGAIM_Air Moldova Airbus A319-100 - CFM opb Anda Air
+model=MLD-Air Moldova_CFM opb Anda Air
+texture=MLD-Air Moldova_CFM opb Anda Air
+atc_id=UR-CRU
+atc_airline=AIR MOLDOVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MLD
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=Air Moldova Airbus opb Anda Air
+ui_createdby=Provided by: JCAI Filename: FAIB_Air Moldova opb Anda Air_Airbus_A319-100_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MLD
+
+[fltsim.21]
+title=AIGAIM_Air Senegal Airbus A319-100
+model=SZN-Air Senegal
+texture=SZN-Air Senegal
+atc_id=6V-AMA
+atc_airline=SENSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SZN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Air Senegal
+ui_createdby=Provided by: FSAI Filename: faib_szn_airbus_a319.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SZN
+
+[fltsim.22]
+title=AIGAIM_Alitalia Airbus A319-100
+model=AZA-Alitalia
+texture=AZA-Alitalia
+atc_id=EI-IML
+atc_airline=ALITALIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Alitalia EI-IML 'Isola La Maddalena' (2015 colors)
+ui_createdby=Provided by: FC75 Filename: faib_a319_aza_nc15_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZA
+
+[fltsim.23]
+title=AIGAIM_Alitalia Airbus A319-100 - OC
+model=AZA-Alitalia_OC
+texture=AZA-Alitalia_OC
+atc_id=EI-IMO
+atc_airline=ALITALIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Alitalia EI-IMO 'Isola d'Ischia' (2009 colours)
+ui_createdby=Provided by: FC75 Filename: faib_a319_aza_nc_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZA
+
+[fltsim.24]
+title=AIGAIM_Allegiant Air Airbus A319-100
+model=AAY-Allegiant Air
+texture=AAY-Allegiant Air
+atc_id=N309NV
+atc_airline=ALLEGIANT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Allegiant Air
+ui_createdby=Provided by: KAIW2 Filename: faib_aay_a319_jkm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAY
+
+[fltsim.25]
+title=AIGAIM_Allegiant Air Airbus A319-100 - OC Travel Deal
+model=AAY-Allegiant Air_OC Travel Deal
+texture=AAY-Allegiant Air_OC Travel Deal
+atc_id=N325NV
+atc_airline=ALLEGIANT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Allegiant Air
+ui_createdby=Provided by: KAIW2 Filename: faib_aay_a319_jkm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAY
+
+[fltsim.26]
+title=AIGAIM_Allegiant Air Airbus A319-100 - Vegas Golden Knights
+model=AAY-Allegiant Air_Vegas Golden Knights
+texture=AAY-Allegiant Air_Vegas Golden Knights
+atc_id=N302NV
+atc_airline=ALLEGIANT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Allegiant Air
+ui_createdby=Provided by: KAIW2 Filename: faib_aay_a319_jkm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAY
+
+[fltsim.27]
+title=AIGAIM_Allegiant Air Airbus A319-100 - Las Vegas Raiders
+model=AAY-Allegiant Air_Las Vegas Raiders
+texture=AAY-Allegiant Air_Las Vegas Raiders
+atc_id=N328NV
+atc_airline=ALLEGIANT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Allegiant Air
+ui_createdby=Provided by: KAIW2 Filename: faib_aay_a319_jkm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAY
+
+[fltsim.28]
+title=AIGAIM_American Airlines Airbus A319-100 - CFM
+model=AAL-American Airlines_CFM
+texture=AAL-American Airlines_CFM
+atc_id=N705US
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.29]
+title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage PSA
+model=AAL-American Airlines_CFM Heritage PSA
+texture=AAL-American Airlines_CFM Heritage PSA
+atc_id=N742PS
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.30]
+title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Piedmont
+model=AAL-American Airlines_CFM Heritage Piedmont
+texture=AAL-American Airlines_CFM Heritage Piedmont
+atc_id=N744P
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.31]
+title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Allegheny
+model=AAL-American Airlines_CFM Heritage Allegheny
+texture=AAL-American Airlines_CFM Heritage Allegheny
+atc_id=N745VJ
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.32]
+title=AIGAIM_Aurora Airlines Airbus A319-100
+model=SHU-Aurora Airlines
+texture=SHU-Aurora Airlines
+atc_id=VP-BUO
+atc_airline=AURORA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SHU
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Aurora VP-BUO
+ui_createdby=Provided by: UTT Filename: UTT_FAIB_A319_Aurora_VP-BUO_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SHU
+
+[fltsim.33]
+title=AIGAIM_Aurora Airlines Airbus A319-100 - Centre Amur Tiger
+model=SHU-Aurora Airlines_Centre Amur Tiger
+texture=SHU-Aurora Airlines_Centre Amur Tiger
+atc_id=VQ-BBD
+atc_airline=AURORA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SHU
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Aurora VQ-BBD
+ui_createdby=Provided by: UTT Filename: UTT_FAIB_A319_Aurora_VQ-BBD_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SHU
+
+[fltsim.34]
+title=AIGAIM_Austrian Airlines Airbus A319-100 - IC
+model=AUA-Austrian Airlines_IC
+texture=AUA-Austrian Airlines_IC
+atc_id=OE-LDG
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Austrian Airlines AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Austrian FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.35]
+title=AIGAIM_Austrian Airlines Airbus A319-100 - IC my Austrian
+model=AUA-Austrian Airlines_IC my Austrian
+texture=AUA-Austrian Airlines_IC my Austrian
+atc_id=OE-LDE
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Austrian Airlines AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Austrian FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.36]
+title=AIGAIM_Avianca Airbus A319-100 - CFM
+model=AVA-Avianca_CFM
+texture=AVA-Avianca_CFM
+atc_id=N422AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.37]
+title=AIGAIM_Avianca Airbus A319-100 - CFM WiFi Dome
+model=AVA-Avianca_CFM WiFi Dome
+texture=AVA-Avianca_CFM WiFi Dome
+atc_id=N557AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.38]
+title=AIGAIM_Avianca Airbus A319-100 - CFM OC
+model=AVA-Avianca_CFM OC
+texture=AVA-Avianca_CFM OC
+atc_id=N691AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.39]
+title=AIGAIM_Avianca Airbus A319-100 - CFM OC WiFi Dome
+model=AVA-Avianca_CFM OC WiFi Dome
+texture=AVA-Avianca_CFM OC WiFi Dome
+atc_id=N691AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.40]
+title=AIGAIM_Avianca Airbus A319-100 - CFM Star Alliance WiFi Dome
+model=AVA-Avianca_CFM Star Alliance WiFi Dome
+texture=AVA-Avianca_CFM Star Alliance WiFi Dome
+atc_id=N519AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.41]
+title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM
+model=GLG-Avianca Ecuador_CFM
+texture=GLG-Avianca Ecuador_CFM
+atc_id=HC-CKN
+atc_airline=GALAPAGOS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLG
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Avianca Ecuador
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Ecuador FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLG
+
+[fltsim.42]
+title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM - Old Livery
+model=GLG-Avianca Ecuador_CFM - Old Livery
+texture=GLG-Avianca Ecuador_CFM - Old Livery
+atc_id=HC-CSB
+atc_airline=GALAPAGOS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLG
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Avianca Ecuador
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Ecuador FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLG
+
+[fltsim.43]
+title=AIGAIM_AZAL Azerbaijan Airlines Airbus A319-100
+model=AHY-AZAL Azerbaijan Airlines
+texture=AHY-AZAL Azerbaijan Airlines
+atc_id=4K-AZ03
+atc_airline=AZAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AHY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Azarbaycan Hava Yollari
+ui_createdby=Provided by: JB Filename: FAIB A319 AzerbaijanFSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AHY
+
+[fltsim.44]
+title=AIGAIM_Azores Airlines Airbus A319-100 - opb HiFly Malta 9H-XFW
+model=RZO-Azores Airlines_opb HiFly Malta 9H-XFW
+texture=RZO-Azores Airlines_opb HiFly Malta 9H-XFW
+atc_id=9H-XFW
+atc_airline=AIR AZORES
+atc_parking_types=RAMP
+atc_parking_codes=RZO
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Hi Fly Malta
+ui_createdby=Provided by: JB Filename: FAIB A319 HiFly Malta.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RZO
+
+[fltsim.45]
+title=AIGAIM_Bhutan Airlines Airbus A319-100
+model=BTN-Bhutan Airlines
+texture=BTN-Bhutan Airlines
+atc_id=A5-BAB
+atc_airline=BHUTAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTN
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Bhutan Airlines A5-BAB
+ui_createdby=Provided by: JCAI Filename: faib_a319btn_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTN
+
+[fltsim.46]
+title=AIGAIM_Brussels Airlines Airbus A319-100
+model=BEL-Brussels Airlines
+texture=BEL-Brussels Airlines
+atc_id=OO-SSM
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Brussels Airlines
+ui_createdby=Provided by: JB Filename: FAIB A319 Brussels Airlines FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.47]
+title=AIGAIM_Brussels Airlines Airbus A319-100 - two overwing exits
+model=BEL-Brussels Airlines_two overwing exits
+texture=BEL-Brussels Airlines_two overwing exits
+atc_id=OO-SSM
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Brussels Airlines
+ui_createdby=Provided by: JB Filename: FAIB A319 Brussels Airlines FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.48]
+title=AIGAIM_Brussels Airlines Airbus A319-100 - Star Alliance
+model=BEL-Brussels Airlines_Star Alliance
+texture=BEL-Brussels Airlines_Star Alliance
+atc_id=OO-SSC
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Brussels Airlines
+ui_createdby=Provided by: JB Filename: FAIB A319 Brussels Airlines FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.49]
+title=AIGAIM_Brussels Airlines Airbus A319-100 - opb CSA Eurowings Hybrid
+model=BEL-Brussels Airlines_opb CSA Eurowings Hybrid
+texture=BEL-Brussels Airlines_opb CSA Eurowings Hybrid
+atc_id=OK-NEM
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: FAIB A319 Eurowings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.50]
+title=AIGAIM_Brussels Airlines Airbus A319-100 - opb CSA City of Prague
+model=BEL-Brussels Airlines_opb CSA City of Prague
+texture=BEL-Brussels Airlines_opb CSA City of Prague
+atc_id=OK-NEM
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: FAIB A319 Eurowings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.51]
+title=AIGAIM_Brussels Airlines Airbus A319-100 - opb EWG two overwing exits
+model=BEL-Brussels Airlines_opb EWG two overwing exits
+texture=BEL-Brussels Airlines_opb EWG two overwing exits
+atc_id=D-ABGM
+atc_airline=BEELINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: FAIB A319 Eurowings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.52]
+title=AIGAIM_Bulgaria Air Airbus A319-100
+model=LZB-Bulgaria Air
+texture=LZB-Bulgaria Air
+atc_id=LZ-FBF
+atc_airline=FLYING BULGARIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LZB
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=Bulgaria Air - LZ-FBF
+ui_createdby=Provided by: JB Filename: ai319lzb_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LZB
+
+[fltsim.53]
+title=AIGAIM_Cambodia Airways Airbus A319-100
+model=KME-Cambodia Airways
+texture=KME-Cambodia Airways
+atc_id=XU-797
+atc_airline=GIANT IBIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KME
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Airbus A319 CFM FAIB Cambodia Airways KME XU-797
+ui_createdby=Provided by: OCH Filename: KME_A319_HD.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KME
+
+[fltsim.54]
+title=AIGAIM_Cambodia Airways Airbus A319-100 - Two Overwing Exits
+model=KME-Cambodia Airways_Two Overwing Exits
+texture=KME-Cambodia Airways_Two Overwing Exits
+atc_id=XU-878
+atc_airline=GIANT IBIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KME
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Airbus A319 CFM FAIB Cambodia Airways KME XU-878
+ui_createdby=Provided by: OCH Filename: KME_A319_HD.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KME
+
+[fltsim.55]
+title=AIGAIM_Cambodia Airways Airbus A319-100 - Sundair Hybrid XU-787
+model=KME-Cambodia Airways_Sundair Hybrid XU-787
+texture=KME-Cambodia Airways_Sundair Hybrid XU-787
+atc_id=XU-787
+atc_airline=GIANT IBIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KME
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Airbus A319 CFM FAIB Cambodia Airways KME XU-787
+ui_createdby=Provided by: OCH Filename: KME_A319_HD.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KME
+
+[fltsim.56]
+title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Engine Titles
+model=CBJ-Capital Airlines_CFM Engine Titles
+texture=CBJ-Capital Airlines_CFM Engine Titles
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Capital Airlines - Engine Titles
+ui_createdby=Provided by: ATCO Filename: faib_a319_cbj_cfm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.57]
+title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Old HNA Logo Engine Titles
+model=CBJ-Capital Airlines_CFM Old HNA Logo Engine Titles
+texture=CBJ-Capital Airlines_CFM Old HNA Logo Engine Titles
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Capital Airlines - Old HNA Logo Engine Titles
+ui_createdby=Provided by: ATCO Filename: faib_a319_cbj_cfm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.58]
+title=AIGAIM_CHair Airlines Airbus A319-100
+model=GSW-CHair Airlines
+texture=GSW-CHair Airlines
+atc_id=HB-JOH
+atc_airline=EIGER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GSW
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Chair Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_A319_GSW.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GSW
+
+[fltsim.59]
+title=AIGAIM_Chengdu Airlines Airbus A319-100
+model=UEA-Chengdu Airlines
+texture=UEA-Chengdu Airlines
+atc_id=B-6155
+atc_airline=UNITED EAGLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UEA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Chengdu Airlines
+ui_createdby=Provided by: FC75 Filename: brw_a319_chengduairlinesR2_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UEA
+
+[fltsim.60]
+title=AIGAIM_China Eastern Airlines Airbus A319-100 - CFM OC
+model=CES-China Eastern Airlines_CFM OC
+texture=CES-China Eastern Airlines_CFM OC
+atc_id=B-6431
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=China Eastern
+ui_createdby=Provided by: AVSIM Filename: faib_a319_ces_cfm_old.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.61]
+title=AIGAIM_China Southern Airlines Airbus A319-100 - CFM
+model=CSN-China Southern Airlines_CFM
+texture=CSN-China Southern Airlines_CFM
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=China Southern
+ui_createdby=Provided by: AVSIM Filename: faib_a319_csn_cfm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+
+[fltsim.62]
+title=AIGAIM_Chongqing Airlines Airbus A319-100
+model=CQN-Chongqing Airlines
+texture=CQN-Chongqing Airlines
+atc_id=B-6187
+atc_airline=CHONG QING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CQN
+ui_manufacturer=FAIB1
+ui_type=Airbus A319-100
+ui_variation=Chongqing Airlines
+ui_createdby=Provided by: FC75 Filename: faib_cqn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CQN
+
+[fltsim.63]
+title=AIGAIM_Croatia Airlines Airbus A319-100 - Zadar
+model=CTN-Croatia Airlines_Zadar
+texture=CTN-Croatia Airlines_Zadar
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Croatia Airlines 9A-CTG Zadar
+ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.64]
+title=AIGAIM_Croatia Airlines Airbus A319-100 - Zagreb
+model=CTN-Croatia Airlines_Zagreb
+texture=CTN-Croatia Airlines_Zagreb
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Croatia Airlines 9A-CTH Zagreb
+ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.65]
+title=AIGAIM_Croatia Airlines Airbus A319-100 - Star Alliance
+model=CTN-Croatia Airlines_Star Alliance
+texture=CTN-Croatia Airlines_Star Alliance
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Croatia Airlines 9A-CTI Vukovar
+ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.66]
+title=AIGAIM_Croatia Airlines Airbus A319-100 - Pula Bravo Vatreni
+model=CTN-Croatia Airlines_Pula Bravo Vatreni
+texture=CTN-Croatia Airlines_Pula Bravo Vatreni
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Croatia Airlines 9A-CTL Pula
+ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.67]
+title=AIGAIM_CSA Czech Airlines Airbus A319-100
+model=CSA-CSA Czech Airlines
+texture=CSA-CSA Czech Airlines
+atc_id=OK-NEM
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=CSA Czech Airlines j.s.c.
+ui_createdby=Provided by: JB Filename: FAIB A319 CSA NC FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA
+
+[fltsim.68]
+title=AIGAIM_CSA Czech Airlines Airbus A319-100 - 95 Years
+model=CSA-CSA Czech Airlines_95 Years
+texture=CSA-CSA Czech Airlines_95 Years
+atc_id=OK-MEL
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=CSA Czech Airlines j.s.c.
+ui_createdby=Provided by: JB Filename: FAIB A319 CSA NC FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA
+
+[fltsim.69]
+title=AIGAIM_CSA Czech Airlines Airbus A319-100 - City of Prague
+model=CSA-CSA Czech Airlines_City of Prague
+texture=CSA-CSA Czech Airlines_City of Prague
+atc_id=OK-NEP
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=CSA Czech Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_CSA_Czech_Airlines_Airbus_A319_100_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA
+
+[fltsim.70]
+title=AIGAIM_CSA Czech Airlines Airbus A319-100 - Skyteam
+model=CSA-CSA Czech Airlines_Skyteam
+texture=CSA-CSA Czech Airlines_Skyteam
+atc_id=OK-PET
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=CSA Czech Airlines j.s.c.
+ui_createdby=Provided by: JB Filename: FAIB A319 CSA NC FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA
+
+[fltsim.71]
+title=AIGAIM_Cyprus Airways Airbus A319-100
+model=CYP-Cyprus Airways
+texture=CYP-Cyprus Airways
+atc_id=5B-DCW
+atc_airline=CYPRUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CYP
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Cyprus Airways
+ui_createdby=Provided by: JB Filename: FAIB A319-100 CFM Cyprus Airways.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CYP
+
+[fltsim.72]
+title=AIGAIM_Delta Air Lines Airbus A319-100
+model=DAL-Delta Air Lines
+texture=DAL-Delta Air Lines
+atc_id=N325NB
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Delta Air Lines
+ui_createdby=Provided by: KAIW Filename: faib_a319_dal_p3d.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.73]
+title=AIGAIM_Delta Air Lines Airbus A319-100 - No Belly Titles
+model=DAL-Delta Air Lines_No Belly Titles
+texture=DAL-Delta Air Lines_No Belly Titles
+atc_id=N344NB
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Delta Air Lines
+ui_createdby=Provided by: KAIW Filename: faib_a319_dal_p3d.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.74]
+title=AIGAIM_Druk Air Airbus A319-100
+model=DRK-Druk Air
+texture=DRK-Druk Air
+atc_id=A5-RGF
+atc_airline=ROYAL BHUTAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DRK
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Drukair A5-RGF
+ui_createdby=Provided by: JCAI Filename: faib_a319drk_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DRK
+
+[fltsim.75]
+title=AIGAIM_easyJet Airbus A319-100
+model=EZY-easyJet
+texture=EZY-easyJet
+atc_id=G-EZDE
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.76]
+title=AIGAIM_easyJet Airbus A319-100 - No Flag
+model=EZY-easyJet_No Flag
+texture=EZY-easyJet_No Flag
+atc_id=G-EZGA
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.77]
+title=AIGAIM_easyJet Airbus A319-100 - Amsterdam
+model=EZY-easyJet_Amsterdam
+texture=EZY-easyJet_Amsterdam
+atc_id=G-EZDN
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.78]
+title=AIGAIM_easyJet Airbus A319-100 - Mark McKee
+model=EZY-easyJet_Mark McKee
+texture=EZY-easyJet_Mark McKee
+atc_id=G-EZBC
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.79]
+title=AIGAIM_easyJet Airbus A319-100 - Porto
+model=EZY-easyJet_Porto
+texture=EZY-easyJet_Porto
+atc_id=G-EZDM
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.80]
+title=AIGAIM_easyJet Airbus A319-100 - Spirit of easyJet 2018
+model=EZY-easyJet_Spirit of easyJet 2018
+texture=EZY-easyJet_Spirit of easyJet 2018
+atc_id=G-EZII
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.81]
+title=AIGAIM_easyJet Airbus A319-100 - OC
+model=EZY-easyJet_OC
+texture=EZY-easyJet_OC
+atc_id=G-EZIS
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.82]
+title=AIGAIM_easyJet Airbus A319-100 - OC Spirit of easyJet 2014
+model=EZY-easyJet_OC Spirit of easyJet 2014
+texture=EZY-easyJet_OC Spirit of easyJet 2014
+atc_id=G-EZDF
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.83]
+title=AIGAIM_easyJet Airbus A319-100 - OC UNICEF
+model=EZY-easyJet_OC UNICEF
+texture=EZY-easyJet_OC UNICEF
+atc_id=G-EJAR
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet specials FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.84]
+title=AIGAIM_easyJet Airbus A319-100 - Albino
+model=EZY-easyJet_Albino
+texture=EZY-easyJet_Albino
+atc_id=G-EZEN
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.85]
+title=AIGAIM_easyJet Airbus A319-100 - Albino Orange Reverser
+model=EZY-easyJet_Albino Orange Reverser
+texture=EZY-easyJet_Albino Orange Reverser
+atc_id=G-EZEH
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.86]
+title=AIGAIM_easyJet Europe Airbus A319-100
+model=EJU-easyJet Europe
+texture=EJU-easyJet Europe
+atc_id=OE-LKD
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.87]
+title=AIGAIM_easyJet Europe Airbus A319-100 - #milaneasy
+model=EJU-easyJet Europe_#milaneasy
+texture=EJU-easyJet Europe_#milaneasy
+atc_id=OE-LKK
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.88]
+title=AIGAIM_easyJet Europe Airbus A319-100 - Adam Stoaling
+model=EJU-easyJet Europe_Adam Stoaling
+texture=EJU-easyJet Europe_Adam Stoaling
+atc_id=OE-LQA
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.89]
+title=AIGAIM_easyJet Europe Airbus A319-100 - Europcar Keri Emerton
+model=EJU-easyJet Europe_Europcar Keri Emerton
+texture=EJU-easyJet Europe_Europcar Keri Emerton
+atc_id=OE-LQY
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.90]
+title=AIGAIM_easyJet Europe Airbus A319-100 - Palma de Mallorca
+model=EJU-easyJet Europe_Palma de Mallorca
+texture=EJU-easyJet Europe_Palma de Mallorca
+atc_id=OE-LQX
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.91]
+title=AIGAIM_easyJet Europe Airbus A319-100 - Spirit of Bristol
+model=EJU-easyJet Europe_Spirit of Bristol
+texture=EJU-easyJet Europe_Spirit of Bristol
+atc_id=OE-LQK
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.92]
+title=AIGAIM_easyJet Europe Airbus A319-100 - Venezia
+model=EJU-easyJet Europe_Venezia
+texture=EJU-easyJet Europe_Venezia
+atc_id=OE-LKF
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe Specials.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.93]
+title=AIGAIM_easyJet Europe Airbus A319-100 - OC
+model=EJU-easyJet Europe_OC
+texture=EJU-easyJet Europe_OC
+atc_id=OE-LKH
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.94]
+title=AIGAIM_easyJet Europe Airbus A319-100 - OC ex Hamburg
+model=EJU-easyJet Europe_OC ex Hamburg
+texture=EJU-easyJet Europe_OC ex Hamburg
+atc_id=OE-LKJ
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Europe.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.95]
+title=AIGAIM_easyJet Switzerland Airbus A319-100
+model=EZS-easyJet Switzerland
+texture=EZS-easyJet Switzerland
+atc_id=HB-JYC
+atc_airline=TOPSWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZS
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Switzerland SA
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Swiss FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZS
+
+[fltsim.96]
+title=AIGAIM_easyJet Switzerland Airbus A319-100 - Spirit of easyJet 2016
+model=EZS-easyJet Switzerland_Spirit of easyJet 2016
+texture=EZS-easyJet Switzerland_Spirit of easyJet 2016
+atc_id=HB-JYJ
+atc_airline=TOPSWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZS
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=EasyJet Switzerland SA
+ui_createdby=Provided by: JB Filename: FAIB A319 Easyjet Swiss FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZS
+
+[fltsim.97]
+title=AIGAIM_Eurowings Airbus A319-100 - CFM
+model=EWG-Eurowings_CFM
+texture=EWG-Eurowings_CFM
+atc_id=D-ABGM
+atc_airline=EUROWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EWG
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: FAIB A319 Eurowings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG
+
+[fltsim.98]
+title=AIGAIM_Eurowings Airbus A319-100 - CFM Germanwings WiFi Dome
+model=EWG-Eurowings_CFM Germanwings WiFi Dome
+texture=EWG-Eurowings_CFM Germanwings WiFi Dome
+atc_id=D-AKNO
+atc_airline=EUROWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EWG
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Germanwings GmbH
+ui_createdby=Provided by: JB Filename: FAIB A319 Germanwings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG
+
+[fltsim.99]
+title=AIGAIM_Eurowings Airbus A319-100 - CFM CSA Hybrid
+model=EWG-Eurowings_CFM CSA Hybrid
+texture=EWG-Eurowings_CFM CSA Hybrid
+atc_id=OK-NEM
+atc_airline=EUROWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EWG
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: FAIB A319 Eurowings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG
+
+[fltsim.100]
+title=AIGAIM_Finnair Airbus A319-100
+model=FIN-Finnair
+texture=FIN-Finnair
+atc_id=OH-LVI
+atc_airline=FINNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Finnair
+ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A319_100_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.101]
+title=AIGAIM_Finnair Airbus A319-100 - Oneworld
+model=FIN-Finnair_Oneworld
+texture=FIN-Finnair_Oneworld
+atc_id=OH-LVD
+atc_airline=FINNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Finnair
+ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A319_100_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.102]
+title=AIGAIM_FlyBosnia Airbus A319-100
+model=FBS-FlyBosnia
+texture=FBS-FlyBosnia
+atc_id=E7-FBA
+atc_airline=BOSNIA AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBS
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=FlyBosnia - E7-FBB
+ui_createdby=Provided by: JB Filename: FAIB A319-100 CFM FlyBosnia.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBS
+
+[fltsim.103]
+title=AIGAIM_FlyBosnia Airbus A319-100 - EYOF 2019
+model=FBS-FlyBosnia_EYOF 2019
+texture=FBS-FlyBosnia_EYOF 2019
+atc_id=E7-FBA
+atc_airline=BOSNIA AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBS
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=FlyBosnia - E7-FBA
+ui_createdby=Provided by: JB Filename: FAIB A319-100 CFM FlyBosnia.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBS
+
+[fltsim.104]
+title=AIGAIM_Flynas Airbus A319-100 - OC
+model=KNE-Flynas_OC
+texture=KNE-Flynas_OC
+atc_id=VP-CYE
+atc_airline=NAS EXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KNE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Flynas
+ui_createdby=Provided by: JB Filename: FAIB A319 flynas.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KNE
+
+[fltsim.105]
+title=AIGAIM_Flynas Airbus A319-100 - OC Abha 2017
+model=KNE-Flynas_OC Abha 2017
+texture=KNE-Flynas_OC Abha 2017
+atc_id=VP-CYF
+atc_airline=NAS EXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KNE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Flynas
+ui_createdby=Provided by: JB Filename: FAIB A319 flynas.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KNE
+
+[fltsim.106]
+title=AIGAIM_FlyOne Airbus A319-100 - CFM
+model=FIA-FlyOne_CFM
+texture=FIA-FlyOne_CFM
+atc_id=ER-00002
+atc_airline=FIA AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIA
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=Flyone 'ER-00002'
+ui_createdby=Provided by: JCAI Filename: FAIB_Flyone_Airbus_A319-100_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIA
+
+[fltsim.107]
+title=AIGAIM_Frontier Airlines Airbus A319-100 - N949FR OC Erma the Ermine
+model=FFT-Frontier Airlines_N949FR OC Erma the Ermine
+texture=FFT-Frontier Airlines_N949FR OC Erma the Ermine
+atc_id=N949FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Frontier Airlines
+ui_createdby=Provided by: KAIW2 Filename: faib_a319_fft_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.108]
+title=AIGAIM_Iberia Airbus A319-100
+model=IBE-Iberia
+texture=IBE-Iberia
+atc_id=EC-JAZ
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia NC JAZ
+ui_createdby=Provided by: FC75 Filename: faib_a319_iberia_nc_fleet_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.109]
+title=AIGAIM_Iberia Airbus A319-100 - red name
+model=IBE-Iberia_red name
+texture=IBE-Iberia_red name
+atc_id=EC-JXJ
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia NC JXJ
+ui_createdby=Provided by: KPK Filename: faib_a319_iberia_nc_fleet_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.110]
+title=AIGAIM_Iberia Airbus A319-100 - unnamed
+model=IBE-Iberia_unnamed
+texture=IBE-Iberia_unnamed
+atc_id=EC-MFO
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia NC MFO
+ui_createdby=Provided by: KPK Filename: faib_a319_iberia_nc_fleet_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.111]
+title=AIGAIM_Iberia Airbus A319-100 - Halcon Peregrino
+model=IBE-Iberia_Halcon Peregrino
+texture=IBE-Iberia_Halcon Peregrino
+atc_id=EC-KKS
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia NC KKS
+ui_createdby=Provided by: KPK Filename: faib_a319_iberia_nc_fleet_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.112]
+title=AIGAIM_Iberia Airbus A319-100 - Oneworld
+model=IBE-Iberia_Oneworld
+texture=IBE-Iberia_Oneworld
+atc_id=EC-KHM
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia NC 'Oneworld'
+ui_createdby=Provided by: JCAI Filename: faib_a319ibenc_ow_upd_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.113]
+title=AIGAIM_Iberia Airbus A319-100 - OC
+model=IBE-Iberia_OC
+texture=IBE-Iberia_OC
+atc_id=EC-HGR
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Iberia, Lineas Aereas de Espana, S.A.
+ui_createdby=Provided by: JB Filename: FAIB A319 Iberia FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.114]
+title=AIGAIM_Icelandair Airbus A319-100 - opb GetJet Airlines
+model=ICE-Icelandair_opb GetJet Airlines
+texture=ICE-Icelandair_opb GetJet Airlines
+atc_id=LY-KEA
+atc_airline=ICEAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=Getjet Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A319-100_Getjet Airlines ex.Germania_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
+
+[fltsim.115]
+title=AIGAIM_iFly Airlines Airbus A319-100
+model=RSY-iFly Airlines
+texture=RSY-iFly Airlines
+atc_id=EI-GFN
+atc_airline=RUSSIAN SKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RSY
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=I-Fly
+ui_createdby=Provided by: JB Filename: FAIB A319 Ifly.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RSY
+
+[fltsim.116]
+title=AIGAIM_Ural Airlines Airbus A319-100 - CFM
+model=SVR-Ural Airlines_CFM
+texture=SVR-Ural Airlines_CFM
+atc_id=VP-BTE
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Ural Airlines VP-BTE
+ui_createdby=Provided by: FC75 Filename: faib_a319_svr_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR
+
+[fltsim.117]
+title=AIGAIM_Ural Airlines Airbus A319-100 - CFM 2 Overwing Exits
+model=SVR-Ural Airlines_CFM 2 Overwing Exits
+texture=SVR-Ural Airlines_CFM 2 Overwing Exits
+atc_id=VQ-BTZ
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Ural Airlines VQ-BTZ (2 overwing exits)
+ui_createdby=Provided by: FC75 Filename: faib_a319_svr_btz_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR
+
+[fltsim.118]
+title=AIGAIM_Lucky Air Airbus A319-100
+model=LKE-Lucky Air
+texture=LKE-Lucky Air
+atc_id=B-6198
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Lucky Air
+ui_createdby=Provided by: JB Filename: FAIB A319 Lucky Air NC.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.119]
+title=AIGAIM_Lucky Air Airbus A319-100 - Albino
+model=LKE-Lucky Air_Albino
+texture=LKE-Lucky Air_Albino
+atc_id=B-6221
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Lucky Air  B-6221
+ui_createdby=Provided by: AVSIM Filename: faib_lucky_air_319_stamp.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.120]
+title=AIGAIM_Lucky Air Airbus A319-100 - OC Old HNA Logo Engine Titles
+model=LKE-Lucky Air_OC Old HNA Logo Engine Titles
+texture=LKE-Lucky Air_OC Old HNA Logo Engine Titles
+atc_id=B-6212
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Lucky Air B-6212
+ui_createdby=Provided by: FC75 Filename: faib_a319_lke_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.121]
+title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM
+model=TAM-LATAM Airlines Brasil_CFM
+texture=TAM-LATAM Airlines Brasil_CFM
+atc_airline=TAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=LATAM Airlines Brasil - Wifi Dome
+ui_createdby=Provided by: ATCO Filename: faib_a319_latam_2020.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.122]
+title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM OC (TEMP)
+model=TAM-LATAM Airlines Brasil_CFM OC_temp
+texture=TAM-LATAM Airlines Brasil_CFM OC_temp
+atc_id=PR-MYC
+atc_airline=TAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=LATAM Airlines Brazil PR-MYC
+ui_createdby=Provided by: FC75 Filename: LATAM_Airlines_Brazil_A319_Fleet_Old_Colors_2016_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.123]
+title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - CFM OC
+model=LPE-LATAM Airlines Peru_CFM OC
+texture=LPE-LATAM Airlines Peru_CFM OC
+atc_airline=LANPERU
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LPE,LAN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=LAN Airlines
+ui_createdby=Provided by: AVSIM Filename: faib_a319_lan_cfm.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LPE
+
+[fltsim.124]
+title=AIGAIM_Libyan Wings Airbus A319-100
+model=LWA-Libyan Wings
+texture=LWA-Libyan Wings
+atc_id=5A-WLA
+atc_airline=LIBYAN WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LWA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Libyan Wings Airlines Co JSC
+ui_createdby=Provided by: JB Filename: FAIB A319 Libyan Wings FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LWA
+
+[fltsim.125]
+title=AIGAIM_LOT Polish Airlines Airbus A319-100 - White opb GJT
+model=LOT-LOT Polish Airlines_White opb GJT
+texture=LOT-LOT Polish Airlines_White opb GJT
+atc_id=LY-JAY
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=LOT Polish Airlines opb. Getjet Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A319-100_Getjet Airlines ex.Germania_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.126]
+title=AIGAIM_Lufthansa Airbus A319-100
+model=DLH-Lufthansa
+texture=DLH-Lufthansa
+atc_id=D-AILW
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.127]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_id=D-AILC
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.128]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC Webtitles
+model=DLH-Lufthansa_OC Webtitles
+texture=DLH-Lufthansa_OC Webtitles
+atc_id=D-AILD
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.129]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed
+model=DLH-Lufthansa_OC unnamed
+texture=DLH-Lufthansa_OC unnamed
+atc_id=D-AIBA
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.130]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed Webtitles
+model=DLH-Lufthansa_OC unnamed Webtitles
+texture=DLH-Lufthansa_OC unnamed Webtitles
+atc_id=D-AILH
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.131]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC Lu's World
+model=DLH-Lufthansa_OC Lu's World
+texture=DLH-Lufthansa_OC Lu's World
+atc_id=D-AILU
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.132]
+title=AIGAIM_Lufthansa Airbus A319-100 - OC Star Alliance unnamed
+model=DLH-Lufthansa_OC Star Alliance unnamed
+texture=DLH-Lufthansa_OC Star Alliance unnamed
+atc_id=D-AILF
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.133]
+title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH
+model=DLH-Lufthansa_opb CLH
+texture=DLH-Lufthansa_opb CLH
+atc_id=D-AILB
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.134]
+title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC
+model=DLH-Lufthansa_opb CLH OC
+texture=DLH-Lufthansa_opb CLH OC
+atc_id=D-AILP
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.135]
+title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC Webtitles
+model=DLH-Lufthansa_opb CLH OC Webtitles
+texture=DLH-Lufthansa_opb CLH OC Webtitles
+atc_id=D-AILS
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: FAIB A319 Lufthansa FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.136]
+title=AIGAIM_Myanmar Airways International Airbus A319-100
+model=MMA-Myanmar Airways International
+texture=MMA-Myanmar Airways International
+atc_id=XY-AGU
+atc_airline=MYANMAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MMA
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Myanmar Airways International XY-AGU
+ui_createdby=Provided by: FC75 Filename: faib_a319_mma_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MMA
+
+[fltsim.137]
+title=AIGAIM_Rossiya Airlines Airbus A319-100
+model=SDM-Rossiya Airlines
+texture=SDM-Rossiya Airlines
+atc_id=VQ-BCO
+atc_airline=ROSSIYA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SDM
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Rossiya Russian Airlines VQ-BCO
+ui_createdby=Provided by: UTT Filename: UTT_FAIB_A319_Rossiya_VQ-BCO_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SDM
+
+[fltsim.138]
+title=AIGAIM_Rossiya Airlines Airbus A319-100 - Zenit St. Petersburg
+model=SDM-Rossiya Airlines_Zenit St. Petersburg
+texture=SDM-Rossiya Airlines_Zenit St. Petersburg
+atc_id=VQ-BAS
+atc_airline=ROSSIYA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SDM
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Rossiya Russian Airlines VQ-BAS (Zenith logojet)
+ui_createdby=Provided by: UTT Filename: UTT_FAIB_A319_Rossiya_VQ-BAS_FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SDM
+
+[fltsim.139]
+title=AIGAIM_Rossiya Airlines Airbus A319-100 - Sports (TEMP)
+model=SDM-Rossiya Airlines_Sports_temp
+texture=SDM-Rossiya Airlines_Sports_temp
+atc_id=VQ-BCP
+atc_airline=ROSSIYA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SDM
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Rossiya VQ-BCP
+ui_createdby=Provided by: AVRUS Filename: 62341-319-SDM-SPORT.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SDM
+
+[fltsim.140]
+title=AIGAIM_S7 Airlines Airbus A319-100 - Oneworld
+model=SBI-S7 Airlines_Oneworld
+texture=SBI-S7 Airlines_Oneworld
+atc_airline=SIBERIAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SBI
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=S7 Airlines - Oneworld
+ui_createdby=Provided by: ATCO Filename: faib_a32x_sbi_2020.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBI
+
+[fltsim.141]
+title=AIGAIM_S7 Airlines Airbus A319-100 - OC
+model=SBI-S7 Airlines_OC
+texture=SBI-S7 Airlines_OC
+atc_id=VP-BHL
+atc_airline=SIBERIAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SBI
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=S7 Siberia Airlines - VP-BHL
+ui_createdby=Provided by: JB Filename: ai319sbi_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBI
+
+[fltsim.142]
+title=AIGAIM_Shenzhen Airlines Airbus A319-100 - CFM
+model=CSZ-Shenzhen Airlines_CFM
+texture=CSZ-Shenzhen Airlines_CFM
+atc_id=B-6153
+atc_airline=SHENZHEN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSZ
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Shenzhen Airlines
+ui_createdby=Provided by: JB Filename: FAIB A319 Shenzhen FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSZ
+
+[fltsim.143]
+title=AIGAIM_Sky Airline Airbus A319-100
+model=SKU-Sky Airline
+texture=SKU-Sky Airline
+atc_id=CC-AIY
+atc_airline=AEROSKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SKU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Sky Airline
+ui_createdby=Provided by: FSAI Filename: Sky Airline FAIB A319 A320.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SKU
+
+[fltsim.144]
+title=AIGAIM_Sky Airline Airbus A319-100 - OC
+model=SKU-Sky Airline_OC
+texture=SKU-Sky Airline_OC
+atc_id=CC-AJG
+atc_airline=AEROSKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SKU
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Sky Airline
+ui_createdby=Provided by: FSAI Filename: Sky Airline FAIB A319 A320.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SKU
+
+[fltsim.145]
+title=AIGAIM_Swiss Airbus A319-100
+model=SWR-Swiss
+texture=SWR-Swiss
+atc_id=HB-IPT
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Swiss
+ui_createdby=Provided by: KAIW Filename: faib_swr_a319_p3d.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.146]
+title=AIGAIM_Swiss Airbus A319-100 - unnamed
+model=SWR-Swiss_unnamed
+texture=SWR-Swiss_unnamed
+atc_id=HB-IPU
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Swiss
+ui_createdby=Provided by: KAIW Filename: faib_swr_a319_p3d.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.147]
+title=AIGAIM_TAP Air Portugal Airbus A319-100
+model=TAP-TAP Air Portugal
+texture=TAP-TAP Air Portugal
+atc_id=CS-TTN
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=TAP Air Portugal CS-TTN 'Camilo Castelo Branco' (2019 colors)
+ui_createdby=Provided by: FC75 Filename: faib_a319_tap_fleet2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.148]
+title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC
+model=TAP-TAP Air Portugal_IC
+texture=TAP-TAP Air Portugal_IC
+atc_id=CS-TTJ
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=TAP Air Portugal CS-TTJ 'Eusebio' (Interim Colors)
+ui_createdby=Provided by: FC75 Filename: faib_a319_tap_fleet2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.149]
+title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles
+model=TAP-TAP Air Portugal_IC old webtitles
+texture=TAP-TAP Air Portugal_IC old webtitles
+atc_id=CS-TTB
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=TAP Air Portugal CS-TTB 'Gago Coutinho' (OC, Air Portugal tail)
+ui_createdby=Provided by: FC75 Filename: faib_a319_tap_fleet2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.150]
+title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles 70 years
+model=TAP-TAP Air Portugal_IC old webtitles 70 years
+texture=TAP-TAP Air Portugal_IC old webtitles 70 years
+atc_id=CS-TTU
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=TAP Air Portugal CS-TTU 'Sophia de Mello Breyner' (OC, Air Portugal tail, TAP 70 belly logo)
+ui_createdby=Provided by: FC75 Filename: faib_a319_tap_fleet2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.151]
+title=AIGAIM_TAP Air Portugal Airbus A319-100 - lsf Aigle Azur
+model=TAP-TAP Air Portugal_lsf Aigle Azur
+texture=TAP-TAP Air Portugal_lsf Aigle Azur
+atc_id=F-HBAL
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=TAP Air Portugal F-HBAL lsf Aigle Azur (basic Aigle Azur livery)
+ui_createdby=Provided by: FC75 Filename: faib_a319_tap_fleet2019.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.152]
+title=AIGAIM_Transavia France Airbus A319-100 - opb HiFly Malta 9H-TLS
+model=TVF-Transavia France_opb HiFly Malta 9H-TLS
+texture=TVF-Transavia France_opb HiFly Malta 9H-TLS
+atc_id=9H-TLS
+atc_airline=FRANCE SOLEIL
+atc_parking_types=RAMP
+atc_parking_codes=TVF
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Hi Fly Malta
+ui_createdby=Provided by: JB Filename: FAIB A319 HiFly Malta.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVF
+
+[fltsim.153]
+title=AIGAIM_Tunisair Airbus A319-100
+model=TAR-Tunisair
+texture=TAR-Tunisair
+atc_id=TS-IMQ
+atc_airline=TUNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAR
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A319-100
+ui_variation=Tunisair - TS-IMQ
+ui_createdby=Provided by: JB Filename: ai319tar_70years_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAR
+
+[fltsim.154]
+title=AIGAIM_Volotea Airbus A319-100 - English / French
+model=VOE-Volotea_English _ French
+texture=VOE-Volotea_English _ French
+atc_id=EC-NCB
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.155]
+title=AIGAIM_Volotea Airbus A319-100 - French / English
+model=VOE-Volotea_French _ English
+texture=VOE-Volotea_French _ English
+atc_id=EC-MTF
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.156]
+title=AIGAIM_Volotea Airbus A319-100 - French / French
+model=VOE-Volotea_French _ French
+texture=VOE-Volotea_French _ French
+atc_id=EC-MUC
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.157]
+title=AIGAIM_Volotea Airbus A319-100 - French / Italian
+model=VOE-Volotea_French _ Italian
+texture=VOE-Volotea_French _ Italian
+atc_id=EC-MTC
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.158]
+title=AIGAIM_Volotea Airbus A319-100 - French / Italian unnamed
+model=VOE-Volotea_French _ Italian unnamed
+texture=VOE-Volotea_French _ Italian unnamed
+atc_id=EC-MTE
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.159]
+title=AIGAIM_Volotea Airbus A319-100 - French / Spanish
+model=VOE-Volotea_French _ Spanish
+texture=VOE-Volotea_French _ Spanish
+atc_id=EC-MTB
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.160]
+title=AIGAIM_Volotea Airbus A319-100 - Italian / English
+model=VOE-Volotea_Italian _ English
+texture=VOE-Volotea_Italian _ English
+atc_id=EC-NBD
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.161]
+title=AIGAIM_Volotea Airbus A319-100 - Italian / French
+model=VOE-Volotea_Italian _ French
+texture=VOE-Volotea_Italian _ French
+atc_id=EC-MUX
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.162]
+title=AIGAIM_Volotea Airbus A319-100 - Italian / Spanish
+model=VOE-Volotea_Italian _ Spanish
+texture=VOE-Volotea_Italian _ Spanish
+atc_id=EC-MUT
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.163]
+title=AIGAIM_Volotea Airbus A319-100 - Spanish / French
+model=VOE-Volotea_Spanish _ French
+texture=VOE-Volotea_Spanish _ French
+atc_id=EC-MTM
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.164]
+title=AIGAIM_Volotea Airbus A319-100 - Spanish / Italian
+model=VOE-Volotea_Spanish _ Italian
+texture=VOE-Volotea_Spanish _ Italian
+atc_id=EC-NDH
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.165]
+title=AIGAIM_Volotea Airbus A319-100 - Allez les Canaris
+model=VOE-Volotea_Allez les Canaris
+texture=VOE-Volotea_Allez les Canaris
+atc_id=EC-MUU
+atc_airline=VOLOTEA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Volotea S.L.
+ui_createdby=Provided by: JB Filename: FAIB A319 Volotea FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOE
+
+[fltsim.166]
+title=AIGAIM_Vueling Airbus A319-100 - CFM unnamed
+model=VLG-Vueling_CFM unnamed
+texture=VLG-Vueling_CFM unnamed
+atc_id=EC-MKX
+atc_airline=VUELING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VLG
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Vueling EC-MKX
+ui_createdby=Provided by: FC75 Filename: faib_a319cfm_vlg_2018_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VLG

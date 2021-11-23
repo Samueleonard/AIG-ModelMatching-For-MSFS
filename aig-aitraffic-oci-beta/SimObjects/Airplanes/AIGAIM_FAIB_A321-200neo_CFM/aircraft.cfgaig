@@ -1,0 +1,485 @@
+[VERSION]
+major=1 
+minor=0
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
+atc_model=TT:ATCCOM.AC_MODEL A21N.0.text ; 
+editable=0 ; 
+performance=; 
+category=airplane ; 
+pilot="Pilot_Female_Casual" ; 
+copilot="Pilot_Male_Casual" ; 
+instructor="Pilot_Male_Casual" ; 
+wip_indicator=2 ; 
+icao_type_designator=A21N ; 
+icao_manufacturer=AIRBUS ; 
+icao_model=A-321neo ; 
+icao_engine_type="Jet" ; 
+icao_engine_count=2 ; 
+icao_wtc=M ; 
+icao_generic=0 ; 
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  50.908, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -29.45,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[fltsim.0]
+title=AIGAIM_AirAsia Airbus A321-200neo - ACF
+model=AXM-AirAsia_ACF
+texture=AXM-AirAsia_ACF
+atc_id=9M-FAB
+atc_airline=RED CAP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AXM
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=AirAsia Berhad
+ui_createdby=Provided by: JB Filename: FAIB A321 AirAsia NEO.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AXM
+
+[fltsim.1]
+title=AIGAIM_AirAsia Airbus A321-200neo - ACF 3-2-1 Take Off
+model=AXM-AirAsia_ACF 3-2-1 Take Off
+texture=AXM-AirAsia_ACF 3-2-1 Take Off
+atc_id=9M-VAA
+atc_airline=RED CAP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AXM
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=AirAsia Berhad
+ui_createdby=Provided by: JB Filename: FAIB A321 AirAsia NEO.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AXM
+
+[fltsim.2]
+title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF American Airlines
+model=AIB-Airbus Cooperation_ACF American Airlines
+texture=AIB-Airbus Cooperation_ACF American Airlines
+atc_id=N400AN
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a321neo_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+
+[fltsim.3]
+title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Britisch Airways
+model=AIB-Airbus Cooperation_ACF Britisch Airways
+texture=AIB-Airbus Cooperation_ACF Britisch Airways
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=British Airways
+ui_createdby=Provided by: ATCO Filename: faib_a21n_baw.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+
+[fltsim.4]
+title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Azul
+model=AIB-Airbus Cooperation_ACF Azul
+texture=AIB-Airbus Cooperation_ACF Azul
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=AZUL
+ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM Azul.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+
+[fltsim.5]
+title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Air Arabia
+model=AIB-Airbus Cooperation_ACF Air Arabia
+texture=AIB-Airbus Cooperation_ACF Air Arabia
+atc_id=A6-ATA
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=FSX AI Bureau
+ui_type=Airbus A321-200neo
+ui_variation=Air Arabia
+ui_createdby=Provided by: FC75 Filename: faib_a321lr_aby.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+
+[fltsim.6]
+title=AIGAIM_Alaska Airlines Airbus A321-200neo - WiFi Dome
+model=ASA-Alaska Airlines_WiFi Dome
+texture=ASA-Alaska Airlines_WiFi Dome
+atc_id=N928VA
+atc_airline=ALASKA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ASA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Alaska Airlines
+ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASA
+
+[fltsim.7]
+title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N926VA
+model=ASA-Alaska Airlines_More to Love N926VA
+texture=ASA-Alaska Airlines_More to Love N926VA
+atc_id=N926VA
+atc_airline=ALASKA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ASA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Alaska Airlines
+ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASA
+
+[fltsim.8]
+title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N927VA
+model=ASA-Alaska Airlines_More to Love N927VA
+texture=ASA-Alaska Airlines_More to Love N927VA
+atc_id=N927VA
+atc_airline=ALASKA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ASA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Alaska Airlines
+ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASA
+
+[fltsim.9]
+title=AIGAIM_American Airlines Airbus A321-200neo - ACF
+model=AAL-American Airlines_ACF
+texture=AAL-American Airlines_ACF
+atc_id=N400AN
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=American Airlines
+ui_createdby=Provided by: KAIW Filename: faib_aal_a321neo_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.10]
+title=AIGAIM_Avianca Airbus A321-200neo - CFM
+model=AVA-Avianca_CFM
+texture=AVA-Avianca_CFM
+atc_id=N759AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_createdby=Provided by: JB Filename: FAIB A321 Avianca Colombia FSX.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.11]
+title=AIGAIM_Azores Airlines Airbus A321-200neo - Breathe
+model=RZO-Azores Airlines_Breathe
+texture=RZO-Azores Airlines_Breathe
+atc_airline=AIR AZORES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RZO
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Azores Airlines - CS-TSF Breathe
+ui_createdby=Provided by: ATCO Filename: faib_a21n_rzo_cstsf.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RZO
+
+[fltsim.12]
+title=AIGAIM_Azores Airlines Airbus A321-200neo - Wonder
+model=RZO-Azores Airlines_Wonder
+texture=RZO-Azores Airlines_Wonder
+atc_airline=AIR AZORES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RZO
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Azores Airlines - CS-TSG Wonder
+ui_createdby=Provided by: ATCO Filename: faib_a21n_rzo_cstsg.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RZO
+
+[fltsim.13]
+title=AIGAIM_Azul Airbus A321-200neo - ACF
+model=AZU-Azul_ACF
+texture=AZU-Azul_ACF
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=AZUL
+ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM Azul.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.14]
+title=AIGAIM_Bamboo Airways Airbus A321-200neo - A321NEO Titles
+model=BAV-Bamboo Airways_A321NEO Titles
+texture=BAV-Bamboo Airways_A321NEO Titles
+atc_id=VN-A591
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Bamboo Airways
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.15]
+title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1st A321neo
+model=BAV-Bamboo Airways_1st A321neo
+texture=BAV-Bamboo Airways_1st A321neo
+atc_id=VN-A588
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Bamboo Airways
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.16]
+title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1mio Passengers
+model=BAV-Bamboo Airways_1mio Passengers
+texture=BAV-Bamboo Airways_1mio Passengers
+atc_id=VN-A590
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Bamboo Airways
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.17]
+title=AIGAIM_British Airways Airbus A321-200neo - ACF
+model=BAW-British Airways_ACF
+texture=BAW-British Airways_ACF
+atc_airline=SPEED BIRD
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=British Airways
+ui_createdby=Provided by: ATCO Filename: faib_a21n_baw.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.18]
+title=AIGAIM_easyJet Airbus A321-200neo - ACF No Flag
+model=EZY-easyJet_ACF No Flag
+texture=EZY-easyJet_ACF No Flag
+atc_id=G-EZUMB
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.19]
+title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion No Flag
+model=EZY-easyJet_ACF NEO Promotion No Flag
+texture=EZY-easyJet_ACF NEO Promotion No Flag
+atc_id=G-EZUMA
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=EasyJet Airline Company Limited
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.20]
+title=AIGAIM_Novair Airbus A321-200neo - SE-RKA
+model=NVR-Novair_SE-RKA
+texture=NVR-Novair_SE-RKA
+atc_id=SE-RKA
+atc_airline=NOVAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NVR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Novair
+ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NVR
+
+[fltsim.21]
+title=AIGAIM_Novair Airbus A321-200neo - SE-RKB
+model=NVR-Novair_SE-RKB
+texture=NVR-Novair_SE-RKB
+atc_id=SE-RKB
+atc_airline=NOVAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NVR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Novair
+ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NVR
+
+[fltsim.22]
+title=AIGAIM_SriLankan Airlines Airbus A321-200neo
+model=ALK-SriLankan Airlines
+texture=ALK-SriLankan Airlines
+atc_airline=SRILANKAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ALK
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=SriLankan Airlines
+ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM SriLankan.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ALK
+
+[fltsim.23]
+title=AIGAIM_Starlux Airlines Airbus A321-200neo - ACF
+model=SJX-Starlux Airlines_ACF
+texture=SJX-Starlux Airlines_ACF
+atc_id=B-58201
+atc_airline=STARWALKER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SJX
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=STARLUX Airlines
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Starlux.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SJX
+
+[fltsim.24]
+title=AIGAIM_TAP Air Portugal Airbus A321-200neo
+model=TAP-TAP Air Portugal
+texture=TAP-TAP Air Portugal
+atc_id=CS-TJN
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=TAP Portugal CS-TJN (2019 colors)
+ui_createdby=Provided by: FC75 Filename: faib_a321n_tap.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.25]
+title=AIGAIM_TAP Air Portugal Airbus A321-200neo - IC
+model=TAP-TAP Air Portugal_IC
+texture=TAP-TAP Air Portugal_IC
+atc_id=CS-TJI
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=TAP Portugal CS-TJI 'Julio Pomar'(interim colors)
+ui_createdby=Provided by: FC75 Filename: faib_a321n_tap.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.26]
+title=AIGAIM_Thai AirAsia Airbus A321-200neo - ACF A321neo
+model=AIQ-Thai AirAsia_ACF A321neo
+texture=AIQ-Thai AirAsia_ACF A321neo
+atc_id=HS-EAA
+atc_airline=THAI ASIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIQ
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Thai AirAsia
+ui_createdby=Provided by: JB Filename: FAIB A321 Thai AirAsia NEO.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIQ

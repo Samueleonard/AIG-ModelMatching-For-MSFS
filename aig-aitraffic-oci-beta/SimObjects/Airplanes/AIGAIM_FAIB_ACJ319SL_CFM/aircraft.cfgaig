@@ -1,0 +1,49 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
+atc_model=TT:ATCCOM.AC_MODEL A319.0.text ; 
+editable=0 ; 
+performance=; 
+category=airplane ; 
+pilot="Pilot_Female_Casual" ; 
+copilot="Pilot_Male_Casual" ; 
+instructor="Pilot_Male_Casual" ; 
+wip_indicator=2 ; 
+icao_type_designator=A319 ; 
+icao_manufacturer=AIRBUS ; 
+icao_model=A-319 ACJ ; 
+icao_engine_type="Jet" ; 
+icao_engine_count=2 ; 
+icao_wtc=M ; 
+icao_generic=0 ; 
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  32.861, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -18.379,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[fltsim.0]
+title=AIGAIM_SK Group Airbus ACJ319SL - HL8080
+model=BJO-SK Group_HL8080
+texture=BJO-SK Group_HL8080
+atc_id=HL8080
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=Airbus
+ui_type=Airbus ACJ319SL
+ui_variation=SK Telecom HL8080
+ui_createdby=Provided by: JB Filename: FAIB A319-100 CFM HL8080 FSX.zip
+description=FAIB_ACJ319SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
