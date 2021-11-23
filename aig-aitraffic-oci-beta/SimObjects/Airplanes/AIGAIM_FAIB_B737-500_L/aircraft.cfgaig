@@ -1,0 +1,569 @@
+[VERSION]
+major=1 ; 
+minor=0 ; 
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B735.0.text"
+editable=0
+performance=
+category=airplane
+pilot="Pilot_Female_Casual"
+copilot="Pilot_Male_Casual"
+instructor="Pilot_Male_Casual"
+wip_indicator=2
+icao_type_designator="B735"
+icao_manufacturer="BOEING"
+icao_model="737-500"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
+
+[fltsim.0]
+title=AIGAIM_Aero Regional Boeing 737-500 - New Color'
+model=RER-Aero Regional_New Color'
+texture=RER-Aero Regional_New Color'
+atc_id=HC-CUH
+atc_airline=REGAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RER
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Aeroregional Ecuador - New Livery
+ui_createdby=Provided by: JCAI Filename: cnai-FAIB_B735-Aeroregional_HC-CUH_NewLivery.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RER
+
+[fltsim.1]
+title=AIGAIM_Aircompany Armenia Boeing 737-500 - Eyebrows
+model=NGT-Aircompany Armenia_Eyebrows
+texture=NGT-Aircompany Armenia_Eyebrows
+atc_airline=NIKA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NGT
+ui_type=Boeing 737-500
+ui_createdby=Provided by: JCAI Filename: FAIB_735_AircompanyArmenia.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NGT
+
+[fltsim.2]
+title=AIGAIM_Air Djibouti Boeing 737-500 - EY-560 opb Asia Sky Lines
+model=DJB-Air Djibouti_EY-560 opb Asia Sky Lines
+texture=DJB-Air Djibouti_EY-560 opb Asia Sky Lines
+atc_id=EY-560
+atc_airline=AIR DJIB
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DJB
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Air Djibouti
+ui_createdby=Provided by: FSAI Filename: faib_dju_boeing_735.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DJB
+
+[fltsim.3]
+title=AIGAIM_Air North Boeing 737-500
+model=ANT-Air North
+texture=ANT-Air North
+atc_airline=AIR NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Air North - NC C-GANU
+ui_createdby=Provided by: ATCO Filename: faib_735_ant_fleet2018.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT
+
+[fltsim.4]
+title=AIGAIM_Air North Boeing 737-500 - OC
+model=ANT-Air North_OC
+texture=ANT-Air North_OC
+atc_airline=AIR NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Air North - OC C-GANJ
+ui_createdby=Provided by: ATCO Filename: faib_735_ant_fleet2018.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT
+
+[fltsim.5]
+title=AIGAIM_Albatros Airlines Boeing 737-500
+model=GAL-Albatros Airlines
+texture=GAL-Albatros Airlines
+atc_id=YV3001
+atc_airline=ERRANTE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GAL
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Albatros Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_B735GAL_FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GAL
+
+[fltsim.6]
+title=AIGAIM_Albawings Boeing 737-500
+model=AWT-Albawings
+texture=AWT-Albawings
+atc_id=ZA-AWA
+atc_airline=ALBAWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AWT
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Albawings
+ui_createdby=Provided by: JCAI Filename: faib_b735awt_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AWT
+
+[fltsim.7]
+title=AIGAIM_AlMasria Universal Airlines Boeing 737-500
+model=LMU-AlMasria Universal Airlines
+texture=LMU-AlMasria Universal Airlines
+atc_id=SU-GBJ
+atc_airline=ALMASRIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LMU
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-500
+ui_variation=Almasria Universal Airlines
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-500_Almasria Universal Airlines_FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LMU
+
+[fltsim.8]
+title=AIGAIM_AMC Airlines Boeing 737-500 - Eyebrows
+model=AMV-AMC Airlines_Eyebrows
+texture=AMV-AMC Airlines_Eyebrows
+atc_id=SU-GBL
+atc_airline=AMC AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AMV
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=AMC Airlines
+ui_createdby=Provided by: AVSIM Filename: faib_b735amv.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMV
+
+[fltsim.9]
+title=AIGAIM_ANA Wings Boeing 737-500
+model=AKX-ANA Wings
+texture=AKX-ANA Wings
+atc_id=JA8500
+atc_airline=ALFA WING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AKX
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=ANA Wings
+ui_createdby=Provided by: FC75 Filename: faib_akx_b735_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AKX
+
+[fltsim.10]
+title=AIGAIM_Ariana Afghan Airlines Boeing 737-500
+model=AFG-Ariana Afghan Airlines
+texture=AFG-Ariana Afghan Airlines
+atc_airline=ARIANA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFG
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Ariana Afghan Airlines
+ui_createdby=Provided by: JB Filename: FAIB 737-500 Ariana Afghan Airlines FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFG
+
+[fltsim.11]
+title=AIGAIM_ATA Airlines Boeing 737-500 - Eyebrows
+model=TBZ-ATA Airlines_Eyebrows
+texture=TBZ-ATA Airlines_Eyebrows
+atc_id=EP-TAG
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=ATA Airlines EP-TAG
+ui_createdby=Provided by: FC75 Filename: faib_735_tbz.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.12]
+title=AIGAIM_Azman Air Boeing 737-500 - Eyebrows
+model=AZM-Azman Air_Eyebrows
+texture=AZM-Azman Air_Eyebrows
+atc_airline=AZMAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZM
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Azman Air
+ui_createdby=Provided by: FC75 Filename: faib_azmanair_735_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZM
+
+[fltsim.13]
+title=AIGAIM_Badr Airlines Boeing 737-500
+model=BDR-Badr Airlines
+texture=BDR-Badr Airlines
+atc_airline=BADR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BDR
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Badr Airlines
+ui_createdby=Provided by: FC75 Filename: faib_badrairlines_735.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BDR
+
+[fltsim.14]
+title=AIGAIM_Badr Airlines Boeing 737-500 - Eyebrows
+model=BDR-Badr Airlines_Eyebrows
+texture=BDR-Badr Airlines_Eyebrows
+atc_airline=BADR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BDR
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Badr Airlines - Eyebrows
+ui_createdby=Provided by: FC75 Filename: faib_badrairlines_735.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BDR
+
+[fltsim.15]
+title=AIGAIM_Bahamasair Boeing 737-500
+model=BHS-Bahamasair
+texture=BHS-Bahamasair
+atc_id=C6-BFE
+atc_airline=BAHAMAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BHS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Bahamasair C6-BFE
+ui_createdby=Provided by: FC75 Filename: faib_735bhs_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BHS
+
+[fltsim.16]
+title=AIGAIM_Blue Air Boeing 737-500
+model=BLA-Blue Air
+texture=BLA-Blue Air
+atc_id=YR-AMC
+atc_airline=BLUE AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLA,BMS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Blue Air YR-AMC (webtitles)
+ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLA
+
+[fltsim.17]
+title=AIGAIM_Blue Air Boeing 737-500 - no Webtitles
+model=BLA-Blue Air_no Webtitles
+texture=BLA-Blue Air_no Webtitles
+atc_id=YR-AMB
+atc_airline=BLUE AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLA,BMS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Blue Air YR-AMB (standard)
+ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLA
+
+[fltsim.18]
+title=AIGAIM_Blue Air Boeing 737-500 - darker Tail Logo
+model=BLA-Blue Air_darker Tail Logo
+texture=BLA-Blue Air_darker Tail Logo
+atc_id=YR-AMD
+atc_airline=BLUE AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLA,BMS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Blue Air YR-AMD (odd gradient on tail logo)
+ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLA
+
+[fltsim.19]
+title=AIGAIM_Buraq Air Boeing 737-500 - Eyebrows
+model=BRQ-Buraq Air_Eyebrows
+texture=BRQ-Buraq Air_Eyebrows
+atc_id=5A-WAD
+atc_airline=BURAQAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BRQ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=El-Buraq Air Transport Inc
+ui_createdby=Provided by: JB Filename: FAIB B735 Buraq FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BRQ
+
+[fltsim.20]
+title=AIGAIM_Felix Airways Boeing 737-500 - opb Alfa Airlines
+model=FXX-Felix Airways_opb Alfa Airlines
+texture=FXX-Felix Airways_opb Alfa Airlines
+atc_airline=FELIX
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FXX
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Alfa Airlines
+ui_createdby=Provided by: FC75 Filename: faib_alfaairlines_735.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FXX
+
+[fltsim.21]
+title=AIGAIM_Mauritania Airlines International Boeing 737-500 - eyebrows
+model=MAI-Mauritania Airlines International_eyebrows
+texture=MAI-Mauritania Airlines International_eyebrows
+atc_id=5T-CLA
+atc_airline=MAURITANIA AIRWAYS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Mauritania Airlines International
+ui_createdby=Provided by: JB Filename: FAIB_B735_Mauritania FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAI
+
+[fltsim.22]
+title=AIGAIM_Kam Air Boeing 737-500
+model=KMF-Kam Air
+texture=KMF-Kam Air
+atc_id=UR-BAA
+atc_airline=KAMGAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KMF
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Kam Air
+ui_createdby=Provided by: JB Filename: FAIB 737-500 Kam Air FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KMF
+
+[fltsim.23]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BKV
+model=AUL-Nordavia_VP-BKV
+texture=AUL-Nordavia_VP-BKV
+atc_id=VP-BKV
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BKV
+ui_createdby=Provided by: FC75 Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.24]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BQI
+model=AUL-Nordavia_VP-BQI
+texture=AUL-Nordavia_VP-BQI
+atc_id=VP-BQI
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BQI
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.25]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BQL
+model=AUL-Nordavia_VP-BQL
+texture=AUL-Nordavia_VP-BQL
+atc_id=VP-BQL
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BQL
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.26]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BRG
+model=AUL-Nordavia_VP-BRG
+texture=AUL-Nordavia_VP-BRG
+atc_id=VP-BRG
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BRG
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.27]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BRI
+model=AUL-Nordavia_VP-BRI
+texture=AUL-Nordavia_VP-BRI
+atc_id=VP-BRI
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BRI
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.28]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BRK
+model=AUL-Nordavia_VP-BRK
+texture=AUL-Nordavia_VP-BRK
+atc_id=VP-BRK
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BRK
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.29]
+title=AIGAIM_Nordavia Boeing 737-500 - VP-BRN
+model=AUL-Nordavia_VP-BRN
+texture=AUL-Nordavia_VP-BRN
+atc_id=VP-BRN
+atc_airline=ARCHANGELSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Nordavia VP-BRN
+ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUL
+
+[fltsim.30]
+title=AIGAIM_Tunisair Express Boeing 737-500 - opb KHH Eyebrows
+model=TUX-Tunisair Express_opb KHH Eyebrows
+texture=TUX-Tunisair Express_opb KHH Eyebrows
+atc_id=SU-KHM
+atc_airline=TUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUX
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-500
+ui_variation=Alexandria Airlines SU-KHM (opb Tunisair Express)
+ui_createdby=Provided by: AVSIM Filename: faib_b735khh_tux.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUX
+
+[fltsim.31]
+title=AIGAIM_UTair Boeing 737-500 - OC (TEMP)
+model=UTA-UTair_OC_temp
+texture=UTA-UTair_OC_temp
+atc_id=VP-BFO
+atc_airline=UTAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UTA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=UTair Aviation VP-BFO
+ui_createdby=Provided by: UTT Filename: utt_FAIB_735w_Utair_FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UTA
