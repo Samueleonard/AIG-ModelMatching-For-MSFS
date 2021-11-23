@@ -8,8 +8,8 @@ Included is the latest AIG install for MSFS ONLY.
 INSTALL
 
 .Just drag into the community folder.
-. aig traffic controller required for offline AI traffic
+. OFFLINE AI TRAFFIC WILL NOT WORK - all flight plans have been removed
 
 MANUAL UPDATES
-aig manager recommended for manually updating 
+aig manager recommended for manually updating, 
 
