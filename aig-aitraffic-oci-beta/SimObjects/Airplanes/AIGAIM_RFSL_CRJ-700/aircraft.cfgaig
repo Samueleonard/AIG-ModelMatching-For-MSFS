@@ -1,0 +1,317 @@
+[VERSION]
+major=1 ; 
+minor=0 ; 
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME BOMBARDIER.0.text ; 
+atc_model=TT:ATCCOM.AC_MODEL CRJ7.0.text ; 
+category=Airplane ; 
+icao_type_designator=CRJ7 ; 
+icao_manufacturer=CANADAIR; 
+icao_model=Regional Jet CRJ-700 ; 
+icao_engine_type=Jet; 
+icao_engine_count=2 ; 
+icao_wtc="M" ; 
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=0
+boarding_ramp=0
+ground_power_unit=1
+pushback=0
+small_pushback=1
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Air France Hop Bombardier CRJ-700 - OC
+model=AFRX-Air France Hop_OC
+texture=AFRX-Air France Hop_OC
+atc_id=F-GRZL
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFRX,HOP
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-700
+ui_variation=Hop!
+ui_createdby=Provided by: FC75 Filename: rfsl_crj700_hop.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HOP
+
+[fltsim.1]
+title=AIGAIM_American Eagle Bombardier CRJ-700 - opb PSA
+model=AALX-American Eagle_opb PSA
+texture=AALX-American Eagle_opb PSA
+atc_id=N530EA
+atc_airline=BLUE STREAK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=American Eagle PSA
+ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AALX
+
+[fltsim.2]
+title=AIGAIM_American Eagle Bombardier CRJ-700 - opb Skywest
+model=AALX-American Eagle_opb Skywest
+texture=AALX-American Eagle_opb Skywest
+atc_id=N745SK
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=American Eagle SkyWest
+ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AALX
+
+[fltsim.3]
+title=AIGAIM_American Eagle Bombardier CRJ-700 - opb Skywest House Colors
+model=AALX-American Eagle_opb Skywest House Colors
+texture=AALX-American Eagle_opb Skywest House Colors
+atc_id=N754EV
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=American Eagle SkyWest
+ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AALX
+
+[fltsim.4]
+title=AIGAIM_American Eagle Bombardier CRJ-700 - NextGen opb PSA
+model=AALX-American Eagle_NextGen opb PSA
+texture=AALX-American Eagle_NextGen opb PSA
+atc_id=N544AE
+atc_airline=BLUE STREAK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=American Eagle PSA
+ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AALX
+
+[fltsim.5]
+title=AIGAIM_Delta Connection Bombardier CRJ-700 - opb Endeavor Air
+model=DALX-Delta Connection_opb Endeavor Air
+texture=DALX-Delta Connection_opb Endeavor Air
+atc_id=N398CA
+atc_airline=ENDEAVOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=Delta Connection Endeavor
+ui_createdby=Provided by: KAIW Filename: rai_dalx_crj7_p3d-2.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.6]
+title=AIGAIM_Delta Connection Bombardier CRJ-700 - opb Skywest Airlines
+model=DALX-Delta Connection_opb Skywest Airlines
+texture=DALX-Delta Connection_opb Skywest Airlines
+atc_id=N606SK
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=Delta Connection SkyWest
+ui_createdby=Provided by: KAIW Filename: rai_dalx_crj7_p3d-2.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.7]
+title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen
+model=IBX-Ibex Airlines_NextGen
+texture=IBX-Ibex Airlines_NextGen
+atc_id=JA05RJ
+atc_airline=IBEX
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBX
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-700
+ui_variation=IBEX Airlines
+ui_createdby=Provided by: FSAI Filename: rfsl_ibx_crj_700.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBX
+
+[fltsim.8]
+title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Musubimaru Jet
+model=IBX-Ibex Airlines_NextGen Musubimaru Jet
+texture=IBX-Ibex Airlines_NextGen Musubimaru Jet
+atc_id=JA14RJ
+atc_airline=IBEX
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBX
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-700
+ui_variation=IBEX Airlines
+ui_createdby=Provided by: FSAI Filename: rfsl_ibx_crj_700.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBX
+
+[fltsim.9]
+title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Soma 20th Anniversary
+model=IBX-Ibex Airlines_NextGen Soma 20th Anniversary
+texture=IBX-Ibex Airlines_NextGen Soma 20th Anniversary
+atc_id=JA06RJ
+atc_airline=IBEX
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBX
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-700
+ui_variation=IBEX Airlines
+ui_createdby=Provided by: FSAI Filename: rfsl_ibx_crj_700.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBX
+
+[fltsim.10]
+title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N519JG
+model=GA4J-Joe Gibbs Racing_N519JG
+texture=GA4J-Joe Gibbs Racing_N519JG
+atc_id=N519JG
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-700
+ui_variation=Joe Gibbs Racing
+ui_createdby=Provided by: FSAI Filename: rai_jgr_crj7_p3d.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.11]
+title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N520JG
+model=GA4J-Joe Gibbs Racing_N520JG
+texture=GA4J-Joe Gibbs Racing_N520JG
+atc_id=N520JG
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-700
+ui_variation=Joe Gibbs Racing
+ui_createdby=Provided by: FSAI Filename: rai_jgr_crj7_p3d.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.12]
+title=AIGAIM_United Express Bombardier CRJ-700 - NextGen opb Skywest Airlines
+model=UALX-United Express_NextGen opb Skywest Airlines
+texture=UALX-United Express_NextGen opb Skywest Airlines
+atc_id=N794SK
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=United Express SkyWest
+ui_createdby=Provided by: KAIW2 Filename: rai_ualx_crj7_kjm.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UALX
+
+[fltsim.13]
+title=AIGAIM_United Express Bombardier CRJ-700 - NextGen OC opb Skywest Airlines
+model=UALX-United Express_NextGen OC opb Skywest Airlines
+texture=UALX-United Express_NextGen OC opb Skywest Airlines
+atc_id=N779SK
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-700
+ui_variation=United Express SkyWest
+ui_createdby=Provided by: KAIW2 Filename: rai_ualx_crj7_kjm.zip
+description=RFSL_CRJ-700-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UALX
+
+[fltsim.14]
+title=AIGAIM_LOT Polish Airlines Bombardier CRJ-700 - Nordica
+model=LOT-LOT Polish Airlines_Nordica
+texture=LOT-LOT Polish Airlines_Nordica
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-700
+ui_variation=Nordica
+ui_createdby=Provided by: JB Filename: RFSL CRJ700 Nordica.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.15]
+title=AIGAIM_LOT Polish Airlines Bombardier CRJ-700 - Nordica Charter OPS
+model=LOT-LOT Polish Airlines_Nordica Charter OPS
+texture=LOT-LOT Polish Airlines_Nordica Charter OPS
+atc_airline=REVAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-700
+ui_variation=Nordica
+ui_createdby=Provided by: JB Filename: RFSL CRJ700 Nordica.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.16]
+title=AIGAIM_Luxair Bombardier CRJ-700 - opb Adria
+model=LGL-Luxair_opb Adria
+texture=LGL-Luxair_opb Adria
+atc_id=S5-AAZ
+atc_airline=LUXAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LGL
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-700
+ui_variation=Bombardier CRJ700 RAIL Luxair LGL S5-AAZ
+ui_createdby=Provided by: OCH Filename: LGL_CRJ7_HD_P3D.zip
+description=RFSL_CRJ-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LGL

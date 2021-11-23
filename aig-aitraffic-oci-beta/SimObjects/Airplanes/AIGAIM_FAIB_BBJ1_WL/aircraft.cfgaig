@@ -1,0 +1,284 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B737.0.text"
+icao_type_designator="B737"
+icao_manufacturer="BOEING"
+icao_model="737-700"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+category=Airplane
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  29.6, -5.492,  4.341, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -27,  4.669, -1.974, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Avjet Boeing BBJ1 WL - N8767
+model=BJO-Avjet_N8767
+texture=BJO-Avjet_N8767
+atc_id=N8767
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_avjet_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.1]
+title=AIGAIM_Deer Jet Boeing BBJ1 WL - B-5266
+model=BDJ-Deer Jet_B-5266
+texture=BDJ-Deer Jet_B-5266
+atc_airline=CROWN JET
+atc_parking_types=RAMP
+atc_parking_codes=BDJ,BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_variation=Deer Jet
+ui_createdby=Provided by: FC75 Filename: faib_b737bbjpack2_fsx.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BDJ
+
+[fltsim.2]
+title=AIGAIM_Deer Jet Boeing BBJ1 WL - B-5273
+model=BDJ-Deer Jet_B-5273
+texture=BDJ-Deer Jet_B-5273
+atc_id=B-5273
+atc_airline=CROWN JET
+atc_parking_types=RAMP
+atc_parking_codes=BDJ,BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_variation=Deer Jet
+ui_createdby=Provided by: KAIW Filename: faib_b737bbj_deerjet_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BDJ
+
+[fltsim.3]
+title=AIGAIM_Essar Group Boeing BBJ1 WL - N301SR
+model=BJO-Essar Group_N301SR
+texture=BJO-Essar Group_N301SR
+atc_id=N301SR
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_essargroup_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.4]
+title=AIGAIM_Hanwha Group Boeing BBJ1 WL - HL7227
+model=BJO-Hanwha Group_HL7227
+texture=BJO-Hanwha Group_HL7227
+atc_id=HL7227
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_hanwhasolutions_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.5]
+title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N108MS
+model=BJO-Las Vegas Sands_N108MS
+texture=BJO-Las Vegas Sands_N108MS
+atc_id=N108MS
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_lvsands_b737bbj_p3d-1.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.6]
+title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N883LS
+model=BJO-Las Vegas Sands_N883LS
+texture=BJO-Las Vegas Sands_N883LS
+atc_id=N883LS
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_lvsands_b737bbj_p3d-1.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.7]
+title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N885LS
+model=BJO-Las Vegas Sands_N885LS
+texture=BJO-Las Vegas Sands_N885LS
+atc_id=N885LS
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_lvsands_b737bbj_p3d-1.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.8]
+title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N887LS
+model=BJO-Las Vegas Sands_N887LS
+texture=BJO-Las Vegas Sands_N887LS
+atc_id=N887LS
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_lvsands_b737bbj_p3d-1.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.9]
+title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N889LS
+model=BJO-Las Vegas Sands_N889LS
+texture=BJO-Las Vegas Sands_N889LS
+atc_id=N889LS
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_lvsands_b737bbj_p3d-1.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.10]
+title=AIGAIM_Saudi Ministry of Finance and Economy Boeing BBJ1 WL - HZ-MF1
+model=GOV-Saudi Ministry of Finance and Economy_HZ-MF1
+texture=GOV-Saudi Ministry of Finance and Economy_HZ-MF1
+atc_id=HZ-MF1
+atc_parking_types=RAMP
+atc_parking_codes=GOV
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_saudiministryoffinanceandeconomy_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.11]
+title=AIGAIM_Saudi Ministry of Finance and Economy Boeing BBJ1 WL - HZ-MF2
+model=GOV-Saudi Ministry of Finance and Economy_HZ-MF2
+texture=GOV-Saudi Ministry of Finance and Economy_HZ-MF2
+atc_id=HZ-MF2
+atc_parking_types=RAMP
+atc_parking_codes=GOV
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_saudiministryoffinanceandeconomy_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.12]
+title=AIGAIM_SAS Institute Boeing BBJ1 WL - N7600K
+model=BJO-SAS Institute_N7600K
+texture=BJO-SAS Institute_N7600K
+atc_id=N7600K
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW2 Filename: faib_SASInstitute_bbj1_N7600K_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.13]
+title=AIGAIM_Ruffin Companies Boeing BBJ1 WL - N43PR
+model=BJO-Ruffin Companies_N43PR
+texture=BJO-Ruffin Companies_N43PR
+atc_id=N43PR
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=Boeing
+ui_type=Boeing BBJ1 WL
+ui_variation=Boeing B737-700W FAIB Ruffin Companies RUCO N43PR
+ui_createdby=Provided by: OCH Filename: RUCO_B737W_HD.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.14]
+title=AIGAIM_Polaris Aviation Solutions Boeing BBJ1 WL - N737LE
+model=BJO-Polaris Aviation Solutions_N737LE
+texture=BJO-Polaris Aviation Solutions_N737LE
+atc_id=N737LE
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_variation=Polaris Aviation Solutions
+ui_createdby=Provided by: FSAI Filename: faib_pas_b737_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.15]
+title=AIGAIM_Silver Air Boeing BBJ1 WL - N834BZ
+model=SIS-Silver Air_N834BZ
+texture=SIS-Silver Air_N834BZ
+atc_id=N834BZ
+atc_airline=SILVERSPEED
+atc_parking_types=RAMP
+atc_parking_codes=SIS
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_createdby=Provided by: KAIW Filename: faib_silverair_bbj1_p3d.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIS

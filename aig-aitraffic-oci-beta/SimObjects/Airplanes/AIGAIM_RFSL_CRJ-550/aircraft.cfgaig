@@ -1,0 +1,66 @@
+[VERSION]
+major=1 ; 
+minor=0 ; 
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME BOMBARDIER.0.text ; 
+atc_model=TT:ATCCOM.AC_MODEL CRJ7.0.text ; 
+category=Airplane ; 
+icao_type_designator=CRJ7 ; 
+icao_manufacturer=CANADAIR; 
+icao_model=Regional Jet CRJ-700 ; 
+icao_engine_type=Jet; 
+icao_engine_count=2 ; 
+icao_wtc="M" ; 
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=0
+boarding_ramp=0
+ground_power_unit=1
+pushback=0
+small_pushback=1
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_United Express Bombardier CRJ-550 - NextGen opb GoJet Airlines
+model=UALX-United Express_NextGen opb GoJet Airlines
+texture=UALX-United Express_NextGen opb GoJet Airlines
+atc_id=N544GJ
+atc_airline=VARIOUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-550
+ui_variation=United Express GoJet
+ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_crj550_p3d.zip
+description=RFSL_CRJ-550-NG(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UALX
+
+[fltsim.1]
+title=AIGAIM_United Express Bombardier CRJ-550 - opb GoJet Airlines
+model=UALX-United Express_opb GoJet Airlines
+texture=UALX-United Express_opb GoJet Airlines
+atc_id=N544GJ
+atc_airline=VARIOUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UALX
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-550
+ui_variation=United Express GoJet
+ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_crj550_p3d.zip
+description=RFSL_CRJ-550(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UALX
