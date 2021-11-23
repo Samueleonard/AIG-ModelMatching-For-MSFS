@@ -1,0 +1,275 @@
+[VERSION]
+major=1 ; 
+minor=0 ; 
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME EMBRAER.0.text ; 
+atc_model=TT:ATCCOM.AC_MODEL E75S.0.text ; 
+category=Airplane ; 
+icao_type_designator=E75S ; 
+icao_manufacturer=EMBRAER; 
+icao_model=175 (short wing) ; 
+icao_engine_type=Jet; 
+icao_engine_count=2 ; 
+icao_wtc="M" ; 
+
+[fltsim.0]
+title=AIGAIM_Air Burkina Embraer EMB-175 - since 1967
+model=VBW-Air Burkina_since 1967
+texture=VBW-Air Burkina_since 1967
+atc_airline=BURKINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VBW
+ui_type=Embraer EMB-175
+ui_createdby=Provided by: FSAI Filename: rfsl_vbw_embraer_175ow.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VBW
+
+[fltsim.1]
+title=AIGAIM_Air Canada Express Embraer EMB-175 - opb Sky Regional
+model=ACAX-Air Canada Express_opb Sky Regional
+texture=ACAX-Air Canada Express_opb Sky Regional
+atc_airline=MAPLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACAX,SKV
+ui_manufacturer=Raven AI
+ui_type=Embraer EMB-175
+ui_variation=Air Canada Express - opb Sky Regional
+ui_createdby=Provided by: ATCO Filename: rfsl_e175_skv_rev3.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SKV
+
+[fltsim.2]
+title=AIGAIM_Air Canada Express Embraer EMB-175 - OC opb Sky Regional
+model=ACAX-Air Canada Express_OC opb Sky Regional
+texture=ACAX-Air Canada Express_OC opb Sky Regional
+atc_airline=MAPLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACAX,SKV
+ui_manufacturer=Raven AI
+ui_type=Embraer EMB-175
+ui_variation=Air Canada Express - opb Sky Regional OC
+ui_createdby=Provided by: ATCO Filename: rfsl_e175_skv_rev3.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SKV
+
+[fltsim.3]
+title=AIGAIM_Alitalia CityLiner Embraer EMB-175 - OC
+model=AZA-Alitalia CityLiner_OC
+texture=AZA-Alitalia CityLiner_OC
+atc_id=EI-RDF
+atc_airline=ALITALIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZA
+ui_manufacturer=RAI
+ui_type=Embraer EMB-175
+ui_variation=Alitalia Cityliner EI-RDF 'Parco Naturale Dolomiti Friulane'
+ui_createdby=Provided by: FC75 Filename: rai_e175_aza_fsx.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZA
+
+[fltsim.4]
+title=AIGAIM_American Eagle Embraer EMB-175 - opb Republic
+model=AALX-American Eagle_opb Republic
+texture=AALX-American Eagle_opb Republic
+atc_id=N408YX
+atc_airline=BRICKYARD
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AALX
+ui_manufacturer=RAI
+ui_type=Embraer EMB-175
+ui_variation=American Eagle opb Republic
+ui_createdby=Provided by: KAIW Filename: rai_aalx_e175_p3d.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AALX
+
+[fltsim.5]
+title=AIGAIM_Delta Connection Embraer EMB-175 - opb Republic Airlines
+model=DALX-Delta Connection_opb Republic Airlines
+texture=DALX-Delta Connection_opb Republic Airlines
+atc_id=N636CZ
+atc_airline=BRICKYARD
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=RAI
+ui_type=Embraer EMB-175
+ui_variation=Delta Connection Republic
+ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e175_jkm.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.6]
+title=AIGAIM_Polish Government Embraer EMB-175 - SP-LIG
+model=GOV-Polish Government_SP-LIG
+texture=GOV-Polish Government_SP-LIG
+atc_airline=POLISH AIRFORCE
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV,PLF
+ui_type=Embraer EMB-175
+ui_createdby=Provided by: FSAI Filename: rfsl_pol_embraer_175.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.7]
+title=AIGAIM_Polish Government Embraer EMB-175 - SP-LIH
+model=GOV-Polish Government_SP-LIH
+texture=GOV-Polish Government_SP-LIH
+atc_airline=POLISH AIRFORCE
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV,PLF
+ui_type=Embraer EMB-175
+ui_createdby=Provided by: FSAI Filename: rfsl_pol_embraer_175.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.8]
+title=AIGAIM_Occidental Petroleum Embraer EMB-175 - N1920T
+model=BJO-Occidental Petroleum_N1920T
+texture=BJO-Occidental Petroleum_N1920T
+atc_parking_types=RAMP
+atc_parking_codes=BJO
+ui_type=Embraer EMB-175
+ui_createdby=Provided by: FSAI Filename: rai_opi_e175_p3d.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.9]
+title=AIGAIM_LOT Polish Airlines Embraer EMB-175
+model=LOT-LOT Polish Airlines
+texture=LOT-LOT Polish Airlines
+atc_id=SP-LIA
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=RFSL
+ui_type=Embraer EMB-175
+ui_variation=LOT Polish Airlines SP-LIA
+ui_createdby=Provided by: FC75 Filename: rfsl e175 lot 2019.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.10]
+title=AIGAIM_LOT Polish Airlines Embraer EMB-175 - OC
+model=LOT-LOT Polish Airlines_OC
+texture=LOT-LOT Polish Airlines_OC
+atc_id=SP-LIL
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=RFSL
+ui_type=Embraer EMB-175
+ui_variation=LOT Polish Airlines OC SP-LIL
+ui_createdby=Provided by: FC75 Filename: rfsl e175 lot 2019.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.11]
+title=AIGAIM_LOT Polish Airlines Embraer EMB-175 - Retro
+model=LOT-LOT Polish Airlines_Retro
+texture=LOT-LOT Polish Airlines_Retro
+atc_id=SP-LIM
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=RFSL
+ui_type=Embraer EMB-175
+ui_variation=LOT Polish Airlines 90 years SP-LIM
+ui_createdby=Provided by: FC75 Filename: rfsl e175 lot 2019.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.12]
+title=AIGAIM_LOT Polish Airlines Embraer EMB-175 - Star Alliance
+model=LOT-LOT Polish Airlines_Star Alliance
+texture=LOT-LOT Polish Airlines_Star Alliance
+atc_id=SP-LIO
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=RFSL
+ui_type=Embraer EMB-175
+ui_variation=LOT Polish Airlines Star Alliance SP-LIO
+ui_createdby=Provided by: FC75 Filename: rfsl e175 lot 2019.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.13]
+title=AIGAIM_Royal Jordanian Airlines Embraer EMB-175 - Webtitles
+model=RJA-Royal Jordanian Airlines_Webtitles
+texture=RJA-Royal Jordanian Airlines_Webtitles
+atc_id=JY-EMD
+atc_airline=JORDANIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RJA
+ui_manufacturer=RAI
+ui_type=Embraer EMB-175
+ui_variation=Royal Jordanian JY-EMD 'Dana'
+ui_createdby=Provided by: FC75 Filename: rai_e175_rja.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RJA
+
+[fltsim.14]
+title=AIGAIM_Delta Connection Embraer EMB-175 - opb Skywest Airlines
+model=DALX-Delta Connection_opb Skywest Airlines
+texture=DALX-Delta Connection_opb Skywest Airlines
+atc_id=N603CZ
+atc_airline=VARIOUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=RAI
+ui_type=Embraer EMB-175
+ui_variation=Delta Connection SkyWest
+ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e175_jkm.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.15]
+title=AIGAIM_Belavia Embraer EMB-175 - OC
+model=BRU-Belavia_OC
+texture=BRU-Belavia_OC
+atc_airline=BELARUS AVIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BRU
+ui_type=Embraer EMB-175
+ui_createdby=Provided by: FSAI Filename: rai_bru_e175_p3d.zip
+description=RFSL_EMB-175v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BRU

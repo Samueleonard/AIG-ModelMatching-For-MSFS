@@ -1,0 +1,1684 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type=TT:ATCCOM.ATC_NAME BOMBARDIER.0.text
+atc_model=TT:ATCCOM.AC_MODEL DH8D.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_indicator="DH8D"
+icao_manufacturer=DE HAVILLAND CANADA
+icao_model=DHC-8-400 Dash 8
+icao_engine_type=Turboprop
+icao_engine_count=2
+icao_WTC=M
+icao_type_designator=DH8D
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+wake=fx_ASOBO_wake, 1
+water=fx_spray, 1
+dirt=FX_ASOBO_TOUCHDIRT_BIG, 0
+concrete=FX_ASOBO_TOUCHCONCRETE_BIG, 1
+touchdown=fx_tchdwn_s, 1
+contrail=FX_ASOBO_CONTRAIL_BIG, 1
+waterspeed=fx_spray, 0
+startup=fx_engstrt, 1
+landrotorwash=fx_rtr_lnd, 0
+waterrotorwash=fx_rtr_wtr, 0
+vaportrail_l=fx_ASOBO_vaportrail, 1
+vaportrail_r=fx_ASOBO_vaportrail, 1
+l_wingtipvortice=FX_ASOBO_VORTICE_BIG_L, 1
+r_wingtipvortice=FX_ASOBO_VORTICE_BIG_R, 1
+fueldump=, 0
+EngineFire=fx_engfire, 0
+EngineDamage=fx_engsmoke, 0
+EngineOilLeak=fx_OilLeak, 0
+SkidPavement=fx_skidmark, 1
+SnowSkiTrack=, 0
+WheelSnowSpray=fx_WheelSnowSpray, 1
+WheelWetSpray=fx_WheelWetSpray, 1
+WetEngineWash=fx_WetEngineWash, 1
+SnowEngineWash=fx_SnowEngineWash, 1
+WaterBallastDrain=fx_WaterBallastDrain, 0
+PistonFailure=fx_PistonFailure, 1
+windshield_rain_effect_available=1
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Aegean Airlines Bombardier Dash 8-Q400 - opb OAL thin Cheatline
+model=AEE-Aegean Airlines_opb OAL thin Cheatline
+texture=AEE-Aegean Airlines_opb OAL thin Cheatline
+atc_airline=AEGEAN
+atc_parking_types=RAMP,GATE
+atc_parking_codes=AEE,OAL
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Olympic Air
+ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AEE
+
+[fltsim.1]
+title=AIGAIM_Aegean Airlines Bombardier Dash 8-Q400 - opb OAL no NextGen Titles
+model=AEE-Aegean Airlines_opb OAL no NextGen Titles
+texture=AEE-Aegean Airlines_opb OAL no NextGen Titles
+atc_airline=AEGEAN
+atc_parking_types=RAMP,GATE
+atc_parking_codes=AEE,OAL
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Olympic Air
+ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AEE
+
+[fltsim.2]
+title=AIGAIM_AirBaltic Bombardier Dash 8-Q400
+model=BTI-AirBaltic
+texture=BTI-AirBaltic
+atc_airline=AIRBALTIC
+atc_parking_types=RAMP
+atc_parking_codes=BTI
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=AS Air Baltic Corporation
+ui_createdby=Provided by: JB Filename: Dash8-Q400 airBaltic.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.3]
+title=AIGAIM_AirBaltic Bombardier Dash 8-Q400 - OC
+model=BTI-AirBaltic_OC
+texture=BTI-AirBaltic_OC
+atc_airline=AIRBALTIC
+atc_parking_types=RAMP
+atc_parking_codes=BTI
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=AS Air Baltic Corporation
+ui_createdby=Provided by: JB Filename: Dash8-Q400 airBaltic.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.4]
+title=AIGAIM_Air Canada Express Bombardier Dash 8-Q400 - opb Jazz (TEMP)
+model=ACAX-Air Canada Express_opb Jazz_temp
+texture=ACAX-Air Canada Express_opb Jazz_temp
+atc_airline=JAZZ
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACAX,JZA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Canada Express - opb Jazz NC 2017
+ui_createdby=Provided by: ATCO Filename: tfs_dh8d_jza_cggoy.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JZA
+
+[fltsim.5]
+title=AIGAIM_Air Canada Express Bombardier Dash 8-Q400 - OC opb Jazz (TEMP)
+model=ACAX-Air Canada Express_OC opb Jazz_temp
+texture=ACAX-Air Canada Express_OC opb Jazz_temp
+atc_airline=JAZZ
+atc_parking_types=RAMP
+atc_parking_codes=ACAX,JZA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Canada Express (Jazz)
+ui_createdby=Provided by: FLTSIM Filename: aidh4acax_1.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JZA
+
+[fltsim.6]
+title=AIGAIM_Air Cote d'Ivoire Bombardier Dash 8-Q400
+model=VRE-Air Cote d'Ivoire
+texture=VRE-Air Cote d'Ivoire
+atc_airline=COTE D'IVOIRE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRE
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Cote d'Ivoire
+ui_createdby=Provided by: FC75 Filename: tfs_aircotedivoire_dh4.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRE
+
+[fltsim.7]
+title=AIGAIM_Air Iceland Connect Bombardier Dash 8-Q400
+model=FXI-Air Iceland Connect
+texture=FXI-Air Iceland Connect
+atc_airline=FAXI
+atc_parking_types=RAMP
+atc_parking_codes=FXI
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Iceland
+ui_createdby=Provided by: JCAI Filename: tfsdh4fxi_fsx.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FXI
+
+[fltsim.8]
+title=AIGAIM_Air Tanzania Bombardier Dash 8-Q400
+model=ATC-Air Tanzania
+texture=ATC-Air Tanzania
+atc_airline=TANZANIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ATC
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Tanzania
+ui_createdby=Provided by: FC75 Filename: tfs_dash8-q400_Air_Tanzania_5H-TCD_fsx.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATC
+
+[fltsim.9]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - opb Horizon Air
+model=ASAX-Alaska Airlines_opb Horizon Air
+texture=ASAX-Alaska Airlines_opb Horizon Air
+atc_id=N439QX
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Air
+ui_createdby=Provided by: KAIW2 Filename: tfs_asax_dh8d_p3d.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.10]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - opb Horizon Air Retro
+model=ASAX-Alaska Airlines_opb Horizon Air Retro
+texture=ASAX-Alaska Airlines_opb Horizon Air Retro
+atc_id=N421QX
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Air
+ui_createdby=Provided by: KAIW2 Filename: tfs_asax_dh8d_p3d.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.11]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - opb Horizon Air Milton G Kuolt II
+model=ASA-Alaska Airlines_opb Horizon Air Milton G Kuolt II
+texture=ASA-Alaska Airlines_opb Horizon Air Milton G Kuolt II
+atc_id=N434MK
+atc_airline=ALASKA
+atc_parking_types=RAMP
+atc_parking_codes=ASA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Air
+ui_createdby=Provided by: KAIW2 Filename: tfs_asax_dh8d_p3d.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASA
+
+[fltsim.12]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Idaho Vandals
+model=ASAX-Alaska Airlines_OC opb Horizon Air Idaho Vandals
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Idaho Vandals
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon N400QX University of Idaho 'Vandals'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.13]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Washington Cougars
+model=ASAX-Alaska Airlines_OC opb Horizon Air Washington Cougars
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Washington Cougars
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Washington State University 'Cougars'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.14]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Montana Grizzlies
+model=ASAX-Alaska Airlines_OC opb Horizon Air Montana Grizzlies
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Montana Grizzlies
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon University of Montana 'Griz'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.15]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Montana Bobcats
+model=ASAX-Alaska Airlines_OC opb Horizon Air Montana Bobcats
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Montana Bobcats
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Montana State University 'Bobcats'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.16]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - opb Horizon Air Washington Huskies
+model=ASA-Alaska Airlines_opb Horizon Air Washington Huskies
+texture=ASA-Alaska Airlines_opb Horizon Air Washington Huskies
+atc_id=N435QX
+atc_airline=ALASKA
+atc_parking_types=RAMP
+atc_parking_codes=ASA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Air
+ui_createdby=Provided by: KAIW2 Filename: tfs_asax_dh8d_p3d.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASA
+
+[fltsim.17]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Boise State Broncos
+model=ASAX-Alaska Airlines_OC opb Horizon Air Boise State Broncos
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Boise State Broncos
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Boise State University 'Broncos'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.18]
+title=AIGAIM_Alaska Airlines Bombardier Dash 8-Q400 - OC opb Horizon Air Oregon Beavers
+model=ASAX-Alaska Airlines_OC opb Horizon Air Oregon Beavers
+texture=ASAX-Alaska Airlines_OC opb Horizon Air Oregon Beavers
+atc_airline=HORIZON
+atc_parking_types=RAMP
+atc_parking_codes=ASAX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Horizon Oregon State University 'Beavers'
+ui_createdby=Provided by: JB Filename: aidh84qxe_college_sports.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASAX
+
+[fltsim.19]
+title=AIGAIM_ANA Wings Bombardier Dash 8-Q400
+model=AKX-ANA Wings
+texture=AKX-ANA Wings
+atc_id=JA841A
+atc_airline=ALFA WING
+atc_parking_types=RAMP
+atc_parking_codes=AKX
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=ANA Wings
+ui_createdby=Provided by: FC75 Filename: tfs_akx_dh8d_fsx.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AKX
+
+[fltsim.20]
+title=AIGAIM_Arik Air Bombardier Dash 8-Q400
+model=ARA-Arik Air
+texture=ARA-Arik Air
+atc_airline=ARIK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARA
+ui_manufacturer=TFS
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Arik Air
+ui_createdby=Provided by: FC75 Filename: ai_dh84_ara.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARA
+
+[fltsim.21]
+title=AIGAIM_ASKY Airlines Bombardier Dash 8-Q400
+model=SKK-ASKY Airlines
+texture=SKK-ASKY Airlines
+atc_id=ET-AQD
+atc_airline=ASKY AIRLINE
+atc_parking_types=RAMP
+atc_parking_codes=SKK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=ASKY Airlines.
+ui_createdby=Provided by: JB Filename: Dash8-Q400 ASky.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SKK
+
+[fltsim.22]
+title=AIGAIM_Aurora Airlines Bombardier Dash 8-Q400
+model=SHU-Aurora Airlines
+texture=SHU-Aurora Airlines
+atc_airline=AURORA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SHU
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=TFS Dash 8-400 Aurora RA-67254
+ui_createdby=Provided by: UTT Filename: UTT_TFS_Dash8-400_Aurora_RA-67254_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SHU
+
+[fltsim.23]
+title=AIGAIM_Austrian Airlines Bombardier Dash 8-Q400 - IC
+model=AUA-Austrian Airlines_IC
+texture=AUA-Austrian Airlines_IC
+atc_id=OE-LGD
+atc_airline=AUSTRIAN
+atc_parking_types=RAMP
+atc_parking_codes=AUA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Austrian Airlines AG
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Austrian NC.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.24]
+title=AIGAIM_Austrian Airlines Bombardier Dash 8-Q400 - IC my Austrian
+model=AUA-Austrian Airlines_IC my Austrian
+texture=AUA-Austrian Airlines_IC my Austrian
+atc_id=OE-LGK
+atc_airline=AUSTRIAN
+atc_parking_types=RAMP
+atc_parking_codes=AUA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Austrian Airlines AG
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Austrian NC.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.25]
+title=AIGAIM_Austrian Airlines Bombardier Dash 8-Q400 - OC
+model=AUA-Austrian Airlines_OC
+texture=AUA-Austrian Airlines_OC
+atc_id=OE-LGM
+atc_airline=AUSTRIAN
+atc_parking_types=RAMP
+atc_parking_codes=AUA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Austrian Arrows DHC-8-402Q Dash 8 OE-LGM
+ui_createdby=Provided by: IMPAI Filename: austrian_arrows_dhc-8-402q_dash_8_oe-lgm.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.26]
+title=AIGAIM_Austrian Airlines Bombardier Dash 8-Q400 - Star Alliance
+model=AUA-Austrian Airlines_Star Alliance
+texture=AUA-Austrian Airlines_Star Alliance
+atc_id=OE-LGO
+atc_airline=AUSTRIAN
+atc_parking_types=RAMP
+atc_parking_codes=AUA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Austrian Airlines AG
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Austrian NC.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.27]
+title=AIGAIM_Biman Bangladesh Airlines Bombardier Dash 8-Q400
+model=BBC-Biman Bangladesh Airlines
+texture=BBC-Biman Bangladesh Airlines
+atc_id=S2-AGR
+atc_airline=BANGLADESH
+atc_parking_types=RAMP
+atc_parking_codes=BBC
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Biman Bangladesh Airlines
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Biman.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BBC
+
+[fltsim.28]
+title=AIGAIM_Camair-Co Bombardier Dash 8-Q400
+model=CRC-Camair-Co
+texture=CRC-Camair-Co
+atc_airline=CAMAIRCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRC
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Camair-Co
+ui_createdby=Provided by: FC75 Filename: tfs_camairco_dh4.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRC
+
+[fltsim.29]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Slavonija
+model=CTN-Croatia Airlines_Slavonija
+texture=CTN-Croatia Airlines_Slavonija
+atc_id=9A-CQA
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQA
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.30]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Lika
+model=CTN-Croatia Airlines_Lika
+texture=CTN-Croatia Airlines_Lika
+atc_id=9A-CQB
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQB
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.31]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Istra
+model=CTN-Croatia Airlines_Istra
+texture=CTN-Croatia Airlines_Istra
+atc_id=9A-CQC
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQC
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.32]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Dalmacija
+model=CTN-Croatia Airlines_Dalmacija
+texture=CTN-Croatia Airlines_Dalmacija
+atc_id=9A-CQD
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQD
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.33]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Zagorje
+model=CTN-Croatia Airlines_Zagorje
+texture=CTN-Croatia Airlines_Zagorje
+atc_id=9A-CQE
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQE
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.34]
+title=AIGAIM_Croatia Airlines Bombardier Dash 8-Q400 - Primorje
+model=CTN-Croatia Airlines_Primorje
+texture=CTN-Croatia Airlines_Primorje
+atc_id=9A-CQF
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Croatia Airlines CTN 9A-CQF
+ui_createdby=Provided by: OCH Filename: CTN_DH8D_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.35]
+title=AIGAIM_Ethiopian Airlines Bombardier Dash 8-Q400
+model=ETH-Ethiopian Airlines
+texture=ETH-Ethiopian Airlines
+atc_airline=ETHIOPIAN
+atc_parking_types=RAMP
+atc_parking_codes=ETH
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Nippon Network
+ui_createdby=Provided by: JB Filename: dash8-400_ethiopian.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.36]
+title=AIGAIM_Ethiopian Mocambique Airlines Bombardier Dash 8-Q400
+model=ETH-Ethiopian Mocambique Airlines
+texture=ETH-Ethiopian Mocambique Airlines
+atc_airline=ETHIOPIAN
+atc_parking_types=RAMP
+atc_parking_codes=ETH
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Ethiopian Mocambique Airlines
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Ethiopian Mocambique Airlines.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.37]
+title=AIGAIM_Eurowings Bombardier Dash 8-Q400 - Albino (TEMP)
+model=EWG-Eurowings_Albino_temp
+texture=EWG-Eurowings_Albino_temp
+atc_airline=EUROWINGS
+atc_parking_types=RAMP
+atc_parking_codes=EWG
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Eurowings
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Eurowings.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG
+
+[fltsim.38]
+title=AIGAIM_PAL Express Bombardier Dash 8-Q400
+model=GAP-PAL Express
+texture=GAP-PAL Express
+atc_id=RP-C5902
+atc_airline=AIRPHIL
+atc_parking_types=RAMP,GATE
+atc_parking_codes=GAP
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Philippine Airlines Express
+ui_createdby=Provided by: FSAI Filename: tfs_gap_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GAP
+
+[fltsim.39]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQA
+model=NOK-Nok Air_HS-DQA
+texture=NOK-Nok Air_HS-DQA
+atc_id=HS-DQA
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DBA 'NOK ANNA'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.40]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQB
+model=NOK-Nok Air_HS-DQB
+texture=NOK-Nok Air_HS-DQB
+atc_id=HS-DQB
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DBB 'NOK KAO NEAW'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.41]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQC
+model=NOK-Nok Air_HS-DQC
+texture=NOK-Nok Air_HS-DQC
+atc_id=HS-DQB
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQC 'NOK KAO PUN'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.42]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQD
+model=NOK-Nok Air_HS-DQD
+texture=NOK-Nok Air_HS-DQD
+atc_id=HS-DQD
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQD 'NOK KAO POON'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.43]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQE
+model=NOK-Nok Air_HS-DQE
+texture=NOK-Nok Air_HS-DQE
+atc_id=HS-DQE
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQD 'NOK LATTE'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.44]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQF
+model=NOK-Nok Air_HS-DQF
+texture=NOK-Nok Air_HS-DQF
+atc_id=HS-DQF
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQF 'NOK CAPPU'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.45]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQG
+model=NOK-Nok Air_HS-DQG
+texture=NOK-Nok Air_HS-DQG
+atc_id=HS-DQG
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQG 'NOK SUK SAN'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.46]
+title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQH
+model=NOK-Nok Air_HS-DQH
+texture=NOK-Nok Air_HS-DQH
+atc_id=HS-DQH
+atc_airline=NOK AIR
+atc_parking_types=RAMP
+atc_parking_codes=NOK
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Nok Air HS-DQH 'NOK KONG KWAN'
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Nok Air.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOK
+
+[fltsim.47]
+title=AIGAIM_WestJet Encore Bombardier Dash 8-Q400 - OC
+model=WEN-WestJet Encore_OC
+texture=WEN-WestJet Encore_OC
+atc_airline=ENCORE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WEN
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Westjet Encore - New Logo
+ui_createdby=Provided by: ATCO Filename: tfs_dh8d_wen.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WEN
+
+[fltsim.48]
+title=AIGAIM_WestJet Encore Bombardier Dash 8-Q400 - OC Old Logo
+model=WEN-WestJet Encore_OC Old Logo
+texture=WEN-WestJet Encore_OC Old Logo
+atc_id=C-FOEN
+atc_airline=ENCORE
+atc_parking_types=RAMP
+atc_parking_codes=WEN
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=WestJet Encore
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Westjet Encore.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WEN
+
+[fltsim.49]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDV
+model=WIF-Wideroe_LN-RDV
+texture=WIF-Wideroe_LN-RDV
+atc_id=LN-RDV
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-RDV - Standard
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 1_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.50]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDY
+model=WIF-Wideroe_LN-RDY
+texture=WIF-Wideroe_LN-RDY
+atc_id=LN-RDY
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-RDY - Standard
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 1_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.51]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDZ
+model=WIF-Wideroe_LN-RDZ
+texture=WIF-Wideroe_LN-RDZ
+atc_id=LN-RDZ
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-RDZ - Standard
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 1_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.52]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDF
+model=WIF-Wideroe_LN-WDF
+texture=WIF-Wideroe_LN-WDF
+atc_id=LN-WDF
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDF - Standard
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 1_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.53]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDG
+model=WIF-Wideroe_LN-WDG
+texture=WIF-Wideroe_LN-WDG
+atc_id=LN-WDG
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDG
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 2_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.54]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDH
+model=WIF-Wideroe_LN-WDH
+texture=WIF-Wideroe_LN-WDH
+atc_id=LN-WDH
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDH
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 2_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.55]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDI
+model=WIF-Wideroe_LN-WDI
+texture=WIF-Wideroe_LN-WDI
+atc_id=LN-WDI
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDI
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 2_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.56]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDJ
+model=WIF-Wideroe_LN-WDJ
+texture=WIF-Wideroe_LN-WDJ
+atc_id=LN-WDJ
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDJ
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 2_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.57]
+title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDK
+model=WIF-Wideroe_LN-WDK
+texture=WIF-Wideroe_LN-WDK
+atc_id=LN-WDK
+atc_airline=WIDEROE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WIF
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Wideroe WIF LN-WDK
+ui_createdby=Provided by: OCH Filename: WIF_DH8D_Part 2_FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WIF
+
+[fltsim.58]
+title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Zebra
+model=JMA-Jambojet_Zebra
+texture=JMA-Jambojet_Zebra
+atc_id=5Y-JXD
+atc_airline=CHUI
+atc_parking_types=RAMP,GATE
+atc_parking_codes=JMA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JMA
+
+[fltsim.59]
+title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Leopard
+model=JMA-Jambojet_Leopard
+texture=JMA-Jambojet_Leopard
+atc_id=5Y-JXC
+atc_airline=CHUI
+atc_parking_types=RAMP,GATE
+atc_parking_codes=JMA
+ui_type=Bombardier Dash 8-Q400
+ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JMA
+
+[fltsim.60]
+title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Giraffe
+model=JMA-Jambojet_Giraffe
+texture=JMA-Jambojet_Giraffe
+atc_id=5Y-JXB
+atc_airline=CHUI
+atc_parking_types=RAMP,GATE
+atc_parking_codes=JMA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JMA
+
+[fltsim.61]
+title=AIGAIM_Japan Air Commuter Bombardier Dash 8-Q400
+model=JAC-Japan Air Commuter
+texture=JAC-Japan Air Commuter
+atc_airline=COMMUTER
+atc_parking_types=RAMP
+atc_parking_codes=JAC
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=JAC Japan Air Commuter
+ui_createdby=Provided by: FSAI Filename: Japan Air Commuter TFS Dash 8-400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAC
+
+[fltsim.62]
+title=AIGAIM_Japan Air Commuter Bombardier Dash 8-Q400 - Kagoshima United FC
+model=JAC-Japan Air Commuter_Kagoshima United FC
+texture=JAC-Japan Air Commuter_Kagoshima United FC
+atc_airline=COMMUTER
+atc_parking_types=RAMP
+atc_parking_codes=JAC
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=JAC Japan Air Commuter Kagoshima United FC Logo
+ui_createdby=Provided by: FSAI Filename: Japan Air Commuter TFS Dash 8-400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAC
+
+[fltsim.63]
+title=AIGAIM_Kenya Airways Bombardier Dash 8-Q400 - opb Jambojet Giraffe
+model=KQA-Kenya Airways_opb Jambojet Giraffe
+texture=KQA-Kenya Airways_opb Jambojet Giraffe
+atc_id=5Y-JXB
+atc_airline=KENYA
+atc_parking_types=RAMP,GATE
+atc_parking_codes=KQA
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KQA
+
+[fltsim.64]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - OY-Reg
+model=LOT-LOT Polish Airlines_OY-Reg
+texture=LOT-LOT Polish Airlines_OY-Reg
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines OY-YBZ
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.65]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - Belly Titles
+model=LOT-LOT Polish Airlines_Belly Titles
+texture=LOT-LOT Polish Airlines_Belly Titles
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQB (standard)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.66]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - 100 years Aeroklub Polski
+model=LOT-LOT Polish Airlines_100 years Aeroklub Polski
+texture=LOT-LOT Polish Airlines_100 years Aeroklub Polski
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQK (100 years Aeroklub Polski)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.67]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - Eurolot
+model=LOT-LOT Polish Airlines_Eurolot
+texture=LOT-LOT Polish Airlines_Eurolot
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQI (Eurolot standard)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot_eurolot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.68]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - Eurolot tail lubuskie
+model=LOT-LOT Polish Airlines_Eurolot tail lubuskie
+texture=LOT-LOT Polish Airlines_Eurolot tail lubuskie
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQC (Lubuskie logos)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot_eurolot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.69]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - Eurolot tail podkarpackie
+model=LOT-LOT Polish Airlines_Eurolot tail podkarpackie
+texture=LOT-LOT Polish Airlines_Eurolot tail podkarpackie
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQE (Podkarpackie logos)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot_eurolot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.70]
+title=AIGAIM_LOT Polish Airlines Bombardier Dash 8-Q400 - small Eurolot tail
+model=LOT-LOT Polish Airlines_small Eurolot tail
+texture=LOT-LOT Polish Airlines_small Eurolot tail
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=LOT Polish Airlines SP-EQH (small Eurolot tail)
+ui_createdby=Provided by: FC75 Filename: tfs_dh84_lot_eurolot.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.71]
+title=AIGAIM_Luxair Bombardier Dash 8-Q400 - Futuring Finance
+model=LGL-Luxair_Futuring Finance
+texture=LGL-Luxair_Futuring Finance
+atc_id=LX-LGE
+atc_airline=LUXAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LGL
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Luxair LGL LX-LGE - Futuring Finance
+ui_createdby=Provided by: OCH Filename: LGL_DH8D_Part 1_HD_P3D.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LGL
+
+[fltsim.72]
+title=AIGAIM_Luxair Bombardier Dash 8-Q400 - Futuring Sustainable Finance
+model=LGL-Luxair_Futuring Sustainable Finance
+texture=LGL-Luxair_Futuring Sustainable Finance
+atc_id=LX-LQB
+atc_airline=LUXAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LGL
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Luxair LGL LX-LQB - Futuring Sustainable Finance
+ui_createdby=Provided by: OCH Filename: LGL_DH8D_Part 1_HD_P3D.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LGL
+
+[fltsim.73]
+title=AIGAIM_Malawian Airlines Bombardier Dash 8-Q400
+model=MWI-Malawian Airlines
+texture=MWI-Malawian Airlines
+atc_id=ET-AQB
+atc_airline=MALAWIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MWI
+ui_manufacturer=de Havilland
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Malawian Airlines
+ui_createdby=Provided by: FC75 Filename: brw_dh8d_malawianairlines.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MWI
+
+[fltsim.74]
+title=AIGAIM_Olympic Air Bombardier Dash 8-Q400
+model=OAL-Olympic Air
+texture=OAL-Olympic Air
+atc_airline=OLYMPIC
+atc_parking_types=RAMP,GATE
+atc_parking_codes=OAL,AEE
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Olympic Air
+ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OAL
+
+[fltsim.75]
+title=AIGAIM_Olympic Air Bombardier Dash 8-Q400 - 4321
+model=OAL-Olympic Air_4321
+texture=OAL-Olympic Air_4321
+atc_airline=OLYMPIC
+atc_parking_types=RAMP,GATE
+atc_parking_codes=OAL,AEE
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Olympic Air
+ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OAL
+
+[fltsim.76]
+title=AIGAIM_Olympic Air Bombardier Dash 8-Q400 - thin Cheatline
+model=OAL-Olympic Air_thin Cheatline
+texture=OAL-Olympic Air_thin Cheatline
+atc_airline=OLYMPIC
+atc_parking_types=RAMP,GATE
+atc_parking_codes=OAL,AEE
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Olympic Air
+ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OAL
+
+[fltsim.77]
+title=AIGAIM_Passion Air Bombardier Dash 8-Q400
+model=DIG-Passion Air
+texture=DIG-Passion Air
+atc_id=9G-ACA
+atc_airline=DAC AIR
+atc_parking_types=RAMP,GATE
+atc_parking_codes=DIG
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Passion Air
+ui_createdby=Provided by: FSAI Filename: tfs_dig_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DIG
+
+[fltsim.78]
+title=AIGAIM_Porter Airlines Bombardier Dash 8-Q400
+model=POE-Porter Airlines
+texture=POE-Porter Airlines
+atc_id=C-GKQA
+atc_airline=PORTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=POE
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Porter Airlines POE C-GKQA
+ui_createdby=Provided by: OCH Filename: POE_DH8D_Part 1_HD.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=POE
+
+[fltsim.79]
+title=AIGAIM_Porter Airlines Bombardier Dash 8-Q400 - No Engine Titles
+model=POE-Porter Airlines_No Engine Titles
+texture=POE-Porter Airlines_No Engine Titles
+atc_id=C-GKQG
+atc_airline=PORTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=POE
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Bombardier Dash 8 400 TFS Porter Airlines POE C-GKQG - No Engine Titles
+ui_createdby=Provided by: OCH Filename: POE_DH8D_Part 2_HD.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=POE
+
+[fltsim.80]
+title=AIGAIM_Qantaslink Bombardier Dash 8-Q400
+model=QLK-Qantaslink
+texture=QLK-Qantaslink
+atc_airline=Q LINK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QLK
+ui_manufacturer=QantasLink
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qantaslink 2016
+ui_createdby=Provided by: AVSIM Filename: qantaslink_dash-8-400_fleet.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QLK
+
+[fltsim.81]
+title=AIGAIM_Qantaslink Bombardier Dash 8-Q400 - OC
+model=QLK-Qantaslink_OC
+texture=QLK-Qantaslink_OC
+atc_airline=Q LINK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QLK
+ui_manufacturer=QantasLink
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qantaslink 2007
+ui_createdby=Provided by: AVSIM Filename: qantaslink_dash-8-400_fleet.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QLK
+
+[fltsim.82]
+title=AIGAIM_Qazaq Air Bombardier Dash 8-Q400
+model=QAZ-Qazaq Air
+texture=QAZ-Qazaq Air
+atc_id=P4-AST
+atc_airline=SAMRUK
+atc_parking_types=RAMP,GATE
+atc_parking_codes=QAZ
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qazaq Air
+ui_createdby=Provided by: FSAI Filename: tfs_qaz_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QAZ
+
+[fltsim.83]
+title=AIGAIM_Qazaq Air Bombardier Dash 8-Q400 - Webtitles
+model=QAZ-Qazaq Air_Webtitles
+texture=QAZ-Qazaq Air_Webtitles
+atc_id=P4-FLY
+atc_airline=SAMRUK
+atc_parking_types=RAMP,GATE
+atc_parking_codes=QAZ
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qazaq Air
+ui_createdby=Provided by: FSAI Filename: tfs_qaz_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QAZ
+
+[fltsim.84]
+title=AIGAIM_Qazaq Air Bombardier Dash 8-Q400 - Subtitles
+model=QAZ-Qazaq Air_Subtitles
+texture=QAZ-Qazaq Air_Subtitles
+atc_id=P4-NUR
+atc_airline=SAMRUK
+atc_parking_types=RAMP,GATE
+atc_parking_codes=QAZ
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qazaq Air
+ui_createdby=Provided by: FSAI Filename: tfs_qaz_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QAZ
+
+[fltsim.85]
+title=AIGAIM_Qazaq Air Bombardier Dash 8-Q400 - No Bombardier Titles
+model=QAZ-Qazaq Air_No Bombardier Titles
+texture=QAZ-Qazaq Air_No Bombardier Titles
+atc_id=P4-QAZ
+atc_airline=SAMRUK
+atc_parking_types=RAMP,GATE
+atc_parking_codes=QAZ
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Qazaq Air
+ui_createdby=Provided by: FSAI Filename: tfs_qaz_dash8_q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QAZ
+
+[fltsim.86]
+title=AIGAIM_Rwandair Bombardier Dash 8-Q400
+model=RWD-Rwandair
+texture=RWD-Rwandair
+atc_airline=RWANDAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RWD
+ui_manufacturer=TFS
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Rwandair
+ui_createdby=Provided by: FC75 Filename: ai_dh84_rwd.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RWD
+
+[fltsim.87]
+title=AIGAIM_Ryukyu Air Commuter Bombardier Dash 8-Q400 - Combi Okinawa Nature Preserve
+model=RAC-Ryukyu Air Commuter_Combi Okinawa Nature Preserve
+texture=RAC-Ryukyu Air Commuter_Combi Okinawa Nature Preserve
+atc_airline=RYUKYU
+atc_parking_types=RAMP
+atc_parking_codes=RAC
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Ryukyu Air Commuter
+ui_createdby=Provided by: FSAI Filename: Ryukyu Air Commuter TFS Dash 8-Q400.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RAC
+
+[fltsim.88]
+title=AIGAIM_SATA Air Acores Bombardier Dash 8-Q400
+model=SAT-SATA Air Acores
+texture=SAT-SATA Air Acores
+atc_airline=SATA
+atc_parking_types=RAMP
+atc_parking_codes=SAT
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Air Nippon Network
+ui_createdby=Provided by: AVSIM Filename: dash8-400_sata.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SAT
+
+[fltsim.89]
+title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - OC
+model=SEJ-SpiceJet_OC
+texture=SEJ-SpiceJet_OC
+atc_id=VT-SUP
+atc_airline=SPICEJET
+atc_parking_types=RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Std. Livery_Imli_VT-SUP
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.90]
+title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - OC Line Number
+model=SEJ-SpiceJet_OC Line Number
+texture=SEJ-SpiceJet_OC Line Number
+atc_id=VT-SUM
+atc_airline=SPICEJET
+atc_parking_types=RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Std. Livery with LN No._Jaiphal_VT-SUM
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.91]
+title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - Albino Small Titles no Engine Titles
+model=SEJ-SpiceJet_Albino Small Titles no Engine Titles
+texture=SEJ-SpiceJet_Albino Small Titles no Engine Titles
+atc_id=VT-SUW
+atc_airline=SPICEJET
+atc_parking_types=RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Only Title_VT-SUW
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.92]
+title=AIGAIM_Tchadia Airlines Bombardier Dash 8-Q400
+model=CDO-Tchadia Airlines
+texture=CDO-Tchadia Airlines
+atc_airline=TCHADIA
+atc_parking_types=RAMP
+atc_parking_codes=CDO
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=Tchadia Airlines
+ui_createdby=Provided by: JB Filename: Dash8-Q400 Tchadia Airlines.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CDO
+
+[fltsim.93]
+title=AIGAIM_US-Bangla Airlines Bombardier Dash 8-Q400
+model=UBG-US-Bangla Airlines
+texture=UBG-US-Bangla Airlines
+atc_id=S2-AGX
+atc_airline=BANGLASTAR
+atc_parking_types=RAMP
+atc_parking_codes=UBG
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=US-Bangla Airlines
+ui_createdby=Provided by: JB Filename: Dash8-Q400 US Bangla.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UBG

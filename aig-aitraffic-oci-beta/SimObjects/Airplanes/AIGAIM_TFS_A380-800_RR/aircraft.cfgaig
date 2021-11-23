@@ -1,0 +1,372 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text
+atc_model=TT:ATCCOM.AC_MODEL A388.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator="A388"
+icao_manufacturer="AIRBUS"
+icao_model="A-380-800"
+icao_engine_type="Jet"
+icao_engine_count=4
+icao_WTC="H"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+wake=fx_wake
+water=fx_spray
+dirt=FX_ASOBO_TOUCHDIRT_BIG
+concrete=FX_ASOBO_TOUCHCONCRETE_BIG
+touchdown=fx_tchdwn_m, 1
+contrail=FX_ASOBO_CONTRAIL_BIG
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+effect.2=contrail3#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.3=contrail4#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[IKCHAINS]
+right_hand_target=""
+left_hand_target=""
+left_foot_target=""
+right_foot_target=""
+
+[fltsim.0]
+title=AIGAIM_Airbus Cooperation Airbus A380-800 - Emirates
+model=AIB-Airbus Cooperation_Emirates
+texture=AIB-Airbus Cooperation_Emirates
+atc_id=A6-EVA
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Emirates Group
+ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+atc_heavy=1
+
+[fltsim.1]
+title=AIGAIM_All Nippon Airways Airbus A380-800 - Blue Turtles
+model=ANA-All Nippon Airways_Blue Turtles
+texture=ANA-All Nippon Airways_Blue Turtles
+atc_id=JA381A
+atc_airline=ALL NIPPON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=All Nippon Airways Co., Ltd.
+ui_createdby=Provided by: JB Filename: TFS A380-800 ANA.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+atc_heavy=1
+
+[fltsim.2]
+title=AIGAIM_All Nippon Airways Airbus A380-800 - Turquoise Turtles
+model=ANA-All Nippon Airways_Turquoise Turtles
+texture=ANA-All Nippon Airways_Turquoise Turtles
+atc_id=JA382A
+atc_airline=ALL NIPPON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=All Nippon Airways Co., Ltd.
+ui_createdby=Provided by: JB Filename: TFS A380-800 ANA.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+atc_heavy=1
+
+[fltsim.3]
+title=AIGAIM_Asiana Airlines Airbus A380-800
+model=AAR-Asiana Airlines
+texture=AAR-Asiana Airlines
+atc_id=HL7625
+atc_airline=ASIANA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAR
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Asiana Airlines
+ui_createdby=Provided by: JB Filename: A380 Asiana FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAR
+atc_heavy=1
+
+[fltsim.4]
+title=AIGAIM_British Airways Airbus A380-800
+model=BAW-British Airways
+texture=BAW-British Airways
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=Airbus TFS
+ui_type=Airbus A380-800
+ui_variation=British Airways
+ui_createdby=Provided by: JB Filename: BritishAirwaysA380FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.5]
+title=AIGAIM_China Southern Airlines Airbus A380-800
+model=CSN-China Southern Airlines
+texture=CSN-China Southern Airlines
+atc_id=B-6136
+atc_airline=CHINA SOUTHERN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Airbus
+ui_type=Airbus A380-800
+ui_variation=China Southern
+ui_createdby=Provided by: JB Filename: TFS A380-800 China Southern FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+
+[fltsim.6]
+title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Expo 2020 Sticker Wifi Dome
+model=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
+texture=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
+atc_id=A6-EVA
+atc_airline=EMIRATES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAE
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Emirates Group
+ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAE
+atc_heavy=1
+
+[fltsim.7]
+title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Year of Tolerance Wifi Dome
+model=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
+texture=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
+atc_id=A6-EVB
+atc_airline=EMIRATES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAE
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Emirates Group
+ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAE
+atc_heavy=1
+
+[fltsim.8]
+title=AIGAIM_Emirates Airbus A380-800 - RR 3 Class Expo 2020 Sticker Wifi Dome
+model=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
+texture=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
+atc_id=A6-EVA
+atc_airline=EMIRATES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAE
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Emirates Group
+ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAE
+atc_heavy=1
+
+[fltsim.9]
+title=AIGAIM_Thai Airways Airbus A380-800
+model=THA-Thai Airways
+texture=THA-Thai Airways
+atc_id=HS-TUA
+atc_airline=THAI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Thai International Airways
+ui_createdby=Provided by: JB Filename: ai380tha.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THA
+
+[fltsim.10]
+title=AIGAIM_Malaysia Airlines Airbus A380-800
+model=MAS-Malaysia Airlines
+texture=MAS-Malaysia Airlines
+atc_id=9M-MND
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=TFS - Airbus
+ui_type=Airbus A380-800
+ui_variation=Malaysia Airlines - 9M-MND
+ui_createdby=Provided by: JB Filename: ai380mas.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.11]
+title=AIGAIM_Malaysia Airlines Airbus A380-800 - 100th A380
+model=MAS-Malaysia Airlines_100th A380
+texture=MAS-Malaysia Airlines_100th A380
+atc_id=9M-MNF
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=TFS - Airbus
+ui_type=Airbus A380-800
+ui_variation=Malaysia Airlines 100th A380 - 9M-MNF
+ui_createdby=Provided by: JB Filename: ai380mas.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.12]
+title=AIGAIM_Lufthansa Airbus A380-800
+model=DLH-Lufthansa
+texture=DLH-Lufthansa
+atc_id=D-AIMD
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+atc_heavy=1
+
+[fltsim.13]
+title=AIGAIM_Lufthansa Airbus A380-800 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_id=D-AIMB
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Deutsche Lufthansa AG
+ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+atc_heavy=1
+
+[fltsim.14]
+title=AIGAIM_Qantas Airbus A380-800
+model=QFA-Qantas
+texture=QFA-Qantas
+atc_id=VH-OQH
+atc_airline=QANTAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Qantas Airways Limited
+ui_createdby=Provided by: JB Filename: A380 Qantas FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+atc_heavy=1
+
+[fltsim.15]
+title=AIGAIM_Qantas Airbus A380-800 - OC
+model=QFA-Qantas_OC
+texture=QFA-Qantas_OC
+atc_id=VH-OQA
+atc_airline=QANTAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Qantas Airways Limited
+ui_createdby=Provided by: JB Filename: A380 Qantas FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+atc_heavy=1
+
+[fltsim.16]
+title=AIGAIM_Singapore Airlines Airbus A380-800
+model=SIA-Singapore Airlines
+texture=SIA-Singapore Airlines
+atc_id=9V-SKT
+atc_airline=SINGAPORE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SIA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Singapore Airlines
+ui_createdby=Provided by: FC75 Filename: tfs_sia_a388_fsx.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIA
