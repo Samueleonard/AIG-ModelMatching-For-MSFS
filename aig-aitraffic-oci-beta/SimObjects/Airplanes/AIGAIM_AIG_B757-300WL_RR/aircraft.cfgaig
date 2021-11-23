@@ -1,0 +1,204 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model=TT:ATCCOM.AC_MODEL B753.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_manufacturer="BOEING"
+icao_model=757-300
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC=M
+icao_type_designator=B753
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+wake=fx_wake
+water=fx_spray
+dirt=FX_ASOBO_TOUCHDIRT_BIG
+concrete=FX_ASOBO_TOUCHCONCRETE_BIG
+touchdown=fx_tchdwn_m, 1
+contrail=FX_ASOBO_CONTRAIL_BIG
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Condor Boeing 757-300WL
+model=CFG-Condor
+texture=CFG-Condor
+atc_airline=CONDOR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-300WL
+ui_variation=Condor Flugdienst
+ui_createdby=Provided by: JB Filename: B757-300_Condor FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.1]
+title=AIGAIM_Condor Boeing 757-300WL - MC
+model=CFG-Condor_MC
+texture=CFG-Condor_MC
+atc_airline=CONDOR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-300WL
+ui_variation=Condor Flugdienst
+ui_createdby=Provided by: JB Filename: B757-300_Condor FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.2]
+title=AIGAIM_Condor Boeing 757-300WL - MC Wings of Help
+model=CFG-Condor_MC Wings of Help
+texture=CFG-Condor_MC Wings of Help
+atc_airline=CONDOR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-300WL
+ui_variation=Condor Flugdienst
+ui_createdby=Provided by: JB Filename: B757-300_Condor FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.3]
+title=AIGAIM_Condor Boeing 757-300WL - Wir lieben fliegen
+model=CFG-Condor_Wir lieben fliegen
+texture=CFG-Condor_Wir lieben fliegen
+atc_airline=CONDOR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-300WL
+ui_variation=Condor Flugdienst
+ui_createdby=Provided by: JB Filename: B757-300_Condor FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.4]
+title=AIGAIM_Icelandair Boeing 757-300WL
+model=ICE-Icelandair
+texture=ICE-Icelandair
+atc_id=TF-FIX
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-300WL
+ui_variation=Icelandair TF-FIX
+ui_createdby=Provided by: JCAI Filename: AIG_753W_ICE_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
+
+[fltsim.5]
+title=AIGAIM_Icelandair Boeing 757-300WL - 100 Fullvendi Islands
+model=ICE-Icelandair_100 Fullvendi Islands
+texture=ICE-Icelandair_100 Fullvendi Islands
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India Group
+ui_type=Boeing 757-300WL
+ui_variation=Icelandair
+ui_createdby=Provided by: JCAI Filename: AIG_753W_ICE1_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
+
+[fltsim.6]
+title=AIGAIM_United Airlines Boeing 757-300WL - RR OC
+model=UAL-United Airlines_RR OC
+texture=UAL-United Airlines_RR OC
+atc_id=N75853
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-300WL
+ui_variation=Delta Air Lines
+ui_createdby=Provided by: KAIW Filename: aig_ual_b753w_p3d-2.zip
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.7]
+title=AIGAIM_United Airlines Boeing 757-300WL - RR OC LiveTV Dome
+model=UAL-United Airlines_RR OC LiveTV Dome
+texture=UAL-United Airlines_RR OC LiveTV Dome
+atc_id=N75853
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-300WL
+ui_variation=Delta Air Lines
+ui_createdby=Provided by: KAIW Filename: aig_ual_b753w_p3d-2.zip
+description=AIG_B757-300WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL

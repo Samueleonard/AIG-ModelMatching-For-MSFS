@@ -1,0 +1,367 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model=TT:ATCCOM.AC_MODEL B752.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_manufacturer="BOEING"
+icao_model=757-200
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC=M
+icao_type_designator=B752
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+wake=fx_wake
+water=fx_spray
+dirt=FX_ASOBO_TOUCHDIRT_BIG
+concrete=FX_ASOBO_TOUCHCONCRETE_BIG
+touchdown=fx_tchdwn_m, 1
+contrail=FX_ASOBO_CONTRAIL_BIG
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Aer Lingus Boeing 757-200WL - OC RR engines opb ASL Ireland
+model=EIN-Aer Lingus_OC RR engines opb ASL Ireland
+texture=EIN-Aer Lingus_OC RR engines opb ASL Ireland
+atc_airline=SHAMROCK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EIN
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Aer Lingus (RR)
+ui_createdby=Provided by: FC75 Filename: aig_aerlingusrr_75w_fsx.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EIN
+
+[fltsim.1]
+title=AIGAIM_Air Astana Boeing 757-200WL - OC New Titles
+model=KZR-Air Astana_OC New Titles
+texture=KZR-Air Astana_OC New Titles
+atc_id=P4-GAS
+atc_airline=ASTANALINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KZR
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Air Astana P4-GAS (old logo, new titles)
+ui_createdby=Provided by: FC75 Filename: aig_752w_kzr_gas_fsx.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KZR
+
+[fltsim.2]
+title=AIGAIM_Air Astana Boeing 757-200WL - OC Old Titles
+model=KZR-Air Astana_OC Old Titles
+texture=KZR-Air Astana_OC Old Titles
+atc_id=P4-FAS
+atc_airline=ASTANALINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KZR
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Air Astana
+ui_createdby=Provided by: FC75 Filename: ai_752w_kzr_fsx.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KZR
+
+[fltsim.3]
+title=AIGAIM_Aviastar-TU Boeing 757-200WL - PCF
+model=TUP-Aviastar-TU_PCF
+texture=TUP-Aviastar-TU_PCF
+atc_airline=TUPOLEVAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TUP
+ui_type=Boeing 757-200WL
+ui_createdby=Provided by: FSAI Filename: aig_tup_752_p3d.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUP
+
+[fltsim.4]
+title=AIGAIM_Aviastar-TU Boeing 757-200WL - SF
+model=TUP-Aviastar-TU_SF
+texture=TUP-Aviastar-TU_SF
+atc_airline=TUPOLEVAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TUP
+ui_type=Boeing 757-200WL
+ui_createdby=Provided by: FSAI Filename: aig_tup_752_p3d.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUP
+
+[fltsim.5]
+title=AIGAIM_Cabo Verde Airlines Boeing 757-200WL - Blue/Teal
+model=TCV-Cabo Verde Airlines_Blue_Teal
+texture=TCV-Cabo Verde Airlines_Blue_Teal
+atc_id=D4-CCF
+atc_airline=CABOVERDE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TCV
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Cabo Verde Airlines
+ui_createdby=Provided by: JB Filename: AIG Cabo Verde Boeing 757-200.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TCV
+
+[fltsim.6]
+title=AIGAIM_Cabo Verde Airlines Boeing 757-200WL - Purple/Yellow
+model=TCV-Cabo Verde Airlines_Purple_Yellow
+texture=TCV-Cabo Verde Airlines_Purple_Yellow
+atc_id=D4-CCH
+atc_airline=CABOVERDE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TCV
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Cabo Verde Airlines
+ui_createdby=Provided by: JB Filename: AIG Cabo Verde Boeing 757-200.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TCV
+
+[fltsim.7]
+title=AIGAIM_Cargojet Boeing 757-200WL - PCF
+model=CJT-Cargojet_PCF
+texture=CJT-Cargojet_PCF
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Cargojet - C-FGKJ
+ui_createdby=Provided by: ATCO Filename: aig_752w_cjt_2020.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT
+
+[fltsim.8]
+title=AIGAIM_Cygnus Air Boeing 757-200WL - RR PCF Swiftair hybrid
+model=RGN-Cygnus Air_RR PCF Swiftair hybrid
+texture=RGN-Cygnus Air_RR PCF Swiftair hybrid
+atc_id=EC-NFN
+atc_airline=CYGNUS AIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RGN
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200WL
+ui_variation=Cygnus Air
+ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200WL Cygnus Air_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGN
+
+[fltsim.9]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air UK
+model=BCS-EAT Leipzig_RR PCF opb DHL Air UK
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air UK
+atc_id=G-DHKA
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200WL
+ui_variation=DHL Air G-DHKA
+ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.10]
+title=AIGAIM_Icelandair Boeing 757-200WL
+model=ICE-Icelandair
+texture=ICE-Icelandair
+atc_id=TF-ISF
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Icelandair TF-ISF
+ui_createdby=Provided by: JCAI Filename: AIG_752W_ICE_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
+
+[fltsim.11]
+title=AIGAIM_Icelandair Boeing 757-200WL - White Belly no Dome
+model=ICE-Icelandair_White Belly no Dome
+texture=ICE-Icelandair_White Belly no Dome
+atc_id=TF-FIC
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Icelandair TF-FIC
+ui_createdby=Provided by: JCAI Filename: AIG_752W_FI1_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
+
+[fltsim.12]
+title=AIGAIM_Jet2com Boeing 757-200WL
+model=EXS-Jet2com
+texture=EXS-Jet2com
+atc_airline=CHANNEX
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EXS
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Jet2.com
+ui_createdby=Provided by: FC75 Filename: aig_jet2com_75w.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EXS
+
+[fltsim.13]
+title=AIGAIM_Jet2com Boeing 757-200WL - Jet2 Holidays
+model=EXS-Jet2com_Jet2 Holidays
+texture=EXS-Jet2com_Jet2 Holidays
+atc_airline=CHANNEX
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EXS
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Jet2.com - Jet2 Holidays
+ui_createdby=Provided by: FC75 Filename: aig_jet2com_75w.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EXS
+
+[fltsim.14]
+title=AIGAIM_La Compagnie Boeing 757-200WL - 1-1-1-1
+model=DJT-La Compagnie_1-1-1-1
+texture=DJT-La Compagnie_1-1-1-1
+atc_id=F-HCIE
+atc_airline=DREAMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DJT
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200WL
+ui_variation=La Compagnie - F-HCIE
+ui_createdby=Provided by: JB Filename: ai752djt.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DJT
+
+[fltsim.15]
+title=AIGAIM_National Airlines Boeing 757-200WL
+model=NCR-National Airlines
+texture=NCR-National Airlines
+atc_id=N567CA
+atc_airline=NATIONAL CARGO
+atc_heavy=1
+atc_parking_types=RAMP
+atc_parking_codes=NCR
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=National Airlines
+ui_createdby=Provided by: KAIW Filename: aig_ncr_b752_p3d-1.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NCR
+
+[fltsim.16]
+title=AIGAIM_TUI Airways UK Boeing 757-200WL
+model=TOM-TUI Airways UK
+texture=TOM-TUI Airways UK
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=TUI Airways
+ui_createdby=Provided by: FC75 Filename: aig_tuiairways_75w.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
