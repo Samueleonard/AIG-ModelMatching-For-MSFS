@@ -1,0 +1,106 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B739.0.text"
+icao_type_designator="B739"
+icao_manufacturer="BOEING"
+icao_model="737-900"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+category=Airplane
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  44.213, -5.492,  4.341, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -39.541,  4.669, -1.974, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Okay Airways Boeing 737-900WL - SN
+model=OKA-Okay Airways_SN
+texture=OKA-Okay Airways_SN
+atc_id=B-1522
+atc_airline=OKAYJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OKA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900WL
+ui_variation=OKAir
+ui_createdby=Provided by: KAIW Filename: faib_oka_b739_p3d.zip
+description=FAIB_B737-900WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OKA
+
+[fltsim.1]
+title=AIGAIM_KLM Boeing 737-900WL - 100 Years
+model=KLM-KLM_100 Years
+texture=KLM-KLM_100 Years
+atc_id=PH-BXT
+atc_airline=KLM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-900WL
+ui_variation=KLM - PH-BXT
+ui_createdby=Provided by: JB Filename: ai739klm_100years_fsx.zip
+description=FAIB_B737-900WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.2]
+title=AIGAIM_KLM Boeing 737-900WL - OC 100 Years
+model=KLM-KLM_OC 100 Years
+texture=KLM-KLM_OC 100 Years
+atc_id=PH-BXR
+atc_airline=KLM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-900WL
+ui_variation=KLM - PH-BXR
+ui_createdby=Provided by: JB Filename: ai739klm_100years_fsx.zip
+description=FAIB_B737-900WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.3]
+title=AIGAIM_KLM Boeing 737-900WL - Skyteam
+model=KLM-KLM_Skyteam
+texture=KLM-KLM_Skyteam
+atc_id=PH-BXO
+atc_airline=KLM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-900WL
+ui_variation=KLM - PH-BXO
+ui_createdby=Provided by: JB Filename: ai739klm_fsx.zip
+description=FAIB_B737-900WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
