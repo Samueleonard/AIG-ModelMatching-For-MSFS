@@ -31,9 +31,6 @@ small_pushback=0
 marshaller=1
 jetway=1
 
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1
-
 [fltsim.0]
 title=AIGAIM_Air North Boeing 737-500WL
 model=ANT-Air North
@@ -49,6 +46,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_NAM Air Boeing 737-500WL
@@ -66,6 +64,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKN
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_NAM Air Boeing 737-500WL - 72nd Berja Kermasa
@@ -83,6 +82,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKN
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Sriwijaya Air Boeing 737-500WL
@@ -100,6 +100,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Sriwijaya Air Boeing 737-500WL - OC
@@ -117,6 +118,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_UTair Boeing 737-500WL - OC
@@ -134,3 +136,7 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
+ui_typerole=Commercial Airliner
+
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1

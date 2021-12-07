@@ -53,6 +53,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Boeing 737-800 - No Flag
@@ -70,6 +71,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air China Boeing 737-800 - Silver Peony
@@ -87,6 +89,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air China Boeing 737-800 - Inner Mongolia Eyebrows
@@ -104,6 +107,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Bluebird Airways Boeing 737-800 - 9H-SHO
@@ -121,6 +125,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBG
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Dalian Airlines Boeing 737-800 (TEMP)
@@ -155,6 +160,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCD
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Donghai Airlines Boeing 737-800
@@ -172,6 +178,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EPA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Eastar Jet Boeing 737-800 - eyebrows
@@ -189,6 +196,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Eastar Jet Boeing 737-800 - white engines
@@ -206,6 +214,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800 - IC
@@ -223,6 +232,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Hainan Airlines Boeing 737-800 - Old HNA Logo (TEMP)
@@ -240,6 +250,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Hainan Airlines Boeing 737-800 - Eyebrows China Xinhua Airlines (TEMP)
@@ -257,6 +268,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Sun Country Airlines Boeing 737-800 - OC
@@ -274,6 +286,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Jeju Air Boeing 737-800 - Stones Eyebrows
@@ -291,6 +304,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Jeju Air Boeing 737-800 - OC
@@ -308,6 +322,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Jet2com Boeing 737-800 - Jet2 Holidays
@@ -324,6 +339,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Jet2com Boeing 737-800 - Jet2 Holidays no tail logo
@@ -340,6 +356,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Jin Air Boeing 737-800 - Eyebrows
@@ -357,6 +374,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Jin Air Boeing 737-800 - OC Eyebrows
@@ -374,6 +392,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Jin Air Boeing 737-800 - OC Eyebrows Niniz
@@ -391,6 +410,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_MyWay Airlines Boeing 737-800
@@ -408,6 +428,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MYW
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800
@@ -425,6 +446,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800 - no Dome
@@ -442,6 +464,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800 - Star Alliance
@@ -459,6 +482,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Skymark Airlines Boeing 737-800
@@ -476,6 +500,7 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_SpiceXpress Boeing 737-800 - BCF
@@ -490,56 +515,9 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJC
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
-title=AIGAIM_China Southern Airlines Boeing 737-800
-model=CSN-China Southern Airlines
-texture=CSN-China Southern Airlines
-atc_airline=CHINA SOUTHERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSN
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800
-ui_variation=China Southern
-ui_createdby=Provided by: AVSIM Filename: faib_b738_csn.zip
-description=FAIB_B737-800(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSN
-
-[fltsim.28]
-title=AIGAIM_China Southern Airlines Boeing 737-800 - Skyteam
-model=CSN-China Southern Airlines_Skyteam
-texture=CSN-China Southern Airlines_Skyteam
-atc_airline=CHINA SOUTHERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSN
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800
-ui_variation=China Southern
-ui_createdby=Provided by: AVSIM Filename: faib_b738w_csn_skyteam.zip
-description=FAIB_B737-800(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSN
-
-[fltsim.29]
-title=AIGAIM_Air China Boeing 737-800 - Eyebrows
-model=CCA-Air China_Eyebrows
-texture=CCA-Air China_Eyebrows
-atc_airline=AIR CHINA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CCA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800
-ui_variation=Air China
-ui_createdby=Provided by: AVSIM Filename: faib_b738_cca.zip
-description=FAIB_B737-800(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CCA
-
-[fltsim.30]
 title=AIGAIM_Shanghai Airlines Boeing 737-800
 model=CSH-Shanghai Airlines
 texture=CSH-Shanghai Airlines
@@ -554,3 +532,55 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
+ui_typerole=Commercial Airliner
+
+[fltsim.28]
+title=AIGAIM_Air China Boeing 737-800 - Eyebrows
+model=CCA-Air China_Eyebrows
+texture=CCA-Air China_Eyebrows
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800
+ui_variation=Air China
+ui_createdby=Provided by: AVSIM Filename: faib_b738_cca.zip
+description=FAIB_B737-800(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+ui_typerole=Commercial Airliner
+
+[fltsim.29]
+title=AIGAIM_China Southern Airlines Boeing 737-800
+model=CSN-China Southern Airlines
+texture=CSN-China Southern Airlines
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800
+ui_variation=China Southern
+ui_createdby=Provided by: AVSIM Filename: faib_b738_csn.zip
+description=FAIB_B737-800(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+ui_typerole=Commercial Airliner
+
+[fltsim.30]
+title=AIGAIM_China Southern Airlines Boeing 737-800 - Skyteam
+model=CSN-China Southern Airlines_Skyteam
+texture=CSN-China Southern Airlines_Skyteam
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Boeing
+ui_type=B737-800
+ui_variation=China Southern
+ui_createdby=Provided by: AVSIM Filename: faib_b738w_csn_skyteam.zip
+description=FAIB_B737-800(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+ui_typerole=Commercial Airliner

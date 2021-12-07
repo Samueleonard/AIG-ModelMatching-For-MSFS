@@ -3,22 +3,16 @@ major=1
 minor=0 
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL A320.0.text ; 
-editable=0 ; 
-performance=; 
-category=airplane ; 
-pilot="Pilot_Female_Casual" ; 
-copilot="Pilot_Male_Casual" ; 
-instructor="Pilot_Male_Casual" ; 
-wip_indicator=2 ; 
-icao_type_designator=A320 ; 
-icao_manufacturer=AIRBUS ; 
-icao_model=A-320 ; 
-icao_engine_type="Jet" ; 
-icao_engine_count=2 ; 
-icao_wtc=M ; 
-icao_generic=0 ; 
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A320.0.text"
+icao_type_designator="A320"
+icao_manufacturer="AIRBUS"
+icao_model="A-320"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
 
 [EXITS]
 number_of_exits=2 ; 
@@ -31,6 +25,17 @@ water=fx_spray ;
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
 touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
 
 [fltsim.0]
 title=AIGAIM_Aegean Airlines Airbus A320-200SL
@@ -48,6 +53,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEE
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Astana Airbus A320-200SL - OC
@@ -65,6 +71,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air China Airbus A320-200SL - IAE
@@ -82,6 +89,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Guilin Airbus A320-200SL
@@ -99,6 +107,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGH
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air Macau Airbus A320-200SL
@@ -115,6 +124,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMU
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air New Zealand Airbus A320-200SL
@@ -132,6 +142,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Avianca El Salvador Airbus A320-200SL - IAE WiFi Dome
@@ -149,6 +160,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAI
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_British Airways Airbus A320-200SL
@@ -165,6 +177,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Capital Airlines Airbus A320-200SL - Old HNA Logo
@@ -181,6 +194,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Capital Airlines Airbus A320-200SL - Old HNA Logo Engine Titles
@@ -197,6 +211,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Capital Airlines Airbus A320-200SL - VIP.com
@@ -213,6 +228,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Capital Airlines Airbus A320-200SL - Caissa
@@ -229,6 +245,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_China Eastern Airlines Airbus A320-200SL - IAE
@@ -246,6 +263,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_China Eastern Airlines Airbus A320-200SL - IAE OC
@@ -262,6 +280,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_China Southern Airlines Airbus A320-200SL - IAE
@@ -279,6 +298,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Etihad Airways Airbus A320-200SL
@@ -296,6 +316,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Etihad Airways Airbus A320-200SL - OC
@@ -313,6 +334,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Etihad Airways Airbus A320-200SL - OC Small Titles
@@ -330,6 +352,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_FlyArystan Airbus A320-200SL
@@ -347,6 +370,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_FlyArystan Airbus A320-200SL - Unnamed
@@ -364,6 +388,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_FlyArystan Airbus A320-200SL - No Engine Titles
@@ -381,6 +406,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_HiSky Airbus A320-200SL - IAE
@@ -398,6 +424,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYS
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_HK Express Airbus A320-200SL
@@ -414,6 +441,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HKE
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_IndiGo Airbus A320-200SL
@@ -431,6 +459,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_IndiGo Airbus A320-200SL - 100th A320
@@ -448,6 +477,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_IndiGo Airbus A320-200SL - Employee of the Year 2016
@@ -465,6 +495,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL
@@ -482,6 +513,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow
@@ -499,6 +531,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow new Engine Titles
@@ -516,6 +549,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Blue
@@ -533,6 +567,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Israir Airlines Airbus A320-200SL - IAE Partnership Marocco (TEMP)
@@ -550,6 +585,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ISR
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_Jetstar Airways Airbus A320-200SL
@@ -567,6 +603,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JST
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Jetstar Asia Airways Airbus A320-200SL
@@ -584,6 +621,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JSA
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Jetstar Japan Airbus A320-200SL
@@ -601,6 +639,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJP
+ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_Thai Smile Airbus A320-200SL
@@ -618,6 +657,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THD
+ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Thai Smile Airbus A320-200SL - Cartoon Network
@@ -635,6 +675,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THD
+ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Tigerair Taiwan Airbus A320-200SL (TEMP)
@@ -669,6 +710,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIC
+ui_typerole=Commercial Airliner
 
 [fltsim.38]
 title=AIGAIM_West Air Airbus A320-200SL
@@ -685,6 +727,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
+ui_typerole=Commercial Airliner
 
 [fltsim.39]
 title=AIGAIM_West Air Airbus A320-200SL - U-Fly Alliance
@@ -702,6 +745,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
+ui_typerole=Commercial Airliner
 
 [fltsim.40]
 title=AIGAIM_Tianjin Airlines Airbus A320-200SL - Old HNA Logo
@@ -719,6 +763,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
+ui_typerole=Commercial Airliner
 
 [fltsim.41]
 title=AIGAIM_Tianjin Airlines Airbus A320-200SL - Old Titles
@@ -736,6 +781,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
+ui_typerole=Commercial Airliner
 
 [fltsim.42]
 title=AIGAIM_Tianjin Airlines Airbus A320-200SL - Old Titles Old HNA Logo
@@ -753,6 +799,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
+ui_typerole=Commercial Airliner
 
 [fltsim.43]
 title=AIGAIM_Wizz Air Airbus A320-200SL - OC
@@ -770,6 +817,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WZZ
+ui_typerole=Commercial Airliner
 
 [fltsim.44]
 title=AIGAIM_Wizz Air UK Airbus A320-200SL
@@ -787,6 +835,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WUK
+ui_typerole=Commercial Airliner
 
 [fltsim.45]
 title=AIGAIM_jetBlue Airbus A320-200SL - Blueberries
@@ -804,6 +853,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
+ui_typerole=Commercial Airliner
 
 [fltsim.46]
 title=AIGAIM_jetBlue Airbus A320-200SL - Y150 Barcode
@@ -821,6 +871,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
+ui_typerole=Commercial Airliner
 
 [fltsim.47]
 title=AIGAIM_jetBlue Airbus A320-200SL - Y150 Connected to Blue
@@ -838,6 +889,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
+ui_typerole=Commercial Airliner
 
 [fltsim.48]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWA Halcon Peregrino Austral
@@ -855,6 +907,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.49]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWB Martin Pescador
@@ -872,6 +925,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.50]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWC Loica
@@ -889,6 +943,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.51]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWD Condor Andino
@@ -906,6 +961,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.52]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWE Gaviota Austral
@@ -923,6 +979,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.53]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWF Puma Concolor
@@ -940,6 +997,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.54]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWG Pinguino Rey
@@ -957,6 +1015,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.55]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWI Zorro Culpeo
@@ -974,6 +1033,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+ui_typerole=Commercial Airliner
 
 [fltsim.56]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-HEK Huemul
@@ -991,6 +1051,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
+ui_typerole=Commercial Airliner
 
 [fltsim.57]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-HVT Jaguar
@@ -1008,6 +1069,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
+ui_typerole=Commercial Airliner
 
 [fltsim.58]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-IVO Cardinal
@@ -1025,6 +1087,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
+ui_typerole=Commercial Airliner
 
 [fltsim.59]
 title=AIGAIM_MEA Middle East Airlines Airbus A320-200SL - IAE
@@ -1042,6 +1105,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MEA
+ui_typerole=Commercial Airliner
 
 [fltsim.60]
 title=AIGAIM_Nepal Airlines Airbus A320-200SL
@@ -1059,6 +1123,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RNA
+ui_typerole=Commercial Airliner
 
 [fltsim.61]
 title=AIGAIM_Qatar Airways Airbus A320-200SL - named
@@ -1076,6 +1141,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+ui_typerole=Commercial Airliner
 
 [fltsim.62]
 title=AIGAIM_Royal Brunei Airlines Airbus A320-200SL
@@ -1093,6 +1159,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RBA
+ui_typerole=Commercial Airliner
 
 [fltsim.63]
 title=AIGAIM_SaudiGulf Airlines Airbus A320-200SL
@@ -1110,6 +1177,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SGQ
+ui_typerole=Commercial Airliner
 
 [fltsim.64]
 title=AIGAIM_Scoot Airbus A320-200SL - rear Company Titles
@@ -1127,6 +1195,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
+ui_typerole=Commercial Airliner
 
 [fltsim.65]
 title=AIGAIM_Shenzhen Airlines Airbus A320-200SL - IAE
@@ -1144,6 +1213,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
+ui_typerole=Commercial Airliner
 
 [fltsim.66]
 title=AIGAIM_Sichuan Airlines Airbus A320-200SL
@@ -1161,6 +1231,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
+ui_typerole=Commercial Airliner
 
 [fltsim.67]
 title=AIGAIM_Sichuan Airlines Airbus A320-200SL - Engine Titles
@@ -1178,6 +1249,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
+ui_typerole=Commercial Airliner
 
 [fltsim.68]
 title=AIGAIM_Sichuan Airlines Airbus A320-200SL - Xichang Hao
@@ -1195,6 +1267,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
+ui_typerole=Commercial Airliner
 
 [fltsim.69]
 title=AIGAIM_Turkish Airlines Airbus A320-200SL - Star Alliance
@@ -1212,6 +1285,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+ui_typerole=Commercial Airliner
 
 [fltsim.70]
 title=AIGAIM_Vistara Airbus A320-200SL
@@ -1229,6 +1303,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
+ui_typerole=Commercial Airliner
 
 [fltsim.71]
 title=AIGAIM_Viva Aerobus Airbus A320-200SL
@@ -1245,6 +1320,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIV
+ui_typerole=Commercial Airliner
 
 [fltsim.72]
 title=AIGAIM_Viva Aerobus Airbus A320-200SL - OC
@@ -1261,6 +1337,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIV
+ui_typerole=Commercial Airliner
 
 [fltsim.73]
 title=AIGAIM_Volaris Airbus A320-200SL - OC
@@ -1278,6 +1355,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner
 
 [fltsim.74]
 title=AIGAIM_Volaris Airbus A320-200SL - OC unnamed
@@ -1295,6 +1373,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner
 
 [fltsim.75]
 title=AIGAIM_Volaris Airbus A320-200SL - OC no Engine Logo
@@ -1312,6 +1391,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner
 
 [fltsim.76]
 title=AIGAIM_Volaris Airbus A320-200SL - OC Ellos ahorraron Belly Titles
@@ -1329,6 +1409,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner
 
 [fltsim.77]
 title=AIGAIM_Volaris Airbus A320-200SL - OC Frida
@@ -1346,6 +1427,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner
 
 [fltsim.78]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE
@@ -1363,6 +1445,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+ui_typerole=Commercial Airliner
 
 [fltsim.79]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE Disneyland Paris Tinkerbell
@@ -1380,6 +1463,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+ui_typerole=Commercial Airliner
 
 [fltsim.80]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE unnamed
@@ -1397,6 +1481,7 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+ui_typerole=Commercial Airliner
 
 [fltsim.81]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE unnamed Vueling loves Barcelona
@@ -1414,3 +1499,4 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+ui_typerole=Commercial Airliner

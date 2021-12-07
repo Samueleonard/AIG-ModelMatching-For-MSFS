@@ -80,6 +80,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Airbus A350-900 New WL - Star Alliance
@@ -97,6 +98,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air France Airbus A350-900 New WL
@@ -115,6 +117,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Asiana Airlines Airbus A350-900 New WL
@@ -132,6 +135,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Cathay Pacific Airbus A350-900 New WL
@@ -149,6 +153,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_China Airlines Airbus A350-900 New WL - Airbus A350
@@ -166,6 +171,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Delta Air Lines Airbus A350-900 New WL
@@ -184,6 +190,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Ethiopian Airlines Airbus A350-900 New WL - ET-AVE New York 10th A350
@@ -201,6 +208,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Ethiopian Airlines Airbus A350-900 New WL - ET-AWM Rome
@@ -218,6 +226,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Evelop Airlines Airbus A350-900 New WL - Wifi dome
@@ -236,6 +245,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Fiji Airways Airbus A350-900 New WL
@@ -253,6 +263,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FJI
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Finnair Airbus A350-900 New WL
@@ -270,6 +281,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_French Bee Airbus A350-900 New WL
@@ -288,6 +300,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBU
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Iberia Airbus A350-900 New WL
@@ -305,6 +318,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Philippine Airlines Airbus A350-900 New WL
@@ -323,6 +337,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Philippine Airlines Airbus A350-900 New WL - The Love Bus
@@ -341,6 +356,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_LATAM Airlines Brasil Airbus A350-900 New WL
@@ -358,6 +374,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Lufthansa Airbus A350-900 New WL
@@ -375,6 +392,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Lufthansa Airbus A350-900 New WL - IC
@@ -392,6 +410,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Qatar Airways Airbus A350-900 New WL - WiFi Dome
@@ -409,6 +428,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Qatar Airways Airbus A350-900 New WL - lsf LATAM Airlines Brasil
@@ -426,6 +446,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Singapore Airlines Airbus A350-900 New WL
@@ -444,6 +465,7 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Vietnam Airlines Airbus A350-900 New WL
@@ -461,3 +483,4 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
+ui_typerole=Commercial Airliner

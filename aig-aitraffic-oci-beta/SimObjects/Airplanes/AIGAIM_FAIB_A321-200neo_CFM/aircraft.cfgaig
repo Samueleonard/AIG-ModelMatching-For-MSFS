@@ -3,22 +3,16 @@ major=1
 minor=0
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL A21N.0.text ; 
-editable=0 ; 
-performance=; 
-category=airplane ; 
-pilot="Pilot_Female_Casual" ; 
-copilot="Pilot_Male_Casual" ; 
-instructor="Pilot_Male_Casual" ; 
-wip_indicator=2 ; 
-icao_type_designator=A21N ; 
-icao_manufacturer=AIRBUS ; 
-icao_model=A-321neo ; 
-icao_engine_type="Jet" ; 
-icao_engine_count=2 ; 
-icao_wtc=M ; 
-icao_generic=0 ; 
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A21N.0.text"
+icao_type_designator="A21N"
+icao_manufacturer="AIRBUS"
+icao_model="A-321neo"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
 
 [EXITS]
 number_of_exits=2 ; 
@@ -31,6 +25,17 @@ water=fx_spray ;
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
 touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
 
 [fltsim.0]
 title=AIGAIM_AirAsia Airbus A321-200neo - ACF
@@ -48,6 +53,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXM
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_AirAsia Airbus A321-200neo - ACF 3-2-1 Take Off
@@ -65,6 +71,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXM
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF American Airlines
@@ -82,6 +89,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Britisch Airways
@@ -98,6 +106,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Azul
@@ -114,6 +123,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Air Arabia
@@ -131,6 +141,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - WiFi Dome
@@ -148,6 +159,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N926VA
@@ -165,6 +177,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N927VA
@@ -182,6 +195,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_American Airlines Airbus A321-200neo - ACF
@@ -199,6 +213,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Avianca Airbus A321-200neo - CFM
@@ -216,6 +231,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Azores Airlines Airbus A321-200neo - Breathe
@@ -232,6 +248,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Azores Airlines Airbus A321-200neo - Wonder
@@ -248,6 +265,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Azul Airbus A321-200neo - ACF
@@ -264,6 +282,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - A321NEO Titles
@@ -281,6 +300,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1st A321neo
@@ -298,6 +318,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1mio Passengers
@@ -315,6 +336,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_British Airways Airbus A321-200neo - ACF
@@ -331,6 +353,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF No Flag
@@ -348,6 +371,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion No Flag
@@ -365,6 +389,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKA
@@ -382,6 +407,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKB
@@ -399,6 +425,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_SriLankan Airlines Airbus A321-200neo
@@ -415,6 +442,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Starlux Airlines Airbus A321-200neo - ACF
@@ -432,6 +460,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJX
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo
@@ -449,6 +478,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo - IC
@@ -466,6 +496,7 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Thai AirAsia Airbus A321-200neo - ACF A321neo
@@ -483,3 +514,4 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
+ui_typerole=Commercial Airliner

@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -75,6 +70,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 no rear Dome
@@ -93,6 +89,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 No Belly Titles
@@ -111,6 +108,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 No Belly Titles no rear Dome
@@ -129,6 +127,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 Charter no rear Dome
@@ -147,6 +146,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 Charter No Belly Titles no rear Dome
@@ -165,6 +165,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF
@@ -183,6 +184,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF cargo door bumper
@@ -201,6 +203,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - PW PCF
@@ -219,6 +222,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_E-Cargo Airlines Boeing 757-200 - PCF
@@ -238,6 +242,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ERF
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_FedEx Express Boeing 757-200 - PW SF
@@ -256,6 +261,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDX
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Raya Airways Boeing 757-200 - PCF
@@ -274,6 +280,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RMY
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Uzbekistan Airways Boeing 757-200
@@ -293,6 +300,7 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UZB
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Uzbekistan Airways Boeing 757-200 - named
@@ -312,3 +320,4 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UZB
+ui_typerole=Commercial Airliner

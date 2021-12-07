@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -81,6 +76,7 @@ description=AIG_B757-300WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Delta Air Lines Boeing 757-300WL - No Belly Titles
@@ -99,3 +95,4 @@ description=AIG_B757-300WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner

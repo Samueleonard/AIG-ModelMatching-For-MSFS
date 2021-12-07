@@ -36,6 +36,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VBW
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Dolomiti Embraer EMB-195
@@ -53,6 +54,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Dolomiti Embraer EMB-195 - OC Hellas Verona
@@ -70,6 +72,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Dolomiti Embraer EMB-195 - Star Alliance
@@ -87,6 +90,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air Europa Embraer EMB-195 - Express
@@ -104,6 +108,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air Europa Embraer EMB-195 - Express Rafa Nadal Sports Centre
@@ -121,6 +126,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Air Europa Embraer EMB-195 - Express Uruguay
@@ -138,6 +144,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Air Europa Embraer EMB-195 - OC Express El Mundo
@@ -155,6 +162,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Air Europa Embraer EMB-195 - OC Express Luis Salom/Visit Salvador (TEMP)
@@ -172,6 +180,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Arkia Israeli Airlines Embraer EMB-195 - 4X-EMA Green
@@ -189,6 +198,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIZ
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Arkia Israeli Airlines Embraer EMB-195 - 4X-EMC Blue
@@ -206,6 +216,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIZ
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Arkia Israeli Airlines Embraer EMB-195 - 4X-EMF Purple
@@ -223,6 +234,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIZ
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Aurigny Air Services Embraer EMB-195 - Channel Islands
@@ -240,6 +252,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUR
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC
@@ -257,6 +270,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC unnamed
@@ -274,6 +288,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC my Austrian
@@ -291,6 +306,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC Star Alliance
@@ -308,6 +324,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC Johann Strauss Orchestra
@@ -325,6 +342,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUA Blue U Canarinho
@@ -342,6 +360,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUC Blue U
@@ -359,6 +378,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUE Blue U Smile
@@ -376,6 +396,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUF Blue U Smile
@@ -393,6 +414,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUH Blue U (TEMP)
@@ -410,6 +432,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUI Blue U
@@ -427,6 +450,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUJ Blue U
@@ -444,6 +468,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUK Blue U
@@ -461,6 +486,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUM Blue U
@@ -478,6 +504,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUN Blue U
@@ -495,6 +522,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUO Blue U
@@ -512,6 +540,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUP Blue U 1200th Embraer
@@ -529,6 +558,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUQ Sky
@@ -546,6 +576,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXA Blue U Subtitles
@@ -563,6 +594,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXB Blue U Subtitles
@@ -580,6 +612,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXC Blue U Subtitles
@@ -597,6 +630,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXD Blue U Subtitles
@@ -614,6 +648,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXE Blue U Subtitles (TEMP)
@@ -631,6 +666,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXF Blue U Subtitles
@@ -648,6 +684,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.37]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXG Blue U Subtitles
@@ -665,6 +702,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.38]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXH 50 Cities
@@ -682,6 +720,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.39]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXI Blue U Subtitles
@@ -699,6 +738,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.40]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXJ Blue U Subtitles
@@ -716,6 +756,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.41]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXK Blue U Subtitles
@@ -733,6 +774,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.42]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXL Blue U Caixa
@@ -750,6 +792,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.43]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXN Blue U Subtitles
@@ -767,6 +810,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.44]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXO Blue U Subtitles
@@ -784,6 +828,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.45]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXP Blue U
@@ -801,6 +846,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.46]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXR Blue U (TEMP)
@@ -818,6 +864,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.47]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXS Blue U (TEMP)
@@ -835,6 +882,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.48]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXT Blue U
@@ -852,6 +900,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.49]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXU Blue U
@@ -869,6 +918,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.50]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXW Blue U
@@ -886,6 +936,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.51]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXX Blue U
@@ -903,6 +954,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.52]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXY Blue U
@@ -920,6 +972,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.53]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXZ Blue U
@@ -937,6 +990,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.54]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYI Blue U Subtitles
@@ -954,6 +1008,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.55]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYJ Blue U Subtitles
@@ -971,6 +1026,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.56]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYK Blue U Subtitles
@@ -988,6 +1044,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.57]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYL Blue U Subtitles (TEMP)
@@ -1005,6 +1062,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.58]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYN Blue U Subtitles
@@ -1022,6 +1080,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.59]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYO Pink Ribbon
@@ -1039,6 +1098,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.60]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYV Brazil Flag
@@ -1056,6 +1116,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.61]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYX Rumo a Sustentabilidade
@@ -1073,6 +1134,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.62]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYY Azul Viagens
@@ -1090,6 +1152,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+ui_typerole=Commercial Airliner
 
 [fltsim.63]
 title=AIGAIM_Belavia Embraer EMB-195
@@ -1107,6 +1170,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
+ui_typerole=Commercial Airliner
 
 [fltsim.64]
 title=AIGAIM_Belavia Embraer EMB-195 - OC
@@ -1124,6 +1188,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
+ui_typerole=Commercial Airliner
 
 [fltsim.65]
 title=AIGAIM_Belavia Embraer EMB-195 - World of Tanks
@@ -1141,6 +1206,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
+ui_typerole=Commercial Airliner
 
 [fltsim.66]
 title=AIGAIM_Breeze Airways Embraer EMB-195
@@ -1158,6 +1224,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXY
+ui_typerole=Commercial Airliner
 
 [fltsim.67]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-195
@@ -1175,6 +1242,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
+ui_typerole=Commercial Airliner
 
 [fltsim.68]
 title=AIGAIM_Tianjin Airlines Embraer EMB-195
@@ -1192,6 +1260,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
+ui_typerole=Commercial Airliner
 
 [fltsim.69]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195
@@ -1209,6 +1278,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.70]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Belly Titles
@@ -1226,6 +1296,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.71]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC
@@ -1243,6 +1314,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.72]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Grzeski
@@ -1260,6 +1332,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.73]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Sliwka Naleczowska
@@ -1277,6 +1350,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.74]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Azul Hybrid SP-LNN
@@ -1294,6 +1368,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.75]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Saratov Hybrid
@@ -1311,6 +1386,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.76]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC
@@ -1328,6 +1404,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.77]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC unnamed LH Titles
@@ -1345,6 +1422,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.78]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA
@@ -1362,6 +1440,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.79]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA OC Hellas Verona
@@ -1379,6 +1458,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.80]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMA
@@ -1396,6 +1476,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
+ui_typerole=Commercial Airliner
 
 [fltsim.81]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMB
@@ -1413,6 +1494,7 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
+ui_typerole=Commercial Airliner
 
 [fltsim.82]
 title=AIGAIM_TAP Express Embraer EMB-195 - IC opb Portugalia Wifi dome
@@ -1430,3 +1512,4 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAPX
+ui_typerole=Commercial Airliner

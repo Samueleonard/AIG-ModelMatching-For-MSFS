@@ -4,7 +4,7 @@ minor=0
 
 [General]
 atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
-atc_model="TT:ATCCOM.AC_MODEL_B752.0.text"
+atc_model="$$:757-200"
 Category="airplane"
 performance=""
 editable=1
@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -72,6 +67,7 @@ description=AIG_C-32WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=1AS
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_US Air Force 1st Airlift Squadron Boeing C-32A WL - 09-0016
@@ -87,6 +83,7 @@ description=AIG_C-32WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=1AS
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_US Air Force 1st Airlift Squadron Boeing C-32A WL - 09-0017
@@ -102,6 +99,7 @@ description=AIG_C-32WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=1AS
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_US Air Force 1st Airlift Squadron Boeing C-32A WL - 98-0002
@@ -117,6 +115,7 @@ description=AIG_C-32WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=1AS
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_US Air Force 1st Airlift Squadron Boeing C-32A WL - 99-0003
@@ -132,3 +131,4 @@ description=AIG_C-32WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=1AS
+ui_typerole=Commercial Airliner

@@ -31,9 +31,6 @@ small_pushback=0
 marshaller=1
 jetway=1
 
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1
-
 [fltsim.0]
 title=AIGAIM_Aero Regional Boeing 737-500 - New Color'
 model=RER-Aero Regional_New Color'
@@ -50,6 +47,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RER
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Aircompany Armenia Boeing 737-500 - Eyebrows
@@ -64,6 +62,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NGT
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Djibouti Boeing 737-500 - EY-560 opb Asia Sky Lines
@@ -81,6 +80,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DJB
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air North Boeing 737-500
@@ -97,6 +97,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air North Boeing 737-500 - OC
@@ -113,6 +114,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Albatros Airlines Boeing 737-500
@@ -130,6 +132,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GAL
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Albawings Boeing 737-500
@@ -147,6 +150,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWT
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_AlMasria Universal Airlines Boeing 737-500
@@ -164,6 +168,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LMU
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_AMC Airlines Boeing 737-500 - Eyebrows
@@ -181,6 +186,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMV
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_ANA Wings Boeing 737-500
@@ -198,6 +204,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AKX
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Ariana Afghan Airlines Boeing 737-500
@@ -214,6 +221,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFG
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_ATA Airlines Boeing 737-500 - Eyebrows
@@ -231,6 +239,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Azman Air Boeing 737-500 - Eyebrows
@@ -247,6 +256,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZM
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Badr Airlines Boeing 737-500
@@ -263,6 +273,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Badr Airlines Boeing 737-500 - Eyebrows
@@ -279,6 +290,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Bahamasair Boeing 737-500
@@ -296,6 +308,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BHS
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Blue Air Boeing 737-500
@@ -313,6 +326,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Blue Air Boeing 737-500 - no Webtitles
@@ -330,6 +344,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Blue Air Boeing 737-500 - darker Tail Logo
@@ -347,6 +362,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Buraq Air Boeing 737-500 - Eyebrows
@@ -364,6 +380,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRQ
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Felix Airways Boeing 737-500 - opb Alfa Airlines
@@ -380,6 +397,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FXX
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Mauritania Airlines International Boeing 737-500 - eyebrows
@@ -397,6 +415,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAI
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Kam Air Boeing 737-500
@@ -414,6 +433,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMF
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BKV
@@ -431,6 +451,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQI
@@ -448,6 +469,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQL
@@ -465,6 +487,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRG
@@ -482,6 +505,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRI
@@ -499,6 +523,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRK
@@ -516,6 +541,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRN
@@ -533,6 +559,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Tunisair Express Boeing 737-500 - opb KHH Eyebrows
@@ -550,6 +577,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUX
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_UTair Boeing 737-500 - OC (TEMP)
@@ -567,3 +595,7 @@ description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
+ui_typerole=Commercial Airliner
+
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1

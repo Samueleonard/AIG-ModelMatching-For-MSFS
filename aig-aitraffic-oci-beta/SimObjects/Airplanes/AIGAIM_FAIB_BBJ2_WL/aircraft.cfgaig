@@ -53,6 +53,7 @@ description=FAIB_BBJ2_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_His Majesty King Maha Vajiralongkorn Boeing BBJ2 WL - SN HS-HMK
@@ -70,6 +71,7 @@ description=FAIB_BBJ2_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Indonesian Government Boeing BBJ2 WL - SN A-001
@@ -87,3 +89,4 @@ description=FAIB_BBJ2_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner

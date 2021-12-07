@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=0
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -75,6 +70,7 @@ description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Icelandair Cargo Boeing 757-200F
@@ -94,6 +90,7 @@ description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICEC
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_UPS Airlines Boeing 757-200F - RR
@@ -112,6 +109,7 @@ description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_UPS Airlines Boeing 757-200F - RR Old Titles
@@ -131,3 +129,4 @@ description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
+ui_typerole=Commercial Airliner

@@ -47,6 +47,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HOP
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_American Eagle Bombardier CRJ-700 - opb PSA
@@ -64,6 +65,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_American Eagle Bombardier CRJ-700 - opb Skywest
@@ -81,6 +83,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_American Eagle Bombardier CRJ-700 - opb Skywest House Colors
@@ -98,6 +101,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_American Eagle Bombardier CRJ-700 - NextGen opb PSA
@@ -115,6 +119,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Delta Connection Bombardier CRJ-700 - opb Endeavor Air
@@ -132,6 +137,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Delta Connection Bombardier CRJ-700 - opb Skywest Airlines
@@ -149,6 +155,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen
@@ -166,6 +173,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBX
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Musubimaru Jet
@@ -183,6 +191,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBX
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Soma 20th Anniversary
@@ -200,6 +209,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBX
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N519JG
@@ -216,6 +226,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N520JG
@@ -232,6 +243,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_United Express Bombardier CRJ-700 - NextGen opb Skywest Airlines
@@ -249,6 +261,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_United Express Bombardier CRJ-700 - NextGen OC opb Skywest Airlines
@@ -266,6 +279,7 @@ description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_LOT Polish Airlines Bombardier CRJ-700 - Nordica
@@ -282,6 +296,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_LOT Polish Airlines Bombardier CRJ-700 - Nordica Charter OPS
@@ -298,6 +313,7 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Luxair Bombardier CRJ-700 - opb Adria
@@ -315,3 +331,4 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LGL
+ui_typerole=Commercial Airliner

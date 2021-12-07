@@ -80,6 +80,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Cathay Pacific Airbus A350-1000
@@ -97,6 +98,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Qatar Airways Airbus A350-1000
@@ -114,6 +116,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Qatar Airways Airbus A350-1000 - Oneworld
@@ -131,6 +134,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Zadie
@@ -148,6 +152,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Zadie AOA vanes
@@ -165,6 +170,7 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Oscar
@@ -182,3 +188,4 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner

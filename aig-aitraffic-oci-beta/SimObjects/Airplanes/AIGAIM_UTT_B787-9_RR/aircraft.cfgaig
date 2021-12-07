@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -81,6 +76,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Europa Boeing 787-9 - Mateo Sanchez
@@ -99,6 +95,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air New Zealand Boeing 787-9
@@ -116,6 +113,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_All Nippon Airways Boeing 787-9
@@ -134,6 +132,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Tomo Dachi
@@ -152,6 +151,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Air Japan
@@ -170,6 +170,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Air Japan 50th Boeing 787
@@ -188,6 +189,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Air Japan Star Alliance
@@ -206,6 +208,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Air Japan Star Wars R2-D2
@@ -224,6 +227,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_British Airways Boeing 787-9
@@ -242,6 +246,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_EgyptAir Boeing 787-9 - Belly Titles World Youth Forum
@@ -260,6 +265,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_EgyptAir Boeing 787-9 - Belly Titles Clean to fly (TEMP)
@@ -278,6 +284,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - 70 years sticker
@@ -296,6 +303,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - Retro
@@ -314,6 +322,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - San Francisco/Las Vegas
@@ -332,6 +341,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUO Beijing
@@ -350,6 +360,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUP London
@@ -368,6 +379,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUQ Frankfurt 100th Aircraft
@@ -386,6 +398,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUR Tokyo
@@ -404,6 +417,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Gulf Air Boeing 787-9 - WiFi dome
@@ -422,6 +436,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Gulf Air Boeing 787-9 - Retro WiFi dome
@@ -440,6 +455,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Thai Airways Boeing 787-9 - Wifi Dome
@@ -458,6 +474,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-9
@@ -476,6 +493,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_LATAM Airlines Peru Boeing 787-9
@@ -494,6 +512,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Belly Titles
@@ -512,6 +531,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Polands Independence
@@ -530,6 +550,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Neos Boeing 787-9
@@ -547,6 +568,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOS
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Scoot Boeing 787-9
@@ -565,6 +587,7 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Virgin Atlantic Boeing 787-9
@@ -583,3 +606,4 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner

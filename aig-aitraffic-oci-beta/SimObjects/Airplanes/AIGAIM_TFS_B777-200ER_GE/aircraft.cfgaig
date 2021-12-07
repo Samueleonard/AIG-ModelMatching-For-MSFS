@@ -40,12 +40,9 @@ JETWAY=1
 [EFFECTS]
 wake=fx_wake
 water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -81,6 +78,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air France Boeing 777-200ER - OC
@@ -99,6 +97,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air France Boeing 777-200ER - OC no WiFi
@@ -117,6 +116,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air France Boeing 777-200ER - OOC no WiFi
@@ -135,6 +135,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Alitalia Boeing 777-200ER
@@ -153,6 +154,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Alitalia Boeing 777-200ER - WiFi Dome
@@ -170,6 +172,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Alitalia Boeing 777-200ER - Skyteam WiFi Dome
@@ -187,6 +190,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Alitalia Boeing 777-200ER - OC
@@ -204,6 +208,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER
@@ -222,6 +227,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - 60th Anniversary
@@ -240,6 +246,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - IC my Sound of Austria
@@ -258,6 +265,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - OC
@@ -276,6 +284,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - OC Signatures
@@ -294,6 +303,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL WiFi Dome (TEMP)
@@ -311,6 +321,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL OC WiFi Dome (TEMP)
@@ -328,6 +339,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL OC Crest WiFi Dome (TEMP)
@@ -345,6 +357,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE
@@ -363,6 +376,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC
@@ -381,6 +395,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC Larry Kellner
@@ -399,6 +414,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC Star Alliance
@@ -417,6 +433,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-200ER
@@ -435,6 +452,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTA
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Japan Airlines Boeing 777-200ER - Contrail
@@ -453,6 +471,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Japan Airlines Boeing 777-200ER - Oneworld
@@ -471,6 +490,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Japan Airlines Boeing 777-200ER - No WiFi Dome
@@ -489,6 +509,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_KLM Boeing 777-200ER - Sat 100 Years
@@ -507,6 +528,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_KLM Boeing 777-200ER - KLM ASIA
@@ -525,6 +547,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_KLM Boeing 777-200ER - KLM ASIA 100 Years
@@ -543,6 +566,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_KLM Boeing 777-200ER - OC 100 Years
@@ -561,6 +585,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_KLM Boeing 777-200ER - OC Sat 100 Years
@@ -579,6 +604,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_KLM Boeing 777-200ER - OC KLM ASIA 100 Years
@@ -597,6 +623,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_KLM Boeing 777-200ER - OC KLM asia lower case letters 100 Years
@@ -615,6 +642,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_Pakistan International Airlines Boeing 777-200ER - OC
@@ -633,6 +661,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Pakistan International Airlines Boeing 777-200ER - Retro
@@ -651,6 +680,7 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Saudia Boeing 777-200ER - OC
@@ -669,3 +699,4 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+ui_typerole=Commercial Airliner

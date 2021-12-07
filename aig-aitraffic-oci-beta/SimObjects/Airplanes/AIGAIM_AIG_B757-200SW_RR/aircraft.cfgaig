@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -76,6 +71,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TCV
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Cabo Verde Airlines Boeing 757-200SW - opb Icelandair
@@ -95,6 +91,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TCV
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Icelandair Boeing 757-200SW
@@ -114,6 +111,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Icelandair Boeing 757-200SW - Hekla Aurora
@@ -132,6 +130,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Icelandair Boeing 757-200SW - 80 Years of Aviation
@@ -150,6 +149,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_United Airlines Boeing 757-200SW - RR
@@ -168,6 +168,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_United Airlines Boeing 757-200SW - RR California Art
@@ -186,6 +187,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_United Airlines Boeing 757-200SW - RR New York Art
@@ -204,6 +206,7 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_United Airlines Boeing 757-200SW - RR OC
@@ -222,3 +225,4 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner

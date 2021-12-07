@@ -3,22 +3,16 @@ major=1
 minor=0
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL A21N.0.text ; 
-editable=0 ; 
-performance=; 
-category=airplane ; 
-pilot="Pilot_Female_Casual" ; 
-copilot="Pilot_Male_Casual" ; 
-instructor="Pilot_Male_Casual" ; 
-wip_indicator=2 ; 
-icao_type_designator=A21N ; 
-icao_manufacturer=AIRBUS ; 
-icao_model=A-321neo ; 
-icao_engine_type="Jet" ; 
-icao_engine_count=2 ; 
-icao_wtc=M ; 
-icao_generic=0 ; 
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A21N.0.text"
+icao_type_designator="A21N"
+icao_manufacturer="AIRBUS"
+icao_model="A-321neo"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
 
 [EXITS]
 number_of_exits=2 ; 
@@ -31,6 +25,17 @@ water=fx_spray ;
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
 touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
 
 [fltsim.0]
 title=AIGAIM_Aer Lingus Airbus A321-200neo LR
@@ -47,6 +52,7 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EIN
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Arkia Israeli Airlines Airbus A321-200neo LR - 4X-AGH Magenta
@@ -64,6 +70,7 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIZ
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Arkia Israeli Airlines Airbus A321-200neo LR - 4X-AGK Red
@@ -81,6 +88,7 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIZ
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Azores Airlines Airbus A321-200neo LR - Magical Wifi dome
@@ -97,6 +105,7 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_La Compagnie Airbus A321-200neo LR (TEMP)
@@ -129,6 +138,7 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DJT
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo LR - IC Wifi dome
@@ -146,3 +156,4 @@ description=FAIB_A321-200neo_LR_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner

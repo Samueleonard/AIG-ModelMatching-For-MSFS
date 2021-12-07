@@ -38,6 +38,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WGN
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_KLM Boeing 747-400 - Full Pax 100 Years
@@ -56,6 +57,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_KLM Boeing 747-400 - Full Pax OC 100 Years
@@ -74,6 +76,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_KLM Boeing 747-400M - Full Pax OC SCD 100 Years
@@ -92,6 +95,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_KLM Boeing 747-400M - Combi 100 Years
@@ -110,6 +114,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_KLM Boeing 747-400M - Combi OC 100 Years
@@ -128,6 +133,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_UPS Airlines Boeing 747-400 - BCF
@@ -146,6 +152,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_EVA Air Cargo Boeing 747-400 - BDSF OC Old Titles
@@ -164,6 +171,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVAC
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Suparna Airlines Cargo Boeing 747-400 - BDSF OC (TEMP)
@@ -182,6 +190,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Saudia Boeing 747-400 - GE Albino opb AAI
@@ -200,6 +209,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Saudia Boeing 747-400 - GE OC New Tail Logo opb AAI
@@ -218,6 +228,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_China Airlines Boeing 747-400
@@ -236,6 +247,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_China Airlines Boeing 747-400 - Skyteam
@@ -254,6 +266,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Lufthansa Boeing 747-400
@@ -272,6 +285,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC Webtitles
@@ -290,6 +304,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed
@@ -308,6 +323,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed Webtitles
@@ -326,6 +342,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Asiana Airlines Boeing 747-400 - Old Titles
@@ -344,6 +361,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
@@ -362,6 +380,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Virgin Atlantic Boeing 747-400
@@ -380,6 +399,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC
@@ -398,6 +418,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC Forever Young
@@ -416,6 +437,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino opb ACT
@@ -434,6 +456,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino Large Reg opb ACT
@@ -452,6 +475,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Asiana Airlines Cargo Boeing 747-400 - BDSF Old Titles
@@ -470,6 +494,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AARC
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Air Atlanta Icelandic Boeing 747-400 - GE BCF opf Magma Aviation
@@ -488,6 +513,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABD
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Air Atlanta Icelandic Boeing 747-400 - GE BDSF opf Magma Aviation TF-AMN
@@ -506,6 +532,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABD
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Air Atlanta Icelandic Boeing 747-400 - GE BDSF opf Magma Aviation TF-AMR
@@ -524,6 +551,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABD
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Thai Airways Boeing 747-400
@@ -542,6 +570,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Thai Airways Boeing 747-400 - Star Alliance (TEMP)
@@ -560,6 +589,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Rossiya Airlines Boeing 747-400
@@ -578,6 +608,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_Rossiya Airlines Boeing 747-400 - Tigers together
@@ -596,6 +627,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF
@@ -614,6 +646,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF DHL Hybrid black titles
@@ -632,6 +665,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
+ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF White
@@ -650,6 +684,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
+ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE
@@ -668,6 +703,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
+ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE Belly logo
@@ -686,6 +722,7 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
+ui_typerole=Commercial Airliner
 
 [fltsim.37]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE BCF Belly logo
@@ -704,3 +741,4 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
+ui_typerole=Commercial Airliner

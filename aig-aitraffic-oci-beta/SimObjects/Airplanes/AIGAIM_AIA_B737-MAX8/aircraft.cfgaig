@@ -48,6 +48,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Boeing 737 MAX 8
@@ -65,6 +66,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_American Airlines Boeing 737 MAX 8
@@ -82,6 +84,7 @@ description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8
@@ -99,6 +102,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8 - IC
@@ -116,6 +120,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Hainan Airlines Boeing 737 MAX 8 - Old HNA Logo
@@ -134,6 +139,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Southwest Airlines Boeing 737 MAX 8
@@ -151,6 +157,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_TUI fly Belgium Boeing 737 MAX 8
@@ -169,6 +176,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_United Airlines Boeing 737 MAX 8
@@ -186,6 +194,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Lion Air Boeing 737 MAX 8
@@ -204,6 +213,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Lion Air Boeing 737 MAX 8 - Batik Hybrid
@@ -222,6 +232,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Mauritania Airlines International Boeing 737 MAX 8 - 1st 737 Max
@@ -240,6 +251,7 @@ description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAI
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Kunming Airlines Boeing 737 MAX 8
@@ -257,6 +269,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Shandong Airlines Boeing 737 MAX 8
@@ -274,6 +287,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Shandong Airlines Boeing 737 MAX 8 - Guomei Liquor
@@ -291,6 +305,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Shenzhen Airlines Boeing 737 MAX 8
@@ -308,6 +323,7 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Turkish Airlines Boeing 737 MAX 8
@@ -325,3 +341,4 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+ui_typerole=Commercial Airliner

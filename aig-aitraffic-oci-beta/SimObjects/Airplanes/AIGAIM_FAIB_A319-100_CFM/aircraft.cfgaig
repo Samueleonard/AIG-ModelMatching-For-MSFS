@@ -3,22 +3,16 @@ major=1
 minor=0
 
 [GENERAL]
-atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text" ; 
-atc_model="TT:ATCCOM.AC_MODEL A319.0.text" ; 
-editable=0 ; 
-performance=; 
-category=airplane ; 
-pilot="Pilot_Female_Casual" ; 
-copilot="Pilot_Male_Casual" ; 
-instructor="Pilot_Male_Casual" ; 
-wip_indicator=2 ; 
-icao_type_designator="A319" ; 
-icao_manufacturer="AIRBUS" ; 
-icao_model="A-319" ; 
-icao_engine_type="Jet" ; 
-icao_engine_count=2 ; 
-icao_wtc="M" ; 
-icao_generic=0 ; 
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A319.0.text"
+icao_type_designator="A319"
+icao_manufacturer="AIRBUS"
+icao_model="A-319"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
 
 [EXITS]
 number_of_exits=2 ; 
@@ -31,6 +25,17 @@ water=fx_spray ;
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
 touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
 
 [fltsim.0]
 title=AIGAIM_Air Canada Airbus A319-100
@@ -47,6 +52,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Canada Airbus A319-100 - OC
@@ -63,6 +69,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Canada Airbus A319-100 - Retro
@@ -79,6 +86,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Canada Jetz Airbus A319-100 - OC
@@ -109,6 +117,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROU
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air Canada Rouge Airbus A319-100 - small AC titles
@@ -125,6 +134,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROU
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Air Canada Rouge Airbus A319-100 - OC
@@ -141,6 +151,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROU
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Air China Airbus A319-100 - CFM
@@ -158,6 +169,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Air China Airbus A319-100 - CFM Bold Line
@@ -174,6 +186,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Air China Airbus A319-100 - CFM No Flag
@@ -191,6 +204,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Air China Airbus A319-100 - CFM No Flag Bold Line
@@ -208,6 +222,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Air Cote d'Ivoire Airbus A319-100
@@ -224,6 +239,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VRE
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Air France Airbus A319-100
@@ -241,6 +257,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Air France Airbus A319-100 - OC
@@ -258,6 +275,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Air France Airbus A319-100 - OC no WiFi
@@ -275,6 +293,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Air France Airbus A319-100 - OC Paris 2024 no WiFi
@@ -292,6 +311,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Air India Airbus A319-100
@@ -309,6 +329,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Air Mauritius Airbus A319-100
@@ -326,6 +347,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAU
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Air Moldova Airbus A319-100 - CFM
@@ -343,6 +365,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLD
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Air Moldova Airbus A319-100 - CFM Albino
@@ -360,6 +383,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLD
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Air Moldova Airbus A319-100 - CFM opb Anda Air
@@ -377,6 +401,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLD
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Air Senegal Airbus A319-100
@@ -394,6 +419,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SZN
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Alitalia Airbus A319-100
@@ -411,6 +437,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Alitalia Airbus A319-100 - OC
@@ -428,6 +455,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Allegiant Air Airbus A319-100
@@ -445,6 +473,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Allegiant Air Airbus A319-100 - OC Travel Deal
@@ -462,6 +491,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Allegiant Air Airbus A319-100 - Vegas Golden Knights
@@ -479,6 +509,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Allegiant Air Airbus A319-100 - Las Vegas Raiders
@@ -496,6 +527,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM
@@ -513,6 +545,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage PSA
@@ -530,6 +563,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Piedmont
@@ -547,6 +581,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Allegheny
@@ -564,6 +599,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Aurora Airlines Airbus A319-100
@@ -581,6 +617,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHU
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Aurora Airlines Airbus A319-100 - Centre Amur Tiger
@@ -598,6 +635,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHU
+ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_Austrian Airlines Airbus A319-100 - IC
@@ -615,6 +653,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Austrian Airlines Airbus A319-100 - IC my Austrian
@@ -632,6 +671,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Avianca Airbus A319-100 - CFM
@@ -649,6 +689,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.37]
 title=AIGAIM_Avianca Airbus A319-100 - CFM WiFi Dome
@@ -666,6 +707,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.38]
 title=AIGAIM_Avianca Airbus A319-100 - CFM OC
@@ -683,6 +725,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.39]
 title=AIGAIM_Avianca Airbus A319-100 - CFM OC WiFi Dome
@@ -700,6 +743,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.40]
 title=AIGAIM_Avianca Airbus A319-100 - CFM Star Alliance WiFi Dome
@@ -717,6 +761,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.41]
 title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM
@@ -734,6 +779,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLG
+ui_typerole=Commercial Airliner
 
 [fltsim.42]
 title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM - Old Livery
@@ -751,6 +797,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLG
+ui_typerole=Commercial Airliner
 
 [fltsim.43]
 title=AIGAIM_AZAL Azerbaijan Airlines Airbus A319-100
@@ -768,6 +815,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
+ui_typerole=Commercial Airliner
 
 [fltsim.44]
 title=AIGAIM_Azores Airlines Airbus A319-100 - opb HiFly Malta 9H-XFW
@@ -785,6 +833,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
+ui_typerole=Commercial Airliner
 
 [fltsim.45]
 title=AIGAIM_Bhutan Airlines Airbus A319-100
@@ -802,6 +851,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTN
+ui_typerole=Commercial Airliner
 
 [fltsim.46]
 title=AIGAIM_Brussels Airlines Airbus A319-100
@@ -819,6 +869,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.47]
 title=AIGAIM_Brussels Airlines Airbus A319-100 - two overwing exits
@@ -836,6 +887,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.48]
 title=AIGAIM_Brussels Airlines Airbus A319-100 - Star Alliance
@@ -853,6 +905,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.49]
 title=AIGAIM_Brussels Airlines Airbus A319-100 - opb CSA Eurowings Hybrid
@@ -870,6 +923,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.50]
 title=AIGAIM_Brussels Airlines Airbus A319-100 - opb CSA City of Prague
@@ -887,6 +941,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.51]
 title=AIGAIM_Brussels Airlines Airbus A319-100 - opb EWG two overwing exits
@@ -904,6 +959,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.52]
 title=AIGAIM_Bulgaria Air Airbus A319-100
@@ -921,6 +977,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LZB
+ui_typerole=Commercial Airliner
 
 [fltsim.53]
 title=AIGAIM_Cambodia Airways Airbus A319-100
@@ -938,6 +995,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
+ui_typerole=Commercial Airliner
 
 [fltsim.54]
 title=AIGAIM_Cambodia Airways Airbus A319-100 - Two Overwing Exits
@@ -955,6 +1013,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
+ui_typerole=Commercial Airliner
 
 [fltsim.55]
 title=AIGAIM_Cambodia Airways Airbus A319-100 - Sundair Hybrid XU-787
@@ -972,6 +1031,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
+ui_typerole=Commercial Airliner
 
 [fltsim.56]
 title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Engine Titles
@@ -988,6 +1048,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.57]
 title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Old HNA Logo Engine Titles
@@ -1004,6 +1065,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
+ui_typerole=Commercial Airliner
 
 [fltsim.58]
 title=AIGAIM_CHair Airlines Airbus A319-100
@@ -1021,6 +1083,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GSW
+ui_typerole=Commercial Airliner
 
 [fltsim.59]
 title=AIGAIM_Chengdu Airlines Airbus A319-100
@@ -1038,6 +1101,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UEA
+ui_typerole=Commercial Airliner
 
 [fltsim.60]
 title=AIGAIM_China Eastern Airlines Airbus A319-100 - CFM OC
@@ -1055,6 +1119,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
+ui_typerole=Commercial Airliner
 
 [fltsim.61]
 title=AIGAIM_China Southern Airlines Airbus A319-100 - CFM
@@ -1071,6 +1136,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+ui_typerole=Commercial Airliner
 
 [fltsim.62]
 title=AIGAIM_Chongqing Airlines Airbus A319-100
@@ -1088,6 +1154,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CQN
+ui_typerole=Commercial Airliner
 
 [fltsim.63]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Zadar
@@ -1104,6 +1171,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
+ui_typerole=Commercial Airliner
 
 [fltsim.64]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Zagreb
@@ -1120,6 +1188,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
+ui_typerole=Commercial Airliner
 
 [fltsim.65]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Star Alliance
@@ -1136,6 +1205,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
+ui_typerole=Commercial Airliner
 
 [fltsim.66]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Pula Bravo Vatreni
@@ -1152,6 +1222,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
+ui_typerole=Commercial Airliner
 
 [fltsim.67]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100
@@ -1169,6 +1240,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+ui_typerole=Commercial Airliner
 
 [fltsim.68]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - 95 Years
@@ -1186,6 +1258,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+ui_typerole=Commercial Airliner
 
 [fltsim.69]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - City of Prague
@@ -1203,6 +1276,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+ui_typerole=Commercial Airliner
 
 [fltsim.70]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - Skyteam
@@ -1220,6 +1294,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+ui_typerole=Commercial Airliner
 
 [fltsim.71]
 title=AIGAIM_Cyprus Airways Airbus A319-100
@@ -1237,6 +1312,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CYP
+ui_typerole=Commercial Airliner
 
 [fltsim.72]
 title=AIGAIM_Delta Air Lines Airbus A319-100
@@ -1254,6 +1330,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.73]
 title=AIGAIM_Delta Air Lines Airbus A319-100 - No Belly Titles
@@ -1271,6 +1348,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.74]
 title=AIGAIM_Druk Air Airbus A319-100
@@ -1288,6 +1366,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DRK
+ui_typerole=Commercial Airliner
 
 [fltsim.75]
 title=AIGAIM_easyJet Airbus A319-100
@@ -1305,6 +1384,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.76]
 title=AIGAIM_easyJet Airbus A319-100 - No Flag
@@ -1322,6 +1402,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.77]
 title=AIGAIM_easyJet Airbus A319-100 - Amsterdam
@@ -1339,6 +1420,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.78]
 title=AIGAIM_easyJet Airbus A319-100 - Mark McKee
@@ -1356,6 +1438,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.79]
 title=AIGAIM_easyJet Airbus A319-100 - Porto
@@ -1373,6 +1456,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.80]
 title=AIGAIM_easyJet Airbus A319-100 - Spirit of easyJet 2018
@@ -1390,6 +1474,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.81]
 title=AIGAIM_easyJet Airbus A319-100 - OC
@@ -1407,6 +1492,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.82]
 title=AIGAIM_easyJet Airbus A319-100 - OC Spirit of easyJet 2014
@@ -1424,6 +1510,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.83]
 title=AIGAIM_easyJet Airbus A319-100 - OC UNICEF
@@ -1441,6 +1528,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.84]
 title=AIGAIM_easyJet Airbus A319-100 - Albino
@@ -1458,6 +1546,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.85]
 title=AIGAIM_easyJet Airbus A319-100 - Albino Orange Reverser
@@ -1475,6 +1564,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+ui_typerole=Commercial Airliner
 
 [fltsim.86]
 title=AIGAIM_easyJet Europe Airbus A319-100
@@ -1492,6 +1582,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.87]
 title=AIGAIM_easyJet Europe Airbus A319-100 - #milaneasy
@@ -1509,6 +1600,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.88]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Adam Stoaling
@@ -1526,6 +1618,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.89]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Europcar Keri Emerton
@@ -1543,6 +1636,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.90]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Palma de Mallorca
@@ -1560,6 +1654,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.91]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Spirit of Bristol
@@ -1577,6 +1672,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.92]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Venezia
@@ -1594,6 +1690,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.93]
 title=AIGAIM_easyJet Europe Airbus A319-100 - OC
@@ -1611,6 +1708,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.94]
 title=AIGAIM_easyJet Europe Airbus A319-100 - OC ex Hamburg
@@ -1628,6 +1726,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
+ui_typerole=Commercial Airliner
 
 [fltsim.95]
 title=AIGAIM_easyJet Switzerland Airbus A319-100
@@ -1645,6 +1744,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZS
+ui_typerole=Commercial Airliner
 
 [fltsim.96]
 title=AIGAIM_easyJet Switzerland Airbus A319-100 - Spirit of easyJet 2016
@@ -1662,6 +1762,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZS
+ui_typerole=Commercial Airliner
 
 [fltsim.97]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM
@@ -1679,6 +1780,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
+ui_typerole=Commercial Airliner
 
 [fltsim.98]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM Germanwings WiFi Dome
@@ -1696,6 +1798,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
+ui_typerole=Commercial Airliner
 
 [fltsim.99]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM CSA Hybrid
@@ -1713,6 +1816,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
+ui_typerole=Commercial Airliner
 
 [fltsim.100]
 title=AIGAIM_Finnair Airbus A319-100
@@ -1730,6 +1834,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
+ui_typerole=Commercial Airliner
 
 [fltsim.101]
 title=AIGAIM_Finnair Airbus A319-100 - Oneworld
@@ -1747,6 +1852,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
+ui_typerole=Commercial Airliner
 
 [fltsim.102]
 title=AIGAIM_FlyBosnia Airbus A319-100
@@ -1764,6 +1870,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBS
+ui_typerole=Commercial Airliner
 
 [fltsim.103]
 title=AIGAIM_FlyBosnia Airbus A319-100 - EYOF 2019
@@ -1781,6 +1888,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBS
+ui_typerole=Commercial Airliner
 
 [fltsim.104]
 title=AIGAIM_Flynas Airbus A319-100 - OC
@@ -1798,6 +1906,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNE
+ui_typerole=Commercial Airliner
 
 [fltsim.105]
 title=AIGAIM_Flynas Airbus A319-100 - OC Abha 2017
@@ -1815,6 +1924,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNE
+ui_typerole=Commercial Airliner
 
 [fltsim.106]
 title=AIGAIM_FlyOne Airbus A319-100 - CFM
@@ -1832,6 +1942,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIA
+ui_typerole=Commercial Airliner
 
 [fltsim.107]
 title=AIGAIM_Frontier Airlines Airbus A319-100 - N949FR OC Erma the Ermine
@@ -1849,6 +1960,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
+ui_typerole=Commercial Airliner
 
 [fltsim.108]
 title=AIGAIM_Iberia Airbus A319-100
@@ -1866,6 +1978,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.109]
 title=AIGAIM_Iberia Airbus A319-100 - red name
@@ -1883,6 +1996,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.110]
 title=AIGAIM_Iberia Airbus A319-100 - unnamed
@@ -1900,6 +2014,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.111]
 title=AIGAIM_Iberia Airbus A319-100 - Halcon Peregrino
@@ -1917,6 +2032,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.112]
 title=AIGAIM_Iberia Airbus A319-100 - Oneworld
@@ -1934,6 +2050,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.113]
 title=AIGAIM_Iberia Airbus A319-100 - OC
@@ -1951,6 +2068,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+ui_typerole=Commercial Airliner
 
 [fltsim.114]
 title=AIGAIM_Icelandair Airbus A319-100 - opb GetJet Airlines
@@ -1968,6 +2086,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.115]
 title=AIGAIM_iFly Airlines Airbus A319-100
@@ -1985,6 +2104,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RSY
+ui_typerole=Commercial Airliner
 
 [fltsim.116]
 title=AIGAIM_Ural Airlines Airbus A319-100 - CFM
@@ -2002,6 +2122,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
+ui_typerole=Commercial Airliner
 
 [fltsim.117]
 title=AIGAIM_Ural Airlines Airbus A319-100 - CFM 2 Overwing Exits
@@ -2019,6 +2140,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
+ui_typerole=Commercial Airliner
 
 [fltsim.118]
 title=AIGAIM_Lucky Air Airbus A319-100
@@ -2036,6 +2158,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
+ui_typerole=Commercial Airliner
 
 [fltsim.119]
 title=AIGAIM_Lucky Air Airbus A319-100 - Albino
@@ -2053,6 +2176,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
+ui_typerole=Commercial Airliner
 
 [fltsim.120]
 title=AIGAIM_Lucky Air Airbus A319-100 - OC Old HNA Logo Engine Titles
@@ -2070,6 +2194,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
+ui_typerole=Commercial Airliner
 
 [fltsim.121]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM
@@ -2086,6 +2211,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
+ui_typerole=Commercial Airliner
 
 [fltsim.122]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM OC (TEMP)
@@ -2103,6 +2229,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
+ui_typerole=Commercial Airliner
 
 [fltsim.123]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - CFM OC
@@ -2119,6 +2246,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
+ui_typerole=Commercial Airliner
 
 [fltsim.124]
 title=AIGAIM_Libyan Wings Airbus A319-100
@@ -2136,6 +2264,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LWA
+ui_typerole=Commercial Airliner
 
 [fltsim.125]
 title=AIGAIM_LOT Polish Airlines Airbus A319-100 - White opb GJT
@@ -2153,6 +2282,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.126]
 title=AIGAIM_Lufthansa Airbus A319-100
@@ -2170,6 +2300,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.127]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC
@@ -2187,6 +2318,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.128]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Webtitles
@@ -2204,6 +2336,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.129]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed
@@ -2221,6 +2354,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.130]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed Webtitles
@@ -2238,6 +2372,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.131]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Lu's World
@@ -2255,6 +2390,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.132]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Star Alliance unnamed
@@ -2272,6 +2408,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.133]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH
@@ -2289,6 +2426,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.134]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC
@@ -2306,6 +2444,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.135]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC Webtitles
@@ -2323,6 +2462,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.136]
 title=AIGAIM_Myanmar Airways International Airbus A319-100
@@ -2340,6 +2480,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MMA
+ui_typerole=Commercial Airliner
 
 [fltsim.137]
 title=AIGAIM_Rossiya Airlines Airbus A319-100
@@ -2357,6 +2498,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
+ui_typerole=Commercial Airliner
 
 [fltsim.138]
 title=AIGAIM_Rossiya Airlines Airbus A319-100 - Zenit St. Petersburg
@@ -2374,6 +2516,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
+ui_typerole=Commercial Airliner
 
 [fltsim.139]
 title=AIGAIM_Rossiya Airlines Airbus A319-100 - Sports (TEMP)
@@ -2391,6 +2534,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
+ui_typerole=Commercial Airliner
 
 [fltsim.140]
 title=AIGAIM_S7 Airlines Airbus A319-100 - Oneworld
@@ -2407,6 +2551,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
+ui_typerole=Commercial Airliner
 
 [fltsim.141]
 title=AIGAIM_S7 Airlines Airbus A319-100 - OC
@@ -2424,6 +2569,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
+ui_typerole=Commercial Airliner
 
 [fltsim.142]
 title=AIGAIM_Shenzhen Airlines Airbus A319-100 - CFM
@@ -2441,6 +2587,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
+ui_typerole=Commercial Airliner
 
 [fltsim.143]
 title=AIGAIM_Sky Airline Airbus A319-100
@@ -2458,6 +2605,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKU
+ui_typerole=Commercial Airliner
 
 [fltsim.144]
 title=AIGAIM_Sky Airline Airbus A319-100 - OC
@@ -2475,6 +2623,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKU
+ui_typerole=Commercial Airliner
 
 [fltsim.145]
 title=AIGAIM_Swiss Airbus A319-100
@@ -2492,6 +2641,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
+ui_typerole=Commercial Airliner
 
 [fltsim.146]
 title=AIGAIM_Swiss Airbus A319-100 - unnamed
@@ -2509,6 +2659,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
+ui_typerole=Commercial Airliner
 
 [fltsim.147]
 title=AIGAIM_TAP Air Portugal Airbus A319-100
@@ -2526,6 +2677,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.148]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC
@@ -2543,6 +2695,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.149]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles
@@ -2560,6 +2713,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.150]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles 70 years
@@ -2577,6 +2731,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.151]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - lsf Aigle Azur
@@ -2594,6 +2749,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+ui_typerole=Commercial Airliner
 
 [fltsim.152]
 title=AIGAIM_Transavia France Airbus A319-100 - opb HiFly Malta 9H-TLS
@@ -2611,6 +2767,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
+ui_typerole=Commercial Airliner
 
 [fltsim.153]
 title=AIGAIM_Tunisair Airbus A319-100
@@ -2628,6 +2785,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
+ui_typerole=Commercial Airliner
 
 [fltsim.154]
 title=AIGAIM_Volotea Airbus A319-100 - English / French
@@ -2645,6 +2803,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.155]
 title=AIGAIM_Volotea Airbus A319-100 - French / English
@@ -2662,6 +2821,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.156]
 title=AIGAIM_Volotea Airbus A319-100 - French / French
@@ -2679,6 +2839,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.157]
 title=AIGAIM_Volotea Airbus A319-100 - French / Italian
@@ -2696,6 +2857,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.158]
 title=AIGAIM_Volotea Airbus A319-100 - French / Italian unnamed
@@ -2713,6 +2875,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.159]
 title=AIGAIM_Volotea Airbus A319-100 - French / Spanish
@@ -2730,6 +2893,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.160]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / English
@@ -2747,6 +2911,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.161]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / French
@@ -2764,6 +2929,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.162]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / Spanish
@@ -2781,6 +2947,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.163]
 title=AIGAIM_Volotea Airbus A319-100 - Spanish / French
@@ -2798,6 +2965,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.164]
 title=AIGAIM_Volotea Airbus A319-100 - Spanish / Italian
@@ -2815,6 +2983,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.165]
 title=AIGAIM_Volotea Airbus A319-100 - Allez les Canaris
@@ -2832,6 +3001,7 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
+ui_typerole=Commercial Airliner
 
 [fltsim.166]
 title=AIGAIM_Vueling Airbus A319-100 - CFM unnamed
@@ -2849,3 +3019,4 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+ui_typerole=Commercial Airliner

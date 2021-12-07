@@ -47,6 +47,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXK
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Canada Express Bombardier CRJ-200 - opb Jazz
@@ -63,6 +64,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Canada Express Bombardier CRJ-200 - OC opb Jazz
@@ -79,6 +81,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Endeavor Air
@@ -96,6 +99,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Skywest Airlines
@@ -113,6 +117,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Fly540 Bombardier CRJ-200
@@ -130,6 +135,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFV
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Fly Baghdad Bombardier CRJ-200 - OC
@@ -147,6 +153,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Freedom Airline Bombardier CRJ-200
@@ -163,6 +170,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDT
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Georgian Airways Bombardier CRJ-200 - Airzena unnamed
@@ -180,6 +188,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGZ
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Penske Corporation Bombardier CRJ-200 - N500PR
@@ -193,6 +202,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - ER N60GH
@@ -206,6 +216,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - LR N141SH
@@ -219,6 +230,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_United Express Bombardier CRJ-200 - opb Skywest Airlines
@@ -236,6 +248,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Skywest Airlines
@@ -253,6 +266,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Air Wisconsin
@@ -270,6 +284,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200
@@ -287,6 +302,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZN
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200 - Nueva Santa Cruz
@@ -304,6 +320,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZN
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_West Atlantic Sweden Bombardier CRJ-200 - PF
@@ -321,6 +338,7 @@ description=RFSL_CRJ-200F-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWN
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_West Atlantic Sweden Bombardier CRJ-200 - PF OC
@@ -338,6 +356,7 @@ description=RFSL_CRJ-200F-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWN
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_IrAero Bombardier CRJ-200
@@ -355,6 +374,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAE
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_IrAero Bombardier CRJ-200 - blue winglets
@@ -372,6 +392,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAE
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Paranair Bombardier CRJ-200
@@ -389,6 +410,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZP
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_RusLine Bombardier CRJ-200
@@ -406,6 +428,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red WL
@@ -423,6 +446,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red WL small titles
@@ -440,6 +464,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_RusLine Bombardier CRJ-200 - white WL named
@@ -457,6 +482,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red fuse
@@ -474,6 +500,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Severstal Aircompany Bombardier CRJ-200
@@ -491,6 +518,7 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SSF
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Severstal Aircompany Bombardier CRJ-200 - Alexander Klubov
@@ -508,3 +536,4 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SSF
+ui_typerole=Commercial Airliner

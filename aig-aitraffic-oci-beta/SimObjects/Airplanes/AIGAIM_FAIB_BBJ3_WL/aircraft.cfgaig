@@ -52,6 +52,7 @@ description=FAIB_BBJ3_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Saudi Ministry of Finance and Economy Boeing BBJ3 WL - HZ-MF6
@@ -68,3 +69,4 @@ description=FAIB_BBJ3_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner

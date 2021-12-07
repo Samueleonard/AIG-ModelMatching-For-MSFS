@@ -53,6 +53,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN Boeing 100 Years
@@ -70,6 +71,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN Honoring Those Who Serve
@@ -87,6 +89,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS
@@ -104,6 +107,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS More to Love
@@ -121,6 +125,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS Oneworld
@@ -138,6 +143,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN
@@ -155,6 +161,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No rear Dome
@@ -172,6 +179,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No Belly Titles
@@ -189,6 +197,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN ETOPS
@@ -206,6 +215,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN Spirit of Seattle
@@ -223,6 +233,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN CE Woolman
@@ -240,6 +251,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW
@@ -257,6 +269,7 @@ description=FAIB_B737-900ER_SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC
@@ -274,6 +287,7 @@ description=FAIB_B737-900ER_SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC Eco Skies
@@ -291,6 +305,7 @@ description=FAIB_B737-900ER_SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW - Continental Retro
@@ -308,6 +323,7 @@ description=FAIB_B737-900ER_SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC
@@ -325,6 +341,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC 100
@@ -342,6 +359,7 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_SkyUp Airlines Boeing 737-900ER SSW
@@ -359,3 +377,4 @@ description=FAIB_B737-900ER_SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SQP
+ui_typerole=Commercial Airliner

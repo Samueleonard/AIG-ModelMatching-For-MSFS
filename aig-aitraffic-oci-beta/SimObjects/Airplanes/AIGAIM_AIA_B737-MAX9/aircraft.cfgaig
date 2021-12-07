@@ -48,6 +48,7 @@ description=AIA_B737-MAX9-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_United Airlines Boeing 737 MAX 9 - OC
@@ -65,3 +66,4 @@ description=AIA_B737-MAX9-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
+ui_typerole=Commercial Airliner

@@ -53,6 +53,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Batik Air Boeing 737-900ER WL - SN ETOPS
@@ -70,6 +71,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Batik Air Boeing 737-900ER WL - SN White Engines
@@ -86,6 +88,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Batik Air Boeing 737-900ER WL - SN Small Flag White Engines ETOPS
@@ -103,6 +106,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Delta Air Lines Boeing 737-900ER WL - SN No Belly Titles
@@ -120,6 +124,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Eastar Jet Boeing 737-900ER WL
@@ -137,6 +142,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi
@@ -154,6 +160,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi Menorah
@@ -171,6 +178,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle
@@ -188,6 +196,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle Menorah
@@ -205,6 +214,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL
@@ -222,6 +232,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL - SN
@@ -239,6 +250,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Thai Lion Air Boeing 737-900ER WL - SN
@@ -255,6 +267,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TLM
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Lion Air Boeing 737-900ER WL
@@ -272,6 +285,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - Lion Parcel Engine Titles
@@ -289,6 +303,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN
@@ -306,6 +321,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Group Titles
@@ -323,6 +339,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Engine Logo
@@ -340,6 +357,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine Titles
@@ -357,6 +375,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine + No Group Titles
@@ -374,6 +393,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 50th Boeing 737-900ER
@@ -391,6 +411,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 60th Boeing 737-900ER
@@ -408,6 +429,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 70th Boeing 737NG
@@ -425,6 +447,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 100th Boeing 737NG
@@ -442,6 +465,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Door to Door Service
@@ -459,6 +483,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN 7500th 737
@@ -475,6 +500,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN WiFi Dome
@@ -492,6 +518,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN EDTO WiFi Dome
@@ -509,6 +536,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Korean Air Boeing 737-900ER WL
@@ -525,6 +553,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Korean Air Boeing 737-900ER WL - SN
@@ -541,6 +570,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Oman Air Boeing 737-900ER WL - SN
@@ -558,6 +588,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_Somon Air Boeing 737-900ER WL - SN
@@ -575,6 +606,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SMR
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_SpiceJet Boeing 737-900ER WL
@@ -592,6 +624,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC
@@ -609,6 +642,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC 72nd Berja Kermasa
@@ -626,6 +660,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Travel Service Boeing 737-900ER WL
@@ -642,6 +677,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
+ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Travel Service Boeing 737-900ER WL - SN
@@ -658,6 +694,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
+ui_typerole=Commercial Airliner
 
 [fltsim.37]
 title=AIGAIM_Turkish Airlines Boeing 737-900ER WL
@@ -675,6 +712,7 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+ui_typerole=Commercial Airliner
 
 [fltsim.38]
 title=AIGAIM_Turkish Airlines Boeing 737-900ER WL - SN
@@ -692,6 +730,7 @@ description=FAIB_B737-900ER_WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+ui_typerole=Commercial Airliner
 
 [fltsim.39]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - Boeing Livery
@@ -708,3 +747,4 @@ description=FAIB_B737-900ER_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
+ui_typerole=Commercial Airliner

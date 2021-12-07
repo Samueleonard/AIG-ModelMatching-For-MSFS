@@ -38,6 +38,7 @@ description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Qantas Boeing 747-400ER - GE OC One World
@@ -56,6 +57,7 @@ description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Qantas Boeing 747-400ER - GE OC Wunala
@@ -74,3 +76,4 @@ description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
+ui_typerole=Commercial Airliner

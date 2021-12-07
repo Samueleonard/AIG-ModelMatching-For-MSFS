@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -81,6 +76,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Europa Boeing 787-8 - Scholas
@@ -99,6 +95,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Europa Boeing 787-8 - Julio Iglesias
@@ -117,6 +114,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Europa Boeing 787-8 - Desde 1218
@@ -135,6 +133,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_All Nippon Airways Boeing 787-8
@@ -153,6 +152,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - 787
@@ -171,6 +171,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan
@@ -189,6 +190,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan No Dome
@@ -207,6 +209,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan 787 No Dome
@@ -225,6 +228,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan 787 Tomo Dachi
@@ -243,6 +247,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Avianca Boeing 787-8
@@ -261,6 +266,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Avianca Boeing 787-8 - WiFi Dome
@@ -279,6 +285,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Avianca Boeing 787-8 - #ViajeDeEsperanza
@@ -297,6 +304,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_British Airways Boeing 787-8
@@ -314,6 +322,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATG Yeha Star Alliance
@@ -332,6 +341,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATH Rio de Janeiro
@@ -350,6 +360,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATJ Dallol
@@ -368,6 +379,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATL Colonel Robinson
@@ -386,6 +398,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Thai Airways Boeing 787-8 - Wifi Dome
@@ -404,6 +417,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC Large Titles (TEMP)
@@ -421,6 +435,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC First 787 in America
@@ -438,6 +453,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8
@@ -456,6 +472,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Cichociemni
@@ -474,6 +491,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Franek
@@ -492,6 +510,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Royal Brunei Airlines Boeing 787-8
@@ -510,6 +529,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RBA
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Royal Brunei Airlines Boeing 787-8 - 40th anniversary
@@ -528,6 +548,7 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RBA
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Scoot Boeing 787-8
@@ -546,3 +567,4 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
+ui_typerole=Commercial Airliner

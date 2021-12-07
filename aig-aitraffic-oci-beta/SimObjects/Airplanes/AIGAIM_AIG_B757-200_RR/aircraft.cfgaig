@@ -38,14 +38,9 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -76,6 +71,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Cargo Boeing 757-200 - PCF Black Titles
@@ -95,6 +91,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Transport International Boeing 757-200C
@@ -113,6 +110,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_ASL Airlines Belgium Boeing 757-200 - RR SF
@@ -131,6 +129,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Aviastar-TU Boeing 757-200 - PCF Yakutia Hybrid
@@ -148,6 +147,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUP
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_AZAL Azerbaijan Airlines Boeing 757-200
@@ -167,6 +167,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Blue Dart Aviation Boeing 757-200 - PCF
@@ -185,6 +186,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Blue Dart Aviation Boeing 757-200 - PCF Fat 757 Titles
@@ -203,6 +205,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDA
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Cargojet Boeing 757-200 - PCF
@@ -221,6 +224,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_China Southern Airlines Boeing 757-200
@@ -239,6 +243,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb DHL Air UK
@@ -257,6 +262,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb Cygnus Air
@@ -276,6 +282,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb Cygnus Air Albino
@@ -295,6 +302,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK
@@ -313,6 +321,7 @@ description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK White Rear Door Tape
@@ -331,6 +340,7 @@ description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_FedEx Express Boeing 757-200 - RR SF
@@ -349,6 +359,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDX
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Icelandair Boeing 757-200 - Albino no Dome
@@ -367,6 +378,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Icelandair Boeing 757-200 - opb Privledge Style
@@ -385,6 +397,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Xiamen Airlines Boeing 757-200
@@ -404,6 +417,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Xiamen Airlines Boeing 757-200 - 1-1-1-1
@@ -423,6 +437,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_YTO Cargo Airlines Boeing 757-200 - PCF
@@ -440,6 +455,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYT
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Jet2com Boeing 757-200
@@ -458,6 +474,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Jet2com Boeing 757-200 - Jet2 Holidays
@@ -476,6 +493,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Morningstar Air Express Boeing 757-200 - SF
@@ -494,6 +512,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAL
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Privilege Style Boeing 757-200
@@ -512,6 +531,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PVG
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Qantas Freight Boeing 757-200 - PCF opb Freight Pacific Air Express
@@ -527,6 +547,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines
@@ -544,6 +565,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines OC
@@ -562,6 +584,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Titan Airways Boeing 757-200 - RR
@@ -580,6 +603,7 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Turkmenistan Airlines Boeing 757-200
@@ -599,3 +623,4 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
+ui_typerole=Commercial Airliner

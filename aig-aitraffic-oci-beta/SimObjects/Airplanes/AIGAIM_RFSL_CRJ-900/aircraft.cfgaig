@@ -47,6 +47,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Canada Express Bombardier CRJ-900 - OC opb Jazz
@@ -63,6 +64,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Canada Express Bombardier CRJ-900 - NextGen No Chevron opb Jazz
@@ -79,6 +81,7 @@ description=RFSL_CRJ-900-NWNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Canada Express Bombardier CRJ-900 - NextGen No Chevron old express titles opb Jazz
@@ -95,6 +98,7 @@ description=RFSL_CRJ-900-NWNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JZA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_American Eagle Bombardier CRJ-900 - opb Mesa
@@ -112,6 +116,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_American Eagle Bombardier CRJ-900 - NextGen No Chevron opb PSA
@@ -129,6 +134,7 @@ description=RFSL_CRJ-900-NWNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_American Eagle Bombardier CRJ-900 - NextGen opb Mesa
@@ -146,6 +152,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_American Eagle Bombardier CRJ-900 - NextGen opb Skywest Delta Hybrid
@@ -163,6 +170,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Austrian Airlines Bombardier CRJ-900 - NextGen opb ADR
@@ -180,6 +188,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Brussels Airlines Bombardier CRJ-900 - NextGen white opb Cityjet
@@ -197,6 +206,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_China Express Airlines Bombardier CRJ-900 - NextGen
@@ -213,6 +223,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HXA
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Delta Connection Bombardier CRJ-900 - opb Endeavor Air
@@ -230,6 +241,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Delta Connection Bombardier CRJ-900 - opb Skywest Airlines
@@ -247,6 +259,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Delta Connection Bombardier CRJ-900 - NextGen opb Endeavor Air
@@ -264,6 +277,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Delta Connection Bombardier CRJ-900 - NextGen opb Skywest Airlines
@@ -281,6 +295,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Delta Connection Bombardier CRJ-900 - NextGen No Chevron opb Skywest Airlines
@@ -298,6 +313,7 @@ description=RFSL_CRJ-900-NWNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Iberia Regional Bombardier CRJ-900 - opb ANE Vigo A Sea of Life + Un Mar de Vida
@@ -315,6 +331,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Ibom Air Bombardier CRJ-900 - NextGen
@@ -332,6 +349,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAN
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Libyan Airlines Bombardier CRJ-900 - NextGen
@@ -348,6 +366,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAA
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - opb CLH OC
@@ -364,6 +383,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - opb CLH OC LH Titles
@@ -380,6 +400,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - opb ADR
@@ -397,6 +418,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - NextGen opb CLH IC
@@ -413,6 +435,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - NextGen opb CLH IC unnamed
@@ -429,6 +452,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - NextGen opb CLH Dotted Tail
@@ -445,6 +469,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - NextGen opb CLH Dotted Tail unnamed
@@ -461,6 +486,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Lufthansa Regional Bombardier CRJ-900 - NextGen opb ADR
@@ -478,6 +504,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
+ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Rwandair Bombardier CRJ-900 - NextGen
@@ -495,6 +522,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWD
+ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_SAS Scandinavian Airlines Bombardier CRJ-900 - NextGen opb CityJet
@@ -512,6 +540,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_SAS Scandinavian Airlines Bombardier CRJ-900 - NextGen opb CityJet All White
@@ -529,6 +558,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_SAS Scandinavian Airlines Bombardier CRJ-900 - NextGen lsf Nordica
@@ -546,6 +576,7 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_SAS Scandinavian Airlines Bombardier CRJ-900 - opb Air Nostrum All White
@@ -563,6 +594,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Tunisair Express Bombardier CRJ-900
@@ -580,6 +612,7 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUX
+ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_Uganda Airlines Bombardier CRJ-900 - NextGen
@@ -594,3 +627,4 @@ description=RFSL_CRJ-900-NWCNG(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UGD
+ui_typerole=Commercial Airliner

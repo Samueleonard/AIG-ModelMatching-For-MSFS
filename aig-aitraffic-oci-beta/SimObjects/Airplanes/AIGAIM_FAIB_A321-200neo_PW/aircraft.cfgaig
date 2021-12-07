@@ -3,22 +3,16 @@ major=1
 minor=0
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL A21N.0.text ; 
-editable=0 ; 
-performance=; 
-category=airplane ; 
-pilot="Pilot_Female_Casual" ; 
-copilot="Pilot_Male_Casual" ; 
-instructor="Pilot_Male_Casual" ; 
-wip_indicator=2 ; 
-icao_type_designator=A21N ; 
-icao_manufacturer=AIRBUS ; 
-icao_model=A-321neo ; 
-icao_engine_type="Jet" ; 
-icao_engine_count=2 ; 
-icao_wtc=M ; 
-icao_generic=0 ; 
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A21N.0.text"
+icao_type_designator="A21N"
+icao_manufacturer="AIRBUS"
+icao_model="A-321neo"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
 
 [EXITS]
 number_of_exits=2 ; 
@@ -31,6 +25,17 @@ water=fx_spray ;
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
 touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
 
 [fltsim.0]
 title=AIGAIM_Air Astana Airbus A321-200neo
@@ -48,6 +53,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - Sichuan Airlines
@@ -65,6 +71,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF jetBue
@@ -81,6 +88,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air China Airbus A321-200neo
@@ -98,6 +106,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air New Zealand Airbus A321-200neo
@@ -115,6 +124,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air New Zealand Airbus A321-200neo - Black Livery
@@ -132,6 +142,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_All Nippon Airways Airbus A321-200neo
@@ -148,6 +159,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Cebu Pacific Airbus A321-200neo - ACF
@@ -165,6 +177,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEB
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Hawaiian Airlines Airbus A321-200neo
@@ -181,6 +194,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAL
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_IndiGo Airbus A321-200neo - ACF
@@ -198,6 +212,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Philippine Airlines Airbus A321-200neo
@@ -214,6 +229,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_jetBlue Airbus A321-200neo - ACF Balloons
@@ -230,6 +246,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Lufthansa Airbus A321-200neo - ACF
@@ -247,6 +264,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_S7 Airlines Airbus A321-200neo
@@ -263,6 +281,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Sichuan Airlines Airbus A321-200neo
@@ -280,6 +299,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Turkish Airlines Airbus A321-200neo - ACF
@@ -297,6 +317,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_VietJet Air Airbus A321-200neo - ACF Petrolimex
@@ -314,6 +335,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_VietJet Air Airbus A321-200neo
@@ -331,6 +353,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_VietJet Air Airbus A321-200neo - 1st A321neo
@@ -348,6 +371,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
+ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_VietJet Air Airbus A321-200neo - Petrolimex
@@ -365,6 +389,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
+ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_VietJet Air Airbus A321-200neo - VietJet Mascots
@@ -382,6 +407,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
+ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Vietnam Airlines Airbus A321-200neo
@@ -399,6 +425,7 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
+ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Volaris Airbus A321-200neo
@@ -416,3 +443,4 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+ui_typerole=Commercial Airliner

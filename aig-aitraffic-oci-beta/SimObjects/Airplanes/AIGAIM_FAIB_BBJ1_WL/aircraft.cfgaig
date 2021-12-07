@@ -51,6 +51,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Deer Jet Boeing BBJ1 WL - B-5266
@@ -67,6 +68,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDJ
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Deer Jet Boeing BBJ1 WL - B-5273
@@ -84,6 +86,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDJ
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Essar Group Boeing BBJ1 WL - N301SR
@@ -99,6 +102,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Hanwha Group Boeing BBJ1 WL - HL7227
@@ -114,6 +118,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N108MS
@@ -129,6 +134,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N883LS
@@ -144,6 +150,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N885LS
@@ -159,6 +166,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N887LS
@@ -174,6 +182,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N889LS
@@ -189,6 +198,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Saudi Ministry of Finance and Economy Boeing BBJ1 WL - HZ-MF1
@@ -204,6 +214,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Saudi Ministry of Finance and Economy Boeing BBJ1 WL - HZ-MF2
@@ -219,6 +230,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_SAS Institute Boeing BBJ1 WL - N7600K
@@ -234,6 +246,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Ruffin Companies Boeing BBJ1 WL - N43PR
@@ -250,6 +263,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Polaris Aviation Solutions Boeing BBJ1 WL - N737LE
@@ -266,6 +280,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Silver Air Boeing BBJ1 WL - N834BZ
@@ -282,3 +297,4 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIS
+ui_typerole=Commercial Airliner

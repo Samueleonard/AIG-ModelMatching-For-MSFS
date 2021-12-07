@@ -38,16 +38,11 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=fx_tchdwn_m, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
 effect.2=contrail3#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.3=contrail4#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -72,6 +67,7 @@ model=AIB-Airbus Cooperation_Emirates
 texture=AIB-Airbus Cooperation_Emirates
 atc_id=A6-EVA
 atc_airline=AIRBUS
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=AIB
 ui_manufacturer=The Fruit Stand
@@ -82,7 +78,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_All Nippon Airways Airbus A380-800 - Blue Turtles
@@ -90,6 +86,7 @@ model=ANA-All Nippon Airways_Blue Turtles
 texture=ANA-All Nippon Airways_Blue Turtles
 atc_id=JA381A
 atc_airline=ALL NIPPON
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
@@ -100,7 +97,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_All Nippon Airways Airbus A380-800 - Turquoise Turtles
@@ -108,6 +105,7 @@ model=ANA-All Nippon Airways_Turquoise Turtles
 texture=ANA-All Nippon Airways_Turquoise Turtles
 atc_id=JA382A
 atc_airline=ALL NIPPON
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
@@ -118,7 +116,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Asiana Airlines Airbus A380-800
@@ -126,6 +124,7 @@ model=AAR-Asiana Airlines
 texture=AAR-Asiana Airlines
 atc_id=HL7625
 atc_airline=ASIANA
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
@@ -136,7 +135,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_British Airways Airbus A380-800
@@ -154,6 +153,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_China Southern Airlines Airbus A380-800
@@ -172,6 +172,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Expo 2020 Sticker Wifi Dome
@@ -179,6 +180,7 @@ model=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
 atc_id=A6-EVA
 atc_airline=EMIRATES
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
@@ -189,7 +191,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Year of Tolerance Wifi Dome
@@ -197,6 +199,7 @@ model=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
 texture=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
 atc_id=A6-EVB
 atc_airline=EMIRATES
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
@@ -207,7 +210,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Emirates Airbus A380-800 - RR 3 Class Expo 2020 Sticker Wifi Dome
@@ -215,6 +218,7 @@ model=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
 atc_id=A6-EVA
 atc_airline=EMIRATES
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
@@ -225,7 +229,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Thai Airways Airbus A380-800
@@ -244,6 +248,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Malaysia Airlines Airbus A380-800
@@ -262,6 +267,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Malaysia Airlines Airbus A380-800 - 100th A380
@@ -280,6 +286,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Lufthansa Airbus A380-800
@@ -287,6 +294,7 @@ model=DLH-Lufthansa
 texture=DLH-Lufthansa
 atc_id=D-AIMD
 atc_airline=LUFTHANSA
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=DLH
 ui_manufacturer=The Fruit Stand
@@ -297,7 +305,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Lufthansa Airbus A380-800 - OC
@@ -305,6 +313,7 @@ model=DLH-Lufthansa_OC
 texture=DLH-Lufthansa_OC
 atc_id=D-AIMB
 atc_airline=LUFTHANSA
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=DLH
 ui_manufacturer=The Fruit Stand
@@ -315,7 +324,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Qantas Airbus A380-800
@@ -323,6 +332,7 @@ model=QFA-Qantas
 texture=QFA-Qantas
 atc_id=VH-OQH
 atc_airline=QANTAS
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=QFA
 ui_manufacturer=The Fruit Stand
@@ -333,7 +343,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Qantas Airbus A380-800 - OC
@@ -341,6 +351,7 @@ model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
 atc_id=VH-OQA
 atc_airline=QANTAS
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=QFA
 ui_manufacturer=The Fruit Stand
@@ -351,7 +362,7 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-atc_heavy=1
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Singapore Airlines Airbus A380-800
@@ -370,3 +381,4 @@ description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
+ui_typerole=Commercial Airliner

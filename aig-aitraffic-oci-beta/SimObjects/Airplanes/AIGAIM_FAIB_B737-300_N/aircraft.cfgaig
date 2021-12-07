@@ -31,9 +31,6 @@ small_pushback=0
 marshaller=1
 jetway=1
 
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1
-
 [fltsim.0]
 title=AIGAIM_Badr Airlines Boeing 737-300 - opb Tarco Air Eyebrows
 model=BDR-Badr Airlines_opb Tarco Air Eyebrows
@@ -49,6 +46,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Belavia Boeing 737-300 - OC
@@ -66,6 +64,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Blue Air Boeing 737-300
@@ -83,6 +82,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
+ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Cargoair Boeing 737-300 - SF additional sticker
@@ -100,6 +100,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
+ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Kalitta Charters II Boeing 737-300 - SF
@@ -117,6 +118,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KII
+ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Sunrise Airways Boeing 737-300 - QC Peruvian colors
@@ -134,6 +136,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KSZ
+ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF Hainan OC Hybrid
@@ -151,6 +154,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
+ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - SF Eyebrows Horse Transporter
@@ -168,6 +172,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
+ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Jet2com Boeing 737-300
@@ -184,6 +189,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
+ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Jordan Aviation Boeing 737-300 - Orion Airways Hybrid
@@ -201,6 +207,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAV
+ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Kenya Airways Cargo Boeing 737-300 - SF Eyebrows
@@ -218,6 +225,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQAC
+ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_NordStar Boeing 737-300 - Eyebrows
@@ -235,6 +243,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TYA
+ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Qantas Freight Boeing 737-300 - BDSF opb EFA
@@ -252,6 +261,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
+ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Qantas Freight Boeing 737-300 - BDSF OC Startrack opb EFA
@@ -269,6 +279,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
+ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Queen Bilqis Airways Boeing 737-300 - opb Tarco Air (TEMP)
@@ -285,6 +296,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QBA
+ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_SCAT Airlines Boeing 737-300
@@ -302,6 +314,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
+ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Sriwijaya Air Boeing 737-300 - Red Stripe
@@ -319,6 +332,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Sriwijaya Air Boeing 737-300 - OC
@@ -336,6 +350,7 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Swiftair Boeing 737-300 - SF
@@ -353,6 +368,10 @@ description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
+ui_typerole=Commercial Airliner
+
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
 
 [fltsim.19]
 title=AIGAIM_Belavia Boeing 737-300 - World of Tanks
@@ -365,6 +384,7 @@ atc_parking_codes=BRU
 ui_manufacturer=FAIB
 ui_type=Boeing 737-300
 ui_variation=Belavia EW-254PA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: UTT_FAIB_B733_Belavia_EW-254PA_FSX.zip
 description=FAIB_B737-300-normal(fs20)
 isAirTraffic=1

@@ -38,6 +38,7 @@ description=FAIB_B747-400ERF_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
+ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Korean Air Cargo Boeing 747-400ERF
@@ -55,6 +56,7 @@ description=FAIB_B747-400ERF_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KALC
+ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Cathay Pacific Cargo Boeing 747-400ERF
@@ -73,3 +75,4 @@ description=FAIB_B747-400ERF_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPAC
+ui_typerole=Commercial Airliner
