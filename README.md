@@ -11,14 +11,14 @@ OFFLINE AI TRAFFIC WILL NOT WORK - all flight plans have been removed
 
 Download from - 
 
-PREFERED - [Google Drive](https://drive.google.com/file/d/1afUdKSV1RGlh8XhG3tSX1wcRH-A5MT_G/view?usp=sharing) for a zipped file (3.5gb)
+PREFERED - [Google Drive](https://drive.google.com/file/d/16DwbuN_2GXnob2JDvtYzALfiO6AkHalc/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
-ALTERNATIVE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb fully unzipped)
+ALTERNATIVE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb)
 
-Just drag into the community folder.
+Just drag into the community folder. If using VATSIM, the VMR file is included, it is just a case of selecting it through the 'custom rules' menu in vPilot.
 
 
 MANUAL UPDATES
 
-.aig manager recommended for manually updating, 
+.aig manager recommended for manually updating, however I will try to keep this updated as often as possible - ideally weekly however definitely every time there is a new addition (within a few days) - manual updates suggested in case I forget to update
 
