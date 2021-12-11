@@ -11,7 +11,7 @@ OFFLINE AI TRAFFIC WILL NOT WORK - all flight plans have been removed
 
 Download from - 
 
-PREFERED - [Google Drive](https://drive.google.com/file/d/16DwbuN_2GXnob2JDvtYzALfiO6AkHalc/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+PREFERED - [Google Drive](https://drive.google.com/file/d/1SQddj42MY_lPhtd4OhWlCzvAKV17DsoP/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
 ALTERNATIVE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb)
 
