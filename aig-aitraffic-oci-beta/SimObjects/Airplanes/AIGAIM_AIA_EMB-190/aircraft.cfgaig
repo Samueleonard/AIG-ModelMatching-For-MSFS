@@ -216,24 +216,6 @@ icao_airline=HOP
 ui_typerole=Commercial Airliner
 
 [fltsim.11]
-title=AIGAIM_Air Moldova Embraer EMB-190
-model=MLD-Air Moldova
-texture=MLD-Air Moldova
-atc_id=ER-ECB
-atc_airline=AIR MOLDOVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MLD
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-190
-ui_variation=Air Moldova
-ui_createdby=Provided by: JB Filename: ERJ190 Air Moldova FSX.zip
-description=AIA_EMB-190(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MLD
-ui_typerole=Commercial Airliner
-
-[fltsim.12]
 title=AIGAIM_Alitalia CityLiner Embraer EMB-190 - OC
 model=AZA-Alitalia CityLiner_OC
 texture=AZA-Alitalia CityLiner_OC
@@ -251,7 +233,7 @@ isUserSelectable=0
 icao_airline=AZA
 ui_typerole=Commercial Airliner
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Alitalia CityLiner Embraer EMB-190 - Skyteam
 model=AZA-Alitalia CityLiner_Skyteam
 texture=AZA-Alitalia CityLiner_Skyteam
@@ -269,7 +251,7 @@ isUserSelectable=0
 icao_airline=AZA
 ui_typerole=Commercial Airliner
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Austral Lineas Aereas Embraer EMB-190
 model=AUT-Austral Lineas Aereas
 texture=AUT-Austral Lineas Aereas
@@ -287,7 +269,7 @@ isUserSelectable=0
 icao_airline=AUT
 ui_typerole=Commercial Airliner
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Austral Lineas Aereas Embraer EMB-190 - Skyteam
 model=AUT-Austral Lineas Aereas_Skyteam
 texture=AUT-Austral Lineas Aereas_Skyteam
@@ -305,7 +287,7 @@ isUserSelectable=0
 icao_airline=AUT
 ui_typerole=Commercial Airliner
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_BA CityFlyer Embraer EMB-190
 model=CFE-BA CityFlyer
 texture=CFE-BA CityFlyer
@@ -322,7 +304,7 @@ isUserSelectable=0
 icao_airline=CFE
 ui_typerole=Commercial Airliner
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_BA CityFlyer Embraer EMB-190 - OC
 model=CFE-BA CityFlyer_OC
 texture=CFE-BA CityFlyer_OC
@@ -340,7 +322,7 @@ isUserSelectable=0
 icao_airline=CFE
 ui_typerole=Commercial Airliner
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_BA CityFlyer Embraer EMB-190 - OC 700th E-Jet
 model=CFE-BA CityFlyer_OC 700th E-Jet
 texture=CFE-BA CityFlyer_OC 700th E-Jet
@@ -357,7 +339,7 @@ isUserSelectable=0
 icao_airline=CFE
 ui_typerole=Commercial Airliner
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_BA CityFlyer Embraer EMB-190 - White opb Stobart Air
 model=CFE-BA CityFlyer_White opb Stobart Air
 texture=CFE-BA CityFlyer_White opb Stobart Air
@@ -374,7 +356,7 @@ isUserSelectable=0
 icao_airline=CFE
 ui_typerole=Commercial Airliner
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Breeze Airways Embraer EMB-190
 model=MXY-Breeze Airways
 texture=MXY-Breeze Airways
@@ -392,7 +374,7 @@ isUserSelectable=0
 icao_airline=MXY
 ui_typerole=Commercial Airliner
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Bulgaria Air Embraer EMB-190
 model=LZB-Bulgaria Air
 texture=LZB-Bulgaria Air
@@ -410,7 +392,7 @@ isUserSelectable=0
 icao_airline=LZB
 ui_typerole=Commercial Airliner
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Buta Airways Embraer EMB-190 - VP Reg
 model=AHY-Buta Airways_VP Reg
 texture=AHY-Buta Airways_VP Reg
@@ -427,7 +409,7 @@ isUserSelectable=0
 icao_airline=AHY
 ui_typerole=Commercial Airliner
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_China Southern Airlines Embraer EMB-190
 model=CSN-China Southern Airlines
 texture=CSN-China Southern Airlines
@@ -445,7 +427,7 @@ isUserSelectable=0
 icao_airline=CSN
 ui_typerole=Commercial Airliner
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Colorful Guizhou Airlines Embraer EMB-190
 model=CGZ-Colorful Guizhou Airlines
 texture=CGZ-Colorful Guizhou Airlines
@@ -462,7 +444,7 @@ isUserSelectable=0
 icao_airline=CGZ
 ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Conviasa Embraer EMB-190
 model=VCV-Conviasa
 texture=VCV-Conviasa
@@ -480,7 +462,7 @@ isUserSelectable=0
 icao_airline=VCV
 ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Conviasa Embraer EMB-190 - Viva Mexico
 model=VCV-Conviasa_Viva Mexico
 texture=VCV-Conviasa_Viva Mexico
@@ -498,7 +480,7 @@ isUserSelectable=0
 icao_airline=VCV
 ui_typerole=Commercial Airliner
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Copa Airlines Embraer EMB-190
 model=CMP-Copa Airlines
 texture=CMP-Copa Airlines
@@ -516,7 +498,7 @@ isUserSelectable=0
 icao_airline=CMP
 ui_typerole=Commercial Airliner
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Copa Airlines Embraer EMB-190 - ConnectMiles.com
 model=CMP-Copa Airlines_ConnectMiles.com
 texture=CMP-Copa Airlines_ConnectMiles.com
@@ -534,7 +516,7 @@ isUserSelectable=0
 icao_airline=CMP
 ui_typerole=Commercial Airliner
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_easyJet Embraer EMB-190 - opb WDL
 model=EZY-easyJet_opb WDL
 texture=EZY-easyJet_opb WDL
@@ -552,7 +534,7 @@ isUserSelectable=0
 icao_airline=EZY
 ui_typerole=Commercial Airliner
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Finnair Embraer EMB-190 - no WiFi dome
 model=FIN-Finnair_no WiFi dome
 texture=FIN-Finnair_no WiFi dome
@@ -570,7 +552,7 @@ isUserSelectable=0
 icao_airline=FIN
 ui_typerole=Commercial Airliner
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Finnair Embraer EMB-190 - Oneworld no WiFi dome
 model=FIN-Finnair_Oneworld no WiFi dome
 texture=FIN-Finnair_Oneworld no WiFi dome
@@ -588,7 +570,7 @@ isUserSelectable=0
 icao_airline=FIN
 ui_typerole=Commercial Airliner
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Finnair Embraer EMB-190 - opb WDL Aviation
 model=FIN-Finnair_opb WDL Aviation
 texture=FIN-Finnair_opb WDL Aviation
@@ -606,7 +588,7 @@ isUserSelectable=0
 icao_airline=FIN
 ui_typerole=Commercial Airliner
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Georgian Airways Embraer EMB-190
 model=TGZ-Georgian Airways
 texture=TGZ-Georgian Airways
@@ -624,7 +606,7 @@ isUserSelectable=0
 icao_airline=TGZ
 ui_typerole=Commercial Airliner
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_GX Airlines Embraer EMB-190
 model=CBG-GX Airlines
 texture=CBG-GX Airlines
@@ -642,7 +624,7 @@ isUserSelectable=0
 icao_airline=CBG
 ui_typerole=Commercial Airliner
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Hebei Airlines Embraer EMB-190
 model=HBH-Hebei Airlines
 texture=HBH-Hebei Airlines
@@ -660,7 +642,7 @@ isUserSelectable=0
 icao_airline=HBH
 ui_typerole=Commercial Airliner
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_TUI fly Belgium Embraer EMB-190
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -677,7 +659,7 @@ isUserSelectable=0
 icao_airline=JAF
 ui_typerole=Commercial Airliner
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-190 - UR-EMA
 model=AUI-Ukraine International Airlines_UR-EMA
 texture=AUI-Ukraine International Airlines_UR-EMA
@@ -695,7 +677,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-190 - UR-EMB
 model=AUI-Ukraine International Airlines_UR-EMB
 texture=AUI-Ukraine International Airlines_UR-EMB
@@ -713,7 +695,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-190 - UR-EMC
 model=AUI-Ukraine International Airlines_UR-EMC
 texture=AUI-Ukraine International Airlines_UR-EMC
@@ -731,7 +713,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-190 - UR-EMD
 model=AUI-Ukraine International Airlines_UR-EMD
 texture=AUI-Ukraine International Airlines_UR-EMD
@@ -749,7 +731,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-190 - UR-EME
 model=AUI-Ukraine International Airlines_UR-EME
 texture=AUI-Ukraine International Airlines_UR-EME
@@ -767,7 +749,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Mandarin Airlines Embraer EMB-190
 model=MDA-Mandarin Airlines
 texture=MDA-Mandarin Airlines
@@ -785,7 +767,7 @@ isUserSelectable=0
 icao_airline=MDA
 ui_typerole=Commercial Airliner
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Tianjin Airlines Embraer EMB-190
 model=GCR-Tianjin Airlines
 texture=GCR-Tianjin Airlines
@@ -803,7 +785,7 @@ isUserSelectable=0
 icao_airline=GCR
 ui_typerole=Commercial Airliner
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Tianjin Airlines Embraer EMB-190 - Old HNA Logo
 model=GCR-Tianjin Airlines_Old HNA Logo
 texture=GCR-Tianjin Airlines_Old HNA Logo
@@ -821,7 +803,7 @@ isUserSelectable=0
 icao_airline=GCR
 ui_typerole=Commercial Airliner
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Tianjin Airlines Embraer EMB-190 - Tianjin Agricultural Business Bank
 model=GCR-Tianjin Airlines_Tianjin Agricultural Business Bank
 texture=GCR-Tianjin Airlines_Tianjin Agricultural Business Bank
@@ -839,7 +821,7 @@ isUserSelectable=0
 icao_airline=GCR
 ui_typerole=Commercial Airliner
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_J-Air Embraer EMB-190
 model=JLJ-J-Air
 texture=JLJ-J-Air
@@ -857,7 +839,7 @@ isUserSelectable=0
 icao_airline=JLJ
 ui_typerole=Commercial Airliner
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_J-Air Embraer EMB-190 - Universal Studios Japan
 model=JLJ-J-Air_Universal Studios Japan
 texture=JLJ-J-Air_Universal Studios Japan
@@ -875,7 +857,7 @@ isUserSelectable=0
 icao_airline=JLJ
 ui_typerole=Commercial Airliner
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_J-Air Embraer EMB-190 - Wakaban Jet
 model=JLJ-J-Air_Wakaban Jet
 texture=JLJ-J-Air_Wakaban Jet
@@ -893,7 +875,7 @@ isUserSelectable=0
 icao_airline=JLJ
 ui_typerole=Commercial Airliner
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_Kenya Airways Embraer EMB-190
 model=KQA-Kenya Airways
 texture=KQA-Kenya Airways
@@ -911,7 +893,7 @@ isUserSelectable=0
 icao_airline=KQA
 ui_typerole=Commercial Airliner
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_Kenya Airways Embraer EMB-190 - 900th E-Jet
 model=KQA-Kenya Airways_900th E-Jet
 texture=KQA-Kenya Airways_900th E-Jet
@@ -929,7 +911,7 @@ isUserSelectable=0
 icao_airline=KQA
 ui_typerole=Commercial Airliner
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_Kenya Airways Embraer EMB-190 - Skyteam
 model=KQA-Kenya Airways_Skyteam
 texture=KQA-Kenya Airways_Skyteam
@@ -947,7 +929,7 @@ isUserSelectable=0
 icao_airline=KQA
 ui_typerole=Commercial Airliner
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190
 model=KLC-KLM
 texture=KLC-KLM
@@ -965,7 +947,7 @@ isUserSelectable=0
 icao_airline=KLC
 ui_typerole=Commercial Airliner
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190 - 100 Years
 model=KLC-KLM_100 Years
 texture=KLC-KLM_100 Years
@@ -983,7 +965,7 @@ isUserSelectable=0
 icao_airline=KLC
 ui_typerole=Commercial Airliner
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190 - Test Livery 100 Years
 model=KLC-KLM_Test Livery 100 Years
 texture=KLC-KLM_Test Livery 100 Years
@@ -1001,7 +983,7 @@ isUserSelectable=0
 icao_airline=KLC
 ui_typerole=Commercial Airliner
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190 - Skyteam
 model=KLC-KLM_Skyteam
 texture=KLC-KLM_Skyteam
@@ -1019,7 +1001,7 @@ isUserSelectable=0
 icao_airline=KLC
 ui_typerole=Commercial Airliner
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-190 - Belly Titles
 model=LOT-LOT Polish Airlines_Belly Titles
 texture=LOT-LOT Polish Airlines_Belly Titles
@@ -1037,7 +1019,7 @@ isUserSelectable=0
 icao_airline=LOT
 ui_typerole=Commercial Airliner
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Lufthansa Regional Embraer EMB-190 - opb CLH OC
 model=DLHX-Lufthansa Regional_opb CLH OC
 texture=DLHX-Lufthansa Regional_opb CLH OC
@@ -1055,7 +1037,7 @@ isUserSelectable=0
 icao_airline=DLHX
 ui_typerole=Commercial Airliner
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Lufthansa Regional Embraer EMB-190 - opb CLH OC LH Titles
 model=DLHX-Lufthansa Regional_opb CLH OC LH Titles
 texture=DLHX-Lufthansa Regional_opb CLH OC LH Titles
@@ -1073,7 +1055,7 @@ isUserSelectable=0
 icao_airline=DLHX
 ui_typerole=Commercial Airliner
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Royal Air Maroc Embraer EMB-190 - OC 60 Years Sticker
 model=RAM-Royal Air Maroc_OC 60 Years Sticker
 texture=RAM-Royal Air Maroc_OC 60 Years Sticker
@@ -1091,7 +1073,7 @@ isUserSelectable=0
 icao_airline=RAM
 ui_typerole=Commercial Airliner
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_SA Airlink Embraer EMB-190
 model=LNK-SA Airlink
 texture=LNK-SA Airlink
@@ -1109,7 +1091,7 @@ isUserSelectable=0
 icao_airline=LNK
 ui_typerole=Commercial Airliner
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_Swiss Embraer EMB-190 - opb OAW
 model=SWR-Swiss_opb OAW
 texture=SWR-Swiss_opb OAW
@@ -1127,7 +1109,7 @@ isUserSelectable=0
 icao_airline=SWR
 ui_typerole=Commercial Airliner
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Swiss Embraer EMB-190 - opb OAW Embraer Titles
 model=SWR-Swiss_opb OAW Embraer Titles
 texture=SWR-Swiss_opb OAW Embraer Titles
@@ -1145,7 +1127,7 @@ isUserSelectable=0
 icao_airline=SWR
 ui_typerole=Commercial Airliner
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Swiss Embraer EMB-190 - opb OAW White Door Handles
 model=SWR-Swiss_opb OAW White Door Handles
 texture=SWR-Swiss_opb OAW White Door Handles
@@ -1163,7 +1145,7 @@ isUserSelectable=0
 icao_airline=SWR
 ui_typerole=Commercial Airliner
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_TAP Express Embraer EMB-190 - IC opb Portugalia
 model=TAPX-TAP Express_IC opb Portugalia
 texture=TAPX-TAP Express_IC opb Portugalia

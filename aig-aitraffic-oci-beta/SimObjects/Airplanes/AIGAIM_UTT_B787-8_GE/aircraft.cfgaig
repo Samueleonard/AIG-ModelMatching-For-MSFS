@@ -719,24 +719,6 @@ icao_airline=TFL
 ui_typerole=Commercial Airliner
 
 [fltsim.35]
-title=AIGAIM_TUIfly Nordic Boeing 787-8 - opb TUI Airways UK named
-model=BLX-TUIfly Nordic_opb TUI Airways UK named
-texture=BLX-TUIfly Nordic_opb TUI Airways UK named
-atc_airline=BLUESCAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BLX
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=TUI Airways
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_788.zip
-description=UTT_B787-8_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BLX
-ui_typerole=Commercial Airliner
-
-[fltsim.36]
 title=AIGAIM_Uzbekistan Airways Boeing 787-8
 model=UZB-Uzbekistan Airways
 texture=UZB-Uzbekistan Airways
@@ -755,7 +737,7 @@ isUserSelectable=0
 icao_airline=UZB
 ui_typerole=Commercial Airliner
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Uzbekistan Airways Boeing 787-8 - WiFi Dome
 model=UZB-Uzbekistan Airways_WiFi Dome
 texture=UZB-Uzbekistan Airways_WiFi Dome
@@ -774,7 +756,7 @@ isUserSelectable=0
 icao_airline=UZB
 ui_typerole=Commercial Airliner
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Air India Boeing 787-8 - VT-A Reg
 model=AIC-Air India_VT-A Reg
 texture=AIC-Air India_VT-A Reg
@@ -793,7 +775,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Air India Boeing 787-8 - Star Alliance
 model=AIC-Air India_Star Alliance
 texture=AIC-Air India_Star Alliance
@@ -812,7 +794,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Oman Air Boeing 787-8
 model=OMA-Oman Air
 texture=OMA-Oman Air

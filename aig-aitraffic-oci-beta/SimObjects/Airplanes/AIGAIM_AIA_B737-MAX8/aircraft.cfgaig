@@ -342,3 +342,39 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
+
+[fltsim.17]
+title=AIGAIM_Corendon Airlines Boeing 737 MAX 8
+model=CAI-Corendon Airlines
+texture=CAI-Corendon Airlines
+atc_id=TC-MKS
+atc_airline=CORENDON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAI
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Turistik Hava Taşımacılık A.Ş
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX8 Corendon.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAI
+
+[fltsim.18]
+title=AIGAIM_TUIfly Boeing 737 MAX 8
+model=TUI-TUIfly
+texture=TUI-TUIfly
+atc_id=D-AMAX
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX TUIfly.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI

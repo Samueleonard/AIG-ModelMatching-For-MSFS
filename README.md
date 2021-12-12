@@ -1,5 +1,5 @@
 # AIG-ModelMatching-For-MSFS
-Latest version of AIG modelmatching for MSFS
+Latest version of AIG modelmatching for MSFS -  I take the pain so you don't have to.
 
 A VMR File for vatsim usage has been included in the root folder (full credit to britishavgeek) however if you still wish to manually download for the latest version: https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching
 

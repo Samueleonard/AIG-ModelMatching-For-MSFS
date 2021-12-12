@@ -694,24 +694,6 @@ icao_airline=JST
 ui_typerole=Commercial Airliner
 
 [fltsim.37]
-title=AIGAIM_Ural Airlines Airbus A321-200SL - IAE
-model=SVR-Ural Airlines_IAE
-texture=SVR-Ural Airlines_IAE
-atc_id=VP-BSY
-atc_airline=SVERDLOVSK AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVR
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Ural Airlines VP-BSY
-ui_createdby=Provided by: UTT Filename: UTT_FAIB_A321s_Ural_Airlines_VP-BSY_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVR
-ui_typerole=Commercial Airliner
-
-[fltsim.38]
 title=AIGAIM_PAL Express Airbus A321-200SL
 model=GAP-PAL Express
 texture=GAP-PAL Express
@@ -729,7 +711,7 @@ isUserSelectable=0
 icao_airline=GAP
 ui_typerole=Commercial Airliner
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_PAL Express Airbus A321-200SL - Nose Sticker lhs only
 model=GAP-PAL Express_Nose Sticker lhs only
 texture=GAP-PAL Express_Nose Sticker lhs only
@@ -747,7 +729,7 @@ isUserSelectable=0
 icao_airline=GAP
 ui_typerole=Commercial Airliner
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Philippine Airlines Airbus A321-200SL
 model=PAL-Philippine Airlines
 texture=PAL-Philippine Airlines
@@ -765,7 +747,7 @@ isUserSelectable=0
 icao_airline=PAL
 ui_typerole=Commercial Airliner
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Juneyao Airlines Airbus A321-200SL - IAE
 model=DKH-Juneyao Airlines_IAE
 texture=DKH-Juneyao Airlines_IAE
@@ -782,7 +764,7 @@ isUserSelectable=0
 icao_airline=DKH
 ui_typerole=Commercial Airliner
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Tianjin Airlines Airbus A321-200SL - National Games China Tianjin 2017
 model=GCR-Tianjin Airlines_National Games China Tianjin 2017
 texture=GCR-Tianjin Airlines_National Games China Tianjin 2017
@@ -799,7 +781,7 @@ isUserSelectable=0
 icao_airline=GCR
 ui_typerole=Commercial Airliner
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Wizz Air Airbus A321-200SL
 model=WZZ-Wizz Air
 texture=WZZ-Wizz Air
@@ -817,7 +799,7 @@ isUserSelectable=0
 icao_airline=WZZ
 ui_typerole=Commercial Airliner
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Wizz Air UK Airbus A321-200SL
 model=WUK-Wizz Air UK
 texture=WUK-Wizz Air UK
@@ -835,7 +817,7 @@ isUserSelectable=0
 icao_airline=WUK
 ui_typerole=Commercial Airliner
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Wizz Air UK Airbus A321-200SL - no Flag
 model=WUK-Wizz Air UK_no Flag
 texture=WUK-Wizz Air UK_no Flag
@@ -853,7 +835,7 @@ isUserSelectable=0
 icao_airline=WUK
 ui_typerole=Commercial Airliner
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_Wizz Air UK Airbus A321-200SL - opb Wizz Air
 model=WUK-Wizz Air UK_opb Wizz Air
 texture=WUK-Wizz Air UK_opb Wizz Air
@@ -871,7 +853,7 @@ isUserSelectable=0
 icao_airline=WUK
 ui_typerole=Commercial Airliner
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism
 model=JBU-jetBlue_Prism
 texture=JBU-jetBlue_Prism
@@ -889,7 +871,7 @@ isUserSelectable=0
 icao_airline=JBU
 ui_typerole=Commercial Airliner
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism Mint
 model=JBU-jetBlue_Prism Mint
 texture=JBU-jetBlue_Prism Mint
@@ -907,7 +889,7 @@ isUserSelectable=0
 icao_airline=JBU
 ui_typerole=Commercial Airliner
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism Mint 200th Aircraft
 model=JBU-jetBlue_Prism Mint 200th Aircraft
 texture=JBU-jetBlue_Prism Mint 200th Aircraft
@@ -925,7 +907,7 @@ isUserSelectable=0
 icao_airline=JBU
 ui_typerole=Commercial Airliner
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - IAE OC
 model=TAM-LATAM Airlines Brasil_IAE OC
 texture=TAM-LATAM Airlines Brasil_IAE OC
@@ -943,7 +925,7 @@ isUserSelectable=0
 icao_airline=TAM
 ui_typerole=Commercial Airliner
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_S7 Airlines Airbus A321-200SL - IAE
 model=SBI-S7 Airlines_IAE
 texture=SBI-S7 Airlines_IAE
@@ -960,7 +942,7 @@ isUserSelectable=0
 icao_airline=SBI
 ui_typerole=Commercial Airliner
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL
 model=CSC-Sichuan Airlines
 texture=CSC-Sichuan Airlines
@@ -978,7 +960,7 @@ isUserSelectable=0
 icao_airline=CSC
 ui_typerole=Commercial Airliner
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - Engine Titles
 model=CSC-Sichuan Airlines_Engine Titles
 texture=CSC-Sichuan Airlines_Engine Titles
@@ -996,7 +978,7 @@ isUserSelectable=0
 icao_airline=CSC
 ui_typerole=Commercial Airliner
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - 100th Aircraft
 model=CSC-Sichuan Airlines_100th Aircraft
 texture=CSC-Sichuan Airlines_100th Aircraft
@@ -1014,7 +996,7 @@ isUserSelectable=0
 icao_airline=CSC
 ui_typerole=Commercial Airliner
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - OC
 model=CSC-Sichuan Airlines_OC
 texture=CSC-Sichuan Airlines_OC
@@ -1032,7 +1014,7 @@ isUserSelectable=0
 icao_airline=CSC
 ui_typerole=Commercial Airliner
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_Turkish Airlines Airbus A321-200SL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -1050,7 +1032,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Volaris Airbus A321-200SL - OC
 model=VOI-Volaris_OC
 texture=VOI-Volaris_OC
@@ -1068,7 +1050,7 @@ isUserSelectable=0
 icao_airline=VOI
 ui_typerole=Commercial Airliner
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Volaris Airbus A321-200SL - OC unnamed
 model=VOI-Volaris_OC unnamed
 texture=VOI-Volaris_OC unnamed
@@ -1086,7 +1068,7 @@ isUserSelectable=0
 icao_airline=VOI
 ui_typerole=Commercial Airliner
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Vueling Airbus A321-200SL - IAE
 model=VLG-Vueling_IAE
 texture=VLG-Vueling_IAE
@@ -1104,7 +1086,7 @@ isUserSelectable=0
 icao_airline=VLG
 ui_typerole=Commercial Airliner
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Vueling Airbus A321-200SL - IAE unnamed
 model=VLG-Vueling_IAE unnamed
 texture=VLG-Vueling_IAE unnamed
@@ -1121,3 +1103,21 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 ui_typerole=Commercial Airliner
+
+[fltsim.60]
+title=AIGAIM_Ural Airlines Airbus A321-200SL - IAE (TEMP)
+model=SVR-Ural Airlines_IAE_temp
+texture=SVR-Ural Airlines_IAE_temp
+atc_id=VP-BSY
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Ural Airlines VP-BSY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: UTT Filename: UTT_FAIB_A321s_Ural_Airlines_VP-BSY_FSX.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR

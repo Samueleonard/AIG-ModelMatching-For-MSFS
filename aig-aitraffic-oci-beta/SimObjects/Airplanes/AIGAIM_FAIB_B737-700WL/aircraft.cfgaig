@@ -1626,114 +1626,6 @@ icao_airline=WJA
 ui_typerole=Commercial Airliner
 
 [fltsim.89]
-title=AIGAIM_Jettime Boeing 737-700WL - OY-JTP
-model=JTG-JetTime_OY-JTP
-texture=JTG-JetTime_OY-JTP
-atc_id=OY-JTP
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_NC_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.90]
-title=AIGAIM_Jettime Boeing 737-700WL - OY-JTR OC Eyebrows No Cheatline
-model=JTG-JetTime_OY-JTR OC Eyebrows No Cheatline
-texture=JTG-JetTime_OY-JTR OC Eyebrows No Cheatline
-atc_id=OY-JTR
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_fleet_2017_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.91]
-title=AIGAIM_Jettime Boeing 737-700WL - OY-JTS OC Eyebrows
-model=JTG-JetTime_OY-JTS OC Eyebrows
-texture=JTG-JetTime_OY-JTS OC Eyebrows
-atc_id=OY-JTS
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_fleet_2017_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.92]
-title=AIGAIM_Jettime Boeing 737-700WL - OY-JTT OC
-model=JTG-JetTime_OY-JTT OC
-texture=JTG-JetTime_OY-JTT OC
-atc_id=OY-JTT
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_fleet_2017_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.93]
-title=AIGAIM_Jettime Boeing 737-700WL - OY-JTY OC
-model=JTG-JetTime_OY-JTY OC
-texture=JTG-JetTime_OY-JTY OC
-atc_id=OY-JTY
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_fleet_2017_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.94]
-title=AIGAIM_Jettime Boeing 737-700WL - OH-JTZ OC opb Jettime Finland
-model=JTG-JetTime_OH-JTZ OC opb Jettime Finland
-texture=JTG-JetTime_OH-JTZ OC opb Jettime Finland
-atc_id=OH-JTZ
-atc_airline=JETTIME
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700WL
-ui_variation=Jettime
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700W_Jettime_fleet_2017_FSX.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTG
-ui_typerole=Commercial Airliner
-
-[fltsim.95]
 title=AIGAIM_Kenya Airways Boeing 737-700WL
 model=KQA-Kenya Airways
 texture=KQA-Kenya Airways
@@ -1751,7 +1643,7 @@ isUserSelectable=0
 icao_airline=KQA
 ui_typerole=Commercial Airliner
 
-[fltsim.96]
+[fltsim.90]
 title=AIGAIM_KLM Boeing 737-700WL - 100 Years
 model=KLM-KLM_100 Years
 texture=KLM-KLM_100 Years
@@ -1769,7 +1661,7 @@ isUserSelectable=0
 icao_airline=KLM
 ui_typerole=Commercial Airliner
 
-[fltsim.97]
+[fltsim.91]
 title=AIGAIM_KLM Boeing 737-700WL - OC 100 Years
 model=KLM-KLM_OC 100 Years
 texture=KLM-KLM_OC 100 Years
@@ -1787,7 +1679,7 @@ isUserSelectable=0
 icao_airline=KLM
 ui_typerole=Commercial Airliner
 
-[fltsim.98]
+[fltsim.92]
 title=AIGAIM_KLM Boeing 737-700WL - SN OC 100 Years
 model=KLM-KLM_SN OC 100 Years
 texture=KLM-KLM_SN OC 100 Years
@@ -1805,7 +1697,7 @@ isUserSelectable=0
 icao_airline=KLM
 ui_typerole=Commercial Airliner
 
-[fltsim.99]
+[fltsim.93]
 title=AIGAIM_Kunming Airlines Boeing 737-700WL - SN
 model=KNA-Kunming Airlines_SN
 texture=KNA-Kunming Airlines_SN
@@ -1823,7 +1715,7 @@ isUserSelectable=0
 icao_airline=KNA
 ui_typerole=Commercial Airliner
 
-[fltsim.100]
+[fltsim.94]
 title=AIGAIM_Kunming Airlines Boeing 737-700WL - SN Tengchong
 model=KNA-Kunming Airlines_SN Tengchong
 texture=KNA-Kunming Airlines_SN Tengchong
@@ -1841,7 +1733,7 @@ isUserSelectable=0
 icao_airline=KNA
 ui_typerole=Commercial Airliner
 
-[fltsim.101]
+[fltsim.95]
 title=AIGAIM_LOT Polish Airlines Boeing 737-700WL - lsf Blue Air
 model=LOT-LOT Polish Airlines_lsf Blue Air
 texture=LOT-LOT Polish Airlines_lsf Blue Air
@@ -1858,7 +1750,7 @@ isUserSelectable=0
 icao_airline=LOT
 ui_typerole=Commercial Airliner
 
-[fltsim.102]
+[fltsim.96]
 title=AIGAIM_Luxair Boeing 737-700WL
 model=LGL-Luxair
 texture=LGL-Luxair
@@ -1876,7 +1768,7 @@ isUserSelectable=0
 icao_airline=LGL
 ui_typerole=Commercial Airliner
 
-[fltsim.103]
+[fltsim.97]
 title=AIGAIM_Malawian Airlines Boeing 737-700WL
 model=MWI-Malawian Airlines
 texture=MWI-Malawian Airlines
@@ -1894,7 +1786,7 @@ isUserSelectable=0
 icao_airline=MWI
 ui_typerole=Commercial Airliner
 
-[fltsim.104]
+[fltsim.98]
 title=AIGAIM_Nordavia Boeing 737-700WL
 model=AUL-Nordavia
 texture=AUL-Nordavia
@@ -1912,7 +1804,7 @@ isUserSelectable=0
 icao_airline=AUL
 ui_typerole=Commercial Airliner
 
-[fltsim.105]
+[fltsim.99]
 title=AIGAIM_Regent Airways Boeing 737-700WL (TEMP)
 model=RGE-Regent Airways_temp
 texture=RGE-Regent Airways_temp
@@ -1929,7 +1821,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RGE
 
-[fltsim.106]
+[fltsim.100]
 title=AIGAIM_Royal Air Maroc Boeing 737-700WL
 model=RAM-Royal Air Maroc
 texture=RAM-Royal Air Maroc
@@ -1947,7 +1839,7 @@ isUserSelectable=0
 icao_airline=RAM
 ui_typerole=Commercial Airliner
 
-[fltsim.107]
+[fltsim.101]
 title=AIGAIM_Royal Air Maroc Boeing 737-700WL - OC
 model=RAM-Royal Air Maroc_OC
 texture=RAM-Royal Air Maroc_OC
@@ -1965,7 +1857,7 @@ isUserSelectable=0
 icao_airline=RAM
 ui_typerole=Commercial Airliner
 
-[fltsim.108]
+[fltsim.102]
 title=AIGAIM_Royal Air Maroc Boeing 737-700WL - OC 60 Years Sticker
 model=RAM-Royal Air Maroc_OC 60 Years Sticker
 texture=RAM-Royal Air Maroc_OC 60 Years Sticker
@@ -1983,7 +1875,7 @@ isUserSelectable=0
 icao_airline=RAM
 ui_typerole=Commercial Airliner
 
-[fltsim.109]
+[fltsim.103]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL
 model=RLH-Ruili Airlines
 texture=RLH-Ruili Airlines
@@ -2001,7 +1893,7 @@ isUserSelectable=0
 icao_airline=RLH
 ui_typerole=Commercial Airliner
 
-[fltsim.110]
+[fltsim.104]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL - SN
 model=RLH-Ruili Airlines_SN
 texture=RLH-Ruili Airlines_SN
@@ -2019,7 +1911,7 @@ isUserSelectable=0
 icao_airline=RLH
 ui_typerole=Commercial Airliner
 
-[fltsim.111]
+[fltsim.105]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL - SN Albino
 model=RLH-Ruili Airlines_SN Albino
 texture=RLH-Ruili Airlines_SN Albino
@@ -2037,7 +1929,7 @@ isUserSelectable=0
 icao_airline=RLH
 ui_typerole=Commercial Airliner
 
-[fltsim.112]
+[fltsim.106]
 title=AIGAIM_Rwandair Boeing 737-700WL
 model=RWD-Rwandair
 texture=RWD-Rwandair
@@ -2055,7 +1947,7 @@ isUserSelectable=0
 icao_airline=RWD
 ui_typerole=Commercial Airliner
 
-[fltsim.113]
+[fltsim.107]
 title=AIGAIM_Ryanair Boeing 737-700WL
 model=RYR-Ryanair
 texture=RYR-Ryanair
@@ -2073,7 +1965,7 @@ isUserSelectable=0
 icao_airline=RYR
 ui_typerole=Commercial Airliner
 
-[fltsim.114]
+[fltsim.108]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700WL
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -2091,7 +1983,7 @@ isUserSelectable=0
 icao_airline=SAS
 ui_typerole=Commercial Airliner
 
-[fltsim.115]
+[fltsim.109]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700WL - no Dome
 model=SAS-SAS Scandinavian Airlines_no Dome
 texture=SAS-SAS Scandinavian Airlines_no Dome
@@ -2109,7 +2001,7 @@ isUserSelectable=0
 icao_airline=SAS
 ui_typerole=Commercial Airliner
 
-[fltsim.116]
+[fltsim.110]
 title=AIGAIM_SCAT Airlines Boeing 737-700WL - OC
 model=VSV-SCAT Airlines_OC
 texture=VSV-SCAT Airlines_OC
@@ -2127,7 +2019,7 @@ isUserSelectable=0
 icao_airline=VSV
 ui_typerole=Commercial Airliner
 
-[fltsim.117]
+[fltsim.111]
 title=AIGAIM_Shandong Airlines Boeing 737-700WL
 model=CDG-Shandong Airlines
 texture=CDG-Shandong Airlines
@@ -2145,7 +2037,7 @@ isUserSelectable=0
 icao_airline=CDG
 ui_typerole=Commercial Airliner
 
-[fltsim.118]
+[fltsim.112]
 title=AIGAIM_SpiceJet Boeing 737-700WL - Albino Named VT-SLB
 model=SEJ-SpiceJet_Albino Named VT-SLB
 texture=SEJ-SpiceJet_Albino Named VT-SLB
@@ -2163,7 +2055,7 @@ isUserSelectable=0
 icao_airline=SEJ
 ui_typerole=Commercial Airliner
 
-[fltsim.119]
+[fltsim.113]
 title=AIGAIM_SpiceXpress Boeing 737-700WL - BDSF
 model=SEJC-SpiceXpress_BDSF
 texture=SEJC-SpiceXpress_BDSF
@@ -2178,7 +2070,7 @@ isUserSelectable=0
 icao_airline=SEJC
 ui_typerole=Commercial Airliner
 
-[fltsim.120]
+[fltsim.114]
 title=AIGAIM_SpiceXpress Boeing 737-700WL - BDSF Eyebrows
 model=SEJC-SpiceXpress_BDSF Eyebrows
 texture=SEJC-SpiceXpress_BDSF Eyebrows
@@ -2193,7 +2085,7 @@ isUserSelectable=0
 icao_airline=SEJC
 ui_typerole=Commercial Airliner
 
-[fltsim.121]
+[fltsim.115]
 title=AIGAIM_Surinam Airways Boeing 737-700WL
 model=SLM-Surinam Airways
 texture=SLM-Surinam Airways
@@ -2209,7 +2101,7 @@ isUserSelectable=0
 icao_airline=SLM
 ui_typerole=Commercial Airliner
 
-[fltsim.122]
+[fltsim.116]
 title=AIGAIM_TAROM Boeing 737-700WL
 model=ROT-TAROM
 texture=ROT-TAROM
@@ -2227,7 +2119,7 @@ isUserSelectable=0
 icao_airline=ROT
 ui_typerole=Commercial Airliner
 
-[fltsim.123]
+[fltsim.117]
 title=AIGAIM_TAROM Boeing 737-700WL - Skyteam
 model=ROT-TAROM_Skyteam
 texture=ROT-TAROM_Skyteam
@@ -2245,7 +2137,7 @@ isUserSelectable=0
 icao_airline=ROT
 ui_typerole=Commercial Airliner
 
-[fltsim.124]
+[fltsim.118]
 title=AIGAIM_TAROM Boeing 737-700WL - 60 Years
 model=ROT-TAROM_60 Years
 texture=ROT-TAROM_60 Years
@@ -2263,7 +2155,7 @@ isUserSelectable=0
 icao_airline=ROT
 ui_typerole=Commercial Airliner
 
-[fltsim.125]
+[fltsim.119]
 title=AIGAIM_Transavia Boeing 737-700WL
 model=TRA-Transavia
 texture=TRA-Transavia
@@ -2281,7 +2173,7 @@ isUserSelectable=0
 icao_airline=TRA
 ui_typerole=Commercial Airliner
 
-[fltsim.126]
+[fltsim.120]
 title=AIGAIM_Transavia Boeing 737-700WL - OC
 model=TRA-Transavia_OC
 texture=TRA-Transavia_OC
@@ -2299,7 +2191,7 @@ isUserSelectable=0
 icao_airline=TRA
 ui_typerole=Commercial Airliner
 
-[fltsim.127]
+[fltsim.121]
 title=AIGAIM_Transavia Boeing 737-700WL - KLM OC 100 years
 model=TRA-Transavia_KLM OC 100 years
 texture=TRA-Transavia_KLM OC 100 years
@@ -2317,7 +2209,7 @@ isUserSelectable=0
 icao_airline=TRA
 ui_typerole=Commercial Airliner
 
-[fltsim.128]
+[fltsim.122]
 title=AIGAIM_TUIfly Boeing 737-700WL - Blank WL White Nose (TEMP)
 model=TUI-TUIfly_Blank WL White Nose_temp
 texture=TUI-TUIfly_Blank WL White Nose_temp
@@ -2335,7 +2227,7 @@ isUserSelectable=0
 icao_airline=TUI
 ui_typerole=Commercial Airliner
 
-[fltsim.129]
+[fltsim.123]
 title=AIGAIM_Turkish Airlines Boeing 737-700WL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -2353,7 +2245,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.130]
+[fltsim.124]
 title=AIGAIM_Turkmenistan Airlines Boeing 737-700WL
 model=TUA-Turkmenistan Airlines
 texture=TUA-Turkmenistan Airlines
@@ -2371,7 +2263,7 @@ isUserSelectable=0
 icao_airline=TUA
 ui_typerole=Commercial Airliner
 
-[fltsim.131]
+[fltsim.125]
 title=AIGAIM_Virgin Australia Boeing 737-700WL
 model=VOZ-Virgin Australia
 texture=VOZ-Virgin Australia
@@ -2389,7 +2281,7 @@ isUserSelectable=0
 icao_airline=VOZ
 ui_typerole=Commercial Airliner
 
-[fltsim.132]
+[fltsim.126]
 title=AIGAIM_Air China Boeing 737-700WL
 model=CCA-Air China
 texture=CCA-Air China
@@ -2406,7 +2298,7 @@ isUserSelectable=0
 icao_airline=CCA
 ui_typerole=Commercial Airliner
 
-[fltsim.133]
+[fltsim.127]
 title=AIGAIM_China Eastern Airlines Boeing 737-700WL - OC
 model=CES-China Eastern Airlines_OC
 texture=CES-China Eastern Airlines_OC
@@ -2423,7 +2315,7 @@ isUserSelectable=0
 icao_airline=CES
 ui_typerole=Commercial Airliner
 
-[fltsim.134]
+[fltsim.128]
 title=AIGAIM_China Eastern Airlines Boeing 737-700WL - OC Yunnan
 model=CES-China Eastern Airlines_OC Yunnan
 texture=CES-China Eastern Airlines_OC Yunnan
@@ -2440,7 +2332,7 @@ isUserSelectable=0
 icao_airline=CES
 ui_typerole=Commercial Airliner
 
-[fltsim.135]
+[fltsim.129]
 title=AIGAIM_China Eastern Airlines Boeing 737-700WL - SN OC Yunnan Peacock (Orange)
 model=CES-China Eastern Airlines_SN OC Yunnan Peacock (Orange)
 texture=CES-China Eastern Airlines_SN OC Yunnan Peacock (Orange)
@@ -2457,7 +2349,7 @@ isUserSelectable=0
 icao_airline=CES
 ui_typerole=Commercial Airliner
 
-[fltsim.136]
+[fltsim.130]
 title=AIGAIM_China Southern Airlines Boeing 737-700WL (TEMP)
 model=CSN-China Southern Airlines_temp
 texture=CSN-China Southern Airlines_temp
@@ -2473,7 +2365,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.137]
+[fltsim.131]
 title=AIGAIM_China Southern Airlines Boeing 737-700WL - SN
 model=CSN-China Southern Airlines_SN
 texture=CSN-China Southern Airlines_SN
@@ -2490,7 +2382,7 @@ isUserSelectable=0
 icao_airline=CSN
 ui_typerole=Commercial Airliner
 
-[fltsim.138]
+[fltsim.132]
 title=AIGAIM_China Southern Airlines Boeing 737-700WL - SN 4000th Boeing 737NG
 model=CSN-China Southern Airlines_SN 4000th Boeing 737NG
 texture=CSN-China Southern Airlines_SN 4000th Boeing 737NG

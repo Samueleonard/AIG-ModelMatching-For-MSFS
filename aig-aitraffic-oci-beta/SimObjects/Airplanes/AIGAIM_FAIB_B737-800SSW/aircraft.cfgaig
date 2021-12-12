@@ -1964,7 +1964,7 @@ atc_parking_codes=TUI
 ui_manufacturer=Boeing
 ui_type=Boeing 737-800SSW
 ui_variation=TUIfly Vermarktungs GmbH
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly RIU FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
 description=FAIB_B737-800SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -2091,3 +2091,147 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLX
 ui_typerole=Commercial Airliner
+
+[fltsim.116]
+title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZM'
+model=JTD-Jet Time_'OY-JZM'
+texture=JTD-Jet Time_'OY-JZM'
+atc_id=OY-JZM
+atc_airline=NEW JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JTD
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Jettime
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTD
+
+[fltsim.117]
+title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZN'
+model=JTD-Jet Time_'OY-JZN'
+texture=JTD-Jet Time_'OY-JZN'
+atc_id=OY-JZN
+atc_airline=NEW JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JTD
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Jettime
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTD
+
+[fltsim.118]
+title=AIGAIM_TUIfly Nordic Boeing 737-800SSW - SN
+model=BLX-TUIfly Nordic_SN
+texture=BLX-TUIfly Nordic_SN
+atc_id=SE-RFM
+atc_airline=BLUESCAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLX
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Sverige AB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly Nordic.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLX
+
+[fltsim.119]
+title=AIGAIM_TUIfly Boeing 737-800SSW
+model=TUI-TUIfly
+texture=TUI-TUIfly
+atc_id=D-ABKI
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.120]
+title=AIGAIM_TUIfly Boeing 737-800SSW - Blank SSW
+model=TUI-TUIfly_Blank SSW
+texture=TUI-TUIfly_Blank SSW
+atc_id=D-ABKI
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.121]
+title=AIGAIM_TUIfly Boeing 737-800SSW - Blue SSW
+model=TUI-TUIfly_Blue SSW
+texture=TUI-TUIfly_Blue SSW
+atc_id=D-ATUA
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.122]
+title=AIGAIM_TUIfly Boeing 737-800SSW - SN Blue SSW
+model=TUI-TUIfly_SN Blue SSW
+texture=TUI-TUIfly_SN Blue SSW
+atc_id=D-ATUJ
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.123]
+title=AIGAIM_TUIfly Boeing 737-800SSW - SN MC
+model=TUI-TUIfly_SN MC
+texture=TUI-TUIfly_SN MC
+atc_id=D-ATUM
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI

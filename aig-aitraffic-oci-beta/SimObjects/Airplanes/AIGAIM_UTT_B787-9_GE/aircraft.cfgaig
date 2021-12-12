@@ -647,24 +647,6 @@ icao_airline=TOM
 ui_typerole=Commercial Airliner
 
 [fltsim.31]
-title=AIGAIM_TUIfly Nordic Boeing 787-9 - opb TUI Airways UK named
-model=BLX-TUIfly Nordic_opb TUI Airways UK named
-texture=BLX-TUIfly Nordic_opb TUI Airways UK named
-atc_airline=BLUESCAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BLX
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=TUI Airways
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BLX
-ui_typerole=Commercial Airliner
-
-[fltsim.32]
 title=AIGAIM_Vietnam Airlines Boeing 787-9
 model=HVN-Vietnam Airlines
 texture=HVN-Vietnam Airlines
@@ -683,7 +665,7 @@ isUserSelectable=0
 icao_airline=HVN
 ui_typerole=Commercial Airliner
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Oman Air Boeing 787-9
 model=OMA-Oman Air
 texture=OMA-Oman Air
