@@ -1150,24 +1150,6 @@ icao_airline=VJC
 ui_typerole=Commercial Airliner
 
 [fltsim.63]
-title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
-model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
-texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
-atc_id=9M-AMG
-atc_airline=CORENDON
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CAI
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Avion Express Malta Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321-200 Avion Express Malta 9H-AMG.zip
-description=FAIB_A321-200_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CAI
-
-[fltsim.64]
 title=AIGAIM_Windrose Airlines Airbus A321-200 - CFM new Albino
 model=WRC-Windrose Airlines_CFM new Albino
 texture=WRC-Windrose Airlines_CFM new Albino
@@ -1184,3 +1166,21 @@ description=FAIB_A321-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WRC
+
+[fltsim.64]
+title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
+model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+atc_id=9M-AMG
+atc_airline=CORENDON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAI
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Avion Express Malta Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 Avion Express Malta 9H-AMG.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAI

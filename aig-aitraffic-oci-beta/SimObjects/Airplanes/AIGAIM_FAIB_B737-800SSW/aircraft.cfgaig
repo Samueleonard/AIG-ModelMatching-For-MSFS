@@ -1972,42 +1972,6 @@ icao_airline=TUI
 ui_typerole=Commercial Airliner
 
 [fltsim.109]
-title=AIGAIM_TUIfly Boeing 737-800SSW - Robinson Resorts
-model=TUI-TUIfly_Robinson Resorts
-texture=TUI-TUIfly_Robinson Resorts
-atc_id=D-ATUI
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly Robinson FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-ui_typerole=Commercial Airliner
-
-[fltsim.110]
-title=AIGAIM_TUIfly Boeing 737-800SSW - TUI BLUE Hotels
-model=TUI-TUIfly_TUI BLUE Hotels
-texture=TUI-TUIfly_TUI BLUE Hotels
-atc_id=D-ATUD
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly Blue FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-ui_typerole=Commercial Airliner
-
-[fltsim.111]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW
 model=TFL-TUI fly Netherlands
 texture=TFL-TUI fly Netherlands
@@ -2024,7 +1988,7 @@ isUserSelectable=0
 icao_airline=TFL
 ui_typerole=Commercial Airliner
 
-[fltsim.112]
+[fltsim.110]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG sunnycars Hybrid
 model=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
 texture=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
@@ -2041,7 +2005,7 @@ isUserSelectable=0
 icao_airline=TFL
 ui_typerole=Commercial Airliner
 
-[fltsim.113]
+[fltsim.111]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG aerfi.aero Hybrid
 model=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
 texture=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
@@ -2058,7 +2022,7 @@ isUserSelectable=0
 icao_airline=TFL
 ui_typerole=Commercial Airliner
 
-[fltsim.114]
+[fltsim.112]
 title=AIGAIM_TUIfly Nordic Boeing 737-800SSW - SN OC (TEMP)
 model=BLX-TUIfly Nordic_SN OC_temp
 texture=BLX-TUIfly Nordic_SN OC_temp
@@ -2075,24 +2039,7 @@ isUserSelectable=0
 icao_airline=BLX
 ui_typerole=Commercial Airliner
 
-[fltsim.115]
-title=AIGAIM_TUIfly Nordic Boeing 737-800SSW - SN opb TUI Airways UK
-model=BLX-TUIfly Nordic_SN opb TUI Airways UK
-texture=BLX-TUIfly Nordic_SN opb TUI Airways UK
-atc_airline=BLUESCAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BLX
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airways WK
-ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BLX
-ui_typerole=Commercial Airliner
-
-[fltsim.116]
+[fltsim.113]
 title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZM'
 model=JTD-Jet Time_'OY-JZM'
 texture=JTD-Jet Time_'OY-JZM'
@@ -2110,7 +2057,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTD
 
-[fltsim.117]
+[fltsim.114]
 title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZN'
 model=JTD-Jet Time_'OY-JZN'
 texture=JTD-Jet Time_'OY-JZN'
@@ -2128,7 +2075,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTD
 
-[fltsim.118]
+[fltsim.115]
 title=AIGAIM_TUIfly Nordic Boeing 737-800SSW - SN
 model=BLX-TUIfly Nordic_SN
 texture=BLX-TUIfly Nordic_SN
@@ -2146,7 +2093,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLX
 
-[fltsim.119]
+[fltsim.116]
 title=AIGAIM_TUIfly Boeing 737-800SSW
 model=TUI-TUIfly
 texture=TUI-TUIfly
@@ -2164,7 +2111,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.120]
+[fltsim.117]
 title=AIGAIM_TUIfly Boeing 737-800SSW - Blank SSW
 model=TUI-TUIfly_Blank SSW
 texture=TUI-TUIfly_Blank SSW
@@ -2182,7 +2129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.121]
+[fltsim.118]
 title=AIGAIM_TUIfly Boeing 737-800SSW - Blue SSW
 model=TUI-TUIfly_Blue SSW
 texture=TUI-TUIfly_Blue SSW
@@ -2200,7 +2147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.122]
+[fltsim.119]
 title=AIGAIM_TUIfly Boeing 737-800SSW - SN Blue SSW
 model=TUI-TUIfly_SN Blue SSW
 texture=TUI-TUIfly_SN Blue SSW
@@ -2218,7 +2165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.123]
+[fltsim.120]
 title=AIGAIM_TUIfly Boeing 737-800SSW - SN MC
 model=TUI-TUIfly_SN MC
 texture=TUI-TUIfly_SN MC
