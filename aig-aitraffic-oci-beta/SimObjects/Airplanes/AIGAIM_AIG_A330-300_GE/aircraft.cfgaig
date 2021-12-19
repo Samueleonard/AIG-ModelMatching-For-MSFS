@@ -1,0 +1,461 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="$$:A330-300"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator="A333"
+icao_manufacturer="AIRBUS"
+icao_model="A330-300"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="H"
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner"
+copilot_default_animation="Idle2_PoseAirliner"
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[MISSIONGENERATOR]
+groundrolldistance=4500
+minrunwaylength=5850
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Iberia Airbus A330-300 - WiFi Dome
+model=IBE-Iberia_WiFi Dome
+texture=IBE-Iberia_WiFi Dome
+atc_id=EC-MAA
+atc_airline=IBERIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Iberia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Iberia.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.1]
+title=AIGAIM_Turkish Airlines Airbus A330-300 - GE Belly Titles WiFi Dome
+model=THY-Turkish Airlines_GE Belly Titles WiFi Dome
+texture=THY-Turkish Airlines_GE Belly Titles WiFi Dome
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Turkish Airlines - C28
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.2]
+title=AIGAIM_Turkish Airlines Airbus A330-300 - 242t GE 300th Aircraft
+model=THY-Turkish Airlines_242t GE 300th Aircraft
+texture=THY-Turkish Airlines_242t GE 300th Aircraft
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Turkish Airlines - C28 300th Aircraft
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
+description=AIG_A330-300_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.3]
+title=AIGAIM_China Airlines Airbus A330-300
+model=CAL-China Airlines
+texture=CAL-China Airlines
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAL
+
+[fltsim.4]
+title=AIGAIM_China Airlines Airbus A330-300 - Skyteam
+model=CAL-China Airlines_Skyteam
+texture=CAL-China Airlines_Skyteam
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAL
+
+[fltsim.5]
+title=AIGAIM_EVA Air Airbus A330-300 - OC
+model=EVA-EVA Air_OC
+texture=EVA-EVA Air_OC
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 EVA Air.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.6]
+title=AIGAIM_EVA Air Airbus A330-300 - B-16331 Bad Badtz-Maru
+model=EVA-EVA Air_B-16331 Bad Badtz-Maru
+texture=EVA-EVA Air_B-16331 Bad Badtz-Maru
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 EVA Air.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.7]
+title=AIGAIM_EVA Air Airbus A330-300 - B-16332 Sanrio Characters
+model=EVA-EVA Air_B-16332 Sanrio Characters
+texture=EVA-EVA Air_B-16332 Sanrio Characters
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 EVA Air.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.8]
+title=AIGAIM_EVA Air Airbus A330-300 - B-16333 Sanrio Characters
+model=EVA-EVA Air_B-16333 Sanrio Characters
+texture=EVA-EVA Air_B-16333 Sanrio Characters
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 EVA Air.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.9]
+title=AIGAIM_EVA Air Airbus A330-300 - 242t
+model=EVA-EVA Air_242t
+texture=EVA-EVA Air_242t
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 EVA Air.zip
+description=AIG_A330-300_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.10]
+title=AIGAIM_Aer Lingus Airbus A330-300 - large 3rd door
+model=EIN-Aer Lingus_large 3rd door
+texture=EIN-Aer Lingus_large 3rd door
+atc_airline=SHAMROCK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EIN
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Aer Lingus
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_EIN.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EIN
+
+[fltsim.11]
+title=AIGAIM_Aer Lingus Airbus A330-300 - OC large 3rd door
+model=EIN-Aer Lingus_OC large 3rd door
+texture=EIN-Aer Lingus_OC large 3rd door
+atc_airline=SHAMROCK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EIN
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Aer Lingus OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_EIN.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EIN
+
+[fltsim.12]
+title=AIGAIM_Aer Lingus Airbus A330-300 - 242t OC large 3rd door
+model=EIN-Aer Lingus_242t OC large 3rd door
+texture=EIN-Aer Lingus_242t OC large 3rd door
+atc_airline=SHAMROCK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EIN
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Aer Lingus OC 242t
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_EIN.zip
+description=AIG_A330-300_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EIN
+
+[fltsim.13]
+title=AIGAIM_Finnair Airbus A330-300
+model=FIN-Finnair
+texture=FIN-Finnair
+atc_id=OH-LTU
+atc_airline=FINNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Finnair.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.14]
+title=AIGAIM_Finnair Airbus A330-300 - Marimekko Unikko
+model=FIN-Finnair_Marimekko Unikko
+texture=FIN-Finnair_Marimekko Unikko
+atc_id=OH-LTO
+atc_airline=FINNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Finnair 'Marimekko Unikko'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Finnair.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.15]
+title=AIGAIM_Qantas Airbus A330-300
+model=QFA-Qantas
+texture=QFA-Qantas
+atc_id=VH-QPJ
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.16]
+title=AIGAIM_Qantas Airbus A330-300 - OC
+model=QFA-Qantas_OC
+texture=QFA-Qantas_OC
+atc_id=VH-QPB
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.17]
+title=AIGAIM_Tunisair Airbus A330-300 - opb GJT
+model=TAR-Tunisair_opb GJT
+texture=TAR-Tunisair_opb GJT
+atc_id=LY-LEO
+atc_airline=TUNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAR
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Getjet Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_GetJet Airlines.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAR
+
+[fltsim.18]
+title=AIGAIM_KLM Airbus A330-300 - Satcomm 100 Years
+model=KLM-KLM_Satcomm 100 Years
+texture=KLM-KLM_Satcomm 100 Years
+atc_id=PH-AKB
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-300
+ui_variation=KLM - PH-AKB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.19]
+title=AIGAIM_KLM Airbus A330-300 - OC Satcomm 100 Years
+model=KLM-KLM_OC Satcomm 100 Years
+texture=KLM-KLM_OC Satcomm 100 Years
+atc_id=PH-AKF
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-300
+ui_variation=KLM - PH-AKF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.20]
+title=AIGAIM_Delta Air Lines Airbus A330-300 - 242t GE
+model=DAL-Delta Air Lines_242t GE
+texture=DAL-Delta Air Lines_242t GE
+atc_id=N824NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a333_jkm.zip
+description=AIG_A330-300_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.21]
+title=AIGAIM_Qatar Airways Airbus A330-300 - named Large 3rd Door
+model=QTR-Qatar Airways_named Large 3rd Door
+texture=QTR-Qatar Airways_named Large 3rd Door
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Qatar Airways.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

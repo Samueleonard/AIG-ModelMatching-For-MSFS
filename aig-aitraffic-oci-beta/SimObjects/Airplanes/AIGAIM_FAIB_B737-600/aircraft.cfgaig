@@ -61,7 +61,7 @@ atc_parking_codes=DAH
 ui_manufacturer=FAIB
 ui_type=Boeing 737-600
 ui_variation=Air Algerie 737-600
-ui_createdby=Provided by: FC75 Filename: faib_736_dah_fsx.zip
+ui_createdby=Provided by: KPK Filename: faib_736_dah_fsx.zip
 description=FAIB_B737-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -131,12 +131,12 @@ atc_parking_codes=TAR
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-600
 ui_variation=Tunisair - TS-IOK
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai736tar_70years.zip
 description=FAIB_B737-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Tunisair Boeing 737-600 - Small 737 titles
@@ -149,12 +149,12 @@ atc_parking_codes=TAR
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-600
 ui_variation=Tunisair - TS-ION
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai736tar_70years.zip
 description=FAIB_B737-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Tunisair Boeing 737-600 - Large 737 titles
@@ -167,12 +167,12 @@ atc_parking_codes=TAR
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-600
 ui_variation=Tunisair - TS-IOM
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai736tar_70years.zip
 description=FAIB_B737-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Tunisair Boeing 737-600 - Retro
@@ -185,9 +185,9 @@ atc_parking_codes=TAR
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-600
 ui_variation=Tunisair - TS-IOP
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai736tar_70years.zip
 description=FAIB_B737-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
-ui_typerole=Commercial Airliner

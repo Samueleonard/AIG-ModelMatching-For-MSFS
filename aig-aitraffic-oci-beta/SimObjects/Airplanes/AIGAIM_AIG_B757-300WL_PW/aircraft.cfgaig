@@ -71,12 +71,12 @@ atc_parking_codes=DAL
 ui_manufacturer=AIG
 ui_type=Boeing 757-300WL
 ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW2 Filename: aig_dal_b753w_p3d-1.zip
 description=AIG_B757-300WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Delta Air Lines Boeing 757-300WL - No Belly Titles
@@ -90,9 +90,9 @@ atc_parking_codes=DAL
 ui_manufacturer=AIG
 ui_type=Boeing 757-300WL
 ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW2 Filename: aig_dal_b753w_p3d-1.zip
 description=AIG_B757-300WL_PW-PW_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
-ui_typerole=Commercial Airliner

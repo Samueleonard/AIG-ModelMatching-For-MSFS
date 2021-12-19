@@ -250,63 +250,6 @@ icao_airline=ANA
 ui_typerole=Commercial Airliner
 
 [fltsim.10]
-title=AIGAIM_Avianca Boeing 787-8
-model=AVA-Avianca
-texture=AVA-Avianca
-atc_id=N780AV
-atc_airline=AVIANCA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AVA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
-ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AVA
-ui_typerole=Commercial Airliner
-
-[fltsim.11]
-title=AIGAIM_Avianca Boeing 787-8 - WiFi Dome
-model=AVA-Avianca_WiFi Dome
-texture=AVA-Avianca_WiFi Dome
-atc_id=N781AV
-atc_airline=AVIANCA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AVA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
-ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AVA
-ui_typerole=Commercial Airliner
-
-[fltsim.12]
-title=AIGAIM_Avianca Boeing 787-8 - #ViajeDeEsperanza
-model=AVA-Avianca_#ViajeDeEsperanza
-texture=AVA-Avianca_#ViajeDeEsperanza
-atc_id=N794AV
-atc_airline=AVIANCA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AVA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
-ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AVA
-ui_typerole=Commercial Airliner
-
-[fltsim.13]
 title=AIGAIM_British Airways Boeing 787-8
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -324,7 +267,7 @@ isUserSelectable=0
 icao_airline=BAW
 ui_typerole=Commercial Airliner
 
-[fltsim.14]
+[fltsim.11]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATG Yeha Star Alliance
 model=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
 texture=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
@@ -343,7 +286,7 @@ isUserSelectable=0
 icao_airline=ETH
 ui_typerole=Commercial Airliner
 
-[fltsim.15]
+[fltsim.12]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATH Rio de Janeiro
 model=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
 texture=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
@@ -362,7 +305,7 @@ isUserSelectable=0
 icao_airline=ETH
 ui_typerole=Commercial Airliner
 
-[fltsim.16]
+[fltsim.13]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATJ Dallol
 model=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
 texture=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
@@ -381,7 +324,7 @@ isUserSelectable=0
 icao_airline=ETH
 ui_typerole=Commercial Airliner
 
-[fltsim.17]
+[fltsim.14]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATL Colonel Robinson
 model=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
 texture=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
@@ -400,7 +343,7 @@ isUserSelectable=0
 icao_airline=ETH
 ui_typerole=Commercial Airliner
 
-[fltsim.18]
+[fltsim.15]
 title=AIGAIM_Thai Airways Boeing 787-8 - Wifi Dome
 model=THA-Thai Airways_Wifi Dome
 texture=THA-Thai Airways_Wifi Dome
@@ -419,7 +362,7 @@ isUserSelectable=0
 icao_airline=THA
 ui_typerole=Commercial Airliner
 
-[fltsim.19]
+[fltsim.16]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC Large Titles (TEMP)
 model=LAN-LATAM Airlines Chile_OC Large Titles_temp
 texture=LAN-LATAM Airlines Chile_OC Large Titles_temp
@@ -437,7 +380,7 @@ isUserSelectable=0
 icao_airline=LAN
 ui_typerole=Commercial Airliner
 
-[fltsim.20]
+[fltsim.17]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC First 787 in America
 model=LAN-LATAM Airlines Chile_OC First 787 in America
 texture=LAN-LATAM Airlines Chile_OC First 787 in America
@@ -455,7 +398,7 @@ isUserSelectable=0
 icao_airline=LAN
 ui_typerole=Commercial Airliner
 
-[fltsim.21]
+[fltsim.18]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -474,7 +417,7 @@ isUserSelectable=0
 icao_airline=LOT
 ui_typerole=Commercial Airliner
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Cichociemni
 model=LOT-LOT Polish Airlines_Cichociemni
 texture=LOT-LOT Polish Airlines_Cichociemni
@@ -493,7 +436,7 @@ isUserSelectable=0
 icao_airline=LOT
 ui_typerole=Commercial Airliner
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Franek
 model=LOT-LOT Polish Airlines_Franek
 texture=LOT-LOT Polish Airlines_Franek
@@ -512,7 +455,7 @@ isUserSelectable=0
 icao_airline=LOT
 ui_typerole=Commercial Airliner
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_Royal Brunei Airlines Boeing 787-8
 model=RBA-Royal Brunei
 texture=RBA-Royal Brunei
@@ -531,7 +474,7 @@ isUserSelectable=0
 icao_airline=RBA
 ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_Royal Brunei Airlines Boeing 787-8 - 40th anniversary
 model=RBA-Royal Brunei_40th anniversary
 texture=RBA-Royal Brunei_40th anniversary
@@ -550,7 +493,7 @@ isUserSelectable=0
 icao_airline=RBA
 ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_Scoot Boeing 787-8
 model=TGW-Scoot
 texture=TGW-Scoot
@@ -568,3 +511,60 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
 ui_typerole=Commercial Airliner
+
+[fltsim.24]
+title=AIGAIM_Avianca Boeing 787-8
+model=AVA-Avianca
+texture=AVA-Avianca
+atc_id=N780AV
+atc_airline=AVIANCA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.25]
+title=AIGAIM_Avianca Boeing 787-8 - WiFi Dome
+model=AVA-Avianca_WiFi Dome
+texture=AVA-Avianca_WiFi Dome
+atc_id=N781AV
+atc_airline=AVIANCA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.26]
+title=AIGAIM_Avianca Boeing 787-8 - #ViajeDeEsperanza
+model=AVA-Avianca_#ViajeDeEsperanza
+texture=AVA-Avianca_#ViajeDeEsperanza
+atc_id=N794AV
+atc_airline=AVIANCA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B788 Avianca Colombia UTT FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA

@@ -104,42 +104,6 @@ isUserSelectable=0
 icao_airline=HAL
 
 [fltsim.3]
-title=AIGAIM_Delta Air Lines Boeing 717-200 - No Belly Titles
-model=DAL-Delta Air Lines_No Belly Titles
-texture=DAL-Delta Air Lines_No Belly Titles
-atc_id=N949AT
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 717-200
-ui_variation=Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aia_dal_b717_p3d-1.zip
-description=AIA_B717-200-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.4]
-title=AIGAIM_Delta Air Lines Boeing 717-200 - Eyebrows No Belly Titles
-model=DAL-Delta Air Lines_Eyebrows No Belly Titles
-texture=DAL-Delta Air Lines_Eyebrows No Belly Titles
-atc_id=N993AT
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 717-200
-ui_variation=Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aia_dal_b717_p3d-1.zip
-description=AIA_B717-200-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.5]
 title=AIGAIM_Qantaslink Boeing 717-200
 model=QJE-Qantaslink
 texture=QJE-Qantaslink
@@ -157,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC
 model=QJE-Qantaslink_OC
 texture=QJE-Qantaslink_OC
@@ -175,7 +139,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Eyebrows
 model=QJE-Qantaslink_OC Eyebrows
 texture=QJE-Qantaslink_OC Eyebrows
@@ -193,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Engine Logo
 model=QJE-Qantaslink_OC Engine Logo
 texture=QJE-Qantaslink_OC Engine Logo
@@ -211,7 +175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Engine Logo Eyebrows
 model=QJE-Qantaslink_OC Engine Logo Eyebrows
 texture=QJE-Qantaslink_OC Engine Logo Eyebrows
@@ -229,7 +193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Old Titles Eyebrows
 model=QJE-Qantaslink_OC Old Titles Eyebrows
 texture=QJE-Qantaslink_OC Old Titles Eyebrows
@@ -247,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Discover Tasmania VH-YQW
 model=QJE-Qantaslink_OC Discover Tasmania VH-YQW
 texture=QJE-Qantaslink_OC Discover Tasmania VH-YQW
@@ -264,3 +228,39 @@ description=AIA_B717-200-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
+
+[fltsim.10]
+title=AIGAIM_Delta Air Lines Boeing 717-200 - No Belly Titles
+model=DAL-Delta Air Lines_No Belly Titles
+texture=DAL-Delta Air Lines_No Belly Titles
+atc_id=N949AT
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 717-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aia_dal_b717_p3d-1.zip
+description=AIA_B717-200-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.11]
+title=AIGAIM_Delta Air Lines Boeing 717-200 - Eyebrows No Belly Titles
+model=DAL-Delta Air Lines_Eyebrows No Belly Titles
+texture=DAL-Delta Air Lines_Eyebrows No Belly Titles
+atc_id=N993AT
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 717-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aia_dal_b717_p3d-1.zip
+description=AIA_B717-200-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

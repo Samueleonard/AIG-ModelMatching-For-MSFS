@@ -1,0 +1,186 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="$$:A330-200"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator="A332"
+icao_manufacturer="AIRBUS"
+icao_model="A330-200"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="H"
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner"
+copilot_default_animation="Idle2_PoseAirliner"
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[MISSIONGENERATOR]
+groundrolldistance=4500
+minrunwaylength=5850
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - OT PW ETOPS Argentina
+model=ARG-Aerolineas Argentinas_OT PW ETOPS Argentina
+texture=ARG-Aerolineas Argentinas_OT PW ETOPS Argentina
+atc_id=LV-FNK
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Aerolineas Argentinas.zip
+description=AIG_A330-200_PW-PW_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG
+
+[fltsim.1]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - OT PW New Argentina Sticker
+model=ARG-Aerolineas Argentinas_OT PW New Argentina Sticker
+texture=ARG-Aerolineas Argentinas_OT PW New Argentina Sticker
+atc_id=LV-FNL
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Aerolineas Argentinas.zip
+description=AIG_A330-200_PW-PW_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG
+
+[fltsim.2]
+title=AIGAIM_Korean Air Airbus A330-200
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Korean Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_A332_KAL.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.3]
+title=AIGAIM_Korean Air Airbus A330-200 - Skyteam
+model=KAL-Korean Air_Skyteam
+texture=KAL-Korean Air_Skyteam
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Korean Air - Skyteam
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_A332_KAL.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.4]
+title=AIGAIM_Korean Air Airbus A330-200 - OT
+model=KAL-Korean Air_OT
+texture=KAL-Korean Air_OT
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Korean Air - Old Tail
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_A332_KAL.zip
+description=AIG_A330-200_PW-PW_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.5]
+title=AIGAIM_Delta Air Lines Airbus A330-200 - PW
+model=DAL-Delta Air Lines_PW
+texture=DAL-Delta Air Lines_PW
+atc_id=N860NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.6]
+title=AIGAIM_Delta Air Lines Airbus A330-200 - PW No Belly Titles
+model=DAL-Delta Air Lines_PW No Belly Titles
+texture=DAL-Delta Air Lines_PW No Belly Titles
+atc_id=N858NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

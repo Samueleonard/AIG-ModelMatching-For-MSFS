@@ -347,44 +347,6 @@ icao_airline=ETD
 ui_typerole=Commercial Airliner
 
 [fltsim.15]
-title=AIGAIM_Korean Air Airbus A380-800
-model=KAL-Korean Air
-texture=KAL-Korean Air
-atc_id=HL7628
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Korean Air
-ui_createdby=Provided by: FC75 Filename: tfs_a380_kal_fsx.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.16]
-title=AIGAIM_Korean Air Airbus A380-800 - 50 Years
-model=KAL-Korean Air_50 Years
-texture=KAL-Korean Air_50 Years
-atc_id=HL7614
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Korean Air Lines Co., Ltd.
-ui_createdby=Provided by: JB Filename: TFS A380-800 Korean Air.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.17]
 title=AIGAIM_Qatar Airways Airbus A380-800 - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -402,3 +364,41 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 ui_typerole=Commercial Airliner
+
+[fltsim.16]
+title=AIGAIM_Korean Air Airbus A380-800
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_id=HL7628
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Korean Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_a380_kal_fsx.zip
+description=TFS_A380-800_EA-EA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.17]
+title=AIGAIM_Korean Air Airbus A380-800 - 50 Years
+model=KAL-Korean Air_50 Years
+texture=KAL-Korean Air_50 Years
+atc_id=HL7614
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A380-800 Korean Air.zip
+description=TFS_A380-800_EA-EA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+atc_heavy=1

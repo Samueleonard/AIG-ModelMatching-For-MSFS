@@ -109,24 +109,6 @@ icao_airline=BTK
 ui_typerole=Commercial Airliner
 
 [fltsim.4]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER WL - SN No Belly Titles
-model=DAL-Delta Air Lines_SN No Belly Titles
-texture=DAL-Delta Air Lines_SN No Belly Titles
-atc_id=N808DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER WL
-ui_variation=DAL Delta Air Lines
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-ui_typerole=Commercial Airliner
-
-[fltsim.5]
 title=AIGAIM_Eastar Jet Boeing 737-900ER WL
 model=ESR-Eastar Jet
 texture=ESR-Eastar Jet
@@ -144,7 +126,7 @@ isUserSelectable=0
 icao_airline=ESR
 ui_typerole=Commercial Airliner
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi
 model=ELY-El Al Israel Airlines_SN OC WiFi
 texture=ELY-El Al Israel Airlines_SN OC WiFi
@@ -162,7 +144,7 @@ isUserSelectable=0
 icao_airline=ELY
 ui_typerole=Commercial Airliner
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi Menorah
 model=ELY-El Al Israel Airlines_SN OC WiFi Menorah
 texture=ELY-El Al Israel Airlines_SN OC WiFi Menorah
@@ -180,7 +162,7 @@ isUserSelectable=0
 icao_airline=ELY
 ui_typerole=Commercial Airliner
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle
 model=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle
 texture=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle
@@ -198,7 +180,7 @@ isUserSelectable=0
 icao_airline=ELY
 ui_typerole=Commercial Airliner
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle Menorah
 model=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle Menorah
 texture=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle Menorah
@@ -216,7 +198,7 @@ isUserSelectable=0
 icao_airline=ELY
 ui_typerole=Commercial Airliner
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL
 model=AUI-Ukraine International Airlines
 texture=AUI-Ukraine International Airlines
@@ -234,7 +216,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL - SN
 model=AUI-Ukraine International Airlines_SN
 texture=AUI-Ukraine International Airlines_SN
@@ -252,7 +234,7 @@ isUserSelectable=0
 icao_airline=AUI
 ui_typerole=Commercial Airliner
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Thai Lion Air Boeing 737-900ER WL - SN
 model=TLM-Thai Lion Air_SN
 texture=TLM-Thai Lion Air_SN
@@ -269,7 +251,7 @@ isUserSelectable=0
 icao_airline=TLM
 ui_typerole=Commercial Airliner
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Lion Air Boeing 737-900ER WL
 model=LNI-Lion Air
 texture=LNI-Lion Air
@@ -287,7 +269,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - Lion Parcel Engine Titles
 model=LNI-Lion Air_Lion Parcel Engine Titles
 texture=LNI-Lion Air_Lion Parcel Engine Titles
@@ -305,7 +287,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN
 model=LNI-Lion Air_SN
 texture=LNI-Lion Air_SN
@@ -323,7 +305,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Group Titles
 model=LNI-Lion Air_SN No Group Titles
 texture=LNI-Lion Air_SN No Group Titles
@@ -341,7 +323,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Engine Logo
 model=LNI-Lion Air_SN No Engine Logo
 texture=LNI-Lion Air_SN No Engine Logo
@@ -359,7 +341,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine Titles
 model=LNI-Lion Air_SN Lion Parcel Engine Titles
 texture=LNI-Lion Air_SN Lion Parcel Engine Titles
@@ -377,7 +359,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine + No Group Titles
 model=LNI-Lion Air_SN Lion Parcel Engine + No Group Titles
 texture=LNI-Lion Air_SN Lion Parcel Engine + No Group Titles
@@ -395,7 +377,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 50th Boeing 737-900ER
 model=LNI-Lion Air_SN 50th Boeing 737-900ER
 texture=LNI-Lion Air_SN 50th Boeing 737-900ER
@@ -413,7 +395,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 60th Boeing 737-900ER
 model=LNI-Lion Air_SN 60th Boeing 737-900ER
 texture=LNI-Lion Air_SN 60th Boeing 737-900ER
@@ -431,7 +413,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 70th Boeing 737NG
 model=LNI-Lion Air_SN 70th Boeing 737NG
 texture=LNI-Lion Air_SN 70th Boeing 737NG
@@ -449,7 +431,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 100th Boeing 737NG
 model=LNI-Lion Air_SN 100th Boeing 737NG
 texture=LNI-Lion Air_SN 100th Boeing 737NG
@@ -467,7 +449,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Door to Door Service
 model=LNI-Lion Air_SN Door to Door Service
 texture=LNI-Lion Air_SN Door to Door Service
@@ -485,7 +467,7 @@ isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN 7500th 737
 model=MXD-Malindo Air_SN 7500th 737
 texture=MXD-Malindo Air_SN 7500th 737
@@ -502,7 +484,7 @@ isUserSelectable=0
 icao_airline=MXD
 ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN WiFi Dome
 model=MXD-Malindo Air_SN WiFi Dome
 texture=MXD-Malindo Air_SN WiFi Dome
@@ -520,7 +502,7 @@ isUserSelectable=0
 icao_airline=MXD
 ui_typerole=Commercial Airliner
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN EDTO WiFi Dome
 model=MXD-Malindo Air_SN EDTO WiFi Dome
 texture=MXD-Malindo Air_SN EDTO WiFi Dome
@@ -538,7 +520,7 @@ isUserSelectable=0
 icao_airline=MXD
 ui_typerole=Commercial Airliner
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Korean Air Boeing 737-900ER WL
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -555,7 +537,7 @@ isUserSelectable=0
 icao_airline=KAL
 ui_typerole=Commercial Airliner
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Korean Air Boeing 737-900ER WL - SN
 model=KAL-Korean Air_SN
 texture=KAL-Korean Air_SN
@@ -572,25 +554,7 @@ isUserSelectable=0
 icao_airline=KAL
 ui_typerole=Commercial Airliner
 
-[fltsim.30]
-title=AIGAIM_Oman Air Boeing 737-900ER WL - SN
-model=OMA-Oman Air_SN
-texture=OMA-Oman Air_SN
-atc_id=A4O-BI
-atc_airline=OMAN AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OMA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-900ER WL
-ui_variation=Oman Air
-ui_createdby=Provided by: JB Filename: FAIB B739ER Oman Air FSX.zip
-description=FAIB_B737-900ER_WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OMA
-ui_typerole=Commercial Airliner
-
-[fltsim.31]
+[fltsim.29]
 title=AIGAIM_Somon Air Boeing 737-900ER WL - SN
 model=SMR-Somon Air_SN
 texture=SMR-Somon Air_SN
@@ -608,7 +572,7 @@ isUserSelectable=0
 icao_airline=SMR
 ui_typerole=Commercial Airliner
 
-[fltsim.32]
+[fltsim.30]
 title=AIGAIM_SpiceJet Boeing 737-900ER WL
 model=SEJ-SpiceJet
 texture=SEJ-SpiceJet
@@ -626,7 +590,7 @@ isUserSelectable=0
 icao_airline=SEJ
 ui_typerole=Commercial Airliner
 
-[fltsim.33]
+[fltsim.31]
 title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC
 model=SJY-Sriwijaya Air_SN OC
 texture=SJY-Sriwijaya Air_SN OC
@@ -644,7 +608,7 @@ isUserSelectable=0
 icao_airline=SJY
 ui_typerole=Commercial Airliner
 
-[fltsim.34]
+[fltsim.32]
 title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC 72nd Berja Kermasa
 model=SJY-Sriwijaya Air_SN OC 72nd Berja Kermasa
 texture=SJY-Sriwijaya Air_SN OC 72nd Berja Kermasa
@@ -662,7 +626,7 @@ isUserSelectable=0
 icao_airline=SJY
 ui_typerole=Commercial Airliner
 
-[fltsim.35]
+[fltsim.33]
 title=AIGAIM_Travel Service Boeing 737-900ER WL
 model=TVS-Travel Service
 texture=TVS-Travel Service
@@ -679,7 +643,7 @@ isUserSelectable=0
 icao_airline=TVS
 ui_typerole=Commercial Airliner
 
-[fltsim.36]
+[fltsim.34]
 title=AIGAIM_Travel Service Boeing 737-900ER WL - SN
 model=TVS-Travel Service_SN
 texture=TVS-Travel Service_SN
@@ -696,7 +660,7 @@ isUserSelectable=0
 icao_airline=TVS
 ui_typerole=Commercial Airliner
 
-[fltsim.37]
+[fltsim.35]
 title=AIGAIM_Turkish Airlines Boeing 737-900ER WL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -714,7 +678,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.38]
+[fltsim.36]
 title=AIGAIM_Turkish Airlines Boeing 737-900ER WL - SN
 model=THY-Turkish Airlines_SN
 texture=THY-Turkish Airlines_SN
@@ -732,7 +696,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.39]
+[fltsim.37]
 title=AIGAIM_Lion Air Boeing 737-900ER WL - Boeing Livery
 model=LNI-Lion Air_Boeing Livery
 texture=LNI-Lion Air_Boeing Livery
@@ -748,3 +712,39 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 ui_typerole=Commercial Airliner
+
+[fltsim.38]
+title=AIGAIM_Oman Air Boeing 737-900ER WL - SN
+model=OMA-Oman Air_SN
+texture=OMA-Oman Air_SN
+atc_id=A4O-BI
+atc_airline=OMAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Oman Air FSX.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA
+
+[fltsim.39]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER WL - SN No Belly Titles
+model=DAL-Delta Air Lines_SN No Belly Titles
+texture=DAL-Delta Air Lines_SN No Belly Titles
+atc_id=N808DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

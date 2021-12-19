@@ -1842,81 +1842,6 @@ icao_airline=KLM
 ui_typerole=Commercial Airliner
 
 [fltsim.94]
-title=AIGAIM_Korean Air Boeing 777-300ER
-model=KAL-Korean Air
-texture=KAL-Korean Air
-atc_id=HL7783
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Korean Air
-ui_createdby=Provided by: FC75 Filename: tfs_773er_kal_fleet_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.95]
-title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
-model=KAL-Korean Air_200th Boeing
-texture=KAL-Korean Air_200th Boeing
-atc_id=HL8346
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Korean Air Lines Co., Ltd.
-ui_createdby=Provided by: JB Filename: TFS B777-300ER Korean Air.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.96]
-title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
-model=KAL-Korean Air_Skyteam
-texture=KAL-Korean Air_Skyteam
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Korean Air - HL7783 Skyteam
-ui_createdby=Provided by: FC75 Filename: tfs_77w_kal_skyteam_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.97]
-title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
-model=KAL-Korean Air_SuperM
-texture=KAL-Korean Air_SuperM
-atc_id=HL8010
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Korean Air Lines Co., Ltd.
-ui_createdby=Provided by: JB Filename: TFS B777-300ER Korean Air.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-ui_typerole=Commercial Airliner
-
-[fltsim.98]
 title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
 model=KAC-Kuwait Airways_65 Years_temp
 texture=KAC-Kuwait Airways_65 Years_temp
@@ -1935,7 +1860,7 @@ isUserSelectable=0
 icao_airline=KAC
 ui_typerole=Commercial Airliner
 
-[fltsim.99]
+[fltsim.95]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -1954,7 +1879,7 @@ isUserSelectable=0
 icao_airline=TAM
 ui_typerole=Commercial Airliner
 
-[fltsim.100]
+[fltsim.96]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
 model=TAM-LATAM Airlines Brasil_Star Wars
 texture=TAM-LATAM Airlines Brasil_Star Wars
@@ -1973,7 +1898,7 @@ isUserSelectable=0
 icao_airline=TAM
 ui_typerole=Commercial Airliner
 
-[fltsim.101]
+[fltsim.97]
 title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC
 model=PIA-Pakistan International Airlines_OC
 texture=PIA-Pakistan International Airlines_OC
@@ -1992,7 +1917,7 @@ isUserSelectable=0
 icao_airline=PIA
 ui_typerole=Commercial Airliner
 
-[fltsim.102]
+[fltsim.98]
 title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC No Belly Titles
 model=PIA-Pakistan International Airlines_OC No Belly Titles
 texture=PIA-Pakistan International Airlines_OC No Belly Titles
@@ -2011,7 +1936,7 @@ isUserSelectable=0
 icao_airline=PIA
 ui_typerole=Commercial Airliner
 
-[fltsim.103]
+[fltsim.99]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -2030,7 +1955,7 @@ isUserSelectable=0
 icao_airline=QTR
 ui_typerole=Commercial Airliner
 
-[fltsim.104]
+[fltsim.100]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
 model=QTR-Qatar Airways_named fwd WiFi Dome
 texture=QTR-Qatar Airways_named fwd WiFi Dome
@@ -2049,7 +1974,7 @@ isUserSelectable=0
 icao_airline=QTR
 ui_typerole=Commercial Airliner
 
-[fltsim.105]
+[fltsim.101]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
 model=QTR-Qatar Airways_FIFA World Cup_temp
 texture=QTR-Qatar Airways_FIFA World Cup_temp
@@ -2068,7 +1993,7 @@ isUserSelectable=0
 icao_airline=QTR
 ui_typerole=Commercial Airliner
 
-[fltsim.106]
+[fltsim.102]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
 model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
 texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
@@ -2087,7 +2012,7 @@ isUserSelectable=0
 icao_airline=QTR
 ui_typerole=Commercial Airliner
 
-[fltsim.107]
+[fltsim.103]
 title=AIGAIM_Rossiya Airlines Boeing 777-300ER (TEMP)
 model=SDM-Rossiya Airlines_temp
 texture=SDM-Rossiya Airlines_temp
@@ -2105,7 +2030,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.108]
+[fltsim.104]
 title=AIGAIM_Saudia Boeing 777-300ER
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -2124,7 +2049,7 @@ isUserSelectable=0
 icao_airline=SVA
 ui_typerole=Commercial Airliner
 
-[fltsim.109]
+[fltsim.105]
 title=AIGAIM_Saudia Boeing 777-300ER - OC
 model=SVA-Saudia_OC
 texture=SVA-Saudia_OC
@@ -2143,7 +2068,7 @@ isUserSelectable=0
 icao_airline=SVA
 ui_typerole=Commercial Airliner
 
-[fltsim.110]
+[fltsim.106]
 title=AIGAIM_Saudia Boeing 777-300ER - Landmarks
 model=SVA-Saudia_Landmarks
 texture=SVA-Saudia_Landmarks
@@ -2162,26 +2087,7 @@ isUserSelectable=0
 icao_airline=SVA
 ui_typerole=Commercial Airliner
 
-[fltsim.111]
-title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
-model=SVA-Saudia_Ad Diriyah E-Prix
-texture=SVA-Saudia_Ad Diriyah E-Prix
-atc_id=HZ-AK43
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Saudi Arabian Airlines
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-ui_typerole=Commercial Airliner
-
-[fltsim.112]
+[fltsim.107]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -2200,7 +2106,7 @@ isUserSelectable=0
 icao_airline=SIA
 ui_typerole=Commercial Airliner
 
-[fltsim.113]
+[fltsim.108]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
 model=SIA-Singapore Airlines_Fwd Dome
 texture=SIA-Singapore Airlines_Fwd Dome
@@ -2219,7 +2125,7 @@ isUserSelectable=0
 icao_airline=SIA
 ui_typerole=Commercial Airliner
 
-[fltsim.114]
+[fltsim.109]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
 model=SIA-Singapore Airlines_Star Alliance_temp
 texture=SIA-Singapore Airlines_Star Alliance_temp
@@ -2238,7 +2144,7 @@ isUserSelectable=0
 icao_airline=SIA
 ui_typerole=Commercial Airliner
 
-[fltsim.115]
+[fltsim.110]
 title=AIGAIM_Swiss Boeing 777-300ER - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -2257,7 +2163,7 @@ isUserSelectable=0
 icao_airline=SWR
 ui_typerole=Commercial Airliner
 
-[fltsim.116]
+[fltsim.111]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -2276,7 +2182,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.117]
+[fltsim.112]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Titles
 model=THY-Turkish Airlines_Belly Titles
 texture=THY-Turkish Airlines_Belly Titles
@@ -2295,7 +2201,7 @@ isUserSelectable=0
 icao_airline=THY
 ui_typerole=Commercial Airliner
 
-[fltsim.118]
+[fltsim.113]
 title=AIGAIM_Virgin Australia Boeing 777-300ER - WiFi dome
 model=VOZ-Virgin Australia_WiFi dome
 texture=VOZ-Virgin Australia_WiFi dome
@@ -2313,3 +2219,97 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 ui_typerole=Commercial Airliner
+
+[fltsim.114]
+title=AIGAIM_Korean Air Boeing 777-300ER
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_id=HL7783
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Korean Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_773er_kal_fleet_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.115]
+title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
+model=KAL-Korean Air_200th Boeing
+texture=KAL-Korean Air_200th Boeing
+atc_id=HL8346
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS B777-300ER Korean Air.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.116]
+title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
+model=KAL-Korean Air_Skyteam
+texture=KAL-Korean Air_Skyteam
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Korean Air - HL7783 Skyteam
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_77w_kal_skyteam_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.117]
+title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
+model=KAL-Korean Air_SuperM
+texture=KAL-Korean Air_SuperM
+atc_id=HL8010
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS B777-300ER Korean Air.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.118]
+title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
+model=SVA-Saudia_Ad Diriyah E-Prix
+texture=SVA-Saudia_Ad Diriyah E-Prix
+atc_id=HZ-AK43
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
