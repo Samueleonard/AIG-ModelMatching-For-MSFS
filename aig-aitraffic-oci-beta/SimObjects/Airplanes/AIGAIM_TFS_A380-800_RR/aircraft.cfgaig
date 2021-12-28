@@ -67,18 +67,18 @@ model=AIB-Airbus Cooperation_Emirates
 texture=AIB-Airbus Cooperation_Emirates
 atc_id=A6-EVA
 atc_airline=AIRBUS
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=AIB
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.1]
 title=AIGAIM_All Nippon Airways Airbus A380-800 - Blue Turtles
@@ -86,18 +86,18 @@ model=ANA-All Nippon Airways_Blue Turtles
 texture=ANA-All Nippon Airways_Blue Turtles
 atc_id=JA381A
 atc_airline=ALL NIPPON
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380-800 ANA.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.2]
 title=AIGAIM_All Nippon Airways Airbus A380-800 - Turquoise Turtles
@@ -105,18 +105,18 @@ model=ANA-All Nippon Airways_Turquoise Turtles
 texture=ANA-All Nippon Airways_Turquoise Turtles
 atc_id=JA382A
 atc_airline=ALL NIPPON
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380-800 ANA.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.3]
 title=AIGAIM_Asiana Airlines Airbus A380-800
@@ -124,18 +124,18 @@ model=AAR-Asiana Airlines
 texture=AAR-Asiana Airlines
 atc_id=HL7625
 atc_airline=ASIANA
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Asiana Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: A380 Asiana FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.4]
 title=AIGAIM_British Airways Airbus A380-800
@@ -148,12 +148,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=Airbus TFS
 ui_type=Airbus A380-800
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysA380FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_China Southern Airlines Airbus A380-800
@@ -167,12 +167,12 @@ atc_parking_codes=CSN
 ui_manufacturer=Airbus
 ui_type=Airbus A380-800
 ui_variation=China Southern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380-800 China Southern FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Expo 2020 Sticker Wifi Dome
@@ -180,18 +180,18 @@ model=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
 atc_id=A6-EVA
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.7]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Year of Tolerance Wifi Dome
@@ -199,18 +199,18 @@ model=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
 texture=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
 atc_id=A6-EVB
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.8]
 title=AIGAIM_Emirates Airbus A380-800 - RR 3 Class Expo 2020 Sticker Wifi Dome
@@ -218,39 +218,58 @@ model=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
 atc_id=A6-EVA
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.9]
-title=AIGAIM_Thai Airways Airbus A380-800
-model=THA-Thai Airways
-texture=THA-Thai Airways
-atc_id=HS-TUA
-atc_airline=THAI
-atc_heavy=1
+title=AIGAIM_Lufthansa Airbus A380-800
+model=DLH-Lufthansa
+texture=DLH-Lufthansa
+atc_id=D-AIMD
+atc_airline=LUFTHANSA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
+atc_parking_codes=DLH
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
-ui_variation=Thai International Airways
-ui_createdby=Provided by: JB Filename: ai380tha.zip
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=THA
-ui_typerole=Commercial Airliner
+icao_airline=DLH
+atc_heavy=1
 
 [fltsim.10]
+title=AIGAIM_Lufthansa Airbus A380-800 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_id=D-AIMB
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+atc_heavy=1
+
+[fltsim.11]
 title=AIGAIM_Malaysia Airlines Airbus A380-800
 model=MAS-Malaysia Airlines
 texture=MAS-Malaysia Airlines
@@ -262,14 +281,14 @@ atc_parking_codes=MAS
 ui_manufacturer=TFS - Airbus
 ui_type=Airbus A380-800
 ui_variation=Malaysia Airlines - 9M-MND
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai380mas.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
-ui_typerole=Commercial Airliner
 
-[fltsim.11]
+[fltsim.12]
 title=AIGAIM_Malaysia Airlines Airbus A380-800 - 100th A380
 model=MAS-Malaysia Airlines_100th A380
 texture=MAS-Malaysia Airlines_100th A380
@@ -281,90 +300,50 @@ atc_parking_codes=MAS
 ui_manufacturer=TFS - Airbus
 ui_type=Airbus A380-800
 ui_variation=Malaysia Airlines 100th A380 - 9M-MNF
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai380mas.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
-ui_typerole=Commercial Airliner
-
-[fltsim.12]
-title=AIGAIM_Lufthansa Airbus A380-800
-model=DLH-Lufthansa
-texture=DLH-Lufthansa
-atc_id=D-AIMD
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Deutsche Lufthansa AG
-ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
-description=TFS_A380-800_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
-title=AIGAIM_Lufthansa Airbus A380-800 - OC
-model=DLH-Lufthansa_OC
-texture=DLH-Lufthansa_OC
-atc_id=D-AIMB
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Deutsche Lufthansa AG
-ui_createdby=Provided by: JB Filename: A380 Lufthansa FSX.zip
-description=TFS_A380-800_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-ui_typerole=Commercial Airliner
-
-[fltsim.14]
 title=AIGAIM_Qantas Airbus A380-800
 model=QFA-Qantas
 texture=QFA-Qantas
 atc_id=VH-OQH
 atc_airline=QANTAS
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=QFA
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Qantas Airways Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: A380 Qantas FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-ui_typerole=Commercial Airliner
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Qantas Airbus A380-800 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
 atc_id=VH-OQA
 atc_airline=QANTAS
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=QFA
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Qantas Airways Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: A380 Qantas FSX.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-ui_typerole=Commercial Airliner
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Singapore Airlines Airbus A380-800
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -376,9 +355,28 @@ atc_parking_codes=SIA
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_sia_a388_fsx.zip
 description=TFS_A380-800_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
+
+[fltsim.16]
+title=AIGAIM_Thai Airways Airbus A380-800
+model=THA-Thai Airways
+texture=THA-Thai Airways
+atc_id=HS-TUA
+atc_airline=THAI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THA
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Thai International Airways
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai380tha.zip
+description=TFS_A380-800_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THA

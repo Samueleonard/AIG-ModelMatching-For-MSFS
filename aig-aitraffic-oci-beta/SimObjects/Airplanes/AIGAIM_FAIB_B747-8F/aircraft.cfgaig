@@ -38,12 +38,12 @@ atc_parking_codes=ABW
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Air Bridge Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_747_8f.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABW
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Bridge Cargo Boeing 747-8F - Pharma
@@ -57,12 +57,12 @@ atc_parking_codes=ABW
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Air Bridge Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_747_8f.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABW
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Atlas Air Boeing 747-8F - Belly logo
@@ -76,12 +76,12 @@ atc_parking_codes=GTI
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Atlas Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_gti_b748f_p3d_20-9v2.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Atlas Air Boeing 747-8F - Albino William Flynn
@@ -95,12 +95,12 @@ atc_parking_codes=GTI
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Atlas Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_gti_b748f_p3d_20-9v2.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCA City of Vianden
@@ -114,12 +114,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCA 'City of Vianden'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCB City of Esch sur Alzette
@@ -133,12 +133,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCB 'City of Esch sur Alzette'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCC City of Ettelbruck
@@ -152,12 +152,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCC 'City of Ettelbruck'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCD City of Luxembourg
@@ -171,12 +171,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCD 'City of Luxembourg'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCE City of Echternach
@@ -190,12 +190,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCE 'City of Echternach'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCF City of Grevenmacher
@@ -209,12 +209,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCF 'City of Grevenmacher'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCG City of Diekirch
@@ -228,12 +228,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCG 'City of Diekirch'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCH City of Dudelange
@@ -247,12 +247,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCH 'City of Dudelange'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCI City of Troisvierges
@@ -266,12 +266,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCI 'City of Troisvierges'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCJ City of Zhengzhou
@@ -285,12 +285,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCJ 'City of Zhengzhou'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCK City of Contern
@@ -304,12 +304,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCK 'City of Contern'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCM City of Redange-sur-Attert
@@ -323,12 +323,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCM 'City of Redange-sur-Attert'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Cargolux Boeing 747-8F - LX-VCN Spirit of Schengen
@@ -342,12 +342,12 @@ atc_parking_codes=CLX
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCM 'Spirit of Schengen'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Cargolux Italia Boeing 747-8F - opb CLX LX-VCL Joe Sutter
@@ -361,12 +361,12 @@ atc_parking_codes=ICV
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cargolux LX-VCL 'Joe Sutter - Father of the Boeing 747'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_748f_clx_hd.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICV
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Cathay Pacific Cargo Boeing 747-8F
@@ -380,12 +380,12 @@ atc_parking_codes=CPAC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cathay Pacific Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_cpa_boeing_748f.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPAC
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Cathay Pacific Cargo Boeing 747-8F - OC
@@ -399,90 +399,14 @@ atc_parking_codes=CPAC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Cathay Pacific Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_cpa_boeing_748f.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPAC
-ui_typerole=Commercial Airliner
 
 [fltsim.20]
-title=AIGAIM_Silk Way West Airlines Boeing 747-8F
-model=AZG-Silk Way West Airlines
-texture=AZG-Silk Way West Airlines
-atc_id=VQ-BVC
-atc_airline=SILK WEST
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=AZG
-ui_manufacturer=FAIB
-ui_type=Boeing 747-8F
-ui_variation=Silkway West VQ-BVC
-ui_createdby=Provided by: FC75 Filename: faib_748f_azg_fsx.zip
-description=FAIB_B747-8F-f(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZG
-ui_typerole=Commercial Airliner
-
-[fltsim.21]
-title=AIGAIM_UPS Airlines Boeing 747-8F
-model=UPS-UPS Airlines
-texture=UPS-UPS Airlines
-atc_id=N606UP
-atc_airline=UPS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=UPS
-ui_manufacturer=Boeing
-ui_type=Boeing 747-8F
-ui_variation=UPS Airlines
-ui_createdby=Provided by: JB Filename: FAIB B747-8F UPS.zip
-description=FAIB_B747-8F-f(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UPS
-ui_typerole=Commercial Airliner
-
-[fltsim.22]
-title=AIGAIM_UPS Airlines Boeing 747-8F - 747 50th Anniversary
-model=UPS-UPS Airlines_747 50th Anniversary
-texture=UPS-UPS Airlines_747 50th Anniversary
-atc_id=N606UP
-atc_airline=UPS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=UPS
-ui_manufacturer=Boeing
-ui_type=Boeing 747-8F
-ui_variation=UPS Airlines
-ui_createdby=Provided by: JB Filename: FAIB B747-8F UPS.zip
-description=FAIB_B747-8F-f(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UPS
-ui_typerole=Commercial Airliner
-
-[fltsim.23]
-title=AIGAIM_Polar Air Cargo Boeing 747-8F
-model=PAC-Polar Air Cargo
-texture=PAC-Polar Air Cargo
-atc_id=N853GT
-atc_airline=POLAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=PAC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-8F
-ui_variation=Polar Air Cargo
-ui_createdby=Provided by: KAIW Filename: faib_pac_b748f_p3d.zip
-description=FAIB_B747-8F-f(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAC
-ui_typerole=Commercial Airliner
-
-[fltsim.24]
 title=AIGAIM_Korean Air Cargo Boeing 747-8F
 model=KALC-Korean Air Cargo
 texture=KALC-Korean Air Cargo
@@ -493,14 +417,14 @@ atc_parking_codes=KALC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Korean Air Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_748f_kalc3.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KALC
-ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.21]
 title=AIGAIM_Nippon Cargo Airlines Boeing 747-8F
 model=NCA-Nippon Cargo Airlines
 texture=NCA-Nippon Cargo Airlines
@@ -512,14 +436,33 @@ atc_parking_codes=NCA
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Nippon Cargo Airlines JA14KZ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: faib_748f_nca_fsx.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NCA
-ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.22]
+title=AIGAIM_Polar Air Cargo Boeing 747-8F
+model=PAC-Polar Air Cargo
+texture=PAC-Polar Air Cargo
+atc_id=N853GT
+atc_airline=POLAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=PAC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-8F
+ui_variation=Polar Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_pac_b748f_p3d.zip
+description=FAIB_B747-8F-f(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAC
+
+[fltsim.23]
 title=AIGAIM_Qantas Freight Boeing 747-8F - opb Atlas Air
 model=QFAC-Qantas Freight_opb Atlas Air
 texture=QFAC-Qantas Freight_opb Atlas Air
@@ -531,14 +474,14 @@ atc_parking_codes=QFAC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Qantas Freight
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_qfa_b748f_p3d.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
-ui_typerole=Commercial Airliner
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_Qantas Freight Boeing 747-8F - opb Atlas Air Belly Titles
 model=QFAC-Qantas Freight_opb Atlas Air Belly Titles
 texture=QFAC-Qantas Freight_opb Atlas Air Belly Titles
@@ -550,14 +493,14 @@ atc_parking_codes=QFAC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Qantas Freight
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_qfa_b748f_p3d.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
-ui_typerole=Commercial Airliner
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_Qatar Airways Cargo Boeing 747-8F
 model=QTRC-Qatar Airways Cargo
 texture=QTRC-Qatar Airways Cargo
@@ -569,14 +512,14 @@ atc_parking_codes=QTRC
 ui_manufacturer=Boeing
 ui_type=Boeing 747-8F
 ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B747-8F Qatar Airways Cargo.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
-ui_typerole=Commercial Airliner
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_Saudia Cargo Boeing 747-8F
 model=SVAC-Saudia Cargo
 texture=SVAC-Saudia Cargo
@@ -588,9 +531,66 @@ atc_parking_codes=SVAC
 ui_manufacturer=Boeing
 ui_type=Boeing 747-8F
 ui_variation=Saudia Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B747-8F Saudia FSX.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
+
+[fltsim.27]
+title=AIGAIM_Silk Way West Airlines Boeing 747-8F
+model=AZG-Silk Way West Airlines
+texture=AZG-Silk Way West Airlines
+atc_id=VQ-BVC
+atc_airline=SILK WEST
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZG
+ui_manufacturer=FAIB
+ui_type=Boeing 747-8F
+ui_variation=Silkway West VQ-BVC
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_748f_azg_fsx.zip
+description=FAIB_B747-8F-f(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZG
+
+[fltsim.28]
+title=AIGAIM_UPS Airlines Boeing 747-8F
+model=UPS-UPS Airlines
+texture=UPS-UPS Airlines
+atc_id=N606UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 747-8F
+ui_variation=UPS Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-8F UPS.zip
+description=FAIB_B747-8F-f(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS
+
+[fltsim.29]
+title=AIGAIM_UPS Airlines Boeing 747-8F - 747 50th Anniversary
+model=UPS-UPS Airlines_747 50th Anniversary
+texture=UPS-UPS Airlines_747 50th Anniversary
+atc_id=N606UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 747-8F
+ui_variation=UPS Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-8F UPS.zip
+description=FAIB_B747-8F-f(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS

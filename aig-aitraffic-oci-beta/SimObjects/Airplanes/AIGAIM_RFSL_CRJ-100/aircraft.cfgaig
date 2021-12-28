@@ -41,12 +41,12 @@ atc_parking_codes=ACAX,GGN,JZA
 ui_manufacturer=Raven AI
 ui_type=Bombardier CRJ-100
 ui_variation=Air Canada Express - opb Air Georgian OC 100
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: rai_crj_acax_fleet.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GGN
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Proflight Zambia Bombardier CRJ-100
@@ -58,12 +58,12 @@ atc_parking_codes=PFZ
 ui_manufacturer=Raven FS Labs
 ui_type=Bombardier CRJ-100
 ui_variation=Proflight Zambia
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rsfl_proflightzambia_cr1.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PFZ
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_RusLine Bombardier CRJ-100 - white WL
@@ -76,12 +76,12 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VP-BVC (white, white winglets)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_RusLine Bombardier CRJ-100 - white WL CRJ titles
@@ -94,12 +94,12 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VP-BNK (white, brown cheatline, white winglets)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_RusLine Bombardier CRJ-100 - white WL no CRJ titles
@@ -112,12 +112,12 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VQ-BND (white, large tail logo)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_RusLine Bombardier CRJ-100 - white WL white Engines no CRJ titles
@@ -130,12 +130,12 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VP-BNM (white, white engines, brown cheatline, white winglets)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_RusLine Bombardier CRJ-100 - red fuse no CRJ titles
@@ -148,12 +148,12 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VQ-BNE (red,small tail logo)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_RusLine Bombardier CRJ-100 - red fuse small titles
@@ -166,9 +166,9 @@ atc_parking_codes=RLU
 ui_manufacturer=RAI
 ui_type=Bombardier CRJ-100
 ui_variation=Rusline VQ-BNA (red, large tail logo, small titles)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj100_rlu.zip
 description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
-ui_typerole=Commercial Airliner

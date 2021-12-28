@@ -31,6 +31,9 @@ small_pushback=0
 marshaller=1
 jetway=1
 
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
+
 [fltsim.0]
 title=AIGAIM_Albastar Boeing 737-400 - named
 model=LAV-Albastar_named
@@ -41,12 +44,12 @@ atc_parking_codes=LAV
 ui_manufacturer=FAIB
 ui_type=Boeing 737-400
 ui_variation=Albastar - Citta di Milano
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_albastar_734.zip
 description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Cargoair DHL Hybrid Bulgarian Flag
@@ -59,12 +62,12 @@ atc_parking_codes=BCS
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-400 - SF
 ui_variation=CargoAir LZ-CGT
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_b734_cgf.zip
 description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Cargoair DHL Hybrid Eyebrows
@@ -77,12 +80,12 @@ atc_parking_codes=BCS
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-400 - SF
 ui_variation=CargoAir LZ-CGS
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_b734_cgf.zip
 description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_FlySafair Boeing 737-400 - OC Springboks Rugby
@@ -94,14 +97,82 @@ atc_parking_codes=SFR
 ui_manufacturer=FAIB
 ui_type=Boeing 737-400
 ui_variation=FlySafair - Springboks Rugby
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_flysafairspringboks_734.zip
 description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFR
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
+title=AIGAIM_Kam Air Boeing 737-400 - Albino
+model=KMF-Kam Air_Albino
+texture=KMF-Kam Air_Albino
+atc_airline=KAMGAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KMF
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400
+ui_variation=Kam Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-400 Kam Air.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KMF
+
+[fltsim.5]
+title=AIGAIM_Tailwind Airlines Boeing 737-400
+model=TWI-Tailwind Airlines
+texture=TWI-Tailwind Airlines
+atc_airline=TAILWIND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TWI
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=Tailwind Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tailwindairlines_734.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TWI
+
+[fltsim.6]
+title=AIGAIM_Tailwind Airlines Boeing 737-400 - Eyebrows
+model=TWI-Tailwind Airlines_Eyebrows
+texture=TWI-Tailwind Airlines_Eyebrows
+atc_airline=TAILWIND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TWI
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=Tailwind Airlines - Eyebrows
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tailwindairlines_734.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TWI
+
+[fltsim.7]
+title=AIGAIM_Trans Air Congo Boeing 737-400 - opb Yanair
+model=TSG-Trans Air Congo_opb Yanair
+texture=TSG-Trans Air Congo_opb Yanair
+atc_airline=TRANS-AIR-CONGO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSG
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400
+ui_variation=Yanair UR-CQX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b734anr_v.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSG
+
+[fltsim.8]
 title=AIGAIM_Yamal Airlines Boeing 737-400 - Eyebrows
 model=LLM-Yamal Airlines_Eyebrows
 texture=LLM-Yamal Airlines_Eyebrows
@@ -112,80 +183,9 @@ atc_parking_codes=LLM
 ui_manufacturer=FAIB
 ui_type=Boeing 737-400
 ui_variation=Yamal Airlines VP-BKW
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: UTT_FAIB_B737-400_Yamal_Airlines_VP-BKW_FSX.zip
 description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LLM
-ui_typerole=Commercial Airliner
-
-[fltsim.5]
-title=AIGAIM_Kam Air Boeing 737-400 - Albino
-model=KMF-Kam Air_Albino
-texture=KMF-Kam Air_Albino
-atc_airline=KAMGAR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KMF
-ui_manufacturer=Boeing
-ui_type=Boeing 737-400
-ui_variation=Kam Air
-ui_createdby=Provided by: JB Filename: FAIB 737-400 Kam Air.zip
-description=FAIB_B737-400-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KMF
-ui_typerole=Commercial Airliner
-
-[fltsim.6]
-title=AIGAIM_Tailwind Airlines Boeing 737-400
-model=TWI-Tailwind Airlines
-texture=TWI-Tailwind Airlines
-atc_airline=TAILWIND
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TWI
-ui_manufacturer=FAIB
-ui_type=Boeing 737-400
-ui_variation=Tailwind Airlines
-ui_createdby=Provided by: FC75 Filename: faib_tailwindairlines_734.zip
-description=FAIB_B737-400-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TWI
-ui_typerole=Commercial Airliner
-
-[fltsim.7]
-title=AIGAIM_Tailwind Airlines Boeing 737-400 - Eyebrows
-model=TWI-Tailwind Airlines_Eyebrows
-texture=TWI-Tailwind Airlines_Eyebrows
-atc_airline=TAILWIND
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TWI
-ui_manufacturer=FAIB
-ui_type=Boeing 737-400
-ui_variation=Tailwind Airlines - Eyebrows
-ui_createdby=Provided by: FC75 Filename: faib_tailwindairlines_734.zip
-description=FAIB_B737-400-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TWI
-ui_typerole=Commercial Airliner
-
-[fltsim.8]
-title=AIGAIM_Trans Air Congo Boeing 737-400 - opb Yanair
-model=TSG-Trans Air Congo_opb Yanair
-texture=TSG-Trans Air Congo_opb Yanair
-atc_airline=TRANS-AIR-CONGO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSG
-ui_manufacturer=Boeing
-ui_type=Boeing 737-400
-ui_variation=Yanair UR-CQX
-ui_createdby=Provided by: AVSIM Filename: faib_b734anr_v.zip
-description=FAIB_B737-400-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSG
-ui_typerole=Commercial Airliner
-
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1

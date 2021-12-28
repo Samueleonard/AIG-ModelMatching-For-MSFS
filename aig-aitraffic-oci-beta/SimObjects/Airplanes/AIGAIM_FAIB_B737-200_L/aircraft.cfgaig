@@ -31,6 +31,9 @@ small_pushback=0
 marshaller=1
 jetway=1
 
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
+
 [fltsim.0]
 title=AIGAIM_Avior Airlines Boeing 737-200 - Smaller Tail Logo
 model=ROI-Avior Airlines_Smaller Tail Logo
@@ -42,12 +45,12 @@ atc_parking_codes=ROI
 ui_manufacturer=FAIB
 ui_type=Boeing 737-200
 ui_variation=Avior YV2937 (small tail logo)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b732roi_v.zip
 description=FAIB_B737-200-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROI
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Canadian North Boeing 737-200 - OC
@@ -60,66 +63,66 @@ atc_parking_codes=MPE
 ui_manufacturer=Boeing
 ui_type=Boeing 737-200
 ui_variation=Canadian North
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_mpe_b732_p3d.zip
 description=FAIB_B737-200-gravellogolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Nolinor Aviation Boeing 737-200
 model=NRL-Nolinor Aviation
 texture=NRL-Nolinor Aviation
 atc_id=C-GNLA
-atc_airline=NOLINOR
+atc_airline=Nolinor
 atc_parking_types=GATE,RAMP
 atc_parking_codes=NRL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-200
 ui_variation=Nolinor Aviation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_nrl_b_732.zip
 description=FAIB_B737-200-gravellogolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Nolinor Aviation Boeing 737-200C
 model=NRL-Nolinor Aviation
 texture=NRL-Nolinor Aviation
 atc_id=C-GTUK
-atc_airline=NOLINOR
+atc_airline=Nolinor
 atc_parking_types=CARGO,GATE,RAMP
 atc_parking_codes=NRL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-200C
 ui_variation=Nolinor Aviation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_nrl_b_732.zip
 description=FAIB_B737-200-gravellogolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Nolinor Aviation Boeing 737-200C - Grey Belly
 model=NRL-Nolinor Aviation_Grey Belly
 texture=NRL-Nolinor Aviation_Grey Belly
 atc_id=C-GNLK
-atc_airline=NOLINOR
+atc_airline=Nolinor
 atc_parking_types=CARGO,GATE,RAMP
 atc_parking_codes=NRL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-200C
 ui_variation=Nolinor Aviation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_nrl_b_732.zip
 description=FAIB_B737-200-gravellogolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Venezolana Boeing 737-200
@@ -131,12 +134,9 @@ atc_parking_codes=VNE
 ui_manufacturer=FAIB
 ui_type=Boeing 737-200
 ui_variation=Venezolana
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_B732_VNE.zip
 description=FAIB_B737-200-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VNE
-ui_typerole=Commercial Airliner
-
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1

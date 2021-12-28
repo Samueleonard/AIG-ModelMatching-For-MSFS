@@ -73,12 +73,12 @@ atc_parking_codes=ANZ
 ui_manufacturer=TFS
 ui_type=Boeing 777-200ER
 ui_variation=Air New Zealand ZK-OKC
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: tfs_b772_nz1_fsx.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_American Airlines Boeing 777-200ER
@@ -92,12 +92,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Boeing
 ui_type=Boeing 777-200ER
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: tfs_aal_b772_p3d.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_American Airlines Boeing 777-200ER - Oneworld
@@ -111,12 +111,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Boeing
 ui_type=Boeing 777-200ER
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: tfs_aal_b772_p3d.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_American Airlines Boeing 777-200ER - Azriel Al Blackman
@@ -130,12 +130,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Boeing
 ui_type=Boeing 777-200ER
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: tfs_aal_b772_p3d.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_British Airways Boeing 777-200ER - RR 3CL WiFi Dome (TEMP)
@@ -148,12 +148,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=TFS
 ui_type=Boeing 777-200ER
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysB772ERFSX.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_British Airways Boeing 777-200ER - RR 3CL OC WiFi Dome (TEMP)
@@ -166,12 +166,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=TFS
 ui_type=Boeing 777-200ER
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysB772ERFSX.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_British Airways Boeing 777-200ER - RR 3CL OC Crest WiFi Dome (TEMP)
@@ -184,12 +184,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=TFS
 ui_type=Boeing 777-200ER
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysB772ERFSX.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_El Al Israel Airlines Boeing 777-200ER
@@ -203,12 +203,12 @@ atc_parking_codes=ELY
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=El Al Israel Airlines Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER El Al.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_El Al Israel Airlines Boeing 777-200ER - OC
@@ -222,12 +222,12 @@ atc_parking_codes=ELY
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=El Al Israel Airlines Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER El Al.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_El Al Israel Airlines Boeing 777-200ER - OC WiFi No Webtitles
@@ -241,33 +241,14 @@ atc_parking_codes=ELY
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=El Al Israel Airlines Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER El Al.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
-title=AIGAIM_Thai Airways Boeing 777-200ER
-model=THA-Thai Airways
-texture=THA-Thai Airways
-atc_id=HS-TJW
-atc_airline=THAI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Thai Airways International
-ui_createdby=Provided by: FC75 Filename: tfs_tha_b772_fsx.zip
-description=TFS_B777-200ER_RR-rr(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THA
-ui_typerole=Commercial Airliner
-
-[fltsim.11]
 title=AIGAIM_Singapore Airlines Boeing 777-200ER
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -279,14 +260,14 @@ atc_parking_codes=SIA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_sia_b772_fsx.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
-ui_typerole=Commercial Airliner
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Surinam Airways Boeing 777-200ER - Albino
 model=SLM-Surinam Airways_Albino
 texture=SLM-Surinam Airways_Albino
@@ -296,9 +277,28 @@ atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=SLM
 ui_type=Boeing 777-200ER
-ui_createdby=Provided by: JCAI Filename: Surinam Airways B777-200 FSX.zip
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Surinam Airways B777-200 FSX.zip
 description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SLM
+
+[fltsim.12]
+title=AIGAIM_Thai Airways Boeing 777-200ER
+model=THA-Thai Airways
+texture=THA-Thai Airways
+atc_id=HS-TJW
+atc_airline=THAI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200ER
+ui_variation=Thai Airways International
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_tha_b772_fsx.zip
+description=TFS_B777-200ER_RR-rr(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THA

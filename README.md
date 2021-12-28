@@ -5,13 +5,16 @@ A VMR File for vatsim usage has been included in the root folder (full credit to
 
 Included is the latest AIG install for MSFS ONLY.
 
-OFFLINE AI TRAFFIC WILL NOT WORK - all flight plans have been removed
+OFFLINE FLIGHT PLANS WLL NOT WORK - ALL TRAFFIC FILES ARE NOT INCLUDED
+
+AI Sounds WILL NOT WORK DUE TO AN ISSUE WITH AIG FILE PATHS.
+(if you want a manual fix (very time consuming) you can go into each aircraft folder/soundai and edit the sound folder path)
 
 <b>INSTALL</b>
 
 Download from - 
 
-PREFERED - [Google Drive](https://drive.google.com/file/d/1pjGJ6ELtoKapfCE7YQWBAE6wM4J_Iaqx/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+PREFERED - [Google Drive](https://drive.google.com/file/d/1Q5vUhfs7Zqv4pIpO_ssbmZRjaFKX6p2Z/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
 ALTERNATIVE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb)
 

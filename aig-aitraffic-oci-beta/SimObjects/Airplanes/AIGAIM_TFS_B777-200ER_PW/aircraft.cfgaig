@@ -72,12 +72,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_All Nippon Airways Boeing 777-200ER - WiFi + rear Dome
@@ -90,12 +90,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_All Nippon Airways Boeing 777-200ER - Kimotsuki
@@ -108,12 +108,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_All Nippon Airways Boeing 777-200ER - Hello 2020
@@ -126,12 +126,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_All Nippon Airways Boeing 777-200ER - Star Wars C-3PO
@@ -144,12 +144,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 777-200ER - Tokyo 2020
@@ -162,12 +162,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Asiana Airlines Boeing 777-200ER
@@ -181,12 +181,12 @@ atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Asiana Airlines Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Asiana Airlines Boeing 777-200ER - Old Titles
@@ -200,12 +200,12 @@ atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Asiana Airlines Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Asiana Airlines Boeing 777-200ER - Old Large Titles
@@ -219,12 +219,12 @@ atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Asiana Airlines Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Asiana Airlines Boeing 777-200ER - Star Alliance
@@ -238,12 +238,12 @@ atc_parking_codes=AAR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Asiana Airlines Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Jin Air Boeing 777-200ER
@@ -257,12 +257,12 @@ atc_parking_codes=JNA
 ui_manufacturer=BOEING
 ui_type=Boeing 777-200ER
 ui_variation=Jin Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b772_jna_fsx.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Korean Air Boeing 777-200ER
@@ -276,12 +276,12 @@ atc_parking_codes=KAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Korean Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_772_kal_fleet_fsx.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Omni Air International Boeing 777-200ER (TEMP)
@@ -295,6 +295,7 @@ atc_parking_codes=OAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Omni Air International, Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-200ER Omni Air FSX.zip
 description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1

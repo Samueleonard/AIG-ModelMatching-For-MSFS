@@ -71,12 +71,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-10
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B7810 ANA.zip
 description=UTT_B787-10_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Singapore Airlines Boeing 787-10
@@ -90,9 +90,9 @@ atc_parking_codes=SIA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-10
 ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: utt_b787x_singapore_airlines.zip
 description=UTT_B787-10_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
-ui_typerole=Commercial Airliner

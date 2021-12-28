@@ -48,12 +48,12 @@ atc_parking_codes=AXM
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=AirAsia Berhad
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 AirAsia NEO.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXM
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_AirAsia Airbus A321-200neo - ACF 3-2-1 Take Off
@@ -66,12 +66,12 @@ atc_parking_codes=AXM
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=AirAsia Berhad
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 AirAsia NEO.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXM
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF American Airlines
@@ -84,12 +84,12 @@ atc_parking_codes=AIB
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321neo_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Britisch Airways
@@ -101,12 +101,12 @@ atc_parking_codes=AIB
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a21n_baw.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Azul
@@ -118,12 +118,12 @@ atc_parking_codes=AIB
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=AZUL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM Azul.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Air Arabia
@@ -136,12 +136,12 @@ atc_parking_codes=AIB
 ui_manufacturer=FSX AI Bureau
 ui_type=Airbus A321-200neo
 ui_variation=Air Arabia
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321lr_aby.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - WiFi Dome
@@ -154,12 +154,12 @@ atc_parking_codes=ASA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=Alaska Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N926VA
@@ -172,12 +172,12 @@ atc_parking_codes=ASA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=Alaska Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Alaska Airlines Airbus A321-200neo - More to Love N927VA
@@ -190,12 +190,12 @@ atc_parking_codes=ASA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=Alaska Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW2 Filename: faib_asa_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_American Airlines Airbus A321-200neo - ACF
@@ -208,12 +208,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321neo_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Avianca Airbus A321-200neo - CFM
@@ -226,12 +226,12 @@ atc_parking_codes=AVA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Avianca Colombia FSX.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Azores Airlines Airbus A321-200neo - Breathe
@@ -243,12 +243,12 @@ atc_parking_codes=RZO
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Azores Airlines - CS-TSF Breathe
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a21n_rzo_cstsf.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Azores Airlines Airbus A321-200neo - Wonder
@@ -260,12 +260,12 @@ atc_parking_codes=RZO
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Azores Airlines - CS-TSG Wonder
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a21n_rzo_cstsg.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Azul Airbus A321-200neo - ACF
@@ -277,12 +277,12 @@ atc_parking_codes=AZU
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=AZUL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM Azul.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - A321NEO Titles
@@ -295,12 +295,12 @@ atc_parking_codes=BAV
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1st A321neo
@@ -313,12 +313,12 @@ atc_parking_codes=BAV
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Bamboo Airways Airbus A321-200neo - 1mio Passengers
@@ -331,12 +331,12 @@ atc_parking_codes=BAV
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_bav_a321n_p3d.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_British Airways Airbus A321-200neo - ACF
@@ -348,12 +348,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a21n_baw.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF No Flag
@@ -366,12 +366,12 @@ atc_parking_codes=EZY
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=EasyJet Airline Company Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion No Flag
@@ -384,12 +384,12 @@ atc_parking_codes=EZY
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=EasyJet Airline Company Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
-ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKA
@@ -402,12 +402,12 @@ atc_parking_codes=NVR
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Novair
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
-ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKB
@@ -420,12 +420,12 @@ atc_parking_codes=NVR
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=Novair
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
-ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_SriLankan Airlines Airbus A321-200neo
@@ -437,12 +437,12 @@ atc_parking_codes=ALK
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=SriLankan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200neo CFM SriLankan.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
-ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Starlux Airlines Airbus A321-200neo - ACF
@@ -455,12 +455,12 @@ atc_parking_codes=SJX
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=STARLUX Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321NEO Starlux.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJX
-ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo
@@ -473,12 +473,12 @@ atc_parking_codes=TAP
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=TAP Portugal CS-TJN (2019 colors)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321n_tap.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
-ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo - IC
@@ -491,12 +491,12 @@ atc_parking_codes=TAP
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
 ui_variation=TAP Portugal CS-TJI 'Julio Pomar'(interim colors)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321n_tap.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
-ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Thai AirAsia Airbus A321-200neo - ACF A321neo
@@ -509,9 +509,9 @@ atc_parking_codes=AIQ
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
 ui_variation=Thai AirAsia
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Thai AirAsia NEO.zip
 description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
-ui_typerole=Commercial Airliner

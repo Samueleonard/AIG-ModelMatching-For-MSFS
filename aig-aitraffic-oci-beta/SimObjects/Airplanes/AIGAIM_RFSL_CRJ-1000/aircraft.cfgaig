@@ -76,12 +76,12 @@ atc_airline=BINTER
 atc_parking_types=GATE,RAMP
 atc_parking_codes=IBB
 ui_type=Bombardier CRJ-1000
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj1000_Binter_opb_Medavia.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBB
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Croatia Airlines Bombardier CRJ-1000
@@ -94,12 +94,12 @@ atc_parking_codes=CTN
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Croatia Airlines CTN EC-LJT - Leased from Air Nostrum
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: CTN_CRJX_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Croatia Airlines Bombardier CRJ-1000 - no crown
@@ -112,12 +112,12 @@ atc_parking_codes=CTN
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Croatia Airlines CTN EC-LPN - Leased from Air Nostrum
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: CTN_CRJX_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Garuda Indonesia Bombardier CRJ-1000 - Explore-Jet
@@ -130,12 +130,12 @@ atc_parking_codes=GIA
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: RFSL CRJ1000_Garuda.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Garuda Indonesia Bombardier CRJ-1000 - Skyteam
@@ -148,12 +148,12 @@ atc_parking_codes=GIA
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: RFSL CRJ1000_Garuda.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE
@@ -166,12 +166,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MJP - Standard
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 3_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE No Aircraft Titles
@@ -184,12 +184,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-LJX - Standard
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 1_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Albino
@@ -202,12 +202,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MUG - White - Air Nostrum and Iberia Regional Logos
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 7_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Albino No Aircraft Titles Black Reg
@@ -220,12 +220,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-LOX - White - Air Nostrum and Iberia Regional Logos
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 2_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Albino No Engine Titles
@@ -238,12 +238,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MTO - White - Air Nostrum and Iberia Regional Logos
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 6_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Aviacian Sin Fronteras
@@ -256,12 +256,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-LJS - Aviacion Sin Fronteras
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 1_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Burgos
@@ -274,12 +274,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MSL - Burgos
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 6_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Cantabria
@@ -292,12 +292,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-LJR - Cantabria
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 1_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Extremadura
@@ -310,12 +310,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MSB - Extremadura
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 5_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Vigo A Sea of Life
@@ -328,12 +328,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-LKF - Vigo Sea of Life
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 2_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Vigo Un Mar de Vida
@@ -346,12 +346,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MJO - Vigo Un Mar de Vida
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 3_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Visita Vigo
@@ -364,12 +364,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MRI - Visitas Las Islas Cies De Vigo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 5_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Visita Vigo EC-MNQ
@@ -382,12 +382,12 @@ atc_parking_codes=IBEX
 ui_manufacturer=Bombardier
 ui_type=Bombardier CRJ-1000
 ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MNQ - Islas Cies
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 4_HD_P3D.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Iberia Regional Bombardier CRJ-1000 - opb ANE Binter Canarias
@@ -399,9 +399,9 @@ atc_parking_codes=IBEX
 ui_manufacturer=Raven FS Labs
 ui_type=Bombardier CRJ-1000
 ui_variation=Binter Canarias
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: rfsl_crj1000_binter_EC-LOV_update2.zip
 description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
-ui_typerole=Commercial Airliner

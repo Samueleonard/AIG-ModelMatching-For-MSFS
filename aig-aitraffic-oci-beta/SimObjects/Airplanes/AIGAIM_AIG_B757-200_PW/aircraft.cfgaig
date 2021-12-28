@@ -65,169 +65,14 @@ atc_parking_codes=ATN
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=Air Transport International N557CM
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: Air_Transport_International_B757-200PCF_N557CM_FSX.zip
 description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
-title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF
-model=DAE-DHL Aero Expreso_PCF
-texture=DAE-DHL Aero Expreso_PCF
-atc_id=HP1810DAE
-atc_airline=YELLOW
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=DAE
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=DHL Aero Expreso HP-1810DAE
-ui_createdby=Provided by: FC75 Filename: DHL_Aero_Expreso_B757-200PCF_Fleet.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAE
-ui_typerole=Commercial Airliner
-
-[fltsim.2]
-title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF cargo door bumper
-model=DAE-DHL Aero Expreso_PCF cargo door bumper
-texture=DAE-DHL Aero Expreso_PCF cargo door bumper
-atc_id=HP2110DAE
-atc_airline=YELLOW
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=DAE
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=DHL Aero Expreso HP-2110DAE
-ui_createdby=Provided by: FC75 Filename: DHL_Aero_Expreso_B757-200PCF_Fleet.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAE
-ui_typerole=Commercial Airliner
-
-[fltsim.3]
-title=AIGAIM_EAT Leipzig Boeing 757-200 - PW PCF
-model=BCS-EAT Leipzig_PW PCF
-texture=BCS-EAT Leipzig_PW PCF
-atc_id=D-ALEN
-atc_airline=EUROTRANS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=BCS
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=EAT Leipzig D-ALEN
-ui_createdby=Provided by: FC75 Filename: EAT_Leipzig_B757-200F_Fleet.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BCS
-ui_typerole=Commercial Airliner
-
-[fltsim.4]
-title=AIGAIM_E-Cargo Airlines Boeing 757-200 - PCF
-model=ERF-E-Cargo Airlines_PCF
-texture=ERF-E-Cargo Airlines_PCF
-atc_id=VP-BHM
-atc_airline=GULLIVER
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ERF
-ui_manufacturer=Alpha India Group - Boeing
-ui_type=Boeing 757-200
-ui_variation=E-Cargo
-ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200PCF_E-Cargo_FSX.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ERF
-ui_typerole=Commercial Airliner
-
-[fltsim.5]
-title=AIGAIM_FedEx Express Boeing 757-200 - PW SF
-model=FDX-FedEx Express_PW SF
-texture=FDX-FedEx Express_PW SF
-atc_id=N988FD
-atc_airline=FEDEX
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=FDX
-ui_manufacturer=Alpha India Group
-ui_type=Boeing 757-200
-ui_variation=FedEx
-ui_createdby=Provided by: FC75 Filename: aig_b752f_fdx_fsx.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FDX
-ui_typerole=Commercial Airliner
-
-[fltsim.6]
-title=AIGAIM_Raya Airways Boeing 757-200 - PCF
-model=RMY-Raya Airways_PCF
-texture=RMY-Raya Airways_PCF
-atc_id=9M-RYA
-atc_airline=RAYA EXPRESS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=RMY
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=Raya Airways 9M-RYA
-ui_createdby=Provided by: FC75 Filename: Raya_Airways_B757-200F_Fleet_FSX.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RMY
-ui_typerole=Commercial Airliner
-
-[fltsim.7]
-title=AIGAIM_Uzbekistan Airways Boeing 757-200
-model=UZB-Uzbekistan Airways
-texture=UZB-Uzbekistan Airways
-atc_id=UK75704
-atc_airline=UZBEK
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UZB
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200
-ui_variation=National Air Company Uzbekistan Airways
-ui_createdby=Provided by: JB Filename: B757-200 Uzbekistan Airways FSX.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UZB
-ui_typerole=Commercial Airliner
-
-[fltsim.8]
-title=AIGAIM_Uzbekistan Airways Boeing 757-200 - named
-model=UZB-Uzbekistan Airways_named
-texture=UZB-Uzbekistan Airways_named
-atc_id=UK75701
-atc_airline=UZBEK
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UZB
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200
-ui_variation=National Air Company Uzbekistan Airways
-ui_createdby=Provided by: JB Filename: B757-200 Uzbekistan Airways FSX.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UZB
-ui_typerole=Commercial Airliner
-
-[fltsim.9]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 no rear Dome
 model=DAL-Delta Air Lines_1-2-1 no rear Dome
 texture=DAL-Delta Air Lines_1-2-1 no rear Dome
@@ -246,7 +91,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.10]
+[fltsim.2]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 No Belly Titles
 model=DAL-Delta Air Lines_1-2-1 No Belly Titles
 texture=DAL-Delta Air Lines_1-2-1 No Belly Titles
@@ -265,7 +110,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.11]
+[fltsim.3]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 No Belly Titles no rear Dome
 model=DAL-Delta Air Lines_1-2-1 No Belly Titles no rear Dome
 texture=DAL-Delta Air Lines_1-2-1 No Belly Titles no rear Dome
@@ -284,7 +129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.12]
+[fltsim.4]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 Charter no rear Dome
 model=DAL-Delta Air Lines_1-2-1 Charter no rear Dome
 texture=DAL-Delta Air Lines_1-2-1 Charter no rear Dome
@@ -303,7 +148,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.13]
+[fltsim.5]
 title=AIGAIM_Delta Air Lines Boeing 757-200 - 1-2-1 Charter No Belly Titles no rear Dome
 model=DAL-Delta Air Lines_1-2-1 Charter No Belly Titles no rear Dome
 texture=DAL-Delta Air Lines_1-2-1 Charter No Belly Titles no rear Dome
@@ -321,3 +166,158 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+
+[fltsim.6]
+title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF
+model=DAE-DHL Aero Expreso_PCF
+texture=DAE-DHL Aero Expreso_PCF
+atc_id=HP1810DAE
+atc_airline=YELLOW
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DAE
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=DHL Aero Expreso HP-1810DAE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: DHL_Aero_Expreso_B757-200PCF_Fleet.zip
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAE
+
+[fltsim.7]
+title=AIGAIM_DHL Aero Expreso Boeing 757-200 - PCF cargo door bumper
+model=DAE-DHL Aero Expreso_PCF cargo door bumper
+texture=DAE-DHL Aero Expreso_PCF cargo door bumper
+atc_id=HP2110DAE
+atc_airline=YELLOW
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DAE
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=DHL Aero Expreso HP-2110DAE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: DHL_Aero_Expreso_B757-200PCF_Fleet.zip
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAE
+
+[fltsim.8]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - PW PCF
+model=BCS-EAT Leipzig_PW PCF
+texture=BCS-EAT Leipzig_PW PCF
+atc_id=D-ALEN
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=EAT Leipzig D-ALEN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: EAT_Leipzig_B757-200F_Fleet.zip
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.9]
+title=AIGAIM_E-Cargo Airlines Boeing 757-200 - PCF
+model=ERF-E-Cargo Airlines_PCF
+texture=ERF-E-Cargo Airlines_PCF
+atc_id=VP-BHM
+atc_airline=GULLIVER
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ERF
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200
+ui_variation=E-Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200PCF_E-Cargo_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ERF
+
+[fltsim.10]
+title=AIGAIM_FedEx Express Boeing 757-200 - PW SF
+model=FDX-FedEx Express_PW SF
+texture=FDX-FedEx Express_PW SF
+atc_id=N988FD
+atc_airline=FEDEX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=FDX
+ui_manufacturer=Alpha India Group
+ui_type=Boeing 757-200
+ui_variation=FedEx
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_b752f_fdx_fsx.zip
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDX
+
+[fltsim.11]
+title=AIGAIM_Raya Airways Boeing 757-200 - PCF
+model=RMY-Raya Airways_PCF
+texture=RMY-Raya Airways_PCF
+atc_id=9M-RYA
+atc_airline=RAYA EXPRESS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RMY
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=Raya Airways 9M-RYA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: Raya_Airways_B757-200F_Fleet_FSX.zip
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RMY
+
+[fltsim.12]
+title=AIGAIM_Uzbekistan Airways Boeing 757-200
+model=UZB-Uzbekistan Airways
+texture=UZB-Uzbekistan Airways
+atc_id=UK75704
+atc_airline=UZBEK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UZB
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200
+ui_variation=National Air Company Uzbekistan Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B757-200 Uzbekistan Airways FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UZB
+
+[fltsim.13]
+title=AIGAIM_Uzbekistan Airways Boeing 757-200 - named
+model=UZB-Uzbekistan Airways_named
+texture=UZB-Uzbekistan Airways_named
+atc_id=UK75701
+atc_airline=UZBEK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UZB
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200
+ui_variation=National Air Company Uzbekistan Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B757-200 Uzbekistan Airways FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UZB

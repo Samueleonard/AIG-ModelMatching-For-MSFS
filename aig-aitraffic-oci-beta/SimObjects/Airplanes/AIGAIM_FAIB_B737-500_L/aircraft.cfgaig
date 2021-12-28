@@ -31,6 +31,9 @@ small_pushback=0
 marshaller=1
 jetway=1
 
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
+
 [fltsim.0]
 title=AIGAIM_Aero Regional Boeing 737-500 - New Color'
 model=RER-Aero Regional_New Color'
@@ -42,12 +45,12 @@ atc_parking_codes=RER
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Aeroregional Ecuador - New Livery
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: cnai-FAIB_B735-Aeroregional_HC-CUH_NewLivery.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RER
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Aircompany Armenia Boeing 737-500 - Eyebrows
@@ -57,12 +60,12 @@ atc_airline=NIKA
 atc_parking_types=GATE,RAMP
 atc_parking_codes=NGT
 ui_type=Boeing 737-500
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_735_AircompanyArmenia.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NGT
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Djibouti Boeing 737-500 - EY-560 opb Asia Sky Lines
@@ -75,12 +78,12 @@ atc_parking_codes=DJB
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Air Djibouti
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_dju_boeing_735.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DJB
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air North Boeing 737-500
@@ -92,12 +95,12 @@ atc_parking_codes=ANT
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Air North - NC C-GANU
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_735_ant_fleet2018.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air North Boeing 737-500 - OC
@@ -109,12 +112,12 @@ atc_parking_codes=ANT
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Air North - OC C-GANJ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_735_ant_fleet2018.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Albatros Airlines Boeing 737-500
@@ -127,12 +130,12 @@ atc_parking_codes=GAL
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Albatros Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_B735GAL_FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GAL
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Albawings Boeing 737-500
@@ -145,12 +148,12 @@ atc_parking_codes=AWT
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Albawings
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: faib_b735awt_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWT
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_AlMasria Universal Airlines Boeing 737-500
@@ -163,12 +166,12 @@ atc_parking_codes=LMU
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-500
 ui_variation=Almasria Universal Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-500_Almasria Universal Airlines_FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LMU
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_AMC Airlines Boeing 737-500 - Eyebrows
@@ -181,12 +184,12 @@ atc_parking_codes=AMV
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=AMC Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b735amv.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMV
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_ANA Wings Boeing 737-500
@@ -199,12 +202,12 @@ atc_parking_codes=AKX
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=ANA Wings
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_akx_b735_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AKX
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Ariana Afghan Airlines Boeing 737-500
@@ -216,12 +219,12 @@ atc_parking_codes=AFG
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Ariana Afghan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB 737-500 Ariana Afghan Airlines FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFG
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_ATA Airlines Boeing 737-500 - Eyebrows
@@ -234,12 +237,12 @@ atc_parking_codes=TBZ
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=ATA Airlines EP-TAG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_735_tbz.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Azman Air Boeing 737-500 - Eyebrows
@@ -251,12 +254,12 @@ atc_parking_codes=AZM
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Azman Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_azmanair_735_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZM
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Badr Airlines Boeing 737-500
@@ -268,12 +271,12 @@ atc_parking_codes=BDR
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Badr Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_badrairlines_735.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Badr Airlines Boeing 737-500 - Eyebrows
@@ -285,12 +288,12 @@ atc_parking_codes=BDR
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Badr Airlines - Eyebrows
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_badrairlines_735.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Bahamasair Boeing 737-500
@@ -303,12 +306,12 @@ atc_parking_codes=BHS
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Bahamasair C6-BFE
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_735bhs_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BHS
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Blue Air Boeing 737-500
@@ -321,12 +324,12 @@ atc_parking_codes=BLA,BMS
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Blue Air YR-AMC (webtitles)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Blue Air Boeing 737-500 - no Webtitles
@@ -339,12 +342,12 @@ atc_parking_codes=BLA,BMS
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Blue Air YR-AMB (standard)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Blue Air Boeing 737-500 - darker Tail Logo
@@ -357,12 +360,12 @@ atc_parking_codes=BLA,BMS
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Blue Air YR-AMD (odd gradient on tail logo)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b735bms_v_2019.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Buraq Air Boeing 737-500 - Eyebrows
@@ -375,12 +378,12 @@ atc_parking_codes=BRQ
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=El-Buraq Air Transport Inc
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B735 Buraq FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRQ
-ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Felix Airways Boeing 737-500 - opb Alfa Airlines
@@ -392,32 +395,14 @@ atc_parking_codes=FXX
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Alfa Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_alfaairlines_735.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FXX
-ui_typerole=Commercial Airliner
 
 [fltsim.21]
-title=AIGAIM_Mauritania Airlines International Boeing 737-500 - eyebrows
-model=MAI-Mauritania Airlines International_eyebrows
-texture=MAI-Mauritania Airlines International_eyebrows
-atc_id=5T-CLA
-atc_airline=MAURITANIA AIRWAYS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MAI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-500
-ui_variation=Mauritania Airlines International
-ui_createdby=Provided by: JB Filename: FAIB_B735_Mauritania FSX.zip
-description=FAIB_B737-500-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MAI
-ui_typerole=Commercial Airliner
-
-[fltsim.22]
 title=AIGAIM_Kam Air Boeing 737-500
 model=KMF-Kam Air
 texture=KMF-Kam Air
@@ -428,12 +413,30 @@ atc_parking_codes=KMF
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Kam Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB 737-500 Kam Air FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMF
+
+[fltsim.22]
+title=AIGAIM_Mauritania Airlines International Boeing 737-500 - eyebrows
+model=MAI-Mauritania Airlines International_eyebrows
+texture=MAI-Mauritania Airlines International_eyebrows
+atc_id=5T-CLA
+atc_airline=MAURITANIA AIRWAYS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500
+ui_variation=Mauritania Airlines International
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB_B735_Mauritania FSX.zip
+description=FAIB_B737-500-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAI
 
 [fltsim.23]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BKV
@@ -446,12 +449,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BKV
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQI
@@ -464,12 +467,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BQI
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQL
@@ -482,12 +485,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BQL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRG
@@ -500,12 +503,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BRG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRI
@@ -518,12 +521,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BRI
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRK
@@ -536,12 +539,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BRK
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRN
@@ -554,12 +557,12 @@ atc_parking_codes=AUL
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Nordavia VP-BRN
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_735_aul_fsx.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
-ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_Tunisair Express Boeing 737-500 - opb KHH Eyebrows
@@ -572,12 +575,12 @@ atc_parking_codes=TUX
 ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-500
 ui_variation=Alexandria Airlines SU-KHM (opb Tunisair Express)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b735khh_tux.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUX
-ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_UTair Boeing 737-500 - OC (TEMP)
@@ -590,12 +593,9 @@ atc_parking_codes=UTA
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=UTair Aviation VP-BFO
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: utt_FAIB_735w_Utair_FSX.zip
 description=FAIB_B737-500-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
-ui_typerole=Commercial Airliner
-
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1

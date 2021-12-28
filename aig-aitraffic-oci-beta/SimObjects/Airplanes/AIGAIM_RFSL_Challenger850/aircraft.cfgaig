@@ -38,12 +38,12 @@ texture=GA3J-Corning_N28CG
 atc_parking_types=RAMP
 atc_parking_codes=GA3J
 ui_type=Bombardier Challenger 850
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: rai_crn_cr2_p3d.zip
 description=RFSL_Challenger850-850(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Corning Bombardier Challenger 850 - N38CG
@@ -52,9 +52,9 @@ texture=GA3J-Corning_N38CG
 atc_parking_types=RAMP
 atc_parking_codes=GA3J
 ui_type=Bombardier Challenger 850
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: rai_crn_cr2_p3d.zip
 description=RFSL_Challenger850-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
-ui_typerole=Commercial Airliner

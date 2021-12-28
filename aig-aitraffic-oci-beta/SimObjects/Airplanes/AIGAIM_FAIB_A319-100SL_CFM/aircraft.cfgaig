@@ -48,12 +48,12 @@ atc_parking_codes=CCA
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A319 Air China.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_American Airlines Airbus A319-100SL - CFM
@@ -66,12 +66,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Avianca Airbus A319-100SL - CFM
@@ -84,12 +84,12 @@ atc_parking_codes=AVA
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Avianca Airbus A319-100SL - CFM WiFi Dome
@@ -102,12 +102,12 @@ atc_parking_codes=AVA
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Chengdu Airlines Airbus A319-100SL
@@ -120,12 +120,12 @@ atc_parking_codes=UEA
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=Chengdu Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: BRW_A319S_ChengduAirlines_FSX.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UEA
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM
@@ -138,12 +138,12 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=China Eastern CFM SL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A319-100 China Eastern FSX.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM OC
@@ -156,12 +156,12 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a319s_ces_cfm_old.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM OC Magnificent Qinghai
@@ -174,12 +174,12 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a319s_ces_qinghai.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Druk Air Airbus A319-100SL
@@ -192,12 +192,12 @@ atc_parking_codes=DRK
 ui_manufacturer=FAIB
 ui_type=Airbus A319-100SL
 ui_variation=Drukair A5-JSW
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: faib_a319s_drk_fsx.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DRK
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Tibet Airlines Airbus A319-100SL
@@ -210,9 +210,9 @@ atc_parking_codes=TBA
 ui_manufacturer=Airbus
 ui_type=Airbus A319-100SL
 ui_variation=Tibet Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a319s_tba.zip
 description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBA
-ui_typerole=Commercial Airliner

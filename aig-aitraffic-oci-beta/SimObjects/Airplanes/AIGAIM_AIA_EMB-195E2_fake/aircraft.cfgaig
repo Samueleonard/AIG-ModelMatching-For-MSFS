@@ -60,6 +60,7 @@ atc_airline=BINTER
 atc_parking_types=GATE,RAMP
 atc_parking_codes=IBB
 ui_type=Embraer EMB-195
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aia_erj195e2_Binter.zip
 description=AIA_EMB-195E2_fake(fs20)
 isAirTraffic=1

@@ -33,12 +33,12 @@ atc_parking_codes=QFA
 ui_manufacturer=FAIB
 ui_type=Boeing 747-400ER
 ui_variation=Qantas ER
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_744_qfa_fsx.zip
 description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Qantas Boeing 747-400ER - GE OC One World
@@ -52,12 +52,12 @@ atc_parking_codes=QFA
 ui_manufacturer=FAIB
 ui_type=Boeing 747-400ER
 ui_variation=Qantas Oneworld logojet
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_744_qfa_logojets_fsx.zip
 description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Qantas Boeing 747-400ER - GE OC Wunala
@@ -71,9 +71,9 @@ atc_parking_codes=QFA
 ui_manufacturer=Boeing
 ui_type=Boeing 747-400ER
 ui_variation=Qantas Airways Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B747-400 Qantas Spirit FSX.zip
 description=FAIB_B747-400ER_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
-ui_typerole=Commercial Airliner

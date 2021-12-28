@@ -1252,49 +1252,13 @@ ui_manufacturer=Embraer
 ui_type=Embraer EMB-195
 ui_variation=Breeze Airways
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: Breeze Airways Embraer 195 FSX.zip
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Breeze Airways Embraer 195 FSX.zip
 description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXY
 
 [fltsim.67]
-title=AIGAIM_Ukraine International Airlines Embraer EMB-195
-model=AUI-Ukraine International Airlines
-texture=AUI-Ukraine International Airlines
-atc_id=UR-EMF
-atc_airline=UKRAINE INTERNATIONAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AUI
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Ukraine International
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_e195_aui.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AUI
-
-[fltsim.68]
-title=AIGAIM_Tianjin Airlines Embraer EMB-195
-model=GCR-Tianjin Airlines
-texture=GCR-Tianjin Airlines
-atc_id=B-3100
-atc_airline=BO HAI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GCR
-ui_manufacturer=Aardvark
-ui_type=Embraer EMB-195
-ui_variation=Tianjin Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KPK Filename: ai_e195_gcr_fsx.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GCR
-
-[fltsim.69]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -1312,7 +1276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.70]
+[fltsim.68]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Belly Titles
 model=LOT-LOT Polish Airlines_Belly Titles
 texture=LOT-LOT Polish Airlines_Belly Titles
@@ -1330,7 +1294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.71]
+[fltsim.69]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC
 model=LOT-LOT Polish Airlines_OC
 texture=LOT-LOT Polish Airlines_OC
@@ -1348,7 +1312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.72]
+[fltsim.70]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Grzeski
 model=LOT-LOT Polish Airlines_OC Grzeski
 texture=LOT-LOT Polish Airlines_OC Grzeski
@@ -1366,7 +1330,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.73]
+[fltsim.71]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Sliwka Naleczowska
 model=LOT-LOT Polish Airlines_OC Sliwka Naleczowska
 texture=LOT-LOT Polish Airlines_OC Sliwka Naleczowska
@@ -1384,7 +1348,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.74]
+[fltsim.72]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Azul Hybrid SP-LNN
 model=LOT-LOT Polish Airlines_Azul Hybrid SP-LNN
 texture=LOT-LOT Polish Airlines_Azul Hybrid SP-LNN
@@ -1402,7 +1366,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.75]
+[fltsim.73]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Saratov Hybrid
 model=LOT-LOT Polish Airlines_Saratov Hybrid
 texture=LOT-LOT Polish Airlines_Saratov Hybrid
@@ -1420,7 +1384,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.76]
+[fltsim.74]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC
 model=DLHX-Lufthansa Regional_opb CLH OC
 texture=DLHX-Lufthansa Regional_opb CLH OC
@@ -1438,7 +1402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.77]
+[fltsim.75]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC unnamed LH Titles
 model=DLHX-Lufthansa Regional_opb CLH OC unnamed LH Titles
 texture=DLHX-Lufthansa Regional_opb CLH OC unnamed LH Titles
@@ -1456,7 +1420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.78]
+[fltsim.76]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA
 model=DLHX-Lufthansa Regional_opb DLA
 texture=DLHX-Lufthansa Regional_opb DLA
@@ -1474,7 +1438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.79]
+[fltsim.77]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA OC Hellas Verona
 model=DLHX-Lufthansa Regional_opb DLA OC Hellas Verona
 texture=DLHX-Lufthansa Regional_opb DLA OC Hellas Verona
@@ -1492,7 +1456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.80]
+[fltsim.78]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMA
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
@@ -1510,7 +1474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.81]
+[fltsim.79]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMB
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
@@ -1528,7 +1492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.82]
+[fltsim.80]
 title=AIGAIM_TAP Express Embraer EMB-195 - IC opb Portugalia Wifi dome
 model=TAPX-TAP Express_IC opb Portugalia Wifi dome
 texture=TAPX-TAP Express_IC opb Portugalia Wifi dome
@@ -1545,3 +1509,39 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAPX
+
+[fltsim.81]
+title=AIGAIM_Tianjin Airlines Embraer EMB-195
+model=GCR-Tianjin Airlines
+texture=GCR-Tianjin Airlines
+atc_id=B-3100
+atc_airline=BO HAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GCR
+ui_manufacturer=Aardvark
+ui_type=Embraer EMB-195
+ui_variation=Tianjin Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: ai_e195_gcr_fsx.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GCR
+
+[fltsim.82]
+title=AIGAIM_Ukraine International Airlines Embraer EMB-195
+model=AUI-Ukraine International Airlines
+texture=AUI-Ukraine International Airlines
+atc_id=UR-EMF
+atc_airline=UKRAINE INTERNATIONAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUI
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=Ukraine International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_e195_aui.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUI

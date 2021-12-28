@@ -73,12 +73,12 @@ atc_parking_codes=AFL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Aeroflot VP-BGB 'M.Kutuzov'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: ai_773er_afl_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFL
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Aeroflot Boeing 777-300ER - Skyteam
@@ -92,12 +92,12 @@ atc_parking_codes=AFL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Aeroflot VQ-BQG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: ai_773er_afl_skyteam_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFL
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Austral Boeing 777-300ER - Eruption F-OLRD
@@ -111,12 +111,12 @@ atc_parking_codes=REU
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Austral F-OSYD
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_773_reu_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=REU
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Austral Boeing 777-300ER - Waterfall F-OLRE
@@ -130,12 +130,12 @@ atc_parking_codes=REU
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Austral F-ONOU
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_773_reu_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=REU
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air Austral Boeing 777-300ER - Shorewave F-OREU
@@ -149,12 +149,12 @@ atc_parking_codes=REU
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Austral F-OREU
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_773_reu_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=REU
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air Canada Boeing 777-300ER - Wifi dome
@@ -168,12 +168,12 @@ atc_parking_codes=ACA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Canada
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Air Canada NC.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Air Canada Boeing 777-300ER - OC Wifi dome
@@ -187,12 +187,12 @@ atc_parking_codes=ACA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Canada
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS_77W_ACA_CFIVX Dome.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Air Canada Boeing 777-300ER - Cfg2 Wifi dome
@@ -206,12 +206,12 @@ atc_parking_codes=ACA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Canada
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Air Canada NC.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Air Canada Boeing 777-300ER - Cfg2 OC Wifi dome
@@ -225,12 +225,12 @@ atc_parking_codes=ACA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air Canada
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS_77W_ACA_CFIVX Dome.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Air China Boeing 777-300ER
@@ -244,12 +244,12 @@ atc_parking_codes=CCA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Air China FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Air China Boeing 777-300ER - 50 Years China-France
@@ -263,12 +263,12 @@ atc_parking_codes=CCA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Air China FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_Air China Boeing 777-300ER - Love China
@@ -282,12 +282,12 @@ atc_parking_codes=CCA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Air China FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Air China Boeing 777-300ER - Smiling China
@@ -301,12 +301,12 @@ atc_parking_codes=CCA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Air China FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Air China Boeing 777-300ER - Star Alliance
@@ -320,12 +320,12 @@ atc_parking_codes=CCA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Air China FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Air France Boeing 777-300ER - 4 Class OC
@@ -339,12 +339,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GSQK (4 class, 2Ku Wi-Fi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Air France Boeing 777-300ER - 4 Class OC fwd WiFi
@@ -358,12 +358,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GSQY (4 class, fwd Wi-Fi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Air France Boeing 777-300ER - 4 Class OC no Wifi
@@ -377,12 +377,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GSQH (4 class, no Wi-Fi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Air France Boeing 777-300ER - 4 Class OC Skyteam
@@ -396,12 +396,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GZNE (4 class, Wi-Fi, Skyteam logojet)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Air France Boeing 777-300ER - 4 Class OC JonOne no WiFi
@@ -415,12 +415,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GSQI (4 class, no Wi-Fi, Jonone logojet)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
 title=AIGAIM_Air France Boeing 777-300ER - 3 Class OC
@@ -434,12 +434,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GZNJ (3 class, 2Ku Wi-Fi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.20]
 title=AIGAIM_Air France Boeing 777-300ER - 3 Class OC no WiFi
@@ -453,12 +453,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GZNJ (3 class, no Wi-Fi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.21]
 title=AIGAIM_Air France Boeing 777-300ER - 3 Class OC Skyteam no WiFi
@@ -472,12 +472,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air France F-GZNN (3 class, no Wi-Fi, Skyteam logojet)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_b773er_afr.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.22]
 title=AIGAIM_Air India Boeing 777-300ER
@@ -491,12 +491,12 @@ atc_parking_codes=AIC
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air India - Karnataka - VT-ALO
-ui_createdby=Provided by: KPK Filename: TFS 777-300ER Air India_FSX_v2.zip
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: TFS 777-300ER Air India_FSX_v2.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
-ui_typerole=Commercial Airliner
 
 [fltsim.23]
 title=AIGAIM_Air India Boeing 777-300ER - Star Alliance
@@ -510,12 +510,12 @@ atc_parking_codes=AIC
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air India - Star Alliance Livery - Bihar VT-ALJ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: TFS 777-300ER Air India_FSX_v2.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
-ui_typerole=Commercial Airliner
 
 [fltsim.24]
 title=AIGAIM_Air New Zealand Boeing 777-300ER
@@ -529,12 +529,12 @@ atc_parking_codes=ANZ
 ui_manufacturer=TFS
 ui_type=Boeing 777-300ER
 ui_variation=Air New Zealand ZK-OKR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: tfs-b77w-nz4-fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
-ui_typerole=Commercial Airliner
 
 [fltsim.25]
 title=AIGAIM_Air New Zealand Boeing 777-300ER - EVA Air Livery
@@ -548,12 +548,12 @@ atc_parking_codes=ANZ
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
-ui_typerole=Commercial Airliner
 
 [fltsim.26]
 title=AIGAIM_All Nippon Airways Boeing 777-300ER
@@ -567,12 +567,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=All Nippon Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_ana_b773er_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.27]
 title=AIGAIM_All Nippon Airways Boeing 777-300ER - Tomo Dachi
@@ -586,12 +586,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER ANA.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.28]
 title=AIGAIM_All Nippon Airways Boeing 777-300ER - We support UNESCO
@@ -605,12 +605,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER ANA.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.29]
 title=AIGAIM_All Nippon Airways Boeing 777-300ER - Star Alliance
@@ -624,12 +624,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=All Nippon Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: tfs_ana_b773er_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.30]
 title=AIGAIM_All Nippon Airways Boeing 777-300ER - Star Wars BB-8
@@ -643,12 +643,12 @@ atc_parking_codes=ANA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER ANA.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.31]
 title=AIGAIM_American Airlines Boeing 777-300ER
@@ -662,12 +662,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: tfs_aal_b77w_p3d-1.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.32]
 title=AIGAIM_Biman Bangladesh Airlines Boeing 777-300ER
@@ -681,12 +681,12 @@ atc_parking_codes=BBC
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Biman Bangladesh Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B773ER Biman FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBC
-ui_typerole=Commercial Airliner
 
 [fltsim.33]
 title=AIGAIM_British Airways Boeing 777-300ER
@@ -699,12 +699,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=Boeing TFS
 ui_type=Boeing 777-300ER
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysB77WFSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.34]
 title=AIGAIM_British Airways Boeing 777-300ER - OC WiFi Dome (TEMP)
@@ -717,12 +717,12 @@ atc_parking_codes=BAW,BA5
 ui_manufacturer=Boeing TFS
 ui_type=Boeing 777-300ER
 ui_variation=British Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: BritishAirwaysB77WFSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
-ui_typerole=Commercial Airliner
 
 [fltsim.35]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class
@@ -736,12 +736,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KPZ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.36]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class WiFi
@@ -755,12 +755,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQD
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.37]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class Oneworld WiFi
@@ -774,12 +774,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.38]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class OC
@@ -793,12 +793,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-HNR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.39]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class OC WiFi
@@ -812,12 +812,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQQ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.40]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class
@@ -831,12 +831,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KPZ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.41]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class WiFi
@@ -850,12 +850,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQD
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.42]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class Oneworld WiFi
@@ -869,12 +869,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.43]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC
@@ -888,12 +888,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-HNR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.44]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC WiFi
@@ -907,12 +907,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQQ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.45]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC 50th 777-300ER
@@ -926,12 +926,12 @@ atc_parking_codes=CPA
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Cathay Pacific - B-KQX
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wcpa.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
-ui_typerole=Commercial Airliner
 
 [fltsim.46]
 title=AIGAIM_China Airlines Boeing 777-300ER
@@ -945,12 +945,12 @@ atc_parking_codes=CAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=China Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER_China Airlines FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
-ui_typerole=Commercial Airliner
 
 [fltsim.47]
 title=AIGAIM_China Airlines Boeing 777-300ER - Boeing Livery
@@ -964,12 +964,12 @@ atc_parking_codes=CAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=China Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER_China Airlines FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
-ui_typerole=Commercial Airliner
 
 [fltsim.48]
 title=AIGAIM_China Eastern Airlines Boeing 777-300ER
@@ -982,12 +982,12 @@ atc_parking_codes=CES
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Boeing 777-300ER China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS 777-300ER China Eastern FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.49]
 title=AIGAIM_China Southern Airlines Boeing 777-300ER
@@ -1000,12 +1000,12 @@ atc_parking_codes=CSN
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Boeing 777-300ER China Southern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS 777-300ER China Southern FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
 [fltsim.50]
 title=AIGAIM_China Southern Airlines Boeing 777-300ER - Skyteam
@@ -1018,12 +1018,12 @@ atc_parking_codes=CSN
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Boeing 777-300ER China Southern Skyteam
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS 777-300ER China Southern FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
 [fltsim.51]
 title=AIGAIM_EgyptAir Boeing 777-300ER
@@ -1037,12 +1037,12 @@ atc_parking_codes=MSR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EgyptAir
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Egyptair FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
-ui_typerole=Commercial Airliner
 
 [fltsim.52]
 title=AIGAIM_EgyptAir Boeing 777-300ER - World Youth Forum
@@ -1056,12 +1056,12 @@ atc_parking_codes=MSR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EgyptAir
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Egyptair FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
-ui_typerole=Commercial Airliner
 
 [fltsim.53]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class
@@ -1075,12 +1075,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.54]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Expo 2020 Sticker
@@ -1094,12 +1094,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.55]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Blue Expo 2020
@@ -1113,12 +1113,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.56]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Green Expo 2020
@@ -1132,12 +1132,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.57]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class
@@ -1151,12 +1151,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.58]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Expo 2020 Sticker
@@ -1170,12 +1170,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.59]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Blue Expo 2020
@@ -1189,12 +1189,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.60]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Green Expo 2020
@@ -1208,12 +1208,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.61]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Orange Expo 2020
@@ -1227,12 +1227,12 @@ atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS B777-300ER Emirates.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
 
 [fltsim.62]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER
@@ -1246,12 +1246,12 @@ atc_parking_codes=ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Ethiopian Airlines FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
-ui_typerole=Commercial Airliner
 
 [fltsim.63]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - WiFi Dome
@@ -1265,12 +1265,12 @@ atc_parking_codes=ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Ethiopian Airlines FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
-ui_typerole=Commercial Airliner
 
 [fltsim.64]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - ET-ASK Ras Dashen
@@ -1284,12 +1284,12 @@ atc_parking_codes=ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Ethiopian Airlines FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
-ui_typerole=Commercial Airliner
 
 [fltsim.65]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - ET-ASL Ngorongoro
@@ -1303,12 +1303,12 @@ atc_parking_codes=ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER Ethiopian Airlines FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
-ui_typerole=Commercial Airliner
 
 [fltsim.66]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class
@@ -1322,12 +1322,12 @@ atc_parking_codes=ETD
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Etihad - A6-ETA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
 [fltsim.67]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class OC
@@ -1341,12 +1341,12 @@ atc_parking_codes=ETD
 ui_manufacturer=The Fruit Stand - Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Etihad - A6-ETH
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
 [fltsim.68]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 3 Class OC
@@ -1360,12 +1360,12 @@ atc_parking_codes=ETD
 ui_manufacturer=The Fruit Stand - Boeing
 ui_type=Boeing 777-300ER
 ui_variation=Etihad - A6-ETK
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
 [fltsim.69]
 title=AIGAIM_EVA Air Boeing 777-300ER - fwd Dome
@@ -1379,12 +1379,12 @@ atc_parking_codes=EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
-ui_typerole=Commercial Airliner
 
 [fltsim.70]
 title=AIGAIM_EVA Air Boeing 777-300ER - OC fwd Dome
@@ -1398,12 +1398,12 @@ atc_parking_codes=EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
-ui_typerole=Commercial Airliner
 
 [fltsim.71]
 title=AIGAIM_EVA Air Boeing 777-300ER - Star Alliance
@@ -1417,12 +1417,12 @@ atc_parking_codes=EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
-ui_typerole=Commercial Airliner
 
 [fltsim.72]
 title=AIGAIM_EVA Air Boeing 777-300ER - B-16703 Sanrio Family
@@ -1436,12 +1436,12 @@ atc_parking_codes=EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
-ui_typerole=Commercial Airliner
 
 [fltsim.73]
 title=AIGAIM_EVA Air Boeing 777-300ER - B-16722 Sanrio Characters
@@ -1455,12 +1455,12 @@ atc_parking_codes=EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B777-300ER EVA Air FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
-ui_typerole=Commercial Airliner
 
 [fltsim.74]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER
@@ -1474,12 +1474,12 @@ atc_parking_codes=GIA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B77W_garuda FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.75]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Wonderful Indonesia
@@ -1493,12 +1493,12 @@ atc_parking_codes=GIA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B77W_garuda FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.76]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Skyteam
@@ -1512,12 +1512,12 @@ atc_parking_codes=GIA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B77W_garuda FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.77]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Retro 1969-1985
@@ -1531,127 +1531,14 @@ atc_parking_codes=GIA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B77W_garuda FSX.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
-ui_typerole=Commercial Airliner
 
 [fltsim.78]
-title=AIGAIM_United Airlines Boeing 777-300ER
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N2250U
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=United Airlines
-ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-ui_typerole=Commercial Airliner
-
-[fltsim.79]
-title=AIGAIM_United Airlines Boeing 777-300ER - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N2333U
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=United Airlines
-ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-ui_typerole=Commercial Airliner
-
-[fltsim.80]
-title=AIGAIM_United Airlines Boeing 777-300ER - OC New Spirit of United
-model=UAL-United Airlines_OC New Spirit of United
-texture=UAL-United Airlines_OC New Spirit of United
-atc_id=N2331U
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=United Airlines
-ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-ui_typerole=Commercial Airliner
-
-[fltsim.81]
-title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-300ER
-model=DTA-TAAG Linhas Aereas de Angola
-texture=DTA-TAAG Linhas Aereas de Angola
-atc_id=D2-TEG
-atc_airline=DTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DTA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Linhas Aereas de Angola
-ui_createdby=Provided by: JB Filename: B777-300ER TAAG FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DTA
-ui_typerole=Commercial Airliner
-
-[fltsim.82]
-title=AIGAIM_Thai Airways Boeing 777-300ER
-model=THA-Thai Airways
-texture=THA-Thai Airways
-atc_id=HS-TKR
-atc_airline=THAI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Thai Airways International
-ui_createdby=Provided by: FC75 Filename: tfs_tha_b77w_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THA
-ui_typerole=Commercial Airliner
-
-[fltsim.83]
-title=AIGAIM_Philippine Airlines Boeing 777-300ER (TEMP)
-model=PAL-Philippine Airlines_temp
-texture=PAL-Philippine Airlines_temp
-atc_id=RP-C7775
-atc_airline=PHILIPPINE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PAL
-ui_manufacturer=TFS
-ui_type=Boeing 777-300ER
-ui_variation=Philippine Air Lines RP-C7775
-ui_createdby=Provided by: JCAI Filename: tfs_b77wpal_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAL
-
-[fltsim.84]
 title=AIGAIM_Japan Airlines Boeing 777-300ER
 model=JAL-Japan Airlines
 texture=JAL-Japan Airlines
@@ -1663,14 +1550,14 @@ atc_parking_codes=JAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Japan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: ai_773er_jal_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
-ui_typerole=Commercial Airliner
 
-[fltsim.85]
+[fltsim.79]
 title=AIGAIM_Japan Airlines Boeing 777-300ER - Oneworld
 model=JAL-Japan Airlines_Oneworld
 texture=JAL-Japan Airlines_Oneworld
@@ -1682,14 +1569,14 @@ atc_parking_codes=JAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Japan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: ai_773er_jal_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
-ui_typerole=Commercial Airliner
 
-[fltsim.86]
+[fltsim.80]
 title=AIGAIM_Japan Airlines Boeing 777-300ER - Sky Eco
 model=JAL-Japan Airlines_Sky Eco
 texture=JAL-Japan Airlines_Sky Eco
@@ -1701,14 +1588,14 @@ atc_parking_codes=JAL
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Japan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: ai_773er_jal_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
-ui_typerole=Commercial Airliner
 
-[fltsim.87]
+[fltsim.81]
 title=AIGAIM_KLM Boeing 777-300ER - 100 Years
 model=KLM-KLM_100 Years
 texture=KLM-KLM_100 Years
@@ -1720,14 +1607,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.88]
+[fltsim.82]
 title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA 100 Years
 model=KLM-KLM_KLM ASIA 100 Years
 texture=KLM-KLM_KLM ASIA 100 Years
@@ -1739,14 +1626,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVB
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.89]
+[fltsim.83]
 title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat 100 Years
 model=KLM-KLM_KLM ASIA aft Sat 100 Years
 texture=KLM-KLM_KLM ASIA aft Sat 100 Years
@@ -1758,14 +1645,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVC
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.90]
+[fltsim.84]
 title=AIGAIM_KLM Boeing 777-300ER - Sat 100 Years
 model=KLM-KLM_Sat 100 Years
 texture=KLM-KLM_Sat 100 Years
@@ -1777,14 +1664,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVF
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.91]
+[fltsim.85]
 title=AIGAIM_KLM Boeing 777-300ER - OC 100 Years
 model=KLM-KLM_OC 100 Years
 texture=KLM-KLM_OC 100 Years
@@ -1796,14 +1683,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVK
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.92]
+[fltsim.86]
 title=AIGAIM_KLM Boeing 777-300ER - Skyteam
 model=KLM-KLM_Skyteam
 texture=KLM-KLM_Skyteam
@@ -1815,14 +1702,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVD
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.93]
+[fltsim.87]
 title=AIGAIM_KLM Boeing 777-300ER - Orange Pride 100 Years
 model=KLM-KLM_Orange Pride 100 Years
 texture=KLM-KLM_Orange Pride 100 Years
@@ -1834,393 +1721,14 @@ atc_parking_codes=KLM
 ui_manufacturer=Boeing
 ui_type=Boeing 777-300ER
 ui_variation=KLM - PH-BVA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
-ui_typerole=Commercial Airliner
 
-[fltsim.94]
-title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
-model=KAC-Kuwait Airways_65 Years_temp
-texture=KAC-Kuwait Airways_65 Years_temp
-atc_id=9K-AOL
-atc_airline=KUWAITI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAC
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Kuwait Airways
-ui_createdby=Provided by: JB Filename: B773ER Kuwait Airways.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAC
-ui_typerole=Commercial Airliner
-
-[fltsim.95]
-title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
-model=TAM-LATAM Airlines Brasil
-texture=TAM-LATAM Airlines Brasil
-atc_id=PT-MUB
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=LATAM Airlines Brasil
-ui_createdby=Provided by: JB Filename: B777-300ER LATAM Brasil.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-ui_typerole=Commercial Airliner
-
-[fltsim.96]
-title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
-model=TAM-LATAM Airlines Brasil_Star Wars
-texture=TAM-LATAM Airlines Brasil_Star Wars
-atc_id=PT-MUB
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=LATAM Airlines Brasil
-ui_createdby=Provided by: JB Filename: B777-300ER LATAM Brasil.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-ui_typerole=Commercial Airliner
-
-[fltsim.97]
-title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC
-model=PIA-Pakistan International Airlines_OC
-texture=PIA-Pakistan International Airlines_OC
-atc_id=AP-BID
-atc_airline=PAKISTAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Pakistan International AP-BID
-ui_createdby=Provided by: FC75 Filename: ai_773er_pia_fleet_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PIA
-ui_typerole=Commercial Airliner
-
-[fltsim.98]
-title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC No Belly Titles
-model=PIA-Pakistan International Airlines_OC No Belly Titles
-texture=PIA-Pakistan International Airlines_OC No Belly Titles
-atc_id=AP-BHW
-atc_airline=PAKISTAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Pakistan International AP-BHW
-ui_createdby=Provided by: KPK Filename: ai_773er_pia_fleet_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PIA
-ui_typerole=Commercial Airliner
-
-[fltsim.99]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - named
-model=QTR-Qatar Airways_named
-texture=QTR-Qatar Airways_named
-atc_id=SU-BAJ
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-ui_typerole=Commercial Airliner
-
-[fltsim.100]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
-model=QTR-Qatar Airways_named fwd WiFi Dome
-texture=QTR-Qatar Airways_named fwd WiFi Dome
-atc_id=SU-BAJ
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-ui_typerole=Commercial Airliner
-
-[fltsim.101]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
-model=QTR-Qatar Airways_FIFA World Cup_temp
-texture=QTR-Qatar Airways_FIFA World Cup_temp
-atc_id=SU-BAX
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-ui_typerole=Commercial Airliner
-
-[fltsim.102]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
-model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
-texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
-atc_id=SU-BAA
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-ui_typerole=Commercial Airliner
-
-[fltsim.103]
-title=AIGAIM_Rossiya Airlines Boeing 777-300ER (TEMP)
-model=SDM-Rossiya Airlines_temp
-texture=SDM-Rossiya Airlines_temp
-atc_id=EI-GES
-atc_airline=ROSSIYA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SDM
-ui_manufacturer=Rossiya
-ui_type=Boeing 777-300ER
-ui_variation=Rossiya EI-GES
-ui_createdby=Provided by: AVRUS Filename: 62340-777-ER-SDM.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SDM
-
-[fltsim.104]
-title=AIGAIM_Saudia Boeing 777-300ER
-model=SVA-Saudia
-texture=SVA-Saudia
-atc_id=HZ-AK20
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Saudi Arabian Airlines
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-ui_typerole=Commercial Airliner
-
-[fltsim.105]
-title=AIGAIM_Saudia Boeing 777-300ER - OC
-model=SVA-Saudia_OC
-texture=SVA-Saudia_OC
-atc_id=HZ-AK11
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Saudi Arabian Airlines
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-ui_typerole=Commercial Airliner
-
-[fltsim.106]
-title=AIGAIM_Saudia Boeing 777-300ER - Landmarks
-model=SVA-Saudia_Landmarks
-texture=SVA-Saudia_Landmarks
-atc_id=HZ-AK28
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Saudi Arabian Airlines
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-ui_typerole=Commercial Airliner
-
-[fltsim.107]
-title=AIGAIM_Singapore Airlines Boeing 777-300ER
-model=SIA-Singapore Airlines
-texture=SIA-Singapore Airlines
-atc_id=9V-SWT
-atc_airline=SINGAPORE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Singapore Airlines
-ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SIA
-ui_typerole=Commercial Airliner
-
-[fltsim.108]
-title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
-model=SIA-Singapore Airlines_Fwd Dome
-texture=SIA-Singapore Airlines_Fwd Dome
-atc_id=9V-SWU
-atc_airline=SINGAPORE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Singapore Airlines
-ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SIA
-ui_typerole=Commercial Airliner
-
-[fltsim.109]
-title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
-model=SIA-Singapore Airlines_Star Alliance_temp
-texture=SIA-Singapore Airlines_Star Alliance_temp
-atc_id=9V-SWJ
-atc_airline=SINGAPORE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Singapore Airlines
-ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SIA
-ui_typerole=Commercial Airliner
-
-[fltsim.110]
-title=AIGAIM_Swiss Boeing 777-300ER - unnamed
-model=SWR-Swiss_unnamed
-texture=SWR-Swiss_unnamed
-atc_id=HB-JNB
-atc_airline=SWISS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Swiss
-ui_createdby=Provided by: FC75 Filename: tfs_b77w_swr_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWR
-ui_typerole=Commercial Airliner
-
-[fltsim.111]
-title=AIGAIM_Turkish Airlines Boeing 777-300ER
-model=THY-Turkish Airlines
-texture=THY-Turkish Airlines
-atc_id=TC-JJK
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Türk Hava Yollari
-ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-ui_typerole=Commercial Airliner
-
-[fltsim.112]
-title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Titles
-model=THY-Turkish Airlines_Belly Titles
-texture=THY-Turkish Airlines_Belly Titles
-atc_id=TC-JJU
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Türk Hava Yollari
-ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-ui_typerole=Commercial Airliner
-
-[fltsim.113]
-title=AIGAIM_Virgin Australia Boeing 777-300ER - WiFi dome
-model=VOZ-Virgin Australia_WiFi dome
-texture=VOZ-Virgin Australia_WiFi dome
-atc_id=VH-VPH
-atc_airline=VELOCITY
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOZ
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Virgin Australia
-ui_createdby=Provided by: FC75 Filename: tfs_voz_b773er_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOZ
-ui_typerole=Commercial Airliner
-
-[fltsim.114]
+[fltsim.88]
 title=AIGAIM_Korean Air Boeing 777-300ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -2239,7 +1747,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.115]
+[fltsim.89]
 title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
 model=KAL-Korean Air_200th Boeing
 texture=KAL-Korean Air_200th Boeing
@@ -2258,7 +1766,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.116]
+[fltsim.90]
 title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -2276,7 +1784,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.117]
+[fltsim.91]
 title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
 model=KAL-Korean Air_SuperM
 texture=KAL-Korean Air_SuperM
@@ -2295,7 +1803,216 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.118]
+[fltsim.92]
+title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
+model=KAC-Kuwait Airways_65 Years_temp
+texture=KAC-Kuwait Airways_65 Years_temp
+atc_id=9K-AOL
+atc_airline=KUWAITI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Kuwait Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B773ER Kuwait Airways.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAC
+
+[fltsim.93]
+title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
+model=TAM-LATAM Airlines Brasil
+texture=TAM-LATAM Airlines Brasil
+atc_id=PT-MUB
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=LATAM Airlines Brasil
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER LATAM Brasil.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.94]
+title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
+model=TAM-LATAM Airlines Brasil_Star Wars
+texture=TAM-LATAM Airlines Brasil_Star Wars
+atc_id=PT-MUB
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=LATAM Airlines Brasil
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER LATAM Brasil.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.95]
+title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC
+model=PIA-Pakistan International Airlines_OC
+texture=PIA-Pakistan International Airlines_OC
+atc_id=AP-BID
+atc_airline=PAKISTAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Pakistan International AP-BID
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: ai_773er_pia_fleet_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PIA
+
+[fltsim.96]
+title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC No Belly Titles
+model=PIA-Pakistan International Airlines_OC No Belly Titles
+texture=PIA-Pakistan International Airlines_OC No Belly Titles
+atc_id=AP-BHW
+atc_airline=PAKISTAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Pakistan International AP-BHW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: ai_773er_pia_fleet_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PIA
+
+[fltsim.97]
+title=AIGAIM_Philippine Airlines Boeing 777-300ER (TEMP)
+model=PAL-Philippine Airlines_temp
+texture=PAL-Philippine Airlines_temp
+atc_id=RP-C7775
+atc_airline=PHILIPPINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PAL
+ui_manufacturer=TFS
+ui_type=Boeing 777-300ER
+ui_variation=Philippine Air Lines RP-C7775
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: tfs_b77wpal_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAL
+
+[fltsim.98]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - named
+model=QTR-Qatar Airways_named
+texture=QTR-Qatar Airways_named
+atc_id=SU-BAJ
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.99]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
+model=QTR-Qatar Airways_named fwd WiFi Dome
+texture=QTR-Qatar Airways_named fwd WiFi Dome
+atc_id=SU-BAJ
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.100]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
+model=QTR-Qatar Airways_FIFA World Cup_temp
+texture=QTR-Qatar Airways_FIFA World Cup_temp
+atc_id=SU-BAX
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.101]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
+model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
+texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
+atc_id=SU-BAA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.102]
+title=AIGAIM_Rossiya Airlines Boeing 777-300ER (TEMP)
+model=SDM-Rossiya Airlines_temp
+texture=SDM-Rossiya Airlines_temp
+atc_id=EI-GES
+atc_airline=ROSSIYA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SDM
+ui_manufacturer=Rossiya
+ui_type=Boeing 777-300ER
+ui_variation=Rossiya EI-GES
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVRUS Filename: 62340-777-ER-SDM.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SDM
+
+[fltsim.103]
 title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
 model=SVA-Saudia_Ad Diriyah E-Prix
 texture=SVA-Saudia_Ad Diriyah E-Prix
@@ -2313,3 +2030,231 @@ description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+
+[fltsim.104]
+title=AIGAIM_Singapore Airlines Boeing 777-300ER
+model=SIA-Singapore Airlines
+texture=SIA-Singapore Airlines
+atc_id=9V-SWT
+atc_airline=SINGAPORE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIA
+
+[fltsim.105]
+title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
+model=SIA-Singapore Airlines_Fwd Dome
+texture=SIA-Singapore Airlines_Fwd Dome
+atc_id=9V-SWU
+atc_airline=SINGAPORE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIA
+
+[fltsim.106]
+title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
+model=SIA-Singapore Airlines_Star Alliance_temp
+texture=SIA-Singapore Airlines_Star Alliance_temp
+atc_id=9V-SWJ
+atc_airline=SINGAPORE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Singapore Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_sia_b773er_fleet_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIA
+
+[fltsim.107]
+title=AIGAIM_Swiss Boeing 777-300ER - unnamed
+model=SWR-Swiss_unnamed
+texture=SWR-Swiss_unnamed
+atc_id=HB-JNB
+atc_airline=SWISS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_b77w_swr_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.108]
+title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-300ER
+model=DTA-TAAG Linhas Aereas de Angola
+texture=DTA-TAAG Linhas Aereas de Angola
+atc_id=D2-TEG
+atc_airline=DTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Linhas Aereas de Angola
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER TAAG FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTA
+
+[fltsim.109]
+title=AIGAIM_Thai Airways Boeing 777-300ER
+model=THA-Thai Airways
+texture=THA-Thai Airways
+atc_id=HS-TKR
+atc_airline=THAI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Thai Airways International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_tha_b77w_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THA
+
+[fltsim.110]
+title=AIGAIM_Turkish Airlines Boeing 777-300ER
+model=THY-Turkish Airlines
+texture=THY-Turkish Airlines
+atc_id=TC-JJK
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.111]
+title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Titles
+model=THY-Turkish Airlines_Belly Titles
+texture=THY-Turkish Airlines_Belly Titles
+atc_id=TC-JJU
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.112]
+title=AIGAIM_United Airlines Boeing 777-300ER
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N2250U
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.113]
+title=AIGAIM_United Airlines Boeing 777-300ER - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N2333U
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.114]
+title=AIGAIM_United Airlines Boeing 777-300ER - OC New Spirit of United
+model=UAL-United Airlines_OC New Spirit of United
+texture=UAL-United Airlines_OC New Spirit of United
+atc_id=N2331U
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: tfs_ual_b77w_p3d-3.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.115]
+title=AIGAIM_Virgin Australia Boeing 777-300ER - WiFi dome
+model=VOZ-Virgin Australia_WiFi dome
+texture=VOZ-Virgin Australia_WiFi dome
+atc_id=VH-VPH
+atc_airline=VELOCITY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOZ
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Virgin Australia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_voz_b773er_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOZ

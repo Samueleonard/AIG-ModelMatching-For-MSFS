@@ -73,12 +73,12 @@ atc_parking_codes=AFR
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Air France F-HPJH
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: ai_380_afr_fc75.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Emirates Airbus A380-800 - EA 2 Class Expo 2020 Sticker
@@ -86,18 +86,18 @@ model=UAE-Emirates_EA 2 Class Expo 2020 Sticker
 texture=UAE-Emirates_EA 2 Class Expo 2020 Sticker
 atc_id=A6-EDA
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.2]
 title=AIGAIM_Emirates Airbus A380-800 - EA 2 Class Blue Expo 2020
@@ -105,18 +105,18 @@ model=UAE-Emirates_EA 2 Class Blue Expo 2020
 texture=UAE-Emirates_EA 2 Class Blue Expo 2020
 atc_id=A6-EOL
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.3]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class
@@ -124,18 +124,18 @@ model=UAE-Emirates_EA 3 Class
 texture=UAE-Emirates_EA 3 Class
 atc_id=A6-EDX
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.4]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Wifi Dome
@@ -143,18 +143,18 @@ model=UAE-Emirates_EA 3 Class Wifi Dome
 texture=UAE-Emirates_EA 3 Class Wifi Dome
 atc_id=A6-EUB
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.5]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Expo 2020 Sticker
@@ -162,18 +162,18 @@ model=UAE-Emirates_EA 3 Class Expo 2020 Sticker
 texture=UAE-Emirates_EA 3 Class Expo 2020 Sticker
 atc_id=A6-EDA
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.6]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Expo 2020 Sticker Wifi Dome
@@ -181,18 +181,18 @@ model=UAE-Emirates_EA 3 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_EA 3 Class Expo 2020 Sticker Wifi Dome
 atc_id=A6-EUD
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.7]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Blue Expo 2020
@@ -200,18 +200,18 @@ model=UAE-Emirates_EA 3 Class Blue Expo 2020
 texture=UAE-Emirates_EA 3 Class Blue Expo 2020
 atc_id=A6-EOL
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.8]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Green Expo 2020
@@ -219,18 +219,18 @@ model=UAE-Emirates_EA 3 Class Green Expo 2020
 texture=UAE-Emirates_EA 3 Class Green Expo 2020
 atc_id=A6-EOL
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.9]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class Orange Expo 2020
@@ -238,18 +238,18 @@ model=UAE-Emirates_EA 3 Class Orange Expo 2020
 texture=UAE-Emirates_EA 3 Class Orange Expo 2020
 atc_id=A6-EEY
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.10]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class United for Wildlife Green Sticker
@@ -257,18 +257,18 @@ model=UAE-Emirates_EA 3 Class United for Wildlife Green Sticker
 texture=UAE-Emirates_EA 3 Class United for Wildlife Green Sticker
 atc_id=A6-EEQ
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.11]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class United for Wildlife A6-EER
@@ -276,18 +276,18 @@ model=UAE-Emirates_EA 3 Class United for Wildlife A6-EER
 texture=UAE-Emirates_EA 3 Class United for Wildlife A6-EER
 atc_id=A6-EER
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.12]
 title=AIGAIM_Emirates Airbus A380-800 - EA 3 Class UAE in Space
@@ -295,18 +295,18 @@ model=UAE-Emirates_EA 3 Class UAE in Space
 texture=UAE-Emirates_EA 3 Class UAE in Space
 atc_id=A6-EEH
 atc_airline=EMIRATES
-atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=UAE
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A380-800
 ui_variation=Emirates Group
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A380 Emirates.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
-ui_typerole=Commercial Airliner
+atc_heavy=1
 
 [fltsim.13]
 title=AIGAIM_Etihad Airways Airbus A380-800
@@ -320,12 +320,12 @@ atc_parking_codes=ETD
 ui_manufacturer=TFS - Airbus
 ui_type=Airbus A380-800
 ui_variation=Etihad - A6-APA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai380etd_fsx.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Etihad Airways Airbus A380-800 - Louvre Abu Dhabi
@@ -339,33 +339,14 @@ atc_parking_codes=ETD
 ui_manufacturer=TFS - Airbus
 ui_type=Airbus A380-800
 ui_variation=Etihad - A6-API
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai380etd_fsx.zip
 description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
-title=AIGAIM_Qatar Airways Airbus A380-800 - named
-model=QTR-Qatar Airways_named
-texture=QTR-Qatar Airways_named
-atc_id=A7-APA
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_createdby=Provided by: JB Filename: A380 Qatar Airways FSX.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-ui_typerole=Commercial Airliner
-
-[fltsim.16]
 title=AIGAIM_Korean Air Airbus A380-800
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -384,7 +365,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Korean Air Airbus A380-800 - 50 Years
 model=KAL-Korean Air_50 Years
 texture=KAL-Korean Air_50 Years
@@ -402,3 +383,21 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 atc_heavy=1
+
+[fltsim.17]
+title=AIGAIM_Qatar Airways Airbus A380-800 - named
+model=QTR-Qatar Airways_named
+texture=QTR-Qatar Airways_named
+atc_id=A7-APA
+atc_airline=QATARI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A380 Qatar Airways FSX.zip
+description=TFS_A380-800_EA-EA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

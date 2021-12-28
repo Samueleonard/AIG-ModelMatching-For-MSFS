@@ -48,12 +48,12 @@ atc_parking_codes=AFR
 ui_manufacturer=FAIB
 ui_type=Airbus A321-100
 ui_variation=Air France F-GMZD 'Toulon' (NC, WiFi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air France Airbus A321-100 - no WiFi
@@ -66,12 +66,12 @@ atc_parking_codes=AFR
 ui_manufacturer=FAIB
 ui_type=Airbus A321-100
 ui_variation=Air France F-GMZE 'Rouen' (NC, No WiFi)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Alitalia Airbus A321-100
@@ -84,12 +84,12 @@ atc_parking_codes=AZA
 ui_manufacturer=FAIB
 ui_type=Airbus A321-100
 ui_variation=Alitalia EI-IXH 'Piazza della Signoria - Gubbio' (2015 colours)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_aza_nnc_fsx.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Alitalia Airbus A321-100 - OC
@@ -102,12 +102,12 @@ atc_parking_codes=AZA
 ui_manufacturer=FAIB
 ui_type=Airbus A321-100
 ui_variation=Alitalia I-BIXE 'Piazza di Spagna - Roma' (2006 colours)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_aza_nc_fsx.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Alitalia Airbus A321-100 - OOC
@@ -120,12 +120,12 @@ atc_parking_codes=AZA
 ui_manufacturer=FAIB
 ui_type=Airbus A321-100
 ui_variation=Alitalia I-BIXP 'Carlo Morelli' (1970 colours)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_aza_oc_fsx.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Austrian Airlines Airbus A321-100 - IC
@@ -138,12 +138,12 @@ atc_parking_codes=AUA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-100
 ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Austrian FSX.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Austrian Airlines Airbus A321-100 - IC my Austrian
@@ -156,12 +156,12 @@ atc_parking_codes=AUA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-100
 ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Austrian FSX.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Swiss Airbus A321-100
@@ -174,12 +174,12 @@ atc_parking_codes=SWR
 ui_manufacturer=Airbus
 ui_type=Airbus A321-100
 ui_variation=SWISS
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_swr_a321_p3d.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Swiss Airbus A321-100 - unnamed
@@ -192,9 +192,9 @@ atc_parking_codes=SWR
 ui_manufacturer=Airbus
 ui_type=Airbus A321-100
 ui_variation=SWISS
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_swr_a321_p3d.zip
 description=FAIB_A321-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
-ui_typerole=Commercial Airliner

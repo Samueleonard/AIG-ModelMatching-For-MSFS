@@ -43,12 +43,12 @@ atc_parking_codes=ARG
 ui_manufacturer=AI Aardvark
 ui_type=Boeing 737 MAX 8
 ui_variation=Aerolineas Argentinas S.A.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: AIA B738 MAX Aerolineas Argentinas.zip
 description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Boeing 737 MAX 8
@@ -61,12 +61,12 @@ atc_parking_codes=CCA
 ui_manufacturer=AI Aardvark
 ui_type=Boeing 737 MAX 8
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: AIA B738 MAX Air China.zip
 description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_American Airlines Boeing 737 MAX 8
@@ -79,271 +79,14 @@ atc_parking_codes=AAL
 ui_manufacturer=AI Aardvark
 ui_type=Boeing 737 MAX 8
 ui_variation=American Airlines, Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: AIA B737 MAX8 American Airlines.zip
 description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
-title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8
-model=GLO-GOL Transportes Aereos
-texture=GLO-GOL Transportes Aereos
-atc_id=PR-XMD
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737 MAX 8
-ui_variation=GOL Transportes Aereos
-ui_createdby=Provided by: FSAI Filename: aia_gol_boeing737max8.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-ui_typerole=Commercial Airliner
-
-[fltsim.4]
-title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8 - IC
-model=GLO-GOL Transportes Aereos_IC
-texture=GLO-GOL Transportes Aereos_IC
-atc_id=PR-XMA
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737 MAX 8
-ui_variation=GOL Transportes Aereos
-ui_createdby=Provided by: FSAI Filename: aia_gol_boeing737max8.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-ui_typerole=Commercial Airliner
-
-[fltsim.5]
-title=AIGAIM_Hainan Airlines Boeing 737 MAX 8 - Old HNA Logo
-model=CHH-Hainan Airlines_Old HNA Logo
-texture=CHH-Hainan Airlines_Old HNA Logo
-atc_id=B-1389
-atc_airline=HAINAN
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Hainan Airlines
-ui_createdby=Provided by: JB Filename: AIA B737 MAX 8 Hainan Airlines.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-ui_typerole=Commercial Airliner
-
-[fltsim.6]
-title=AIGAIM_Southwest Airlines Boeing 737 MAX 8
-model=SWA-Southwest Airlines
-texture=SWA-Southwest Airlines
-atc_id=N306RC
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Southwest Airlines Co.
-ui_createdby=Provided by: JB Filename: AIA B737 MAX8 Southwest.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-ui_typerole=Commercial Airliner
-
-[fltsim.7]
-title=AIGAIM_TUI fly Belgium Boeing 737 MAX 8
-model=JAF-TUI fly Belgium
-texture=JAF-TUI fly Belgium
-atc_id=OO-MAX
-atc_airline=BEAUTY
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAF
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=TUI Airlines Belgium S.A./N.V.
-ui_createdby=Provided by: JB Filename: AIA B738 MAX TUIfly Belgium.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAF
-ui_typerole=Commercial Airliner
-
-[fltsim.8]
-title=AIGAIM_United Airlines Boeing 737 MAX 8
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N27251
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=United Continental Holdings Inc.
-ui_createdby=Provided by: JB Filename: AIA B737 MAX8 United.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-ui_typerole=Commercial Airliner
-
-[fltsim.9]
-title=AIGAIM_Lion Air Boeing 737 MAX 8
-model=LNI-Lion Air
-texture=LNI-Lion Air
-atc_id=PK-LQG
-atc_airline=LION INTER
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LNI
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=PT Lion Mentari Airlines
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Lion Air.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LNI
-ui_typerole=Commercial Airliner
-
-[fltsim.10]
-title=AIGAIM_Lion Air Boeing 737 MAX 8 - Batik Hybrid
-model=LNI-Lion Air_Batik Hybrid
-texture=LNI-Lion Air_Batik Hybrid
-atc_id=PK-LQK
-atc_airline=LION INTER
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LNI
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=PT Lion Mentari Airlines
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Lion Air.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LNI
-ui_typerole=Commercial Airliner
-
-[fltsim.11]
-title=AIGAIM_Mauritania Airlines International Boeing 737 MAX 8 - 1st 737 Max
-model=MAI-Mauritania Airlines International_1st 737 Max
-texture=MAI-Mauritania Airlines International_1st 737 Max
-atc_id=2T-CLJ
-atc_airline=MAURITANIA AIRWAYS
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MAI
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Mauritania Airlines
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Mauritania.zip
-description=AIA_B737-MAX8-Sat_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MAI
-ui_typerole=Commercial Airliner
-
-[fltsim.12]
-title=AIGAIM_Kunming Airlines Boeing 737 MAX 8
-model=KNA-Kunming Airlines
-texture=KNA-Kunming Airlines
-atc_id=B-206Y
-atc_airline=KUNMING AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KNA
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Kunming Airlines
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Kunming.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KNA
-ui_typerole=Commercial Airliner
-
-[fltsim.13]
-title=AIGAIM_Shandong Airlines Boeing 737 MAX 8
-model=CDG-Shandong Airlines
-texture=CDG-Shandong Airlines
-atc_id=B-1120
-atc_airline=SHANDONG
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CDG
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737 MAX 8
-ui_variation=Shandong Airlines - B-1120
-ui_createdby=Provided by: JB Filename: ai7m8cdg.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CDG
-ui_typerole=Commercial Airliner
-
-[fltsim.14]
-title=AIGAIM_Shandong Airlines Boeing 737 MAX 8 - Guomei Liquor
-model=CDG-Shandong Airlines_Guomei Liquor
-texture=CDG-Shandong Airlines_Guomei Liquor
-atc_id=B-1275
-atc_airline=SHANDONG
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CDG
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737 MAX 8
-ui_variation=Shandong Airlines - B-1275
-ui_createdby=Provided by: JB Filename: ai7m8cdg.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CDG
-ui_typerole=Commercial Airliner
-
-[fltsim.15]
-title=AIGAIM_Shenzhen Airlines Boeing 737 MAX 8
-model=CSZ-Shenzhen Airlines
-texture=CSZ-Shenzhen Airlines
-atc_id=B-1146
-atc_airline=SHENZHEN AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSZ
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Shenzhen Airlines
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Shenzhen.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSZ
-ui_typerole=Commercial Airliner
-
-[fltsim.16]
-title=AIGAIM_Turkish Airlines Boeing 737 MAX 8
-model=THY-Turkish Airlines
-texture=THY-Turkish Airlines
-atc_id=TC-LCA
-atc_airline=TURKISH
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 8
-ui_variation=Türk Hava Yollari
-ui_createdby=Provided by: JB Filename: AIA B738 MAX Turkish.zip
-description=AIA_B737-MAX8-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-ui_typerole=Commercial Airliner
-
-[fltsim.17]
 title=AIGAIM_Corendon Airlines Boeing 737 MAX 8
 model=CAI-Corendon Airlines
 texture=CAI-Corendon Airlines
@@ -361,7 +104,209 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.18]
+[fltsim.4]
+title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8
+model=GLO-GOL Transportes Aereos
+texture=GLO-GOL Transportes Aereos
+atc_id=PR-XMD
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737 MAX 8
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aia_gol_boeing737max8.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.5]
+title=AIGAIM_GOL Transportes Aereos Boeing 737 MAX 8 - IC
+model=GLO-GOL Transportes Aereos_IC
+texture=GLO-GOL Transportes Aereos_IC
+atc_id=PR-XMA
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737 MAX 8
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aia_gol_boeing737max8.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.6]
+title=AIGAIM_Hainan Airlines Boeing 737 MAX 8 - Old HNA Logo
+model=CHH-Hainan Airlines_Old HNA Logo
+texture=CHH-Hainan Airlines_Old HNA Logo
+atc_id=B-1389
+atc_airline=HAINAN
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Hainan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX 8 Hainan Airlines.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.7]
+title=AIGAIM_Kunming Airlines Boeing 737 MAX 8
+model=KNA-Kunming Airlines
+texture=KNA-Kunming Airlines
+atc_id=B-206Y
+atc_airline=KUNMING AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KNA
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Kunming Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Kunming.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KNA
+
+[fltsim.8]
+title=AIGAIM_Lion Air Boeing 737 MAX 8
+model=LNI-Lion Air
+texture=LNI-Lion Air
+atc_id=PK-LQG
+atc_airline=LION INTER
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=PT Lion Mentari Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Lion Air.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.9]
+title=AIGAIM_Lion Air Boeing 737 MAX 8 - Batik Hybrid
+model=LNI-Lion Air_Batik Hybrid
+texture=LNI-Lion Air_Batik Hybrid
+atc_id=PK-LQK
+atc_airline=LION INTER
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=PT Lion Mentari Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Lion Air.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.10]
+title=AIGAIM_Mauritania Airlines International Boeing 737 MAX 8 - 1st 737 Max
+model=MAI-Mauritania Airlines International_1st 737 Max
+texture=MAI-Mauritania Airlines International_1st 737 Max
+atc_id=2T-CLJ
+atc_airline=MAURITANIA AIRWAYS
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAI
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Mauritania Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Mauritania.zip
+description=AIA_B737-MAX8-Sat_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAI
+
+[fltsim.11]
+title=AIGAIM_Shandong Airlines Boeing 737 MAX 8
+model=CDG-Shandong Airlines
+texture=CDG-Shandong Airlines
+atc_id=B-1120
+atc_airline=SHANDONG
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CDG
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737 MAX 8
+ui_variation=Shandong Airlines - B-1120
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai7m8cdg.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CDG
+
+[fltsim.12]
+title=AIGAIM_Shandong Airlines Boeing 737 MAX 8 - Guomei Liquor
+model=CDG-Shandong Airlines_Guomei Liquor
+texture=CDG-Shandong Airlines_Guomei Liquor
+atc_id=B-1275
+atc_airline=SHANDONG
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CDG
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737 MAX 8
+ui_variation=Shandong Airlines - B-1275
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai7m8cdg.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CDG
+
+[fltsim.13]
+title=AIGAIM_Shenzhen Airlines Boeing 737 MAX 8
+model=CSZ-Shenzhen Airlines
+texture=CSZ-Shenzhen Airlines
+atc_id=B-1146
+atc_airline=SHENZHEN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSZ
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Shenzhen Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Shenzhen.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSZ
+
+[fltsim.14]
+title=AIGAIM_Southwest Airlines Boeing 737 MAX 8
+model=SWA-Southwest Airlines
+texture=SWA-Southwest Airlines
+atc_id=N306RC
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Southwest Airlines Co.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX8 Southwest.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.15]
 title=AIGAIM_TUIfly Boeing 737 MAX 8
 model=TUI-TUIfly
 texture=TUI-TUIfly
@@ -378,3 +323,58 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
+
+[fltsim.16]
+title=AIGAIM_TUI fly Belgium Boeing 737 MAX 8
+model=JAF-TUI fly Belgium
+texture=JAF-TUI fly Belgium
+atc_id=OO-MAX
+atc_airline=BEAUTY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAF
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=TUI Airlines Belgium S.A./N.V.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX TUIfly Belgium.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAF
+
+[fltsim.17]
+title=AIGAIM_Turkish Airlines Boeing 737 MAX 8
+model=THY-Turkish Airlines
+texture=THY-Turkish Airlines
+atc_id=TC-LCA
+atc_airline=TURKISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Turkish.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.18]
+title=AIGAIM_United Airlines Boeing 737 MAX 8
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N27251
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=United Continental Holdings Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX8 United.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL

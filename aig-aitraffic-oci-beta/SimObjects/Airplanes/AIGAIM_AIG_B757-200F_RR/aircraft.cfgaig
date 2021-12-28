@@ -65,12 +65,12 @@ atc_parking_codes=BCS
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200F
 ui_variation=DHL Air G-DHKX
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
 description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Icelandair Cargo Boeing 757-200F
@@ -84,13 +84,13 @@ atc_parking_codes=ICEC
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200F
 ui_variation=Icelandair Cargo TF-FIG
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_752_ICEC_FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICEC
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_UPS Airlines Boeing 757-200F - RR
@@ -104,12 +104,12 @@ atc_parking_codes=UPS
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200F
 ui_variation=UPS United Parcel Service RR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: brw_b752_ups_FSX.zip
 description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_UPS Airlines Boeing 757-200F - RR Old Titles
@@ -123,10 +123,10 @@ atc_parking_codes=UPS
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200F
 ui_variation=United Parcel Service RR
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: aig_752_ups.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
-ui_typerole=Commercial Airliner

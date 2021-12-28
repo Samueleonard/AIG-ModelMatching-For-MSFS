@@ -41,12 +41,12 @@ atc_parking_codes=GA4J
 ui_manufacturer=Raven FS Labs (RFSL)
 ui_type=Bombardier Challenger 870
 ui_variation=Dow Chemical
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: rai_dow_crj7_p3d.zip
 description=RFSL_Challenger870(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Dow Chemical Bombardier Challenger 870 - N872DC
@@ -58,9 +58,9 @@ atc_parking_codes=GA4J
 ui_manufacturer=Raven FS Labs (RFSL)
 ui_type=Bombardier Challenger 870
 ui_variation=Dow Chemical
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: rai_dow_crj7_p3d.zip
 description=RFSL_Challenger870(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-ui_typerole=Commercial Airliner

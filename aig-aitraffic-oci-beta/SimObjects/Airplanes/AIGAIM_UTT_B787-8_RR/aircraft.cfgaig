@@ -71,12 +71,12 @@ atc_parking_codes=AEA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=Air Europa Líneas Aéreas, S.A.U.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: UTT B787-8 Air Europa.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air Europa Boeing 787-8 - Scholas
@@ -90,12 +90,12 @@ atc_parking_codes=AEA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=Air Europa Líneas Aéreas, S.A.U.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: UTT B787-8 Air Europa.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Europa Boeing 787-8 - Julio Iglesias
@@ -109,12 +109,12 @@ atc_parking_codes=AEA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=Air Europa Líneas Aéreas, S.A.U.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: UTT B787-8 Air Europa.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Europa Boeing 787-8 - Desde 1218
@@ -128,12 +128,12 @@ atc_parking_codes=AEA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=Air Europa Líneas Aéreas, S.A.U.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: UTT B787-8 Air Europa.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_All Nippon Airways Boeing 787-8
@@ -147,12 +147,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - 787
@@ -166,12 +166,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan
@@ -185,12 +185,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan No Dome
@@ -204,12 +204,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan 787 No Dome
@@ -223,12 +223,12 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_All Nippon Airways Boeing 787-8 - Air Japan 787 Tomo Dachi
@@ -242,277 +242,14 @@ atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-8
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B788 ANA.zip
 description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
-title=AIGAIM_British Airways Boeing 787-8
-model=BAW-British Airways
-texture=BAW-British Airways
-atc_airline=SPEED BIRD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BAW,BA5
-ui_manufacturer=Boeing UTT
-ui_type=Boeing 787-8
-ui_variation=British Airways
-ui_createdby=Provided by: JB Filename: BritishAirwaysB787FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BAW
-ui_typerole=Commercial Airliner
-
-[fltsim.11]
-title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATG Yeha Star Alliance
-model=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
-texture=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
-atc_id=ET-ATG
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Ethiopian Airlines
-ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-ui_typerole=Commercial Airliner
-
-[fltsim.12]
-title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATH Rio de Janeiro
-model=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
-texture=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
-atc_id=ET-ATH
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Ethiopian Airlines
-ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-ui_typerole=Commercial Airliner
-
-[fltsim.13]
-title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATJ Dallol
-model=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
-texture=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
-atc_id=ET-ATJ
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Ethiopian Airlines
-ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-ui_typerole=Commercial Airliner
-
-[fltsim.14]
-title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATL Colonel Robinson
-model=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
-texture=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
-atc_id=ET-ATL
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Ethiopian Airlines
-ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-ui_typerole=Commercial Airliner
-
-[fltsim.15]
-title=AIGAIM_Thai Airways Boeing 787-8 - Wifi Dome
-model=THA-Thai Airways_Wifi Dome
-texture=THA-Thai Airways_Wifi Dome
-atc_id=HS-TQA
-atc_airline=THAI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Thai Airways International Public Company Limited
-ui_createdby=Provided by: JB Filename: UTT B788 Thai Airways.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THA
-ui_typerole=Commercial Airliner
-
-[fltsim.16]
-title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC Large Titles (TEMP)
-model=LAN-LATAM Airlines Chile_OC Large Titles_temp
-texture=LAN-LATAM Airlines Chile_OC Large Titles_temp
-atc_airline=LAN CHILE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=LAN Airlines CC-BBB
-ui_createdby=Provided by: UTT Filename: utt_787_LAN_fsx.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.17]
-title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC First 787 in America
-model=LAN-LATAM Airlines Chile_OC First 787 in America
-texture=LAN-LATAM Airlines Chile_OC First 787 in America
-atc_airline=LAN CHILE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=LAN Airlines CC-BBA
-ui_createdby=Provided by: UTT Filename: utt_787_LAN_fsx.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.18]
-title=AIGAIM_LOT Polish Airlines Boeing 787-8
-model=LOT-LOT Polish Airlines
-texture=LOT-LOT Polish Airlines
-atc_id=SP-LRA
-atc_airline=LOT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Polskie Linie Lotnicze LOT S.A.
-ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-ui_typerole=Commercial Airliner
-
-[fltsim.19]
-title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Cichociemni
-model=LOT-LOT Polish Airlines_Cichociemni
-texture=LOT-LOT Polish Airlines_Cichociemni
-atc_id=SP-LRG
-atc_airline=LOT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Polskie Linie Lotnicze LOT S.A.
-ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-ui_typerole=Commercial Airliner
-
-[fltsim.20]
-title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Franek
-model=LOT-LOT Polish Airlines_Franek
-texture=LOT-LOT Polish Airlines_Franek
-atc_id=SP-LRF
-atc_airline=LOT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Polskie Linie Lotnicze LOT S.A.
-ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-ui_typerole=Commercial Airliner
-
-[fltsim.21]
-title=AIGAIM_Royal Brunei Airlines Boeing 787-8
-model=RBA-Royal Brunei
-texture=RBA-Royal Brunei
-atc_id=V8-DLA
-atc_airline=BRUNEI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=RBA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Royal Brunei Airlines Sdn Bhd
-ui_createdby=Provided by: JB Filename: B787-8 Royal Brunei FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RBA
-ui_typerole=Commercial Airliner
-
-[fltsim.22]
-title=AIGAIM_Royal Brunei Airlines Boeing 787-8 - 40th anniversary
-model=RBA-Royal Brunei_40th anniversary
-texture=RBA-Royal Brunei_40th anniversary
-atc_id=V8-DLD
-atc_airline=BRUNEI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=RBA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Royal Brunei Airlines Sdn Bhd
-ui_createdby=Provided by: JB Filename: B787-8 Royal Brunei FSX.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RBA
-ui_typerole=Commercial Airliner
-
-[fltsim.23]
-title=AIGAIM_Scoot Boeing 787-8
-model=TGW-Scoot
-texture=TGW-Scoot
-atc_id=9V-OJA
-atc_airline=SCOOTER
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TGW
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=Scoot Tigerair Pte. Ltd.
-ui_createdby=Provided by: JB Filename: UTT B788 Scoot.zip
-description=UTT_B787-8_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TGW
-ui_typerole=Commercial Airliner
-
-[fltsim.24]
 title=AIGAIM_Avianca Boeing 787-8
 model=AVA-Avianca
 texture=AVA-Avianca
@@ -531,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.25]
+[fltsim.11]
 title=AIGAIM_Avianca Boeing 787-8 - WiFi Dome
 model=AVA-Avianca_WiFi Dome
 texture=AVA-Avianca_WiFi Dome
@@ -550,7 +287,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.26]
+[fltsim.12]
 title=AIGAIM_Avianca Boeing 787-8 - #ViajeDeEsperanza
 model=AVA-Avianca_#ViajeDeEsperanza
 texture=AVA-Avianca_#ViajeDeEsperanza
@@ -568,3 +305,266 @@ description=UTT_B787-8_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
+
+[fltsim.13]
+title=AIGAIM_British Airways Boeing 787-8
+model=BAW-British Airways
+texture=BAW-British Airways
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=Boeing UTT
+ui_type=Boeing 787-8
+ui_variation=British Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: BritishAirwaysB787FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.14]
+title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATG Yeha Star Alliance
+model=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
+texture=ETH-Ethiopian Airlines_RR ET-ATG Yeha Star Alliance
+atc_id=ET-ATG
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.15]
+title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATH Rio de Janeiro
+model=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
+texture=ETH-Ethiopian Airlines_RR ET-ATH Rio de Janeiro
+atc_id=ET-ATH
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.16]
+title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATJ Dallol
+model=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
+texture=ETH-Ethiopian Airlines_RR ET-ATJ Dallol
+atc_id=ET-ATJ
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.17]
+title=AIGAIM_Ethiopian Airlines Boeing 787-8 - RR ET-ATL Colonel Robinson
+model=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
+texture=ETH-Ethiopian Airlines_RR ET-ATL Colonel Robinson
+atc_id=ET-ATL
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Ethiopian Airlines FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.18]
+title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC Large Titles (TEMP)
+model=LAN-LATAM Airlines Chile_OC Large Titles_temp
+texture=LAN-LATAM Airlines Chile_OC Large Titles_temp
+atc_airline=LAN CHILE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=LAN Airlines CC-BBB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: UTT Filename: utt_787_LAN_fsx.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.19]
+title=AIGAIM_LATAM Airlines Chile Boeing 787-8 - OC First 787 in America
+model=LAN-LATAM Airlines Chile_OC First 787 in America
+texture=LAN-LATAM Airlines Chile_OC First 787 in America
+atc_airline=LAN CHILE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=LAN Airlines CC-BBA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: UTT Filename: utt_787_LAN_fsx.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.20]
+title=AIGAIM_LOT Polish Airlines Boeing 787-8
+model=LOT-LOT Polish Airlines
+texture=LOT-LOT Polish Airlines
+atc_id=SP-LRA
+atc_airline=LOT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Polskie Linie Lotnicze LOT S.A.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.21]
+title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Cichociemni
+model=LOT-LOT Polish Airlines_Cichociemni
+texture=LOT-LOT Polish Airlines_Cichociemni
+atc_id=SP-LRG
+atc_airline=LOT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Polskie Linie Lotnicze LOT S.A.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.22]
+title=AIGAIM_LOT Polish Airlines Boeing 787-8 - Franek
+model=LOT-LOT Polish Airlines_Franek
+texture=LOT-LOT Polish Airlines_Franek
+atc_id=SP-LRF
+atc_airline=LOT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Polskie Linie Lotnicze LOT S.A.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B788 LOT.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.23]
+title=AIGAIM_Royal Brunei Airlines Boeing 787-8
+model=RBA-Royal Brunei
+texture=RBA-Royal Brunei
+atc_id=V8-DLA
+atc_airline=BRUNEI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RBA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Royal Brunei Airlines Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Royal Brunei FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RBA
+
+[fltsim.24]
+title=AIGAIM_Royal Brunei Airlines Boeing 787-8 - 40th anniversary
+model=RBA-Royal Brunei_40th anniversary
+texture=RBA-Royal Brunei_40th anniversary
+atc_id=V8-DLD
+atc_airline=BRUNEI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RBA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Royal Brunei Airlines Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B787-8 Royal Brunei FSX.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RBA
+
+[fltsim.25]
+title=AIGAIM_Scoot Boeing 787-8
+model=TGW-Scoot
+texture=TGW-Scoot
+atc_id=9V-OJA
+atc_airline=SCOOTER
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TGW
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Scoot Tigerair Pte. Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B788 Scoot.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TGW
+
+[fltsim.26]
+title=AIGAIM_Thai Airways Boeing 787-8 - Wifi Dome
+model=THA-Thai Airways_Wifi Dome
+texture=THA-Thai Airways_Wifi Dome
+atc_id=HS-TQA
+atc_airline=THAI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=Thai Airways International Public Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B788 Thai Airways.zip
+description=UTT_B787-8_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THA

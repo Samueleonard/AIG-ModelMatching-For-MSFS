@@ -33,32 +33,14 @@ atc_parking_codes=GTI
 ui_manufacturer=FAIB
 ui_type=Boeing 747-400ERF
 ui_variation=Atlas Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_gti_b744f_p3d_20-10-1.zip
 description=FAIB_B747-400ERF_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
-title=AIGAIM_Korean Air Cargo Boeing 747-400ERF
-model=KALC-Korean Air Cargo
-texture=KALC-Korean Air Cargo
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=KALC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Korean Air Cargo
-ui_createdby=Provided by: ATCO Filename: faib_744f_kalc.zip
-description=FAIB_B747-400ERF_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KALC
-ui_typerole=Commercial Airliner
-
-[fltsim.2]
 title=AIGAIM_Cathay Pacific Cargo Boeing 747-400ERF
 model=CPAC-Cathay Pacific Cargo
 texture=CPAC-Cathay Pacific Cargo
@@ -70,9 +52,27 @@ atc_parking_codes=CPAC
 ui_manufacturer=FAIB
 ui_type=Boeing 747-400F
 ui_variation=Cathay Pacific Cargo
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_cpa_boeing_744f.zip
 description=FAIB_B747-400ERF_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPAC
+
+[fltsim.2]
+title=AIGAIM_Korean Air Cargo Boeing 747-400ERF
+model=KALC-Korean Air Cargo
+texture=KALC-Korean Air Cargo
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=KALC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Korean Air Cargo
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744f_kalc.zip
+description=FAIB_B747-400ERF_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KALC

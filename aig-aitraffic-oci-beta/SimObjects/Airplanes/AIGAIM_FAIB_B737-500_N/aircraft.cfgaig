@@ -31,6 +31,9 @@ small_pushback=0
 marshaller=1
 jetway=1
 
+[EFFECTS]
+touchdown=fx_tchdwn_m, 1
+
 [fltsim.0]
 title=AIGAIM_AirBaltic Boeing 737-500
 model=BTI-AirBaltic
@@ -42,12 +45,12 @@ atc_parking_codes=BTI
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=A/S Air Baltic Corporation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B735 airBaltic FSX.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTI
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Belavia Boeing 737-500 (TEMP)
@@ -60,6 +63,7 @@ atc_parking_codes=BRU
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Belavia EW-252PA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: UTT_FAIB_B737-500_Belavia_EW-252PA_FSX.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
@@ -77,12 +81,12 @@ atc_parking_codes=BRU
 ui_manufacturer=FAIB
 ui_type=Boeing 737-500
 ui_variation=Belavia EW-250PA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: UTT_FAIB_B737-500_Belavia_EW-250PA_FSX.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Chilean Air Force Boeing 737-500 - 921
@@ -94,12 +98,12 @@ atc_parking_codes=GOV
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=Fuerza Aerea de Chile (Chile Air Force)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB B735 Fuerza Aerea de Chile FSX.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_SCAT Airlines Boeing 737-500
@@ -112,12 +116,12 @@ atc_parking_codes=VSV
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=VSV SCAT Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_vsv_boeing_735.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_SCAT Airlines Boeing 737-500 - OC
@@ -130,12 +134,12 @@ atc_parking_codes=VSV
 ui_manufacturer=Boeing
 ui_type=Boeing 737-500
 ui_variation=SCAT LY-AZV
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB 737-500 SCAT FSX.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Sepehran Airlines Boeing 737-500
@@ -145,12 +149,9 @@ atc_airline=SHIRAZI
 atc_parking_types=RAMP,GATE
 atc_parking_codes=SHI
 ui_type=Boeing 737-500
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: Sepehran_FAIB_735.zip
 description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHI
-ui_typerole=Commercial Airliner
-
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1

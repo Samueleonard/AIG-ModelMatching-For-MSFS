@@ -48,12 +48,12 @@ atc_parking_codes=AFL
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Aeroflot VP-BAZ 'Y.Levitan'
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321sl_afl_fsx.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFL
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Aeroflot Airbus A321-200SL - 95th Aniversary
@@ -66,12 +66,12 @@ atc_parking_codes=AFL
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Aeroflot VP-BEE 'Y. Lyubimov' 95 years logojet
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321sl_afl_95let.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFL
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Airblue Airbus A321-200SL
@@ -84,12 +84,12 @@ atc_parking_codes=ABQ
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Airblue
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_abq_fsx.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABQ
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Canada Rouge Airbus A321-200SL - large AC titles
@@ -101,12 +101,12 @@ atc_parking_codes=ROU
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Canada Rouge - Large Titles Wifi Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_rou_2020-2.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROU
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air Canada Rouge Airbus A321-200SL - small AC titles
@@ -118,12 +118,12 @@ atc_parking_codes=ROU
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Canada Rouge - Small Titles Wifi Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_rou_2020-2.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROU
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_Air China Airbus A321-200SL - CFM
@@ -135,12 +135,12 @@ atc_parking_codes=CCA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Air China
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a321s_cca_cfm.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Air China Airbus A321-200SL - CFM No Flag
@@ -153,12 +153,12 @@ atc_parking_codes=CCA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Air China.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Air Transat Airbus A321-200SL - Chevrons Blue belly blue engines
@@ -170,12 +170,12 @@ atc_parking_codes=TSC
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Transat - Blue Thomas Cook Lease Chevrons Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_update2020-1.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Air Transat Airbus A321-200SL - Chevrons Yellow Engines
@@ -187,12 +187,12 @@ atc_parking_codes=TSC
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Transat - C-GTXY Yellow Engines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_2018.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_Air Travel Airbus A321-200SL - OC B-8285
@@ -204,12 +204,12 @@ atc_parking_codes=OTC
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Hongtu Airlines A321-200WL "Dai Ethnic"
-ui_createdby=Provided by: JCAI Filename: FAIB_Hongtu_A321X2_FSX.zip
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Hongtu_A321X2_FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OTC
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_Air Travel Airbus A321-200SL - OC B-8318
@@ -221,12 +221,12 @@ atc_parking_codes=OTC
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Hongtu Airlines A321-200WL "Li Su Ethnic"
-ui_createdby=Provided by: JCAI Filename: FAIB_Hongtu_A321X2_FSX.zip
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Hongtu_A321X2_FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OTC
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_All Nippon Airways Airbus A321-200SL
@@ -239,12 +239,12 @@ atc_parking_codes=ANA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 ANA SL FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_Avianca Airbus A321-200SL - CFM
@@ -257,12 +257,12 @@ atc_parking_codes=AVA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Avianca Colombia FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_Cebu Pacific Airbus A321-200SL
@@ -275,12 +275,12 @@ atc_parking_codes=CEB
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Cebu Air, Inc.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Cebu.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEB
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_China Eastern Airlines Airbus A321-200SL - CFM
@@ -293,12 +293,12 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Eastern CFM SL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200 China Eastern FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_China Eastern Airlines Airbus A321-200SL - CFM Skyteam
@@ -311,12 +311,12 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Eastern CFM SL
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200 China Eastern FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_China Southern Airlines Airbus A321-200SL - CFM
@@ -329,976 +329,14 @@ atc_parking_codes=CSN
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Southern SL CFM
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321-200SL CFM China Southern FSX.zip
 description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
-title=AIGAIM_EVA Air Airbus A321-200SL
-model=EVA-EVA Air
-texture=EVA-EVA Air
-atc_id=B-16221
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=EVA Airways Corporation
-ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.18]
-title=AIGAIM_EVA Air Airbus A321-200SL - OC
-model=EVA-EVA Air_OC
-texture=EVA-EVA Air_OC
-atc_id=B-16207
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=EVA Airways Corporation
-ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.19]
-title=AIGAIM_EVA Air Airbus A321-200SL - Star Alliance
-model=EVA-EVA Air_Star Alliance
-texture=EVA-EVA Air_Star Alliance
-atc_id=B-16206
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=EVA Airways Corporation
-ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.20]
-title=AIGAIM_EVA Air Airbus A321-200SL - B-16206 Gudetama
-model=EVA-EVA Air_B-16206 Gudetama
-texture=EVA-EVA Air_B-16206 Gudetama
-atc_id=B-16205
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=EVA Airways Corporation
-ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.21]
-title=AIGAIM_EVA Air Airbus A321-200SL - B-16207 Hello Kitty
-model=EVA-EVA Air_B-16207 Hello Kitty
-texture=EVA-EVA Air_B-16207 Hello Kitty
-atc_id=B-16207
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=EVA Airways Corporation
-ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.22]
-title=AIGAIM_EVA Air Airbus A321-200SL - opb Uni Air
-model=EVA-EVA Air_opb Uni Air
-texture=EVA-EVA Air_opb Uni Air
-atc_id=B-16209
-atc_airline=EVA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA,UIA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=UNI Air
-ui_createdby=Provided by: JB Filename: FAIB A321 UNI Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-ui_typerole=Commercial Airliner
-
-[fltsim.23]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N701FR Otto the Owl
-model=FFT-Frontier Airlines_N701FR Otto the Owl
-texture=FFT-Frontier Airlines_N701FR Otto the Owl
-atc_id=N701FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.24]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N702FR Courtney the Couger
-model=FFT-Frontier Airlines_N702FR Courtney the Couger
-texture=FFT-Frontier Airlines_N702FR Courtney the Couger
-atc_id=N702FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.25]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N704FR Virginia the Wolf
-model=FFT-Frontier Airlines_N704FR Virginia the Wolf
-texture=FFT-Frontier Airlines_N704FR Virginia the Wolf
-atc_id=N704FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.26]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N705FR Ferndale the Pygmy Owl
-model=FFT-Frontier Airlines_N705FR Ferndale the Pygmy Owl
-texture=FFT-Frontier Airlines_N705FR Ferndale the Pygmy Owl
-atc_id=N705FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.27]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N706FR Max the Lynx
-model=FFT-Frontier Airlines_N706FR Max the Lynx
-texture=FFT-Frontier Airlines_N706FR Max the Lynx
-atc_id=N706FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.28]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N708FR Joe Bob the Badger
-model=FFT-Frontier Airlines_N708FR Joe Bob the Badger
-texture=FFT-Frontier Airlines_N708FR Joe Bob the Badger
-atc_id=N708FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.29]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N709FR Steve the Eagle
-model=FFT-Frontier Airlines_N709FR Steve the Eagle
-texture=FFT-Frontier Airlines_N709FR Steve the Eagle
-atc_id=N709FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.30]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N710FR Fallon the Falcon
-model=FFT-Frontier Airlines_N710FR Fallon the Falcon
-texture=FFT-Frontier Airlines_N710FR Fallon the Falcon
-atc_id=N710FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.31]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N711FR Powder the Polar Bear
-model=FFT-Frontier Airlines_N711FR Powder the Polar Bear
-texture=FFT-Frontier Airlines_N711FR Powder the Polar Bear
-atc_id=N711FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.32]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N712FR Spot the Jaguar
-model=FFT-Frontier Airlines_N712FR Spot the Jaguar
-texture=FFT-Frontier Airlines_N712FR Spot the Jaguar
-atc_id=N712FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.33]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N713FR Mitch the Wolverine
-model=FFT-Frontier Airlines_N713FR Mitch the Wolverine
-texture=FFT-Frontier Airlines_N713FR Mitch the Wolverine
-atc_id=N713FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.34]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N714FR Cubby the Bear
-model=FFT-Frontier Airlines_N714FR Cubby the Bear
-texture=FFT-Frontier Airlines_N714FR Cubby the Bear
-atc_id=N714FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.35]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N715FR Cactus the Coyote
-model=FFT-Frontier Airlines_N715FR Cactus the Coyote
-texture=FFT-Frontier Airlines_N715FR Cactus the Coyote
-atc_id=N715FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.36]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N716FR Seymour the Walrus
-model=FFT-Frontier Airlines_N716FR Seymour the Walrus
-texture=FFT-Frontier Airlines_N716FR Seymour the Walrus
-atc_id=N716FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.37]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N717FR Luna & Lilly the Wolves
-model=FFT-Frontier Airlines_N717FR Luna & Lilly the Wolves
-texture=FFT-Frontier Airlines_N717FR Luna & Lilly the Wolves
-atc_id=N717FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.38]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N718FR Cali the Mountain Lion
-model=FFT-Frontier Airlines_N718FR Cali the Mountain Lion
-texture=FFT-Frontier Airlines_N718FR Cali the Mountain Lion
-atc_id=N718FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.39]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N719FR Midnight the Wolf
-model=FFT-Frontier Airlines_N719FR Midnight the Wolf
-texture=FFT-Frontier Airlines_N719FR Midnight the Wolf
-atc_id=N719FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.40]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N720FR Crockett the Raccoon
-model=FFT-Frontier Airlines_N720FR Crockett the Raccoon
-texture=FFT-Frontier Airlines_N720FR Crockett the Raccoon
-atc_id=N720FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.41]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N721FR Cody & Dakota the Coyotes
-model=FFT-Frontier Airlines_N721FR Cody & Dakota the Coyotes
-texture=FFT-Frontier Airlines_N721FR Cody & Dakota the Coyotes
-atc_id=N721FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.42]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N722FR Xavier the Mountain Goat
-model=FFT-Frontier Airlines_N722FR Xavier the Mountain Goat
-texture=FFT-Frontier Airlines_N722FR Xavier the Mountain Goat
-atc_id=N722FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.43]
-title=AIGAIM_Frontier Airlines Airbus A321-200SL - N723FR Gordon The Golden Eagle
-model=FFT-Frontier Airlines_N723FR Gordon The Golden Eagle
-texture=FFT-Frontier Airlines_N723FR Gordon The Golden Eagle
-atc_id=N723FR
-atc_airline=FRONTIER FLIGHT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFT
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Frontier Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFT
-ui_typerole=Commercial Airliner
-
-[fltsim.44]
-title=AIGAIM_Iran Air Airbus A321-200SL
-model=IRA-Iran Air
-texture=IRA-Iran Air
-atc_id=EP-IFA
-atc_airline=IRANAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IRA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Iran Air SL
-ui_createdby=Provided by: JB Filename: FAIB A321-200SL CFM Iran Air FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IRA
-ui_typerole=Commercial Airliner
-
-[fltsim.45]
-title=AIGAIM_Juneyao Airlines Airbus A321-200SL
-model=DKH-Juneyao Airlines
-texture=DKH-Juneyao Airlines
-atc_airline=AIR JUNEYAO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Juneyao A321-211
-ui_createdby=Provided by: JCAI Filename: FAIB_Juneyao_A321_FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-ui_typerole=Commercial Airliner
-
-[fltsim.46]
-title=AIGAIM_Juneyao Airlines Airbus A321-200SL - Red SL Root
-model=DKH-Juneyao Airlines_Red SL Root
-texture=DKH-Juneyao Airlines_Red SL Root
-atc_airline=AIR JUNEYAO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Juneyao A321-211WL B-9957 that features all red sharklets
-ui_createdby=Provided by: JCAI Filename: FAIB_Juneyao_A321_FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-ui_typerole=Commercial Airliner
-
-[fltsim.47]
-title=AIGAIM_Juneyao Airlines Airbus A321-200SL - Red Livery
-model=DKH-Juneyao Airlines_Red Livery
-texture=DKH-Juneyao Airlines_Red Livery
-atc_airline=AIR JUNEYAO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Juneyao A321-211WL Red
-ui_createdby=Provided by: JCAI Filename: FAIB_Juneyao_A321_FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-ui_typerole=Commercial Airliner
-
-[fltsim.48]
-title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM
-model=TAM-LATAM Airlines Brasil_CFM
-texture=TAM-LATAM Airlines Brasil_CFM
-atc_airline=TAM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Brasil Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-ui_typerole=Commercial Airliner
-
-[fltsim.49]
-title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM Oneworld
-model=TAM-LATAM Airlines Brasil_CFM Oneworld
-texture=TAM-LATAM Airlines Brasil_CFM Oneworld
-atc_airline=TAM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Brasil - PT-XPB Oneworld Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-ui_typerole=Commercial Airliner
-
-[fltsim.50]
-title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM OC
-model=TAM-LATAM Airlines Brasil_CFM OC
-texture=TAM-LATAM Airlines Brasil_CFM OC
-atc_id=PT-XPF
-atc_airline=TAM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Brazil PT-XPF
-ui_createdby=Provided by: FC75 Filename: LATAM_Airlines_Brazil_A321SL_Fleet_Old_Colors_2016_FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-ui_typerole=Commercial Airliner
-
-[fltsim.51]
-title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL
-model=LAN-LATAM Airlines Chile
-texture=LAN-LATAM Airlines Chile
-atc_airline=LAN CHILE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Chile Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.52]
-title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - Recicla tu viaje
-model=LAN-LATAM Airlines Chile_Recicla tu viaje
-texture=LAN-LATAM Airlines Chile_Recicla tu viaje
-atc_airline=LAN CHILE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Chile - Recicla tu viaje Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_latam_2020-1.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.53]
-title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - 500 Years Magellan
-model=LAN-LATAM Airlines Chile_500 Years Magellan
-texture=LAN-LATAM Airlines Chile_500 Years Magellan
-atc_airline=LAN CHILE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=LATAM Airlines Chile - 500 Anos Magellan Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_latam_2020-1.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.54]
-title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - OC
-model=LAN-LATAM Airlines Chile_OC
-texture=LAN-LATAM Airlines Chile_OC
-atc_id=CC-BEB
-atc_airline=LAN CHILE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=LAN Airlines
-ui_createdby=Provided by: AVSIM Filename: faib_a321s_lan.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-ui_typerole=Commercial Airliner
-
-[fltsim.55]
-title=AIGAIM_Level Airbus A321-200SL - opb Anisec
-model=FOO-Level_opb Anisec
-texture=FOO-Level_opb Anisec
-atc_id=OE-LCN
-atc_airline=AUSTROJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FOO
-ui_manufacturer=FAIB - Airbus
-ui_type=Airbus A321-200SL
-ui_variation=LEVEL
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_LEVEL_Airbus_A321_200_FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FOO
-ui_typerole=Commercial Airliner
-
-[fltsim.56]
-title=AIGAIM_S7 Airlines Airbus A321-200SL - CFM
-model=SBI-S7 Airlines_CFM
-texture=SBI-S7 Airlines_CFM
-atc_airline=SIBERIAN AIRLINES
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SBI
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=S7 Airlines Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a32x_sbi_2020.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SBI
-ui_typerole=Commercial Airliner
-
-[fltsim.57]
-title=AIGAIM_Sichuan Airlines Airbus A321-200SL - CFM
-model=CSC-Sichuan Airlines_CFM
-texture=CSC-Sichuan Airlines_CFM
-atc_id=B-8686
-atc_airline=SI CHUAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSC
-ui_manufacturer=Airbus FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Sichuan Airlines
-ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSC
-ui_typerole=Commercial Airliner
-
-[fltsim.58]
-title=AIGAIM_Sunclass Airlines Airbus A321-200SL
-model=VKG-Sunclass Airlines
-texture=VKG-Sunclass Airlines
-atc_airline=VIKING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VKG
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Sunclass Airlines
-ui_createdby=Provided by: FC75 Filename: faib_sunclassairlines_32b.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VKG
-ui_typerole=Commercial Airliner
-
-[fltsim.59]
-title=AIGAIM_Swiss Airbus A321-200SL
-model=SWR-Swiss
-texture=SWR-Swiss
-atc_id=HB-ION
-atc_airline=SWISS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWR
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Swiss
-ui_createdby=Provided by: KAIW Filename: faib_swr_a321sl_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWR
-ui_typerole=Commercial Airliner
-
-[fltsim.60]
-title=AIGAIM_Swiss Airbus A321-200SL - unnamed
-model=SWR-Swiss_unnamed
-texture=SWR-Swiss_unnamed
-atc_id=HB-IOO
-atc_airline=SWISS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWR
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Swiss
-ui_createdby=Provided by: KAIW Filename: faib_swr_a321sl_p3d.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWR
-ui_typerole=Commercial Airliner
-
-[fltsim.61]
-title=AIGAIM_Thai VietJet Air Airbus A321-200SL
-model=TVJ-Thai VietJet Air
-texture=TVJ-Thai VietJet Air
-atc_id=HS-VKG
-atc_airline=THAIVIET JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVJ
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 ThaiVietJet.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVJ
-ui_typerole=Commercial Airliner
-
-[fltsim.62]
-title=AIGAIM_Thai VietJet Air Airbus A321-200SL - WOW Air Hybrid
-model=TVJ-Thai VietJet Air_WOW Air Hybrid
-texture=TVJ-Thai VietJet Air_WOW Air Hybrid
-atc_id=HS-VKL
-atc_airline=THAIVIET JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVJ
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 ThaiVietJet.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVJ
-ui_typerole=Commercial Airliner
-
-[fltsim.63]
-title=AIGAIM_VietJet Air Airbus A321-200SL
-model=VJC-VietJet Air
-texture=VJC-VietJet Air
-atc_id=VN-A665
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.64]
-title=AIGAIM_VietJet Air Airbus A321-200SL - 45 Years France-Vietnam
-model=VJC-VietJet Air_45 Years France-Vietnam
-texture=VJC-VietJet Air_45 Years France-Vietnam
-atc_id=VN-A657
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.65]
-title=AIGAIM_VietJet Air Airbus A321-200SL - 9000th Airbus
-model=VJC-VietJet Air_9000th Airbus
-texture=VJC-VietJet Air_9000th Airbus
-atc_id=VN-A651
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.66]
-title=AIGAIM_VietJet Air Airbus A321-200SL - Mipec
-model=VJC-VietJet Air_Mipec
-texture=VJC-VietJet Air_Mipec
-atc_id=VN-A673
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.67]
-title=AIGAIM_VietJet Air Airbus A321-200SL - Petrolimex
-model=VJC-VietJet Air_Petrolimex
-texture=VJC-VietJet Air_Petrolimex
-atc_id=VN-A667
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.68]
-title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid
-model=VJC-VietJet Air_Thomas Cook Hybrid
-texture=VJC-VietJet Air_Thomas Cook Hybrid
-atc_id=VN-A541
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.69]
-title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid Condor SL
-model=VJC-VietJet Air_Thomas Cook Hybrid Condor SL
-texture=VJC-VietJet Air_Thomas Cook Hybrid Condor SL
-atc_id=VN-A522
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.70]
-title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid Lower Reg
-model=VJC-VietJet Air_Thomas Cook Hybrid Lower Reg
-texture=VJC-VietJet Air_Thomas Cook Hybrid Lower Reg
-atc_id=VN-A532
-atc_airline=VIETJETAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VJC
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=VietJet Aviation Joint Stock Company
-ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
-description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VJC
-ui_typerole=Commercial Airliner
-
-[fltsim.71]
 title=AIGAIM_Delta Air Lines Airbus A321-200SL
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -1316,7 +354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.72]
+[fltsim.18]
 title=AIGAIM_Delta Air Lines Airbus A321-200SL - Thank You
 model=DAL-Delta Air Lines_Thank You
 texture=DAL-Delta Air Lines_Thank You
@@ -1333,3 +371,965 @@ description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+
+[fltsim.19]
+title=AIGAIM_EVA Air Airbus A321-200SL
+model=EVA-EVA Air
+texture=EVA-EVA Air
+atc_id=B-16221
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.20]
+title=AIGAIM_EVA Air Airbus A321-200SL - OC
+model=EVA-EVA Air_OC
+texture=EVA-EVA Air_OC
+atc_id=B-16207
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.21]
+title=AIGAIM_EVA Air Airbus A321-200SL - Star Alliance
+model=EVA-EVA Air_Star Alliance
+texture=EVA-EVA Air_Star Alliance
+atc_id=B-16206
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.22]
+title=AIGAIM_EVA Air Airbus A321-200SL - B-16206 Gudetama
+model=EVA-EVA Air_B-16206 Gudetama
+texture=EVA-EVA Air_B-16206 Gudetama
+atc_id=B-16205
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.23]
+title=AIGAIM_EVA Air Airbus A321-200SL - B-16207 Hello Kitty
+model=EVA-EVA Air_B-16207 Hello Kitty
+texture=EVA-EVA Air_B-16207 Hello Kitty
+atc_id=B-16207
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.24]
+title=AIGAIM_EVA Air Airbus A321-200SL - opb Uni Air
+model=EVA-EVA Air_opb Uni Air
+texture=EVA-EVA Air_opb Uni Air
+atc_id=B-16209
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=UNI Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 UNI Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.25]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N701FR Otto the Owl
+model=FFT-Frontier Airlines_N701FR Otto the Owl
+texture=FFT-Frontier Airlines_N701FR Otto the Owl
+atc_id=N701FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.26]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N702FR Courtney the Couger
+model=FFT-Frontier Airlines_N702FR Courtney the Couger
+texture=FFT-Frontier Airlines_N702FR Courtney the Couger
+atc_id=N702FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.27]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N704FR Virginia the Wolf
+model=FFT-Frontier Airlines_N704FR Virginia the Wolf
+texture=FFT-Frontier Airlines_N704FR Virginia the Wolf
+atc_id=N704FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.28]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N705FR Ferndale the Pygmy Owl
+model=FFT-Frontier Airlines_N705FR Ferndale the Pygmy Owl
+texture=FFT-Frontier Airlines_N705FR Ferndale the Pygmy Owl
+atc_id=N705FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.29]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N706FR Max the Lynx
+model=FFT-Frontier Airlines_N706FR Max the Lynx
+texture=FFT-Frontier Airlines_N706FR Max the Lynx
+atc_id=N706FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.30]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N708FR Joe Bob the Badger
+model=FFT-Frontier Airlines_N708FR Joe Bob the Badger
+texture=FFT-Frontier Airlines_N708FR Joe Bob the Badger
+atc_id=N708FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.31]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N709FR Steve the Eagle
+model=FFT-Frontier Airlines_N709FR Steve the Eagle
+texture=FFT-Frontier Airlines_N709FR Steve the Eagle
+atc_id=N709FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.32]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N710FR Fallon the Falcon
+model=FFT-Frontier Airlines_N710FR Fallon the Falcon
+texture=FFT-Frontier Airlines_N710FR Fallon the Falcon
+atc_id=N710FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.33]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N711FR Powder the Polar Bear
+model=FFT-Frontier Airlines_N711FR Powder the Polar Bear
+texture=FFT-Frontier Airlines_N711FR Powder the Polar Bear
+atc_id=N711FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.34]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N712FR Spot the Jaguar
+model=FFT-Frontier Airlines_N712FR Spot the Jaguar
+texture=FFT-Frontier Airlines_N712FR Spot the Jaguar
+atc_id=N712FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.35]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N713FR Mitch the Wolverine
+model=FFT-Frontier Airlines_N713FR Mitch the Wolverine
+texture=FFT-Frontier Airlines_N713FR Mitch the Wolverine
+atc_id=N713FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.36]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N714FR Cubby the Bear
+model=FFT-Frontier Airlines_N714FR Cubby the Bear
+texture=FFT-Frontier Airlines_N714FR Cubby the Bear
+atc_id=N714FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.37]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N715FR Cactus the Coyote
+model=FFT-Frontier Airlines_N715FR Cactus the Coyote
+texture=FFT-Frontier Airlines_N715FR Cactus the Coyote
+atc_id=N715FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.38]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N716FR Seymour the Walrus
+model=FFT-Frontier Airlines_N716FR Seymour the Walrus
+texture=FFT-Frontier Airlines_N716FR Seymour the Walrus
+atc_id=N716FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.39]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N717FR Luna & Lilly the Wolves
+model=FFT-Frontier Airlines_N717FR Luna & Lilly the Wolves
+texture=FFT-Frontier Airlines_N717FR Luna & Lilly the Wolves
+atc_id=N717FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.40]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N718FR Cali the Mountain Lion
+model=FFT-Frontier Airlines_N718FR Cali the Mountain Lion
+texture=FFT-Frontier Airlines_N718FR Cali the Mountain Lion
+atc_id=N718FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.41]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N719FR Midnight the Wolf
+model=FFT-Frontier Airlines_N719FR Midnight the Wolf
+texture=FFT-Frontier Airlines_N719FR Midnight the Wolf
+atc_id=N719FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.42]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N720FR Crockett the Raccoon
+model=FFT-Frontier Airlines_N720FR Crockett the Raccoon
+texture=FFT-Frontier Airlines_N720FR Crockett the Raccoon
+atc_id=N720FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.43]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N721FR Cody & Dakota the Coyotes
+model=FFT-Frontier Airlines_N721FR Cody & Dakota the Coyotes
+texture=FFT-Frontier Airlines_N721FR Cody & Dakota the Coyotes
+atc_id=N721FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.44]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N722FR Xavier the Mountain Goat
+model=FFT-Frontier Airlines_N722FR Xavier the Mountain Goat
+texture=FFT-Frontier Airlines_N722FR Xavier the Mountain Goat
+atc_id=N722FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.45]
+title=AIGAIM_Frontier Airlines Airbus A321-200SL - N723FR Gordon The Golden Eagle
+model=FFT-Frontier Airlines_N723FR Gordon The Golden Eagle
+texture=FFT-Frontier Airlines_N723FR Gordon The Golden Eagle
+atc_id=N723FR
+atc_airline=FRONTIER FLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Frontier Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_fft_a321_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFT
+
+[fltsim.46]
+title=AIGAIM_Iran Air Airbus A321-200SL
+model=IRA-Iran Air
+texture=IRA-Iran Air
+atc_id=EP-IFA
+atc_airline=IRANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Iran Air SL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200SL CFM Iran Air FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRA
+
+[fltsim.47]
+title=AIGAIM_Juneyao Airlines Airbus A321-200SL
+model=DKH-Juneyao Airlines
+texture=DKH-Juneyao Airlines
+atc_airline=AIR JUNEYAO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Juneyao A321-211
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Juneyao_A321_FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.48]
+title=AIGAIM_Juneyao Airlines Airbus A321-200SL - Red SL Root
+model=DKH-Juneyao Airlines_Red SL Root
+texture=DKH-Juneyao Airlines_Red SL Root
+atc_airline=AIR JUNEYAO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Juneyao A321-211WL B-9957 that features all red sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Juneyao_A321_FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.49]
+title=AIGAIM_Juneyao Airlines Airbus A321-200SL - Red Livery
+model=DKH-Juneyao Airlines_Red Livery
+texture=DKH-Juneyao Airlines_Red Livery
+atc_airline=AIR JUNEYAO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Juneyao A321-211WL Red
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Juneyao_A321_FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.50]
+title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM
+model=TAM-LATAM Airlines Brasil_CFM
+texture=TAM-LATAM Airlines Brasil_CFM
+atc_airline=TAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Brasil Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.51]
+title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM Oneworld
+model=TAM-LATAM Airlines Brasil_CFM Oneworld
+texture=TAM-LATAM Airlines Brasil_CFM Oneworld
+atc_airline=TAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Brasil - PT-XPB Oneworld Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.52]
+title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - CFM OC
+model=TAM-LATAM Airlines Brasil_CFM OC
+texture=TAM-LATAM Airlines Brasil_CFM OC
+atc_id=PT-XPF
+atc_airline=TAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Brazil PT-XPF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: LATAM_Airlines_Brazil_A321SL_Fleet_Old_Colors_2016_FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.53]
+title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL
+model=LAN-LATAM Airlines Chile
+texture=LAN-LATAM Airlines Chile
+atc_airline=LAN CHILE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Chile Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_latam.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.54]
+title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - Recicla tu viaje
+model=LAN-LATAM Airlines Chile_Recicla tu viaje
+texture=LAN-LATAM Airlines Chile_Recicla tu viaje
+atc_airline=LAN CHILE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Chile - Recicla tu viaje Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_latam_2020-1.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.55]
+title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - 500 Years Magellan
+model=LAN-LATAM Airlines Chile_500 Years Magellan
+texture=LAN-LATAM Airlines Chile_500 Years Magellan
+atc_airline=LAN CHILE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=LATAM Airlines Chile - 500 Anos Magellan Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_latam_2020-1.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.56]
+title=AIGAIM_LATAM Airlines Chile Airbus A321-200SL - OC
+model=LAN-LATAM Airlines Chile_OC
+texture=LAN-LATAM Airlines Chile_OC
+atc_id=CC-BEB
+atc_airline=LAN CHILE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=LAN Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321s_lan.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.57]
+title=AIGAIM_Level Airbus A321-200SL - opb Anisec
+model=FOO-Level_opb Anisec
+texture=FOO-Level_opb Anisec
+atc_id=OE-LCN
+atc_airline=AUSTROJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FOO
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200SL
+ui_variation=LEVEL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_LEVEL_Airbus_A321_200_FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FOO
+
+[fltsim.58]
+title=AIGAIM_S7 Airlines Airbus A321-200SL - CFM
+model=SBI-S7 Airlines_CFM
+texture=SBI-S7 Airlines_CFM
+atc_airline=SIBERIAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SBI
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=S7 Airlines Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a32x_sbi_2020.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBI
+
+[fltsim.59]
+title=AIGAIM_Sichuan Airlines Airbus A321-200SL - CFM
+model=CSC-Sichuan Airlines_CFM
+texture=CSC-Sichuan Airlines_CFM
+atc_id=B-8686
+atc_airline=SI CHUAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSC
+ui_manufacturer=Airbus FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSC
+
+[fltsim.60]
+title=AIGAIM_Sunclass Airlines Airbus A321-200SL
+model=VKG-Sunclass Airlines
+texture=VKG-Sunclass Airlines
+atc_airline=VIKING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VKG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Sunclass Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_sunclassairlines_32b.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VKG
+
+[fltsim.61]
+title=AIGAIM_Swiss Airbus A321-200SL
+model=SWR-Swiss
+texture=SWR-Swiss
+atc_id=HB-ION
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swr_a321sl_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.62]
+title=AIGAIM_Swiss Airbus A321-200SL - unnamed
+model=SWR-Swiss_unnamed
+texture=SWR-Swiss_unnamed
+atc_id=HB-IOO
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swr_a321sl_p3d.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.63]
+title=AIGAIM_Thai VietJet Air Airbus A321-200SL
+model=TVJ-Thai VietJet Air
+texture=TVJ-Thai VietJet Air
+atc_id=HS-VKG
+atc_airline=THAIVIET JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVJ
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 ThaiVietJet.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVJ
+
+[fltsim.64]
+title=AIGAIM_Thai VietJet Air Airbus A321-200SL - WOW Air Hybrid
+model=TVJ-Thai VietJet Air_WOW Air Hybrid
+texture=TVJ-Thai VietJet Air_WOW Air Hybrid
+atc_id=HS-VKL
+atc_airline=THAIVIET JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVJ
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 ThaiVietJet.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVJ
+
+[fltsim.65]
+title=AIGAIM_VietJet Air Airbus A321-200SL
+model=VJC-VietJet Air
+texture=VJC-VietJet Air
+atc_id=VN-A665
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.66]
+title=AIGAIM_VietJet Air Airbus A321-200SL - 45 Years France-Vietnam
+model=VJC-VietJet Air_45 Years France-Vietnam
+texture=VJC-VietJet Air_45 Years France-Vietnam
+atc_id=VN-A657
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.67]
+title=AIGAIM_VietJet Air Airbus A321-200SL - 9000th Airbus
+model=VJC-VietJet Air_9000th Airbus
+texture=VJC-VietJet Air_9000th Airbus
+atc_id=VN-A651
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.68]
+title=AIGAIM_VietJet Air Airbus A321-200SL - Mipec
+model=VJC-VietJet Air_Mipec
+texture=VJC-VietJet Air_Mipec
+atc_id=VN-A673
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.69]
+title=AIGAIM_VietJet Air Airbus A321-200SL - Petrolimex
+model=VJC-VietJet Air_Petrolimex
+texture=VJC-VietJet Air_Petrolimex
+atc_id=VN-A667
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.70]
+title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid
+model=VJC-VietJet Air_Thomas Cook Hybrid
+texture=VJC-VietJet Air_Thomas Cook Hybrid
+atc_id=VN-A541
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.71]
+title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid Condor SL
+model=VJC-VietJet Air_Thomas Cook Hybrid Condor SL
+texture=VJC-VietJet Air_Thomas Cook Hybrid Condor SL
+atc_id=VN-A522
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.72]
+title=AIGAIM_VietJet Air Airbus A321-200SL - Thomas Cook Hybrid Lower Reg
+model=VJC-VietJet Air_Thomas Cook Hybrid Lower Reg
+texture=VJC-VietJet Air_Thomas Cook Hybrid Lower Reg
+atc_id=VN-A532
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC

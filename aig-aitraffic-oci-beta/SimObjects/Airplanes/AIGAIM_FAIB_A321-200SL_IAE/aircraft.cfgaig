@@ -38,6 +38,23 @@ MARSHALLER=1
 JETWAY=1
 
 [fltsim.0]
+title=AIGAIM_Air China Airbus A321-200SL - IAE
+model=CCA-Air China_IAE
+texture=CCA-Air China_IAE
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Air China
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321s_cca_iae.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.1]
 title=AIGAIM_Air Busan Airbus A321-200SL
 model=ABL-Air Busan
 texture=ABL-Air Busan
@@ -48,29 +65,12 @@ atc_parking_codes=ABL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Air Busan Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Air Busan FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABL
-ui_typerole=Commercial Airliner
-
-[fltsim.1]
-title=AIGAIM_Air China Airbus A321-200SL - IAE
-model=CCA-Air China_IAE
-texture=CCA-Air China_IAE
-atc_airline=AIR CHINA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CCA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Air China
-ui_createdby=Provided by: AVSIM Filename: faib_a321s_cca_iae.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CCA
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Macau Airbus A321-200SL - Webtitles
@@ -82,12 +82,12 @@ atc_parking_codes=AMU
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Macau Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: faib_a321_amu_fleet_fsx.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMU
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_Air Macau Airbus A321-200SL - Macau Welcomes You
@@ -99,12 +99,12 @@ atc_parking_codes=AMU
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Air Macau - B-MBM Macau Welcomes You Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: faib_a321_amu_fleet_fsx.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMU
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Air Seoul Airbus A321-200SL
@@ -117,12 +117,12 @@ atc_parking_codes=ASV
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Air Seoul Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Air Seoul.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASV
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE
@@ -135,12 +135,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE no A321 logos
@@ -153,12 +153,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE no 2L A321 logo
@@ -171,12 +171,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE Red SL Tip
@@ -189,12 +189,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE 7500th Airbus A32X
@@ -207,12 +207,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE Stand Up To Cancer
@@ -225,12 +225,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE Transcon
@@ -243,12 +243,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE Transcon no A321 logos
@@ -261,12 +261,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_American Airlines Airbus A321-200SL - IAE Transcon no 2L A321 logo
@@ -279,12 +279,12 @@ atc_parking_codes=AAL
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=American Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KAIW Filename: faib_aal_a321s_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_Asiana Airlines Airbus A321-200SL
@@ -297,12 +297,12 @@ atc_parking_codes=AAR
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Asiana Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Asiana FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_Asiana Airlines Airbus A321-200SL - Star Alliance
@@ -315,12 +315,12 @@ atc_parking_codes=AAR
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Asiana Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Asiana FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Avianca Airbus A321-200SL - IAE
@@ -333,12 +333,12 @@ atc_parking_codes=AVA
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Avianca Colombia FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Avianca El Salvador Airbus A321-200SL - IAE fwd Flag
@@ -351,12 +351,12 @@ atc_parking_codes=TAI
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Avianca El Salvador
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Avianca El Salvador.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAI
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
 title=AIGAIM_Avianca El Salvador Airbus A321-200SL - IAE fwd CRI Flag
@@ -369,14 +369,99 @@ atc_parking_codes=TAI
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Avianca El Salvador
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Avianca Costa Rica.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAI
-ui_typerole=Commercial Airliner
 
 [fltsim.19]
+title=AIGAIM_Capital Airlines Airbus A321-200SL
+model=CBJ-Capital Airlines
+texture=CBJ-Capital Airlines
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Capital Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.20]
+title=AIGAIM_Capital Airlines Airbus A321-200SL - Engines Titles
+model=CBJ-Capital Airlines_Engines Titles
+texture=CBJ-Capital Airlines_Engines Titles
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Capital Airlines - Engine Titles
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.21]
+title=AIGAIM_Capital Airlines Airbus A321-200SL - Old HNA Logo
+model=CBJ-Capital Airlines_Old HNA Logo
+texture=CBJ-Capital Airlines_Old HNA Logo
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Capital Airlines - Old HNA Logo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.22]
+title=AIGAIM_Capital Airlines Airbus A321-200SL - Old HNA Logo Engine Titles
+model=CBJ-Capital Airlines_Old HNA Logo Engine Titles
+texture=CBJ-Capital Airlines_Old HNA Logo Engine Titles
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Capital Airlines - Old HNA Logo Engine Titles
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.23]
+title=AIGAIM_Capital Airlines Airbus A321-200SL - Boundary Island
+model=CBJ-Capital Airlines_Boundary Island
+texture=CBJ-Capital Airlines_Boundary Island
+atc_airline=CAPITAL JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Capital Airlines - Boundary Island
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.24]
 title=AIGAIM_China Eastern Airlines Airbus A321-200SL - IAE
 model=CES-China Eastern Airlines_IAE
 texture=CES-China Eastern Airlines_IAE
@@ -387,14 +472,14 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a321s_ces.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
-[fltsim.20]
+[fltsim.25]
 title=AIGAIM_China Eastern Airlines Airbus A321-200SL - IAE OC
 model=CES-China Eastern Airlines_IAE OC
 texture=CES-China Eastern Airlines_IAE OC
@@ -405,14 +490,14 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a321s_ces_old.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
-[fltsim.21]
+[fltsim.26]
 title=AIGAIM_China Eastern Airlines Airbus A321-200SL - IAE OC Skyteam
 model=CES-China Eastern Airlines_IAE OC Skyteam
 texture=CES-China Eastern Airlines_IAE OC Skyteam
@@ -423,14 +508,14 @@ atc_parking_codes=CES
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Eastern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a321s_ces_skyteam.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
-ui_typerole=Commercial Airliner
 
-[fltsim.22]
+[fltsim.27]
 title=AIGAIM_China Southern Airlines Airbus A321-200SL - IAE
 model=CSN-China Southern Airlines_IAE
 texture=CSN-China Southern Airlines_IAE
@@ -440,14 +525,14 @@ atc_parking_codes=CSN
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=China Southern
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_a321s_csn.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
-[fltsim.23]
+[fltsim.28]
 title=AIGAIM_Etihad Airways Airbus A321-200SL
 model=ETD-Etihad Airways
 texture=ETD-Etihad Airways
@@ -458,14 +543,14 @@ atc_parking_codes=ETD
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Etihad - A6-AED
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai321setd_fsx.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
-[fltsim.24]
+[fltsim.29]
 title=AIGAIM_Etihad Airways Airbus A321-200SL - OC
 model=ETD-Etihad Airways_OC
 texture=ETD-Etihad Airways_OC
@@ -476,14 +561,14 @@ atc_parking_codes=ETD
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Etihad - A6-AEA
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: ai321setd_fsx.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
-ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.30]
 title=AIGAIM_Finnair Airbus A321-200SL
 model=FIN-Finnair
 texture=FIN-Finnair
@@ -494,14 +579,14 @@ atc_parking_codes=FIN
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Finnair
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
-ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.31]
 title=AIGAIM_HK Express Airbus A321-200SL
 model=HKE-HK Express
 texture=HKE-HK Express
@@ -511,264 +596,14 @@ atc_parking_codes=HKE
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=HK Express Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_hke_fleet.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HKE
-ui_typerole=Commercial Airliner
-
-[fltsim.27]
-title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow
-model=NKS-Spirit Airlines_OC Yellow
-texture=NKS-Spirit Airlines_OC Yellow
-atc_id=N669NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Spirit Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-ui_typerole=Commercial Airliner
-
-[fltsim.28]
-title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow Wifi Dome
-model=NKS-Spirit Airlines_OC Yellow Wifi Dome
-texture=NKS-Spirit Airlines_OC Yellow Wifi Dome
-atc_id=N659NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Spirit Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-ui_typerole=Commercial Airliner
-
-[fltsim.29]
-title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow Wifi Dome no Engine Titles
-model=NKS-Spirit Airlines_OC Yellow Wifi Dome no Engine Titles
-texture=NKS-Spirit Airlines_OC Yellow Wifi Dome no Engine Titles
-atc_id=N662NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Spirit Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-ui_typerole=Commercial Airliner
-
-[fltsim.30]
-title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow White Wifi Dome
-model=NKS-Spirit Airlines_OC Yellow White Wifi Dome
-texture=NKS-Spirit Airlines_OC Yellow White Wifi Dome
-atc_id=N680NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Spirit Airlines
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-ui_typerole=Commercial Airliner
-
-[fltsim.31]
-title=AIGAIM_Jetstar Airways Airbus A321-200SL
-model=JST-Jetstar Airways
-texture=JST-Jetstar Airways
-atc_id=VH-VWQ
-atc_airline=JETSTAR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JST
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Jetstar Australia
-ui_createdby=Provided by: JB Filename: FAIB A321 Jetstar Australia FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JST
-ui_typerole=Commercial Airliner
 
 [fltsim.32]
-title=AIGAIM_PAL Express Airbus A321-200SL
-model=GAP-PAL Express
-texture=GAP-PAL Express
-atc_id=RP-C9923
-atc_airline=AIRPHIL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GAP
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Philippine Airlines Express
-ui_createdby=Provided by: FSAI Filename: faib_gap_airbus_a321.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GAP
-ui_typerole=Commercial Airliner
-
-[fltsim.33]
-title=AIGAIM_PAL Express Airbus A321-200SL - Nose Sticker lhs only
-model=GAP-PAL Express_Nose Sticker lhs only
-texture=GAP-PAL Express_Nose Sticker lhs only
-atc_id=RP-C9910
-atc_airline=AIRPHIL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GAP
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Philippine Airlines Express
-ui_createdby=Provided by: FSAI Filename: faib_gap_airbus_a321.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GAP
-ui_typerole=Commercial Airliner
-
-[fltsim.34]
-title=AIGAIM_Philippine Airlines Airbus A321-200SL
-model=PAL-Philippine Airlines
-texture=PAL-Philippine Airlines
-atc_id=RP-C9929
-atc_airline=PHILIPPINE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PAL
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Philippine Airlines
-ui_createdby=Provided by: FSAI Filename: faib_pal_airbus_a321s.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAL
-ui_typerole=Commercial Airliner
-
-[fltsim.35]
-title=AIGAIM_Juneyao Airlines Airbus A321-200SL - IAE
-model=DKH-Juneyao Airlines_IAE
-texture=DKH-Juneyao Airlines_IAE
-atc_airline=AIR JUNEYAO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Juneyao A321-231
-ui_createdby=Provided by: JCAI Filename: FAIB_Juneyao_A321_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-ui_typerole=Commercial Airliner
-
-[fltsim.36]
-title=AIGAIM_Tianjin Airlines Airbus A321-200SL - National Games China Tianjin 2017
-model=GCR-Tianjin Airlines_National Games China Tianjin 2017
-texture=GCR-Tianjin Airlines_National Games China Tianjin 2017
-atc_airline=BO HAI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GCR
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Tianjin Airlines - National Games China Tianjin 2017 Sharklets
-ui_createdby=Provided by: ATCO Filename: faib_a321_gcr.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GCR
-ui_typerole=Commercial Airliner
-
-[fltsim.37]
-title=AIGAIM_Wizz Air Airbus A321-200SL
-model=WZZ-Wizz Air
-texture=WZZ-Wizz Air
-atc_id=HA-LXA
-atc_airline=WIZZAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WZZ
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Wizzair 'New Livery'
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus_A321_200_Wizzair_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WZZ
-ui_typerole=Commercial Airliner
-
-[fltsim.38]
-title=AIGAIM_Wizz Air UK Airbus A321-200SL
-model=WUK-Wizz Air UK
-texture=WUK-Wizz Air UK
-atc_id=G-WUKC
-atc_airline=WIZZ GO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WUK
-ui_manufacturer=FAIB - Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Wizzair UK Limited
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair UK Limited_Airbus_A321_200_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WUK
-ui_typerole=Commercial Airliner
-
-[fltsim.39]
-title=AIGAIM_Wizz Air UK Airbus A321-200SL - no Flag
-model=WUK-Wizz Air UK_no Flag
-texture=WUK-Wizz Air UK_no Flag
-atc_id=G-WUKG
-atc_airline=WIZZ GO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WUK
-ui_manufacturer=FAIB - Airbus
-ui_type=Airbus A321-200SL
-ui_variation=Wizzair UK Limited
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair UK Limited_Airbus_A321_200_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WUK
-ui_typerole=Commercial Airliner
-
-[fltsim.40]
-title=AIGAIM_Wizz Air UK Airbus A321-200SL - opb Wizz Air
-model=WUK-Wizz Air UK_opb Wizz Air
-texture=WUK-Wizz Air UK_opb Wizz Air
-atc_id=HA-LXA
-atc_airline=WIZZ GO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WUK
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Wizzair 'New Livery'
-ui_createdby=Provided by: JCAI Filename: FAIB_Airbus_A321_200_Wizzair_FSX.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WUK
-ui_typerole=Commercial Airliner
-
-[fltsim.41]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism
 model=JBU-jetBlue_Prism
 texture=JBU-jetBlue_Prism
@@ -779,14 +614,14 @@ atc_parking_codes=JBU
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Jetblue Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_jbu_airbus_a321sl.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
-ui_typerole=Commercial Airliner
 
-[fltsim.42]
+[fltsim.33]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism Mint
 model=JBU-jetBlue_Prism Mint
 texture=JBU-jetBlue_Prism Mint
@@ -797,14 +632,14 @@ atc_parking_codes=JBU
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Jetblue Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_jbu_airbus_a321sl.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
-ui_typerole=Commercial Airliner
 
-[fltsim.43]
+[fltsim.34]
 title=AIGAIM_jetBlue Airbus A321-200SL - Prism Mint 200th Aircraft
 model=JBU-jetBlue_Prism Mint 200th Aircraft
 texture=JBU-jetBlue_Prism Mint 200th Aircraft
@@ -815,14 +650,49 @@ atc_parking_codes=JBU
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Jetblue Airways
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_jbu_airbus_a321sl.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
-ui_typerole=Commercial Airliner
 
-[fltsim.44]
+[fltsim.35]
+title=AIGAIM_Jetstar Airways Airbus A321-200SL
+model=JST-Jetstar Airways
+texture=JST-Jetstar Airways
+atc_id=VH-VWQ
+atc_airline=JETSTAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JST
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Jetstar Australia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Jetstar Australia FSX.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JST
+
+[fltsim.36]
+title=AIGAIM_Juneyao Airlines Airbus A321-200SL - IAE
+model=DKH-Juneyao Airlines_IAE
+texture=DKH-Juneyao Airlines_IAE
+atc_airline=AIR JUNEYAO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Juneyao A321-231
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_Juneyao_A321_FSX.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.37]
 title=AIGAIM_LATAM Airlines Brasil Airbus A321-200SL - IAE OC
 model=TAM-LATAM Airlines Brasil_IAE OC
 texture=TAM-LATAM Airlines Brasil_IAE OC
@@ -833,14 +703,68 @@ atc_parking_codes=TAM
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=LATAM Airlines Brazil PT-MXO
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: KPK Filename: LATAM_Airlines_Brazil_A321SL_Fleet_Old_Colors_2016_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
-ui_typerole=Commercial Airliner
 
-[fltsim.45]
+[fltsim.38]
+title=AIGAIM_PAL Express Airbus A321-200SL
+model=GAP-PAL Express
+texture=GAP-PAL Express
+atc_id=RP-C9923
+atc_airline=AIRPHIL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GAP
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Philippine Airlines Express
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gap_airbus_a321.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GAP
+
+[fltsim.39]
+title=AIGAIM_PAL Express Airbus A321-200SL - Nose Sticker lhs only
+model=GAP-PAL Express_Nose Sticker lhs only
+texture=GAP-PAL Express_Nose Sticker lhs only
+atc_id=RP-C9910
+atc_airline=AIRPHIL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GAP
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Philippine Airlines Express
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gap_airbus_a321.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GAP
+
+[fltsim.40]
+title=AIGAIM_Philippine Airlines Airbus A321-200SL
+model=PAL-Philippine Airlines
+texture=PAL-Philippine Airlines
+atc_id=RP-C9929
+atc_airline=PHILIPPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PAL
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Philippine Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_pal_airbus_a321s.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAL
+
+[fltsim.41]
 title=AIGAIM_S7 Airlines Airbus A321-200SL - IAE
 model=SBI-S7 Airlines_IAE
 texture=SBI-S7 Airlines_IAE
@@ -850,14 +774,14 @@ atc_parking_codes=SBI
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
 ui_variation=S7 Airlines Sharklets
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: faib_a321_sbi.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
-ui_typerole=Commercial Airliner
 
-[fltsim.46]
+[fltsim.42]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL
 model=CSC-Sichuan Airlines
 texture=CSC-Sichuan Airlines
@@ -868,14 +792,14 @@ atc_parking_codes=CSC
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_csc_airbus_a321.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
-ui_typerole=Commercial Airliner
 
-[fltsim.47]
+[fltsim.43]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - Engine Titles
 model=CSC-Sichuan Airlines_Engine Titles
 texture=CSC-Sichuan Airlines_Engine Titles
@@ -886,14 +810,14 @@ atc_parking_codes=CSC
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: faib_csc_airbus_a321.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
-ui_typerole=Commercial Airliner
 
-[fltsim.48]
+[fltsim.44]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - 100th Aircraft
 model=CSC-Sichuan Airlines_100th Aircraft
 texture=CSC-Sichuan Airlines_100th Aircraft
@@ -904,14 +828,14 @@ atc_parking_codes=CSC
 ui_manufacturer=Airbus FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
-ui_typerole=Commercial Airliner
 
-[fltsim.49]
+[fltsim.45]
 title=AIGAIM_Sichuan Airlines Airbus A321-200SL - OC
 model=CSC-Sichuan Airlines_OC
 texture=CSC-Sichuan Airlines_OC
@@ -922,14 +846,103 @@ atc_parking_codes=CSC
 ui_manufacturer=Airbus FAIB
 ui_type=Airbus A321-200SL
 ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
+
+[fltsim.46]
+title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow
+model=NKS-Spirit Airlines_OC Yellow
+texture=NKS-Spirit Airlines_OC Yellow
+atc_id=N669NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Spirit Airlines
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.47]
+title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow Wifi Dome
+model=NKS-Spirit Airlines_OC Yellow Wifi Dome
+texture=NKS-Spirit Airlines_OC Yellow Wifi Dome
+atc_id=N659NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.48]
+title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow Wifi Dome no Engine Titles
+model=NKS-Spirit Airlines_OC Yellow Wifi Dome no Engine Titles
+texture=NKS-Spirit Airlines_OC Yellow Wifi Dome no Engine Titles
+atc_id=N662NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.49]
+title=AIGAIM_Spirit Airlines Airbus A321-200SL - OC Yellow White Wifi Dome
+model=NKS-Spirit Airlines_OC Yellow White Wifi Dome
+texture=NKS-Spirit Airlines_OC Yellow White Wifi Dome
+atc_id=N680NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a321s_jkm.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
 
 [fltsim.50]
+title=AIGAIM_Tianjin Airlines Airbus A321-200SL - National Games China Tianjin 2017
+model=GCR-Tianjin Airlines_National Games China Tianjin 2017
+texture=GCR-Tianjin Airlines_National Games China Tianjin 2017
+atc_airline=BO HAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GCR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Tianjin Airlines - National Games China Tianjin 2017 Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_gcr.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GCR
+
+[fltsim.51]
 title=AIGAIM_Turkish Airlines Airbus A321-200SL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -940,86 +953,14 @@ atc_parking_codes=THY
 ui_manufacturer=Airbus
 ui_type=Airbus A321-200SL
 ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: FAIB A321 Turkish FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
-ui_typerole=Commercial Airliner
-
-[fltsim.51]
-title=AIGAIM_Volaris Airbus A321-200SL - OC
-model=VOI-Volaris_OC
-texture=VOI-Volaris_OC
-atc_id=XA-VLH
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Volaris
-ui_createdby=Provided by: KAIW Filename: faib_voi_a321sl_p3d-1.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-ui_typerole=Commercial Airliner
 
 [fltsim.52]
-title=AIGAIM_Volaris Airbus A321-200SL - OC unnamed
-model=VOI-Volaris_OC unnamed
-texture=VOI-Volaris_OC unnamed
-atc_id=XA-VRB
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Volaris
-ui_createdby=Provided by: KAIW Filename: faib_voi_a321sl_p3d-1.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-ui_typerole=Commercial Airliner
-
-[fltsim.53]
-title=AIGAIM_Vueling Airbus A321-200SL - IAE
-model=VLG-Vueling_IAE
-texture=VLG-Vueling_IAE
-atc_id=EC-MLD
-atc_airline=VUELING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VLG
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Vueling EC-MLD 'Don't forget to smile' (Named)
-ui_createdby=Provided by: FC75 Filename: faib_a321sl_vlg_2018.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VLG
-ui_typerole=Commercial Airliner
-
-[fltsim.54]
-title=AIGAIM_Vueling Airbus A321-200SL - IAE unnamed
-model=VLG-Vueling_IAE unnamed
-texture=VLG-Vueling_IAE unnamed
-atc_id=EC-MJR
-atc_airline=VUELING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VLG
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200SL
-ui_variation=Vueling EC-MJR (Unnamed)
-ui_createdby=Provided by: FC75 Filename: faib_a321sl_vlg_2018.zip
-description=FAIB_A321-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VLG
-ui_typerole=Commercial Airliner
-
-[fltsim.55]
 title=AIGAIM_Ural Airlines Airbus A321-200SL - IAE (TEMP)
 model=SVR-Ural Airlines_IAE_temp
 texture=SVR-Ural Airlines_IAE_temp
@@ -1037,87 +978,146 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.56]
-title=AIGAIM_Capital Airlines Airbus A321-200SL
-model=CBJ-Capital Airlines
-texture=CBJ-Capital Airlines
-atc_airline=CAPITAL JET
+[fltsim.53]
+title=AIGAIM_Volaris Airbus A321-200SL - OC
+model=VOI-Volaris_OC
+texture=VOI-Volaris_OC
+atc_id=XA-VLH
+atc_airline=VOLARIS
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
+atc_parking_codes=VOI
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
-ui_variation=Capital Airlines
+ui_variation=Volaris
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+ui_createdby=Provided by: KAIW Filename: faib_voi_a321sl_p3d-1.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CBJ
+icao_airline=VOI
+
+[fltsim.54]
+title=AIGAIM_Volaris Airbus A321-200SL - OC unnamed
+model=VOI-Volaris_OC unnamed
+texture=VOI-Volaris_OC unnamed
+atc_id=XA-VRB
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_voi_a321sl_p3d-1.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.55]
+title=AIGAIM_Vueling Airbus A321-200SL - IAE
+model=VLG-Vueling_IAE
+texture=VLG-Vueling_IAE
+atc_id=EC-MLD
+atc_airline=VUELING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VLG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Vueling EC-MLD 'Don't forget to smile' (Named)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321sl_vlg_2018.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VLG
+
+[fltsim.56]
+title=AIGAIM_Vueling Airbus A321-200SL - IAE unnamed
+model=VLG-Vueling_IAE unnamed
+texture=VLG-Vueling_IAE unnamed
+atc_id=EC-MJR
+atc_airline=VUELING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VLG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Vueling EC-MJR (Unnamed)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321sl_vlg_2018.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VLG
 
 [fltsim.57]
-title=AIGAIM_Capital Airlines Airbus A321-200SL - Engines Titles
-model=CBJ-Capital Airlines_Engines Titles
-texture=CBJ-Capital Airlines_Engines Titles
-atc_airline=CAPITAL JET
+title=AIGAIM_Wizz Air Airbus A321-200SL
+model=WZZ-Wizz Air
+texture=WZZ-Wizz Air
+atc_id=HA-LXA
+atc_airline=WIZZAIR
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
+atc_parking_codes=WZZ
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
-ui_variation=Capital Airlines - Engine Titles
+ui_variation=Wizzair 'New Livery'
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus_A321_200_Wizzair_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CBJ
+icao_airline=WZZ
 
 [fltsim.58]
-title=AIGAIM_Capital Airlines Airbus A321-200SL - Old HNA Logo
-model=CBJ-Capital Airlines_Old HNA Logo
-texture=CBJ-Capital Airlines_Old HNA Logo
-atc_airline=CAPITAL JET
+title=AIGAIM_Wizz Air UK Airbus A321-200SL
+model=WUK-Wizz Air UK
+texture=WUK-Wizz Air UK
+atc_id=G-WUKC
+atc_airline=WIZZ GO
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
-ui_manufacturer=FAIB
+atc_parking_codes=WUK
+ui_manufacturer=FAIB - Airbus
 ui_type=Airbus A321-200SL
-ui_variation=Capital Airlines - Old HNA Logo
+ui_variation=Wizzair UK Limited
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair UK Limited_Airbus_A321_200_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CBJ
+icao_airline=WUK
 
 [fltsim.59]
-title=AIGAIM_Capital Airlines Airbus A321-200SL - Old HNA Logo Engine Titles
-model=CBJ-Capital Airlines_Old HNA Logo Engine Titles
-texture=CBJ-Capital Airlines_Old HNA Logo Engine Titles
-atc_airline=CAPITAL JET
+title=AIGAIM_Wizz Air UK Airbus A321-200SL - no Flag
+model=WUK-Wizz Air UK_no Flag
+texture=WUK-Wizz Air UK_no Flag
+atc_id=G-WUKG
+atc_airline=WIZZ GO
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
-ui_manufacturer=FAIB
+atc_parking_codes=WUK
+ui_manufacturer=FAIB - Airbus
 ui_type=Airbus A321-200SL
-ui_variation=Capital Airlines - Old HNA Logo Engine Titles
+ui_variation=Wizzair UK Limited
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair UK Limited_Airbus_A321_200_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CBJ
+icao_airline=WUK
 
 [fltsim.60]
-title=AIGAIM_Capital Airlines Airbus A321-200SL - Boundary Island
-model=CBJ-Capital Airlines_Boundary Island
-texture=CBJ-Capital Airlines_Boundary Island
-atc_airline=CAPITAL JET
+title=AIGAIM_Wizz Air UK Airbus A321-200SL - opb Wizz Air
+model=WUK-Wizz Air UK_opb Wizz Air
+texture=WUK-Wizz Air UK_opb Wizz Air
+atc_id=HA-LXA
+atc_airline=WIZZ GO
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
+atc_parking_codes=WUK
 ui_manufacturer=FAIB
 ui_type=Airbus A321-200SL
-ui_variation=Capital Airlines - Boundary Island
+ui_variation=Wizzair 'New Livery'
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a321_cbj_fleet.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus_A321_200_Wizzair_FSX.zip
 description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CBJ
+icao_airline=WUK

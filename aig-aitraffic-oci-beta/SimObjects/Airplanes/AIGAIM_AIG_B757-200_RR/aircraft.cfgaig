@@ -65,13 +65,13 @@ atc_parking_codes=CAO
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Air China Cargo Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B757-200F Air China Cargo FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
-ui_typerole=Commercial Airliner
 
 [fltsim.1]
 title=AIGAIM_Air China Cargo Boeing 757-200 - PCF Black Titles
@@ -85,13 +85,13 @@ atc_parking_codes=CAO
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Air China Cargo Co., Ltd.
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B757-200F Air China Cargo FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
-ui_typerole=Commercial Airliner
 
 [fltsim.2]
 title=AIGAIM_Air Transport International Boeing 757-200C
@@ -105,12 +105,12 @@ atc_parking_codes=ATN
 ui_manufacturer=Alpha India Group
 ui_type=Boeing 757-200C
 ui_variation=Air Transport International
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_ati_b752f_fsx.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
-ui_typerole=Commercial Airliner
 
 [fltsim.3]
 title=AIGAIM_ASL Airlines Belgium Boeing 757-200 - RR SF
@@ -124,12 +124,12 @@ atc_parking_codes=TAY
 ui_manufacturer=Alpha India Group - Boeing
 ui_type=Boeing 757-200
 ui_variation=ASL Airlines Belgium
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200SF RR ASL Airlines Belgium_FSX.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
-ui_typerole=Commercial Airliner
 
 [fltsim.4]
 title=AIGAIM_Aviastar-TU Boeing 757-200 - PCF Yakutia Hybrid
@@ -142,12 +142,12 @@ atc_parking_codes=TUP
 ui_manufacturer=SBAI
 ui_type=Boeing 757-200
 ui_variation=Aviastar-Tu RA-64051
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVRUS2 Filename: 67369-Aviastar-TU-Wi19-Wi20.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUP
-ui_typerole=Commercial Airliner
 
 [fltsim.5]
 title=AIGAIM_AZAL Azerbaijan Airlines Boeing 757-200
@@ -161,13 +161,13 @@ atc_parking_codes=AHY
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Azarbaycan Hava Yollari
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B757-200 Azerbaijan FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
-ui_typerole=Commercial Airliner
 
 [fltsim.6]
 title=AIGAIM_Blue Dart Aviation Boeing 757-200 - PCF
@@ -181,12 +181,12 @@ atc_parking_codes=BDA
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Blue Dart Aviation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_752_BDA.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDA
-ui_typerole=Commercial Airliner
 
 [fltsim.7]
 title=AIGAIM_Blue Dart Aviation Boeing 757-200 - PCF Fat 757 Titles
@@ -200,12 +200,12 @@ atc_parking_codes=BDA
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Blue Dart Aviation
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_752_BDA.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDA
-ui_typerole=Commercial Airliner
 
 [fltsim.8]
 title=AIGAIM_Cargojet Boeing 757-200 - PCF
@@ -218,13 +218,13 @@ atc_parking_codes=CJT
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Cargojet - C-FKCJ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: ATCO Filename: aig_752_cjt.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
-ui_typerole=Commercial Airliner
 
 [fltsim.9]
 title=AIGAIM_China Southern Airlines Boeing 757-200
@@ -238,12 +238,12 @@ atc_parking_codes=CSN
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=China Southern 757-200 -- repaint by marwol
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: AIG B757-200 China Southern FSX.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
-ui_typerole=Commercial Airliner
 
 [fltsim.10]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb DHL Air UK
@@ -257,12 +257,12 @@ atc_parking_codes=BCS
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=DHL Air G-DHKX
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.11]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb Cygnus Air
@@ -276,13 +276,13 @@ atc_parking_codes=BCS
 ui_manufacturer=Alpha India Group - Boeing
 ui_type=Boeing 757-200
 ui_variation=Cygnus Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200 Cygnus Air_FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.12]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb Cygnus Air Albino
@@ -296,13 +296,13 @@ atc_parking_codes=BCS
 ui_manufacturer=Alpha India Group - Boeing
 ui_type=Boeing 757-200
 ui_variation=Cygnus Air
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200 Cygnus Air_FSX.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.13]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK
@@ -316,12 +316,12 @@ atc_parking_codes=BCS
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=DHL Air G-BIKK
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
 description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.14]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK White Rear Door Tape
@@ -335,12 +335,12 @@ atc_parking_codes=BCS
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=DHL Air G-BMRJ
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
 description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
-ui_typerole=Commercial Airliner
 
 [fltsim.15]
 title=AIGAIM_FedEx Express Boeing 757-200 - RR SF
@@ -354,12 +354,12 @@ atc_parking_codes=FDX
 ui_manufacturer=Alpha India Group
 ui_type=Boeing 757-200
 ui_variation=FedEx
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_b752f_fdx_fsx.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDX
-ui_typerole=Commercial Airliner
 
 [fltsim.16]
 title=AIGAIM_Icelandair Boeing 757-200 - Albino no Dome
@@ -372,13 +372,13 @@ atc_parking_codes=ICE
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Icelandair TF-FIW
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: AIG_752_ICE1_P3D.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
-ui_typerole=Commercial Airliner
 
 [fltsim.17]
 title=AIGAIM_Icelandair Boeing 757-200 - opb Privledge Style
@@ -391,73 +391,15 @@ atc_parking_codes=ICE
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Privilege Style
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_privilegestyle_752_fsx.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
-ui_typerole=Commercial Airliner
 
 [fltsim.18]
-title=AIGAIM_Xiamen Airlines Boeing 757-200
-model=CXA-Xiamen Airlines
-texture=CXA-Xiamen Airlines
-atc_id=B-2868
-atc_airline=XIAMEN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CXA
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200
-ui_variation=Xiamen Airlines
-ui_createdby=Provided by: JB Filename: B757-200 Xiamen Airlines.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CXA
-ui_typerole=Commercial Airliner
-
-[fltsim.19]
-title=AIGAIM_Xiamen Airlines Boeing 757-200 - 1-1-1-1
-model=CXA-Xiamen Airlines_1-1-1-1
-texture=CXA-Xiamen Airlines_1-1-1-1
-atc_id=B-2866
-atc_airline=XIAMEN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CXA
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200
-ui_variation=Xiamen Airlines
-ui_createdby=Provided by: JB Filename: B757-200 Xiamen Airlines.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CXA
-ui_typerole=Commercial Airliner
-
-[fltsim.20]
-title=AIGAIM_YTO Cargo Airlines Boeing 757-200 - PCF
-model=HYT-YTO Cargo Airlines_PCF
-texture=HYT-YTO Cargo Airlines_PCF
-atc_airline=QUICK AIR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=HYT
-ui_manufacturer=AI Aircraft\Boeing
-ui_type=Boeing 757-200
-ui_variation=YTO Cargo Airlines
-ui_createdby=Provided by: FC75 Filename: faib_752f_YTO_Cargo_airlines_NC.zip
-description=AIG_B757-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HYT
-ui_typerole=Commercial Airliner
-
-[fltsim.21]
 title=AIGAIM_Jet2com Boeing 757-200
 model=EXS-Jet2com
 texture=EXS-Jet2com
@@ -468,15 +410,15 @@ atc_parking_codes=EXS
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Jet2.com
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_jet2com_752.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
-ui_typerole=Commercial Airliner
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_Jet2com Boeing 757-200 - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -487,34 +429,34 @@ atc_parking_codes=EXS
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Jet2.com - Jet2 Holidays
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_jet2com_752.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
-ui_typerole=Commercial Airliner
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_Morningstar Air Express Boeing 757-200 - SF
 model=MAL-Morningstar Air Express_SF
 texture=MAL-Morningstar Air Express_SF
 atc_id=C-FMFG
-atc_airline=MORNINGSTAR
+atc_airline=Morningstar
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
 atc_parking_codes=MAL
 ui_manufacturer=Alpha India Group
 ui_type=Boeing 757-200
 ui_variation=Morningstar Air Express lsf FedEx
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_b752f_fdx_fsx.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAL
-ui_typerole=Commercial Airliner
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_Privilege Style Boeing 757-200
 model=PVG-Privilege Style
 texture=PVG-Privilege Style
@@ -525,15 +467,15 @@ atc_parking_codes=PVG
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Privilege Style
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_privilegestyle_752_fsx.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PVG
-ui_typerole=Commercial Airliner
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_Qantas Freight Boeing 757-200 - PCF opb Freight Pacific Air Express
 model=QFAC-Qantas Freight_PCF opb Freight Pacific Air Express
 texture=QFAC-Qantas Freight_PCF opb Freight Pacific Air Express
@@ -542,14 +484,14 @@ atc_heavy=1
 atc_parking_types=CARGO,RAMP
 atc_parking_codes=QFAC
 ui_type=Boeing 757-200
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FSAI Filename: aig_pax_752f_p3d.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
-ui_typerole=Commercial Airliner
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines
 model=VSV-SCAT Airlines_Sunday Airlines
 texture=VSV-SCAT Airlines_Sunday Airlines
@@ -560,14 +502,14 @@ atc_parking_codes=VSV
 ui_manufacturer=AIG
 ui_type=Boeing 757-200
 ui_variation=SCAT Airlines - Sunday Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: AIG_752_SCAT_Sunday_Airlines.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
-ui_typerole=Commercial Airliner
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines OC
 model=VSV-SCAT Airlines_Sunday Airlines OC
 texture=VSV-SCAT Airlines_Sunday Airlines OC
@@ -579,14 +521,14 @@ atc_parking_codes=VSV
 ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=AIG Boeing 757-200 Sunday Airlines UP-B5702 repaint by Maksim Rudakov (United Traffic Team)
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: UTT Filename: UTT_AIG_Boeing_B757-200_Sunday_Airlines_UP-B5702_FSX_P3D.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
-ui_typerole=Commercial Airliner
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_Titan Airways Boeing 757-200 - RR
 model=AWC-Titan Airways_RR
 texture=AWC-Titan Airways_RR
@@ -597,15 +539,15 @@ atc_parking_codes=AWC
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Titan Airways NC
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: aig_titanairways_752_fsx.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
-ui_typerole=Commercial Airliner
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_Turkmenistan Airlines Boeing 757-200
 model=TUA-Turkmenistan Airlines
 texture=TUA-Turkmenistan Airlines
@@ -617,10 +559,68 @@ atc_parking_codes=TUA
 ui_manufacturer=Alpha India
 ui_type=Boeing 757-200
 ui_variation=Turkmenistan Airlines
+ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: B757-200 Turkmenistan Airlines.zip
 prop_anim_ratio=1.59
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
+
+[fltsim.27]
+title=AIGAIM_Xiamen Airlines Boeing 757-200
+model=CXA-Xiamen Airlines
+texture=CXA-Xiamen Airlines
+atc_id=B-2868
+atc_airline=XIAMEN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CXA
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200
+ui_variation=Xiamen Airlines
 ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B757-200 Xiamen Airlines.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CXA
+
+[fltsim.28]
+title=AIGAIM_Xiamen Airlines Boeing 757-200 - 1-1-1-1
+model=CXA-Xiamen Airlines_1-1-1-1
+texture=CXA-Xiamen Airlines_1-1-1-1
+atc_id=B-2866
+atc_airline=XIAMEN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CXA
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200
+ui_variation=Xiamen Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B757-200 Xiamen Airlines.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CXA
+
+[fltsim.29]
+title=AIGAIM_YTO Cargo Airlines Boeing 757-200 - PCF
+model=HYT-YTO Cargo Airlines_PCF
+texture=HYT-YTO Cargo Airlines_PCF
+atc_airline=QUICK AIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=HYT
+ui_manufacturer=AI Aircraft\Boeing
+ui_type=Boeing 757-200
+ui_variation=YTO Cargo Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_752f_YTO_Cargo_airlines_NC.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HYT
