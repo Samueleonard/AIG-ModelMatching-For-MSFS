@@ -9,7 +9,7 @@ Category="airplane"
 performance=""
 editable=1
 wip_indicator=2
-icao_type_designator="B772"
+icao_type_designator="B77L"
 icao_manufacturer="BOEING"
 icao_model="777-F"
 icao_engine_type="Jet"
@@ -42,7 +42,6 @@ wake=fx_wake
 water=fx_spray
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
-touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT

@@ -226,23 +226,6 @@ isUserSelectable=0
 icao_airline=CCA
 
 [fltsim.11]
-title=AIGAIM_Air Cote d'Ivoire Airbus A319-100
-model=VRE-Air Cote d'Ivoire
-texture=VRE-Air Cote d'Ivoire
-atc_airline=COTE D'IVOIRE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VRE
-ui_manufacturer=FAIB
-ui_type=Airbus A319-100
-ui_variation=Air Cote d'Ivoire - Sharklets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_aircotedivoire_319.zip
-description=FAIB_A319-100_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VRE
-
-[fltsim.12]
 title=AIGAIM_Air France Airbus A319-100
 model=AFR-Air France
 texture=AFR-Air France
@@ -260,7 +243,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Air France Airbus A319-100 - OC
 model=AFR-Air France_OC
 texture=AFR-Air France_OC
@@ -278,7 +261,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Air France Airbus A319-100 - OC no WiFi
 model=AFR-Air France_OC no WiFi
 texture=AFR-Air France_OC no WiFi
@@ -296,7 +279,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Air France Airbus A319-100 - OC Paris 2024 no WiFi
 model=AFR-Air France_OC Paris 2024 no WiFi
 texture=AFR-Air France_OC Paris 2024 no WiFi
@@ -314,7 +297,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Air India Airbus A319-100
 model=AIC-Air India
 texture=AIC-Air India
@@ -326,13 +309,13 @@ ui_manufacturer=FAIB
 ui_type=Airbus A319-100
 ui_variation=Air India - VT-SCG
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: ai319aic_v2_fsx.zip
+ui_createdby=Provided by: KPK Filename: ai319aic_v2_fsx.zip
 description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Air Mauritius Airbus A319-100
 model=MAU-Air Mauritius
 texture=MAU-Air Mauritius
@@ -350,7 +333,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAU
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Air Moldova Airbus A319-100 - CFM
 model=MLD-Air Moldova_CFM
 texture=MLD-Air Moldova_CFM
@@ -368,7 +351,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLD
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Air Moldova Airbus A319-100 - CFM Albino
 model=MLD-Air Moldova_CFM Albino
 texture=MLD-Air Moldova_CFM Albino
@@ -386,7 +369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLD
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Air Senegal Airbus A319-100
 model=SZN-Air Senegal
 texture=SZN-Air Senegal
@@ -404,7 +387,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SZN
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Alitalia Airbus A319-100
 model=AZA-Alitalia
 texture=AZA-Alitalia
@@ -422,7 +405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Alitalia Airbus A319-100 - OC
 model=AZA-Alitalia_OC
 texture=AZA-Alitalia_OC
@@ -440,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Allegiant Air Airbus A319-100
 model=AAY-Allegiant Air
 texture=AAY-Allegiant Air
@@ -458,7 +441,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Allegiant Air Airbus A319-100 - OC Travel Deal
 model=AAY-Allegiant Air_OC Travel Deal
 texture=AAY-Allegiant Air_OC Travel Deal
@@ -476,7 +459,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Allegiant Air Airbus A319-100 - Vegas Golden Knights
 model=AAY-Allegiant Air_Vegas Golden Knights
 texture=AAY-Allegiant Air_Vegas Golden Knights
@@ -494,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Allegiant Air Airbus A319-100 - Las Vegas Raiders
 model=AAY-Allegiant Air_Las Vegas Raiders
 texture=AAY-Allegiant Air_Las Vegas Raiders
@@ -512,7 +495,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAY
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM
 model=AAL-American Airlines_CFM
 texture=AAL-American Airlines_CFM
@@ -530,7 +513,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage PSA
 model=AAL-American Airlines_CFM Heritage PSA
 texture=AAL-American Airlines_CFM Heritage PSA
@@ -548,7 +531,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Piedmont
 model=AAL-American Airlines_CFM Heritage Piedmont
 texture=AAL-American Airlines_CFM Heritage Piedmont
@@ -566,7 +549,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_American Airlines Airbus A319-100 - CFM Heritage Allegheny
 model=AAL-American Airlines_CFM Heritage Allegheny
 texture=AAL-American Airlines_CFM Heritage Allegheny
@@ -584,7 +567,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Aurora Airlines Airbus A319-100
 model=SHU-Aurora Airlines
 texture=SHU-Aurora Airlines
@@ -602,7 +585,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHU
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Aurora Airlines Airbus A319-100 - Centre Amur Tiger
 model=SHU-Aurora Airlines_Centre Amur Tiger
 texture=SHU-Aurora Airlines_Centre Amur Tiger
@@ -620,7 +603,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHU
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Austrian Airlines Airbus A319-100 - IC
 model=AUA-Austrian Airlines_IC
 texture=AUA-Austrian Airlines_IC
@@ -638,7 +621,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Austrian Airlines Airbus A319-100 - IC my Austrian
 model=AUA-Austrian Airlines_IC my Austrian
 texture=AUA-Austrian Airlines_IC my Austrian
@@ -656,7 +639,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Avianca Airbus A319-100 - CFM
 model=AVA-Avianca_CFM
 texture=AVA-Avianca_CFM
@@ -674,7 +657,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_Avianca Airbus A319-100 - CFM WiFi Dome
 model=AVA-Avianca_CFM WiFi Dome
 texture=AVA-Avianca_CFM WiFi Dome
@@ -692,7 +675,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Avianca Airbus A319-100 - CFM OC
 model=AVA-Avianca_CFM OC
 texture=AVA-Avianca_CFM OC
@@ -710,7 +693,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Avianca Airbus A319-100 - CFM OC WiFi Dome
 model=AVA-Avianca_CFM OC WiFi Dome
 texture=AVA-Avianca_CFM OC WiFi Dome
@@ -728,7 +711,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Avianca Airbus A319-100 - CFM Star Alliance WiFi Dome
 model=AVA-Avianca_CFM Star Alliance WiFi Dome
 texture=AVA-Avianca_CFM Star Alliance WiFi Dome
@@ -746,7 +729,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM
 model=GLG-Avianca Ecuador_CFM
 texture=GLG-Avianca Ecuador_CFM
@@ -764,7 +747,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLG
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Avianca Ecuador Airbus A319-100 - CFM - Old Livery
 model=GLG-Avianca Ecuador_CFM - Old Livery
 texture=GLG-Avianca Ecuador_CFM - Old Livery
@@ -782,7 +765,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLG
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_AZAL Azerbaijan Airlines Airbus A319-100
 model=AHY-AZAL Azerbaijan Airlines
 texture=AHY-AZAL Azerbaijan Airlines
@@ -800,7 +783,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Azores Airlines Airbus A319-100 - opb HiFly Malta 9H-XFW
 model=RZO-Azores Airlines_opb HiFly Malta 9H-XFW
 texture=RZO-Azores Airlines_opb HiFly Malta 9H-XFW
@@ -818,7 +801,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RZO
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Bhutan Airlines Airbus A319-100
 model=BTN-Bhutan Airlines
 texture=BTN-Bhutan Airlines
@@ -836,7 +819,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTN
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Brussels Airlines Airbus A319-100
 model=BEL-Brussels Airlines
 texture=BEL-Brussels Airlines
@@ -854,7 +837,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_Bulgaria Air Airbus A319-100
 model=LZB-Bulgaria Air
 texture=LZB-Bulgaria Air
@@ -872,7 +855,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LZB
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_Cambodia Airways Airbus A319-100
 model=KME-Cambodia Airways
 texture=KME-Cambodia Airways
@@ -890,7 +873,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_Cambodia Airways Airbus A319-100 - Two Overwing Exits
 model=KME-Cambodia Airways_Two Overwing Exits
 texture=KME-Cambodia Airways_Two Overwing Exits
@@ -908,7 +891,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_Cambodia Airways Airbus A319-100 - Sundair Hybrid XU-787
 model=KME-Cambodia Airways_Sundair Hybrid XU-787
 texture=KME-Cambodia Airways_Sundair Hybrid XU-787
@@ -926,7 +909,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KME
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Engine Titles
 model=CBJ-Capital Airlines_CFM Engine Titles
 texture=CBJ-Capital Airlines_CFM Engine Titles
@@ -943,7 +926,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_Capital Airlines Airbus A319-100 - CFM Old HNA Logo Engine Titles
 model=CBJ-Capital Airlines_CFM Old HNA Logo Engine Titles
 texture=CBJ-Capital Airlines_CFM Old HNA Logo Engine Titles
@@ -960,7 +943,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_CHair Airlines Airbus A319-100
 model=GSW-CHair Airlines
 texture=GSW-CHair Airlines
@@ -978,7 +961,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GSW
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Chengdu Airlines Airbus A319-100
 model=UEA-Chengdu Airlines
 texture=UEA-Chengdu Airlines
@@ -996,7 +979,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UEA
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_China Eastern Airlines Airbus A319-100 - CFM OC
 model=CES-China Eastern Airlines_CFM OC
 texture=CES-China Eastern Airlines_CFM OC
@@ -1014,7 +997,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_China Southern Airlines Airbus A319-100 - CFM
 model=CSN-China Southern Airlines_CFM
 texture=CSN-China Southern Airlines_CFM
@@ -1031,7 +1014,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_Chongqing Airlines Airbus A319-100
 model=CQN-Chongqing Airlines
 texture=CQN-Chongqing Airlines
@@ -1049,7 +1032,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CQN
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Zadar
 model=CTN-Croatia Airlines_Zadar
 texture=CTN-Croatia Airlines_Zadar
@@ -1066,24 +1049,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
 
-[fltsim.58]
-title=AIGAIM_Croatia Airlines Airbus A319-100 - Zagreb
-model=CTN-Croatia Airlines_Zagreb
-texture=CTN-Croatia Airlines_Zagreb
-atc_airline=CROATIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CTN
-ui_manufacturer=Airbus
-ui_type=Airbus A319-100
-ui_variation=Croatia Airlines 9A-CTH Zagreb
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
-description=FAIB_A319-100_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CTN
-
-[fltsim.59]
+[fltsim.57]
 title=AIGAIM_Croatia Airlines Airbus A319-100 - Star Alliance
 model=CTN-Croatia Airlines_Star Alliance
 texture=CTN-Croatia Airlines_Star Alliance
@@ -1100,24 +1066,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CTN
 
-[fltsim.60]
-title=AIGAIM_Croatia Airlines Airbus A319-100 - Pula Bravo Vatreni
-model=CTN-Croatia Airlines_Pula Bravo Vatreni
-texture=CTN-Croatia Airlines_Pula Bravo Vatreni
-atc_airline=CROATIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CTN
-ui_manufacturer=Airbus
-ui_type=Airbus A319-100
-ui_variation=Croatia Airlines 9A-CTL Pula
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
-description=FAIB_A319-100_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CTN
-
-[fltsim.61]
+[fltsim.58]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100
 model=CSA-CSA Czech Airlines
 texture=CSA-CSA Czech Airlines
@@ -1135,7 +1084,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
 
-[fltsim.62]
+[fltsim.59]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - 95 Years
 model=CSA-CSA Czech Airlines_95 Years
 texture=CSA-CSA Czech Airlines_95 Years
@@ -1153,7 +1102,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
 
-[fltsim.63]
+[fltsim.60]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - City of Prague
 model=CSA-CSA Czech Airlines_City of Prague
 texture=CSA-CSA Czech Airlines_City of Prague
@@ -1171,7 +1120,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
 
-[fltsim.64]
+[fltsim.61]
 title=AIGAIM_CSA Czech Airlines Airbus A319-100 - Skyteam
 model=CSA-CSA Czech Airlines_Skyteam
 texture=CSA-CSA Czech Airlines_Skyteam
@@ -1189,7 +1138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
 
-[fltsim.65]
+[fltsim.62]
 title=AIGAIM_Cyprus Airways Airbus A319-100
 model=CYP-Cyprus Airways
 texture=CYP-Cyprus Airways
@@ -1207,7 +1156,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CYP
 
-[fltsim.66]
+[fltsim.63]
 title=AIGAIM_Delta Air Lines Airbus A319-100
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -1225,7 +1174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.67]
+[fltsim.64]
 title=AIGAIM_Delta Air Lines Airbus A319-100 - No Belly Titles
 model=DAL-Delta Air Lines_No Belly Titles
 texture=DAL-Delta Air Lines_No Belly Titles
@@ -1243,7 +1192,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.68]
+[fltsim.65]
 title=AIGAIM_Druk Air Airbus A319-100
 model=DRK-Druk Air
 texture=DRK-Druk Air
@@ -1261,7 +1210,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DRK
 
-[fltsim.69]
+[fltsim.66]
 title=AIGAIM_easyJet Airbus A319-100
 model=EZY-easyJet
 texture=EZY-easyJet
@@ -1279,7 +1228,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.70]
+[fltsim.67]
 title=AIGAIM_easyJet Airbus A319-100 - No Flag
 model=EZY-easyJet_No Flag
 texture=EZY-easyJet_No Flag
@@ -1297,7 +1246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.71]
+[fltsim.68]
 title=AIGAIM_easyJet Airbus A319-100 - Amsterdam
 model=EZY-easyJet_Amsterdam
 texture=EZY-easyJet_Amsterdam
@@ -1315,7 +1264,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.72]
+[fltsim.69]
 title=AIGAIM_easyJet Airbus A319-100 - Mark McKee
 model=EZY-easyJet_Mark McKee
 texture=EZY-easyJet_Mark McKee
@@ -1333,7 +1282,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.73]
+[fltsim.70]
 title=AIGAIM_easyJet Airbus A319-100 - Porto
 model=EZY-easyJet_Porto
 texture=EZY-easyJet_Porto
@@ -1351,7 +1300,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.74]
+[fltsim.71]
 title=AIGAIM_easyJet Airbus A319-100 - Spirit of easyJet 2018
 model=EZY-easyJet_Spirit of easyJet 2018
 texture=EZY-easyJet_Spirit of easyJet 2018
@@ -1369,7 +1318,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.75]
+[fltsim.72]
 title=AIGAIM_easyJet Airbus A319-100 - OC
 model=EZY-easyJet_OC
 texture=EZY-easyJet_OC
@@ -1387,7 +1336,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.76]
+[fltsim.73]
 title=AIGAIM_easyJet Airbus A319-100 - OC Spirit of easyJet 2014
 model=EZY-easyJet_OC Spirit of easyJet 2014
 texture=EZY-easyJet_OC Spirit of easyJet 2014
@@ -1405,7 +1354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.77]
+[fltsim.74]
 title=AIGAIM_easyJet Airbus A319-100 - OC UNICEF
 model=EZY-easyJet_OC UNICEF
 texture=EZY-easyJet_OC UNICEF
@@ -1423,7 +1372,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.78]
+[fltsim.75]
 title=AIGAIM_easyJet Airbus A319-100 - Albino
 model=EZY-easyJet_Albino
 texture=EZY-easyJet_Albino
@@ -1441,7 +1390,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.79]
+[fltsim.76]
 title=AIGAIM_easyJet Airbus A319-100 - Albino Orange Reverser
 model=EZY-easyJet_Albino Orange Reverser
 texture=EZY-easyJet_Albino Orange Reverser
@@ -1459,7 +1408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.80]
+[fltsim.77]
 title=AIGAIM_easyJet Europe Airbus A319-100
 model=EJU-easyJet Europe
 texture=EJU-easyJet Europe
@@ -1477,7 +1426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.81]
+[fltsim.78]
 title=AIGAIM_easyJet Europe Airbus A319-100 - #milaneasy
 model=EJU-easyJet Europe_#milaneasy
 texture=EJU-easyJet Europe_#milaneasy
@@ -1495,7 +1444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.82]
+[fltsim.79]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Adam Stoaling
 model=EJU-easyJet Europe_Adam Stoaling
 texture=EJU-easyJet Europe_Adam Stoaling
@@ -1513,7 +1462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.83]
+[fltsim.80]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Europcar Keri Emerton
 model=EJU-easyJet Europe_Europcar Keri Emerton
 texture=EJU-easyJet Europe_Europcar Keri Emerton
@@ -1531,7 +1480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.84]
+[fltsim.81]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Palma de Mallorca
 model=EJU-easyJet Europe_Palma de Mallorca
 texture=EJU-easyJet Europe_Palma de Mallorca
@@ -1549,7 +1498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.85]
+[fltsim.82]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Spirit of Bristol
 model=EJU-easyJet Europe_Spirit of Bristol
 texture=EJU-easyJet Europe_Spirit of Bristol
@@ -1567,7 +1516,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.86]
+[fltsim.83]
 title=AIGAIM_easyJet Europe Airbus A319-100 - Venezia
 model=EJU-easyJet Europe_Venezia
 texture=EJU-easyJet Europe_Venezia
@@ -1585,7 +1534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.87]
+[fltsim.84]
 title=AIGAIM_easyJet Europe Airbus A319-100 - OC
 model=EJU-easyJet Europe_OC
 texture=EJU-easyJet Europe_OC
@@ -1603,7 +1552,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.88]
+[fltsim.85]
 title=AIGAIM_easyJet Europe Airbus A319-100 - OC ex Hamburg
 model=EJU-easyJet Europe_OC ex Hamburg
 texture=EJU-easyJet Europe_OC ex Hamburg
@@ -1621,7 +1570,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.89]
+[fltsim.86]
 title=AIGAIM_easyJet Switzerland Airbus A319-100
 model=EZS-easyJet Switzerland
 texture=EZS-easyJet Switzerland
@@ -1639,7 +1588,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZS
 
-[fltsim.90]
+[fltsim.87]
 title=AIGAIM_easyJet Switzerland Airbus A319-100 - Spirit of easyJet 2016
 model=EZS-easyJet Switzerland_Spirit of easyJet 2016
 texture=EZS-easyJet Switzerland_Spirit of easyJet 2016
@@ -1657,7 +1606,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZS
 
-[fltsim.91]
+[fltsim.88]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM
 model=EWG-Eurowings_CFM
 texture=EWG-Eurowings_CFM
@@ -1675,7 +1624,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.92]
+[fltsim.89]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM Germanwings WiFi Dome
 model=EWG-Eurowings_CFM Germanwings WiFi Dome
 texture=EWG-Eurowings_CFM Germanwings WiFi Dome
@@ -1693,7 +1642,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.93]
+[fltsim.90]
 title=AIGAIM_Eurowings Airbus A319-100 - CFM CSA Hybrid
 model=EWG-Eurowings_CFM CSA Hybrid
 texture=EWG-Eurowings_CFM CSA Hybrid
@@ -1711,7 +1660,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.94]
+[fltsim.91]
 title=AIGAIM_Finnair Airbus A319-100
 model=FIN-Finnair
 texture=FIN-Finnair
@@ -1729,7 +1678,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.95]
+[fltsim.92]
 title=AIGAIM_Finnair Airbus A319-100 - Oneworld
 model=FIN-Finnair_Oneworld
 texture=FIN-Finnair_Oneworld
@@ -1747,7 +1696,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.96]
+[fltsim.93]
 title=AIGAIM_FlyBosnia Airbus A319-100
 model=FBS-FlyBosnia
 texture=FBS-FlyBosnia
@@ -1765,7 +1714,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBS
 
-[fltsim.97]
+[fltsim.94]
 title=AIGAIM_FlyBosnia Airbus A319-100 - EYOF 2019
 model=FBS-FlyBosnia_EYOF 2019
 texture=FBS-FlyBosnia_EYOF 2019
@@ -1783,7 +1732,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBS
 
-[fltsim.98]
+[fltsim.95]
 title=AIGAIM_Flynas Airbus A319-100 - OC
 model=KNE-Flynas_OC
 texture=KNE-Flynas_OC
@@ -1801,7 +1750,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNE
 
-[fltsim.99]
+[fltsim.96]
 title=AIGAIM_Flynas Airbus A319-100 - OC Abha 2017
 model=KNE-Flynas_OC Abha 2017
 texture=KNE-Flynas_OC Abha 2017
@@ -1819,7 +1768,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNE
 
-[fltsim.100]
+[fltsim.97]
 title=AIGAIM_FlyOne Airbus A319-100 - CFM 'Chisinau'
 model=FIA-FlyOne_CFM 'Chisinau'
 texture=FIA-FlyOne_CFM 'Chisinau'
@@ -1837,7 +1786,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIA
 
-[fltsim.101]
+[fltsim.98]
 title=AIGAIM_Frontier Airlines Airbus A319-100 - N949FR OC Erma the Ermine
 model=FFT-Frontier Airlines_N949FR OC Erma the Ermine
 texture=FFT-Frontier Airlines_N949FR OC Erma the Ermine
@@ -1855,7 +1804,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.102]
+[fltsim.99]
 title=AIGAIM_Iberia Airbus A319-100
 model=IBE-Iberia
 texture=IBE-Iberia
@@ -1873,7 +1822,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.103]
+[fltsim.100]
 title=AIGAIM_Iberia Airbus A319-100 - red name
 model=IBE-Iberia_red name
 texture=IBE-Iberia_red name
@@ -1891,7 +1840,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.104]
+[fltsim.101]
 title=AIGAIM_Iberia Airbus A319-100 - unnamed
 model=IBE-Iberia_unnamed
 texture=IBE-Iberia_unnamed
@@ -1909,7 +1858,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.105]
+[fltsim.102]
 title=AIGAIM_Iberia Airbus A319-100 - Halcon Peregrino
 model=IBE-Iberia_Halcon Peregrino
 texture=IBE-Iberia_Halcon Peregrino
@@ -1927,7 +1876,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.106]
+[fltsim.103]
 title=AIGAIM_Iberia Airbus A319-100 - Oneworld
 model=IBE-Iberia_Oneworld
 texture=IBE-Iberia_Oneworld
@@ -1945,7 +1894,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.107]
+[fltsim.104]
 title=AIGAIM_Iberia Airbus A319-100 - OC
 model=IBE-Iberia_OC
 texture=IBE-Iberia_OC
@@ -1963,7 +1912,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.108]
+[fltsim.105]
 title=AIGAIM_Icelandair Airbus A319-100 - opb GetJet Airlines
 model=ICE-Icelandair_opb GetJet Airlines
 texture=ICE-Icelandair_opb GetJet Airlines
@@ -1981,7 +1930,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.109]
+[fltsim.106]
 title=AIGAIM_iFly Airlines Airbus A319-100
 model=RSY-iFly Airlines
 texture=RSY-iFly Airlines
@@ -1999,7 +1948,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RSY
 
-[fltsim.110]
+[fltsim.107]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM
 model=TAM-LATAM Airlines Brasil_CFM
 texture=TAM-LATAM Airlines Brasil_CFM
@@ -2016,7 +1965,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.111]
+[fltsim.108]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - CFM OC (TEMP)
 model=TAM-LATAM Airlines Brasil_CFM OC_temp
 texture=TAM-LATAM Airlines Brasil_CFM OC_temp
@@ -2034,7 +1983,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.112]
+[fltsim.109]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - CFM OC
 model=LPE-LATAM Airlines Peru_CFM OC
 texture=LPE-LATAM Airlines Peru_CFM OC
@@ -2051,7 +2000,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.113]
+[fltsim.110]
 title=AIGAIM_Libyan Wings Airbus A319-100
 model=LWA-Libyan Wings
 texture=LWA-Libyan Wings
@@ -2069,7 +2018,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LWA
 
-[fltsim.114]
+[fltsim.111]
 title=AIGAIM_LOT Polish Airlines Airbus A319-100 - White opb GJT
 model=LOT-LOT Polish Airlines_White opb GJT
 texture=LOT-LOT Polish Airlines_White opb GJT
@@ -2087,7 +2036,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.115]
+[fltsim.112]
 title=AIGAIM_Lufthansa Airbus A319-100
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -2105,7 +2054,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.116]
+[fltsim.113]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC
 model=DLH-Lufthansa_OC
 texture=DLH-Lufthansa_OC
@@ -2123,7 +2072,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.117]
+[fltsim.114]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Webtitles
 model=DLH-Lufthansa_OC Webtitles
 texture=DLH-Lufthansa_OC Webtitles
@@ -2141,7 +2090,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.118]
+[fltsim.115]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -2159,7 +2108,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.119]
+[fltsim.116]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC unnamed Webtitles
 model=DLH-Lufthansa_OC unnamed Webtitles
 texture=DLH-Lufthansa_OC unnamed Webtitles
@@ -2177,7 +2126,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.120]
+[fltsim.117]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Lu's World
 model=DLH-Lufthansa_OC Lu's World
 texture=DLH-Lufthansa_OC Lu's World
@@ -2195,7 +2144,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.121]
+[fltsim.118]
 title=AIGAIM_Lufthansa Airbus A319-100 - OC Star Alliance unnamed
 model=DLH-Lufthansa_OC Star Alliance unnamed
 texture=DLH-Lufthansa_OC Star Alliance unnamed
@@ -2213,7 +2162,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.122]
+[fltsim.119]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH
 model=DLH-Lufthansa_opb CLH
 texture=DLH-Lufthansa_opb CLH
@@ -2231,7 +2180,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.123]
+[fltsim.120]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC
 model=DLH-Lufthansa_opb CLH OC
 texture=DLH-Lufthansa_opb CLH OC
@@ -2249,7 +2198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.124]
+[fltsim.121]
 title=AIGAIM_Lufthansa Airbus A319-100 - opb CLH OC Webtitles
 model=DLH-Lufthansa_opb CLH OC Webtitles
 texture=DLH-Lufthansa_opb CLH OC Webtitles
@@ -2267,7 +2216,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.125]
+[fltsim.122]
 title=AIGAIM_Myanmar Airways International Airbus A319-100
 model=MMA-Myanmar Airways International
 texture=MMA-Myanmar Airways International
@@ -2285,7 +2234,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MMA
 
-[fltsim.126]
+[fltsim.123]
 title=AIGAIM_Rossiya Airlines Airbus A319-100
 model=SDM-Rossiya Airlines
 texture=SDM-Rossiya Airlines
@@ -2303,7 +2252,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.127]
+[fltsim.124]
 title=AIGAIM_Rossiya Airlines Airbus A319-100 - Zenit St. Petersburg
 model=SDM-Rossiya Airlines_Zenit St. Petersburg
 texture=SDM-Rossiya Airlines_Zenit St. Petersburg
@@ -2321,7 +2270,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.128]
+[fltsim.125]
 title=AIGAIM_Rossiya Airlines Airbus A319-100 - Sports (TEMP)
 model=SDM-Rossiya Airlines_Sports_temp
 texture=SDM-Rossiya Airlines_Sports_temp
@@ -2339,7 +2288,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.129]
+[fltsim.126]
 title=AIGAIM_S7 Airlines Airbus A319-100 - Oneworld
 model=SBI-S7 Airlines_Oneworld
 texture=SBI-S7 Airlines_Oneworld
@@ -2356,7 +2305,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.130]
+[fltsim.127]
 title=AIGAIM_S7 Airlines Airbus A319-100 - OC
 model=SBI-S7 Airlines_OC
 texture=SBI-S7 Airlines_OC
@@ -2374,7 +2323,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.131]
+[fltsim.128]
 title=AIGAIM_Shenzhen Airlines Airbus A319-100 - CFM
 model=CSZ-Shenzhen Airlines_CFM
 texture=CSZ-Shenzhen Airlines_CFM
@@ -2392,7 +2341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.132]
+[fltsim.129]
 title=AIGAIM_Sky Airline Airbus A319-100
 model=SKU-Sky Airline
 texture=SKU-Sky Airline
@@ -2410,7 +2359,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKU
 
-[fltsim.133]
+[fltsim.130]
 title=AIGAIM_Sky Airline Airbus A319-100 - OC
 model=SKU-Sky Airline_OC
 texture=SKU-Sky Airline_OC
@@ -2428,7 +2377,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKU
 
-[fltsim.134]
+[fltsim.131]
 title=AIGAIM_Swiss Airbus A319-100
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -2446,7 +2395,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.135]
+[fltsim.132]
 title=AIGAIM_Swiss Airbus A319-100 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -2464,7 +2413,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.136]
+[fltsim.133]
 title=AIGAIM_TAP Air Portugal Airbus A319-100
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -2482,7 +2431,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.137]
+[fltsim.134]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -2500,7 +2449,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.138]
+[fltsim.135]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -2518,7 +2467,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.139]
+[fltsim.136]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - IC old webtitles 70 years
 model=TAP-TAP Air Portugal_IC old webtitles 70 years
 texture=TAP-TAP Air Portugal_IC old webtitles 70 years
@@ -2536,7 +2485,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.140]
+[fltsim.137]
 title=AIGAIM_TAP Air Portugal Airbus A319-100 - lsf Aigle Azur
 model=TAP-TAP Air Portugal_lsf Aigle Azur
 texture=TAP-TAP Air Portugal_lsf Aigle Azur
@@ -2554,7 +2503,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.141]
+[fltsim.138]
 title=AIGAIM_Transavia France Airbus A319-100 - opb HiFly Malta 9H-TLS
 model=TVF-Transavia France_opb HiFly Malta 9H-TLS
 texture=TVF-Transavia France_opb HiFly Malta 9H-TLS
@@ -2572,7 +2521,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.142]
+[fltsim.139]
 title=AIGAIM_Tunisair Airbus A319-100
 model=TAR-Tunisair
 texture=TAR-Tunisair
@@ -2590,7 +2539,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.143]
+[fltsim.140]
 title=AIGAIM_Ural Airlines Airbus A319-100 - CFM
 model=SVR-Ural Airlines_CFM
 texture=SVR-Ural Airlines_CFM
@@ -2608,7 +2557,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.144]
+[fltsim.141]
 title=AIGAIM_Ural Airlines Airbus A319-100 - CFM 2 Overwing Exits
 model=SVR-Ural Airlines_CFM 2 Overwing Exits
 texture=SVR-Ural Airlines_CFM 2 Overwing Exits
@@ -2626,7 +2575,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.145]
+[fltsim.142]
 title=AIGAIM_Volotea Airbus A319-100 - English / French
 model=VOE-Volotea_English _ French
 texture=VOE-Volotea_English _ French
@@ -2644,7 +2593,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.146]
+[fltsim.143]
 title=AIGAIM_Volotea Airbus A319-100 - French / English
 model=VOE-Volotea_French _ English
 texture=VOE-Volotea_French _ English
@@ -2662,7 +2611,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.147]
+[fltsim.144]
 title=AIGAIM_Volotea Airbus A319-100 - French / French
 model=VOE-Volotea_French _ French
 texture=VOE-Volotea_French _ French
@@ -2680,7 +2629,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.148]
+[fltsim.145]
 title=AIGAIM_Volotea Airbus A319-100 - French / Italian
 model=VOE-Volotea_French _ Italian
 texture=VOE-Volotea_French _ Italian
@@ -2698,7 +2647,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.149]
+[fltsim.146]
 title=AIGAIM_Volotea Airbus A319-100 - French / Italian unnamed
 model=VOE-Volotea_French _ Italian unnamed
 texture=VOE-Volotea_French _ Italian unnamed
@@ -2716,7 +2665,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.150]
+[fltsim.147]
 title=AIGAIM_Volotea Airbus A319-100 - French / Spanish
 model=VOE-Volotea_French _ Spanish
 texture=VOE-Volotea_French _ Spanish
@@ -2734,7 +2683,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.151]
+[fltsim.148]
 title=AIGAIM_Volotea Airbus A319-100 - French / Spanish Asturias
 model=VOE-Volotea_French _ Spanish Asturias
 texture=VOE-Volotea_French _ Spanish Asturias
@@ -2752,7 +2701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.152]
+[fltsim.149]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / English
 model=VOE-Volotea_Italian _ English
 texture=VOE-Volotea_Italian _ English
@@ -2770,7 +2719,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.153]
+[fltsim.150]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / English Cantabria
 model=VOE-Volotea_Italian _ English Cantabria
 texture=VOE-Volotea_Italian _ English Cantabria
@@ -2788,7 +2737,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.154]
+[fltsim.151]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / French
 model=VOE-Volotea_Italian _ French
 texture=VOE-Volotea_Italian _ French
@@ -2806,7 +2755,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.155]
+[fltsim.152]
 title=AIGAIM_Volotea Airbus A319-100 - Italian / Spanish
 model=VOE-Volotea_Italian _ Spanish
 texture=VOE-Volotea_Italian _ Spanish
@@ -2824,7 +2773,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.156]
+[fltsim.153]
 title=AIGAIM_Volotea Airbus A319-100 - Spanish / French
 model=VOE-Volotea_Spanish _ French
 texture=VOE-Volotea_Spanish _ French
@@ -2842,7 +2791,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.157]
+[fltsim.154]
 title=AIGAIM_Volotea Airbus A319-100 - Spanish / Italian
 model=VOE-Volotea_Spanish _ Italian
 texture=VOE-Volotea_Spanish _ Italian
@@ -2860,7 +2809,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.158]
+[fltsim.155]
 title=AIGAIM_Volotea Airbus A319-100 - Allez les Canaris
 model=VOE-Volotea_Allez les Canaris
 texture=VOE-Volotea_Allez les Canaris
@@ -2878,7 +2827,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.159]
+[fltsim.156]
 title=AIGAIM_Vueling Airbus A319-100 - CFM unnamed
 model=VLG-Vueling_CFM unnamed
 texture=VLG-Vueling_CFM unnamed
@@ -2895,3 +2844,109 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
+
+[fltsim.157]
+title=AIGAIM_Lucky Air Airbus A319-100
+model=LKE-Lucky Air
+texture=LKE-Lucky Air
+atc_id=B-6198
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Lucky Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319 Lucky Air NC.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.158]
+title=AIGAIM_Lucky Air Airbus A319-100 - Albino
+model=LKE-Lucky Air_Albino
+texture=LKE-Lucky Air_Albino
+atc_id=B-6221
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Lucky Air  B-6221
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_lucky_air_319_stamp.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.159]
+title=AIGAIM_Lucky Air Airbus A319-100 - OC Old HNA Logo Engine Titles
+model=LKE-Lucky Air_OC Old HNA Logo Engine Titles
+texture=LKE-Lucky Air_OC Old HNA Logo Engine Titles
+atc_id=B-6212
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Lucky Air B-6212
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a319_lke_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.160]
+title=AIGAIM_Air Cote d'Ivoire Airbus A319-100 (TEMP)
+model=VRE-Air Cote d'Ivoire_temp
+texture=VRE-Air Cote d'Ivoire_temp
+atc_airline=COTE D IVOIRE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRE
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Air Cote d'Ivoire - Sharklets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_aircotedivoire_319.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRE
+
+[fltsim.161]
+title=AIGAIM_Croatia Airlines Airbus A319-100 - OC Zagreb
+model=CTN-Croatia Airlines_OC Zagreb
+texture=CTN-Croatia Airlines_OC Zagreb
+atc_airline=CROATIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CTN
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Croatia Airlines 9A-CTH Zagreb
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_ctn_a319_fsx.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CTN
+
+[fltsim.162]
+title=AIGAIM_Trade Air Airbus A319-100 - CFM opb MyWings 'Nene Tereza'
+model=TDR-Trade Air_CFM opb MyWings 'Nene Tereza'
+texture=TDR-Trade Air_CFM opb MyWings 'Nene Tereza'
+atc_id=9A-BTJ
+atc_airline=TRADE AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TDR
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Trade Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: MyWings A319 FSX.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TDR

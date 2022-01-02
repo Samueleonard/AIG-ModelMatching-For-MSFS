@@ -3,18 +3,18 @@ major=1
 minor=0
 
 [General]
-atc_type="TT:ATCCOM.ATC_NAME EMBRAER.0.text"
-atc_model="$$:E190"
+atc_type="TT:ATCCOM.ATC_NAME Embraer.0.text"
+atc_model=$$:EMB-190
 Category="airplane"
 performance=""
 editable=1
 wip_indicator=2
-icao_type_designator="E190"
-icao_manufacturer="EMBRAER"
-icao_model="190"
+icao_type_designator=E190
+icao_manufacturer=Embraer
+icao_model=ERJ-190-100
 icao_engine_type="Jet"
 icao_engine_count=2
-icao_WTC="M"
+icao_WTC=M
 icao_generic=0
 
 [PILOT]

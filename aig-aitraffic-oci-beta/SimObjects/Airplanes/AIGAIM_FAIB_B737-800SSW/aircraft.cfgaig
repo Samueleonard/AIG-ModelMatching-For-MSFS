@@ -2182,3 +2182,90 @@ description=FAIB_B737-800SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
+
+[fltsim.121]
+title=AIGAIM_Belavia Boeing 737-800SSW
+model=BRU-Belavia
+texture=BRU-Belavia
+atc_airline=BELAVIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BRU
+ui_type=Boeing 737-800SSW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_bru_b738_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BRU
+
+[fltsim.122]
+title=AIGAIM_SunExpress Boeing 737-800SSW - 30 years
+model=SXS-SunExpress_30 years
+texture=SXS-SunExpress_30 years
+atc_id=TC-SNN
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.123]
+title=AIGAIM_SunExpress Boeing 737-800SSW - Shaun the Sheep
+model=SXS-SunExpress_Shaun the Sheep
+texture=SXS-SunExpress_Shaun the Sheep
+atc_id=TC-SNU
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.124]
+title=AIGAIM_SunExpress Boeing 737-800SSW - Albino, white tail
+model=SXS-SunExpress_Albino, white tail
+texture=SXS-SunExpress_Albino, white tail
+atc_id=TC-SPF
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.125]
+title=AIGAIM_SunExpress Boeing 737-800SSW - SN 30 years
+model=SXS-SunExpress_SN 30 years
+texture=SXS-SunExpress_SN 30 years
+atc_id=TC-SEK
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS

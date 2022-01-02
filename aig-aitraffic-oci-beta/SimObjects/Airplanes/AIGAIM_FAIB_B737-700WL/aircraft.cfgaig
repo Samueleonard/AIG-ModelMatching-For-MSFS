@@ -2293,3 +2293,129 @@ description=FAIB_B737-700WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
+
+[fltsim.127]
+title=AIGAIM_Lucky Air Boeing 737-700WL
+model=LKE-Lucky Air
+texture=LKE-Lucky Air
+atc_id=B-5813
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=Boeing
+ui_type=Boeing 737-700WL
+ui_variation=Lucky Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B737 Lucky Air NC.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.128]
+title=AIGAIM_Lucky Air Boeing 737-700WL - OC Old HNA Logo
+model=LKE-Lucky Air_OC Old HNA Logo
+texture=LKE-Lucky Air_OC Old HNA Logo
+atc_id=B-5823
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700WL
+ui_variation=Lucky Air B-5810 (new colours)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_737_lke_nc_fsx.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.129]
+title=AIGAIM_Lucky Air Boeing 737-700WL - OOC Old HNA Logo
+model=LKE-Lucky Air_OOC Old HNA Logo
+texture=LKE-Lucky Air_OOC Old HNA Logo
+atc_id=B-5272
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700WL
+ui_variation=Lucky Air B-5272
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_737lke_fleet_fsx.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.130]
+title=AIGAIM_Lucky Air Boeing 737-700WL - Oriental Sea
+model=LKE-Lucky Air_Oriental Sea
+texture=LKE-Lucky Air_Oriental Sea
+atc_id=B-5268
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700WL
+ui_variation=Lucky Air 'Oriental Sea' logojet B-5268
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_737_lke_5268_fsx.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.131]
+title=AIGAIM_Lucky Air Boeing 737-700WL - SN OC Old HNA Logo
+model=LKE-Lucky Air_SN OC Old HNA Logo
+texture=LKE-Lucky Air_SN OC Old HNA Logo
+atc_id=B-5823
+atc_airline=LUCKY AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700WL
+ui_variation=Lucky Air B-5823 (new colours short nozzle)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: faib_737_lke_nc_fsx.zip
+description=FAIB_B737-700WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.132]
+title=AIGAIM_Lumiwings Boeing 737-700WL
+model=LWI-Lumiwings
+texture=LWI-Lumiwings
+atc_id=SX-LWC
+atc_airline=LUMI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LWI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-700WL
+ui_variation=Lumiwings
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700WL_Lumiwings_FSX.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LWI
+
+[fltsim.133]
+title=AIGAIM_Blue Air Boeing 737-700WL - OC Albino
+model=BLA-Blue Air_OC Albino
+texture=BLA-Blue Air_OC Albino
+atc_id=YR-BMR
+atc_airline=BLUE AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-700WL
+ui_variation=Blue Air 'white fuselage'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-700WL_Blue Air_FSX.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLA

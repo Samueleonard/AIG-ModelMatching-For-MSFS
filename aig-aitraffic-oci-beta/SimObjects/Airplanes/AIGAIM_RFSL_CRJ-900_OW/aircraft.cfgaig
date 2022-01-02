@@ -3,16 +3,17 @@ major=1 ;
 minor=0 ; 
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME BOMBARDIER.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL CRJ9.0.text ; 
+atc_type="TT:ATCCOM.ATC_NAME BOMBARDIER.0.text" ; 
+atc_model="$$:CRJ900" ; 
 category=Airplane ; 
 icao_type_designator=CRJ9 ; 
-icao_manufacturer=CANADAIR; 
+icao_manufacturer=BOMBARDIER; 
 icao_model=Regional Jet CRJ-900 ; 
-icao_engine_type=Jet; 
+icao_engine_type="Jet"; 
 icao_engine_count=2 ; 
 icao_wtc="M" ; 
 editable=1
+icao_generic=0
 
 [EFFECTS]
 wake=fx_wake ; 

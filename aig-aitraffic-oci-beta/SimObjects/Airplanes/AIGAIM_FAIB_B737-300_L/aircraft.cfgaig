@@ -69,24 +69,6 @@ isUserSelectable=0
 icao_airline=ETR
 
 [fltsim.2]
-title=AIGAIM_AirBaltic Boeing 737-300
-model=BTI-AirBaltic
-texture=BTI-AirBaltic
-atc_id=YL-BBR
-atc_airline=AIRBALTIC
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BTI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300
-ui_variation=A/S Air Baltic Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B733 airBaltic FSX.zip
-description=FAIB_B737-300-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BTI
-
-[fltsim.3]
 title=AIGAIM_Air Bucharest Boeing 737-300
 model=BUR-Air Bucharest
 texture=BUR-Air Bucharest
@@ -103,7 +85,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BUR
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Air Serbia Boeing 737-300 - Aviolet
 model=ASL-Air Serbia_Aviolet
 texture=ASL-Air Serbia_Aviolet
@@ -121,7 +103,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASL
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Aloha Air Cargo Boeing 737-300 - SF
 model=AAH-Aloha Air Cargo_SF
 texture=AAH-Aloha Air Cargo_SF
@@ -139,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAH
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Aloha Air Cargo Boeing 737-300 - SF cargo door bumper
 model=AAH-Aloha Air Cargo_SF cargo door bumper
 texture=AAH-Aloha Air Cargo_SF cargo door bumper
@@ -157,7 +139,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAH
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Aloha Air Cargo Boeing 737-300 - SF Northern Air Cargo
 model=AAH-Aloha Air Cargo_SF Northern Air Cargo
 texture=AAH-Aloha Air Cargo_SF Northern Air Cargo
@@ -175,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAH
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-300 - SF White opb ASL Airlines France
 model=TAY-ASL Airlines Belgium_SF White opb ASL Airlines France
 texture=TAY-ASL Airlines Belgium_SF White opb ASL Airlines France
@@ -193,7 +175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_ASL Airlines France Boeing 737-300 - QC White Titles LHS
 model=FPO-ASL Airlines France_QC White Titles LHS
 texture=FPO-ASL Airlines France_QC White Titles LHS
@@ -211,7 +193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_ASL Airlines France Boeing 737-300 - QC Europe Airpost Hybrid
 model=FPO-ASL Airlines France_QC Europe Airpost Hybrid
 texture=FPO-ASL Airlines France_QC Europe Airpost Hybrid
@@ -229,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Avia Traffic Company Boeing 737-300
 model=AVJ-Avia Traffic Company
 texture=AVJ-Avia Traffic Company
@@ -247,7 +229,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVJ
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Avia Traffic Company Boeing 737-300 - Eyebrows
 model=AVJ-Avia Traffic Company_Eyebrows
 texture=AVJ-Avia Traffic Company_Eyebrows
@@ -264,7 +246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVJ
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Avia Traffic Company Boeing 737-300 - Cello Hybrid
 model=AVJ-Avia Traffic Company_Cello Hybrid
 texture=AVJ-Avia Traffic Company_Cello Hybrid
@@ -281,7 +263,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVJ
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Azman Air Boeing 737-300
 model=AZM-Azman Air
 texture=AZM-Azman Air
@@ -298,7 +280,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZM
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Badr Airlines Boeing 737-300 - Eyebrows
 model=BDR-Badr Airlines_Eyebrows
 texture=BDR-Badr Airlines_Eyebrows
@@ -315,7 +297,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BDR
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Bid Air Cargo Boeing 737-300 - SF
 model=BRH-Bid Air Cargo_SF
 texture=BRH-Bid Air Cargo_SF
@@ -333,7 +315,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRH
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Bid Air Cargo Boeing 737-300 - SF Eyebrows
 model=BRH-Bid Air Cargo_SF Eyebrows
 texture=BRH-Bid Air Cargo_SF Eyebrows
@@ -351,7 +333,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRH
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Bluebird Airways Boeing 737-300 - 9H-AJW
 model=BBG-Bluebird Airways_9H-AJW
 texture=BBG-Bluebird Airways_9H-AJW
@@ -369,7 +351,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBG
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Bluebird Airways Boeing 737-300 - 9H-NOA
 model=BBG-Bluebird Airways_9H-NOA
 texture=BBG-Bluebird Airways_9H-NOA
@@ -387,7 +369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBG
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Bluebird Airways Boeing 737-300 - 9H-TAS
 model=BBG-Bluebird Airways_9H-TAS
 texture=BBG-Bluebird Airways_9H-TAS
@@ -405,7 +387,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBG
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Boliviana de Aviacion Boeing 737-300
 model=BOV-Boliviana de Aviacion
 texture=BOV-Boliviana de Aviacion
@@ -423,7 +405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BOV
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Boliviana de Aviacion Boeing 737-300 - La Nuestra La De Todos
 model=BOV-Boliviana de Aviacion_La Nuestra La De Todos
 texture=BOV-Boliviana de Aviacion_La Nuestra La De Todos
@@ -441,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BOV
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Boliviana de Aviacion Boeing 737-300 - eyebrows La Nuestra La De Todos
 model=BOV-Boliviana de Aviacion_eyebrows La Nuestra La De Todos
 texture=BOV-Boliviana de Aviacion_eyebrows La Nuestra La De Todos
@@ -459,7 +441,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BOV
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Boliviana de Aviacion Boeing 737-300 - eyebrows lower titles
 model=BOV-Boliviana de Aviacion_eyebrows lower titles
 texture=BOV-Boliviana de Aviacion_eyebrows lower titles
@@ -477,7 +459,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BOV
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Bulgaria Air Boeing 737-300 - opb Bulair EU Tail LZ-BOT
 model=LZB-Bulgaria Air_opb Bulair EU Tail LZ-BOT
 texture=LZB-Bulgaria Air_opb Bulair EU Tail LZ-BOT
@@ -495,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LZB
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Cabo Verde Airlines Boeing 737-300 - opb Cobrex Trans
 model=TCV-Cabo Verde Airlines_opb Cobrex Trans
 texture=TCV-Cabo Verde Airlines_opb Cobrex Trans
@@ -512,7 +494,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TCV
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Canadian North Boeing 737-300 - OC
 model=MPE-Canadian North_OC
 texture=MPE-Canadian North_OC
@@ -530,7 +512,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Canadian North Boeing 737-300 - OC Eyebrows
 model=MPE-Canadian North_OC Eyebrows
 texture=MPE-Canadian North_OC Eyebrows
@@ -548,7 +530,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Canadian North Boeing 737-300 - CFL
 model=MPE-Canadian North_CFL
 texture=MPE-Canadian North_CFL
@@ -565,7 +547,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Canadian North Boeing 737-300 - Celebrity Cruises
 model=MPE-Canadian North_Celebrity Cruises
 texture=MPE-Canadian North_Celebrity Cruises
@@ -582,7 +564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Canadian North Boeing 737-300C - Combi OC
 model=MPE-Canadian North_Combi OC
 texture=MPE-Canadian North_Combi OC
@@ -600,7 +582,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Cargoair Boeing 737-300 - SF Eyebrows additional sticker
 model=CGF-Cargoair_SF Eyebrows additional sticker
 texture=CGF-Cargoair_SF Eyebrows additional sticker
@@ -618,7 +600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Cayman Airways Boeing 737-300
 model=CAY-Cayman Airways
 texture=CAY-Cayman Airways
@@ -636,24 +618,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAY
 
-[fltsim.34]
-title=AIGAIM_China Southern Airlines Boeing 737-300
-model=CSN-China Southern Airlines
-texture=CSN-China Southern Airlines
-atc_airline=CHINA SOUTHERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSN
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300
-ui_variation=China Southern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
-description=FAIB_B737-300-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSN
-
-[fltsim.35]
+[fltsim.33]
 title=AIGAIM_Daallo Airlines Boeing 737-300 - Eyebrows
 model=DAO-Daallo Airlines_Eyebrows
 texture=DAO-Daallo Airlines_Eyebrows
@@ -670,7 +635,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAO
 
-[fltsim.36]
+[fltsim.34]
 title=AIGAIM_EAT Leipzig Boeing 737-300 - SF opb Bluebird Nordic
 model=BCS-EAT Leipzig_SF opb Bluebird Nordic
 texture=BCS-EAT Leipzig_SF opb Bluebird Nordic
@@ -688,7 +653,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.37]
+[fltsim.35]
 title=AIGAIM_Ellinair Boeing 737-300 - Albino opb Bul Air
 model=ELB-Ellinair_Albino opb Bul Air
 texture=ELB-Ellinair_Albino opb Bul Air
@@ -706,7 +671,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELB
 
-[fltsim.38]
+[fltsim.36]
 title=AIGAIM_Eritrean Airlines Boeing 737-300 - opb YanAir
 model=ERT-Eritrean Airlines_opb YanAir
 texture=ERT-Eritrean Airlines_opb YanAir
@@ -723,7 +688,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ERT
 
-[fltsim.39]
+[fltsim.37]
 title=AIGAIM_Express Air Cargo Boeing 737-300 - QC
 model=XRC-Express Air Cargo_QC
 texture=XRC-Express Air Cargo_QC
@@ -741,7 +706,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=XRC
 
-[fltsim.40]
+[fltsim.38]
 title=AIGAIM_Express Air Cargo Boeing 737-300 - SF ex Texel TS-ICB
 model=XRC-Express Air Cargo_SF ex Texel TS-ICB
 texture=XRC-Express Air Cargo_SF ex Texel TS-ICB
@@ -759,7 +724,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=XRC
 
-[fltsim.41]
+[fltsim.39]
 title=AIGAIM_Fly Jordan Boeing 737-300
 model=FJR-Fly Jordan
 texture=FJR-Fly Jordan
@@ -774,7 +739,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FJR
 
-[fltsim.42]
+[fltsim.40]
 title=AIGAIM_iAero Airways Cargo Boeing 737-300 - BDSF
 model=SWQ-iAero Airways Cargo_BDSF
 texture=SWQ-iAero Airways Cargo_BDSF
@@ -792,7 +757,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.43]
+[fltsim.41]
 title=AIGAIM_Jet2com Boeing 737-300 - ex QC
 model=EXS-Jet2com_ex QC
 texture=EXS-Jet2com_ex QC
@@ -809,7 +774,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.44]
+[fltsim.42]
 title=AIGAIM_Jordan Aviation Boeing 737-300
 model=JAV-Jordan Aviation
 texture=JAV-Jordan Aviation
@@ -827,7 +792,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAV
 
-[fltsim.45]
+[fltsim.43]
 title=AIGAIM_Longhao Airlines Boeing 737-300 - SF Eyebrows
 model=LHA-Longhao Airlines_SF Eyebrows
 texture=LHA-Longhao Airlines_SF Eyebrows
@@ -844,7 +809,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LHA
 
-[fltsim.46]
+[fltsim.44]
 title=AIGAIM_Loong Air Boeing 737-300 - SF CDI Cargo Hybrid
 model=CDC-Loong Air_SF CDI Cargo Hybrid
 texture=CDC-Loong Air_SF CDI Cargo Hybrid
@@ -862,7 +827,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.47]
+[fltsim.45]
 title=AIGAIM_Loong Air Boeing 737-300 - SF CDI Cargo Livery
 model=CDC-Loong Air_SF CDI Cargo Livery
 texture=CDC-Loong Air_SF CDI Cargo Livery
@@ -880,7 +845,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.48]
+[fltsim.46]
 title=AIGAIM_Mid Africa Aviation Boeing 737-300
 model=MFG-Mid Africa Aviation
 texture=MFG-Mid Africa Aviation
@@ -897,7 +862,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MFG
 
-[fltsim.49]
+[fltsim.47]
 title=AIGAIM_Nauru Airlines Boeing 737-300
 model=RON-Nauru Airlines
 texture=RON-Nauru Airlines
@@ -915,7 +880,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RON
 
-[fltsim.50]
+[fltsim.48]
 title=AIGAIM_Nauru Airlines Boeing 737-300 - Eyebrows named
 model=RON-Nauru Airlines_Eyebrows named
 texture=RON-Nauru Airlines_Eyebrows named
@@ -933,7 +898,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RON
 
-[fltsim.51]
+[fltsim.49]
 title=AIGAIM_Nauru Airlines Boeing 737-300 - SF Eyebrows
 model=RONC-Nauru Airlines_SF Eyebrows
 texture=RONC-Nauru Airlines_SF Eyebrows
@@ -951,12 +916,12 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RONC
 
-[fltsim.52]
+[fltsim.50]
 title=AIGAIM_Nolinor Aviation Boeing 737-300
 model=NRL-Nolinor Aviation
 texture=NRL-Nolinor Aviation
 atc_id=C-GNLQ
-atc_airline=Nolinor
+atc_airline=NOLINOR
 atc_parking_types=GATE,RAMP
 atc_parking_codes=NRL
 ui_manufacturer=FAIB
@@ -969,7 +934,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.53]
+[fltsim.51]
 title=AIGAIM_Northern Air Cargo Boeing 737-300 - SF Aloha Air Cargo
 model=NAC-Northern Air Cargo_SF Aloha Air Cargo
 texture=NAC-Northern Air Cargo_SF Aloha Air Cargo
@@ -987,7 +952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAC
 
-[fltsim.54]
+[fltsim.52]
 title=AIGAIM_SCAT Airlines Boeing 737-300 - OC
 model=VSV-SCAT Airlines_OC
 texture=VSV-SCAT Airlines_OC
@@ -1005,7 +970,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.55]
+[fltsim.53]
 title=AIGAIM_Sepehran Airlines Boeing 737-300
 model=SHI-Sepehran Airlines
 texture=SHI-Sepehran Airlines
@@ -1020,7 +985,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SHI
 
-[fltsim.56]
+[fltsim.54]
 title=AIGAIM_Somon Air Boeing 737-300
 model=SMR-Somon Air
 texture=SMR-Somon Air
@@ -1038,7 +1003,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SMR
 
-[fltsim.57]
+[fltsim.55]
 title=AIGAIM_Sriwijaya Air Boeing 737-300
 model=SJY-Sriwijaya Air
 texture=SJY-Sriwijaya Air
@@ -1056,7 +1021,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.58]
+[fltsim.56]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF
 model=YZRC-Suparna Airlines Cargo_SF
 texture=YZRC-Suparna Airlines Cargo_SF
@@ -1074,7 +1039,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.59]
+[fltsim.57]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF Old HNA Logo
 model=YZRC-Suparna Airlines Cargo_SF Old HNA Logo
 texture=YZRC-Suparna Airlines Cargo_SF Old HNA Logo
@@ -1092,7 +1057,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.60]
+[fltsim.58]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF OC
 model=YZRC-Suparna Airlines Cargo_SF OC
 texture=YZRC-Suparna Airlines Cargo_SF OC
@@ -1110,7 +1075,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.61]
+[fltsim.59]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF OC No rear Door Tape
 model=YZRC-Suparna Airlines Cargo_SF OC No rear Door Tape
 texture=YZRC-Suparna Airlines Cargo_SF OC No rear Door Tape
@@ -1128,7 +1093,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.62]
+[fltsim.60]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF OC Old Titles No rear Door Tape
 model=YZRC-Suparna Airlines Cargo_SF OC Old Titles No rear Door Tape
 texture=YZRC-Suparna Airlines Cargo_SF OC Old Titles No rear Door Tape
@@ -1146,7 +1111,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.63]
+[fltsim.61]
 title=AIGAIM_Suparna Airlines Cargo Boeing 737-300 - SF Yangtze River OC
 model=YZRC-Suparna Airlines Cargo_SF Yangtze River OC
 texture=YZRC-Suparna Airlines Cargo_SF Yangtze River OC
@@ -1164,7 +1129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.64]
+[fltsim.62]
 title=AIGAIM_TAROM Boeing 737-300 - Eyebrows
 model=ROT-TAROM_Eyebrows
 texture=ROT-TAROM_Eyebrows
@@ -1176,13 +1141,13 @@ ui_manufacturer=Boeing
 ui_type=Boeing 737-300
 ui_variation=TAROM
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b733_tarom_fsx_302661.zip
+ui_createdby=Provided by: AVSIM2 Filename: faib_b733_tarom_fsx_302661.zip
 description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.65]
+[fltsim.63]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - SF Cargo Airlines-stickers
 model=NPT-West Atlantic UK_SF Cargo Airlines-stickers
 texture=NPT-West Atlantic UK_SF Cargo Airlines-stickers
@@ -1200,7 +1165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.66]
+[fltsim.64]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - SF Albino Cargo Airlines-stickers
 model=NPT-West Atlantic UK_SF Albino Cargo Airlines-stickers
 texture=NPT-West Atlantic UK_SF Albino Cargo Airlines-stickers
@@ -1218,7 +1183,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.67]
+[fltsim.65]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - SF Eyebrows black tail
 model=NPT-West Atlantic UK_SF Eyebrows black tail
 texture=NPT-West Atlantic UK_SF Eyebrows black tail
@@ -1236,7 +1201,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.68]
+[fltsim.66]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - BDSF
 model=NPT-West Atlantic UK_BDSF
 texture=NPT-West Atlantic UK_BDSF
@@ -1254,7 +1219,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.69]
+[fltsim.67]
 title=AIGAIM_YTO Cargo Airlines Boeing 737-300 - SF
 model=HYT-YTO Cargo Airlines_SF
 texture=HYT-YTO Cargo Airlines_SF
@@ -1271,7 +1236,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYT
 
-[fltsim.70]
+[fltsim.68]
 title=AIGAIM_YTO Cargo Airlines Boeing 737-300 - SF OC
 model=HYT-YTO Cargo Airlines_SF OC
 texture=HYT-YTO Cargo Airlines_SF OC
@@ -1288,7 +1253,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYT
 
-[fltsim.71]
+[fltsim.69]
 title=AIGAIM_YTO Cargo Airlines Boeing 737-300 - SF OC Taobao.com
 model=HYT-YTO Cargo Airlines_SF OC Taobao.com
 texture=HYT-YTO Cargo Airlines_SF OC Taobao.com
@@ -1305,7 +1270,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYT
 
-[fltsim.72]
+[fltsim.70]
 title=AIGAIM_YTO Cargo Airlines Boeing 737-300 - BDSF OC
 model=HYT-YTO Cargo Airlines_BDSF OC
 texture=HYT-YTO Cargo Airlines_BDSF OC
@@ -1321,3 +1286,56 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYT
+
+[fltsim.71]
+title=AIGAIM_Lumiwings Boeing 737-300
+model=LWI-Lumiwings
+texture=LWI-Lumiwings
+atc_id=SX-LWA
+atc_airline=LUMI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LWI
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-300
+ui_variation=Lumiwings
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Lumiwings_Boeing_737_300_FSX.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LWI
+
+[fltsim.72]
+title=AIGAIM_Tayaranjet Boeing 737-300 - LZ-BON
+model=TJB-Tayaranjet_LZ-BON
+texture=TJB-Tayaranjet_LZ-BON
+atc_id=TJB
+atc_airline=ALADIN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TJB
+ui_manufacturer=FAIB
+ui_type=Boeing 737-300
+ui_variation=Tayaran Jet - LZ-BON
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: Tayaran Jet - LZ-BON - Boeing 737-300 (FSX).zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TJB
+
+[fltsim.73]
+title=AIGAIM_China Southern Airlines Boeing 737-300
+model=CSN-China Southern Airlines
+texture=CSN-China Southern Airlines
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=China Southern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN

@@ -7,8 +7,7 @@ Included is the latest AIG install for MSFS ONLY.
 
 OFFLINE FLIGHT PLANS WLL NOT WORK - ALL TRAFFIC FILES ARE NOT INCLUDED
 
-AI Sounds WILL NOT WORK DUE TO AN ISSUE WITH AIG FILE PATHS.
-(if you want a manual fix (very time consuming) you can go into each aircraft folder/soundai and edit the sound folder path)
+AI Sounds WILL NOW WORK as of 02/01/2022 - issue fixed by AIG (thank you)
 
 <b>INSTALL</b>
 

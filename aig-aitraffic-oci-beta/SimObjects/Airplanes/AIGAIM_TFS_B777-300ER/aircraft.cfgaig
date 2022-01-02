@@ -42,7 +42,6 @@ wake=fx_wake
 water=fx_spray
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
-touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -492,7 +491,7 @@ ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Air India - Karnataka - VT-ALO
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS 777-300ER Air India_FSX_v2.zip
+ui_createdby=Provided by: KPK Filename: TFS 777-300ER Air India_FSX_v2.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0

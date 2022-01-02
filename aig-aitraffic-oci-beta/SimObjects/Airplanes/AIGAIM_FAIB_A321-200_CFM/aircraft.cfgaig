@@ -455,7 +455,7 @@ ui_manufacturer=FAIB
 ui_type=Airbus A321-200
 ui_variation=Air India - VT-PPT
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: ai321aic_v2_fsx.zip
+ui_createdby=Provided by: KPK Filename: ai321aic_v2_fsx.zip
 description=FAIB_A321-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -705,24 +705,6 @@ isUserSelectable=0
 icao_airline=CSN
 
 [fltsim.38]
-title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
-model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
-texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
-atc_id=9M-AMG
-atc_airline=CORENDON
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CAI
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Avion Express Malta Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321-200 Avion Express Malta 9H-AMG.zip
-description=FAIB_A321-200_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CAI
-
-[fltsim.39]
 title=AIGAIM_Eurowings Airbus A321-200 - Chevrons all white
 model=EWG-Eurowings_Chevrons all white
 texture=EWG-Eurowings_Chevrons all white
@@ -740,7 +722,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_EVA Air Airbus A321-200 - Chevrons OC Old Titles
 model=EVA-EVA Air_Chevrons OC Old Titles
 texture=EVA-EVA Air_Chevrons OC Old Titles
@@ -758,7 +740,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Finnair Airbus A321-200
 model=FIN-Finnair
 texture=FIN-Finnair
@@ -776,7 +758,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Finnair Airbus A321-200 - Chevrons
 model=FIN-Finnair_Chevrons
 texture=FIN-Finnair_Chevrons
@@ -794,7 +776,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Iberia Airbus A321-200
 model=IBE-Iberia
 texture=IBE-Iberia
@@ -812,7 +794,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Iberia Airbus A321-200 - Grey THS Base
 model=IBE-Iberia_Grey THS Base
 texture=IBE-Iberia_Grey THS Base
@@ -830,7 +812,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Iberia Express Airbus A321-200
 model=IBS-Iberia Express
 texture=IBS-Iberia Express
@@ -848,7 +830,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBS
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_Jet2com Airbus A321-200 - CFM Chevron opb Titan Airways
 model=EXS-Jet2com_CFM Chevron opb Titan Airways
 texture=EXS-Jet2com_CFM Chevron opb Titan Airways
@@ -865,7 +847,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_Level Airbus A321-200 - opb Anisec
 model=FOO-Level_opb Anisec
 texture=FOO-Level_opb Anisec
@@ -883,7 +865,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FOO
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_Longjiang Airlines Airbus A321-200 - Chevrons
 model=SNG-Longjiang Airlines_Chevrons
 texture=SNG-Longjiang Airlines_Chevrons
@@ -900,7 +882,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNG
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_Red Wings Airlines Airbus A321-200 - CFM
 model=RWZ-Red Wings Airlines_CFM
 texture=RWZ-Red Wings Airlines_CFM
@@ -918,7 +900,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWZ
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_S7 Airlines Airbus A321-200 - Chevrons
 model=SBI-S7 Airlines_Chevrons
 texture=SBI-S7 Airlines_Chevrons
@@ -935,7 +917,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC
 model=SVA-Saudia_Chevrons OC
 texture=SVA-Saudia_Chevrons OC
@@ -953,7 +935,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC WiFi Dome
 model=SVA-Saudia_Chevrons OC WiFi Dome
 texture=SVA-Saudia_Chevrons OC WiFi Dome
@@ -971,7 +953,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC Vision 2030
 model=SVA-Saudia_Chevrons OC Vision 2030
 texture=SVA-Saudia_Chevrons OC Vision 2030
@@ -989,24 +971,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.54]
-title=AIGAIM_Sunclass Airlines Airbus A321-200
-model=VKG-Sunclass Airlines
-texture=VKG-Sunclass Airlines
-atc_airline=VIKING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VKG
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Sunclass Airlines VKC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_sunclassairlines_321.zip
-description=FAIB_A321-200_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VKG
-
-[fltsim.55]
+[fltsim.53]
 title=AIGAIM_Swiss Airbus A321-200 - Chevrons
 model=SWR-Swiss_Chevrons
 texture=SWR-Swiss_Chevrons
@@ -1024,7 +989,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.56]
+[fltsim.54]
 title=AIGAIM_TAP Air Portugal Airbus A321-200
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -1042,7 +1007,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.57]
+[fltsim.55]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -1060,7 +1025,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.58]
+[fltsim.56]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -1078,7 +1043,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.59]
+[fltsim.57]
 title=AIGAIM_Titan Airways Airbus A321-200 - CFM Chevron All White
 model=AWC-Titan Airways_CFM Chevron All White
 texture=AWC-Titan Airways_CFM Chevron All White
@@ -1095,7 +1060,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
 
-[fltsim.60]
+[fltsim.58]
 title=AIGAIM_Ural Airlines Airbus A321-200 - CFM
 model=SVR-Ural Airlines_CFM
 texture=SVR-Ural Airlines_CFM
@@ -1113,7 +1078,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.61]
+[fltsim.59]
 title=AIGAIM_Ural Airlines Airbus A321-200 - CFM Chevrons
 model=SVR-Ural Airlines_CFM Chevrons
 texture=SVR-Ural Airlines_CFM Chevrons
@@ -1131,7 +1096,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.62]
+[fltsim.60]
 title=AIGAIM_VietJet Air Airbus A321-200 - CFM Chevron opb NVD White
 model=VJC-VietJet Air_CFM Chevron opb NVD White
 texture=VJC-VietJet Air_CFM Chevron opb NVD White
@@ -1149,7 +1114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.63]
+[fltsim.61]
 title=AIGAIM_VietJet Air Airbus A321-200 - CFM opb NVD Thomas Cook Basic
 model=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
 texture=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
@@ -1167,7 +1132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.64]
+[fltsim.62]
 title=AIGAIM_Windrose Airlines Airbus A321-200 - CFM new Albino
 model=WRC-Windrose Airlines_CFM new Albino
 texture=WRC-Windrose Airlines_CFM new Albino
@@ -1184,3 +1149,57 @@ description=FAIB_A321-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WRC
+
+[fltsim.63]
+title=AIGAIM_ETF Airways Airbus A321-200 - CFM opb Galistair Malta
+model=EZZ-ETF Airways_CFM opb Galistair Malta
+texture=EZZ-ETF Airways_CFM opb Galistair Malta
+atc_id=9H-VDB
+atc_airline=ENTERPRIZE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=ETF Airways opb Galistair Malta
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200_Galistair Malta_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZZ
+
+[fltsim.64]
+title=AIGAIM_Sunclass Airlines Airbus A321-200
+model=VKG-Sunclass Airlines
+texture=VKG-Sunclass Airlines
+atc_id=OY-VKC
+atc_airline=VIKING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VKG
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=Sunclass Airlines NC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A321-200_Sunclass Airlines NC_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VKG
+
+[fltsim.65]
+title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
+model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+atc_id=9M-AMG
+atc_airline=CORENDON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAI
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Avion Express Malta Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 Avion Express Malta 9H-AMG.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAI

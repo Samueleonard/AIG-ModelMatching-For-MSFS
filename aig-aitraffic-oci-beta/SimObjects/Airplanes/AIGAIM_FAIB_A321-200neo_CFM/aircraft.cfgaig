@@ -515,3 +515,21 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
+
+[fltsim.27]
+title=AIGAIM_Air Arabia Airbus A321-200neo
+model=ABY-Air Arabia
+texture=ABY-Air Arabia
+atc_id=A6-ATA
+atc_airline=ARABIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ABY
+ui_manufacturer=FSX AI Bureau
+ui_type=Airbus A321-200neo
+ui_variation=Air Arabia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321lr_aby.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABY

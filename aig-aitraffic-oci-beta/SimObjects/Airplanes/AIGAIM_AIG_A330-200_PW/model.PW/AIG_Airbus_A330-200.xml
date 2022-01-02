@@ -18,57 +18,57 @@
 	<Component ID="Engine_Fanblade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Fanblade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 13.5 * * 100 % } 
-		els{ (A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-			if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-			if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } 
+						els{ (A:TURB ENG N1:1, Percent) 6.55 &gt; if{ 0.01 6 3500 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * } 
+						els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
-		
+	
 	<Component ID="Engine_Still_Windmill">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
-			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-		if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-		if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
 	<Component ID="PW_spinner_still_r" Node="PW_spinner_still_r">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 	
 	<Component ID="PW_spinner_still_l" Node="PW_spinner_still_l">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 		
 	<Component ID="Engine_Blade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Blade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }</ANIM_CODE>
+			<ANIM_CODE>0.01 6 3500 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="PW_spinner_blur_r" Node="PW_spinner_blur_r">
+	<Component ID="PW_spinner_rotate_r" Node="PW_spinner_rotate_r">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="PW_spinner_blur_l" Node="PW_spinner_blur_l">
+	<Component ID="PW_spinner_rotate_l" Node="PW_spinner_rotate_l">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 		

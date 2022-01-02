@@ -4,8 +4,8 @@ minor=0
 
 [GENERAL]
 atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
-atc_model="TT:ATCCOM.AC_MODEL B757.0.text"
-icao_type_designator="B757"
+atc_model="TT:ATCCOM.AC_MODEL B737.0.text"
+icao_type_designator="B737"
 icao_manufacturer="BOEING"
 icao_model="C-40"
 icao_engine_type="Jet"

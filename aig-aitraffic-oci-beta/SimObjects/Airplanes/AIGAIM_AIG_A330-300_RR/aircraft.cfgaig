@@ -3,18 +3,19 @@ major=1
 minor=0
 
 [GENERAL]
-atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
-atc_model="$$:A330-300"
+atc_type="TT:ATCCOM.ATC_NAME Airbus.0.text"
+atc_model=TT:ATCCOM.AC_MODEL A330.0.text
 Category="airplane"
 performance=""
 editable=1
 wip_indicator=2
-icao_type_designator="A333"
-icao_manufacturer="AIRBUS"
-icao_model="A330-300"
+icao_type_designator=A333
+icao_manufacturer="Airbus"
+icao_model=A-330-300
 icao_engine_type="Jet"
 icao_engine_count=2
-icao_WTC="H"
+icao_WTC=H
+icao_generic=0
 
 [PILOT]
 pilot="Pilot_Female_Uniform"
@@ -804,25 +805,6 @@ isUserSelectable=0
 icao_airline=ALK
 
 [fltsim.41]
-title=AIGAIM_Sunclass Airlines Airbus A330-300 - Thomas Cook Titles
-model=VKG-Sunclass Airlines_Thomas Cook Titles
-texture=VKG-Sunclass Airlines_Thomas Cook Titles
-atc_id=OY-VKI
-atc_airline=VIKING
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VKG
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Sunclass Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Sunclass Airlines.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VKG
-
-[fltsim.42]
 title=AIGAIM_Swiss Airbus A330-300
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -841,7 +823,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Swiss Airbus A330-300 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -860,7 +842,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - RR WiFi Dome
 model=THY-Turkish Airlines_RR WiFi Dome
 texture=THY-Turkish Airlines_RR WiFi Dome
@@ -877,3 +859,76 @@ description=AIG_A330-300_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.44]
+title=AIGAIM_Lucky Air Airbus A330-300 - OC
+model=LKE-Lucky Air_OC
+texture=LKE-Lucky Air_OC
+atc_airline=LUCKY AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Lucky Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lucky Air.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.45]
+title=AIGAIM_Lucky Air Airbus A330-300 - 242t Large 3rd Door
+model=LKE-Lucky Air_242t Large 3rd Door
+texture=LKE-Lucky Air_242t Large 3rd Door
+atc_airline=LUCKY AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LKE
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Lucky Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lucky Air.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LKE
+
+[fltsim.46]
+title=AIGAIM_Brussels Airlines Airbus A330-300
+model=BEL-Brussels Airlines
+texture=BEL-Brussels Airlines
+atc_airline=BEE-LINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.47]
+title=AIGAIM_Sunclass Airlines Airbus A330-300
+model=VKG-Sunclass Airlines
+texture=VKG-Sunclass Airlines
+atc_id=OY-VKI
+atc_airline=VIKING
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VKG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Sunclass Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Sunclass Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VKG

@@ -200,24 +200,6 @@ isUserSelectable=0
 icao_airline=PEV
 
 [fltsim.10]
-title=AIGAIM_People's Viennaline Embraer EMB-170 - White nose gear doors
-model=PEV-People's Viennaline_White nose gear doors
-texture=PEV-People's Viennaline_White nose gear doors
-atc_id=OE-LTK
-atc_airline=PEOPLES
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PEV
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-170
-ui_variation=People's Viennaline
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: RAI_E170v3_PEV_FSX.zip
-description=RFSL_EMB-170v3(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PEV
-
-[fltsim.11]
 title=AIGAIM_S7 Airlines Embraer EMB-170
 model=SBI-S7 Airlines
 texture=SBI-S7 Airlines
@@ -235,7 +217,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Satena Embraer EMB-170
 model=NSE-Satena
 texture=NSE-Satena
@@ -254,7 +236,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NSE
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_United Express Embraer EMB-170 - OC opb Republic Airlines
 model=UALX-United Express_OC opb Republic Airlines
 texture=UALX-United Express_OC opb Republic Airlines

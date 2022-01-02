@@ -35,42 +35,6 @@ jetway=1
 touchdown=fx_tchdwn_m, 1
 
 [fltsim.0]
-title=AIGAIM_AirBaltic Boeing 737-300WL
-model=BTI-AirBaltic
-texture=BTI-AirBaltic
-atc_id=YL-BBX
-atc_airline=AIRBALTIC
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BTI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300WL
-ui_variation=A/S Air Baltic Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B733 airBaltic FSX.zip
-description=FAIB_B737-300WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BTI
-
-[fltsim.1]
-title=AIGAIM_AirBaltic Boeing 737-300WL - OC
-model=BTI-AirBaltic_OC
-texture=BTI-AirBaltic_OC
-atc_id=YL-BBY
-atc_airline=AIRBALTIC
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BTI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300WL
-ui_variation=A/S Air Baltic Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B733 airBaltic FSX.zip
-description=FAIB_B737-300WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BTI
-
-[fltsim.2]
 title=AIGAIM_Bulgaria Air Boeing 737-300WL - opb Bulair White LZ-BVS
 model=LZB-Bulgaria Air_opb Bulair White LZ-BVS
 texture=LZB-Bulgaria Air_opb Bulair White LZ-BVS
@@ -88,7 +52,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LZB
 
-[fltsim.3]
+[fltsim.1]
 title=AIGAIM_Bulgaria Air Boeing 737-300WL - opb Bulair White LZ-BVU
 model=LZB-Bulgaria Air_opb Bulair White LZ-BVU
 texture=LZB-Bulgaria Air_opb Bulair White LZ-BVU
@@ -106,7 +70,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LZB
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_Canadian North Boeing 737-300WL
 model=MPE-Canadian North
 texture=MPE-Canadian North
@@ -123,7 +87,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_Canadian North Boeing 737-300WL - OC
 model=MPE-Canadian North_OC
 texture=MPE-Canadian North_OC
@@ -141,7 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Ellinair Boeing 737-300WL - Albino opb Bul Air
 model=ELB-Ellinair_Albino opb Bul Air
 texture=ELB-Ellinair_Albino opb Bul Air
@@ -159,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELB
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Jet2com Boeing 737-300WL
 model=EXS-Jet2com
 texture=EXS-Jet2com
@@ -176,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Jet2com Boeing 737-300WL - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -193,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Kam Air Boeing 737-300WL
 model=KMF-Kam Air
 texture=KMF-Kam Air
@@ -210,7 +174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMF
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_LOT Polish Airlines Boeing 737-300WL - GetJet AUI Hybrid
 model=LOT-LOT Polish Airlines_GetJet AUI Hybrid
 texture=LOT-LOT Polish Airlines_GetJet AUI Hybrid
@@ -228,7 +192,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_SCAT Airlines Boeing 737-300WL
 model=VSV-SCAT Airlines
 texture=VSV-SCAT Airlines
@@ -246,7 +210,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Star Peru Boeing 737-300WL
 model=SRU-Star Peru
 texture=SRU-Star Peru
@@ -263,3 +227,39 @@ description=FAIB_B737-300WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRU
+
+[fltsim.11]
+title=AIGAIM_GP Aviation Boeing 737-300WL - opb Bulair Bulgarian Flag
+model=GPX-GP Aviation_opb Bulair Bulgarian Flag
+texture=GPX-GP Aviation_opb Bulair Bulgarian Flag
+atc_id=LZ-BOO
+atc_airline=IVORY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GPX
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-300WL
+ui_variation=GP Aviation opb Bul Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-300WL_GP Aviation - Bul Air_FSX.zip
+description=FAIB_B737-300WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GPX
+
+[fltsim.12]
+title=AIGAIM_GP Aviation Boeing 737-300WL - opb Bulair All White
+model=GPX-GP Aviation_opb Bulair All White
+texture=GPX-GP Aviation_opb Bulair All White
+atc_id=LZ-BVL
+atc_airline=IVORY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GPX
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-300WL
+ui_variation=GP Aviation opb Bul Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-300WL_GP Aviation - Bul Air_FSX.zip
+description=FAIB_B737-300WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GPX

@@ -3,15 +3,16 @@ major=1 ;
 minor=0 ; 
 
 [GENERAL]
-atc_type=TT:ATCCOM.ATC_NAME BOMBARDIER.0.text ; 
-atc_model=TT:ATCCOM.AC_MODEL CRJ7.0.text ; 
+atc_type="TT:ATCCOM.ATC_NAME BOMBARDIER.0.text" ; 
+atc_model="TT:ATCCOM.AC_MODEL CHALLENGER.0.text" ; 
 category=Airplane ; 
 icao_type_designator=CRJ7 ; 
-icao_manufacturer=CANADAIR; 
-icao_model=Regional Jet CRJ-700 ; 
-icao_engine_type=Jet; 
+icao_manufacturer=BOMBARDIER; 
+icao_model=Challenger 870 ; 
+icao_engine_type="Jet"; 
 icao_engine_count=2 ; 
 icao_wtc="M" ; 
+icao_generic=0
 
 [EFFECTS]
 wake=fx_wake ; 
@@ -47,6 +48,7 @@ description=RFSL_Challenger870(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+atc_airline=
 
 [fltsim.1]
 title=AIGAIM_Dow Chemical Bombardier Challenger 870 - N872DC
@@ -64,3 +66,4 @@ description=RFSL_Challenger870(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+atc_airline=

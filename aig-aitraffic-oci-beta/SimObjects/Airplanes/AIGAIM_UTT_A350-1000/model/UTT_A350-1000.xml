@@ -8,6 +8,7 @@
 		<!-- default minSize is 0 -->
 		<LOD minSize="5" ModelFile="UTT_A350-1000_LOD0.gltf"/>
 		<LOD minSize="1" ModelFile="UTT_A350-1000_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="UTT_A350-1000_LOD1.gltf"/>
 	</LODS>
 
 <Behaviors>
@@ -41,74 +42,58 @@
 	<Component ID="UTT_A350_Engine_Blade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>UTT_A350_Engine_Blade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 13.5 * * 100 % } 
-		els{ (A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-			if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-			if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } 
+						els{ (A:TURB ENG N1:1, Percent) 6.55 &gt; if{ 0.01 6 4000 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * } 
+						els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
-		
+	
 	<Component ID="Engine_Still_Windmill">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
-			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-		if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-		if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
-		<Component ID="engine0spinner_still" Node="engine0spinner_still">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+	<Component ID="engine0spinner_still" Node="engine0spinner_still">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="engine1spinner_still" Node="engine1spinner_still">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 		
 	<Component ID="Engine_Blade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Blade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }</ANIM_CODE>
+			<ANIM_CODE>0.01 6 4000 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
 	<Component ID="engine0spinner_blur" Node="engine0spinner_blur">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="engine1spinner_blur" Node="engine1spinner_blur">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 		
 	<Component ID="Flaps">
@@ -270,7 +255,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Rudder_wind_deflect</ANIM_NAME>
 			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 8 &gt; (A:LIGHT BEACON, bool) 0 == and 
-						if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - }
+						if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - 0 max 100 min }
 						els{ 50 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>8</ANIM_LAG>
@@ -303,34 +288,46 @@
 		</UseTemplate>
 	</Component>
 	
+	<Component ID="LIGHT_Gearlight_left" Node="LIGHT_taxi_gearcam_l">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:LIGHT BEACON, bool) 1 == (A:GEAR POSITION,percent) 100 == and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="LIGHT_Gearlight_right" Node="LIGHT_taxi_gearcam_r">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:LIGHT BEACON, bool) 1 == (A:GEAR POSITION,percent) 100 == and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
 	<Component ID="LIGHT_landing_nose_left" Node="LIGHT_landing_nose_left">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="LIGHT_landing_nose_right" Node="LIGHT_landing_nose_right">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="LIGHT_Logolight_l" Node="LIGHT_Logolight_l">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="LIGHT_Logolight_r" Node="LIGHT_Logolight_r">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="LIGHT_Taxi" Node="LIGHT_Taxi">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 
 		<Component ID="FX_CONTRAIL_QUAD">
@@ -368,6 +365,65 @@
 				<UseTemplate Name="ASOBO_GT_FX">
 				</UseTemplate>
 			</Component>
+		</Component>
+		
+		<Component ID="LANDING_FX">
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>Object57</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>LTire02</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>RTire04New</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>Object57</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>LTire02</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>RTire04New</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>Object57</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>LTire02</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>RTire04New</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>Object57</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>LTire02</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>RTire04New</FX_NODE>
+			</UseTemplate>	
+		</Component>
+		
+		<Component ID="Fuselage-DimCabin" Node="A35K">
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 8000 &lt; and if{ 0.09 }
+				els{ (A:LIGHT NAV, bool) 1 == 21600 86400 (E:LOCAL TIME, seconds) rng or if{ 0.2 }
+				els{ 0 } }</EMISSIVE_CODE>
+			</UseTemplate>
 		</Component>
 
 </Behaviors>

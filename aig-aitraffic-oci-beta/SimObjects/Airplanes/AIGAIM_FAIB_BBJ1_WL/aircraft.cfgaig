@@ -52,6 +52,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.1]
 title=AIGAIM_Deer Jet Boeing BBJ1 WL - B-5266
@@ -135,6 +136,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.6]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N883LS
@@ -151,6 +153,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.7]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N885LS
@@ -167,6 +170,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.8]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N887LS
@@ -183,6 +187,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.9]
 title=AIGAIM_Las Vegas Sands Boeing BBJ1 WL - N889LS
@@ -199,6 +204,7 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+atc_airline=
 
 [fltsim.10]
 title=AIGAIM_Polaris Aviation Solutions Boeing BBJ1 WL - N737LE
