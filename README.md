@@ -14,7 +14,7 @@ AI Sounds WILL NOT WORK DUE TO AN ISSUE WITH AIG FILE PATHS.
 
 Download from - 
 
-PREFERED - [Google Drive](https://drive.google.com/file/d/1Q5vUhfs7Zqv4pIpO_ssbmZRjaFKX6p2Z/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+PREFERED - [Google Drive]https://drive.google.com/file/d/157UJ6BKxaEwPsGWKJP1xPtOrzoCSNS1j/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
 ALTERNATIVE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb)
 
