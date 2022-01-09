@@ -1,0 +1,161 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BEECH.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B190.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=B190
+icao_manufacturer=BEECH
+icao_model=1900
+icao_engine_type="Turboprop"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=0
+SMALL_PUSHBACK=1
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_SMALL
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_SMALL
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCO OC Bear
+model=PCO-Pacific Coastal Airlines_C-FPCO OC Bear
+texture=PCO-Pacific Coastal Airlines_C-FPCO OC Bear
+atc_id=C-FPCO
+atc_airline=PASCO
+atc_parking_types=RAMP
+atc_parking_codes=PCO
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900C
+ui_variation=Pacific Coastal Airlines C-FPCO
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_pco.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.1]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCV OC Logs
+model=PCO-Pacific Coastal Airlines_C-FPCV OC Logs
+texture=PCO-Pacific Coastal Airlines_C-FPCV OC Logs
+atc_id=C-FPCV
+atc_airline=PASCO
+atc_parking_types=RAMP
+atc_parking_codes=PCO
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900C
+ui_variation=Pacific Coastal Airlines C-FPCV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_pco.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.2]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCX Tugboat
+model=PCO-Pacific Coastal Airlines_C-FPCX Tugboat
+texture=PCO-Pacific Coastal Airlines_C-FPCX Tugboat
+atc_id=C-FPCX
+atc_airline=PASCO
+atc_parking_types=RAMP
+atc_parking_codes=PCO
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900C
+ui_variation=Pacific Coastal Airlines C-FPCX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_pco.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.3]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-GIPC OC Totem
+model=PCO-Pacific Coastal Airlines_C-GIPC OC Totem
+texture=PCO-Pacific Coastal Airlines_C-GIPC OC Totem
+atc_id=C-GIPC
+atc_airline=PASCO
+atc_parking_types=RAMP
+atc_parking_codes=PCO
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900C
+ui_variation=Pacific Coastal Airlines C-GIPC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_pco.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.4]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-GPCY OC Eagle
+model=PCO-Pacific Coastal Airlines_C-GPCY OC Eagle
+texture=PCO-Pacific Coastal Airlines_C-GPCY OC Eagle
+atc_id=C-GPCY
+atc_airline=PASCO
+atc_parking_types=RAMP
+atc_parking_codes=PCO
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900C
+ui_variation=Pacific Coastal Airlines C-GPCY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_pco.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.5]
+title=AIGAIM_Equaflight Service Beechcraft 1900C
+model=EKA-Equaflight Service
+texture=EKA-Equaflight Service
+atc_id=TN-AIQ
+atc_airline=EQUAFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=EKA
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900C
+ui_variation=Beechcraft 1900C HTAI Equaflight Service EKA TN-AIQ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: EKA_B190_FSX.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EKA

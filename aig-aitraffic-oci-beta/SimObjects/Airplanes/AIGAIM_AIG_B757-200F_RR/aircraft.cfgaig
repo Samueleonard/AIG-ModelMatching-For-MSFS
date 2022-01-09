@@ -1,0 +1,137 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model=TT:ATCCOM.AC_MODEL B752.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_manufacturer="BOEING"
+icao_model=757-200
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC=M
+icao_type_designator=B752
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=0
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+wake=fx_wake
+water=fx_spray
+dirt=FX_ASOBO_TOUCHDIRT_BIG
+concrete=FX_ASOBO_TOUCHCONCRETE_BIG
+touchdown=FX_ASOBO_TouchDown_Big, 1
+contrail=FX_ASOBO_CONTRAIL_BIG
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_EAT Leipzig Boeing 757-200F - RR opb DHL Air UK
+model=BCS-EAT Leipzig_RR opb DHL Air UK
+texture=BCS-EAT Leipzig_RR opb DHL Air UK
+atc_id=G-DHKX
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200F
+ui_variation=DHL Air G-DHKX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
+description=AIG_B757-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.1]
+title=AIGAIM_Icelandair Cargo Boeing 757-200F
+model=ICEC-Icelandair Cargo
+texture=ICEC-Icelandair Cargo
+atc_id=TF-FIG
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICEC
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200F
+ui_variation=Icelandair Cargo TF-FIG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_752_ICEC_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICEC
+
+[fltsim.2]
+title=AIGAIM_UPS Airlines Boeing 757-200F - RR
+model=UPS-UPS Airlines_RR
+texture=UPS-UPS Airlines_RR
+atc_id=N442UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200F
+ui_variation=UPS United Parcel Service RR
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: brw_b752_ups_FSX.zip
+description=AIG_B757-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS
+
+[fltsim.3]
+title=AIGAIM_UPS Airlines Boeing 757-200F - RR Old Titles
+model=UPS-UPS Airlines_RR Old Titles
+texture=UPS-UPS Airlines_RR Old Titles
+atc_id=N463UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200F
+ui_variation=United Parcel Service RR
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: aig_752_ups.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS

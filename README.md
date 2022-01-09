@@ -13,9 +13,9 @@ AI Sounds WILL NOW WORK as of 02/01/2022 - issue fixed by AIG (thank you)
 
 Download from - 
 
-PREFERED - [Google Drive](https://drive.google.com/file/d/1kdrxRRI82kbDasaoVBTQ-82j_u_E8DUb/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+[Google Drive](https://drive.google.com/file/d/1kdrxRRI82kbDasaoVBTQ-82j_u_E8DUb/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
-ALTERNATIVE - DO NOT USE - [Direct Github](https://codeload.github.com/Samueleonard/AIG-ModelMatching-For-MSFS/zip/refs/heads/main) (~25gb)
+ALTERNATIVE - DO NOT USE - [Direct Github]() (~25gb)
 
 Just drag into the community folder. If using VATSIM, the VMR file is included, it is just a case of selecting it through the 'custom rules' menu in vPilot.
 

@@ -1,0 +1,750 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B739.0.text"
+icao_type_designator="B739"
+icao_manufacturer="BOEING"
+icao_model="737-900"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+category=Airplane
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  44.213, -5.492,  4.341, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -39.541,  4.669, -1.974, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Batik Air Boeing 737-900ER WL - SN
+model=BTK-Batik Air_SN
+texture=BTK-Batik Air_SN
+atc_id=PK-LBO
+atc_airline=BATIK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTK
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Batik Air Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739 Batik Air Indonesia.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTK
+
+[fltsim.1]
+title=AIGAIM_Batik Air Boeing 737-900ER WL - SN ETOPS
+model=BTK-Batik Air_SN ETOPS
+texture=BTK-Batik Air_SN ETOPS
+atc_id=PK-LBG
+atc_airline=BATIK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTK
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Batik Air Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739 Batik Air Indonesia.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTK
+
+[fltsim.2]
+title=AIGAIM_Batik Air Boeing 737-900ER WL - SN White Engines
+model=BTK-Batik Air_SN White Engines
+texture=BTK-Batik Air_SN White Engines
+atc_airline=BATIK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTK
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Batik Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b739w_btk.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTK
+
+[fltsim.3]
+title=AIGAIM_Batik Air Boeing 737-900ER WL - SN Small Flag White Engines ETOPS
+model=BTK-Batik Air_SN Small Flag White Engines ETOPS
+texture=BTK-Batik Air_SN Small Flag White Engines ETOPS
+atc_id=PK-LBI
+atc_airline=BATIK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTK
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Batik Air Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739 Batik Air Indonesia.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTK
+
+[fltsim.4]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER WL - SN No Belly Titles
+model=DAL-Delta Air Lines_SN No Belly Titles
+texture=DAL-Delta Air Lines_SN No Belly Titles
+atc_id=N808DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.5]
+title=AIGAIM_Eastar Jet Boeing 737-900ER WL
+model=ESR-Eastar Jet
+texture=ESR-Eastar Jet
+atc_id=HL8096
+atc_airline=EASTARJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ESR
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Iseuta Hanggong
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Eastar Jet.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ESR
+
+[fltsim.6]
+title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi
+model=ELY-El Al Israel Airlines_SN OC WiFi
+texture=ELY-El Al Israel Airlines_SN OC WiFi
+atc_id=4X-EHD
+atc_airline=ELAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=EL AL Israel Airlines 4X-EHD (standard)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_ely.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.7]
+title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi Menorah
+model=ELY-El Al Israel Airlines_SN OC WiFi Menorah
+texture=ELY-El Al Israel Airlines_SN OC WiFi Menorah
+atc_id=4X-EHE
+atc_airline=ELAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=EL AL Israel Airlines 4X-EHE (Menorah sticker)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_ely.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.8]
+title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle
+model=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle
+texture=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle
+atc_id=4X-EHH
+atc_airline=ELAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=EL AL Israel Airlines 4X-EHE (No Sub-titles)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_ely.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.9]
+title=AIGAIM_El Al Israel Airlines Boeing 737-900ER WL - SN OC WiFi No Subtitle Menorah
+model=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle Menorah
+texture=ELY-El Al Israel Airlines_SN OC WiFi No Subtitle Menorah
+atc_id=4X-EHF
+atc_airline=ELAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=EL AL Israel Airlines 4X-EHE (No Sub-titles + Menorah sticker)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_ely.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.10]
+title=AIGAIM_Korean Air Boeing 737-900ER WL
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Korean Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_739_kal_fleet.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.11]
+title=AIGAIM_Korean Air Boeing 737-900ER WL - SN
+model=KAL-Korean Air_SN
+texture=KAL-Korean Air_SN
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Korean Air - Short Nozzle
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_739_kal_fleet.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.12]
+title=AIGAIM_Lion Air Boeing 737-900ER WL
+model=LNI-Lion Air
+texture=LNI-Lion Air
+atc_id=PK-LFO
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.13]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - Lion Parcel Engine Titles
+model=LNI-Lion Air_Lion Parcel Engine Titles
+texture=LNI-Lion Air_Lion Parcel Engine Titles
+atc_id=PK-LJG
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.14]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - Boeing Livery
+model=LNI-Lion Air_Boeing Livery
+texture=LNI-Lion Air_Boeing Livery
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b739w_lni_dreamliner.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.15]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN
+model=LNI-Lion Air_SN
+texture=LNI-Lion Air_SN
+atc_id=PK-LHZ
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.16]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Group Titles
+model=LNI-Lion Air_SN No Group Titles
+texture=LNI-Lion Air_SN No Group Titles
+atc_id=PK-LPI
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.17]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN No Engine Logo
+model=LNI-Lion Air_SN No Engine Logo
+texture=LNI-Lion Air_SN No Engine Logo
+atc_id=PK-LKF
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.18]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine Titles
+model=LNI-Lion Air_SN Lion Parcel Engine Titles
+texture=LNI-Lion Air_SN Lion Parcel Engine Titles
+atc_id=PK-LJG
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.19]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Lion Parcel Engine + No Group Titles
+model=LNI-Lion Air_SN Lion Parcel Engine + No Group Titles
+texture=LNI-Lion Air_SN Lion Parcel Engine + No Group Titles
+atc_id=PK-LPF
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.20]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 50th Boeing 737-900ER
+model=LNI-Lion Air_SN 50th Boeing 737-900ER
+texture=LNI-Lion Air_SN 50th Boeing 737-900ER
+atc_id=PK-LHY
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.21]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 60th Boeing 737-900ER
+model=LNI-Lion Air_SN 60th Boeing 737-900ER
+texture=LNI-Lion Air_SN 60th Boeing 737-900ER
+atc_id=PK-LJO
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.22]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 70th Boeing 737NG
+model=LNI-Lion Air_SN 70th Boeing 737NG
+texture=LNI-Lion Air_SN 70th Boeing 737NG
+atc_id=PK-LJZ
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.23]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN 100th Boeing 737NG
+model=LNI-Lion Air_SN 100th Boeing 737NG
+texture=LNI-Lion Air_SN 100th Boeing 737NG
+atc_id=PK-LOF
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.24]
+title=AIGAIM_Lion Air Boeing 737-900ER WL - SN Door to Door Service
+model=LNI-Lion Air_SN Door to Door Service
+texture=LNI-Lion Air_SN Door to Door Service
+atc_id=PK-LJF
+atc_airline=LION INTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_lni_boeing_737_900.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNI
+
+[fltsim.25]
+title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN 7500th 737
+model=MXD-Malindo Air_SN 7500th 737
+texture=MXD-Malindo Air_SN 7500th 737
+atc_airline=MALINDO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MXD
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Malindo Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b739w_mxd_9m-lnf.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MXD
+
+[fltsim.26]
+title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN WiFi Dome
+model=MXD-Malindo Air_SN WiFi Dome
+texture=MXD-Malindo Air_SN WiFi Dome
+atc_id=9M-LNH
+atc_airline=MALINDO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MXD
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Malindo Airways Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739 Batik Air Malaysia.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MXD
+
+[fltsim.27]
+title=AIGAIM_Malindo Air Boeing 737-900ER WL - SN EDTO WiFi Dome
+model=MXD-Malindo Air_SN EDTO WiFi Dome
+texture=MXD-Malindo Air_SN EDTO WiFi Dome
+atc_id=9M-LNH
+atc_airline=MALINDO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MXD
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Malindo Airways Sdn Bhd
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739 Batik Air Malaysia.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MXD
+
+[fltsim.28]
+title=AIGAIM_Oman Air Boeing 737-900ER WL - SN
+model=OMA-Oman Air_SN
+texture=OMA-Oman Air_SN
+atc_id=A4O-BI
+atc_airline=OMAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Oman Air FSX.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA
+
+[fltsim.29]
+title=AIGAIM_Somon Air Boeing 737-900ER WL - SN
+model=SMR-Somon Air_SN
+texture=SMR-Somon Air_SN
+atc_id=P4-SOM
+atc_airline=SOMON AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SMR
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Somon Air P4-SOM 'Bobojon Ghafurov'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_smr_fsx.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SMR
+
+[fltsim.30]
+title=AIGAIM_SpiceJet Boeing 737-900ER WL
+model=SEJ-SpiceJet
+texture=SEJ-SpiceJet
+atc_id=VT-SPU
+atc_airline=SPICEJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=SpiceJet - New Livery_Anise_VT-SPU
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB_737-900ER_SpiceJet_FSX.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.31]
+title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC
+model=SJY-Sriwijaya Air_SN OC
+texture=SJY-Sriwijaya Air_SN OC
+atc_id=PK-CMO
+atc_airline=SRIWIJAYA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SJY
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Sriwijaya Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Sriwijaya Air FSX.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SJY
+
+[fltsim.32]
+title=AIGAIM_Sriwijaya Air Boeing 737-900ER WL - SN OC 72nd Berja Kermasa
+model=SJY-Sriwijaya Air_SN OC 72nd Berja Kermasa
+texture=SJY-Sriwijaya Air_SN OC 72nd Berja Kermasa
+atc_id=PK-CMP
+atc_airline=SRIWIJAYA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SJY
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Sriwijaya Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Sriwijaya Air FSX.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SJY
+
+[fltsim.33]
+title=AIGAIM_Thai Lion Air Boeing 737-900ER WL - SN
+model=TLM-Thai Lion Air_SN
+texture=TLM-Thai Lion Air_SN
+atc_airline=MENTARI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TLM
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Thai Lion Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b739w_tlm.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TLM
+
+[fltsim.34]
+title=AIGAIM_Travel Service Boeing 737-900ER WL
+model=TVS-Travel Service
+texture=TVS-Travel Service
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Travel Service
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_travelservice_739_fsx.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.35]
+title=AIGAIM_Travel Service Boeing 737-900ER WL - SN
+model=TVS-Travel Service_SN
+texture=TVS-Travel Service_SN
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Travel Service
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: faib_travelservice_739_fsx.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.36]
+title=AIGAIM_Turkish Airlines Boeing 737-900ER WL
+model=THY-Turkish Airlines
+texture=THY-Turkish Airlines
+atc_id=TC-JYB
+atc_airline=TURKISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Turkish FSX.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.37]
+title=AIGAIM_Turkish Airlines Boeing 737-900ER WL - SN
+model=THY-Turkish Airlines_SN
+texture=THY-Turkish Airlines_SN
+atc_id=TC-JYE
+atc_airline=TURKISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900ER WL
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Turkish FSX.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
+
+[fltsim.38]
+title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL
+model=AUI-Ukraine International Airlines
+texture=AUI-Ukraine International Airlines
+atc_id=UR-PSL
+atc_airline=UKRAINE INTERNATIONAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUI
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Ukraine International UR-PSL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_aui_fleet_fsx.zip
+description=FAIB_B737-900ER_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUI
+
+[fltsim.39]
+title=AIGAIM_Ukraine International Airlines Boeing 737-900ER WL - SN
+model=AUI-Ukraine International Airlines_SN
+texture=AUI-Ukraine International Airlines_SN
+atc_id=UR-PSJ
+atc_airline=UKRAINE INTERNATIONAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUI
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER WL
+ui_variation=Ukraine International UR-PSJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_739_aui_fleet_fsx.zip
+description=FAIB_B737-900ER_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUI

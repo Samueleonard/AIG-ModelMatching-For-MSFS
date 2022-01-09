@@ -1,0 +1,185 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type=TT:ATCCOM.ATC_NAME AIRBUS.0.text
+atc_model=TT:ATCCOM.AC_MODEL A35K.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=A35K
+icao_manufacturer=AIRBUS
+icao_model=A-350-1000 XWB
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="H"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[IKCHAINS]
+right_hand_target=""
+left_hand_target=""
+left_foot_target=""
+right_foot_target=""
+
+[fltsim.0]
+title=AIGAIM_British Airways Airbus A350-1000
+model=BAW-British Airways
+texture=BAW-British Airways
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=British Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a35k_baw.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.1]
+title=AIGAIM_Cathay Pacific Airbus A350-1000
+model=CPA-Cathay Pacific
+texture=CPA-Cathay Pacific
+atc_airline=CATHAY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CPA
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Cathay Pacific - B-LXA AOA Vanes
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a35k_cpa.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CPA
+
+[fltsim.2]
+title=AIGAIM_Qatar Airways Airbus A350-1000
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-1000
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.3]
+title=AIGAIM_Qatar Airways Airbus A350-1000 - Oneworld
+model=QTR-Qatar Airways_Oneworld
+texture=QTR-Qatar Airways_Oneworld
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-1000
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.4]
+title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Zadie
+model=VIR-Virgin Atlantic_Zadie
+texture=VIR-Virgin Atlantic_Zadie
+atc_airline=VIRGIN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VIR
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Virgin Atlantic - G-VJAM Zadie
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a35k_vir.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VIR
+
+[fltsim.5]
+title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Zadie AOA vanes
+model=VIR-Virgin Atlantic_Zadie AOA vanes
+texture=VIR-Virgin Atlantic_Zadie AOA vanes
+atc_airline=VIRGIN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VIR
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Virgin Atlantic - G-VLUX Zadie AOA Vanes
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a35k_vir.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VIR
+
+[fltsim.6]
+title=AIGAIM_Virgin Atlantic Airbus A350-1000 - Oscar
+model=VIR-Virgin Atlantic_Oscar
+texture=VIR-Virgin Atlantic_Oscar
+atc_airline=VIRGIN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VIR
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Virgin Atlantic - G-VPRD Oscar
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a35k_vir.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VIR

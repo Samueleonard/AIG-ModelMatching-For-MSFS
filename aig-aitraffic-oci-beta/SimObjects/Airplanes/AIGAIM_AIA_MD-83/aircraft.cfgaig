@@ -1,0 +1,301 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME MCDONNELDOUGLAS.0.text"
+atc_model=TT:ATCCOM.AC_MODEL MD80.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=MD83
+icao_manufacturer=MCDONNEL DOUGLAS
+icao_model=MD-83
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC=M
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Laser Airlines McDonnell Douglas MD-83 - Silver YV3465
+model=LER-Laser Airlines_Silver YV3465
+texture=LER-Laser Airlines_Silver YV3465
+atc_id=YV3465
+atc_airline=LASER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LER
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=Laser Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: aia_ler_md8x_p3d.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LER
+
+[fltsim.1]
+title=AIGAIM_Tez Jet Airlines McDonnell Douglas MD-83
+model=TEZ-TezJet Airlines
+texture=TEZ-TezJet Airlines
+atc_airline=TEZJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TEZ
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=Tez Jet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIA_MD83_TEZ.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TEZ
+
+[fltsim.2]
+title=AIGAIM_Airfast Indonesia McDonnell Douglas MD-83
+model=AFE-Airfast Indonesia
+texture=AFE-Airfast Indonesia
+atc_airline=AIRFAST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFE
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=Airfast Indonesia PK-OCU
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: Airfast_MD82_AIA_FSX.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFE
+
+[fltsim.3]
+title=AIGAIM_Venezolana McDonnell Douglas MD-83
+model=VNE-Venezolana
+texture=VNE-Venezolana
+atc_airline=VENEZOLANA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VNE
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=Venezolana
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIA_MD80_VNE.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VNE
+
+[fltsim.4]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAM fwd Titles
+model=TBZ-ATA Airlines_EP-TAM fwd Titles
+texture=TBZ-ATA Airlines_EP-TAM fwd Titles
+atc_id=EP-TAM
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAM (standard livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.5]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAN Red Markings
+model=TBZ-ATA Airlines_EP-TAN Red Markings
+texture=TBZ-ATA Airlines_EP-TAN Red Markings
+atc_id=EP-TAN
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAN (standard livery, red hatches)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.6]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAO Albino
+model=TBZ-ATA Airlines_EP-TAO Albino
+texture=TBZ-ATA Airlines_EP-TAO Albino
+atc_id=EP-TAO
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAO (white fuselage)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.7]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAP MD Engine Titles
+model=TBZ-ATA Airlines_EP-TAP MD Engine Titles
+texture=TBZ-ATA Airlines_EP-TAP MD Engine Titles
+atc_id=EP-TAP
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAP (standard livery, McDonnell Douglas titles on engines)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.8]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAQ aft Titles
+model=TBZ-ATA Airlines_EP-TAQ aft Titles
+texture=TBZ-ATA Airlines_EP-TAQ aft Titles
+atc_id=EP-TAQ
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAQ (standard livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.9]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAR no Engine Logo
+model=TBZ-ATA Airlines_EP-TAR no Engine Logo
+texture=TBZ-ATA Airlines_EP-TAR no Engine Logo
+atc_id=EP-TAR
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAR (standard livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.10]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAS Boeing Super 80 Engine Titles
+model=TBZ-ATA Airlines_EP-TAS Boeing Super 80 Engine Titles
+texture=TBZ-ATA Airlines_EP-TAS Boeing Super 80 Engine Titles
+atc_id=EP-TAS
+atc_airline=ATALAR AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAS (standard livery, Boeing titles on engines)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.11]
+title=AIGAIM_Dana Air McDonnell Douglas MD-83
+model=DAN-Dana Air
+texture=DAN-Dana Air
+atc_airline=DANACO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAN
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=Dana Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_danaair_m83.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAN
+
+[fltsim.12]
+title=AIGAIM_USA Jet Airlines McDonnell Douglas MD-83 - SF
+model=JUS-USA Jet Airlines_SF
+texture=JUS-USA Jet Airlines_SF
+atc_id=N831US
+atc_airline=JET USA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JUS
+ui_manufacturer=Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=USA Jet N381US
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: USA_Jet_MD83.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JUS
+
+[fltsim.13]
+title=AIGAIM_Danish Air Transport McDonnell Douglas MD-83
+model=DTR-Danish Air Transport
+texture=DTR-Danish Air Transport
+atc_id=OY-RUE
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=For AI use only, Danish Air Transport MD-83 :: Repaint by Johan Clausen.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: aimd83dtr_fsx.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR

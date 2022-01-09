@@ -1,0 +1,254 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B737.0.text"
+icao_type_designator="B737"
+icao_manufacturer="BOEING"
+icao_model="737-700"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+category=Airplane
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  29.6, -5.492,  4.341, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -27,  4.669, -1.974, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Ethiopian Airlines Boeing 737-700SSW
+model=ETH-Ethiopian Airlines
+texture=ETH-Ethiopian Airlines
+atc_id=ET-ALN
+atc_airline=ETHIOPIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-700SSW
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B737 Ethiopian FSX.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.1]
+title=AIGAIM_SkyUp Airlines Boeing 737-700SSW - Eyebrows
+model=SQP-SkyUp Airlines_Eyebrows
+texture=SQP-SkyUp Airlines_Eyebrows
+atc_id=UR-SQD
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_737ssw.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.2]
+title=AIGAIM_SkyUp Airlines Boeing 737-700SSW - Shakhtar Donetsk
+model=SQP-SkyUp Airlines_Shakhtar Donetsk
+texture=SQP-SkyUp Airlines_Shakhtar Donetsk
+atc_id=UR-SQE
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_737ssw.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.3]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW
+model=SWA-Southwest Airlines
+texture=SWA-Southwest Airlines
+atc_id=N7868K
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b737_swanc_jkm.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.4]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - Missouri One
+model=SWA-Southwest Airlines_Missouri One
+texture=SWA-Southwest Airlines_Missouri One
+atc_id=N280WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b737_swaspecials_p3dv2.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.5]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - OC
+model=SWA-Southwest Airlines_OC
+texture=SWA-Southwest Airlines_OC
+atc_id=N960WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b737_swaoc_p3dv2.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.6]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - OC 500th 737
+model=SWA-Southwest Airlines_OC 500th 737
+texture=SWA-Southwest Airlines_OC 500th 737
+atc_id=N281WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b737_swaoc_p3dv2.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.7]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - OC Charles E. Taylor
+model=SWA-Southwest Airlines_OC Charles E. Taylor
+texture=SWA-Southwest Airlines_OC Charles E. Taylor
+atc_id=N906WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b737_swaoc_p3dv2.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.8]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - OC Heroine of the Heart
+model=SWA-Southwest Airlines_OC Heroine of the Heart
+texture=SWA-Southwest Airlines_OC Heroine of the Heart
+atc_id=N266WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b737_swaoc_p3dv2.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.9]
+title=AIGAIM_Southwest Airlines Boeing 737-700SSW - SN
+model=SWA-Southwest Airlines_SN
+texture=SWA-Southwest Airlines_SN
+atc_id=N969WN
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b737_swanc_jkm.zip
+description=FAIB_B737-700SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.10]
+title=AIGAIM_United Airlines Boeing 737-700SSW
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N24706
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b737_ual_p3d.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.11]
+title=AIGAIM_United Airlines Boeing 737-700SSW - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N16709
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b737_ual_p3d.zip
+description=FAIB_B737-700SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL

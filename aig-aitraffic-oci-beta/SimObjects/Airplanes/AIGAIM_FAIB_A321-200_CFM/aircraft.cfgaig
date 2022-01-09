@@ -1,0 +1,1240 @@
+[VERSION]
+major=1 
+minor=0
+
+[GENERAL]
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A321.0.text"
+icao_type_designator="A321"
+icao_manufacturer="AIRBUS"
+icao_model="A-321"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  50.908, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -29.45,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[fltsim.0]
+title=AIGAIM_Aer Lingus Airbus A321-200 - OC
+model=EIN-Aer Lingus_OC
+texture=EIN-Aer Lingus_OC
+atc_airline=SHAMROCK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EIN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Aer Lingus
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_aerlingus_a321_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EIN
+
+[fltsim.1]
+title=AIGAIM_Aeroflot Airbus A321-200 - Chevron
+model=AFL-Aeroflot_Chevron
+texture=AFL-Aeroflot_Chevron
+atc_id=VP-BDC
+atc_airline=AEROFLOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFL
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Aeroflot VP-BDC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afl_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFL
+
+[fltsim.2]
+title=AIGAIM_Aeroflot Airbus A321-200 - Chevron Manchester United
+model=AFL-Aeroflot_Chevron Manchester United
+texture=AFL-Aeroflot_Chevron Manchester United
+atc_id=VP-BTL
+atc_airline=AEROFLOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFL
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Aeroflot VP-BTL Manchester United logojet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afl_btl_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFL
+
+[fltsim.3]
+title=AIGAIM_Air Canada Airbus A321-200
+model=ACA-Air Canada
+texture=ACA-Air Canada
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Canada - NC 2017 C-GJWO
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_aca_nc.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.4]
+title=AIGAIM_Air Canada Airbus A321-200 - Chevron
+model=ACA-Air Canada_Chevron
+texture=ACA-Air Canada_Chevron
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Canada - NC 2017 C-FGKP Chevrons
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_aca_nc.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.5]
+title=AIGAIM_Air Canada Airbus A321-200 - OC Star Alliance
+model=ACA-Air Canada_OC Star Alliance
+texture=ACA-Air Canada_OC Star Alliance
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Canada - C-GITU Star Alliance
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_cgitu.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.6]
+title=AIGAIM_Air Canada Rouge Airbus A321-200 - large AC titles Chevrons
+model=ROU-Air Canada Rouge_large AC titles Chevrons
+texture=ROU-Air Canada Rouge_large AC titles Chevrons
+atc_airline=ROUGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROU
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Canada Rouge - Chevrons Large Air Canada Titles
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_rou_2020-2.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROU
+
+[fltsim.7]
+title=AIGAIM_Air China Airbus A321-200 - CFM
+model=CCA-Air China_CFM
+texture=CCA-Air China_CFM
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321_cca_cfm.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.8]
+title=AIGAIM_Air China Airbus A321-200 - CFM No Flag
+model=CCA-Air China_CFM No Flag
+texture=CCA-Air China_CFM No Flag
+atc_id=B-6382
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Air China.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.9]
+title=AIGAIM_Air China Airbus A321-200 - CFM Beautiful Sichuan B-6361
+model=CCA-Air China_CFM Beautiful Sichuan B-6361
+texture=CCA-Air China_CFM Beautiful Sichuan B-6361
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China B-6361 Sichuan 1
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_cca_a321_special_fs9x.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.10]
+title=AIGAIM_Air China Airbus A321-200 - CFM Beautiful Sichuan B-6365
+model=CCA-Air China_CFM Beautiful Sichuan B-6365
+texture=CCA-Air China_CFM Beautiful Sichuan B-6365
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China B-6365 Sichuan 2
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_cca_a321_special_fs9x.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.11]
+title=AIGAIM_Air China Airbus A321-200 - CFM Star Alliance
+model=CCA-Air China_CFM Star Alliance
+texture=CCA-Air China_CFM Star Alliance
+atc_id=B-6383
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Air China.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.12]
+title=AIGAIM_Air China Airbus A321-200 - CFM Chevron
+model=CCA-Air China_CFM Chevron
+texture=CCA-Air China_CFM Chevron
+atc_id=B-6961
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Air China.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.13]
+title=AIGAIM_Air China Airbus A321-200 - CFM Chevron No Flag
+model=CCA-Air China_CFM Chevron No Flag
+texture=CCA-Air China_CFM Chevron No Flag
+atc_id=B-6961
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Air China.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.14]
+title=AIGAIM_Air France Airbus A321-200
+model=AFR-Air France
+texture=AFR-Air France
+atc_id=F-GTAJ
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAJ 'Ajaccio' (NC, WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.15]
+title=AIGAIM_Air France Airbus A321-200 - OC no WiFi
+model=AFR-Air France_OC no WiFi
+texture=AFR-Air France_OC no WiFi
+atc_id=F-GTAH
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAH (No WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.16]
+title=AIGAIM_Air France Airbus A321-200 - OC Skyteam
+model=AFR-Air France_OC Skyteam
+texture=AFR-Air France_OC Skyteam
+atc_id=F-GTAE
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAE (Skyteam logojet)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_skyteam_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.17]
+title=AIGAIM_Air France Airbus A321-200 - Joon no WiFi
+model=AFR-Air France_Joon no WiFi
+texture=AFR-Air France_Joon no WiFi
+atc_id=F-GTAK
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Joon F-GTAK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_jon_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.18]
+title=AIGAIM_Air France Airbus A321-200 - Chevrons
+model=AFR-Air France_Chevrons
+texture=AFR-Air France_Chevrons
+atc_id=F-GTAQ
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAQ (NC, chevrons, WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.19]
+title=AIGAIM_Air France Airbus A321-200 - Chevrons OC
+model=AFR-Air France_Chevrons OC
+texture=AFR-Air France_Chevrons OC
+atc_id=F-GTAU
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAU (Chevrons, WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.20]
+title=AIGAIM_Air France Airbus A321-200 - Chevrons OC no WiFi
+model=AFR-Air France_Chevrons OC no WiFi
+texture=AFR-Air France_Chevrons OC no WiFi
+atc_id=F-GTAY
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air France F-GTAY (Chevrons, No WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_afr_nc_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.21]
+title=AIGAIM_Air France Airbus A321-200 - Chevrons Joon
+model=AFR-Air France_Chevrons Joon
+texture=AFR-Air France_Chevrons Joon
+atc_id=F-GTAS
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Joon F-GTAS (Joon colors, chevrons, WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_jon_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.22]
+title=AIGAIM_Air France Airbus A321-200 - Chevrons Joon no WiFi
+model=AFR-Air France_Chevrons Joon no WiFi
+texture=AFR-Air France_Chevrons Joon no WiFi
+atc_id=F-GTAT
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Joon F-GTAT (Joon colors, chevrons, No WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_jon_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.23]
+title=AIGAIM_Air India Airbus A321-200
+model=AIC-Air India
+texture=AIC-Air India
+atc_id=VT-PPT
+atc_airline=AIR INDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air India - VT-PPT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: ai321aic_v2_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIC
+
+[fltsim.24]
+title=AIGAIM_Air Transat Airbus A321-200 - Chevrons
+model=TSC-Air Transat_Chevrons
+texture=TSC-Air Transat_Chevrons
+atc_airline=TRANSAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Transat - C-GEZD Chevrons
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_2018.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.25]
+title=AIGAIM_Air Transat Airbus A321-200 - Chevrons Kids Club
+model=TSC-Air Transat_Chevrons Kids Club
+texture=TSC-Air Transat_Chevrons Kids Club
+atc_airline=TRANSAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Transat - C-GEZJ Kids Club Chevrons
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_2018.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.26]
+title=AIGAIM_Air Transat Airbus A321-200 - Yellow Engines
+model=TSC-Air Transat_Yellow Engines
+texture=TSC-Air Transat_Yellow Engines
+atc_airline=TRANSAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Transat - C-GTXY Yellow Engines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_2018.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.27]
+title=AIGAIM_Air Transat Airbus A321-200
+model=TSC-Air Transat
+texture=TSC-Air Transat
+atc_airline=TRANSAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Air Transat
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_tsc_update2020-1.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.28]
+title=AIGAIM_Air Senegal Airbus A321-200
+model=SZN-Air Senegal
+texture=SZN-Air Senegal
+atc_airline=SENSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SZN
+ui_type=Airbus A321-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_szn_a321_p3d.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SZN
+
+[fltsim.29]
+title=AIGAIM_American Airlines Airbus A321-200 - CFM
+model=AAL-American Airlines_CFM
+texture=AAL-American Airlines_CFM
+atc_id=N170US
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=American Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_aal_a321_p3d-1.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.30]
+title=AIGAIM_American Airlines Airbus A321-200 - CFM Chevron
+model=AAL-American Airlines_CFM Chevron
+texture=AAL-American Airlines_CFM Chevron
+atc_id=N195UW
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=American Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_aal_a321_p3d-1.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.31]
+title=AIGAIM_Austrian Airlines Airbus A321-200
+model=AUA-Austrian Airlines
+texture=AUA-Austrian Airlines
+atc_id=OE-LBD
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Austrian FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.32]
+title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons
+model=BAV-Bamboo Airways_Chevrons
+texture=BAV-Bamboo Airways_Chevrons
+atc_id=VN-A597
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.33]
+title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons Airbus Titles
+model=BAV-Bamboo Airways_Chevrons Airbus Titles
+texture=BAV-Bamboo Airways_Chevrons Airbus Titles
+atc_id=VN-A594
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.34]
+title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons Airbus Titles Large Blue Belly
+model=BAV-Bamboo Airways_Chevrons Airbus Titles Large Blue Belly
+texture=BAV-Bamboo Airways_Chevrons Airbus Titles Large Blue Belly
+atc_id=VN-A585
+atc_airline=BAMBOO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAV
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Bamboo Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAV
+
+[fltsim.35]
+title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM Chevrons
+model=CES-China Eastern Airlines_CFM Chevrons
+texture=CES-China Eastern Airlines_CFM Chevrons
+atc_id=B-6345
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=China Eastern CFM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 China Eastern FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.36]
+title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM Chevrons OC
+model=CES-China Eastern Airlines_CFM Chevrons OC
+texture=CES-China Eastern Airlines_CFM Chevrons OC
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321_ces_cfm.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.37]
+title=AIGAIM_China Southern Airlines Airbus A321-200 - CFM
+model=CSN-China Southern Airlines_CFM
+texture=CSN-China Southern Airlines_CFM
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=China Southern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321_csn_cfm.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+
+[fltsim.38]
+title=AIGAIM_Eurowings Airbus A321-200 - Chevrons all white
+model=EWG-Eurowings_Chevrons all white
+texture=EWG-Eurowings_Chevrons all white
+atc_id=D-AEUC
+atc_airline=EUROWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EWG
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Eurowings
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Eurowings.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG
+
+[fltsim.39]
+title=AIGAIM_EVA Air Airbus A321-200 - Chevrons OC Old Titles
+model=EVA-EVA Air_Chevrons OC Old Titles
+texture=EVA-EVA Air_Chevrons OC Old Titles
+atc_id=B-16202
+atc_airline=EVA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA,UIA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 EVA Air FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.40]
+title=AIGAIM_Finnair Airbus A321-200
+model=FIN-Finnair
+texture=FIN-Finnair
+atc_id=OH-LZE
+atc_airline=FINNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.41]
+title=AIGAIM_Finnair Airbus A321-200 - Chevrons
+model=FIN-Finnair_Chevrons
+texture=FIN-Finnair_Chevrons
+atc_id=OH-LZF
+atc_airline=FINNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.42]
+title=AIGAIM_Iberia Airbus A321-200
+model=IBE-Iberia
+texture=IBE-Iberia
+atc_id=EC-IGK
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Iberia NC IGK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_iberia_nc_fleet_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.43]
+title=AIGAIM_Iberia Airbus A321-200 - Grey THS Base
+model=IBE-Iberia_Grey THS Base
+texture=IBE-Iberia_Grey THS Base
+atc_id=EC-IXD
+atc_airline=IBERIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBE
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Iberia NC IXD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: faib_a321_iberia_nc_fleet_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.44]
+title=AIGAIM_Iberia Express Airbus A321-200
+model=IBS-Iberia Express
+texture=IBS-Iberia Express
+atc_id=EC-JDM
+atc_airline=IBEREXPRES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IBS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Iberia Express NC JDM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: faib_a321_iberia_nc_fleet_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBS
+
+[fltsim.45]
+title=AIGAIM_Jet2com Airbus A321-200 - CFM Chevron opb Titan Airways
+model=EXS-Jet2com_CFM Chevron opb Titan Airways
+texture=EXS-Jet2com_CFM Chevron opb Titan Airways
+atc_airline=CHANNEX
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EXS
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Titan Airways - Jet2.com titles
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_titanj2_a321_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EXS
+
+[fltsim.46]
+title=AIGAIM_Level Airbus A321-200 - opb Anisec
+model=FOO-Level_opb Anisec
+texture=FOO-Level_opb Anisec
+atc_id=OE-LCF
+atc_airline=AUSTROJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FOO
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=LEVEL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_LEVEL_Airbus_A321_200_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FOO
+
+[fltsim.47]
+title=AIGAIM_Longjiang Airlines Airbus A321-200 - Chevrons
+model=SNG-Longjiang Airlines_Chevrons
+texture=SNG-Longjiang Airlines_Chevrons
+atc_airline=SNOW EAGLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SNG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Longjiang Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_A321_Longjiang_Airlines.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SNG
+
+[fltsim.48]
+title=AIGAIM_Red Wings Airlines Airbus A321-200 - CFM
+model=RWZ-Red Wings Airlines_CFM
+texture=RWZ-Red Wings Airlines_CFM
+atc_id=VP-BAN
+atc_airline=AIR RED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RWZ
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Red Wings VP-BAN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_A321_RWZ_NC.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RWZ
+
+[fltsim.49]
+title=AIGAIM_S7 Airlines Airbus A321-200 - Chevrons
+model=SBI-S7 Airlines_Chevrons
+texture=SBI-S7 Airlines_Chevrons
+atc_airline=SIBERIAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SBI
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=S7 Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a321_sbi.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBI
+
+[fltsim.50]
+title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC
+model=SVA-Saudia_Chevrons OC
+texture=SVA-Saudia_Chevrons OC
+atc_id=HZ-ASM
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.51]
+title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC WiFi Dome
+model=SVA-Saudia_Chevrons OC WiFi Dome
+texture=SVA-Saudia_Chevrons OC WiFi Dome
+atc_id=HZ-ASH
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.52]
+title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC Vision 2030
+model=SVA-Saudia_Chevrons OC Vision 2030
+texture=SVA-Saudia_Chevrons OC Vision 2030
+atc_id=HZ-ASL
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.53]
+title=AIGAIM_Swiss Airbus A321-200 - Chevrons
+model=SWR-Swiss_Chevrons
+texture=SWR-Swiss_Chevrons
+atc_id=HB-IOM
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=SWISS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swr_a321_p3d.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.54]
+title=AIGAIM_TAP Air Portugal Airbus A321-200
+model=TAP-TAP Air Portugal
+texture=TAP-TAP Air Portugal
+atc_id=CS-TJH
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=TAP Portugal CS-TJG 'Amalia Rodrigues' (2019 Colors)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_tap_fleet.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.55]
+title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC
+model=TAP-TAP Air Portugal_IC
+texture=TAP-TAP Air Portugal_IC
+atc_id=CS-TJH
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=TAP Portugal CS-TJH 'Manoel de Oliveira' (Interim Colors)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_tap_fleet.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.56]
+title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC old webtitles
+model=TAP-TAP Air Portugal_IC old webtitles
+texture=TAP-TAP Air Portugal_IC old webtitles
+atc_id=CS-TJF
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=TAP Portugal CS-TJE 'Luis Vaz de Camoes' (OC, Air Portugal tail)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_tap_fleet.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.57]
+title=AIGAIM_Titan Airways Airbus A321-200 - CFM Chevron All White
+model=AWC-Titan Airways_CFM Chevron All White
+texture=AWC-Titan Airways_CFM Chevron All White
+atc_airline=ZAP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AWC
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Titan Airways - white
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_titanairways_321.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AWC
+
+[fltsim.58]
+title=AIGAIM_Ural Airlines Airbus A321-200 - CFM
+model=SVR-Ural Airlines_CFM
+texture=SVR-Ural Airlines_CFM
+atc_id=VQ-BKJ
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Ural Airlines VQ-BKJ (CFM Standard)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_svr_fsx.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR
+
+[fltsim.59]
+title=AIGAIM_Ural Airlines Airbus A321-200 - CFM Chevrons
+model=SVR-Ural Airlines_CFM Chevrons
+texture=SVR-Ural Airlines_CFM Chevrons
+atc_id=VP-BVP
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Ural Airlines VP-BVP (CFM Chevron)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_svr_fsx.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR
+
+[fltsim.60]
+title=AIGAIM_VietJet Air Airbus A321-200 - CFM Chevron opb NVD White
+model=VJC-VietJet Air_CFM Chevron opb NVD White
+texture=VJC-VietJet Air_CFM Chevron opb NVD White
+atc_id=LY-VEC
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet Leases.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.61]
+title=AIGAIM_VietJet Air Airbus A321-200 - CFM opb NVD Thomas Cook Basic
+model=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
+texture=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
+atc_id=LY-VEG
+atc_airline=VIETJETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VJC
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=VietJet Aviation Joint Stock Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 VietJet Leases.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VJC
+
+[fltsim.62]
+title=AIGAIM_Windrose Airlines Airbus A321-200 - CFM new Albino
+model=WRC-Windrose Airlines_CFM new Albino
+texture=WRC-Windrose Airlines_CFM new Albino
+atc_id=UR-WRX
+atc_airline=WIND ROSE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WRC
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=Wind Rose Aviation UR-WRX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Windrose_Airlines_Airbus A321-200_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WRC
+
+[fltsim.63]
+title=AIGAIM_ETF Airways Airbus A321-200 - CFM opb Galistair Malta
+model=EZZ-ETF Airways_CFM opb Galistair Malta
+texture=EZZ-ETF Airways_CFM opb Galistair Malta
+atc_id=9H-VDB
+atc_airline=ENTERPRIZE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=ETF Airways opb Galistair Malta
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200_Galistair Malta_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZZ
+
+[fltsim.64]
+title=AIGAIM_Sunclass Airlines Airbus A321-200
+model=VKG-Sunclass Airlines
+texture=VKG-Sunclass Airlines
+atc_id=OY-VKC
+atc_airline=VIKING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VKG
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200
+ui_variation=Sunclass Airlines NC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A321-200_Sunclass Airlines NC_FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VKG
+
+[fltsim.65]
+title=AIGAIM_Amerijet International Airbus A321-200 - PCF opb Titan
+model=AJT-Amerijet International_PCF opb Titan
+texture=AJT-Amerijet International_PCF opb Titan
+atc_airline=AMERIJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AJT
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200
+ui_variation=Titan Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_titanairways_321.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AJT
+
+[fltsim.66]
+title=AIGAIM_Condor Airbus A321-200
+model=CFG-Condor
+texture=CFG-Condor
+atc_id=D-ATCA
+atc_airline=CONDOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Condor Flugdienst GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Condor FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.67]
+title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
+model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
+atc_id=9M-AMG
+atc_airline=CORENDON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAI
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Avion Express Malta Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 Avion Express Malta 9H-AMG.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAI

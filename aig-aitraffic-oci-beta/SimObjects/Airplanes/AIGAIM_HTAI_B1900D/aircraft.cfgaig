@@ -1,0 +1,373 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BEECH.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B190.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=B190
+icao_manufacturer=BEECH
+icao_model=1900
+icao_engine_type="Turboprop"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=0
+SMALL_PUSHBACK=1
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_SMALL
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_SMALL
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Sunrise Airways Beechcraft 1900D - White
+model=KSZ-Sunrise Airways_White
+texture=KSZ-Sunrise Airways_White
+atc_airline=SUNRISE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KSZ
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunrise Airways ZS-EAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SunriseAirwaysBeech1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KSZ
+
+[fltsim.1]
+title=AIGAIM_Mahogany Air Beechcraft 1900D
+model=HOG-Mahogany Air
+texture=HOG-Mahogany Air
+atc_airline=HOGAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HOG
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Mahogany Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: htai_mahoganyair_beh.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HOG
+
+[fltsim.2]
+title=AIGAIM_Central Mountain Air Beechcraft 1900D
+model=GLR-Central Mountain Air
+texture=GLR-Central Mountain Air
+atc_id=C-GFSV
+atc_airline=GLACIER
+atc_parking_types=RAMP
+atc_parking_codes=GLR
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Central Mountain Air Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B1900D_Central_Mountain_Air.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLR
+
+[fltsim.3]
+title=AIGAIM_Central Mountain Air Beechcraft 1900D - C-FCMB
+model=GLR-Central Mountain Air_C-FCMB
+texture=GLR-Central Mountain Air_C-FCMB
+atc_id=C-FCMB
+atc_airline=GLACIER
+atc_parking_types=RAMP
+atc_parking_codes=GLR
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Central Mountain Air Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B1900D_Central_Mountain_Air.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLR
+
+[fltsim.4]
+title=AIGAIM_Central Mountain Air Beechcraft 1900D - OC Small Mountains
+model=GLR-Central Mountain Air_OC Small Mountains
+texture=GLR-Central Mountain Air_OC Small Mountains
+atc_id=C-FCMR
+atc_airline=GLACIER
+atc_parking_types=RAMP
+atc_parking_codes=GLR
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Central Mountain Air Beech 1900D Small Mountain Tail
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: glr_central_mountain_air_fleet.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLR
+
+[fltsim.5]
+title=AIGAIM_Central Mountain Air Beechcraft 1900D - OC Large Mountains
+model=GLR-Central Mountain Air_OC Large Mountains
+texture=GLR-Central Mountain Air_OC Large Mountains
+atc_id=C-FCMP
+atc_airline=GLACIER
+atc_parking_types=RAMP
+atc_parking_codes=GLR
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Central Mountain Air Beech 1900D Large Mountain Tail
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: glr_central_mountain_air_fleet.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLR
+
+[fltsim.6]
+title=AIGAIM_Sky High Aviation Services Beechcraft 1900D
+model=SHH-Sky High Aviation Services
+texture=SHH-Sky High Aviation Services
+atc_id=HI1007
+atc_airline=SKY HIGH
+atc_parking_types=RAMP,GATE
+atc_parking_codes=SHH
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Sky High Aviation Services
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Sky High Aviation Services B1900D FSXv2.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SHH
+
+[fltsim.7]
+title=AIGAIM_EZ Air Beechcraft 1900D
+model=EZR-EZ Air
+texture=EZR-EZ Air
+atc_id=PJ-EZA
+atc_airline=EASYWAY
+atc_parking_types=RAMP,GATE
+atc_parking_codes=EZR
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=EZAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: EZAir B1900D Fleet FSX.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZR
+
+[fltsim.8]
+title=AIGAIM_Air Canada Express Beechcraft 1900D - OC EVAS hybrid
+model=ACAX-Air Canada Express_OC EVAS hybrid
+texture=ACAX-Air Canada Express_OC EVAS hybrid
+atc_airline=EVAS
+atc_parking_types=RAMP
+atc_parking_codes=ACAX,EVS
+ui_manufacturer=Beech
+ui_type=Beechcraft 1900D
+ui_variation=Air Canada Express
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Kev Bell on JCAI Filename: EVAS Air B1900D Rep Fleet 2020.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVS
+
+[fltsim.9]
+title=AIGAIM_Air Canada Express Beechcraft 1900D - Air Labrador EVAS hybrid
+model=ACAX-Air Canada Express_Air Labrador EVAS hybrid
+texture=ACAX-Air Canada Express_Air Labrador EVAS hybrid
+atc_airline=EVAS
+atc_parking_types=RAMP
+atc_parking_codes=ACAX,EVS
+ui_manufacturer=Beech
+ui_type=Beechcraft 1900D
+ui_variation=Air Canada Express
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Kev Bell on JCAI Filename: EVAS Air B1900D Rep Fleet 2020.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVS
+
+[fltsim.10]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900D - C-GPCL Tugboat
+model=PCO-Pacific Coastal Airlines_C-GPCL Tugboat
+texture=PCO-Pacific Coastal Airlines_C-GPCL Tugboat
+atc_id=C-GPCL
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Beechcraft 1900D HTAI Pacific Coastal Airlines PCO C-GPCL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: PCO_B193_HD_P3D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.11]
+title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900D - lsf North Cariboo Air
+model=PCO-Pacific Coastal Airlines_lsf North Cariboo Air
+texture=PCO-Pacific Coastal Airlines_lsf North Cariboo Air
+atc_id=C-FMCN
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Beechcraft 1900D HTAI Pacific Coastal Airlines PCO C-FMCN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: PCO_B193_HD_P3D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.12]
+title=AIGAIM_Sunwest Aviation Beechcraft 1900D - C-GHCS
+model=CNK-Sunwest Aviation_C-GHCS
+texture=CNK-Sunwest Aviation_C-GHCS
+atc_id=C-GHCS
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunwest_C-GHCS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest B1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.13]
+title=AIGAIM_Sunwest Aviation Beechcraft 1900D - C-GSLX
+model=CNK-Sunwest Aviation_C-GSLX
+texture=CNK-Sunwest Aviation_C-GSLX
+atc_id=C-GSLX
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunwest_C-GSLX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest B1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.14]
+title=AIGAIM_Sunwest Aviation Beechcraft 1900D - C-GSWB
+model=CNK-Sunwest Aviation_C-GSWB
+texture=CNK-Sunwest Aviation_C-GSWB
+atc_id=C-GSWB
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunwest_C-GSWB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest B1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.15]
+title=AIGAIM_Sunwest Aviation Beechcraft 1900D - C-GSWX
+model=CNK-Sunwest Aviation_C-GSWX
+texture=CNK-Sunwest Aviation_C-GSWX
+atc_id=C-GSWX
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunwest_C-GSWX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest B1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.16]
+title=AIGAIM_Sunwest Aviation Beechcraft 1900D - C-GSWZ
+model=CNK-Sunwest Aviation_C-GSWZ
+texture=CNK-Sunwest Aviation_C-GSWZ
+atc_id=C-GSWZ
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900D
+ui_variation=Sunwest_C-GSWZ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest B1900D.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.17]
+title=AIGAIM_Private Wings Beechcraft 1900D - OC
+model=PWF-Private Wings_OC
+texture=PWF-Private Wings_OC
+atc_id=D-COCA
+atc_airline=PRIVATE WINGS
+atc_parking_types=RAMP
+atc_parking_codes=PWF
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Private Wings Flugcharter GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B1900D Private Wings.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PWF

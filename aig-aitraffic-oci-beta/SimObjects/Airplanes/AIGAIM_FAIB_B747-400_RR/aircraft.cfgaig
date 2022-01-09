@@ -1,0 +1,275 @@
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B744.0.text"
+category="Airplane"
+icao_type_designator="B744"
+icao_manufacturer="BOEING"
+icao_model="747-400"
+icao_engine_type="Jet"
+icao_engine_count=4
+icao_WTC="H"
+icao_generic=0
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_British Airways Boeing 747-400
+model=BAW-British Airways
+texture=BAW-British Airways
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVT NC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.1]
+title=AIGAIM_British Airways Boeing 747-400 - WiFi Dome
+model=BAW-British Airways_WiFi Dome
+texture=BAW-British Airways_WiFi Dome
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVS NC Wifi Dome
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.2]
+title=AIGAIM_British Airways Boeing 747-400 - Oneworld
+model=BAW-British Airways_Oneworld
+texture=BAW-British Airways_Oneworld
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVP NC Oneworld
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.3]
+title=AIGAIM_British Airways Boeing 747-400 - Oneworld WiFi Dome
+model=BAW-British Airways_Oneworld WiFi Dome
+texture=BAW-British Airways_Oneworld WiFi Dome
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVI NC Oneworld Wifi Dome
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.4]
+title=AIGAIM_British Airways Boeing 747-400 - Retro BOAC WiFi Dome
+model=BAW-British Airways_Retro BOAC WiFi Dome
+texture=BAW-British Airways_Retro BOAC WiFi Dome
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-BYGC BOAC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.5]
+title=AIGAIM_British Airways Boeing 747-400 - OC Crest
+model=BAW-British Airways_OC Crest
+texture=BAW-British Airways_OC Crest
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVU OC Crest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.6]
+title=AIGAIM_British Airways Boeing 747-400 - OC WiFi Dome
+model=BAW-British Airways_OC WiFi Dome
+texture=BAW-British Airways_OC WiFi Dome
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-BYGG OC Wifi Dome
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.7]
+title=AIGAIM_British Airways Boeing 747-400 - OC Oneworld WiFi Dome
+model=BAW-British Airways_OC Oneworld WiFi Dome
+texture=BAW-British Airways_OC Oneworld WiFi Dome
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVZ OC Oneworld Wifi Dome
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.8]
+title=AIGAIM_British Airways Boeing 747-400 - T3 Oneworld
+model=BAW-British Airways_T3 Oneworld
+texture=BAW-British Airways_T3 Oneworld
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA3
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVP NC Oneworld
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.9]
+title=AIGAIM_British Airways Boeing 747-400 - T3 Retro Landor
+model=BAW-British Airways_T3 Retro Landor
+texture=BAW-British Airways_T3 Retro Landor
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA3
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-BNLY Landor
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.10]
+title=AIGAIM_British Airways Boeing 747-400 - T3 Retro Negus
+model=BAW-British Airways_T3 Retro Negus
+texture=BAW-British Airways_T3 Retro Negus
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA3
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVB Negus
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.11]
+title=AIGAIM_British Airways Boeing 747-400 - T3 OC
+model=BAW-British Airways_T3 OC
+texture=BAW-British Airways_T3 OC
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA3
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVA OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.12]
+title=AIGAIM_British Airways Boeing 747-400 - T3 OC Oneworld
+model=BAW-British Airways_T3 OC Oneworld
+texture=BAW-British Airways_T3 OC Oneworld
+atc_airline=SPEED BIRD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA3
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=British Airways - G-CIVK OC Oneworld
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_744_ba_2019_fleet.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.13]
+title=AIGAIM_Qantas Boeing 747-400 - RR OC
+model=QFA-Qantas_RR OC
+texture=QFA-Qantas_RR OC
+atc_id=VN-OJT
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744_qfa_fsx.zip
+description=FAIB_B747-400_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA

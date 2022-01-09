@@ -1,0 +1,92 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B738.0.text"
+icao_type_designator="B738"
+icao_manufacturer="BOEING"
+icao_model="737-800"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+category=Airplane
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  39.7, -5.492,  4.341, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -36.5,  4.669, -1.974, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_His Majesty King Maha Vajiralongkorn Boeing BBJ2 WL - HS-MVS
+model=GOV-His Majesty King Maha Vajiralongkorn_HS-MVS
+texture=GOV-His Majesty King Maha Vajiralongkorn_HS-MVS
+atc_id=HS-MVS
+atc_airline=VICTOR MIKE
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV,VMS
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ2 WL
+ui_variation=His Majesty King Maha Vajiralongkorn
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_hismajestykingmahavajiralongkorn_bbj2_p3d.zip
+description=FAIB_BBJ2_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.1]
+title=AIGAIM_His Majesty King Maha Vajiralongkorn Boeing BBJ2 WL - SN HS-HMK
+model=GOV-His Majesty King Maha Vajiralongkorn_SN HS-HMK
+texture=GOV-His Majesty King Maha Vajiralongkorn_SN HS-HMK
+atc_id=HS-HMK
+atc_airline=VICTOR MIKE
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV,VMS
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ2 WL
+ui_variation=His Majesty King Maha Vajiralongkorn
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_hismajestykingmahavajiralongkorn_bbj2_p3d.zip
+description=FAIB_BBJ2_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV
+
+[fltsim.2]
+title=AIGAIM_Indonesian Government Boeing BBJ2 WL - SN A-001
+model=GOV-Indonesian Government_SN A-001
+texture=GOV-Indonesian Government_SN A-001
+atc_id=A-001
+atc_airline=INDONESIAN
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ2 WL
+ui_variation=Indonesia Government
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_indonesiangovernment_bbj2_p3d.zip
+description=FAIB_BBJ2_WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV

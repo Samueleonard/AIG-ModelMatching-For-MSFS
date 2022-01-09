@@ -1,0 +1,55 @@
+[VERSION]
+major=1
+minor=0 
+
+[GENERAL]
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A320.0.text"
+icao_type_designator="A320"
+icao_manufacturer="AIRBUS"
+icao_model="A-320"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  37.654, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -20.214,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[fltsim.0]
+title=AIGAIM_Kingdom of Cambodia Airbus ACJ320 - B-6738
+model=GOV-Kingdom of Cambodia_B-6738
+texture=GOV-Kingdom of Cambodia_B-6738
+atc_airline=CAMBODIA
+atc_parking_types=MIL_CARGO,RAMP
+atc_parking_codes=GOV
+ui_manufacturer=Airbus
+ui_type=Airbus ACJ320
+ui_variation=Kingdom of Cambodia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A320-200 CFM Kingdom of Cambodia FSX.zip
+description=FAIB_ACJ320_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOV

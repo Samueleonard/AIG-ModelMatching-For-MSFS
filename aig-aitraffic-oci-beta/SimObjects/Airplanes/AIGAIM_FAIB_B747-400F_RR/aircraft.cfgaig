@@ -1,0 +1,269 @@
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B744.0.text"
+category="Airplane"
+icao_type_designator="B744"
+icao_manufacturer="BOEING"
+icao_model="747-400"
+icao_engine_type="Jet"
+icao_engine_count=4
+icao_WTC="H"
+icao_generic=0
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-FCL ex Cathay
+model=CLX-Cargolux_LX-FCL ex Cathay
+texture=CLX-Cargolux_LX-FCL ex Cathay
+atc_id=LX-FCL
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-FCL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.1]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-ICL ex Cathay
+model=CLX-Cargolux_LX-ICL ex Cathay
+texture=CLX-Cargolux_LX-ICL ex Cathay
+atc_id=LX-ICL
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-ICL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.2]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-OCV City of Niederanven
+model=CLX-Cargolux_LX-OCV City of Niederanven
+texture=CLX-Cargolux_LX-OCV City of Niederanven
+atc_id=LX-OCV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-OCV 'City of Niederanven'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.3]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-UCV City of Bertrange
+model=CLX-Cargolux_LX-UCV City of Bertrange
+texture=CLX-Cargolux_LX-UCV City of Bertrange
+atc_id=LX-UCV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-UCV 'City of Bertrange'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.4]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-VCV City of Walferdange
+model=CLX-Cargolux_LX-VCV City of Walferdange
+texture=CLX-Cargolux_LX-VCV City of Walferdange
+atc_id=LX-VCV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-VCV 'City of Walferdange'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.5]
+title=AIGAIM_Cargolux Boeing 747-400F - LX-WCV City of Petange
+model=CLX-Cargolux_LX-WCV City of Petange
+texture=CLX-Cargolux_LX-WCV City of Petange
+atc_id=LX-WCV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-WCV 'City of Petange'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.6]
+title=AIGAIM_Cargolux Italia Boeing 747-400F - LX-RCV Monviso
+model=ICV-Cargolux Italia_LX-RCV Monviso
+texture=ICV-Cargolux Italia_LX-RCV Monviso
+atc_id=LX-RCV
+atc_airline=CARGOLUX ITALIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICV
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux Italia LX-RCV 'Monviso'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_icv.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICV
+
+[fltsim.7]
+title=AIGAIM_Cargolux Italia Boeing 747-400F - LX-SCV Tre Cime di Lavaredo
+model=ICV-Cargolux Italia_LX-SCV Tre Cime di Lavaredo
+texture=ICV-Cargolux Italia_LX-SCV Tre Cime di Lavaredo
+atc_id=LX-SCV
+atc_airline=CARGOLUX ITALIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICV
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux Italia LX-SCV 'Tre Cime di Lavaredo'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_icv.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICV
+
+[fltsim.8]
+title=AIGAIM_Cargolux Italia Boeing 747-400F - LX-TCV Monte Cervino
+model=ICV-Cargolux Italia_LX-TCV Monte Cervino
+texture=ICV-Cargolux Italia_LX-TCV Monte Cervino
+atc_id=LX-TCV
+atc_airline=CARGOLUX ITALIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICV
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux Italia LX-TCV 'Monte Cervino'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_icv.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICV
+
+[fltsim.9]
+title=AIGAIM_Cargolux Italia Boeing 747-400F - LX-YCV Monte Rosa
+model=ICV-Cargolux Italia_LX-YCV Monte Rosa
+texture=ICV-Cargolux Italia_LX-YCV Monte Rosa
+atc_id=LX-YCV
+atc_airline=CARGOLUX ITALIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICV
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux Italia LX-YCV 'Monte Rosa'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_icv.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICV
+
+[fltsim.10]
+title=AIGAIM_Emirates SkyCargo Boeing 747-400F - opb CargoLux LX-GCL
+model=UAEC-Emirates SkyCargo_opb CargoLux LX-GCL
+texture=UAEC-Emirates SkyCargo_opb CargoLux LX-GCL
+atc_id=LX-GCL
+atc_airline=EMIRATES
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UAEC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-GCL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_rr_clx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAEC
+
+[fltsim.11]
+title=AIGAIM_Silk Way West Airlines Boeing 747-400F - 'White #3 Engine' (TEMP)
+model=AZG-Silk Way West Airlines_'White #3 Engine'_temp
+texture=AZG-Silk Way West Airlines_'White #3 Engine'_temp
+atc_id=4K-SW008
+atc_airline=SILK WEST
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZG
+ui_manufacturer=BOEING
+ui_type=Boeing 747-400F
+ui_variation=Silkway West 4K-SW008
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_azg_fleet_fsx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZG
+
+[fltsim.12]
+title=AIGAIM_Sky Gates Airlines Boeing 747-400F
+model=SAY-Sky Gates Airlines
+texture=SAY-Sky Gates Airlines
+atc_id=VP-BCI
+atc_airline=SKY PATH
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SAY
+ui_manufacturer=BOEING
+ui_type=Boeing 747-400F
+ui_variation=Sky Gates Airlines VP-BCI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_say_fsx.zip
+description=FAIB_B747-400F_RR-FRR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SAY

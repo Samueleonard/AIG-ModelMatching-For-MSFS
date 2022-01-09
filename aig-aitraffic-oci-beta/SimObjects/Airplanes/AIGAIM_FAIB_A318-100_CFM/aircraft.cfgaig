@@ -1,0 +1,129 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A318.0.text"
+icao_type_designator="A318"
+icao_manufacturer="AIRBUS"
+icao_model="A-318"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+
+[EXITS]
+; FAIB A318 Exits
+number_of_exits=2 ; 
+exit.0=0.4,  29.878, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -15.764,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[fltsim.0]
+title=AIGAIM_Air France Airbus A318-100 - no WiFi
+model=AFR-Air France_no WiFi
+texture=AFR-Air France_no WiFi
+atc_id=F-GUGG
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A318-100
+ui_variation=Air France F-GUGG (NC, No WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a318_afr_fsx.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.1]
+title=AIGAIM_Air France Airbus A318-100 - OC
+model=AFR-Air France_OC
+texture=AFR-Air France_OC
+atc_id=F-GUGC
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A318-100
+ui_variation=Air France F-GUGC (WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a318_afr_fsx.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.2]
+title=AIGAIM_Air France Airbus A318-100 - OC no WiFi
+model=AFR-Air France_OC no WiFi
+texture=AFR-Air France_OC no WiFi
+atc_id=F-GUGA
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=FAIB
+ui_type=Airbus A318-100
+ui_variation=Air France F-GUGA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a318_afr_fsx.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.3]
+title=AIGAIM_British Airways Airbus A318-100
+model=BAW-British Airways
+texture=BAW-British Airways
+atc_airline=SPEED BIRD
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BAW,BA5
+ui_manufacturer=FAIB
+ui_type=Airbus A318-100
+ui_variation=British Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a318_baw_2019v2.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BAW
+
+[fltsim.4]
+title=AIGAIM_TAROM Airbus A318-100
+model=ROT-TAROM
+texture=ROT-TAROM
+atc_id=YR-ASC
+atc_airline=TAROM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROT
+ui_manufacturer=Airbus
+ui_type=Airbus A318-100
+ui_variation=S.C. Compania Nationala de Transporturi Aeriene Romane TAROM S.A
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A318 TAROM FSX.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROT

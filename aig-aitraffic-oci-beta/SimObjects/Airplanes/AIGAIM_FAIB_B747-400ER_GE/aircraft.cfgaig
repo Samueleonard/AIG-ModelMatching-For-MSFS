@@ -1,0 +1,79 @@
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME BOEING.0.text"
+atc_model="TT:ATCCOM.AC_MODEL B744.0.text"
+category="Airplane"
+icao_type_designator="B744"
+icao_manufacturer="BOEING"
+icao_model="747-400"
+icao_engine_type="Jet"
+icao_engine_count=4
+icao_WTC="H"
+icao_generic=0
+
+[SERVICES]
+fueltruck=1
+baggage_loader=1
+catering_truck=1
+boarding_ramp=1
+ground_power_unit=1
+pushback=1
+small_pushback=0
+marshaller=1
+jetway=1
+
+[fltsim.0]
+title=AIGAIM_Qantas Boeing 747-400ER - GE OC
+model=QFA-Qantas_GE OC
+texture=QFA-Qantas_GE OC
+atc_id=VH-OEE
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400ER
+ui_variation=Qantas ER
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744_qfa_fsx.zip
+description=FAIB_B747-400ER_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.1]
+title=AIGAIM_Qantas Boeing 747-400ER - GE OC One World
+model=QFA-Qantas_GE OC One World
+texture=QFA-Qantas_GE OC One World
+atc_id=VH-OEF
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400ER
+ui_variation=Qantas Oneworld logojet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744_qfa_logojets_fsx.zip
+description=FAIB_B747-400ER_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.2]
+title=AIGAIM_Qantas Boeing 747-400ER - GE OC Wunala
+model=QFA-Qantas_GE OC Wunala
+texture=QFA-Qantas_GE OC Wunala
+atc_id=VH-OEJ
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400ER
+ui_variation=Qantas Airways Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Qantas Spirit FSX.zip
+description=FAIB_B747-400ER_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA

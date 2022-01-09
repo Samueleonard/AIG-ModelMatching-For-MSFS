@@ -1,0 +1,218 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+category=Airplane ; 
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="TT:ATCCOM.AC_MODEL A319.0.text"
+icao_type_designator="A319"
+icao_manufacturer="AIRBUS"
+icao_model="A-319"
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_wtc="M"
+icao_generic=0
+
+[EXITS]
+number_of_exits=2 ; 
+exit.0=0.4,  32.861, -6.137,  3.203, 0 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+exit.1=0.4, -18.379,  5.152, -2.523, 1 ; openclose rate percent per second, longitudinal, lateral, vertical positions from datum (feet), type (0=Main 1=Cargo 2=Emergency)
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn_m, 1 ; 
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[fltsim.0]
+title=AIGAIM_Air China Airbus A319-100SL - CFM
+model=CCA-Air China_CFM
+texture=CCA-Air China_CFM
+atc_id=B-6468
+atc_airline=AIR CHINA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319 Air China.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.1]
+title=AIGAIM_American Airlines Airbus A319-100SL - CFM
+model=AAL-American Airlines_CFM
+texture=AAL-American Airlines_CFM
+atc_id=N9023N
+atc_airline=AMERICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=American Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_aal_a319_p3d-1.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.2]
+title=AIGAIM_Avianca Airbus A319-100SL - CFM
+model=AVA-Avianca_CFM
+texture=AVA-Avianca_CFM
+atc_id=N723AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
+
+[fltsim.3]
+title=AIGAIM_Chengdu Airlines Airbus A319-100SL
+model=UEA-Chengdu Airlines
+texture=UEA-Chengdu Airlines
+atc_id=B-8852
+atc_airline=UNITED EAGLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UEA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=Chengdu Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: BRW_A319S_ChengduAirlines_FSX.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UEA
+
+[fltsim.4]
+title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM
+model=CES-China Eastern Airlines_CFM
+texture=CES-China Eastern Airlines_CFM
+atc_id=B-6466
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=China Eastern CFM SL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319-100 China Eastern FSX.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.5]
+title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM OC
+model=CES-China Eastern Airlines_CFM OC
+texture=CES-China Eastern Airlines_CFM OC
+atc_id=B-6459
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a319s_ces_cfm_old.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.6]
+title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM OC Magnificent Qinghai
+model=CES-China Eastern Airlines_CFM OC Magnificent Qinghai
+texture=CES-China Eastern Airlines_CFM OC Magnificent Qinghai
+atc_id=B-6458
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a319s_ces_qinghai.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.7]
+title=AIGAIM_Druk Air Airbus A319-100SL
+model=DRK-Druk Air
+texture=DRK-Druk Air
+atc_id=A5-JSW
+atc_airline=ROYAL BHUTAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DRK
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100SL
+ui_variation=Drukair A5-JSW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: faib_a319s_drk_fsx.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DRK
+
+[fltsim.8]
+title=AIGAIM_Tibet Airlines Airbus A319-100SL
+model=TBA-Tibet Airlines
+texture=TBA-Tibet Airlines
+atc_id=B-6451
+atc_airline=TIBET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=Tibet Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a319s_tba.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBA
+
+[fltsim.9]
+title=AIGAIM_Avianca Airbus A319-100SL - CFM - WiFi Dome
+model=AVA-Avianca_CFM - WiFi Dome
+texture=AVA-Avianca_CFM - WiFi Dome
+atc_id=N741AV
+atc_airline=AVIANCA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AVA
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=Aerovias Nacionales de Colombia S.A.(Avianca)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319 Avianca Colombia FSX.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AVA
