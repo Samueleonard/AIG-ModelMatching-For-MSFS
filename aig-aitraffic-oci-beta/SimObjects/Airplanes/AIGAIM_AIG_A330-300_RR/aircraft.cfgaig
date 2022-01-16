@@ -674,63 +674,6 @@ isUserSelectable=0
 icao_airline=CSC
 
 [fltsim.34]
-title=AIGAIM_SriLankan Airlines Airbus A330-300 - named
-model=ALK-SriLankan Airlines_named
-texture=ALK-SriLankan Airlines_named
-atc_id=4R-ALL
-atc_airline=SRILANKAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ALK
-ui_manufacturer=AIG
-ui_type=Airbus A330-300
-ui_variation=SriLankan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ALK
-
-[fltsim.35]
-title=AIGAIM_SriLankan Airlines Airbus A330-300 - 242t
-model=ALK-SriLankan Airlines_242t
-texture=ALK-SriLankan Airlines_242t
-atc_id=4R-ALQ
-atc_airline=SRILANKAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ALK
-ui_manufacturer=AIG
-ui_type=Airbus A330-300
-ui_variation=SriLankan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
-description=AIG_A330-300_RR-RR_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ALK
-
-[fltsim.36]
-title=AIGAIM_SriLankan Airlines Airbus A330-300 - 242t named
-model=ALK-SriLankan Airlines_242t named
-texture=ALK-SriLankan Airlines_242t named
-atc_id=4R-ALP
-atc_airline=SRILANKAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ALK
-ui_manufacturer=AIG
-ui_type=Airbus A330-300
-ui_variation=SriLankan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
-description=AIG_A330-300_RR-RR_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ALK
-
-[fltsim.37]
 title=AIGAIM_Swiss Airbus A330-300
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -749,7 +692,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.38]
+[fltsim.35]
 title=AIGAIM_Swiss Airbus A330-300 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -768,7 +711,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.39]
+[fltsim.36]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - RR WiFi Dome
 model=THY-Turkish Airlines_RR WiFi Dome
 texture=THY-Turkish Airlines_RR WiFi Dome
@@ -786,7 +729,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_Lucky Air Airbus A330-300 - OC
 model=LKE-Lucky Air_OC
 texture=LKE-Lucky Air_OC
@@ -804,7 +747,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.41]
+[fltsim.38]
 title=AIGAIM_Lucky Air Airbus A330-300 - 242t Large 3rd Door
 model=LKE-Lucky Air_242t Large 3rd Door
 texture=LKE-Lucky Air_242t Large 3rd Door
@@ -822,7 +765,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.42]
+[fltsim.39]
 title=AIGAIM_Brussels Airlines Airbus A330-300
 model=BEL-Brussels Airlines
 texture=BEL-Brussels Airlines
@@ -840,7 +783,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BEL
 
-[fltsim.43]
+[fltsim.40]
 title=AIGAIM_Sunclass Airlines Airbus A330-300
 model=VKG-Sunclass Airlines
 texture=VKG-Sunclass Airlines
@@ -859,7 +802,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.44]
+[fltsim.41]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -878,7 +821,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.45]
+[fltsim.42]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300 - 242t Enhanced
 model=SAS-SAS Scandinavian Airlines_242t Enhanced
 texture=SAS-SAS Scandinavian Airlines_242t Enhanced
@@ -897,7 +840,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.46]
+[fltsim.43]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300 - 242t Enhanced - SE-REH
 model=SAS-SAS Scandinavian Airlines_242t Enhanced - SE-REH
 texture=SAS-SAS Scandinavian Airlines_242t Enhanced - SE-REH
@@ -915,3 +858,60 @@ description=AIG_A330-300_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
+
+[fltsim.44]
+title=AIGAIM_SriLankan Airlines Airbus A330-300 - named
+model=ALK-SriLankan Airlines_named
+texture=ALK-SriLankan Airlines_named
+atc_id=4R-ALL
+atc_airline=SRILANKAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ALK
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=SriLankan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ALK
+
+[fltsim.45]
+title=AIGAIM_SriLankan Airlines Airbus A330-300 - 242t
+model=ALK-SriLankan Airlines_242t
+texture=ALK-SriLankan Airlines_242t
+atc_id=4R-ALQ
+atc_airline=SRILANKAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ALK
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=SriLankan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ALK
+
+[fltsim.46]
+title=AIGAIM_SriLankan Airlines Airbus A330-300 - 242t named
+model=ALK-SriLankan Airlines_242t named
+texture=ALK-SriLankan Airlines_242t named
+atc_id=4R-ALP
+atc_airline=SRILANKAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ALK
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=SriLankan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_alk_a333_jkm.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ALK

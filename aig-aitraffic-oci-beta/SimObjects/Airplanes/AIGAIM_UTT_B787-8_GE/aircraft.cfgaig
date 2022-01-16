@@ -793,3 +793,41 @@ description=UTT_B787-8_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
+
+[fltsim.39]
+title=AIGAIM_Royal Air Maroc Boeing 787-8 - OC
+model=RAM-Royal Air Maroc_OC
+texture=RAM-Royal Air Maroc_OC
+atc_id=CN-RGC
+atc_airline=ROYAL AIR MAROC
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RAM
+ui_manufacturer=UTT
+ui_type=Boeing 787-8
+ui_variation=Royal Air Maroc
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: utt_ram_b788_jkm.zip
+description=UTT_B787-8_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RAM
+
+[fltsim.40]
+title=AIGAIM_Royal Air Maroc Boeing 787-8 - Oneworld
+model=RAM-Royal Air Maroc_Oneworld
+texture=RAM-Royal Air Maroc_Oneworld
+atc_id=CN-RGB
+atc_airline=ROYAL AIR MAROC
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RAM
+ui_manufacturer=UTT
+ui_type=Boeing 787-8
+ui_variation=Royal Air Maroc
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: utt_ram_b788_jkm.zip
+description=UTT_B787-8_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RAM

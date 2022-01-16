@@ -389,24 +389,6 @@ isUserSelectable=0
 icao_airline=QFA
 
 [fltsim.18]
-title=AIGAIM_Qatar Airways Airbus A330-300 - named Large 3rd Door
-model=QTR-Qatar Airways_named Large 3rd Door
-texture=QTR-Qatar Airways_named Large 3rd Door
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Qatar Airways.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.19]
 title=AIGAIM_Tunisair Airbus A330-300 - opb GJT
 model=TAR-Tunisair_opb GJT
 texture=TAR-Tunisair_opb GJT
@@ -425,7 +407,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - GE Belly Titles WiFi Dome
 model=THY-Turkish Airlines_GE Belly Titles WiFi Dome
 texture=THY-Turkish Airlines_GE Belly Titles WiFi Dome
@@ -443,7 +425,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - 242t GE 300th Aircraft
 model=THY-Turkish Airlines_242t GE 300th Aircraft
 texture=THY-Turkish Airlines_242t GE 300th Aircraft
@@ -461,7 +443,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Eurowings Discover Airbus A330-300
 model=OCN-Eurowings Discover
 texture=OCN-Eurowings Discover
@@ -478,3 +460,21 @@ description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
+
+[fltsim.22]
+title=AIGAIM_Qatar Airways Airbus A330-300 - named Large 3rd Door
+model=QTR-Qatar Airways_named Large 3rd Door
+texture=QTR-Qatar Airways_named Large 3rd Door
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Qatar Airways.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

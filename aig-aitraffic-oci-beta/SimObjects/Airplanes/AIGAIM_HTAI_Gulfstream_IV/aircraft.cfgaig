@@ -620,7 +620,6 @@ description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
-atc_airline=
 
 [fltsim.34]
 title=AIGAIM_Pentastar Aviation Gulfstream IVSP - N473CW

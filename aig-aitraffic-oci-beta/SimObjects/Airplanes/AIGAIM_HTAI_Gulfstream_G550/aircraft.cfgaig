@@ -1883,7 +1883,6 @@ description=HTAI_Gulfstream_G550-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.109]
 title=AIGAIM_Calvin Klein Gulfstream G550 - N550CK
