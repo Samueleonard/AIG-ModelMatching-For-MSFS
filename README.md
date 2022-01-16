@@ -13,7 +13,7 @@ AI Sounds WILL NOW WORK as of 02/01/2022 - issue fixed by AIG (thank you)
 
 Download from - 
 
-[Google Drive](https://drive.google.com/file/d/1kdrxRRI82kbDasaoVBTQ-82j_u_E8DUb/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+[Google Drive](https://drive.google.com/file/d/1bVYCt3L3GaoAPSlzKbCMfm82_LTO1Ktu/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
 ALTERNATIVE - DO NOT USE - [Direct Github]() (~25gb)
 
