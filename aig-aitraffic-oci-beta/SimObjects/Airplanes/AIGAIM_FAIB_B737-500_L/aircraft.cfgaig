@@ -349,24 +349,6 @@ isUserSelectable=0
 icao_airline=KMF
 
 [fltsim.18]
-title=AIGAIM_Mauritania Airlines International Boeing 737-500 - eyebrows
-model=MAI-Mauritania Airlines International_eyebrows
-texture=MAI-Mauritania Airlines International_eyebrows
-atc_id=5T-CLA
-atc_airline=MAURITANIA AIRWAYS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MAI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-500
-ui_variation=Mauritania Airlines International
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB_B735_Mauritania FSX.zip
-description=FAIB_B737-500-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MAI
-
-[fltsim.19]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BKV
 model=AUL-Nordavia_VP-BKV
 texture=AUL-Nordavia_VP-BKV
@@ -384,7 +366,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQI
 model=AUL-Nordavia_VP-BQI
 texture=AUL-Nordavia_VP-BQI
@@ -402,7 +384,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BQL
 model=AUL-Nordavia_VP-BQL
 texture=AUL-Nordavia_VP-BQL
@@ -420,7 +402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRG
 model=AUL-Nordavia_VP-BRG
 texture=AUL-Nordavia_VP-BRG
@@ -438,7 +420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRI
 model=AUL-Nordavia_VP-BRI
 texture=AUL-Nordavia_VP-BRI
@@ -456,7 +438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRK
 model=AUL-Nordavia_VP-BRK
 texture=AUL-Nordavia_VP-BRK
@@ -474,7 +456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Nordavia Boeing 737-500 - VP-BRN
 model=AUL-Nordavia_VP-BRN
 texture=AUL-Nordavia_VP-BRN
@@ -492,7 +474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Tunisair Express Boeing 737-500 - opb KHH Eyebrows
 model=TUX-Tunisair Express_opb KHH Eyebrows
 texture=TUX-Tunisair Express_opb KHH Eyebrows
@@ -510,7 +492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUX
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_UTair Boeing 737-500 - OC (TEMP)
 model=UTA-UTair_OC_temp
 texture=UTA-UTair_OC_temp
@@ -528,7 +510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Blue Air Boeing 737-500 - OC
 model=BLA-Blue Air_OC
 texture=BLA-Blue Air_OC
