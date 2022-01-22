@@ -1,0 +1,259 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME LEAR JET.0.text"
+atc_model="TT:ATCCOM.AC_MODEL 35.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=LJ35
+icao_manufacturer=LEAR JET
+icao_model=35
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Saab Bombardier Learjet 35A - SE-RMX
+model=GA2J-Saab_SE-RMX
+texture=GA2J-Saab_SE-RMX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_type=Learjet 35
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: HTAI_LJ35_SAAB.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.1]
+title=AIGAIM_Sunwest Aviation Learjet 35 - C-GTJL
+model=CNK-Sunwest Aviation_C-GTJL
+texture=CNK-Sunwest Aviation_C-GTJL
+atc_id=C-GTJL
+atc_airline=CHINOOK
+atc_parking_types=RAMP
+atc_parking_codes=CNK
+ui_manufacturer=HTAI
+ui_type=Learjet 35
+ui_variation=Sunwest_C-GTJL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: Sunwest Learjet 35.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CNK
+
+[fltsim.2]
+title=AIGAIM_East Coast Jets Bombardier Learjet 35A - N711EC
+model=GA2J-East Coast Jets_N711EC
+texture=GA2J-East Coast Jets_N711EC
+atc_id=N711EC
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=East Coast Jets Bombardier Learjet 35A N711EC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_East-Coast-Jets_LJ35_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.3]
+title=AIGAIM_East Coast Jets Bombardier Learjet 35A - N721EC
+model=GA2J-East Coast Jets_N721EC
+texture=GA2J-East Coast Jets_N721EC
+atc_id=N721EC
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=East Coast Jets Bombardier Learjet 35A N721EC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_East-Coast-Jets_LJ35_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.4]
+title=AIGAIM_General Atomics Bombardier Learjet 35A - N200TW
+model=GA2J-General Atomics_N200TW
+texture=GA2J-General Atomics_N200TW
+atc_id=N200TW
+atc_airline=AIRCAT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=HTAI
+ui_type=Learjet 35
+ui_variation=General Atomics Bombardier Learjet 35A N200TW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: GeneralAtomics_LJ35.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.5]
+title=AIGAIM_Merlin 1 Bombardier Learjet 35A - N360AY
+model=GA2J-Merlin 1_N360AY
+texture=GA2J-Merlin 1_N360AY
+atc_id=N360AY
+atc_airline=DOTCOM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,DCM
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=Merlin 1 Bombardier Learjet 35A N360AY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Merlin-1_LJ35_FLEET_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DCM
+
+[fltsim.6]
+title=AIGAIM_Merlin 1 Bombardier Learjet 35A - N72AY
+model=GA2J-Merlin 1_N72AY
+texture=GA2J-Merlin 1_N72AY
+atc_id=N72AY
+atc_airline=DOTCOM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,DCM
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=Merlin 1 Bombardier Learjet 35A N72AY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Merlin-1_LJ35_FLEET_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DCM
+
+[fltsim.7]
+title=AIGAIM_Ameristar Jet Charter Learjet 35
+model=AJI-Ameristar Jet Charter
+texture=AJI-Ameristar Jet Charter
+atc_id=N663TW
+atc_airline=AMERISTAR
+atc_parking_types=RAMP
+atc_parking_codes=AJI
+ui_manufacturer=HTAI - Bombardier
+ui_type=Learjet 35
+ui_variation=Ameristar - N663TW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ailj35aji.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AJI
+
+[fltsim.8]
+title=AIGAIM_Aero Air Bombardier Learjet 35A - N542LM
+model=AMB-Aero Air_N542LM
+texture=AMB-Aero Air_N542LM
+atc_id=N542LM
+atc_parking_types=RAMP
+atc_parking_codes=AMB
+ui_manufacturer=Henry Tomkiewicz
+ui_type=Learjet 35
+ui_variation=Lifemed Alaska
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: LifeMedAlaska_Learjet_35.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMB
+
+[fltsim.9]
+title=AIGAIM_Aero Air Bombardier Learjet 35A - N544LM
+model=AMB-Aero Air_N544LM
+texture=AMB-Aero Air_N544LM
+atc_id=N544LM
+atc_parking_types=RAMP
+atc_parking_codes=AMB
+ui_manufacturer=Henry Tomkiewicz
+ui_type=Learjet 35
+ui_variation=Lifemed Alaska
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Paco on JCAI Filename: LifeMedAlaska_Learjet_35.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMB
+
+[fltsim.10]
+title=AIGAIM_Aero Air Bombardier Learjet 35A - N93LE
+model=GA2J-Aero Air_N93LE
+texture=GA2J-Aero Air_N93LE
+atc_id=N93LE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=Aero Air Bombardier Learjet 35A N93LE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Aero-Air_LJ35_N393LE_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.11]
+title=AIGAIM_Aviation Services Elite Bombardier Learjet 35 - N354LQ
+model=GA2J-Aviation Services Elite_N354LQ
+texture=GA2J-Aviation Services Elite_N354LQ
+atc_id=N354LQ
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=Aviation Services Elite Bombardier Learjet 35 N354LQ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Aviation-Services-Elite_LJ35_N345LQ_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

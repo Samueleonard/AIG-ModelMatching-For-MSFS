@@ -222,44 +222,6 @@ isUserSelectable=0
 icao_airline=IBE
 
 [fltsim.9]
-title=AIGAIM_KLM Airbus A330-200 - 100 Years
-model=KLM-KLM_100 Years
-texture=KLM-KLM_100 Years
-atc_id=PH-AOA
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-200
-ui_variation=KLM - PH-AOA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.10]
-title=AIGAIM_KLM Airbus A330-200 - OC 100 Years
-model=KLM-KLM_OC 100 Years
-texture=KLM-KLM_OC 100 Years
-atc_id=PH-AOB
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-200
-ui_variation=KLM - PH-AOB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.11]
 title=AIGAIM_Level Airbus A330-200 - 242t opb Iberia
 model=IBE-Level_242t opb Iberia
 texture=IBE-Level_242t opb Iberia
@@ -278,7 +240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Lufthansa Airbus A330-200 - opb EWG (TEMP)
 model=DLH-Lufthansa_opb EWG_temp
 texture=DLH-Lufthansa_opb EWG_temp
@@ -296,7 +258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Qantas Airbus A330-200
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -315,7 +277,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.14]
+[fltsim.12]
 title=AIGAIM_Qantas Airbus A330-200 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
@@ -334,7 +296,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.15]
+[fltsim.13]
 title=AIGAIM_Qantas Airbus A330-200 - OC No Engine Logo
 model=QFA-Qantas_OC No Engine Logo
 texture=QFA-Qantas_OC No Engine Logo
@@ -353,7 +315,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.16]
+[fltsim.14]
 title=AIGAIM_Qantas Airbus A330-200 - OC One World
 model=QFA-Qantas_OC One World
 texture=QFA-Qantas_OC One World
@@ -372,7 +334,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.17]
+[fltsim.15]
 title=AIGAIM_Qantas Airbus A330-200 - OC Wifi Dome
 model=QFA-Qantas_OC Wifi Dome
 texture=QFA-Qantas_OC Wifi Dome
@@ -391,7 +353,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Qantas Airbus A330-200 - OT OC Wifi Dome
 model=QFA-Qantas_OT OC Wifi Dome
 texture=QFA-Qantas_OT OC Wifi Dome
@@ -410,7 +372,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE WiFi Dome
 model=THY-Turkish Airlines_GE WiFi Dome
 texture=THY-Turkish Airlines_GE WiFi Dome
@@ -428,7 +390,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Retro
 model=THY-Turkish Airlines_GE Retro
 texture=THY-Turkish Airlines_GE Retro
@@ -446,7 +408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Eurowings Discover Airbus A330-200
 model=OCN-Eurowings Discover
 texture=OCN-Eurowings Discover
@@ -464,7 +426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Eurowings Discover Airbus A330-200 -  grey engines
 model=OCN-Eurowings Discover_ grey engines
 texture=OCN-Eurowings Discover_ grey engines
@@ -482,7 +444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Qatar Airways Airbus A330-200 - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -500,7 +462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE ETOPS Argentina
 model=ARG-Aerolineas Argentinas_GE ETOPS Argentina
 texture=ARG-Aerolineas Argentinas_GE ETOPS Argentina
@@ -518,3 +480,41 @@ description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
+
+[fltsim.23]
+title=AIGAIM_KLM Airbus A330-200 - aft Sat
+model=KLM-KLM_aft Sat
+texture=KLM-KLM_aft Sat
+atc_id=PH-AOA
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-200
+ui_variation=KLM - PH-AOA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.24]
+title=AIGAIM_KLM Airbus A330-200 - OC aft Sat
+model=KLM-KLM_OC aft Sat
+texture=KLM-KLM_OC aft Sat
+atc_id=PH-AOB
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-200
+ui_variation=KLM - PH-AOB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

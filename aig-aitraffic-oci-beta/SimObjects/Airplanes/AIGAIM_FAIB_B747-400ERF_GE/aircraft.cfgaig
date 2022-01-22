@@ -193,44 +193,6 @@ isUserSelectable=0
 icao_airline=CKS
 
 [fltsim.9]
-title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo 100 Years
-model=MPH-Martinair_KLM Cargo 100 Years
-texture=MPH-Martinair_KLM Cargo 100 Years
-atc_id=PH-CKB
-atc_airline=MARTINAIR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=MPH
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400F
-ui_variation=KLM Cargo - PH-CKB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai74fklm_100years_fsx.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MPH
-
-[fltsim.10]
-title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo old CARGO logo 100 Years
-model=MPH-Martinair_KLM Cargo old CARGO logo 100 Years
-texture=MPH-Martinair_KLM Cargo old CARGO logo 100 Years
-atc_id=PH-CKA
-atc_airline=MARTINAIR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=MPH
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400F
-ui_variation=KLM Cargo - PH-CKA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai74fklm_100years_fsx.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MPH
-
-[fltsim.11]
 title=AIGAIM_Saudia Cargo Boeing 747-400ERF - GE Albino opb ACT
 model=SVAC-Saudia Cargo_GE Albino opb ACT
 texture=SVAC-Saudia Cargo_GE Albino opb ACT
@@ -249,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N904AR'
 model=KYE-Sky Lease Cargo_'N904AR'
 texture=KYE-Sky Lease Cargo_'N904AR'
@@ -268,7 +230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KYE
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N903AR'
 model=KYE-Sky Lease Cargo_'N903AR'
 texture=KYE-Sky Lease Cargo_'N903AR'
@@ -286,3 +248,41 @@ description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KYE
+
+[fltsim.12]
+title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo
+model=MPH-Martinair_KLM Cargo
+texture=MPH-Martinair_KLM Cargo
+atc_id=PH-CKB
+atc_airline=MARTINAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MPH
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 747-400F
+ui_variation=KLM Cargo - PH-CKB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai74fklm_fsx.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MPH
+
+[fltsim.13]
+title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo old CARGO logo
+model=MPH-Martinair_KLM Cargo old CARGO logo
+texture=MPH-Martinair_KLM Cargo old CARGO logo
+atc_id=PH-CKA
+atc_airline=MARTINAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MPH
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 747-400F
+ui_variation=KLM Cargo - PH-CKA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai74fklm_fsx.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MPH

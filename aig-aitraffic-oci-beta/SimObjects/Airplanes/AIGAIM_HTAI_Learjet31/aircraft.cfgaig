@@ -1,0 +1,172 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME LEAR JET.0.text"
+atc_model="TT:ATCCOM.AC_MODEL 31.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=LJ31
+icao_manufacturer=LEAR JET
+icao_model=31
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Catalina Aerospace Bombardier Learjet 31A - N127VL
+model=GA2J-Catalina Aerospace_N127VL
+texture=GA2J-Catalina Aerospace_N127VL
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=HTAI
+ui_type=Learjet 31
+ui_variation=N127VL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: lj31_ai.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.1]
+title=AIGAIM_Mountain Aviation Bombardier Learjet 31A - N31KH
+model=GA2J-Mountain Aviation_N31KH
+texture=GA2J-Mountain Aviation_N31KH
+atc_id=N31KH
+atc_airline=FOOT HILLS
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,FTH
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=Mountain Aviation Bombardier Learjet 31A N31KH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Mountain-Aviation_LJ31_N31KH_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FTH
+
+[fltsim.2]
+title=AIGAIM_Aero Air Bombardier Learjet 31A - N163AL
+model=GA2J-Aero Air_N163AL
+texture=GA2J-Aero Air_N163AL
+atc_id=N163AL
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=Aero Air Bombardier Learjet 31A N163AL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_AeroAir_LJ31_Fleet_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.3]
+title=AIGAIM_Aero Air Bombardier Learjet 31A - N164AL
+model=GA2J-Aero Air_N164AL
+texture=GA2J-Aero Air_N164AL
+atc_id=N164AL
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=Aero Air Bombardier Learjet 31A N164AL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_AeroAir_LJ31_Fleet_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.4]
+title=AIGAIM_Aero Air Bombardier Learjet 31A - N165AL
+model=GA2J-Aero Air_N165AL
+texture=GA2J-Aero Air_N165AL
+atc_id=N165AL
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=Aero Air Bombardier Learjet 31A N165AL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_AeroAir_LJ31_Fleet_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.5]
+title=AIGAIM_Duncan Aviation Bombardier Learjet 31A - N260LF
+model=GA2J-Duncan Aviation_N260LF
+texture=GA2J-Duncan Aviation_N260LF
+atc_id=N260LF
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=Duncan Aviation Bombardier Learjet 31A N260LF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Duncan-Aviation_LJ31_N260LF_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.6]
+title=AIGAIM_CommScope Bombardier Learjet 31A - N962FM
+model=GA2J-CommScope_N962FM
+texture=GA2J-CommScope_N962FM
+atc_id=N962FM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 31
+ui_variation=CommScope Bombardier Learjet 31A N962FM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_CommScope_LJ31_N962FM_jondix.zip
+description=HTAI_Learjet31(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

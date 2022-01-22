@@ -140,24 +140,6 @@ isUserSelectable=0
 icao_airline=DALX
 
 [fltsim.5]
-title=AIGAIM_KLM Cityhopper Embraer EMB-175 New WL - 100 Years
-model=KLC-KLM_100 Years
-texture=KLC-KLM_100 Years
-atc_id=PH-EXP
-atc_airline=KLM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLC
-ui_manufacturer=RAI - Embraer
-ui_type=Embraer EMB-175 New WL
-ui_variation=KLM Cityhopper - PH-EXP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: aie75klc.zip
-description=RFSL_EMB-175_NWv3(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLC
-
-[fltsim.6]
 title=AIGAIM_United Express Embraer EMB-175 New WL - opb Mesa Airlines
 model=UALX-United Express_opb Mesa Airlines
 texture=UALX-United Express_opb Mesa Airlines
@@ -175,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Mesa Airlines
 model=UALX-United Express_OC opb Mesa Airlines
 texture=UALX-United Express_OC opb Mesa Airlines
@@ -193,7 +175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Republic Airlines
 model=UALX-United Express_OC opb Republic Airlines
 texture=UALX-United Express_OC opb Republic Airlines
@@ -211,7 +193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_United Express Embraer EMB-175 New WL - opb Skywest Airlines
 model=UALX-United Express_opb Skywest Airlines
 texture=UALX-United Express_opb Skywest Airlines
@@ -229,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Skywest Airlines
 model=UALX-United Express_OC opb Skywest Airlines
 texture=UALX-United Express_OC opb Skywest Airlines
@@ -247,7 +229,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Alaska Airlines Embraer EMB-175 New WL - opb Horizon Air
 model=ASAX-Alaska Airlines_opb Horizon Air
 texture=ASAX-Alaska Airlines_opb Horizon Air
@@ -265,7 +247,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASAX
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Alaska Airlines Embraer EMB-175 New WL - opb Horizon Air Honoring Those Who Serve
 model=ASA-Alaska Airlines_opb Horizon Air Honoring Those Who Serve
 texture=ASA-Alaska Airlines_opb Horizon Air Honoring Those Who Serve
@@ -283,7 +265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Alaska Airlines Embraer EMB-175 New WL - opb Skywest Airlines
 model=ASAX-Alaska Airlines_opb Skywest Airlines
 texture=ASAX-Alaska Airlines_opb Skywest Airlines
@@ -300,3 +282,21 @@ description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASAX
+
+[fltsim.13]
+title=AIGAIM_KLM Cityhopper Embraer EMB-175 New WL
+model=KLM-KLM
+texture=KLM-KLM
+atc_id=PH-EXL
+atc_airline=KLM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=RAI - Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=KLM Cityhopper - PH-EXL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: aie75klc.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

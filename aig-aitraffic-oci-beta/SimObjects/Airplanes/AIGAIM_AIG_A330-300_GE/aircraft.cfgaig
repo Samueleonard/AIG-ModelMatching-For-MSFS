@@ -313,44 +313,6 @@ isUserSelectable=0
 icao_airline=IBE
 
 [fltsim.14]
-title=AIGAIM_KLM Airbus A330-300 - Satcomm 100 Years
-model=KLM-KLM_Satcomm 100 Years
-texture=KLM-KLM_Satcomm 100 Years
-atc_id=PH-AKB
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-300
-ui_variation=KLM - PH-AKB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.15]
-title=AIGAIM_KLM Airbus A330-300 - OC Satcomm 100 Years
-model=KLM-KLM_OC Satcomm 100 Years
-texture=KLM-KLM_OC Satcomm 100 Years
-atc_id=PH-AKF
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-300
-ui_variation=KLM - PH-AKF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.16]
 title=AIGAIM_Qantas Airbus A330-300
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -369,7 +331,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.17]
+[fltsim.15]
 title=AIGAIM_Qantas Airbus A330-300 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
@@ -388,7 +350,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Tunisair Airbus A330-300 - opb GJT
 model=TAR-Tunisair_opb GJT
 texture=TAR-Tunisair_opb GJT
@@ -407,7 +369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - GE Belly Titles WiFi Dome
 model=THY-Turkish Airlines_GE Belly Titles WiFi Dome
 texture=THY-Turkish Airlines_GE Belly Titles WiFi Dome
@@ -425,7 +387,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - 242t GE 300th Aircraft
 model=THY-Turkish Airlines_242t GE 300th Aircraft
 texture=THY-Turkish Airlines_242t GE 300th Aircraft
@@ -443,7 +405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Eurowings Discover Airbus A330-300
 model=OCN-Eurowings Discover
 texture=OCN-Eurowings Discover
@@ -461,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Qatar Airways Airbus A330-300 - named Large 3rd Door
 model=QTR-Qatar Airways_named Large 3rd Door
 texture=QTR-Qatar Airways_named Large 3rd Door
@@ -478,3 +440,41 @@ description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.21]
+title=AIGAIM_KLM Airbus A330-300 - aft Sat
+model=KLM-KLM_aft Sat
+texture=KLM-KLM_aft Sat
+atc_id=PH-AKB
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-300
+ui_variation=KLM - PH-AKB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.22]
+title=AIGAIM_KLM Airbus A330-300 - OC aft Sat
+model=KLM-KLM_OC aft Sat
+texture=KLM-KLM_OC aft Sat
+atc_id=PH-AKF
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-300
+ui_variation=KLM - PH-AKF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai333klm_aig.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

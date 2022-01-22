@@ -30,7 +30,7 @@ copilot_attach_node="PILOT_1"
 FUELTRUCK=1
 BAGGAGE_LOADER=1
 CATERING_TRUCK=0
-BOARDING_RAMP=1
+BOARDING_RAMP=0
 GROUND_POWER_UNIT=1
 PUSHBACK=0
 SMALL_PUSHBACK=1
@@ -100,6 +100,7 @@ description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
+atc_airline=
 
 [fltsim.3]
 title=AIGAIM_Air Corviglia Pilatus PC-12 - HB-FVD

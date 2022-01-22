@@ -1576,139 +1576,6 @@ isUserSelectable=0
 icao_airline=JAL
 
 [fltsim.80]
-title=AIGAIM_KLM Boeing 777-300ER - 100 Years
-model=KLM-KLM_100 Years
-texture=KLM-KLM_100 Years
-atc_id=PH-BVR
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVR
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.81]
-title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA 100 Years
-model=KLM-KLM_KLM ASIA 100 Years
-texture=KLM-KLM_KLM ASIA 100 Years
-atc_id=PH-BVB
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.82]
-title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat 100 Years
-model=KLM-KLM_KLM ASIA aft Sat 100 Years
-texture=KLM-KLM_KLM ASIA aft Sat 100 Years
-atc_id=PH-BVC
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.83]
-title=AIGAIM_KLM Boeing 777-300ER - Sat 100 Years
-model=KLM-KLM_Sat 100 Years
-texture=KLM-KLM_Sat 100 Years
-atc_id=PH-BVF
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.84]
-title=AIGAIM_KLM Boeing 777-300ER - OC 100 Years
-model=KLM-KLM_OC 100 Years
-texture=KLM-KLM_OC 100 Years
-atc_id=PH-BVK
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.85]
-title=AIGAIM_KLM Boeing 777-300ER - Skyteam
-model=KLM-KLM_Skyteam
-texture=KLM-KLM_Skyteam
-atc_id=PH-BVD
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.86]
-title=AIGAIM_KLM Boeing 777-300ER - Orange Pride 100 Years
-model=KLM-KLM_Orange Pride 100 Years
-texture=KLM-KLM_Orange Pride 100 Years
-atc_id=PH-BVA
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=KLM - PH-BVA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wklm_100years_fsx.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.87]
 title=AIGAIM_Korean Air Boeing 777-300ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -1727,7 +1594,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.88]
+[fltsim.81]
 title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
 model=KAL-Korean Air_200th Boeing
 texture=KAL-Korean Air_200th Boeing
@@ -1746,7 +1613,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.89]
+[fltsim.82]
 title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -1764,7 +1631,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.90]
+[fltsim.83]
 title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
 model=KAL-Korean Air_SuperM
 texture=KAL-Korean Air_SuperM
@@ -1783,7 +1650,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.91]
+[fltsim.84]
 title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
 model=KAC-Kuwait Airways_65 Years_temp
 texture=KAC-Kuwait Airways_65 Years_temp
@@ -1802,7 +1669,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
 
-[fltsim.92]
+[fltsim.85]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -1821,7 +1688,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.93]
+[fltsim.86]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
 model=TAM-LATAM Airlines Brasil_Star Wars
 texture=TAM-LATAM Airlines Brasil_Star Wars
@@ -1840,7 +1707,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.94]
+[fltsim.87]
 title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC
 model=PIA-Pakistan International Airlines_OC
 texture=PIA-Pakistan International Airlines_OC
@@ -1859,7 +1726,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
 
-[fltsim.95]
+[fltsim.88]
 title=AIGAIM_Pakistan International Airlines Boeing 777-300ER - OC No Belly Titles
 model=PIA-Pakistan International Airlines_OC No Belly Titles
 texture=PIA-Pakistan International Airlines_OC No Belly Titles
@@ -1878,7 +1745,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
 
-[fltsim.96]
+[fltsim.89]
 title=AIGAIM_Philippine Airlines Boeing 777-300ER (TEMP)
 model=PAL-Philippine Airlines_temp
 texture=PAL-Philippine Airlines_temp
@@ -1897,7 +1764,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
 
-[fltsim.97]
+[fltsim.90]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -1916,7 +1783,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.98]
+[fltsim.91]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
 model=QTR-Qatar Airways_named fwd WiFi Dome
 texture=QTR-Qatar Airways_named fwd WiFi Dome
@@ -1935,7 +1802,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.99]
+[fltsim.92]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
 model=QTR-Qatar Airways_FIFA World Cup_temp
 texture=QTR-Qatar Airways_FIFA World Cup_temp
@@ -1954,7 +1821,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.100]
+[fltsim.93]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
 model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
 texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
@@ -1973,7 +1840,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.101]
+[fltsim.94]
 title=AIGAIM_Rossiya Airlines Boeing 777-300ER (TEMP)
 model=SDM-Rossiya Airlines_temp
 texture=SDM-Rossiya Airlines_temp
@@ -1992,7 +1859,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.102]
+[fltsim.95]
 title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
 model=SVA-Saudia_Ad Diriyah E-Prix
 texture=SVA-Saudia_Ad Diriyah E-Prix
@@ -2011,7 +1878,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.103]
+[fltsim.96]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -2030,7 +1897,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.104]
+[fltsim.97]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
 model=SIA-Singapore Airlines_Fwd Dome
 texture=SIA-Singapore Airlines_Fwd Dome
@@ -2049,7 +1916,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.105]
+[fltsim.98]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
 model=SIA-Singapore Airlines_Star Alliance_temp
 texture=SIA-Singapore Airlines_Star Alliance_temp
@@ -2068,7 +1935,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.106]
+[fltsim.99]
 title=AIGAIM_Swiss Boeing 777-300ER - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -2087,7 +1954,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.107]
+[fltsim.100]
 title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-300ER
 model=DTA-TAAG Linhas Aereas de Angola
 texture=DTA-TAAG Linhas Aereas de Angola
@@ -2106,7 +1973,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTA
 
-[fltsim.108]
+[fltsim.101]
 title=AIGAIM_Thai Airways Boeing 777-300ER
 model=THA-Thai Airways
 texture=THA-Thai Airways
@@ -2125,7 +1992,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
 
-[fltsim.109]
+[fltsim.102]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -2144,7 +2011,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.110]
+[fltsim.103]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Titles
 model=THY-Turkish Airlines_Belly Titles
 texture=THY-Turkish Airlines_Belly Titles
@@ -2163,7 +2030,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.111]
+[fltsim.104]
 title=AIGAIM_United Airlines Boeing 777-300ER
 model=UAL-United Airlines
 texture=UAL-United Airlines
@@ -2182,7 +2049,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.112]
+[fltsim.105]
 title=AIGAIM_United Airlines Boeing 777-300ER - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -2201,7 +2068,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.113]
+[fltsim.106]
 title=AIGAIM_United Airlines Boeing 777-300ER - OC New Spirit of United
 model=UAL-United Airlines_OC New Spirit of United
 texture=UAL-United Airlines_OC New Spirit of United
@@ -2220,7 +2087,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.114]
+[fltsim.107]
 title=AIGAIM_Virgin Australia Boeing 777-300ER - WiFi dome
 model=VOZ-Virgin Australia_WiFi dome
 texture=VOZ-Virgin Australia_WiFi dome
@@ -2239,7 +2106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.115]
+[fltsim.108]
 title=AIGAIM_Saudia Boeing 777-300ER
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -2257,3 +2124,136 @@ description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+
+[fltsim.109]
+title=AIGAIM_KLM Boeing 777-300ER
+model=KLM-KLM
+texture=KLM-KLM
+atc_id=PH-BVV
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.110]
+title=AIGAIM_KLM Boeing 777-300ER - fwd Sat
+model=KLM-KLM_fwd Sat
+texture=KLM-KLM_fwd Sat
+atc_id=PH-BVF
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.111]
+title=AIGAIM_KLM Boeing 777-300ER - aft Sat
+model=KLM-KLM_aft Sat
+texture=KLM-KLM_aft Sat
+atc_id=PH-BVN
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.112]
+title=AIGAIM_KLM Boeing 777-300ER - OC aft Sat
+model=KLM-KLM_OC aft Sat
+texture=KLM-KLM_OC aft Sat
+atc_id=PH-BVI
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.113]
+title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat
+model=KLM-KLM_KLM ASIA aft Sat
+texture=KLM-KLM_KLM ASIA aft Sat
+atc_id=PH-BVC
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.114]
+title=AIGAIM_KLM Boeing 777-300ER - Skyteam
+model=KLM-KLM_Skyteam
+texture=KLM-KLM_Skyteam
+atc_id=PH-BVD
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.115]
+title=AIGAIM_KLM Boeing 777-300ER - Orange Pride aft Sat
+model=KLM-KLM_Orange Pride aft Sat
+texture=KLM-KLM_Orange Pride aft Sat
+atc_id=PH-BVA
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=KLM - PH-BVA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wklm_fsx.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

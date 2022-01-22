@@ -288,101 +288,6 @@ isUserSelectable=0
 icao_airline=CKS
 
 [fltsim.14]
-title=AIGAIM_KLM Boeing 747-400 - Full Pax 100 Years
-model=KLM-KLM_Full Pax 100 Years
-texture=KLM-KLM_Full Pax 100 Years
-atc_id=PH-BFN
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400
-ui_variation=KLM - PH-BFN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai744klm_100years_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.15]
-title=AIGAIM_KLM Boeing 747-400 - Full Pax OC 100 Years
-model=KLM-KLM_Full Pax OC 100 Years
-texture=KLM-KLM_Full Pax OC 100 Years
-atc_id=PH-BFL
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400
-ui_variation=KLM - PH-BFL
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai744klm_100years_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.16]
-title=AIGAIM_KLM Boeing 747-400M - Full Pax OC SCD 100 Years
-model=KLM-KLM_Full Pax OC SCD 100 Years
-texture=KLM-KLM_Full Pax OC SCD 100 Years
-atc_id=PH-BFH
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400M
-ui_variation=KLM - PH-BFH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai744klm_100years_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.17]
-title=AIGAIM_KLM Boeing 747-400M - Combi 100 Years
-model=KLM-KLM_Combi 100 Years
-texture=KLM-KLM_Combi 100 Years
-atc_id=PH-BFW
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400M
-ui_variation=KLM - PH-BFW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai744klm_100years_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.18]
-title=AIGAIM_KLM Boeing 747-400M - Combi OC 100 Years
-model=KLM-KLM_Combi OC 100 Years
-texture=KLM-KLM_Combi OC 100 Years
-atc_id=PH-BFI
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400M
-ui_variation=KLM - PH-BFI
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai744klm_100years_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.19]
 title=AIGAIM_Lufthansa Boeing 747-400
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -401,7 +306,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.20]
+[fltsim.15]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC Webtitles
 model=DLH-Lufthansa_OC Webtitles
 texture=DLH-Lufthansa_OC Webtitles
@@ -420,7 +325,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.21]
+[fltsim.16]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -439,7 +344,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.22]
+[fltsim.17]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed Webtitles
 model=DLH-Lufthansa_OC unnamed Webtitles
 texture=DLH-Lufthansa_OC unnamed Webtitles
@@ -458,7 +363,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.23]
+[fltsim.18]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
 model=QFA-Qantas_GE OC
 texture=QFA-Qantas_GE OC
@@ -477,7 +382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.24]
+[fltsim.19]
 title=AIGAIM_Rossiya Airlines Boeing 747-400
 model=SDM-Rossiya Airlines
 texture=SDM-Rossiya Airlines
@@ -496,7 +401,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.25]
+[fltsim.20]
 title=AIGAIM_Rossiya Airlines Boeing 747-400 - Tigers together
 model=SDM-Rossiya Airlines_Tigers together
 texture=SDM-Rossiya Airlines_Tigers together
@@ -515,7 +420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.26]
+[fltsim.21]
 title=AIGAIM_Saudia Boeing 747-400 - GE Albino opb AAI
 model=SVA-Saudia_GE Albino opb AAI
 texture=SVA-Saudia_GE Albino opb AAI
@@ -534,7 +439,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.27]
+[fltsim.22]
 title=AIGAIM_Saudia Boeing 747-400 - GE OC New Tail Logo opb AAI
 model=SVA-Saudia_GE OC New Tail Logo opb AAI
 texture=SVA-Saudia_GE OC New Tail Logo opb AAI
@@ -553,7 +458,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.28]
+[fltsim.23]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino opb ACT
 model=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
 texture=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
@@ -572,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.29]
+[fltsim.24]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino Large Reg opb ACT
 model=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
 texture=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
@@ -591,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.30]
+[fltsim.25]
 title=AIGAIM_Suparna Airlines Cargo Boeing 747-400 - BDSF OC (TEMP)
 model=YZRC-Suparna Airlines Cargo_BDSF OC_temp
 texture=YZRC-Suparna Airlines Cargo_BDSF OC_temp
@@ -610,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.31]
+[fltsim.26]
 title=AIGAIM_Thai Airways Boeing 747-400
 model=THA-Thai Airways
 texture=THA-Thai Airways
@@ -629,7 +534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
 
-[fltsim.32]
+[fltsim.27]
 title=AIGAIM_Thai Airways Boeing 747-400 - Star Alliance (TEMP)
 model=THA-Thai Airways_Star Alliance_temp
 texture=THA-Thai Airways_Star Alliance_temp
@@ -648,7 +553,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
 
-[fltsim.33]
+[fltsim.28]
 title=AIGAIM_UPS Airlines Boeing 747-400 - BCF
 model=UPS-UPS Airlines_BCF
 texture=UPS-UPS Airlines_BCF
@@ -667,7 +572,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.34]
+[fltsim.29]
 title=AIGAIM_Virgin Atlantic Boeing 747-400
 model=VIR-Virgin Atlantic
 texture=VIR-Virgin Atlantic
@@ -686,7 +591,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
 
-[fltsim.35]
+[fltsim.30]
 title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC
 model=VIR-Virgin Atlantic_OC
 texture=VIR-Virgin Atlantic_OC
@@ -705,7 +610,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
 
-[fltsim.36]
+[fltsim.31]
 title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC Forever Young
 model=VIR-Virgin Atlantic_OC Forever Young
 texture=VIR-Virgin Atlantic_OC Forever Young
@@ -724,7 +629,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VIR
 
-[fltsim.37]
+[fltsim.32]
 title=AIGAIM_Western Global Airlines Boeing 747-400 - BCF
 model=WGN-Western Global_BCF
 texture=WGN-Western Global_BCF
@@ -743,7 +648,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WGN
 
-[fltsim.38]
+[fltsim.33]
 title=AIGAIM_National Airlines Boeing 747-400 - BCF (TEMP)
 model=NCR-National Airlines_BCF_temp
 texture=NCR-National Airlines_BCF_temp
