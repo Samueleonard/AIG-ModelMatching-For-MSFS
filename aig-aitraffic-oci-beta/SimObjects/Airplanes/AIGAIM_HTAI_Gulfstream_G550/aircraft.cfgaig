@@ -693,7 +693,6 @@ description=HTAI_Gulfstream_G550-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.38]
 title=AIGAIM_Lear Corporation Gulfstream G550 - N119LE
@@ -1618,7 +1617,6 @@ description=HTAI_Gulfstream_G550-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.93]
 title=AIGAIM_Capital Airlines VIP Gulfstream G550 - B-8135

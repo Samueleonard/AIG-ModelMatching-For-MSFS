@@ -248,7 +248,6 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.11]
 title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N520JG
@@ -266,7 +265,6 @@ description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.12]
 title=AIGAIM_LOT Polish Airlines Bombardier CRJ-700 - Nordica

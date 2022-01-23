@@ -100,7 +100,6 @@ description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
-atc_airline=
 
 [fltsim.3]
 title=AIGAIM_Air Corviglia Pilatus PC-12 - HB-FVD

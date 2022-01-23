@@ -102,7 +102,6 @@ description=HTAI_Gulfstream_G450-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
-atc_airline=
 
 [fltsim.3]
 title=AIGAIM_Corporate Air LLC Gulfstream G450 - N717DX

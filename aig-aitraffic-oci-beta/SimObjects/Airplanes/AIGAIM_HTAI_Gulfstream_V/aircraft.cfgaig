@@ -216,7 +216,6 @@ description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
-atc_airline=
 
 [fltsim.10]
 title=AIGAIM_Solairus Aviation Gulfstream V - N624NN
