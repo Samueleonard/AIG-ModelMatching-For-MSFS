@@ -5,9 +5,8 @@ A VMR File for vatsim usage has been included in the root folder (full credit to
 
 Included is the latest AIG install for MSFS ONLY.
 
-OFFLINE FLIGHT PLANS WLL NOT WORK - ALL TRAFFIC FILES ARE NOT INCLUDED
-
 AI Sounds WILL NOW WORK as of 02/01/2022 - issue fixed by AIG (thank you)
+AIG TRAFFIC FILES ARE NOW INCLUDED - OFFLINE TRAFFIC WILL WORK (100% success not guarenteed however initially, results are positive)
 
 <b>INSTALL</b>
 
