@@ -739,3 +739,19 @@ description=JBAI_Learjet45-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.41]
+title=AIGAIM_Metro Aviation Bombardier Learjet 45XR - N429SA
+model=GA2J-Metro Aviation_N429SA
+texture=GA2J-Metro Aviation_N429SA
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 45
+ui_variation=Superior Ambulance Aviation Inc., S/N 45-392
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBAI_Metro-Aviation_Lear-45XR_N429SA_jondix.zip
+description=JBAI_Learjet45-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

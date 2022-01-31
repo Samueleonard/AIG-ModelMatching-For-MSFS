@@ -522,3 +522,20 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGZ
+
+[fltsim.27]
+title=AIGAIM_MAC Air Group Bombardier CRJ-200 - N321EA
+model=GA3J-MAC Air Group_N321EA
+texture=GA3J-MAC Air Group_N321EA
+atc_id=N321EA
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-200
+ui_variation=Elite Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: RFSL CRJ200_Elite Airways_FSX_P3D.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J

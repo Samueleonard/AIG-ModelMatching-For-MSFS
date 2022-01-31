@@ -230,3 +230,75 @@ description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LBQ
+
+[fltsim.10]
+title=AIGAIM_Metro Aviation Pilatus PC-12 - N325MW
+model=GA2T-Metro Aviation_N325MW
+texture=GA2T-Metro Aviation_N325MW
+atc_id=N325MW	
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Metro Aviation Inc, S/N 325
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Metro-Aviation_PC-12_NWL_Fleet_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.11]
+title=AIGAIM_Metro Aviation Pilatus PC-12 - N399AM
+model=GA2T-Metro Aviation_N399AM
+texture=GA2T-Metro Aviation_N399AM
+atc_id=N399AM
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=University of Utah Hospitals and Clinics Salt Lake City UT, S/N 249
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Metro-Aviation_PC-12_NWL_Fleet_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.12]
+title=AIGAIM_Metro Aviation Pilatus PC-12 - N515TW
+model=GA2T-Metro Aviation_N515TW
+texture=GA2T-Metro Aviation_N515TW
+atc_id=N515TW
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Bedford Partners LLC, S/N 515
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Metro-Aviation_PC-12_NWL_Fleet_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.13]
+title=AIGAIM_Metro Aviation Pilatus PC-12 - N852AL
+model=GA2T-Metro Aviation_N852AL
+texture=GA2T-Metro Aviation_N852AL
+atc_id=N852AL
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Metro Aviation Inc, S/N 213
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Metro-Aviation_PC-12_NWL_Fleet_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T

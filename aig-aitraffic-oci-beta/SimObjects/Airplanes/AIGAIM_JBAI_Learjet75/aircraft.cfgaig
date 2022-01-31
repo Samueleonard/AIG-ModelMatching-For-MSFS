@@ -305,3 +305,19 @@ description=JBAI_Learjet75-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.15]
+title=AIGAIM_Metro Aviation Bombardier Learjet 75 - N75UM
+model=GA2J-Metro Aviation_N75UM
+texture=GA2J-Metro Aviation_N75UM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 75
+ui_variation=Regents of the University of Michigan Ann Arbor MI, S/N 45-560
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBAI_Metro-Aviation_Lear-75_N75UM_jondix.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

@@ -302,3 +302,37 @@ description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LXJ
+
+[fltsim.15]
+title=AIGAIM_Jet Edge International Gulfstream V - N188ES
+model=BJO-Jet Edge_N188ES
+texture=BJO-Jet Edge_N188ES
+atc_airline=JET EDGE
+atc_parking_types=RAMP
+atc_parking_codes=BJO,EDG
+ui_manufacturer=HTAI
+ui_type=Gulfstream V
+ui_variation=Gulfstream G-V, c/n 629, Silver Air, N188ES
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
+description=HTAI_Gulfstream_V(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.16]
+title=AIGAIM_Jet Edge International Gulfstream V - N55BM
+model=BJO-Jet Edge_N55BM
+texture=BJO-Jet Edge_N55BM
+atc_airline=JET EDGE
+atc_parking_types=RAMP
+atc_parking_codes=BJO,EDG
+ui_manufacturer=HTAI
+ui_type=Gulfstream V
+ui_variation=Gulfstream G-V, c/n 560, Silver Air, N55BM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
+description=HTAI_Gulfstream_V(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO

@@ -801,3 +801,21 @@ description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LBQ
+
+[fltsim.40]
+title=AIGAIM_Metro Aviation Pilatus PC-12NG - N420UH
+model=GA2T-Metro Aviation_N420UH
+texture=GA2T-Metro Aviation_N420UH
+atc_id=N420UH
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Metro Aviation Inc, S/N 1249
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Metro-Aviation_PC-12_RWL_N420UH_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
