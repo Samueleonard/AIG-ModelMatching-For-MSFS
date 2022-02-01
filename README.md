@@ -12,7 +12,7 @@ AIG TRAFFIC FILES ARE NOW INCLUDED - OFFLINE TRAFFIC WILL WORK (100% success not
 
 Download from - 
 
-[Google Drive](https://drive.google.com/file/d/1bVYCt3L3GaoAPSlzKbCMfm82_LTO1Ktu/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
+[Google Drive](https://drive.google.com/file/d/1EgpLG26QqIEdPI185DH29E-W5CGT_CT-/view?usp=sharing) for a zipped file (3.5gb download, ~25gb unzipped)
 
 ALTERNATIVE - DO NOT USE - [Direct Github]() (~40gb)
 
