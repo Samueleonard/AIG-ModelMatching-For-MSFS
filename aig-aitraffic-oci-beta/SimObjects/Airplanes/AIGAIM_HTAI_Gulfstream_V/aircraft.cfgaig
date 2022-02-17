@@ -53,138 +53,57 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Waffle House Gulfstream V - N505GF
-model=GA4J-Waffle House_N505GF
-texture=GA4J-Waffle House_N505GF
+title=AIGAIM_Jet Edge International Gulfstream V - N188ES
+model=BJO-Jet Edge_N188ES
+texture=BJO-Jet Edge_N188ES
+atc_airline=JET EDGE
 atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream V
-ui_variation=N505GF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: htai_Waffle-House_G-V_N505GF_jondix.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.1]
-title=AIGAIM_Harbour Group Industries Gulfstream V - N100HG
-model=GA4J-Harbour Group Industries_N100HG
-texture=GA4J-Harbour Group Industries_N100HG
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=HTAI
-ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 625, Harbour Group Industries, N100HG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: HarbourGroupG-V.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.2]
-title=AIGAIM_Global Aviation Gulfstream V - N934HE
-model=GA4J-Global Aviation_N934HE
-texture=GA4J-Global Aviation_N934HE
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream V
-ui_variation=Global Aviation Gulfstream G-V N934HE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: htai_Global-Aviation-Gulfstream_GV_N934HE_jondix.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.3]
-title=AIGAIM_Silver Air Gulfstream V - N188ES
-model=GA4J-Silver Air_N188ES
-texture=GA4J-Silver Air_N188ES
-atc_airline=SILVERSPEED
-atc_parking_types=RAMP
-atc_parking_codes=GA4J,SIS
+atc_parking_codes=BJO,EDG
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
 ui_variation=Gulfstream G-V, c/n 629, Silver Air, N188ES
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
+description=HTAI_Gulfstream_V(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SIS
+icao_airline=BJO
 
-[fltsim.4]
-title=AIGAIM_Silver Air Gulfstream V - N55BM
-model=GA4J-Silver Air_N55BM
-texture=GA4J-Silver Air_N55BM
-atc_airline=SILVERSPEED
+[fltsim.1]
+title=AIGAIM_Jet Edge International Gulfstream V - N55BM
+model=BJO-Jet Edge_N55BM
+texture=BJO-Jet Edge_N55BM
+atc_airline=JET EDGE
 atc_parking_types=RAMP
-atc_parking_codes=GA4J,SIS
+atc_parking_codes=BJO,EDG
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
 ui_variation=Gulfstream G-V, c/n 560, Silver Air, N55BM
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
+description=HTAI_Gulfstream_V(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SIS
+icao_airline=BJO
 
-[fltsim.5]
-title=AIGAIM_Hilton Worldwide Gulfstream V - N585JC
-model=GA4J-Hilton Worldwide_N585JC
-texture=GA4J-Hilton Worldwide_N585JC
-atc_airline=JET SPEED
+[fltsim.2]
+title=AIGAIM_Flexjet Gulfstream V - N727PR
+model=GA4J-Flexjet_N727PR
+texture=GA4J-Flexjet_N727PR
+atc_airline=FLEXJET
 atc_parking_types=RAMP
-atc_parking_codes=GA4J,EJM
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream V
-ui_variation=N585JC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: htai_Hilton_GV_n585jc_jondix.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EJM
-
-[fltsim.6]
-title=AIGAIM_Las Vegas Sands Gulfstream V - N383LS
-model=GA4J-Las Vegas Sands_N383LS
-texture=GA4J-Las Vegas Sands_N383LS
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
+atc_parking_codes=GA4J,LXJ
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 544, Las Vegas Sands, N383LS
+ui_variation=Gulfstream G-V, c/n 613, Flexjet, N727PR
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsGV.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetGulfstreamGVN727PR.zip
 description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA4J
+icao_airline=LXJ
 
-[fltsim.7]
-title=AIGAIM_Apple Gulfstream V - N51VE
-model=GA4J-Apple_N51VE
-texture=GA4J-Apple_N51VE
-atc_id=N51VE
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=HTAI
-ui_type=Gulfstream V
-ui_variation=Apple
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: htai_apple_gv_p3d.zip
-description=HTAI_Gulfstream_V-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.8]
+[fltsim.3]
 title=AIGAIM_Halliburton Gulfstream V - N5616
 model=GA4J-Halliburton_N5616
 texture=GA4J-Halliburton_N5616
@@ -201,23 +120,73 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.9]
-title=AIGAIM_Cargill Gulfstream V - N253CM
-model=GA4J-Cargill_N253CM
-texture=GA4J-Cargill_N253CM
+[fltsim.4]
+title=AIGAIM_Harbour Group Industries Gulfstream V - N100HG
+model=GA4J-Harbour Group Industries_N100HG
+texture=GA4J-Harbour Group Industries_N100HG
 atc_parking_types=RAMP
 atc_parking_codes=GA4J
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 610, Cargill, N253CM
+ui_variation=Gulfstream G-V, c/n 625, Harbour Group Industries, N100HG
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: CargillGulfstreamGV.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: HarbourGroupG-V.zip
 description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.10]
+[fltsim.5]
+title=AIGAIM_Global Aviation Gulfstream V - N934HE
+model=GA4J-Global Aviation_N934HE
+texture=GA4J-Global Aviation_N934HE
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream V
+ui_variation=Global Aviation Gulfstream G-V N934HE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Global-Aviation-Gulfstream_GV_N934HE_jondix.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.6]
+title=AIGAIM_Silver Air Gulfstream V - N188ES
+model=GA4J-Silver Air_N188ES
+texture=GA4J-Silver Air_N188ES
+atc_airline=SILVERSPEED
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,SIS
+ui_manufacturer=HTAI
+ui_type=Gulfstream V
+ui_variation=Gulfstream G-V, c/n 629, Silver Air, N188ES
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIS
+
+[fltsim.7]
+title=AIGAIM_Silver Air Gulfstream V - N55BM
+model=GA4J-Silver Air_N55BM
+texture=GA4J-Silver Air_N55BM
+atc_airline=SILVERSPEED
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,SIS
+ui_manufacturer=HTAI
+ui_type=Gulfstream V
+ui_variation=Gulfstream G-V, c/n 560, Silver Air, N55BM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIS
+
+[fltsim.8]
 title=AIGAIM_Solairus Aviation Gulfstream V - N624NN
 model=GA4J-Solairus Aviation_N624NN
 texture=GA4J-Solairus Aviation_N624NN
@@ -235,7 +204,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_Dillard's Gulfstream V - N915BD
 model=GA4J-Dillard's_N915BD
 texture=GA4J-Dillard's_N915BD
@@ -252,6 +221,39 @@ description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DCM
+
+[fltsim.10]
+title=AIGAIM_Las Vegas Sands Gulfstream V - N383LS
+model=GA4J-Las Vegas Sands_N383LS
+texture=GA4J-Las Vegas Sands_N383LS
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream V
+ui_variation=Gulfstream G-V, c/n 544, Las Vegas Sands, N383LS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsGV.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.11]
+title=AIGAIM_Prime Jet Gulfstream V - N808JG
+model=GA4J-Prime Jet_N808JG
+texture=GA4J-Prime Jet_N808JG
+atc_id=N808JG
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream V
+ui_variation=Prime Jet Gulfstream G-V N808JG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Prime-Jet-Gulfstream_G-V_N808JG_jondix.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
 
 [fltsim.12]
 title=AIGAIM_Hendrick Motorsports Gulfstream V - N500RH
@@ -270,69 +272,67 @@ isUserSelectable=0
 icao_airline=GA4J
 
 [fltsim.13]
-title=AIGAIM_Prime Jet Gulfstream V - N808JG
-model=GA4J-Prime Jet_N808JG
-texture=GA4J-Prime Jet_N808JG
-atc_id=N808JG
+title=AIGAIM_Hilton Worldwide Gulfstream V - N585JC
+model=GA4J-Hilton Worldwide_N585JC
+texture=GA4J-Hilton Worldwide_N585JC
+atc_airline=JET SPEED
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,EJM
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream V
+ui_variation=N585JC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_Hilton_GV_n585jc_jondix.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJM
+
+[fltsim.14]
+title=AIGAIM_Waffle House Gulfstream V - N505GF
+model=GA4J-Waffle House_N505GF
+texture=GA4J-Waffle House_N505GF
 atc_parking_types=RAMP
 atc_parking_codes=GA4J
 ui_manufacturer=Gulfstream
 ui_type=Gulfstream V
-ui_variation=Prime Jet Gulfstream G-V N808JG
+ui_variation=N505GF
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: htai_Prime-Jet-Gulfstream_G-V_N808JG_jondix.zip
+ui_createdby=Provided by: KAIW2 Filename: htai_Waffle-House_G-V_N505GF_jondix.zip
 description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.14]
-title=AIGAIM_Flexjet Gulfstream V - N727PR
-model=GA4J-Flexjet_N727PR
-texture=GA4J-Flexjet_N727PR
-atc_airline=FLEXJET
+[fltsim.15]
+title=AIGAIM_Apple Gulfstream V - N51VE
+model=GA4J-Apple_N51VE
+texture=GA4J-Apple_N51VE
+atc_id=N51VE
 atc_parking_types=RAMP
-atc_parking_codes=GA4J,LXJ
+atc_parking_codes=GA4J
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 613, Flexjet, N727PR
+ui_variation=Apple
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetGulfstreamGVN727PR.zip
+ui_createdby=Provided by: KAIW Filename: htai_apple_gv_p3d.zip
 description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=LXJ
-
-[fltsim.15]
-title=AIGAIM_Jet Edge International Gulfstream V - N188ES
-model=BJO-Jet Edge_N188ES
-texture=BJO-Jet Edge_N188ES
-atc_airline=JET EDGE
-atc_parking_types=RAMP
-atc_parking_codes=BJO,EDG
-ui_manufacturer=HTAI
-ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 629, Silver Air, N188ES
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
-description=HTAI_Gulfstream_V(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BJO
+icao_airline=GA4J
 
 [fltsim.16]
-title=AIGAIM_Jet Edge International Gulfstream V - N55BM
-model=BJO-Jet Edge_N55BM
-texture=BJO-Jet Edge_N55BM
-atc_airline=JET EDGE
+title=AIGAIM_Cargill Gulfstream V - N253CM
+model=GA4J-Cargill_N253CM
+texture=GA4J-Cargill_N253CM
 atc_parking_types=RAMP
-atc_parking_codes=BJO,EDG
+atc_parking_codes=GA4J
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
-ui_variation=Gulfstream G-V, c/n 560, Silver Air, N55BM
+ui_variation=Gulfstream G-V, c/n 610, Cargill, N253CM
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
-description=HTAI_Gulfstream_V(fs20)
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: CargillGulfstreamGV.zip
+description=HTAI_Gulfstream_V-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=BJO
+icao_airline=GA4J

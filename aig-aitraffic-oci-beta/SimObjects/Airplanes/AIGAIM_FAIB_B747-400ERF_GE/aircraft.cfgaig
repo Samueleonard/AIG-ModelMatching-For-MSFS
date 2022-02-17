@@ -22,139 +22,6 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
-title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF
-model=ABW-Air Bridge Cargo
-texture=ABW-Air Bridge Cargo
-atc_id=VQ-BWW
-atc_airline=AIRBRIDGE CARGO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABW
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=AirBridgeCargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABW
-
-[fltsim.1]
-title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF - Pharma
-model=ABW-Air Bridge Cargo_Pharma
-texture=ABW-Air Bridge Cargo_Pharma
-atc_id=VP-BIG
-atc_airline=AIRBRIDGE CARGO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABW
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=AirBridgeCargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABW
-
-[fltsim.2]
-title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF - XL Oversize
-model=ABW-Air Bridge Cargo_XL Oversize
-texture=ABW-Air Bridge Cargo_XL Oversize
-atc_id=VP-BIK
-atc_airline=AIRBRIDGE CARGO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABW
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=AirBridgeCargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABW
-
-[fltsim.3]
-title=AIGAIM_CAL Cargo Airlines Boeing 747-400ERF
-model=ICL-CAL Cargo Airlines
-texture=ICL-CAL Cargo Airlines
-atc_id=4X-ICA
-atc_airline=CAL
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ICL
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargo Air Lines 4X-ICA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICL
-
-[fltsim.4]
-title=AIGAIM_CAL Cargo Airlines Boeing 747-400ERF - Ex Jade Cargo
-model=ICL-CAL Cargo Airlines_Ex Jade Cargo
-texture=ICL-CAL Cargo Airlines_Ex Jade Cargo
-atc_id=4X-ICD
-atc_airline=CAL
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ICL
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargo Air Lines 4X-ICD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICL
-
-[fltsim.5]
-title=AIGAIM_Cargolux Boeing 747-400ERF - LX-ECV SeaLife Trust
-model=CLX-Cargolux_LX-ECV SeaLife Trust
-texture=CLX-Cargolux_LX-ECV SeaLife Trust
-atc_id=LX-ECV
-atc_airline=CARGOLUX
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CLX
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargolux LX-ECV Sea Life Trust Beluga Whale Sanctuary
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_744f_ge_clx.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CLX
-
-[fltsim.6]
-title=AIGAIM_Cargolux Boeing 747-400ERF - LX-JCV Albino
-model=CLX-Cargolux_LX-JCV Albino
-texture=CLX-Cargolux_LX-JCV Albino
-atc_id=LX-JCV
-atc_airline=CARGOLUX
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CLX
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargolux LX-JCV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_744f_ge_clx.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CLX
-
-[fltsim.7]
 title=AIGAIM_China Cargo Airlines Boeing 747-400ERF - GE
 model=CKK-China Cargo Airlines_GE
 texture=CKK-China Cargo Airlines_GE
@@ -173,7 +40,64 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKK
 
-[fltsim.8]
+[fltsim.1]
+title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF
+model=ABW-Air Bridge Cargo
+texture=ABW-Air Bridge Cargo
+atc_id=VQ-BWW
+atc_airline=AIRBRIDGE CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABW
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=AirBridgeCargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABW
+
+[fltsim.2]
+title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF - Pharma
+model=ABW-Air Bridge Cargo_Pharma
+texture=ABW-Air Bridge Cargo_Pharma
+atc_id=VP-BIG
+atc_airline=AIRBRIDGE CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABW
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=AirBridgeCargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABW
+
+[fltsim.3]
+title=AIGAIM_Air Bridge Cargo Boeing 747-400ERF - XL Oversize
+model=ABW-Air Bridge Cargo_XL Oversize
+texture=ABW-Air Bridge Cargo_XL Oversize
+atc_id=VP-BIK
+atc_airline=AIRBRIDGE CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABW
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=AirBridgeCargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_abw_boeing_744f.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABW
+
+[fltsim.4]
 title=AIGAIM_Kalitta Air Boeing 747-400ERF - GE
 model=CKS-Kalitta Air_GE
 texture=CKS-Kalitta Air_GE
@@ -191,6 +115,82 @@ description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
+
+[fltsim.5]
+title=AIGAIM_CAL Cargo Airlines Boeing 747-400ERF
+model=ICL-CAL Cargo Airlines
+texture=ICL-CAL Cargo Airlines
+atc_id=4X-ICA
+atc_airline=CAL
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICL
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargo Air Lines 4X-ICA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICL
+
+[fltsim.6]
+title=AIGAIM_CAL Cargo Airlines Boeing 747-400ERF - Ex Jade Cargo
+model=ICL-CAL Cargo Airlines_Ex Jade Cargo
+texture=ICL-CAL Cargo Airlines_Ex Jade Cargo
+atc_id=4X-ICD
+atc_airline=CAL
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICL
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargo Air Lines 4X-ICD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICL
+
+[fltsim.7]
+title=AIGAIM_Cargolux Boeing 747-400ERF - LX-ECV SeaLife Trust
+model=CLX-Cargolux_LX-ECV SeaLife Trust
+texture=CLX-Cargolux_LX-ECV SeaLife Trust
+atc_id=LX-ECV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-ECV Sea Life Trust Beluga Whale Sanctuary
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_ge_clx.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
+
+[fltsim.8]
+title=AIGAIM_Cargolux Boeing 747-400ERF - LX-JCV Albino
+model=CLX-Cargolux_LX-JCV Albino
+texture=CLX-Cargolux_LX-JCV Albino
+atc_id=LX-JCV
+atc_airline=CARGOLUX
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLX
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargolux LX-JCV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_ge_clx.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLX
 
 [fltsim.9]
 title=AIGAIM_Saudia Cargo Boeing 747-400ERF - GE Albino opb ACT
@@ -212,44 +212,6 @@ isUserSelectable=0
 icao_airline=SVAC
 
 [fltsim.10]
-title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N904AR'
-model=KYE-Sky Lease Cargo_'N904AR'
-texture=KYE-Sky Lease Cargo_'N904AR'
-atc_id=N904AR
-atc_airline=SKY CUBE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=KYE
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=SkyLease Cargp
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_kye_boeing_744f.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KYE
-
-[fltsim.11]
-title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N903AR'
-model=KYE-Sky Lease Cargo_'N903AR'
-texture=KYE-Sky Lease Cargo_'N903AR'
-atc_id=N903AR
-atc_airline=SKY CUBE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=KYE
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=SkyLease Cargp
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_kye_boeing_744f.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KYE
-
-[fltsim.12]
 title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo
 model=MPH-Martinair_KLM Cargo
 texture=MPH-Martinair_KLM Cargo
@@ -268,7 +230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPH
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo old CARGO logo
 model=MPH-Martinair_KLM Cargo old CARGO logo
 texture=MPH-Martinair_KLM Cargo old CARGO logo
@@ -286,3 +248,41 @@ description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPH
+
+[fltsim.12]
+title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N904AR'
+model=KYE-Sky Lease Cargo_'N904AR'
+texture=KYE-Sky Lease Cargo_'N904AR'
+atc_id=N904AR
+atc_airline=SKY CUBE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=KYE
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=SkyLease Cargp
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_kye_boeing_744f.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KYE
+
+[fltsim.13]
+title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N903AR'
+model=KYE-Sky Lease Cargo_'N903AR'
+texture=KYE-Sky Lease Cargo_'N903AR'
+atc_id=N903AR
+atc_airline=SKY CUBE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=KYE
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=SkyLease Cargp
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_kye_boeing_744f.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KYE

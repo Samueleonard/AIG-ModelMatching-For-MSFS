@@ -31,9 +31,6 @@ small_pushback=0
 marshaller=1
 jetway=1
 
-[EFFECTS]
-touchdown=fx_tchdwn_m, 1
-
 [fltsim.0]
 title=AIGAIM_Aerolineas Estelar Boeing 737-200
 model=ETR-Aerolineas Estelar

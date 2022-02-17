@@ -1,0 +1,48 @@
+
+[SIMVARS.0]
+
+pvelbodyaxis = 0 ; 
+bvelbodyaxis = 0 ; 
+hvelbodyaxis = 0 ; 
+xvelbodyaxis = 0 ; 
+yvelbodyaxis = 0 ; 
+zvelbodyaxis = 0 ; 
+simonground = True ; 
+
+[FUELSYSTEM.0]
+
+valve.1 = True ; 
+valve.2 = True ; 
+valve.3 = True ; 
+valve.4 = True ; 
+valve.5 = True ; 
+valve.6 = True ; 
+valve.7 = True ; 
+valve.8 = True ; 
+valve.9 = True ; 
+pump.1 = True ; 
+pump.2 = True ; 
+pump.3 = True ; 
+pump.4 = True ; 
+pump.5 = True ; 
+pump.6 = True ; 
+pump.7 = True ; 
+pump.8 = True ; 
+pump.9 = True ; 
+
+[CONTROLS.0]
+
+spoilershandle = 000.00 ; 
+flapshandle = 050.00 ; 
+leftflap = 024.24 ; 
+rightflap = 024.24 ; 
+gearshandle = 100.00 ; 
+gear1 = 100.00 ; 
+gear2 = 100.00 ; 
+gear3 = 100.00 ; 
+leftbrake = 0.00 ; 
+rightbrake = 0.00 ; 
+parkingbrake = 100.00 ; 
+yokey = 050.00 ; 
+yokex = 050.00 ; 
+rudder = 050.00 ; 

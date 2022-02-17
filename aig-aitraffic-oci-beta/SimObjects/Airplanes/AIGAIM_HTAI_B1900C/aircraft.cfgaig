@@ -53,6 +53,24 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Equaflight Service Beechcraft 1900C
+model=EKA-Equaflight Service
+texture=EKA-Equaflight Service
+atc_id=TN-AIQ
+atc_airline=EQUAFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=EKA
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900C
+ui_variation=Beechcraft 1900C HTAI Equaflight Service EKA TN-AIQ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: EKA_B190_FSX.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EKA
+
+[fltsim.1]
 title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCO OC Bear
 model=PCO-Pacific Coastal Airlines_C-FPCO OC Bear
 texture=PCO-Pacific Coastal Airlines_C-FPCO OC Bear
@@ -70,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCV OC Logs
 model=PCO-Pacific Coastal Airlines_C-FPCV OC Logs
 texture=PCO-Pacific Coastal Airlines_C-FPCV OC Logs
@@ -88,7 +106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-FPCX Tugboat
 model=PCO-Pacific Coastal Airlines_C-FPCX Tugboat
 texture=PCO-Pacific Coastal Airlines_C-FPCX Tugboat
@@ -106,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-GIPC OC Totem
 model=PCO-Pacific Coastal Airlines_C-GIPC OC Totem
 texture=PCO-Pacific Coastal Airlines_C-GIPC OC Totem
@@ -124,7 +142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
 
-[fltsim.4]
+[fltsim.5]
 title=AIGAIM_Pacific Coastal Airlines Beechcraft 1900C - C-GPCY OC Eagle
 model=PCO-Pacific Coastal Airlines_C-GPCY OC Eagle
 texture=PCO-Pacific Coastal Airlines_C-GPCY OC Eagle
@@ -141,21 +159,3 @@ description=HTAI_B1900C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
-
-[fltsim.5]
-title=AIGAIM_Equaflight Service Beechcraft 1900C
-model=EKA-Equaflight Service
-texture=EKA-Equaflight Service
-atc_id=TN-AIQ
-atc_airline=EQUAFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=EKA
-ui_manufacturer=Beechcraft
-ui_type=Beechcraft 1900C
-ui_variation=Beechcraft 1900C HTAI Equaflight Service EKA TN-AIQ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: EKA_B190_FSX.zip
-description=HTAI_B1900C(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EKA

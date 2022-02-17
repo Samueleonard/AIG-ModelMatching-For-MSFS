@@ -245,25 +245,6 @@ isUserSelectable=0
 icao_airline=AAR
 
 [fltsim.10]
-title=AIGAIM_Jin Air Boeing 777-200ER
-model=JNA-Jin Air
-texture=JNA-Jin Air
-atc_id=HL7743
-atc_airline=JIN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JNA
-ui_manufacturer=BOEING
-ui_type=Boeing 777-200ER
-ui_variation=Jin Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_b772_jna_fsx.zip
-description=TFS_B777-200ER_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JNA
-
-[fltsim.11]
 title=AIGAIM_Korean Air Boeing 777-200ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -281,6 +262,25 @@ description=TFS_B777-200ER_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
+
+[fltsim.11]
+title=AIGAIM_Jin Air Boeing 777-200ER
+model=JNA-Jin Air
+texture=JNA-Jin Air
+atc_id=HL7743
+atc_airline=JIN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JNA
+ui_manufacturer=BOEING
+ui_type=Boeing 777-200ER
+ui_variation=Jin Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_b772_jna_fsx.zip
+description=TFS_B777-200ER_PW-pw(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JNA
 
 [fltsim.12]
 title=AIGAIM_Omni Air International Boeing 777-200ER (TEMP)

@@ -24,7 +24,7 @@ wake=fx_wake ;
 water=fx_spray ; 
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
-touchdown=fx_tchdwn_m, 1 ; 
+touchdown=fx_tchdwn, 1 ; 
 
 [SERVICES]
 FUELTRUCK=1

@@ -57,80 +57,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Air Hong Kong Airbus A330-200F - DHL opb ASL Ireland
-model=AHK-Air Hong Kong_DHL opb ASL Ireland
-texture=AHK-Air Hong Kong_DHL opb ASL Ireland
-atc_id=B-LDP
-atc_airline=AIR HONG KONG
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=AHK
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200F
-ui_variation=Air Hong Kong
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F Air Hong Kong.zip
-description=AIG_A330-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AHK
-
-[fltsim.1]
-title=AIGAIM_Avianca Cargo Airbus A330-200F
-model=TPA-Avianca Cargo
-texture=TPA-Avianca Cargo
-atc_airline=TAMPA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TPA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200F
-ui_variation=Transportes Aéreos Mercantiles Panamericanos S.A. (TAMPA)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332F Avianca Cargo.zip
-description=AIG_A330-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TPA
-
-[fltsim.2]
-title=AIGAIM_Avianca Cargo Airbus A330-200F - Tampa Cargo Livery
-model=TPA-Avianca Cargo_Tampa Cargo Livery
-texture=TPA-Avianca Cargo_Tampa Cargo Livery
-atc_airline=TAMPA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TPA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200F
-ui_variation=Transportes Aéreos Mercantiles Panamericanos S.A. (TAMPA)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332F Avianca Cargo.zip
-description=AIG_A330-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TPA
-
-[fltsim.3]
-title=AIGAIM_EAT Leipzig Airbus A330-200F
-model=BCS-EAT Leipzig
-texture=BCS-EAT Leipzig
-atc_id=D-ALMA
-atc_airline=EUROTRANS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=BCS
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200F
-ui_variation=EAT Leipzig
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F EAT Leipzig DHL.zip
-description=AIG_A330-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BCS
-
-[fltsim.4]
 title=AIGAIM_Hong Kong Air Cargo Airbus A330-200F
 model=HKC-Hong Kong Air Cargo
 texture=HKC-Hong Kong Air Cargo
@@ -148,7 +74,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HKC
 
-[fltsim.5]
+[fltsim.1]
 title=AIGAIM_MNG Airlines Airbus A330-200F - OC
 model=MNB-MNG Airlines_OC
 texture=MNB-MNG Airlines_OC
@@ -167,7 +93,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MNB
 
-[fltsim.6]
+[fltsim.2]
 title=AIGAIM_Turkish Airlines Cargo Airbus A330-200F
 model=THYC-Turkish Airlines Cargo
 texture=THYC-Turkish Airlines Cargo
@@ -185,7 +111,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.7]
+[fltsim.3]
 title=AIGAIM_Turkish Airlines Cargo Airbus A330-200F - 242t
 model=THYC-Turkish Airlines Cargo_242t
 texture=THYC-Turkish Airlines Cargo_242t
@@ -202,3 +128,77 @@ description=AIG_A330-200F_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
+
+[fltsim.4]
+title=AIGAIM_Air Hong Kong Airbus A330-200F - DHL opb ASL Ireland
+model=AHK-Air Hong Kong_DHL opb ASL Ireland
+texture=AHK-Air Hong Kong_DHL opb ASL Ireland
+atc_id=B-LDP
+atc_airline=AIR HONG KONG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AHK
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Air Hong Kong
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F Air Hong Kong.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AHK
+
+[fltsim.5]
+title=AIGAIM_Avianca Cargo Airbus A330-200F
+model=TPA-Avianca Cargo
+texture=TPA-Avianca Cargo
+atc_airline=TAMPA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TPA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Transportes Aéreos Mercantiles Panamericanos S.A. (TAMPA)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332F Avianca Cargo.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TPA
+
+[fltsim.6]
+title=AIGAIM_Avianca Cargo Airbus A330-200F - Tampa Cargo Livery
+model=TPA-Avianca Cargo_Tampa Cargo Livery
+texture=TPA-Avianca Cargo_Tampa Cargo Livery
+atc_airline=TAMPA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TPA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Transportes Aéreos Mercantiles Panamericanos S.A. (TAMPA)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332F Avianca Cargo.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TPA
+
+[fltsim.7]
+title=AIGAIM_EAT Leipzig Airbus A330-200F
+model=BCS-EAT Leipzig
+texture=BCS-EAT Leipzig
+atc_id=D-ALMA
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F EAT Leipzig DHL.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS

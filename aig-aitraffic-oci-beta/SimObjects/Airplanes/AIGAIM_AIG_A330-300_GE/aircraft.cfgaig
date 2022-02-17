@@ -111,59 +111,59 @@ isUserSelectable=0
 icao_airline=EIN
 
 [fltsim.3]
-title=AIGAIM_China Airlines Airbus A330-300
-model=CAL-China Airlines
-texture=CAL-China Airlines
-atc_airline=DYNASTY
+title=AIGAIM_Iberia Airbus A330-300 - WiFi Dome
+model=IBE-Iberia_WiFi Dome
+texture=IBE-Iberia_WiFi Dome
+atc_id=EC-MAA
+atc_airline=IBERIA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CAL
+atc_parking_codes=IBE
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-300
-ui_variation=China Airlines Ltd.
+ui_variation=Iberia
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Iberia.zip
 description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CAL
+icao_airline=IBE
 
 [fltsim.4]
-title=AIGAIM_China Airlines Airbus A330-300 - Skyteam
-model=CAL-China Airlines_Skyteam
-texture=CAL-China Airlines_Skyteam
-atc_airline=DYNASTY
+title=AIGAIM_Turkish Airlines Airbus A330-300 - GE Belly Titles WiFi Dome
+model=THY-Turkish Airlines_GE Belly Titles WiFi Dome
+texture=THY-Turkish Airlines_GE Belly Titles WiFi Dome
+atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CAL
-ui_manufacturer="Alpha India Group (AIG)"
+atc_parking_codes=THY
+ui_manufacturer=AIG
 ui_type=Airbus A330-300
-ui_variation=China Airlines Ltd.
+ui_variation=Turkish Airlines - C28
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
 description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CAL
+icao_airline=THY
 
 [fltsim.5]
-title=AIGAIM_Delta Air Lines Airbus A330-300 - 242t GE
-model=DAL-Delta Air Lines_242t GE
-texture=DAL-Delta Air Lines_242t GE
-atc_id=N824NW
-atc_airline=DELTA
+title=AIGAIM_Turkish Airlines Airbus A330-300 - 242t GE 300th Aircraft
+model=THY-Turkish Airlines_242t GE 300th Aircraft
+texture=THY-Turkish Airlines_242t GE 300th Aircraft
+atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
+atc_parking_codes=THY
 ui_manufacturer=AIG
 ui_type=Airbus A330-300
-ui_variation=Delta Air Lines
+ui_variation=Turkish Airlines - C28 300th Aircraft
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_dal_a333_jkm.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
 description=AIG_A330-300_GE-GE_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DAL
+icao_airline=THY
 
 [fltsim.6]
 title=AIGAIM_EVA Air Airbus A330-300 - OC
@@ -256,6 +256,61 @@ isUserSelectable=0
 icao_airline=EVA
 
 [fltsim.11]
+title=AIGAIM_China Airlines Airbus A330-300
+model=CAL-China Airlines
+texture=CAL-China Airlines
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAL
+
+[fltsim.12]
+title=AIGAIM_China Airlines Airbus A330-300 - Skyteam
+model=CAL-China Airlines_Skyteam
+texture=CAL-China Airlines_Skyteam
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 China Airlines.zip
+description=AIG_A330-300_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAL
+
+[fltsim.13]
+title=AIGAIM_Delta Air Lines Airbus A330-300 - 242t GE
+model=DAL-Delta Air Lines_242t GE
+texture=DAL-Delta Air Lines_242t GE
+atc_id=N824NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a333_jkm.zip
+description=AIG_A330-300_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.14]
 title=AIGAIM_Finnair Airbus A330-300
 model=FIN-Finnair
 texture=FIN-Finnair
@@ -274,7 +329,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.12]
+[fltsim.15]
 title=AIGAIM_Finnair Airbus A330-300 - Marimekko Unikko
 model=FIN-Finnair_Marimekko Unikko
 texture=FIN-Finnair_Marimekko Unikko
@@ -292,63 +347,6 @@ description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
-
-[fltsim.13]
-title=AIGAIM_Iberia Airbus A330-300 - WiFi Dome
-model=IBE-Iberia_WiFi Dome
-texture=IBE-Iberia_WiFi Dome
-atc_id=EC-MAA
-atc_airline=IBERIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IBE
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Iberia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_Iberia.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IBE
-
-[fltsim.14]
-title=AIGAIM_Qantas Airbus A330-300
-model=QFA-Qantas
-texture=QFA-Qantas
-atc_id=VH-QPJ
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-300
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.15]
-title=AIGAIM_Qantas Airbus A330-300 - OC
-model=QFA-Qantas_OC
-texture=QFA-Qantas_OC
-atc_id=VH-QPB
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-300
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
-description=AIG_A330-300_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
 
 [fltsim.16]
 title=AIGAIM_Tunisair Airbus A330-300 - opb GJT
@@ -370,60 +368,44 @@ isUserSelectable=0
 icao_airline=TAR
 
 [fltsim.17]
-title=AIGAIM_Turkish Airlines Airbus A330-300 - GE Belly Titles WiFi Dome
-model=THY-Turkish Airlines_GE Belly Titles WiFi Dome
-texture=THY-Turkish Airlines_GE Belly Titles WiFi Dome
-atc_airline=TURKISH
+title=AIGAIM_Qantas Airbus A330-300
+model=QFA-Qantas
+texture=QFA-Qantas
+atc_id=VH-QPJ
+atc_airline=QANTAS
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
+atc_parking_codes=QFA
 ui_manufacturer=AIG
 ui_type=Airbus A330-300
-ui_variation=Turkish Airlines - C28
+ui_variation=Qantas
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
 description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=THY
+icao_airline=QFA
 
 [fltsim.18]
-title=AIGAIM_Turkish Airlines Airbus A330-300 - 242t GE 300th Aircraft
-model=THY-Turkish Airlines_242t GE 300th Aircraft
-texture=THY-Turkish Airlines_242t GE 300th Aircraft
-atc_airline=TURKISH
+title=AIGAIM_Qantas Airbus A330-300 - OC
+model=QFA-Qantas_OC
+texture=QFA-Qantas_OC
+atc_id=VH-QPB
+atc_airline=QANTAS
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
+atc_parking_codes=QFA
 ui_manufacturer=AIG
 ui_type=Airbus A330-300
-ui_variation=Turkish Airlines - C28 300th Aircraft
+ui_variation=Qantas
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A333_THY_GE.zip
-description=AIG_A330-300_GE-GE_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.19]
-title=AIGAIM_Eurowings Discover Airbus A330-300
-model=OCN-Eurowings Discover
-texture=OCN-Eurowings Discover
-atc_airline=OCEAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OCN
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=EW Discover GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Eurowings Discover.zip
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a333_geccles.zip
 description=AIG_A330-300_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=OCN
+icao_airline=QFA
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Qatar Airways Airbus A330-300 - named Large 3rd Door
 model=QTR-Qatar Airways_named Large 3rd Door
 texture=QTR-Qatar Airways_named Large 3rd Door
@@ -441,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_KLM Airbus A330-300 - aft Sat
 model=KLM-KLM_aft Sat
 texture=KLM-KLM_aft Sat
@@ -460,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_KLM Airbus A330-300 - OC aft Sat
 model=KLM-KLM_OC aft Sat
 texture=KLM-KLM_OC aft Sat

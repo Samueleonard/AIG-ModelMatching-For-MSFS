@@ -8,6 +8,7 @@
 		<!-- default minSize is 0 -->
 		<LOD minSize="5" ModelFile="UTT_Boeing_787-10_GE_LOD0.gltf"/>
 		<LOD minSize="1" ModelFile="UTT_Boeing_787-10_GE_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="UTT_Boeing_787-10_GE_LOD1.gltf"/>
 	</LODS>
 
 <Behaviors>
@@ -514,61 +515,46 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 	<Component ID="Engine_Still_Windmill">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
-			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-		if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-		if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
-		<Component ID="prop0_still" Node="prop0_still">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+	<Component ID="prop0_still" Node="prop0_still">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="prop1_still" Node="prop1_still">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 		
 	<Component ID="Engine_Blade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Blade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }</ANIM_CODE>
+			<ANIM_CODE>0.01 6 3500 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
 	<Component ID="engine_blade_0" Node="engine_blade_0">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="engine_blade_1" Node="engine_blade_1">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:ENG N1 RPM:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 		
 	<Component ID="c_gear">
@@ -617,7 +603,7 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Rudder_wind_deflect</ANIM_NAME>
 			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 8 &gt; (A:LIGHT BEACON, bool) 0 == and 
-						if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - }
+						if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - 0 max 100 min }
 						els{ 50 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>8</ANIM_LAG>
@@ -642,24 +628,28 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 		</UseTemplate>
 	</Component>
 	
-		<Component ID="LIGHT_landing_nose_left" Node="LIGHT_landing_nose_left">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }
-        </Code>
-      </Parameter>
-    </Visibility>
+	<Component ID="LIGHT_Logolight_l" Node="LIGHT_Logolight_l">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="LIGHT_Logolight_r" Node="LIGHT_Logolight_r">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="LIGHT_landing_nose_left" Node="LIGHT_landing_nose_left">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 	
 	<Component ID="LIGHT_landing_nose_right" Node="LIGHT_landing_nose_right">
-	    <Visibility>
-      <Parameter>
-        <Code>
-		(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }
-        </Code>
-      </Parameter>
-    </Visibility>
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+		</UseTemplate>
 	</Component>
 
 		<Component ID="FX_CONTRAIL_QUAD">
@@ -748,6 +738,14 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
 				<FX_NODE>R_tire_1</FX_NODE>
 			</UseTemplate>	
+		</Component>
+		
+		<Component ID="Fuselage" Node="fuze">
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 8000 &lt; and if{ 0.09 }
+				els{ (A:LIGHT NAV, bool) 1 == 26100 80100 (E:LOCAL TIME, seconds) rng or if{ 0.2 }
+				els{ 0 } }</EMISSIVE_CODE>
+			</UseTemplate>
 		</Component>
 
 </Behaviors>

@@ -24,7 +24,7 @@ wake=fx_wake ;
 water=fx_spray ; 
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
-touchdown=fx_tchdwn_m, 1 ; 
+touchdown=fx_tchdwn, 1 ; 
 
 [SERVICES]
 FUELTRUCK=1
@@ -38,24 +38,39 @@ MARSHALLER=1
 JETWAY=1
 
 [fltsim.0]
-title=AIGAIM_Air Astana Airbus A321-200neo
-model=KZR-Air Astana
-texture=KZR-Air Astana
-atc_id=P4-KDE
-atc_airline=ASTANALINE
+title=AIGAIM_Aegean Airlines Airbus A321-200neo - ACF
+model=AEE-Aegean Airlines_ACF
+texture=AEE-Aegean Airlines_ACF
+atc_airline=AEGEAN
 atc_parking_types=GATE,RAMP
-atc_parking_codes=KZR
-ui_manufacturer=FAIB
+atc_parking_codes=AEE
 ui_type=Airbus A321-200neo
-ui_variation=Air Astana P4-KDE
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_a321_kzr_fleet_2018.zip
+ui_createdby=Provided by: FC75 Filename: FAIB_A321neo_Aegean.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=KZR
+icao_airline=AEE
 
 [fltsim.1]
+title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Wizz Air
+model=AIB-Airbus Cooperation_ACF Wizz Air
+texture=AIB-Airbus Cooperation_ACF Wizz Air
+atc_id=HA-LVA
+atc_airline=AIRBUS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIB
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIB
+
+[fltsim.2]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - Sichuan Airlines
 model=AIB-Airbus Cooperation_Sichuan Airlines
 texture=AIB-Airbus Cooperation_Sichuan Airlines
@@ -73,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF jetBue
 model=AIB-Airbus Cooperation_ACF jetBue
 texture=AIB-Airbus Cooperation_ACF jetBue
@@ -90,7 +105,43 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIB
 
-[fltsim.3]
+[fltsim.4]
+title=AIGAIM_Air Astana Airbus A321-200neo
+model=KZR-Air Astana
+texture=KZR-Air Astana
+atc_id=P4-KDE
+atc_airline=ASTANALINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KZR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Air Astana P4-KDE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_kzr_fleet_2018.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KZR
+
+[fltsim.5]
+title=AIGAIM_Sichuan Airlines Airbus A321-200neo
+model=CSC-Sichuan Airlines
+texture=CSC-Sichuan Airlines
+atc_id=B-8682
+atc_airline=SI CHUAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSC
+ui_manufacturer=Airbus FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Sichuan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSC
+
+[fltsim.6]
 title=AIGAIM_Air China Airbus A321-200neo
 model=CCA-Air China
 texture=CCA-Air China
@@ -108,7 +159,97 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.4]
+[fltsim.7]
+title=AIGAIM_Wizz Air Airbus A321-200neo - ACF
+model=WZZ-Wizz Air_ACF
+texture=WZZ-Wizz Air_ACF
+atc_id=HA-LVA
+atc_airline=WIZZAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WZZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WZZ
+
+[fltsim.8]
+title=AIGAIM_Wizz Air Airbus A321-200neo - ACF Cockpit Frame
+model=WZZ-Wizz Air_ACF Cockpit Frame
+texture=WZZ-Wizz Air_ACF Cockpit Frame
+atc_id=HA-LVW
+atc_airline=WIZZAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WZZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WZZ
+
+[fltsim.9]
+title=AIGAIM_Wizz Air Airbus A321-200neo - ACF grey SL (rhs)
+model=WZZ-Wizz Air_ACF grey SL (rhs)
+texture=WZZ-Wizz Air_ACF grey SL (rhs)
+atc_id=HA-LVK
+atc_airline=WIZZAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WZZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WZZ
+
+[fltsim.10]
+title=AIGAIM_Wizz Air Abu Dhabi Airbus A321-200neo - ACF
+model=WAZ-Wizz Air Abu Dhabi_ACF
+texture=WAZ-Wizz Air Abu Dhabi_ACF
+atc_id=A6-WZD
+atc_airline=WIZZ SKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WAZ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair Abu Dhabi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200neo Wizzair Abu Dhabi_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WAZ
+
+[fltsim.11]
+title=AIGAIM_Wizz Air UK Airbus A321-200neo - ACF no Flag
+model=WUK-Wizz Air UK_ACF no Flag
+texture=WUK-Wizz Air UK_ACF no Flag
+atc_id=G-WUKM
+atc_airline=WIZZ GO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WUK
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Wizzair UK Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200neo Wizzair UK Limited_FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WUK
+
+[fltsim.12]
 title=AIGAIM_Air New Zealand Airbus A321-200neo
 model=ANZ-Air New Zealand
 texture=ANZ-Air New Zealand
@@ -126,7 +267,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
 
-[fltsim.5]
+[fltsim.13]
 title=AIGAIM_Air New Zealand Airbus A321-200neo - Black Livery
 model=ANZ-Air New Zealand_Black Livery
 texture=ANZ-Air New Zealand_Black Livery
@@ -144,7 +285,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
 
-[fltsim.6]
+[fltsim.14]
 title=AIGAIM_All Nippon Airways Airbus A321-200neo
 model=ANA-All Nippon Airways
 texture=ANA-All Nippon Airways
@@ -160,146 +301,6 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
-
-[fltsim.7]
-title=AIGAIM_Cebu Pacific Airbus A321-200neo - ACF
-model=CEB-Cebu Pacific_ACF
-texture=CEB-Cebu Pacific_ACF
-atc_id=RP-C4118
-atc_airline=CEBU AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CEB
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=Cebu Air, Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Cebu.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CEB
-
-[fltsim.8]
-title=AIGAIM_Hawaiian Airlines Airbus A321-200neo
-model=HAL-Hawaiian Airlines
-texture=HAL-Hawaiian Airlines
-atc_airline=HAWAIIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Hawaiian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a21n_hal.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.9]
-title=AIGAIM_IndiGo Airbus A321-200neo - ACF
-model=IGO-IndiGo_ACF
-texture=IGO-IndiGo_ACF
-atc_id=VT-IUA
-atc_airline=IFLY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IGO
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=IndiGo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321NEO IndiGo.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IGO
-
-[fltsim.10]
-title=AIGAIM_jetBlue Airbus A321-200neo - ACF Balloons
-model=JBU-jetBlue_ACF Balloons
-texture=JBU-jetBlue_ACF Balloons
-atc_airline=JETBLUE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JBU
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=jetBlue Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_jbu_airbus_a21n.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JBU
-
-[fltsim.11]
-title=AIGAIM_Lufthansa Airbus A321-200neo - ACF
-model=DLH-Lufthansa_ACF
-texture=DLH-Lufthansa_ACF
-atc_id=D-AIEA
-atc_airline=LUFTHANSA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.12]
-title=AIGAIM_Philippine Airlines Airbus A321-200neo
-model=PAL-Philippine Airlines
-texture=PAL-Philippine Airlines
-atc_airline=PHILIPPINE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PAL
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Philippine Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_pal_airbus_a3n1.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAL
-
-[fltsim.13]
-title=AIGAIM_S7 Airlines Airbus A321-200neo
-model=SBI-S7 Airlines
-texture=SBI-S7 Airlines
-atc_airline=SIBERIAN AIRLINES
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SBI
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=S7 Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_a21n_sbi.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SBI
-
-[fltsim.14]
-title=AIGAIM_Sichuan Airlines Airbus A321-200neo
-model=CSC-Sichuan Airlines
-texture=CSC-Sichuan Airlines
-atc_id=B-8682
-atc_airline=SI CHUAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSC
-ui_manufacturer=Airbus FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Sichuan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: faib_sichuan_a321.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSC
 
 [fltsim.15]
 title=AIGAIM_Turkish Airlines Airbus A321-200neo - ACF
@@ -446,124 +447,123 @@ isUserSelectable=0
 icao_airline=VOI
 
 [fltsim.23]
-title=AIGAIM_Wizz Air Abu Dhabi Airbus A321-200neo - ACF
-model=WAZ-Wizz Air Abu Dhabi_ACF
-texture=WAZ-Wizz Air Abu Dhabi_ACF
-atc_id=A6-WZD
-atc_airline=WIZZ SKY
+title=AIGAIM_Philippine Airlines Airbus A321-200neo
+model=PAL-Philippine Airlines
+texture=PAL-Philippine Airlines
+atc_airline=PHILIPPINE
 atc_parking_types=GATE,RAMP
-atc_parking_codes=WAZ
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=PAL
+ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair Abu Dhabi
+ui_variation=Philippine Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200neo Wizzair Abu Dhabi_FSX.zip
+ui_createdby=Provided by: FSAI Filename: faib_pal_airbus_a3n1.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=WAZ
+icao_airline=PAL
 
 [fltsim.24]
-title=AIGAIM_Aegean Airlines Airbus A321-200neo - ACF
-model=AEE-Aegean Airlines_ACF
-texture=AEE-Aegean Airlines_ACF
-atc_airline=AEGEAN
+title=AIGAIM_Cebu Pacific Airbus A321-200neo - ACF
+model=CEB-Cebu Pacific_ACF
+texture=CEB-Cebu Pacific_ACF
+atc_id=RP-C4118
+atc_airline=CEBU AIR
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AEE
+atc_parking_codes=CEB
+ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
+ui_variation=Cebu Air, Inc.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_A321neo_Aegean.zip
+ui_createdby=Provided by: JB Filename: FAIB A321 Cebu.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AEE
+icao_airline=CEB
 
 [fltsim.25]
-title=AIGAIM_Wizz Air UK Airbus A321-200neo - ACF no Flag
-model=WUK-Wizz Air UK_ACF no Flag
-texture=WUK-Wizz Air UK_ACF no Flag
-atc_id=G-WUKM
-atc_airline=WIZZ GO
+title=AIGAIM_Lufthansa Airbus A321-200neo - ACF
+model=DLH-Lufthansa_ACF
+texture=DLH-Lufthansa_ACF
+atc_id=D-AIEA
+atc_airline=LUFTHANSA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=WUK
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair UK Limited
+ui_variation=Deutsche Lufthansa AG
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A321-200neo Wizzair UK Limited_FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=WUK
+icao_airline=DLH
 
 [fltsim.26]
-title=AIGAIM_Wizz Air Airbus A321-200neo - ACF
-model=WZZ-Wizz Air_ACF
-texture=WZZ-Wizz Air_ACF
-atc_id=HA-LVA
-atc_airline=WIZZAIR
+title=AIGAIM_Hawaiian Airlines Airbus A321-200neo
+model=HAL-Hawaiian Airlines
+texture=HAL-Hawaiian Airlines
+atc_airline=HAWAIIAN
 atc_parking_types=GATE,RAMP
-atc_parking_codes=WZZ
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=HAL
+ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair
+ui_variation=Hawaiian Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+ui_createdby=Provided by: ATCO Filename: faib_a21n_hal.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=WZZ
+icao_airline=HAL
 
 [fltsim.27]
-title=AIGAIM_Wizz Air Airbus A321-200neo - ACF Cockpit Frame
-model=WZZ-Wizz Air_ACF Cockpit Frame
-texture=WZZ-Wizz Air_ACF Cockpit Frame
-atc_id=HA-LVW
-atc_airline=WIZZAIR
+title=AIGAIM_IndiGo Airbus A321-200neo - ACF
+model=IGO-IndiGo_ACF
+texture=IGO-IndiGo_ACF
+atc_id=VT-IUA
+atc_airline=IFLY
 atc_parking_types=GATE,RAMP
-atc_parking_codes=WZZ
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=IGO
+ui_manufacturer=Airbus
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair
+ui_variation=IndiGo
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB A321NEO IndiGo.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=WZZ
+icao_airline=IGO
 
 [fltsim.28]
-title=AIGAIM_Wizz Air Airbus A321-200neo - ACF grey SL (rhs)
-model=WZZ-Wizz Air_ACF grey SL (rhs)
-texture=WZZ-Wizz Air_ACF grey SL (rhs)
-atc_id=HA-LVK
-atc_airline=WIZZAIR
+title=AIGAIM_jetBlue Airbus A321-200neo - ACF Balloons
+model=JBU-jetBlue_ACF Balloons
+texture=JBU-jetBlue_ACF Balloons
+atc_airline=JETBLUE
 atc_parking_types=GATE,RAMP
-atc_parking_codes=WZZ
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=JBU
+ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair
+ui_variation=jetBlue Airways
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+ui_createdby=Provided by: FSAI Filename: faib_jbu_airbus_a21n.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=WZZ
+icao_airline=JBU
 
 [fltsim.29]
-title=AIGAIM_Airbus Cooperation Airbus A321-200neo - ACF Wizz Air
-model=AIB-Airbus Cooperation_ACF Wizz Air
-texture=AIB-Airbus Cooperation_ACF Wizz Air
-atc_id=HA-LVA
-atc_airline=AIRBUS
+title=AIGAIM_S7 Airlines Airbus A321-200neo
+model=SBI-S7 Airlines
+texture=SBI-S7 Airlines
+atc_airline=SIBERIAN AIRLINES
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AIB
-ui_manufacturer=FAIB - Airbus
+atc_parking_codes=SBI
+ui_manufacturer=FAIB
 ui_type=Airbus A321-200neo
-ui_variation=Wizzair
+ui_variation=S7 Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Wizzair_A321-200neo_FSX.zip
+ui_createdby=Provided by: ATCO Filename: faib_a21n_sbi.zip
 description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AIB
+icao_airline=SBI

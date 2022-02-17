@@ -87,22 +87,6 @@ isUserSelectable=0
 icao_airline=THO
 
 [fltsim.2]
-title=AIGAIM_Swagelok Bombardier Challenger 601-3A - N289K
-model=GA2J-Swagelok_N289K
-texture=GA2J-Swagelok_N289K
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 601
-ui_variation=Bombardier Challenger CL-601-3A, c/n 5132, Swagelok, N289K
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SwagelokCL6013A.zip
-description=JBAI_Challenger601-3R-Marco-601-SD(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.3]
 title=AIGAIM_Joe Gibbs Racing Bombardier Challenger 601-3R - N518JG
 model=GA4J-Joe Gibbs Racing_N518JG
 texture=GA4J-Joe Gibbs Racing_N518JG
@@ -117,3 +101,19 @@ description=JBAI_Challenger601-3R-Marco-604(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+
+[fltsim.3]
+title=AIGAIM_Swagelok Bombardier Challenger 601-3A - N289K
+model=GA2J-Swagelok_N289K
+texture=GA2J-Swagelok_N289K
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 601
+ui_variation=Bombardier Challenger CL-601-3A, c/n 5132, Swagelok, N289K
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SwagelokCL6013A.zip
+description=JBAI_Challenger601-3R-Marco-601-SD(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

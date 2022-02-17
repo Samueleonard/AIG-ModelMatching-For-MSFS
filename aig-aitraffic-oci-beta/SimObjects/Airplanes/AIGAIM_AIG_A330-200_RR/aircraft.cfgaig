@@ -57,385 +57,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Air Canada Airbus A330-200 - opb Air Transat
-model=ACA-Air Canada_opb Air Transat
-texture=ACA-Air Canada_opb Air Transat
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GTSZ Large 3rd Door 2 Fore Blocked Windows
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACA
-
-[fltsim.1]
-title=AIGAIM_Air Canada Airbus A330-200 - OT opb Air Transat
-model=ACA-Air Canada_OT opb Air Transat
-texture=ACA-Air Canada_OT opb Air Transat
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GUBF 1 Blocked Window
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACA
-
-[fltsim.2]
-title=AIGAIM_Air China Airbus A330-200
-model=CCA-Air China
-texture=CCA-Air China
-atc_airline=AIR CHINA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CCA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Air China Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CCA
-
-[fltsim.3]
-title=AIGAIM_Air China Airbus A330-200 - No Flag
-model=CCA-Air China_No Flag
-texture=CCA-Air China_No Flag
-atc_airline=AIR CHINA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CCA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Air China Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CCA
-
-[fltsim.4]
-title=AIGAIM_Air China Airbus A330-200 - Star Alliance
-model=CCA-Air China_Star Alliance
-texture=CCA-Air China_Star Alliance
-atc_airline=AIR CHINA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CCA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Air China Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CCA
-
-[fltsim.5]
-title=AIGAIM_Air Serbia Airbus A330-200 - Serbia Creates
-model=ASL-Air Serbia_Serbia Creates
-texture=ASL-Air Serbia_Serbia Creates
-atc_airline=AIR SERBIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ASL
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Air Serbia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Air Serbia.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ASL
-
-[fltsim.6]
-title=AIGAIM_Air Transat Airbus A330-200
-model=TSC-Air Transat
-texture=TSC-Air Transat
-atc_airline=TRANSAT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GTSJ Large 3rd Door 1 Fore Blocked Window
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.7]
-title=AIGAIM_Air Transat Airbus A330-200 - Small 3rd Door
-model=TSC-Air Transat_Small 3rd Door
-texture=TSC-Air Transat_Small 3rd Door
-atc_airline=TRANSAT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GUBL 2 Mid Blocked Windows
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.8]
-title=AIGAIM_Air Transat Airbus A330-200 - OT Small 3rd Door
-model=TSC-Air Transat_OT Small 3rd Door
-texture=TSC-Air Transat_OT Small 3rd Door
-atc_airline=TRANSAT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GUBC 2 Blocked Windows
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.9]
-title=AIGAIM_Air Transat Airbus A330-200 - OT Albino Small 3rd Door
-model=TSC-Air Transat_OT Albino Small 3rd Door
-texture=TSC-Air Transat_OT Albino Small 3rd Door
-atc_airline=TRANSAT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GJDA All White
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.10]
-title=AIGAIM_Air Transat Airbus A330-200 - OT Barbara Stewart
-model=TSC-Air Transat_OT Barbara Stewart
-texture=TSC-Air Transat_OT Barbara Stewart
-atc_airline=TRANSAT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Air Transat - C-GPTS Large 3rd Door
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
-description=AIG_A330-200_RR-RR_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.11]
-title=AIGAIM_Capital Airlines Airbus A330-200
-model=CBJ-Capital Airlines
-texture=CBJ-Capital Airlines
-atc_airline=CAPITAL JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Beijing Capital Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CBJ
-
-[fltsim.12]
-title=AIGAIM_Capital Airlines Airbus A330-200 - Tangla
-model=CBJ-Capital Airlines_Tangla
-texture=CBJ-Capital Airlines_Tangla
-atc_airline=CAPITAL JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Beijing Capital Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CBJ
-
-[fltsim.13]
-title=AIGAIM_Capital Airlines Airbus A330-200 - tunio.com
-model=CBJ-Capital Airlines_tunio.com
-texture=CBJ-Capital Airlines_tunio.com
-atc_airline=CAPITAL JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CBJ
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Beijing Capital Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CBJ
-
-[fltsim.14]
-title=AIGAIM_Fiji Airways Airbus A330-200 - RR
-model=FJI-Fiji Airways_RR
-texture=FJI-Fiji Airways_RR
-atc_id=DQ-FJT
-atc_airline=FIJI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FJI
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Fiji Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Fiji Airways.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FJI
-
-[fltsim.15]
-title=AIGAIM_Garuda Indonesia Airbus A330-200
-model=GIA-Garuda Indonesia
-texture=GIA-Garuda Indonesia
-atc_airline=INDONESIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GIA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=PT Garuda Indonesia (Persero) Tbk
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Garuda.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GIA
-
-[fltsim.16]
-title=AIGAIM_Hainan Airlines Airbus A330-200
-model=CHH-Hainan Airlines
-texture=CHH-Hainan Airlines
-atc_airline=HAINAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Hainan Airlines Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Hainan Airlines.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-
-[fltsim.17]
-title=AIGAIM_Hawaiian Airlines Airbus A330-200
-model=HAL-Hawaiian Airlines
-texture=HAL-Hawaiian Airlines
-atc_airline=HAWAIIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Hawaiian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.18]
-title=AIGAIM_Hawaiian Airlines Airbus A330-200 - 242t
-model=HAL-Hawaiian Airlines_242t
-texture=HAL-Hawaiian Airlines_242t
-atc_airline=HAWAIIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Hawaiian Airlines 242t
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
-description=AIG_A330-200_RR-RR_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.19]
-title=AIGAIM_Hawaiian Airlines Airbus A330-200 - OC
-model=HAL-Hawaiian Airlines_OC
-texture=HAL-Hawaiian Airlines_OC
-atc_airline=HAWAIIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Hawaiian Airlines - OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.20]
-title=AIGAIM_Hong Kong Airlines Airbus A330-200 - RR 20 Years HK SAR
-model=CRK-Hong Kong Airlines_RR 20 Years HK SAR
-texture=CRK-Hong Kong Airlines_RR 20 Years HK SAR
-atc_airline=BAUHINIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CRK
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Hong Kong Airlines Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Hong Kong Airlines.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CRK
-
-[fltsim.21]
 title=AIGAIM_Iran Air Airbus A330-200
 model=IRA-Iran Air
 texture=IRA-Iran Air
@@ -454,135 +75,115 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
 
-[fltsim.22]
-title=AIGAIM_Jet2com Airbus A330-200 - opb Air Tanker
-model=EXS-Jet2com_opb Air Tanker
-texture=EXS-Jet2com_opb Air Tanker
-atc_id=G-VYGJ
-atc_airline=CHANNEX
+[fltsim.1]
+title=AIGAIM_Hong Kong Airlines Airbus A330-200 - RR 20 Years HK SAR
+model=CRK-Hong Kong Airlines_RR 20 Years HK SAR
+texture=CRK-Hong Kong Airlines_RR 20 Years HK SAR
+atc_airline=BAUHINIA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=EXS
+atc_parking_codes=CRK
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=AirTanker
+ui_variation=Hong Kong Airlines Limited
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_AirTanker.zip
+ui_createdby=Provided by: JB Filename: AIG A332 Hong Kong Airlines.zip
 description=AIG_A330-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=EXS
+icao_airline=CRK
 
-[fltsim.23]
-title=AIGAIM_Kuwait Airways Airbus A330-200 - OC 65 Years (TEMP)
-model=KAC-Kuwait Airways_OC 65 Years_temp
-texture=KAC-Kuwait Airways_OC 65 Years_temp
-atc_airline=KUWAITI
+[fltsim.2]
+title=AIGAIM_Tianjin Airlines Airbus A330-200 - 242t
+model=GCR-Tianjin Airlines_242t
+texture=GCR-Tianjin Airlines_242t
+atc_airline=BO HAI
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=KAC
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Kuwait Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_KAC.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAC
-
-[fltsim.24]
-title=AIGAIM_MEA Middle East Airlines Airbus A330-200
-model=MEA-MEA Middle East Airlines
-texture=MEA-MEA Middle East Airlines
-atc_airline=CEDAR JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MEA
+atc_parking_codes=GCR
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=iddle East Airlines – Air Liban S.A.L.
+ui_variation=Tianjin Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MEA
-
-[fltsim.25]
-title=AIGAIM_MEA Middle East Airlines Airbus A330-200 - Belly Titles
-model=MEA-MEA Middle East Airlines_Belly Titles
-texture=MEA-MEA Middle East Airlines_Belly Titles
-atc_airline=CEDAR JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MEA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=iddle East Airlines – Air Liban S.A.L.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MEA
-
-[fltsim.26]
-title=AIGAIM_MEA Middle East Airlines Airbus A330-200 - 242t
-model=MEA-MEA Middle East Airlines_242t
-texture=MEA-MEA Middle East Airlines_242t
-atc_airline=CEDAR JET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MEA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=iddle East Airlines – Air Liban S.A.L.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
+ui_createdby=Provided by: JB Filename: AIG A332 Tianjin Airlines.zip
 description=AIG_A330-200_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=MEA
+icao_airline=GCR
 
-[fltsim.27]
-title=AIGAIM_Nepal Airlines Airbus A330-200 - 242t
-model=RNA-Nepal Airlines_242t
-texture=RNA-Nepal Airlines_242t
-atc_id=9N-ALY
-atc_airline=ROYAL NEPAL
+[fltsim.3]
+title=AIGAIM_Capital Airlines Airbus A330-200
+model=CBJ-Capital Airlines
+texture=CBJ-Capital Airlines
+atc_airline=CAPITAL JET
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=RNA
+atc_parking_codes=CBJ
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Nepal Airlines
+ui_variation=Beijing Capital Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Nepal Airlines.zip
-description=AIG_A330-200_RR-RR_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RNA
-
-[fltsim.28]
-title=AIGAIM_Oman Air Airbus A330-200 - WiFi dome
-model=OMA-Oman Air_WiFi dome
-texture=OMA-Oman Air_WiFi dome
-atc_airline=OMAN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OMA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Oman Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Oman Air.zip
+ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
 description=AIG_A330-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=OMA
+icao_airline=CBJ
 
-[fltsim.29]
+[fltsim.4]
+title=AIGAIM_Capital Airlines Airbus A330-200 - Tangla
+model=CBJ-Capital Airlines_Tangla
+texture=CBJ-Capital Airlines_Tangla
+atc_airline=CAPITAL JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Beijing Capital Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.5]
+title=AIGAIM_Capital Airlines Airbus A330-200 - tunio.com
+model=CBJ-Capital Airlines_tunio.com
+texture=CBJ-Capital Airlines_tunio.com
+atc_airline=CAPITAL JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CBJ
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Beijing Capital Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Capital Airlines.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CBJ
+
+[fltsim.6]
+title=AIGAIM_Hainan Airlines Airbus A330-200
+model=CHH-Hainan Airlines
+texture=CHH-Hainan Airlines
+atc_airline=HAINAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Hainan Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Hainan Airlines.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.7]
 title=AIGAIM_Sichuan Airlines Airbus A330-200
 model=CSC-Sichuan Airlines
 texture=CSC-Sichuan Airlines
@@ -601,7 +202,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.30]
+[fltsim.8]
 title=AIGAIM_Sichuan Airlines Airbus A330-200 - Engine Titles
 model=CSC-Sichuan Airlines_Engine Titles
 texture=CSC-Sichuan Airlines_Engine Titles
@@ -620,7 +221,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.31]
+[fltsim.9]
 title=AIGAIM_Sichuan Airlines Airbus A330-200 - 242t
 model=CSC-Sichuan Airlines_242t
 texture=CSC-Sichuan Airlines_242t
@@ -639,118 +240,98 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.32]
-title=AIGAIM_Tianjin Airlines Airbus A330-200 - 242t
-model=GCR-Tianjin Airlines_242t
-texture=GCR-Tianjin Airlines_242t
-atc_airline=BO HAI
+[fltsim.10]
+title=AIGAIM_Oman Air Airbus A330-200 - WiFi dome
+model=OMA-Oman Air_WiFi dome
+texture=OMA-Oman Air_WiFi dome
+atc_airline=OMAN AIR
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=GCR
+atc_parking_codes=OMA
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Tianjin Airlines
+ui_variation=Oman Air
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Tianjin Airlines.zip
+ui_createdby=Provided by: JB Filename: AIG A332 Oman Air.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA
+
+[fltsim.11]
+title=AIGAIM_Air China Airbus A330-200
+model=CCA-Air China
+texture=CCA-Air China
+atc_airline=AIR CHINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.12]
+title=AIGAIM_Air China Airbus A330-200 - No Flag
+model=CCA-Air China_No Flag
+texture=CCA-Air China_No Flag
+atc_airline=AIR CHINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.13]
+title=AIGAIM_Air China Airbus A330-200 - Star Alliance
+model=CCA-Air China_Star Alliance
+texture=CCA-Air China_Star Alliance
+atc_airline=AIR CHINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Air China Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Air China.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCA
+
+[fltsim.14]
+title=AIGAIM_Nepal Airlines Airbus A330-200 - 242t
+model=RNA-Nepal Airlines_242t
+texture=RNA-Nepal Airlines_242t
+atc_id=9N-ALY
+atc_airline=ROYAL NEPAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RNA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Nepal Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Nepal Airlines.zip
 description=AIG_A330-200_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GCR
+icao_airline=RNA
 
-[fltsim.33]
-title=AIGAIM_Tibet Airlines Airbus A330-200 - 242t
-model=TBA-Tibet Airlines_242t
-texture=TBA-Tibet Airlines_242t
-atc_id=B-8420
-atc_airline=TIBET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TBA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Tibet Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Tibet Airlines.zip
-description=AIG_A330-200_RR-RR_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TBA
-
-[fltsim.34]
-title=AIGAIM_Tunisair Airbus A330-200
-model=TAR-Tunisair
-texture=TAR-Tunisair
-atc_id=TS-IFM
-atc_airline=TUNAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAR
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Tunisair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Tunisair.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAR
-
-[fltsim.35]
-title=AIGAIM_Sunclass Airlines Airbus A330-200 - OT
-model=VKG-Sunclass Airlines_OT
-texture=VKG-Sunclass Airlines_OT
-atc_id=OY-VKF
-atc_airline=VIKING
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VKG
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Sunclass Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Sunclass Airlines.zip
-description=AIG_A330-200_RR-RR_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VKG
-
-[fltsim.36]
-title=AIGAIM_Avianca Airbus A330-200 - Star Alliance
-model=AVA-Avianca_Star Alliance
-texture=AVA-Avianca_Star Alliance
-atc_airline=AVIANCA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AVA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Aerovías del Continente Americano S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Avianca.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AVA
-
-[fltsim.37]
-title=AIGAIM_Avianca Airbus A330-200 - Old Livery
-model=AVA-Avianca_Old Livery
-texture=AVA-Avianca_Old Livery
-atc_airline=AVIANCA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AVA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Aerovías del Continente Americano S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Avianca.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AVA
-
-[fltsim.38]
+[fltsim.15]
 title=AIGAIM_Wamos Air Airbus A330-200 - RR
 model=PLM-Wamos Air_RR
 texture=PLM-Wamos Air_RR
@@ -769,7 +350,371 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PLM
 
-[fltsim.39]
+[fltsim.16]
+title=AIGAIM_Air Serbia Airbus A330-200 - Serbia Creates
+model=ASL-Air Serbia_Serbia Creates
+texture=ASL-Air Serbia_Serbia Creates
+atc_airline=AIR SERBIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ASL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Air Serbia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Air Serbia.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASL
+
+[fltsim.17]
+title=AIGAIM_Air Transat Airbus A330-200
+model=TSC-Air Transat
+texture=TSC-Air Transat
+atc_airline=TRANSAT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GTSJ Large 3rd Door 1 Fore Blocked Window
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.18]
+title=AIGAIM_Air Transat Airbus A330-200 - Small 3rd Door
+model=TSC-Air Transat_Small 3rd Door
+texture=TSC-Air Transat_Small 3rd Door
+atc_airline=TRANSAT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GUBL 2 Mid Blocked Windows
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.19]
+title=AIGAIM_Air Transat Airbus A330-200 - OT Small 3rd Door
+model=TSC-Air Transat_OT Small 3rd Door
+texture=TSC-Air Transat_OT Small 3rd Door
+atc_airline=TRANSAT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GUBC 2 Blocked Windows
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.20]
+title=AIGAIM_Air Transat Airbus A330-200 - OT Albino Small 3rd Door
+model=TSC-Air Transat_OT Albino Small 3rd Door
+texture=TSC-Air Transat_OT Albino Small 3rd Door
+atc_airline=TRANSAT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GJDA All White
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.21]
+title=AIGAIM_Air Transat Airbus A330-200 - OT Barbara Stewart
+model=TSC-Air Transat_OT Barbara Stewart
+texture=TSC-Air Transat_OT Barbara Stewart
+atc_airline=TRANSAT
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TSC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GPTS Large 3rd Door
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TSC
+
+[fltsim.22]
+title=AIGAIM_Air Canada Airbus A330-200 - opb Air Transat
+model=ACA-Air Canada_opb Air Transat
+texture=ACA-Air Canada_opb Air Transat
+atc_airline=AIR CANADA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GTSZ Large 3rd Door 2 Fore Blocked Windows
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.23]
+title=AIGAIM_Air Canada Airbus A330-200 - OT opb Air Transat
+model=ACA-Air Canada_OT opb Air Transat
+texture=ACA-Air Canada_OT opb Air Transat
+atc_airline=AIR CANADA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air Transat - C-GUBF 1 Blocked Window
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_TSC.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.24]
+title=AIGAIM_Jet2com Airbus A330-200 - opb Air Tanker
+model=EXS-Jet2com_opb Air Tanker
+texture=EXS-Jet2com_opb Air Tanker
+atc_id=G-VYGJ
+atc_airline=CHANNEX
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EXS
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=AirTanker
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_AirTanker.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EXS
+
+[fltsim.25]
+title=AIGAIM_MEA Middle East Airlines Airbus A330-200
+model=MEA-MEA Middle East Airlines
+texture=MEA-MEA Middle East Airlines
+atc_airline=CEDAR JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MEA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=iddle East Airlines – Air Liban S.A.L.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MEA
+
+[fltsim.26]
+title=AIGAIM_MEA Middle East Airlines Airbus A330-200 - Belly Titles
+model=MEA-MEA Middle East Airlines_Belly Titles
+texture=MEA-MEA Middle East Airlines_Belly Titles
+atc_airline=CEDAR JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MEA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=iddle East Airlines – Air Liban S.A.L.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MEA
+
+[fltsim.27]
+title=AIGAIM_MEA Middle East Airlines Airbus A330-200 - 242t
+model=MEA-MEA Middle East Airlines_242t
+texture=MEA-MEA Middle East Airlines_242t
+atc_airline=CEDAR JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MEA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=iddle East Airlines – Air Liban S.A.L.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 MEA.zip
+description=AIG_A330-200_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MEA
+
+[fltsim.28]
+title=AIGAIM_Tibet Airlines Airbus A330-200 - 242t
+model=TBA-Tibet Airlines_242t
+texture=TBA-Tibet Airlines_242t
+atc_id=B-8420
+atc_airline=TIBET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Tibet Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Tibet Airlines.zip
+description=AIG_A330-200_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBA
+
+[fltsim.29]
+title=AIGAIM_Tunisair Airbus A330-200
+model=TAR-Tunisair
+texture=TAR-Tunisair
+atc_id=TS-IFM
+atc_airline=TUNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAR
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Tunisair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Tunisair.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAR
+
+[fltsim.30]
+title=AIGAIM_Garuda Indonesia Airbus A330-200
+model=GIA-Garuda Indonesia
+texture=GIA-Garuda Indonesia
+atc_airline=INDONESIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GIA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=PT Garuda Indonesia (Persero) Tbk
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Garuda.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GIA
+
+[fltsim.31]
+title=AIGAIM_Fiji Airways Airbus A330-200 - RR
+model=FJI-Fiji Airways_RR
+texture=FJI-Fiji Airways_RR
+atc_id=DQ-FJT
+atc_airline=FIJI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FJI
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Fiji Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Fiji Airways.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FJI
+
+[fltsim.32]
+title=AIGAIM_Hawaiian Airlines Airbus A330-200
+model=HAL-Hawaiian Airlines
+texture=HAL-Hawaiian Airlines
+atc_airline=HAWAIIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Hawaiian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL
+
+[fltsim.33]
+title=AIGAIM_Hawaiian Airlines Airbus A330-200 - 242t
+model=HAL-Hawaiian Airlines_242t
+texture=HAL-Hawaiian Airlines_242t
+atc_airline=HAWAIIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Hawaiian Airlines 242t
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
+description=AIG_A330-200_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL
+
+[fltsim.34]
+title=AIGAIM_Hawaiian Airlines Airbus A330-200 - OC
+model=HAL-Hawaiian Airlines_OC
+texture=HAL-Hawaiian Airlines_OC
+atc_airline=HAWAIIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Hawaiian Airlines - OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: aig_a332_hal.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL
+
+[fltsim.35]
+title=AIGAIM_Kuwait Airways Airbus A330-200 - OC 65 Years (TEMP)
+model=KAC-Kuwait Airways_OC 65 Years_temp
+texture=KAC-Kuwait Airways_OC 65 Years_temp
+atc_airline=KUWAITI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAC
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Kuwait Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_KAC.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAC
+
+[fltsim.36]
 title=AIGAIM_SriLankan Airlines Airbus A330-200 - named Oneworld
 model=ALK-SriLankan Airlines_named Oneworld
 texture=ALK-SriLankan Airlines_named Oneworld
@@ -788,7 +733,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_SriLankan Airlines Airbus A330-200 - OT Small 3rd Door
 model=ALK-SriLankan Airlines_OT Small 3rd Door
 texture=ALK-SriLankan Airlines_OT Small 3rd Door
@@ -806,3 +751,22 @@ description=AIG_A330-200_RR-RR_OT(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
+
+[fltsim.38]
+title=AIGAIM_Sunclass Airlines Airbus A330-200 - OT
+model=VKG-Sunclass Airlines_OT
+texture=VKG-Sunclass Airlines_OT
+atc_id=OY-VKF
+atc_airline=VIKING
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VKG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Sunclass Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Sunclass Airlines.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VKG

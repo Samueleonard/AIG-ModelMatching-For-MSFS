@@ -53,41 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Laser Airlines McDonnell Douglas MD-83 - Silver YV3465
-model=LER-Laser Airlines_Silver YV3465
-texture=LER-Laser Airlines_Silver YV3465
-atc_id=YV3465
-atc_airline=LASER
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LER
-ui_manufacturer=McDonnell Douglas
-ui_type=McDonnell Douglas MD-83
-ui_variation=Laser Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: aia_ler_md8x_p3d.zip
-description=AIA_MD-83-SD_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LER
-
-[fltsim.1]
-title=AIGAIM_Tez Jet Airlines McDonnell Douglas MD-83
-model=TEZ-TezJet Airlines
-texture=TEZ-TezJet Airlines
-atc_airline=TEZJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TEZ
-ui_manufacturer=AI Aardvark
-ui_type=McDonnell Douglas MD-83
-ui_variation=Tez Jet
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIA_MD83_TEZ.zip
-description=AIA_MD-83-SD_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TEZ
-
-[fltsim.2]
 title=AIGAIM_Airfast Indonesia McDonnell Douglas MD-83
 model=AFE-Airfast Indonesia
 texture=AFE-Airfast Indonesia
@@ -104,24 +69,24 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFE
 
-[fltsim.3]
-title=AIGAIM_Venezolana McDonnell Douglas MD-83
-model=VNE-Venezolana
-texture=VNE-Venezolana
-atc_airline=VENEZOLANA
+[fltsim.1]
+title=AIGAIM_Dana Air McDonnell Douglas MD-83
+model=DAN-Dana Air
+texture=DAN-Dana Air
+atc_airline=DANACO
 atc_parking_types=GATE,RAMP
-atc_parking_codes=VNE
+atc_parking_codes=DAN
 ui_manufacturer=AI Aardvark
 ui_type=McDonnell Douglas MD-83
-ui_variation=Venezolana
+ui_variation=Dana Air
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIA_MD80_VNE.zip
+ui_createdby=Provided by: FC75 Filename: aia_danaair_m83.zip
 description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=VNE
+icao_airline=DAN
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAM fwd Titles
 model=TBZ-ATA Airlines_EP-TAM fwd Titles
 texture=TBZ-ATA Airlines_EP-TAM fwd Titles
@@ -139,7 +104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAN Red Markings
 model=TBZ-ATA Airlines_EP-TAN Red Markings
 texture=TBZ-ATA Airlines_EP-TAN Red Markings
@@ -157,7 +122,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAO Albino
 model=TBZ-ATA Airlines_EP-TAO Albino
 texture=TBZ-ATA Airlines_EP-TAO Albino
@@ -175,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAP MD Engine Titles
 model=TBZ-ATA Airlines_EP-TAP MD Engine Titles
 texture=TBZ-ATA Airlines_EP-TAP MD Engine Titles
@@ -193,7 +158,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAQ aft Titles
 model=TBZ-ATA Airlines_EP-TAQ aft Titles
 texture=TBZ-ATA Airlines_EP-TAQ aft Titles
@@ -211,7 +176,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAR no Engine Logo
 model=TBZ-ATA Airlines_EP-TAR no Engine Logo
 texture=TBZ-ATA Airlines_EP-TAR no Engine Logo
@@ -229,7 +194,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - EP-TAS Boeing Super 80 Engine Titles
 model=TBZ-ATA Airlines_EP-TAS Boeing Super 80 Engine Titles
 texture=TBZ-ATA Airlines_EP-TAS Boeing Super 80 Engine Titles
@@ -247,24 +212,42 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.11]
-title=AIGAIM_Dana Air McDonnell Douglas MD-83
-model=DAN-Dana Air
-texture=DAN-Dana Air
-atc_airline=DANACO
+[fltsim.9]
+title=AIGAIM_Venezolana McDonnell Douglas MD-83
+model=VNE-Venezolana
+texture=VNE-Venezolana
+atc_airline=VENEZOLANA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=DAN
+atc_parking_codes=VNE
 ui_manufacturer=AI Aardvark
 ui_type=McDonnell Douglas MD-83
-ui_variation=Dana Air
+ui_variation=Venezolana
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_danaair_m83.zip
+ui_createdby=Provided by: JCAI Filename: AIA_MD80_VNE.zip
 description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DAN
+icao_airline=VNE
 
-[fltsim.12]
+[fltsim.10]
+title=AIGAIM_Danish Air Transport McDonnell Douglas MD-83
+model=DTR-Danish Air Transport
+texture=DTR-Danish Air Transport
+atc_id=OY-RUE
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=For AI use only, Danish Air Transport MD-83 :: Repaint by Johan Clausen.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: aimd83dtr_fsx.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR
+
+[fltsim.11]
 title=AIGAIM_USA Jet Airlines McDonnell Douglas MD-83 - SF
 model=JUS-USA Jet Airlines_SF
 texture=JUS-USA Jet Airlines_SF
@@ -282,20 +265,37 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JUS
 
-[fltsim.13]
-title=AIGAIM_Danish Air Transport McDonnell Douglas MD-83
-model=DTR-Danish Air Transport
-texture=DTR-Danish Air Transport
-atc_id=OY-RUE
-atc_airline=DANISH
+[fltsim.12]
+title=AIGAIM_Laser Airlines McDonnell Douglas MD-83 - Silver YV3465
+model=LER-Laser Airlines_Silver YV3465
+texture=LER-Laser Airlines_Silver YV3465
+atc_id=YV3465
+atc_airline=LASER
 atc_parking_types=GATE,RAMP
-atc_parking_codes=DTR
-ui_manufacturer=AI Aardvark
+atc_parking_codes=LER
+ui_manufacturer=McDonnell Douglas
 ui_type=McDonnell Douglas MD-83
-ui_variation=For AI use only, Danish Air Transport MD-83 :: Repaint by Johan Clausen.
+ui_variation=Laser Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: aimd83dtr_fsx.zip
+ui_createdby=Provided by: KAIW Filename: aia_ler_md8x_p3d.zip
 description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DTR
+icao_airline=LER
+
+[fltsim.13]
+title=AIGAIM_Tez Jet Airlines McDonnell Douglas MD-83
+model=TEZ-TezJet Airlines
+texture=TEZ-TezJet Airlines
+atc_airline=TEZJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TEZ
+ui_manufacturer=AI Aardvark
+ui_type=McDonnell Douglas MD-83
+ui_variation=Tez Jet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIA_MD83_TEZ.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TEZ

@@ -59,8 +59,10 @@
 	<Component ID="Engine_Blade">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Blade</ANIM_NAME>
-			<ANIM_CODE>(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } els{ (A:TURB ENG N1:1, Percent) 6.55 &gt; if{ 0.01 6 4000 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * } els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
@@ -142,11 +144,11 @@
 					<FX_GUID>{F42CE638-11EB-4FC8-B9B0-111A220D681F}</FX_GUID>
 					<FX_NAME>FX_CONTRAILS</FX_NAME>
 			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_IN" Node="node125_anim_Engine_Blade">
+			<Component ID="FX_CONTRAIL_QUAD_LEFT_IN" Node="contrail1">
 				<UseTemplate Name="ASOBO_GT_FX">
 				</UseTemplate>
 			</Component>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_OUT" Node="node126_anim_Engine_Blade">
+			<Component ID="FX_CONTRAIL_QUAD_LEFT_OUT" Node="contrail2">
 				<UseTemplate Name="ASOBO_GT_FX">
 				</UseTemplate>
 			</Component>
@@ -160,11 +162,11 @@
 					<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 					<FX_NAME>FX_CONTRAILS_RIBBON</FX_NAME>
 			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_RIBBON_LEFT_OUT" Node="node125_anim_Engine_Blade">
+			<Component ID="FX_CONTRAIL_RIBBON_LEFT_OUT" Node="contrail1">
 				<UseTemplate Name="ASOBO_GT_FX">
 				</UseTemplate>
 			</Component>
-			<Component ID="FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="node126_anim_Engine_Blade">
+			<Component ID="FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="contrail2">
 				<UseTemplate Name="ASOBO_GT_FX">
 				</UseTemplate>
 			</Component>
@@ -173,51 +175,51 @@
 		<Component ID="LANDING_FX">
 			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>node54_tire_anim</FX_NODE>
+				<FX_NODE>node53_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>node72_tire_anim</FX_NODE>
+				<FX_NODE>node74_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>node64_tire_anim</FX_NODE>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>node54_tire_anim</FX_NODE>
+				<FX_NODE>node53_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>node64_tire_anim</FX_NODE>
+				<FX_NODE>node74_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>node72_tire_anim</FX_NODE>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>node54_tire_anim</FX_NODE>
+				<FX_NODE>node53_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>node64_tire_anim</FX_NODE>
+				<FX_NODE>node74_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>node72_tire_anim</FX_NODE>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>node54_tire_anim</FX_NODE>
+				<FX_NODE>node53_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>node64_tire_anim</FX_NODE>
+				<FX_NODE>node74_anim_tire_anim</FX_NODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>node72_tire_anim</FX_NODE>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
 			</UseTemplate>	
 		</Component>
 		

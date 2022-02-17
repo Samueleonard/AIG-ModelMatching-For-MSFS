@@ -53,6 +53,65 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_MAC Air Group Bombardier CRJ-200 - N321EA
+model=GA3J-MAC Air Group_N321EA
+texture=GA3J-MAC Air Group_N321EA
+atc_id=N321EA
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-200
+ui_variation=Elite Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: RFSL CRJ200_Elite Airways_FSX_P3D.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.1]
+title=AIGAIM_Penske Corporation Bombardier CRJ-200 - N500PR
+model=GA3J-Penske Corporation_N500PR
+texture=GA3J-Penske Corporation_N500PR
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_type=Bombardier CRJ-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: rai_pri_crj2_p3d.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.2]
+title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - ER N60GH
+model=GA3J-Stewart-Haas Racing_ER N60GH
+texture=GA3J-Stewart-Haas Racing_ER N60GH
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_type=Bombardier CRJ-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: rai_shr_crj2_p3d.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.3]
+title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - LR N141SH
+model=GA3J-Stewart-Haas Racing_LR N141SH
+texture=GA3J-Stewart-Haas Racing_LR N141SH
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_type=Bombardier CRJ-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: rai_shr_crj2_p3d.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.4]
 title=AIGAIM_African Express Airways Bombardier CRJ-200
 model=AXK-African Express Airways
 texture=AXK-African Express Airways
@@ -70,234 +129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXK
 
-[fltsim.1]
-title=AIGAIM_Air Canada Express Bombardier CRJ-200 - opb Jazz
-model=ACAX-Air Canada Express_opb Jazz
-texture=ACAX-Air Canada Express_opb Jazz
-atc_airline=JAZZ
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACAX,JZA
-ui_manufacturer=Raven AI
-ui_type=Bombardier CRJ-200
-ui_variation=Air Canada Express - opb Jazz
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: rai_crj_acax_fleet.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JZA
-
-[fltsim.2]
-title=AIGAIM_Air Canada Express Bombardier CRJ-200 - OC opb Jazz
-model=ACAX-Air Canada Express_OC opb Jazz
-texture=ACAX-Air Canada Express_OC opb Jazz
-atc_airline=JAZZ
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACAX,JZA
-ui_manufacturer=Raven AI
-ui_type=Bombardier CRJ-200
-ui_variation=Air Canada Express - opb Jazz OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: rai_crj_acax_fleet.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JZA
-
-[fltsim.3]
-title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Endeavor Air
-model=DALX-Delta Connection_opb Endeavor Air
-texture=DALX-Delta Connection_opb Endeavor Air
-atc_id=N8908D
-atc_airline=ENDEAVOR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DALX
-ui_manufacturer=Raven AI Labs
-ui_type=Bombardier CRJ-200
-ui_variation=Delta Connection Endeavor
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DALX
-
-[fltsim.4]
-title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Skywest Airlines
-model=DALX-Delta Connection_opb Skywest Airlines
-texture=DALX-Delta Connection_opb Skywest Airlines
-atc_id=N920EV
-atc_airline=SKYWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DALX
-ui_manufacturer=Raven AI Labs
-ui_type=Bombardier CRJ-200
-ui_variation=Delta Connection SkyWest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DALX
-
 [fltsim.5]
-title=AIGAIM_Fly540 Bombardier CRJ-200
-model=FFV-Fly540
-texture=FFV-Fly540
-atc_id=5Y-BXC
-atc_airline=SWIFT TANGO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FFV
-ui_manufacturer=Raven AI Labs
-ui_type=Bombardier CRJ-200
-ui_variation=Five Forty Aviation Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: RFSAI CR200 Fly540.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FFV
-
-[fltsim.6]
-title=AIGAIM_Fly Baghdad Bombardier CRJ-200 - OC
-model=FBA-Fly Baghdad_OC
-texture=FBA-Fly Baghdad_OC
-atc_id=YI-BAH
-atc_airline=IRAQ EXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FBA
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Fly Baghdad
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_fba.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FBA
-
-[fltsim.7]
-title=AIGAIM_Freedom Airline Bombardier CRJ-200
-model=FDT-Freedom Airline
-texture=FDT-Freedom Airline
-atc_airline=FREEDOM EAGLE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FDT
-ui_manufacturer=Raven FS Labs
-ui_type=Bombardier CRJ-200
-ui_variation=Freedom Airline
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_freedomairline_cr2.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FDT
-
-[fltsim.8]
-title=AIGAIM_IrAero Bombardier CRJ-200
-model=IAE-IrAero
-texture=IAE-IrAero
-atc_id=VQ-BEV
-atc_airline=IRAERO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IAE
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Iraero VQ-BEV 'Georgii Pobedonosets'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_iae.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IAE
-
-[fltsim.9]
-title=AIGAIM_IrAero Bombardier CRJ-200 - blue winglets
-model=IAE-IrAero_blue winglets
-texture=IAE-IrAero_blue winglets
-atc_id=VQ-BML
-atc_airline=IRAERO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IAE
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Iraero VQ-BML 'Cvyatitel Nikolai Tchudotvorets'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_iae.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IAE
-
-[fltsim.10]
-title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200
-model=AZN-Linea Aerea Amaszonas
-texture=AZN-Linea Aerea Amaszonas
-atc_id=CP-2742
-atc_airline=AMAZONAS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZN
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Amaszonas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azn.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZN
-
-[fltsim.11]
-title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200 - Nueva Santa Cruz
-model=AZN-Linea Aerea Amaszonas_Nueva Santa Cruz
-texture=AZN-Linea Aerea Amaszonas_Nueva Santa Cruz
-atc_id=CP-2733
-atc_airline=AMAZONAS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZN
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Amaszonas 'Nueva Santa Cruz'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azn.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZN
-
-[fltsim.12]
-title=AIGAIM_Paranair Bombardier CRJ-200
-model=AZP-Paranair
-texture=AZP-Paranair
-atc_id=ZP-CRR
-atc_airline=GUARANI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZP
-ui_manufacturer=RAI
-ui_type=Bombardier CRJ-200
-ui_variation=Paranair ZP-CRR
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azp.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZP
-
-[fltsim.13]
-title=AIGAIM_Penske Corporation Bombardier CRJ-200 - N500PR
-model=GA3J-Penske Corporation_N500PR
-texture=GA3J-Penske Corporation_N500PR
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_type=Bombardier CRJ-200
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: rai_pri_crj2_p3d.zip
-description=RFSL_CRJ-200-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.14]
 title=AIGAIM_RusLine Bombardier CRJ-200
 model=RLU-RusLine
 texture=RLU-RusLine
@@ -315,7 +147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
 
-[fltsim.15]
+[fltsim.6]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red WL
 model=RLU-RusLine_red WL
 texture=RLU-RusLine_red WL
@@ -333,7 +165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
 
-[fltsim.16]
+[fltsim.7]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red WL small titles
 model=RLU-RusLine_red WL small titles
 texture=RLU-RusLine_red WL small titles
@@ -351,7 +183,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
 
-[fltsim.17]
+[fltsim.8]
 title=AIGAIM_RusLine Bombardier CRJ-200 - white WL named
 model=RLU-RusLine_white WL named
 texture=RLU-RusLine_white WL named
@@ -369,7 +201,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
 
-[fltsim.18]
+[fltsim.9]
 title=AIGAIM_RusLine Bombardier CRJ-200 - red fuse
 model=RLU-RusLine_red fuse
 texture=RLU-RusLine_red fuse
@@ -387,7 +219,43 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLU
 
-[fltsim.19]
+[fltsim.10]
+title=AIGAIM_IrAero Bombardier CRJ-200
+model=IAE-IrAero
+texture=IAE-IrAero
+atc_id=VQ-BEV
+atc_airline=IRAERO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IAE
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-200
+ui_variation=Iraero VQ-BEV 'Georgii Pobedonosets'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_iae.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IAE
+
+[fltsim.11]
+title=AIGAIM_IrAero Bombardier CRJ-200 - blue winglets
+model=IAE-IrAero_blue winglets
+texture=IAE-IrAero_blue winglets
+atc_id=VQ-BML
+atc_airline=IRAERO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IAE
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-200
+ui_variation=Iraero VQ-BML 'Cvyatitel Nikolai Tchudotvorets'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_iae.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IAE
+
+[fltsim.12]
 title=AIGAIM_Severstal Aircompany Bombardier CRJ-200
 model=SSF-Severstal Aircompany
 texture=SSF-Severstal Aircompany
@@ -405,7 +273,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SSF
 
-[fltsim.20]
+[fltsim.13]
 title=AIGAIM_Severstal Aircompany Bombardier CRJ-200 - Alexander Klubov
 model=SSF-Severstal Aircompany_Alexander Klubov
 texture=SSF-Severstal Aircompany_Alexander Klubov
@@ -423,35 +291,113 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SSF
 
-[fltsim.21]
-title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - ER N60GH
-model=GA3J-Stewart-Haas Racing_ER N60GH
-texture=GA3J-Stewart-Haas Racing_ER N60GH
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
+[fltsim.14]
+title=AIGAIM_Air Canada Express Bombardier CRJ-200 - opb Jazz
+model=ACAX-Air Canada Express_opb Jazz
+texture=ACAX-Air Canada Express_opb Jazz
+atc_airline=JAZZ
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACAX,JZA
+ui_manufacturer=Raven AI
 ui_type=Bombardier CRJ-200
+ui_variation=Air Canada Express - opb Jazz
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: rai_shr_crj2_p3d.zip
+ui_createdby=Provided by: ATCO Filename: rai_crj_acax_fleet.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA3J
+icao_airline=JZA
 
-[fltsim.22]
-title=AIGAIM_Stewart-Haas Racing Bombardier CRJ-200 - LR N141SH
-model=GA3J-Stewart-Haas Racing_LR N141SH
-texture=GA3J-Stewart-Haas Racing_LR N141SH
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
+[fltsim.15]
+title=AIGAIM_Air Canada Express Bombardier CRJ-200 - OC opb Jazz
+model=ACAX-Air Canada Express_OC opb Jazz
+texture=ACAX-Air Canada Express_OC opb Jazz
+atc_airline=JAZZ
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACAX,JZA
+ui_manufacturer=Raven AI
 ui_type=Bombardier CRJ-200
+ui_variation=Air Canada Express - opb Jazz OC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: rai_shr_crj2_p3d.zip
+ui_createdby=Provided by: ATCO Filename: rai_crj_acax_fleet.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA3J
+icao_airline=JZA
 
-[fltsim.23]
+[fltsim.16]
+title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200
+model=AZN-Linea Aerea Amaszonas
+texture=AZN-Linea Aerea Amaszonas
+atc_id=CP-2742
+atc_airline=AMAZONAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZN
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-200
+ui_variation=Amaszonas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azn.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZN
+
+[fltsim.17]
+title=AIGAIM_Linea Aerea Amaszonas Bombardier CRJ-200 - Nueva Santa Cruz
+model=AZN-Linea Aerea Amaszonas_Nueva Santa Cruz
+texture=AZN-Linea Aerea Amaszonas_Nueva Santa Cruz
+atc_id=CP-2733
+atc_airline=AMAZONAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZN
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-200
+ui_variation=Amaszonas 'Nueva Santa Cruz'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azn.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZN
+
+[fltsim.18]
+title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Endeavor Air
+model=DALX-Delta Connection_opb Endeavor Air
+texture=DALX-Delta Connection_opb Endeavor Air
+atc_id=N8908D
+atc_airline=ENDEAVOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=Raven AI Labs
+ui_type=Bombardier CRJ-200
+ui_variation=Delta Connection Endeavor
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.19]
+title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Skywest Airlines
+model=DALX-Delta Connection_opb Skywest Airlines
+texture=DALX-Delta Connection_opb Skywest Airlines
+atc_id=N920EV
+atc_airline=SKYWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DALX
+ui_manufacturer=Raven AI Labs
+ui_type=Bombardier CRJ-200
+ui_variation=Delta Connection SkyWest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DALX
+
+[fltsim.20]
 title=AIGAIM_United Express Bombardier CRJ-200 - opb Skywest Airlines
 model=UALX-United Express_opb Skywest Airlines
 texture=UALX-United Express_opb Skywest Airlines
@@ -469,7 +415,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Skywest Airlines
 model=UALX-United Express_OC opb Skywest Airlines
 texture=UALX-United Express_OC opb Skywest Airlines
@@ -487,7 +433,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Air Wisconsin
 model=UALX-United Express_OC opb Air Wisconsin
 texture=UALX-United Express_OC opb Air Wisconsin
@@ -504,6 +450,59 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
+
+[fltsim.23]
+title=AIGAIM_Fly Baghdad Bombardier CRJ-200 - OC
+model=FBA-Fly Baghdad_OC
+texture=FBA-Fly Baghdad_OC
+atc_id=YI-BAH
+atc_airline=IRAQ EXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBA
+ui_manufacturer=RAI
+ui_type=Bombardier CRJ-200
+ui_variation=Fly Baghdad
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_fba.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBA
+
+[fltsim.24]
+title=AIGAIM_Fly540 Bombardier CRJ-200
+model=FFV-Fly540
+texture=FFV-Fly540
+atc_id=5Y-BXC
+atc_airline=SWIFT TANGO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFV
+ui_manufacturer=Raven AI Labs
+ui_type=Bombardier CRJ-200
+ui_variation=Five Forty Aviation Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: RFSAI CR200 Fly540.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFV
+
+[fltsim.25]
+title=AIGAIM_Freedom Airline Bombardier CRJ-200
+model=FDT-Freedom Airline
+texture=FDT-Freedom Airline
+atc_airline=FREEDOM EAGLE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDT
+ui_manufacturer=Raven FS Labs
+ui_type=Bombardier CRJ-200
+ui_variation=Freedom Airline
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rfsl_freedomairline_cr2.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDT
 
 [fltsim.26]
 title=AIGAIM_Georgian Airways Bombardier CRJ-200
@@ -524,18 +523,19 @@ isUserSelectable=0
 icao_airline=TGZ
 
 [fltsim.27]
-title=AIGAIM_MAC Air Group Bombardier CRJ-200 - N321EA
-model=GA3J-MAC Air Group_N321EA
-texture=GA3J-MAC Air Group_N321EA
-atc_id=N321EA
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Raven FS Labs (RFSL)
+title=AIGAIM_Paranair Bombardier CRJ-200
+model=AZP-Paranair
+texture=AZP-Paranair
+atc_id=ZP-CRR
+atc_airline=GUARANI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZP
+ui_manufacturer=RAI
 ui_type=Bombardier CRJ-200
-ui_variation=Elite Airways
+ui_variation=Paranair ZP-CRR
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: RFSL CRJ200_Elite Airways_FSX_P3D.zip
+ui_createdby=Provided by: FC75 Filename: rfsl_crj2_azp.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA3J
+icao_airline=AZP

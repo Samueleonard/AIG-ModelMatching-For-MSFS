@@ -82,8 +82,8 @@ icao_airline=GA3J
 
 [fltsim.2]
 title=AIGAIM_Georgian Airways Bombardier Challenger 850
-model=TGZ-Georgian Airways
-texture=TGZ-Georgian Airways
+model=GOV-Georgian Airways
+texture=GOV-Georgian Airways
 atc_id=4L-GAA
 atc_airline=TAMAZI
 atc_parking_types=RAMP,MIL_CARGO

@@ -61,62 +61,6 @@ left_foot_target=""
 right_foot_target=""
 
 [fltsim.0]
-title=AIGAIM_All Nippon Airways Boeing 777-200
-model=ANA-All Nippon Airways
-texture=ANA-All Nippon Airways
-atc_id=JA714A
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200
-ui_variation=All Nippon Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_ana_b772fleet_fsx.zip
-description=TFS_B777-200_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANA
-
-[fltsim.1]
-title=AIGAIM_All Nippon Airways Boeing 777-200 - WiFi Dome
-model=ANA-All Nippon Airways_WiFi Dome
-texture=ANA-All Nippon Airways_WiFi Dome
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200
-ui_variation=All Nippon Airways Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
-description=TFS_B777-200_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANA
-
-[fltsim.2]
-title=AIGAIM_All Nippon Airways Boeing 777-200 - Star Alliance
-model=ANA-All Nippon Airways_Star Alliance
-texture=ANA-All Nippon Airways_Star Alliance
-atc_id=JA745A
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200
-ui_variation=All Nippon Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_ana_b772fleet_fsx.zip
-description=TFS_B777-200_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANA
-
-[fltsim.3]
 title=AIGAIM_Japan Airlines Boeing 777-200
 model=JAL-Japan Airlines
 texture=JAL-Japan Airlines
@@ -135,7 +79,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.4]
+[fltsim.1]
 title=AIGAIM_Japan Airlines Boeing 777-200 - Oneworld
 model=JAL-Japan Airlines_Oneworld
 texture=JAL-Japan Airlines_Oneworld
@@ -154,7 +98,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.5]
+[fltsim.2]
 title=AIGAIM_Japan Airlines Boeing 777-200 - Sky Eco
 model=JAL-Japan Airlines_Sky Eco
 texture=JAL-Japan Airlines_Sky Eco
@@ -172,3 +116,59 @@ description=TFS_B777-200_PW-pw(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
+
+[fltsim.3]
+title=AIGAIM_All Nippon Airways Boeing 777-200
+model=ANA-All Nippon Airways
+texture=ANA-All Nippon Airways
+atc_id=JA714A
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200
+ui_variation=All Nippon Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_ana_b772fleet_fsx.zip
+description=TFS_B777-200_PW-pw(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.4]
+title=AIGAIM_All Nippon Airways Boeing 777-200 - WiFi Dome
+model=ANA-All Nippon Airways_WiFi Dome
+texture=ANA-All Nippon Airways_WiFi Dome
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200
+ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-200ER ANA.zip
+description=TFS_B777-200_PW-pw(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.5]
+title=AIGAIM_All Nippon Airways Boeing 777-200 - Star Alliance
+model=ANA-All Nippon Airways_Star Alliance
+texture=ANA-All Nippon Airways_Star Alliance
+atc_id=JA745A
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200
+ui_variation=All Nippon Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_ana_b772fleet_fsx.zip
+description=TFS_B777-200_PW-pw(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA

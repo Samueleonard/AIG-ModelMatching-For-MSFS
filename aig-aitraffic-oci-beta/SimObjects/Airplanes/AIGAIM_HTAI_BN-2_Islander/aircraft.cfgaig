@@ -53,24 +53,40 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Divi Divi Air Britten-Norman BN-2 Islander
-model=DVR-Divi Divi Air
-texture=DVR-Divi Divi Air
-atc_id=PJ-SEA
-atc_airline=DIVI AIR
+title=AIGAIM_Isles of Scilly Skybus Britten-Norman BN-2 Islander
+model=IOS-Isles of Scilly Skybus
+texture=IOS-Isles of Scilly Skybus
+atc_airline=SCILLONIA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=DVR
-ui_manufacturer=Britten-Norman
+atc_parking_codes=IOS
+ui_manufacturer=HTAI
 ui_type=Britten-Norman BN-2 Islander
-ui_variation=Div Divi Air PJ-SEA
+ui_variation=IOS Skybus nc
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: htai_bn2_islander_divi_divi_air_fsx.zip
+ui_createdby=Provided by: FC75 Filename: htai_skybus_bn2.zip
 description=HTAI_BN-2_Islander-shortnose(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DVR
+icao_airline=IOS
 
 [fltsim.1]
+title=AIGAIM_Isles of Scilly Skybus Britten-Norman BN-2 Islander - Long Nose (TEMP)
+model=IOS-Isles of Scilly Skybus_Long Nose_temp
+texture=IOS-Isles of Scilly Skybus_Long Nose_temp
+atc_airline=SCILLONIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IOS
+ui_manufacturer=HTAI
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=IOS Skybus nc
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: htai_skybus_bn2.zip
+description=HTAI_BN-2_Islander-longnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IOS
+
+[fltsim.2]
 title=AIGAIM_Air Vanuatu Britten-Norman BN-2 Islander - Albino
 model=AVN-Air Vanuatu_Albino
 texture=AVN-Air Vanuatu_Albino
@@ -87,7 +103,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVN
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_Air Panama Britten-Norman BN-2 Islander - Blue White
 model=PST-Air Panama_Blue White
 texture=PST-Air Panama_Blue White
@@ -105,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PST
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_Air Tetiaroa Britten-Norman BN-2 Islander
 model=TOA-Air Tetiaroa
 texture=TOA-Air Tetiaroa
@@ -122,42 +138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOA
 
-[fltsim.4]
-title=AIGAIM_interCaribbean Airways Britten-Norman BN-2 Islander
-model=IWY-interCaribbean Airways
-texture=IWY-interCaribbean Airways
-atc_id=VQ-TDA
-atc_airline=ISLANDWAYS
-atc_parking_types=RAMP
-atc_parking_codes=IWY
-ui_manufacturer=Britten-Norman
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=interCaribbean Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: cnai-htai_islander-intercaribbeanairways_vq-tda.zip
-description=HTAI_BN-2_Islander-longnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IWY
-
 [fltsim.5]
-title=AIGAIM_Loganair Britten-Norman BN-2 Islander - Albino
-model=LOG-Loganair_Albino
-texture=LOG-Loganair_Albino
-atc_airline=LOGAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOG
-ui_manufacturer=HTAI
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=Loganair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: htai_loganair_bn2.zip
-description=HTAI_BN-2_Islander-shortnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOG
-
-[fltsim.6]
 title=AIGAIM_Anguilla Air Services Britten-Norman BN-2 Islander - Short Nose Viceroy
 model=AXL-Anguilla Air Services_Short Nose Viceroy
 texture=AXL-Anguilla Air Services_Short Nose Viceroy
@@ -175,7 +156,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXL
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Anguilla Air Services Britten-Norman BN-2 Islander - Long Nose (TEMP)
 model=AXL-Anguilla Air Services_Long Nose_temp
 texture=AXL-Anguilla Air Services_Long Nose_temp
@@ -193,7 +174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXL
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Anguilla Air Services Britten-Norman BN-2 Islander - Long Nose Da Vida Restaurant
 model=AXL-Anguilla Air Services_Long Nose Da Vida Restaurant
 texture=AXL-Anguilla Air Services_Long Nose Da Vida Restaurant
@@ -211,7 +192,112 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXL
 
+[fltsim.8]
+title=AIGAIM_Divi Divi Air Britten-Norman BN-2 Islander
+model=DVR-Divi Divi Air
+texture=DVR-Divi Divi Air
+atc_id=PJ-SEA
+atc_airline=DIVI AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DVR
+ui_manufacturer=Britten-Norman
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Div Divi Air PJ-SEA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_bn2_islander_divi_divi_air_fsx.zip
+description=HTAI_BN-2_Islander-shortnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DVR
+
 [fltsim.9]
+title=AIGAIM_Seaborne Airlines Britten-Norman BN-2 Islander - opb VES
+model=SBS-Seaborne Airlines_opb VES
+texture=SBS-Seaborne Airlines_opb VES
+atc_airline=SEABORNE
+atc_parking_types=RAMP
+atc_parking_codes=SBS
+ui_manufacturer=HTAI
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Vieques Air Link N863VL opf Seaborne Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeaborneAirlinesBN2s.zip
+description=HTAI_BN-2_Islander-longnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBS
+
+[fltsim.10]
+title=AIGAIM_Seaborne Airlines Britten-Norman BN-2 Islander - opb VES White Engines
+model=SBS-Seaborne Airlines_opb VES White Engines
+texture=SBS-Seaborne Airlines_opb VES White Engines
+atc_airline=SEABORNE
+atc_parking_types=RAMP
+atc_parking_codes=SBS
+ui_manufacturer=HTAI
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Vieques Air Link N861VL white engines opf Seaborne Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeaborneAirlinesBN2s.zip
+description=HTAI_BN-2_Islander-longnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SBS
+
+[fltsim.11]
+title=AIGAIM_Real Tonga Airline Britten-Norman BN-2 Islander - old logo
+model=RLT-Real Tonga Airline_old logo
+texture=RLT-Real Tonga Airline_old logo
+atc_id=A3-PAS
+atc_airline=REAL TONGA
+atc_parking_types=RAMP
+atc_parking_codes=RLT
+ui_manufacturer=Britten-Norman
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Britten-Norman BN-2 Islander HTAI Real Tonga Airline RLT A3-PAS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: RLT_BN2P_HD.zip
+description=HTAI_BN-2_Islander-shortnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RLT
+
+[fltsim.12]
+title=AIGAIM_interCaribbean Airways Britten-Norman BN-2 Islander
+model=IWY-interCaribbean Airways
+texture=IWY-interCaribbean Airways
+atc_id=VQ-TDA
+atc_airline=ISLANDWAYS
+atc_parking_types=RAMP
+atc_parking_codes=IWY
+ui_manufacturer=Britten-Norman
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=interCaribbean Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: cnai-htai_islander-intercaribbeanairways_vq-tda.zip
+description=HTAI_BN-2_Islander-longnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IWY
+
+[fltsim.13]
+title=AIGAIM_Loganair Britten-Norman BN-2 Islander - Albino
+model=LOG-Loganair_Albino
+texture=LOG-Loganair_Albino
+atc_airline=LOGAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOG
+ui_manufacturer=HTAI
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Loganair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: htai_loganair_bn2.zip
+description=HTAI_BN-2_Islander-shortnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOG
+
+[fltsim.14]
 title=AIGAIM_Ruhnu Saare Lennutransport Britten-Norman BN-2 Islander - opb Diamond Sky (TEMP)
 model=DMS-Ruhnu Saare Lennutransport_opb Diamond Sky_temp
 texture=DMS-Ruhnu Saare Lennutransport_opb Diamond Sky_temp
@@ -229,41 +315,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DMS
 
-[fltsim.10]
-title=AIGAIM_Seaborne Airlines Britten-Norman BN-2 Islander - opb VES
-model=SBS-Seaborne Airlines_opb VES
-texture=SBS-Seaborne Airlines_opb VES
-atc_airline=SEABORNE
-atc_parking_types=RAMP
-atc_parking_codes=SBS
-ui_manufacturer=HTAI
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=Vieques Air Link N863VL opf Seaborne Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeaborneAirlinesBN2s.zip
-description=HTAI_BN-2_Islander-longnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SBS
-
-[fltsim.11]
-title=AIGAIM_Seaborne Airlines Britten-Norman BN-2 Islander - opb VES White Engines
-model=SBS-Seaborne Airlines_opb VES White Engines
-texture=SBS-Seaborne Airlines_opb VES White Engines
-atc_airline=SEABORNE
-atc_parking_types=RAMP
-atc_parking_codes=SBS
-ui_manufacturer=HTAI
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=Vieques Air Link N861VL white engines opf Seaborne Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeaborneAirlinesBN2s.zip
-description=HTAI_BN-2_Islander-longnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SBS
-
-[fltsim.12]
+[fltsim.15]
 title=AIGAIM_OFD Ostfriesischer-Flugdienst Britten-Norman BN-2 Islander
 model=OFD-Ostfriesischer-Flugdienst
 texture=OFD-Ostfriesischer-Flugdienst
@@ -279,55 +331,3 @@ description=HTAI_BN-2_Islander-shortnose(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OFD
-
-[fltsim.13]
-title=AIGAIM_Isles of Scilly Skybus Britten-Norman BN-2 Islander
-model=IOS-Isles of Scilly Skybus
-texture=IOS-Isles of Scilly Skybus
-atc_airline=SCILLONIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IOS
-ui_manufacturer=HTAI
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=IOS Skybus nc
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: htai_skybus_bn2.zip
-description=HTAI_BN-2_Islander-shortnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IOS
-
-[fltsim.14]
-title=AIGAIM_Isles of Scilly Skybus Britten-Norman BN-2 Islander - Long Nose (TEMP)
-model=IOS-Isles of Scilly Skybus_Long Nose_temp
-texture=IOS-Isles of Scilly Skybus_Long Nose_temp
-atc_airline=SCILLONIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IOS
-ui_manufacturer=HTAI
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=IOS Skybus nc
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: htai_skybus_bn2.zip
-description=HTAI_BN-2_Islander-longnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IOS
-
-[fltsim.15]
-title=AIGAIM_Real Tonga Airline Britten-Norman BN-2 Islander - old logo
-model=RLT-Real Tonga Airline_old logo
-texture=RLT-Real Tonga Airline_old logo
-atc_id=A3-PAS
-atc_airline=REAL TONGA
-atc_parking_types=RAMP
-atc_parking_codes=RLT
-ui_manufacturer=Britten-Norman
-ui_type=Britten-Norman BN-2 Islander
-ui_variation=Britten-Norman BN-2 Islander HTAI Real Tonga Airline RLT A3-PAS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: RLT_BN2P_HD.zip
-description=HTAI_BN-2_Islander-shortnose(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RLT

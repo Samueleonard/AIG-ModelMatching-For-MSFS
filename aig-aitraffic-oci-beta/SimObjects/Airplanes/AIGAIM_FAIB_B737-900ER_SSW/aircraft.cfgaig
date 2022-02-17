@@ -24,7 +24,7 @@ wake=fx_wake ;
 water=fx_spray ; 
 dirt=fx_tchdrt ; 
 concrete=fx_sparks ; 
-touchdown=fx_tchdwn_m, 1 ; 
+touchdown=fx_tchdwn, 1 ; 
 
 [SERVICES]
 fueltruck=1
@@ -38,240 +38,6 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN
-model=DAL-Delta Air Lines_SN
-texture=DAL-Delta Air Lines_SN
-atc_id=N854DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.1]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No rear Dome
-model=DAL-Delta Air Lines_SN No rear Dome
-texture=DAL-Delta Air Lines_SN No rear Dome
-atc_id=N923DZ
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.2]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No Belly Titles
-model=DAL-Delta Air Lines_SN No Belly Titles
-texture=DAL-Delta Air Lines_SN No Belly Titles
-atc_id=N832DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.3]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN ETOPS
-model=DAL-Delta Air Lines_SN ETOPS
-texture=DAL-Delta Air Lines_SN ETOPS
-atc_id=N889DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.4]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN Spirit of Seattle
-model=DAL-Delta Air Lines_SN Spirit of Seattle
-texture=DAL-Delta Air Lines_SN Spirit of Seattle
-atc_id=N809DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.5]
-title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN CE Woolman
-model=DAL-Delta Air Lines_SN CE Woolman
-texture=DAL-Delta Air Lines_SN CE Woolman
-atc_id=N827DN
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.6]
-title=AIGAIM_SkyUp Airlines Boeing 737-900ER SSW
-model=SQP-SkyUp Airlines
-texture=SQP-SkyUp Airlines
-atc_id=UR-SQI
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=SkyUp Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_739ssw.zip
-description=FAIB_B737-900ER_SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.7]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N38417
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.8]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N37422
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.9]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC Eco Skies
-model=UAL-United Airlines_OC Eco Skies
-texture=UAL-United Airlines_OC Eco Skies
-atc_id=N75432
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.10]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW - Continental Retro
-model=UAL-United Airlines_Continental Retro
-texture=UAL-United Airlines_Continental Retro
-atc_id=N75435
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.11]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC
-model=UAL-United Airlines_SN OC
-texture=UAL-United Airlines_SN OC
-atc_id=N37470
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.12]
-title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC 100
-model=UAL-United Airlines_SN OC 100
-texture=UAL-United Airlines_SN OC 100
-atc_id=N69818
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-900ER SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
-description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.13]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN
 model=ASA-Alaska Airlines_SN
 texture=ASA-Alaska Airlines_SN
@@ -289,7 +55,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.14]
+[fltsim.1]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN Boeing 100 Years
 model=ASA-Alaska Airlines_SN Boeing 100 Years
 texture=ASA-Alaska Airlines_SN Boeing 100 Years
@@ -307,7 +73,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.15]
+[fltsim.2]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN Honoring Those Who Serve
 model=ASA-Alaska Airlines_SN Honoring Those Who Serve
 texture=ASA-Alaska Airlines_SN Honoring Those Who Serve
@@ -325,7 +91,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.16]
+[fltsim.3]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS
 model=ASA-Alaska Airlines_SN ETOPS
 texture=ASA-Alaska Airlines_SN ETOPS
@@ -343,7 +109,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.17]
+[fltsim.4]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS No WiFi Dome
 model=ASA-Alaska Airlines_SN ETOPS No WiFi Dome
 texture=ASA-Alaska Airlines_SN ETOPS No WiFi Dome
@@ -361,7 +127,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.18]
+[fltsim.5]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS Oneworld
 model=ASA-Alaska Airlines_SN ETOPS Oneworld
 texture=ASA-Alaska Airlines_SN ETOPS Oneworld
@@ -379,7 +145,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.19]
+[fltsim.6]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS More to Love
 model=ASA-Alaska Airlines_SN ETOPS More to Love
 texture=ASA-Alaska Airlines_SN ETOPS More to Love
@@ -397,7 +163,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.20]
+[fltsim.7]
 title=AIGAIM_Alaska Airlines Boeing 737-900ER SSW - SN ETOPS UNCF
 model=ASA-Alaska Airlines_SN ETOPS UNCF
 texture=ASA-Alaska Airlines_SN ETOPS UNCF
@@ -414,3 +180,237 @@ description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
+
+[fltsim.8]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN
+model=DAL-Delta Air Lines_SN
+texture=DAL-Delta Air Lines_SN
+atc_id=N854DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.9]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No rear Dome
+model=DAL-Delta Air Lines_SN No rear Dome
+texture=DAL-Delta Air Lines_SN No rear Dome
+atc_id=N923DZ
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.10]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN No Belly Titles
+model=DAL-Delta Air Lines_SN No Belly Titles
+texture=DAL-Delta Air Lines_SN No Belly Titles
+atc_id=N832DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.11]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN ETOPS
+model=DAL-Delta Air Lines_SN ETOPS
+texture=DAL-Delta Air Lines_SN ETOPS
+atc_id=N889DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.12]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN Spirit of Seattle
+model=DAL-Delta Air Lines_SN Spirit of Seattle
+texture=DAL-Delta Air Lines_SN Spirit of Seattle
+atc_id=N809DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.13]
+title=AIGAIM_Delta Air Lines Boeing 737-900ER SSW - SN CE Woolman
+model=DAL-Delta Air Lines_SN CE Woolman
+texture=DAL-Delta Air Lines_SN CE Woolman
+atc_id=N827DN
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b739_dal_jkm.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.14]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N38417
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.15]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N37422
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.16]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW - OC Eco Skies
+model=UAL-United Airlines_OC Eco Skies
+texture=UAL-United Airlines_OC Eco Skies
+atc_id=N75432
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.17]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW - Continental Retro
+model=UAL-United Airlines_Continental Retro
+texture=UAL-United Airlines_Continental Retro
+atc_id=N75435
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.18]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC
+model=UAL-United Airlines_SN OC
+texture=UAL-United Airlines_SN OC
+atc_id=N37470
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.19]
+title=AIGAIM_United Airlines Boeing 737-900ER SSW - SN OC 100
+model=UAL-United Airlines_SN OC 100
+texture=UAL-United Airlines_SN OC 100
+atc_id=N69818
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_739_p3d.zip
+description=FAIB_B737-900ER_SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.20]
+title=AIGAIM_SkyUp Airlines Boeing 737-900ER SSW
+model=SQP-SkyUp Airlines
+texture=SQP-SkyUp Airlines
+atc_id=UR-SQI
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=FAIB
+ui_type=Boeing 737-900ER SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_739ssw.zip
+description=FAIB_B737-900ER_SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP

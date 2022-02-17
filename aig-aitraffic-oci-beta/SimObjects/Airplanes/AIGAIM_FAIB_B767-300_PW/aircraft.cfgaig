@@ -1,0 +1,106 @@
+[VERSION]
+major=1 ; 
+minor=0 ; 
+
+[GENERAL]
+atc_type=TT:ATCCOM.ATC_NAME BOEING.0.text
+atc_model=TT:ATCCOM.AC_MODEL B763.0.text
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=B763
+icao_manufacturer=BOEING
+icao_model=767-300
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC=H
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner"
+copilot_default_animation="Idle2_PoseAirliner"
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[MISSIONGENERATOR]
+groundrolldistance=4500
+minrunwaylength=5850
+
+[EFFECTS]
+wake=fx_wake ; 
+water=fx_spray ; 
+dirt=fx_tchdrt ; 
+concrete=fx_sparks ; 
+touchdown=fx_tchdwn, 1 ; 
+
+[fltsim.0]
+title=AIGAIM_Shanghai Airlines Boeing 767-300
+model=CSH-Shanghai Airlines
+texture=CSH-Shanghai Airlines
+atc_id=B-2570
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300
+ui_variation=Shanghai Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 767-300 Shanghai Airlines.zip
+description=FAIB_B767-300_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH
+
+[fltsim.1]
+title=AIGAIM_Shanghai Airlines Boeing 767-300 - OC
+model=CSH-Shanghai Airlines_OC
+texture=CSH-Shanghai Airlines_OC
+atc_id=B-2498
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300
+ui_variation=Shanghai Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 767-300 Shanghai Airlines.zip
+description=FAIB_B767-300_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH
+
+[fltsim.2]
+title=AIGAIM_China Eastern Airlines Boeing 767-300 - opb Shanghai Airlines
+model=CES-China Eastern Airlines_opb Shanghai Airlines
+texture=CES-China Eastern Airlines_opb Shanghai Airlines
+atc_id=B-2563
+atc_airline=CHINA EASTERN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300
+ui_variation=Shanghai Airlines opf China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 767-300 Shanghai Airlines.zip
+description=FAIB_B767-300_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES

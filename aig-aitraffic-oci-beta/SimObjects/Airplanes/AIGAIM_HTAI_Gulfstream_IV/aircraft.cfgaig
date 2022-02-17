@@ -53,107 +53,90 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Drummond Company Gulfstream IVSP - N225DC
-model=GA3J-Drummond Company_N225DC
-texture=GA3J-Drummond Company_N225DC
+title=AIGAIM_Flexjet Gulfstream IVSP - N37EC
+model=GA3J-Flexjet_N37EC
+texture=GA3J-Flexjet_N37EC
+atc_airline=FLEXJET
 atc_parking_types=RAMP
-atc_parking_codes=GA3J
+atc_parking_codes=GA3J,LXJ
 ui_manufacturer=HTAI
 ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1253, Drummond Company, N225DC
+ui_variation=Gulfstream G-IVSP, c/n 1226, Flexjet, N37EC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DrummondCompanyGIVSPs.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetGulfstreamGIVSPN37EC.zip
 description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA3J
+icao_airline=LXJ
 
 [fltsim.1]
-title=AIGAIM_Drummond Company Gulfstream IVSP - N397JJ
-model=GA3J-Drummond Company_N397JJ
-texture=GA3J-Drummond Company_N397JJ
+title=AIGAIM_Seminole Tribe of Florida Gulfstream IVSP - N857ST
+model=GA3J-Seminole Tribe of Florida_N857ST
+texture=GA3J-Seminole Tribe of Florida_N857ST
 atc_parking_types=RAMP
 atc_parking_codes=GA3J
 ui_manufacturer=HTAI
 ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1354, Drummond Company, N397JJ
+ui_variation=Gulfstream G-IVSP, c/n 1345, Seminole Tribe of Florida, N857ST
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DrummondCompanyGIVSPs.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeminoleTribeofFloridaGIVSP.zip
 description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA3J
 
 [fltsim.2]
-title=AIGAIM_Skystream Jet Gulfstream IVSP - N86M
-model=GA4J-Skystream Jet_N86M
-texture=GA4J-Skystream Jet_N86M
-atc_airline=THRO
+title=AIGAIM_Global Air Charters Gulfstream IVSP - N129NS
+model=GA3J-Global Air Charter_N129NS
+texture=GA3J-Global Air Charter_N129NS
+atc_airline=GLOBAL JETS
 atc_parking_types=RAMP
-atc_parking_codes=GA4J,THO
+atc_parking_codes=GA3J,GJE
 ui_manufacturer=Gulfstream
 ui_type=Gulfstream IV
-ui_variation=N86MW
+ui_variation=N129NS
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: htai_n86mw_givsp_jondix.zip
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IVSP_N129NS_jondix.zip
 description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=THO
+icao_airline=GJE
 
 [fltsim.3]
-title=AIGAIM_Journey Aviation Gulfstream IVSP - N1925M
-model=JNY-Journey Aviation_N1925M
-texture=JNY-Journey Aviation_N1925M
-atc_id=N1925M
-atc_airline=ROCK BAND
+title=AIGAIM_Global Air Charters Gulfstream IVSP - N171JC
+model=GA3J-Global Air Charter_N171JC
+texture=GA3J-Global Air Charter_N171JC
+atc_airline=GLOBAL JETS
 atc_parking_types=RAMP
-atc_parking_codes=JNY
+atc_parking_codes=GA3J,GJE
 ui_manufacturer=Gulfstream
 ui_type=Gulfstream IV
-ui_variation=N1925M Solairus Aviation
+ui_variation=N171JC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: Solairus Aviation G4SP Fleet.zip
-description=HTAI_Gulfstream_IV(fs20)
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IVSP_N171JC_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=JNY
+icao_airline=GJE
 
 [fltsim.4]
-title=AIGAIM_Journey Aviation Gulfstream IVSP - N30DJ
-model=JNY-Journey Aviation_N30DJ
-texture=JNY-Journey Aviation_N30DJ
-atc_airline=ROCK BAND
+title=AIGAIM_Global Air Charters Gulfstream IV - N44CE
+model=GA3J-Global Air Charter_N44CE
+texture=GA3J-Global Air Charter_N44CE
+atc_airline=GLOBAL JETS
 atc_parking_types=RAMP
-atc_parking_codes=JNY
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1269, Dumont Aviation, N30DJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JNY
-
-[fltsim.5]
-title=AIGAIM_Journey Aviation Gulfstream IVSP - N352BH
-model=JNY-Journey Aviation_N352BH
-texture=JNY-Journey Aviation_N352BH
-atc_airline=ROCK BAND
-atc_parking_types=RAMP
-atc_parking_codes=JNY
+atc_parking_codes=GA3J,GJE
 ui_manufacturer=Gulfstream
 ui_type=Gulfstream IV
-ui_variation=Journey Aviation Gulfstream G-IVSP N352BH
+ui_variation=N44CE
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Journey-Aviation_G-IVSP_N352BH_jondix.zip
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IV_N44CE_jondix.zip
 description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=JNY
+icao_airline=GJE
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Silver Air Gulfstream IVSP - N616RR
 model=GA3J-Silver Air_N616RR
 texture=GA3J-Silver Air_N616RR
@@ -170,7 +153,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIS
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Silver Air Gulfstream IV - N41ZA
 model=GA3J-Silver Air_N41ZA
 texture=GA3J-Silver Air_N41ZA
@@ -187,7 +170,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIS
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Silver Air Gulfstream IV - N517ML
 model=GA3J-Silver Air_N517ML
 texture=GA3J-Silver Air_N517ML
@@ -204,122 +187,23 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIS
 
+[fltsim.8]
+title=AIGAIM_Coleman Jet Gulfstream IV - N2129
+model=GA3J-Coleman Jet_N2129
+texture=GA3J-Coleman Jet_N2129
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IV, c/n 1117, Coleman Jet, N2129
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ColemanJetGulfstreamGIV.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
 [fltsim.9]
-title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N572MS
-model=GA3J-Las Vegas Sands_N572MS
-texture=GA3J-Las Vegas Sands_N572MS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1352, Las Vegas Sands, N572MS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.10]
-title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N972MS
-model=GA3J-Las Vegas Sands_N972MS
-texture=GA3J-Las Vegas Sands_N972MS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1285, Las Vegas Sands, N972MS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.11]
-title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N992MS
-model=GA3J-Las Vegas Sands_N992MS
-texture=GA3J-Las Vegas Sands_N992MS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1309, Las Vegas Sands, N992MS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.12]
-title=AIGAIM_Jackson National Life Insurance Gulfstream IVSP - N664JN
-model=GA3J-Jackson National Life Insurance_N664JN
-texture=GA3J-Jackson National Life Insurance_N664JN
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1396, Jackson National Life Insurance, N664JN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: JacksonNationalLifeInsuranceGIVSP.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.13]
-title=AIGAIM_Mountain Aviation Gulfstream IVSP - N415MA
-model=GA4J-Mountain Aviation_N415MA
-texture=GA4J-Mountain Aviation_N415MA
-atc_airline=FOOT HILLS
-atc_parking_types=RAMP
-atc_parking_codes=GA4J,FTH
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Mountain Aviation Gulfstream G-IVSP N415MA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FTH
-
-[fltsim.14]
-title=AIGAIM_Mountain Aviation Gulfstream IVSP - N428KS
-model=GA4J-Mountain Aviation_N428KS
-texture=GA4J-Mountain Aviation_N428KS
-atc_airline=FOOT HILLS
-atc_parking_types=RAMP
-atc_parking_codes=GA4J,FTH
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Mountain Aviation Gulfstream G-IVSP N428KS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FTH
-
-[fltsim.15]
-title=AIGAIM_Mountain Aviation Gulfstream IVSP - N492VR
-model=GA4J-Mountain Aviation_N492VR
-texture=GA4J-Mountain Aviation_N492VR
-atc_airline=FOOT HILLS
-atc_parking_types=RAMP
-atc_parking_codes=GA4J,FTH
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Mountain Aviation Gulfstream G-IVSP N492VR
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FTH
-
-[fltsim.16]
 title=AIGAIM_Solairus Aviation Gulfstream IVSP - N16JN
 model=GA3J-Solairus Aviation_N16JN
 texture=GA3J-Solairus Aviation_N16JN
@@ -337,7 +221,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.17]
+[fltsim.10]
 title=AIGAIM_Solairus Aviation Gulfstream IVSP - N165JF
 model=GA3J-Solairus Aviation_N165JF
 texture=GA3J-Solairus Aviation_N165JF
@@ -355,272 +239,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.18]
-title=AIGAIM_Global Air Charters Gulfstream IVSP - N129NS
-model=GA3J-Global Air Charter_N129NS
-texture=GA3J-Global Air Charter_N129NS
-atc_airline=GLOBAL JETS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J,GJE
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=N129NS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IVSP_N129NS_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GJE
-
-[fltsim.19]
-title=AIGAIM_Global Air Charters Gulfstream IVSP - N171JC
-model=GA3J-Global Air Charter_N171JC
-texture=GA3J-Global Air Charter_N171JC
-atc_airline=GLOBAL JETS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J,GJE
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=N171JC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IVSP_N171JC_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GJE
-
-[fltsim.20]
-title=AIGAIM_Global Air Charters Gulfstream IV - N44CE
-model=GA3J-Global Air Charter_N44CE
-texture=GA3J-Global Air Charter_N44CE
-atc_airline=GLOBAL JETS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J,GJE
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=N44CE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Global-Air-Charters_G-IV_N44CE_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GJE
-
-[fltsim.21]
-title=AIGAIM_Coleman Jet Gulfstream IV - N2129
-model=GA3J-Coleman Jet_N2129
-texture=GA3J-Coleman Jet_N2129
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IV, c/n 1117, Coleman Jet, N2129
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ColemanJetGulfstreamGIV.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.22]
-title=AIGAIM_Jet Linx Gulfstream IVSP - N120SB
-model=JTL-Jet Linx_N120SB
-texture=JTL-Jet Linx_N120SB
-atc_id=N120SB
-atc_airline=JET LINX
-atc_parking_types=RAMP
-atc_parking_codes=JTL
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Jet Linx Gulfstream G-IVSP N120SB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Jet-Linx-Gulfstream_G450-GIV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTL
-
-[fltsim.23]
-title=AIGAIM_PepsiCo Gulfstream IVSP - N500PC
-model=GA3J-PepsiCo_N500PC
-texture=GA3J-PepsiCo_N500PC
-atc_id=N500PC
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=PepsiCo Gulfstream G-IVSP N500PC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: PepsiCo_GLF4_Fleet.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.24]
-title=AIGAIM_PepsiCo Gulfstream IVSP - N502PC
-model=GA3J-PepsiCo_N502PC
-texture=GA3J-PepsiCo_N502PC
-atc_id=N502PC
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=PepsiCo Gulfstream G-IVSP N502PC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: PepsiCo_GLF4_Fleet.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.25]
-title=AIGAIM_Dumont Aviation Gulfstream IVSP - N30DJ
-model=GA3J-Dumont Aviation_N30DJ
-texture=GA3J-Dumont Aviation_N30DJ
-atc_airline=SANTOS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1269, Dumont Aviation, N30DJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.26]
-title=AIGAIM_Dumont Aviation Gulfstream IVSP - N302SB
-model=GA3J-Dumont Aviation_N302SB
-texture=GA3J-Dumont Aviation_N302SB
-atc_airline=SANTOS
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1369, Dumont Aviation, N302SB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.27]
-title=AIGAIM_Starjet Gulfstream IVSP - N702GH
-model=GA3J-Starjet_N702GH
-texture=GA3J-Starjet_N702GH
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Starjet Gulfstream G-IV N702GH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.28]
-title=AIGAIM_Starjet Gulfstream IVSP - N958BX
-model=GA3J-Starjet_N958BX
-texture=GA3J-Starjet_N958BX
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Starjet Gulfstream G-IVSP N958BX
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.29]
-title=AIGAIM_Starjet Gulfstream IV - N729TY
-model=GA3J-Starjet_N729TY
-texture=GA3J-Starjet_N729TY
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Starjet Gulfstream G-IV N729TY
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.30]
-title=AIGAIM_Starjet Gulfstream IV - N794MH
-model=GA3J-Starjet_N794MH
-texture=GA3J-Starjet_N794MH
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Starjet Gulfstream G-IV N794MH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.31]
-title=AIGAIM_Starjet Gulfstream IV - N924MB
-model=GA3J-Starjet_N924MB
-texture=GA3J-Starjet_N924MB
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Starjet Gulfstream G-IV N924MB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.32]
-title=AIGAIM_Seminole Tribe of Florida Gulfstream IVSP - N857ST
-model=GA3J-Seminole Tribe of Florida_N857ST
-texture=GA3J-Seminole Tribe of Florida_N857ST
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=HTAI
-ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1345, Seminole Tribe of Florida, N857ST
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SeminoleTribeofFloridaGIVSP.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.33]
-title=AIGAIM_Pentastar Aviation Gulfstream IVSP - N473CW
-model=GA3J-Pentastar Aviation_N473CW
-texture=GA3J-Pentastar Aviation_N473CW
-atc_parking_types=RAMP
-atc_parking_codes=GA3J
-ui_manufacturer=Gulfstream
-ui_type=Gulfstream IV
-ui_variation=Pentastar Aviation Gulfstream G-IVSP N473CW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Pentastar-Aviation_G-IV_N473CW_jondix.zip
-description=HTAI_Gulfstream_IV-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA3J
-
-[fltsim.34]
+[fltsim.11]
 title=AIGAIM_Chartright Air Gulfstream IVSP - C-FORB
 model=GA3J-Chartright Air_C-FORB
 texture=GA3J-Chartright Air_C-FORB
@@ -638,7 +257,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HRT
 
-[fltsim.35]
+[fltsim.12]
 title=AIGAIM_Chicago Jet Group Gulfstream IVSP - N869MD
 model=GA2J-Chicago Jet Group_N869MD
 texture=GA2J-Chicago Jet Group_N869MD
@@ -656,19 +275,400 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WDY
 
-[fltsim.36]
-title=AIGAIM_Flexjet Gulfstream IVSP - N37EC
-model=GA3J-Flexjet_N37EC
-texture=GA3J-Flexjet_N37EC
-atc_airline=FLEXJET
+[fltsim.13]
+title=AIGAIM_Drummond Company Gulfstream IVSP - N225DC
+model=GA3J-Drummond Company_N225DC
+texture=GA3J-Drummond Company_N225DC
 atc_parking_types=RAMP
-atc_parking_codes=GA3J,LXJ
+atc_parking_codes=GA3J
 ui_manufacturer=HTAI
 ui_type=Gulfstream IV
-ui_variation=Gulfstream G-IVSP, c/n 1226, Flexjet, N37EC
+ui_variation=Gulfstream G-IVSP, c/n 1253, Drummond Company, N225DC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetGulfstreamGIVSPN37EC.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DrummondCompanyGIVSPs.zip
 description=HTAI_Gulfstream_IV-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=LXJ
+icao_airline=GA3J
+
+[fltsim.14]
+title=AIGAIM_Drummond Company Gulfstream IVSP - N397JJ
+model=GA3J-Drummond Company_N397JJ
+texture=GA3J-Drummond Company_N397JJ
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1354, Drummond Company, N397JJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DrummondCompanyGIVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.15]
+title=AIGAIM_Dumont Aviation Gulfstream IVSP - N30DJ
+model=GA3J-Dumont Aviation_N30DJ
+texture=GA3J-Dumont Aviation_N30DJ
+atc_airline=SANTOS
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1269, Dumont Aviation, N30DJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.16]
+title=AIGAIM_Dumont Aviation Gulfstream IVSP - N302SB
+model=GA3J-Dumont Aviation_N302SB
+texture=GA3J-Dumont Aviation_N302SB
+atc_airline=SANTOS
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1369, Dumont Aviation, N302SB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.17]
+title=AIGAIM_Skystream Jet Gulfstream IVSP - N86M
+model=GA4J-Skystream Jet_N86M
+texture=GA4J-Skystream Jet_N86M
+atc_airline=THRO
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,THO
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=N86MW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_n86mw_givsp_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THO
+
+[fltsim.18]
+title=AIGAIM_Mountain Aviation Gulfstream IVSP - N415MA
+model=GA4J-Mountain Aviation_N415MA
+texture=GA4J-Mountain Aviation_N415MA
+atc_airline=FOOT HILLS
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,FTH
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Mountain Aviation Gulfstream G-IVSP N415MA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FTH
+
+[fltsim.19]
+title=AIGAIM_Mountain Aviation Gulfstream IVSP - N428KS
+model=GA4J-Mountain Aviation_N428KS
+texture=GA4J-Mountain Aviation_N428KS
+atc_airline=FOOT HILLS
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,FTH
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Mountain Aviation Gulfstream G-IVSP N428KS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FTH
+
+[fltsim.20]
+title=AIGAIM_Mountain Aviation Gulfstream IVSP - N492VR
+model=GA4J-Mountain Aviation_N492VR
+texture=GA4J-Mountain Aviation_N492VR
+atc_airline=FOOT HILLS
+atc_parking_types=RAMP
+atc_parking_codes=GA4J,FTH
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Mountain Aviation Gulfstream G-IVSP N492VR
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Mountain-Aviation_G-IVSP_fleet.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FTH
+
+[fltsim.21]
+title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N572MS
+model=GA3J-Las Vegas Sands_N572MS
+texture=GA3J-Las Vegas Sands_N572MS
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1352, Las Vegas Sands, N572MS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.22]
+title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N972MS
+model=GA3J-Las Vegas Sands_N972MS
+texture=GA3J-Las Vegas Sands_N972MS
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1285, Las Vegas Sands, N972MS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.23]
+title=AIGAIM_Las Vegas Sands Gulfstream IVSP - N992MS
+model=GA3J-Las Vegas Sands_N992MS
+texture=GA3J-Las Vegas Sands_N992MS
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1309, Las Vegas Sands, N992MS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: LasVegasSandsG-IVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.24]
+title=AIGAIM_Journey Aviation Gulfstream IVSP - N1925M
+model=JNY-Journey Aviation_N1925M
+texture=JNY-Journey Aviation_N1925M
+atc_id=N1925M
+atc_airline=ROCK BAND
+atc_parking_types=RAMP
+atc_parking_codes=JNY
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=N1925M Solairus Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: Solairus Aviation G4SP Fleet.zip
+description=HTAI_Gulfstream_IV(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JNY
+
+[fltsim.25]
+title=AIGAIM_Journey Aviation Gulfstream IVSP - N30DJ
+model=JNY-Journey Aviation_N30DJ
+texture=JNY-Journey Aviation_N30DJ
+atc_airline=ROCK BAND
+atc_parking_types=RAMP
+atc_parking_codes=JNY
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1269, Dumont Aviation, N30DJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: DumontAviationGIVSPs.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JNY
+
+[fltsim.26]
+title=AIGAIM_Journey Aviation Gulfstream IVSP - N352BH
+model=JNY-Journey Aviation_N352BH
+texture=JNY-Journey Aviation_N352BH
+atc_airline=ROCK BAND
+atc_parking_types=RAMP
+atc_parking_codes=JNY
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Journey Aviation Gulfstream G-IVSP N352BH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Journey-Aviation_G-IVSP_N352BH_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JNY
+
+[fltsim.27]
+title=AIGAIM_Jackson National Life Insurance Gulfstream IVSP - N664JN
+model=GA3J-Jackson National Life Insurance_N664JN
+texture=GA3J-Jackson National Life Insurance_N664JN
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=Gulfstream G-IVSP, c/n 1396, Jackson National Life Insurance, N664JN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: JacksonNationalLifeInsuranceGIVSP.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.28]
+title=AIGAIM_Jet Linx Gulfstream IVSP - N120SB
+model=JTL-Jet Linx_N120SB
+texture=JTL-Jet Linx_N120SB
+atc_id=N120SB
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=JTL
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Jet Linx Gulfstream G-IVSP N120SB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Jet-Linx-Gulfstream_G450-GIV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.29]
+title=AIGAIM_PepsiCo Gulfstream IVSP - N500PC
+model=GA3J-PepsiCo_N500PC
+texture=GA3J-PepsiCo_N500PC
+atc_id=N500PC
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=PepsiCo Gulfstream G-IVSP N500PC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: PepsiCo_GLF4_Fleet.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.30]
+title=AIGAIM_PepsiCo Gulfstream IVSP - N502PC
+model=GA3J-PepsiCo_N502PC
+texture=GA3J-PepsiCo_N502PC
+atc_id=N502PC
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=HTAI
+ui_type=Gulfstream IV
+ui_variation=PepsiCo Gulfstream G-IVSP N502PC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: PepsiCo_GLF4_Fleet.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.31]
+title=AIGAIM_Pentastar Aviation Gulfstream IVSP - N473CW
+model=GA3J-Pentastar Aviation_N473CW
+texture=GA3J-Pentastar Aviation_N473CW
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Pentastar Aviation Gulfstream G-IVSP N473CW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Pentastar-Aviation_G-IV_N473CW_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.32]
+title=AIGAIM_Starjet Gulfstream IVSP - N702GH
+model=GA3J-Starjet_N702GH
+texture=GA3J-Starjet_N702GH
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Starjet Gulfstream G-IV N702GH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.33]
+title=AIGAIM_Starjet Gulfstream IVSP - N958BX
+model=GA3J-Starjet_N958BX
+texture=GA3J-Starjet_N958BX
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Starjet Gulfstream G-IVSP N958BX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.34]
+title=AIGAIM_Starjet Gulfstream IV - N729TY
+model=GA3J-Starjet_N729TY
+texture=GA3J-Starjet_N729TY
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Starjet Gulfstream G-IV N729TY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.35]
+title=AIGAIM_Starjet Gulfstream IV - N794MH
+model=GA3J-Starjet_N794MH
+texture=GA3J-Starjet_N794MH
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Starjet Gulfstream G-IV N794MH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J
+
+[fltsim.36]
+title=AIGAIM_Starjet Gulfstream IV - N924MB
+model=GA3J-Starjet_N924MB
+texture=GA3J-Starjet_N924MB
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream IV
+ui_variation=Starjet Gulfstream G-IV N924MB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Starjet-Gulfstream_G-IV_fleet_jondix.zip
+description=HTAI_Gulfstream_IV-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J

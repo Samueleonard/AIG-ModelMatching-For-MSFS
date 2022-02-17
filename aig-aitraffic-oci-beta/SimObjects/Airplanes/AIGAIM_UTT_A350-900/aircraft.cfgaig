@@ -95,24 +95,42 @@ isUserSelectable=0
 icao_airline=AAR
 
 [fltsim.2]
-title=AIGAIM_Cathay Pacific Airbus A350-900
-model=CPA-Cathay Pacific
-texture=CPA-Cathay Pacific
-atc_airline=CATHAY
+title=AIGAIM_Vietnam Airlines Airbus A350-900
+model=HVN-Vietnam Airlines
+texture=HVN-Vietnam Airlines
+atc_airline=VIET NAM AIRLINES
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CPA
-ui_manufacturer=UTT
+atc_parking_codes=HVN
+ui_manufacturer="United Traffic Team (UTT)"
 ui_type=Airbus A350-900
-ui_variation=Cathay Pacific - Old Winglet
+ui_variation=Vietnam Airlines Company Limited
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: utt_a359_cpa.zip
+ui_createdby=Provided by: JB Filename: UTT A359 Vietnam Airlines FSX.zip
 description=UTT_A350-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CPA
+icao_airline=HVN
 
 [fltsim.3]
+title=AIGAIM_Vietnam Airlines Airbus A350-900 - Skyteam
+model=HVN-Vietnam Airlines_Skyteam
+texture=HVN-Vietnam Airlines_Skyteam
+atc_airline=VIET NAM AIRLINES
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HVN
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=Vietnam Airlines Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A359 Vietnam Airlines FSX.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HVN
+
+[fltsim.4]
 title=AIGAIM_China Airlines Airbus A350-900
 model=CAL-China Airlines
 texture=CAL-China Airlines
@@ -130,7 +148,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.4]
+[fltsim.5]
 title=AIGAIM_China Airlines Airbus A350-900 - Syrmaticus Mikado
 model=CAL-China Airlines_Syrmaticus Mikado
 texture=CAL-China Airlines_Syrmaticus Mikado
@@ -148,7 +166,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.5]
+[fltsim.6]
 title=AIGAIM_China Airlines Airbus A350-900 - Urocissa Caerulea
 model=CAL-China Airlines_Urocissa Caerulea
 texture=CAL-China Airlines_Urocissa Caerulea
@@ -166,7 +184,25 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.6]
+[fltsim.7]
+title=AIGAIM_Cathay Pacific Airbus A350-900
+model=CPA-Cathay Pacific
+texture=CPA-Cathay Pacific
+atc_airline=CATHAY
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CPA
+ui_manufacturer=UTT
+ui_type=Airbus A350-900
+ui_variation=Cathay Pacific - Old Winglet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: utt_a359_cpa.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CPA
+
+[fltsim.8]
 title=AIGAIM_Delta Air Lines Airbus A350-900
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -185,7 +221,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.7]
+[fltsim.9]
 title=AIGAIM_Delta Air Lines Airbus A350-900 - The Delta Spirit
 model=DAL-Delta Air Lines_The Delta Spirit
 texture=DAL-Delta Air Lines_The Delta Spirit
@@ -204,7 +240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.8]
+[fltsim.10]
 title=AIGAIM_Ethiopian Airlines Airbus A350-900 - ET-ATQ Simien Mountains
 model=ETH-Ethiopian Airlines_ET-ATQ Simien Mountains
 texture=ETH-Ethiopian Airlines_ET-ATQ Simien Mountains
@@ -222,152 +258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.9]
-title=AIGAIM_Finnair Airbus A350-900
-model=FIN-Finnair
-texture=FIN-Finnair
-atc_airline=FINNAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FIN
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Finnair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A359 Finnair.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FIN
-
-[fltsim.10]
-title=AIGAIM_Finnair Airbus A350-900 - Oneworld
-model=FIN-Finnair_Oneworld
-texture=FIN-Finnair_Oneworld
-atc_airline=FINNAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FIN
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Finnair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A359 Finnair.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FIN
-
 [fltsim.11]
-title=AIGAIM_Finnair Airbus A350-900 - Marimekko Kivet
-model=FIN-Finnair_Marimekko Kivet
-texture=FIN-Finnair_Marimekko Kivet
-atc_airline=FINNAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FIN
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Finnair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A359 Finnair.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FIN
-
-[fltsim.12]
-title=AIGAIM_French Bee Airbus A350-900
-model=FBU-French Bee
-texture=FBU-French Bee
-atc_id=F-HREV
-atc_airline=FRENCH BEE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FBU
-ui_manufacturer=UTT
-ui_type=Airbus A350-900
-ui_variation=French Bee F-HREV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: UTT A359 FBU.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FBU
-
-[fltsim.13]
-title=AIGAIM_LATAM Airlines Brasil Airbus A350-900
-model=TAM-LATAM Airlines Brasil
-texture=TAM-LATAM Airlines Brasil
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=LATAM Airlines Brasil
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 LATAM Brasil.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.14]
-title=AIGAIM_Lufthansa Airbus A350-900 - IC
-model=DLH-Lufthansa_IC
-texture=DLH-Lufthansa_IC
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.15]
-title=AIGAIM_Lufthansa Airbus A350-900 - OC
-model=DLH-Lufthansa_OC
-texture=DLH-Lufthansa_OC
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.16]
-title=AIGAIM_Qatar Airways Airbus A350-900 - lsf LATAM Airlines Brasil
-model=QTR-Qatar Airways_lsf LATAM Airlines Brasil
-texture=QTR-Qatar Airways_lsf LATAM Airlines Brasil
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=LATAM Airlines Brasil
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 LATAM Brasil.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.17]
 title=AIGAIM_Singapore Airlines Airbus A350-900
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -386,7 +277,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.18]
+[fltsim.12]
 title=AIGAIM_Singapore Airlines Airbus A350-900 - 10000th Airbus Aircraft
 model=SIA-Singapore Airlines_10000th Airbus Aircraft
 texture=SIA-Singapore Airlines_10000th Airbus Aircraft
@@ -405,43 +296,97 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.19]
-title=AIGAIM_Vietnam Airlines Airbus A350-900
-model=HVN-Vietnam Airlines
-texture=HVN-Vietnam Airlines
-atc_airline=VIET NAM AIRLINES
+[fltsim.13]
+title=AIGAIM_Lufthansa Airbus A350-900 - IC
+model=DLH-Lufthansa_IC
+texture=DLH-Lufthansa_IC
+atc_airline=LUFTHANSA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=HVN
+atc_parking_codes=DLH
 ui_manufacturer="United Traffic Team (UTT)"
 ui_type=Airbus A350-900
-ui_variation=Vietnam Airlines Company Limited
+ui_variation=Deutsche Lufthansa AG
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 Vietnam Airlines FSX.zip
+ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
 description=UTT_A350-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=HVN
+icao_airline=DLH
 
-[fltsim.20]
-title=AIGAIM_Vietnam Airlines Airbus A350-900 - Skyteam
-model=HVN-Vietnam Airlines_Skyteam
-texture=HVN-Vietnam Airlines_Skyteam
-atc_airline=VIET NAM AIRLINES
+[fltsim.14]
+title=AIGAIM_Lufthansa Airbus A350-900 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_airline=LUFTHANSA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=HVN
+atc_parking_codes=DLH
 ui_manufacturer="United Traffic Team (UTT)"
 ui_type=Airbus A350-900
-ui_variation=Vietnam Airlines Company Limited
+ui_variation=Deutsche Lufthansa AG
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 Vietnam Airlines FSX.zip
+ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
 description=UTT_A350-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=HVN
+icao_airline=DLH
 
-[fltsim.21]
+[fltsim.15]
+title=AIGAIM_Finnair Airbus A350-900
+model=FIN-Finnair
+texture=FIN-Finnair
+atc_airline=FINNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A359 Finnair.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.16]
+title=AIGAIM_Finnair Airbus A350-900 - Oneworld
+model=FIN-Finnair_Oneworld
+texture=FIN-Finnair_Oneworld
+atc_airline=FINNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A359 Finnair.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.17]
+title=AIGAIM_Finnair Airbus A350-900 - Marimekko Kivet
+model=FIN-Finnair_Marimekko Kivet
+texture=FIN-Finnair_Marimekko Kivet
+atc_airline=FINNAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A359 Finnair.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.18]
 title=AIGAIM_Qatar Airways Airbus A350-900 - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -459,7 +404,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_Qatar Airways Airbus A350-900 - WiFi Dome
 model=QTR-Qatar Airways_WiFi Dome
 texture=QTR-Qatar Airways_WiFi Dome
@@ -477,7 +422,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_Qatar Airways Airbus A350-900 - Oneworld
 model=QTR-Qatar Airways_Oneworld
 texture=QTR-Qatar Airways_Oneworld
@@ -494,3 +439,58 @@ description=UTT_A350-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.21]
+title=AIGAIM_Qatar Airways Airbus A350-900 - lsf LATAM Airlines Brasil
+model=QTR-Qatar Airways_lsf LATAM Airlines Brasil
+texture=QTR-Qatar Airways_lsf LATAM Airlines Brasil
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=LATAM Airlines Brasil
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A359 LATAM Brasil.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.22]
+title=AIGAIM_French Bee Airbus A350-900
+model=FBU-French Bee
+texture=FBU-French Bee
+atc_id=F-HREV
+atc_airline=FRENCH BEE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBU
+ui_manufacturer=UTT
+ui_type=Airbus A350-900
+ui_variation=French Bee F-HREV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: UTT A359 FBU.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBU
+
+[fltsim.23]
+title=AIGAIM_LATAM Airlines Brasil Airbus A350-900
+model=TAM-LATAM Airlines Brasil
+texture=TAM-LATAM Airlines Brasil
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=LATAM Airlines Brasil
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A359 LATAM Brasil.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM

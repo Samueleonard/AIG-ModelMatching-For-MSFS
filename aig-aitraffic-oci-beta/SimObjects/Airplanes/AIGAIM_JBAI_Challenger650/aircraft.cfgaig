@@ -53,6 +53,70 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Raytheon Technologies Bombardier Challenger 650 - N505RT
+model=GA2J-Raytheon Technologies_N505RT
+texture=GA2J-Raytheon Technologies_N505RT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 650
+ui_variation=Bombardier Challenger 650, c/n 6078, Raytheon Technologies, N505R
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RaytheonTechnologies CL650s.zip
+description=JBAI_Challenger650-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.1]
+title=AIGAIM_Raytheon Technologies Bombardier Challenger 650 - N506RT
+model=GA2J-Raytheon Technologies_N506RT
+texture=GA2J-Raytheon Technologies_N506RT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 650
+ui_variation=Bombardier Challenger 650, c/n 6093, Raytheon Technologies, N506R
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RaytheonTechnologies CL650s.zip
+description=JBAI_Challenger650-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.2]
+title=AIGAIM_Nordstrom Bombardier Challenger 650 - N894N
+model=GA2J-Nordstrom_N894N
+texture=GA2J-Nordstrom_N894N
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 650
+ui_variation=Bombardier Challenger 650, c/n 6091, Nordstrom, N894N
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NordstromCL650s.zip
+description=JBAI_Challenger650-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.3]
+title=AIGAIM_New Era Bombardier Challenger 650 - N5950E
+model=GA2J-New Era_N5950E
+texture=GA2J-New Era_N5950E
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 650
+ui_variation=Bombardier Challenger 650, c/n 6064, New Era, N5950E
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NewEraCL650.zip
+description=JBAI_Challenger650-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.4]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N200QS
 model=GA2J-NetJets_N200QS
 texture=GA2J-NetJets_N200QS
@@ -69,7 +133,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.1]
+[fltsim.5]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N202QS
 model=GA2J-NetJets_N202QS
 texture=GA2J-NetJets_N202QS
@@ -86,7 +150,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.2]
+[fltsim.6]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N205QS
 model=GA2J-NetJets_N205QS
 texture=GA2J-NetJets_N205QS
@@ -103,7 +167,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.3]
+[fltsim.7]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N206QS
 model=GA2J-NetJets_N206QS
 texture=GA2J-NetJets_N206QS
@@ -120,7 +184,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.4]
+[fltsim.8]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N208QS
 model=GA2J-NetJets_N208QS
 texture=GA2J-NetJets_N208QS
@@ -137,7 +201,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.5]
+[fltsim.9]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N209QS
 model=GA2J-NetJets_N209QS
 texture=GA2J-NetJets_N209QS
@@ -154,7 +218,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.6]
+[fltsim.10]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N211QS
 model=GA2J-NetJets_N211QS
 texture=GA2J-NetJets_N211QS
@@ -171,7 +235,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.7]
+[fltsim.11]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N212QS
 model=GA2J-NetJets_N212QS
 texture=GA2J-NetJets_N212QS
@@ -188,7 +252,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.8]
+[fltsim.12]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N214QS
 model=GA2J-NetJets_N214QS
 texture=GA2J-NetJets_N214QS
@@ -205,7 +269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.9]
+[fltsim.13]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N216QS
 model=GA2J-NetJets_N216QS
 texture=GA2J-NetJets_N216QS
@@ -222,7 +286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.10]
+[fltsim.14]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N217QS
 model=GA2J-NetJets_N217QS
 texture=GA2J-NetJets_N217QS
@@ -239,7 +303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.11]
+[fltsim.15]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N219QS
 model=GA2J-NetJets_N219QS
 texture=GA2J-NetJets_N219QS
@@ -256,7 +320,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.12]
+[fltsim.16]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N220QS
 model=GA2J-NetJets_N220QS
 texture=GA2J-NetJets_N220QS
@@ -273,7 +337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.13]
+[fltsim.17]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N225QS
 model=GA2J-NetJets_N225QS
 texture=GA2J-NetJets_N225QS
@@ -290,7 +354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.14]
+[fltsim.18]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N228QS
 model=GA2J-NetJets_N228QS
 texture=GA2J-NetJets_N228QS
@@ -307,7 +371,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.15]
+[fltsim.19]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N231QS
 model=GA2J-NetJets_N231QS
 texture=GA2J-NetJets_N231QS
@@ -324,7 +388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.16]
+[fltsim.20]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N234QS
 model=GA2J-NetJets_N234QS
 texture=GA2J-NetJets_N234QS
@@ -341,7 +405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.17]
+[fltsim.21]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N235QS
 model=GA2J-NetJets_N235QS
 texture=GA2J-NetJets_N235QS
@@ -358,7 +422,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.18]
+[fltsim.22]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N237QS
 model=GA2J-NetJets_N237QS
 texture=GA2J-NetJets_N237QS
@@ -375,7 +439,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.19]
+[fltsim.23]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N238QS
 model=GA2J-NetJets_N238QS
 texture=GA2J-NetJets_N238QS
@@ -392,7 +456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.20]
+[fltsim.24]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N239QS
 model=GA2J-NetJets_N239QS
 texture=GA2J-NetJets_N239QS
@@ -409,7 +473,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.21]
+[fltsim.25]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N240QS
 model=GA2J-NetJets_N240QS
 texture=GA2J-NetJets_N240QS
@@ -426,7 +490,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.22]
+[fltsim.26]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N241QS
 model=GA2J-NetJets_N241QS
 texture=GA2J-NetJets_N241QS
@@ -443,7 +507,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.23]
+[fltsim.27]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N242QS
 model=GA2J-NetJets_N242QS
 texture=GA2J-NetJets_N242QS
@@ -460,7 +524,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.24]
+[fltsim.28]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N243QS
 model=GA2J-NetJets_N243QS
 texture=GA2J-NetJets_N243QS
@@ -477,7 +541,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.25]
+[fltsim.29]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N244QS
 model=GA2J-NetJets_N244QS
 texture=GA2J-NetJets_N244QS
@@ -494,7 +558,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.26]
+[fltsim.30]
 title=AIGAIM_NetJets Bombardier Challenger 650 - N245QS
 model=GA2J-NetJets_N245QS
 texture=GA2J-NetJets_N245QS
@@ -511,55 +575,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJA
 
-[fltsim.27]
-title=AIGAIM_Raytheon Technologies Bombardier Challenger 650 - N505RT
-model=GA2J-Raytheon Technologies_N505RT
-texture=GA2J-Raytheon Technologies_N505RT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 650
-ui_variation=Bombardier Challenger 650, c/n 6078, Raytheon Technologies, N505R
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RaytheonTechnologies CL650s.zip
-description=JBAI_Challenger650-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.28]
-title=AIGAIM_Raytheon Technologies Bombardier Challenger 650 - N506RT
-model=GA2J-Raytheon Technologies_N506RT
-texture=GA2J-Raytheon Technologies_N506RT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 650
-ui_variation=Bombardier Challenger 650, c/n 6093, Raytheon Technologies, N506R
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RaytheonTechnologies CL650s.zip
-description=JBAI_Challenger650-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.29]
-title=AIGAIM_Nordstrom Bombardier Challenger 650 - N894N
-model=GA2J-Nordstrom_N894N
-texture=GA2J-Nordstrom_N894N
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 650
-ui_variation=Bombardier Challenger 650, c/n 6091, Nordstrom, N894N
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NordstromCL650s.zip
-description=JBAI_Challenger650-Marco_605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.30]
+[fltsim.31]
 title=AIGAIM_State Farm Bombardier Challenger 650 - N22SF
 model=GA2J-State Farm_N22SF
 texture=GA2J-State Farm_N22SF
@@ -575,7 +591,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.31]
+[fltsim.32]
 title=AIGAIM_State Farm Bombardier Challenger 650 - N43SF
 model=GA2J-State Farm_N43SF
 texture=GA2J-State Farm_N43SF
@@ -591,7 +607,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.32]
+[fltsim.33]
 title=AIGAIM_State Farm Bombardier Challenger 650 - N44SF
 model=GA2J-State Farm_N44SF
 texture=GA2J-State Farm_N44SF
@@ -607,7 +623,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.33]
+[fltsim.34]
 title=AIGAIM_State Farm Bombardier Challenger 650 - N76SF
 model=GA2J-State Farm_N76SF
 texture=GA2J-State Farm_N76SF
@@ -618,22 +634,6 @@ ui_type=Bombardier Challenger 650
 ui_variation=Bombardier Challenger 650, c/n 6099, State Farm, N76SF
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: Marco Kosterman on JCAI Filename: StateFarmCL650s.zip
-description=JBAI_Challenger650-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.34]
-title=AIGAIM_New Era Bombardier Challenger 650 - N5950E
-model=GA2J-New Era_N5950E
-texture=GA2J-New Era_N5950E
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 650
-ui_variation=Bombardier Challenger 650, c/n 6064, New Era, N5950E
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NewEraCL650.zip
 description=JBAI_Challenger650-Marco_605_Sat(fs20)
 isAirTraffic=1
 isUserSelectable=0

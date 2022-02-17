@@ -53,6 +53,23 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Air Niugini Fokker 70
+model=ANG-Air Niugini
+texture=ANG-Air Niugini
+atc_airline=NIUGINI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANG
+ui_manufacturer=AI Aardvark
+ui_type=Fokker 70
+ui_variation=Air Niugini
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_airniugini_f70.zip
+description=AIA_F-70(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANG
+
+[fltsim.1]
 title=AIGAIM_Alliance Airlines Fokker 70
 model=UTY-Alliance Airlines
 texture=UTY-Alliance Airlines
@@ -70,7 +87,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTY
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Alliance Airlines Fokker 70 - aft titles
 model=UTY-Alliance Airlines_aft titles
 texture=UTY-Alliance Airlines_aft titles
@@ -88,7 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTY
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_Alliance Airlines Fokker 70 - no Fokker sticker
 model=UTY-Alliance Airlines_no Fokker sticker
 texture=UTY-Alliance Airlines_no Fokker sticker
@@ -106,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTY
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_Alliance Airlines Fokker 70 - Breast Cancer
 model=UTY-Alliance Airlines_Breast Cancer
 texture=UTY-Alliance Airlines_Breast Cancer
@@ -124,42 +141,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTY
 
-[fltsim.4]
-title=AIGAIM_Air Niugini Fokker 70
-model=ANG-Air Niugini
-texture=ANG-Air Niugini
-atc_airline=NIUGINI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANG
-ui_manufacturer=AI Aardvark
-ui_type=Fokker 70
-ui_variation=Air Niugini
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_airniugini_f70.zip
-description=AIA_F-70(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANG
-
 [fltsim.5]
-title=AIGAIM_Fly All Ways Fokker 70
-model=EDR-Fly All Ways
-texture=EDR-Fly All Ways
-atc_id=PZ-TFA
-atc_airline=BIRDVIEW
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EDR
-ui_manufacturer=Fokker
-ui_type=Fokker 70
-ui_variation=Fly All Ways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Fly All Ways F70 FSX.zip
-description=AIA_F-70(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EDR
-
-[fltsim.6]
 title=AIGAIM_Virgin Australia Regional Fokker 70 - Alliance colors
 model=VOZX-Virgin Australia Regional_Alliance colors
 texture=VOZX-Virgin Australia Regional_Alliance colors
@@ -176,3 +158,21 @@ description=AIA_F-70(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZX
+
+[fltsim.6]
+title=AIGAIM_Fly All Ways Fokker 70
+model=EDR-Fly All Ways
+texture=EDR-Fly All Ways
+atc_id=PZ-TFA
+atc_airline=BIRDVIEW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EDR
+ui_manufacturer=Fokker
+ui_type=Fokker 70
+ui_variation=Fly All Ways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Fly All Ways F70 FSX.zip
+description=AIA_F-70(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EDR

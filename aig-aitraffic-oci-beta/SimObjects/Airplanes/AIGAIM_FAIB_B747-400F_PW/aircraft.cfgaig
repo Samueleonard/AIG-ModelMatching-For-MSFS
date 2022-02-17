@@ -22,6 +22,25 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
+title=AIGAIM_China Southern Cargo Boeing 747-400F
+model=CSNC-China Southern Cargo
+texture=CSNC-China Southern Cargo
+atc_id=B-2461
+atc_airline=CHINA SOUTHERN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSNC
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=China Southern Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 747-400F China Southern Cargo FSX.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSNC
+
+[fltsim.1]
 title=AIGAIM_Air China Cargo Boeing 747-400F
 model=CAO-Air China Cargo
 texture=CAO-Air China Cargo
@@ -40,7 +59,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Air China Cargo Boeing 747-400F - Black Titles
 model=CAO-Air China Cargo_Black Titles
 texture=CAO-Air China Cargo_Black Titles
@@ -59,43 +78,24 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
 
-[fltsim.2]
-title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - PW Albino OE-IFB
-model=TAY-ASL Airlines Belgium_PW Albino OE-IFB
-texture=TAY-ASL Airlines Belgium_PW Albino OE-IFB
-atc_id=OE-IFB
-atc_airline=QUALITY
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400F
-ui_variation=ASL Airlines Belgium
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F PW_ASL Airlines Belgium_FSX.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAY
-
 [fltsim.3]
-title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - PW Albino OE-IFD
-model=TAY-ASL Airlines Belgium_PW Albino OE-IFD
-texture=TAY-ASL Airlines Belgium_PW Albino OE-IFD
-atc_id=OE-IFD
-atc_airline=QUALITY
+title=AIGAIM_Turkish Airlines Cargo Boeing 747-400F - PW opb Kalitta Air
+model=THYC-Turkish Airlines Cargo_PW opb Kalitta Air
+texture=THYC-Turkish Airlines Cargo_PW opb Kalitta Air
+atc_id=N705CK
+atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
+atc_parking_codes=THYC
+ui_manufacturer=Boeing
 ui_type=Boeing 747-400F
-ui_variation=ASL Airlines Belgium
+ui_variation=Kalitta Air F PW
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F PW_ASL Airlines Belgium_FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB 747-400F Kalitta Air FSX.zip
 description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=TAY
+icao_airline=THYC
 
 [fltsim.4]
 title=AIGAIM_Atlas Air Boeing 747-400F - PW Belly logo
@@ -117,101 +117,44 @@ isUserSelectable=0
 icao_airline=GTI
 
 [fltsim.5]
-title=AIGAIM_CAL Cargo Airlines Boeing 747-400F - PW
-model=ICL-CAL Cargo Airlines_PW
-texture=ICL-CAL Cargo Airlines_PW
-atc_id=4X-ICB
-atc_airline=CAL
+title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - PW Albino OE-IFB
+model=TAY-ASL Airlines Belgium_PW Albino OE-IFB
+texture=TAY-ASL Airlines Belgium_PW Albino OE-IFB
+atc_id=OE-IFB
+atc_airline=QUALITY
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ICL
-ui_manufacturer=FAIB
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 747-400F
-ui_variation=Cargo Air Lines 4X-ICB 'Challenge accepted'
+ui_variation=ASL Airlines Belgium
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_744f_icl_fleet_update.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F PW_ASL Airlines Belgium_FSX.zip
 description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ICL
+icao_airline=TAY
 
 [fltsim.6]
-title=AIGAIM_China Southern Cargo Boeing 747-400F
-model=CSNC-China Southern Cargo
-texture=CSNC-China Southern Cargo
-atc_id=B-2461
-atc_airline=CHINA SOUTHERN
+title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - PW Albino OE-IFD
+model=TAY-ASL Airlines Belgium_PW Albino OE-IFD
+texture=TAY-ASL Airlines Belgium_PW Albino OE-IFD
+atc_id=OE-IFD
+atc_airline=QUALITY
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=CSNC
-ui_manufacturer=Boeing
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 747-400F
-ui_variation=China Southern Cargo
+ui_variation=ASL Airlines Belgium
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 747-400F China Southern Cargo FSX.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F PW_ASL Airlines Belgium_FSX.zip
 description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CSNC
+icao_airline=TAY
 
 [fltsim.7]
-title=AIGAIM_Kalitta Air Boeing 747-400F - PW
-model=CKS-Kalitta Air_PW
-texture=CKS-Kalitta Air_PW
-atc_id=N715CK
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.8]
-title=AIGAIM_Kalitta Air Boeing 747-400F - PW Albino
-model=CKS-Kalitta Air_PW Albino
-texture=CKS-Kalitta Air_PW Albino
-atc_id=N702CK
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.9]
-title=AIGAIM_Kalitta Air Boeing 747-400F - PW White
-model=CKS-Kalitta Air_PW White
-texture=CKS-Kalitta Air_PW White
-atc_id=N713CK
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.10]
 title=AIGAIM_Polar Air Cargo Boeing 747-400F - Atlas Air white
 model=PAC-Polar Air Cargo_Atlas Air white
 texture=PAC-Polar Air Cargo_Atlas Air white
@@ -230,45 +173,83 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAC
 
-[fltsim.11]
-title=AIGAIM_Saudia Cargo Boeing 747-400F - PW Albino opb ACT
-model=SVAC-Saudia Cargo_PW Albino opb ACT
-texture=SVAC-Saudia Cargo_PW Albino opb ACT
-atc_id=TC-MCT
-atc_airline=SAUDIA
+[fltsim.8]
+title=AIGAIM_Kalitta Air Boeing 747-400F - PW
+model=CKS-Kalitta Air_PW
+texture=CKS-Kalitta Air_PW
+atc_id=N715CK
+atc_airline=CONNIE
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=SVAC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=Saudia Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 F Saudia Cargo FSX.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVAC
-
-[fltsim.12]
-title=AIGAIM_Silk Way West Airlines Boeing 747-400F - 'Albino'
-model=AZG-Silk Way West Airlines_'Albino'
-texture=AZG-Silk Way West Airlines_'Albino'
-atc_id=VP-BCR
-atc_airline=SILK WEST
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=AZG
+atc_parking_codes=CKS
 ui_manufacturer=FAIB
 ui_type=Boeing 747-400F
-ui_variation=Silkway West Airlines
+ui_variation=Kalitta Air
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_azg_boeing_744F.zip
+ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
 description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AZG
+icao_airline=CKS
 
-[fltsim.13]
+[fltsim.9]
+title=AIGAIM_Kalitta Air Boeing 747-400F - PW Albino
+model=CKS-Kalitta Air_PW Albino
+texture=CKS-Kalitta Air_PW Albino
+atc_id=N702CK
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.10]
+title=AIGAIM_Kalitta Air Boeing 747-400F - PW White
+model=CKS-Kalitta Air_PW White
+texture=CKS-Kalitta Air_PW White
+atc_id=N713CK
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.11]
+title=AIGAIM_CAL Cargo Airlines Boeing 747-400F - PW
+model=ICL-CAL Cargo Airlines_PW
+texture=ICL-CAL Cargo Airlines_PW
+atc_id=4X-ICB
+atc_airline=CAL
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICL
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Cargo Air Lines 4X-ICB 'Challenge accepted'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_744f_icl_fleet_update.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICL
+
+[fltsim.12]
 title=AIGAIM_Singapore Airlines Cargo Boeing 747-400F
 model=SIAC-Singapore Airlines Cargo
 texture=SIAC-Singapore Airlines Cargo
@@ -287,21 +268,40 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SQC
 
-[fltsim.14]
-title=AIGAIM_Turkish Airlines Cargo Boeing 747-400F - PW opb Kalitta Air
-model=THYC-Turkish Airlines Cargo_PW opb Kalitta Air
-texture=THYC-Turkish Airlines Cargo_PW opb Kalitta Air
-atc_id=N705CK
-atc_airline=TURKISH
+[fltsim.13]
+title=AIGAIM_Saudia Cargo Boeing 747-400F - PW Albino opb ACT
+model=SVAC-Saudia Cargo_PW Albino opb ACT
+texture=SVAC-Saudia Cargo_PW Albino opb ACT
+atc_id=TC-MCT
+atc_airline=SAUDIA
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=THYC
+atc_parking_codes=SVAC
 ui_manufacturer=Boeing
 ui_type=Boeing 747-400F
-ui_variation=Kalitta Air F PW
+ui_variation=Saudia Cargo
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 747-400F Kalitta Air FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB B747-400 F Saudia Cargo FSX.zip
 description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=THYC
+icao_airline=SVAC
+
+[fltsim.14]
+title=AIGAIM_Silk Way West Airlines Boeing 747-400F - 'Albino'
+model=AZG-Silk Way West Airlines_'Albino'
+texture=AZG-Silk Way West Airlines_'Albino'
+atc_id=VP-BCR
+atc_airline=SILK WEST
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZG
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Silkway West Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_azg_boeing_744F.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZG

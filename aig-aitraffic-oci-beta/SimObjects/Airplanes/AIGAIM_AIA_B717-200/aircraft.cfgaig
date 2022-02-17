@@ -9,7 +9,7 @@ Category="airplane"
 performance=""
 editable=1
 wip_indicator=2
-icao_type_designator="B717"
+icao_type_designator="B712"
 icao_manufacturer="BOEING"
 icao_model="717-200"
 icao_engine_type="Jet"
@@ -38,8 +38,8 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-effect.0=node103_anim_Engine_Blade#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
-effect.1=node102_anim_Engine_Blade#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
@@ -89,57 +89,6 @@ isUserSelectable=0
 icao_airline=DAL
 
 [fltsim.2]
-title=AIGAIM_Hawaiian Airlines Boeing 717-200
-model=HAL-Hawaiian Airlines
-texture=HAL-Hawaiian Airlines
-atc_airline=HAWAIIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=Aardvark
-ui_type=Boeing 717-200
-ui_variation=Hawaiian Airlines - N494HA NC No Eyebrows
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: aia_712_hal_n494ha.zip
-description=AIA_B717-200-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.3]
-title=AIGAIM_Hawaiian Airlines Boeing 717-200 - Eyebrows
-model=HAL-Hawaiian Airlines_Eyebrows
-texture=HAL-Hawaiian Airlines_Eyebrows
-atc_airline=HAWAIIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=Aardvark
-ui_type=Boeing 717-200
-ui_variation=Hawaiian Airlines - N490HA NC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: aia_712_hal_nc.zip
-description=AIA_B717-200-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.4]
-title=AIGAIM_Hawaiian Airlines Boeing 717-200 - OC Eyebrows
-model=HAL-Hawaiian Airlines_OC Eyebrows
-texture=HAL-Hawaiian Airlines_OC Eyebrows
-atc_airline=HAWAIIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HAL
-ui_manufacturer=Aardvark
-ui_type=Boeing 717-200
-ui_variation=Hawaiian Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FLTSIM Filename: ai717hal.zip
-description=AIA_B717-200-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HAL
-
-[fltsim.5]
 title=AIGAIM_Qantaslink Boeing 717-200
 model=QJE-Qantaslink
 texture=QJE-Qantaslink
@@ -157,7 +106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.6]
+[fltsim.3]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC
 model=QJE-Qantaslink_OC
 texture=QJE-Qantaslink_OC
@@ -175,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.7]
+[fltsim.4]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Eyebrows
 model=QJE-Qantaslink_OC Eyebrows
 texture=QJE-Qantaslink_OC Eyebrows
@@ -193,7 +142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.8]
+[fltsim.5]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Engine Logo
 model=QJE-Qantaslink_OC Engine Logo
 texture=QJE-Qantaslink_OC Engine Logo
@@ -211,7 +160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.9]
+[fltsim.6]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Engine Logo Eyebrows
 model=QJE-Qantaslink_OC Engine Logo Eyebrows
 texture=QJE-Qantaslink_OC Engine Logo Eyebrows
@@ -229,7 +178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.10]
+[fltsim.7]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Old Titles Eyebrows
 model=QJE-Qantaslink_OC Old Titles Eyebrows
 texture=QJE-Qantaslink_OC Old Titles Eyebrows
@@ -247,7 +196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
 
-[fltsim.11]
+[fltsim.8]
 title=AIGAIM_Qantaslink Boeing 717-200 - OC Discover Tasmania VH-YQW
 model=QJE-Qantaslink_OC Discover Tasmania VH-YQW
 texture=QJE-Qantaslink_OC Discover Tasmania VH-YQW
@@ -264,3 +213,54 @@ description=AIA_B717-200-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QJE
+
+[fltsim.9]
+title=AIGAIM_Hawaiian Airlines Boeing 717-200
+model=HAL-Hawaiian Airlines
+texture=HAL-Hawaiian Airlines
+atc_airline=HAWAIIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=Aardvark
+ui_type=Boeing 717-200
+ui_variation=Hawaiian Airlines - N494HA NC No Eyebrows
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: aia_712_hal_n494ha.zip
+description=AIA_B717-200-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL
+
+[fltsim.10]
+title=AIGAIM_Hawaiian Airlines Boeing 717-200 - Eyebrows
+model=HAL-Hawaiian Airlines_Eyebrows
+texture=HAL-Hawaiian Airlines_Eyebrows
+atc_airline=HAWAIIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=Aardvark
+ui_type=Boeing 717-200
+ui_variation=Hawaiian Airlines - N490HA NC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: aia_712_hal_nc.zip
+description=AIA_B717-200-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL
+
+[fltsim.11]
+title=AIGAIM_Hawaiian Airlines Boeing 717-200 - OC Eyebrows
+model=HAL-Hawaiian Airlines_OC Eyebrows
+texture=HAL-Hawaiian Airlines_OC Eyebrows
+atc_airline=HAWAIIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HAL
+ui_manufacturer=Aardvark
+ui_type=Boeing 717-200
+ui_variation=Hawaiian Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FLTSIM Filename: ai717hal.zip
+description=AIA_B717-200-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HAL

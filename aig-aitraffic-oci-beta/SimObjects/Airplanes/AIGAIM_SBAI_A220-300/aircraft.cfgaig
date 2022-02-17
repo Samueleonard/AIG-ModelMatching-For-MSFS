@@ -1,0 +1,294 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME AIRBUS.0.text"
+atc_model="$$:BCS3"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=BCS3
+icao_manufacturer=AIRBUS
+icao_model=A-220-300
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=1
+BOARDING_RAMP=1
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=1
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_AirBaltic Airbus A220-300
+model=BTI-AirBaltic
+texture=BTI-AirBaltic
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.1]
+title=AIGAIM_AirBaltic Airbus A220-300 - 100th A220
+model=BTI-AirBaltic_100th A220
+texture=BTI-AirBaltic_100th A220
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.2]
+title=AIGAIM_AirBaltic Airbus A220-300 - OC
+model=BTI-AirBaltic_OC
+texture=BTI-AirBaltic_OC
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.3]
+title=AIGAIM_AirBaltic Airbus A220-300 - Estonian Flag
+model=BTI-AirBaltic_Estonian Flag
+texture=BTI-AirBaltic_Estonian Flag
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.4]
+title=AIGAIM_AirBaltic Airbus A220-300 - Lithuanian Flag
+model=BTI-AirBaltic_Lithuanian Flag
+texture=BTI-AirBaltic_Lithuanian Flag
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.5]
+title=AIGAIM_AirBaltic Airbus A220-300 - Latvian 100
+model=BTI-AirBaltic_Latvian 100
+texture=BTI-AirBaltic_Latvian 100
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI
+
+[fltsim.6]
+title=AIGAIM_Air Tanzania Airbus A220-300 - Wifi Dome
+model=ATC-Air Tanzania_Wifi Dome
+texture=ATC-Air Tanzania_Wifi Dome
+atc_id=5H-TCH
+atc_airline=TANZANIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ATC
+ui_manufacturer=Airbus
+ui_type=Airbus A220-300
+ui_variation=Air Tanzania
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: sbai_bcs3_atc.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATC
+
+[fltsim.7]
+title=AIGAIM_Air Canada Airbus A220-300 - Wifi dome
+model=ACA-Air Canada_Wifi dome
+texture=ACA-Air Canada_Wifi dome
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Air Canada
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Air Canada.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.8]
+title=AIGAIM_EgyptAir Airbus A220-300
+model=MSR-EgyptAir
+texture=MSR-EgyptAir
+atc_airline=EGYPTAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MSR
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=EgyptAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Egyptair Express.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MSR
+
+[fltsim.9]
+title=AIGAIM_Korean Air Airbus A220-300
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Korean Air.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.10]
+title=AIGAIM_Korean Air Airbus A220-300 - 50 Years
+model=KAL-Korean Air_50 Years
+texture=KAL-Korean Air_50 Years
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Korean Air.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.11]
+title=AIGAIM_Lufthansa Airbus A220-300 - opb BTI
+model=DLH-Lufthansa_opb BTI
+texture=DLH-Lufthansa_opb BTI
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.12]
+title=AIGAIM_Swiss Airbus A220-300
+model=SWR-Swiss
+texture=SWR-Swiss
+atc_id=HB-JCC
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer="Bombardier"
+ui_type=Airbus A220-300
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: sbai_cs300_swr.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR
+
+[fltsim.13]
+title=AIGAIM_Swiss Airbus A220-300 - unnamed
+model=SWR-Swiss_unnamed
+texture=SWR-Swiss_unnamed
+atc_id=HB-JCB
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer="Bombardier"
+ui_type=Airbus A220-300
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: sbai_cs300_swr.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR

@@ -190,25 +190,6 @@ isUserSelectable=0
 icao_airline=TCV
 
 [fltsim.7]
-title=AIGAIM_Cargojet Boeing 757-200WL - PCF
-model=CJT-Cargojet_PCF
-texture=CJT-Cargojet_PCF
-atc_airline=CARGOJET
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CJT
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200WL
-ui_variation=Cargojet - C-FGKJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: aig_752w_cjt_2020.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200WL_RR-RR_WL(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CJT
-
-[fltsim.8]
 title=AIGAIM_Cygnus Air Boeing 757-200WL - RR PCF Swiftair hybrid
 model=RGN-Cygnus Air_RR PCF Swiftair hybrid
 texture=RGN-Cygnus Air_RR PCF Swiftair hybrid
@@ -228,7 +209,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RGN
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air UK
 model=BCS-EAT Leipzig_RR PCF opb DHL Air UK
 texture=BCS-EAT Leipzig_RR PCF opb DHL Air UK
@@ -247,7 +228,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Jet2com Boeing 757-200WL
 model=EXS-Jet2com
 texture=EXS-Jet2com
@@ -266,7 +247,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Jet2com Boeing 757-200WL - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -285,7 +266,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_La Compagnie Boeing 757-200WL - 1-1-1-1
 model=DJT-La Compagnie_1-1-1-1
 texture=DJT-La Compagnie_1-1-1-1
@@ -304,6 +285,26 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DJT
+
+[fltsim.12]
+title=AIGAIM_Icelandair Boeing 757-200WL - White belly
+model=ICE-Icelandair_White belly
+texture=ICE-Icelandair_White belly
+atc_id=TF-FIC
+atc_airline=ICE AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Icelandair TF-FIC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_752W_FI1_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE
 
 [fltsim.13]
 title=AIGAIM_National Airlines Boeing 757-200WL
@@ -342,23 +343,3 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
-
-[fltsim.15]
-title=AIGAIM_Icelandair Boeing 757-200WL - White belly
-model=ICE-Icelandair_White belly
-texture=ICE-Icelandair_White belly
-atc_id=TF-FIC
-atc_airline=ICE AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ICE
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200WL
-ui_variation=Icelandair TF-FIC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_752W_FI1_FSX.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200WL_RR-RR_WL(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICE

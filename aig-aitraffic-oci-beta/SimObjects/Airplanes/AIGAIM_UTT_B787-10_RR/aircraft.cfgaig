@@ -38,9 +38,10 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
+wake=fx_wake
+water=fx_spray
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
-touchdown=fx_tchdwn_m, 1
 
 [LOADING]
 ImageName=LOADING_FREEFLIGHT
