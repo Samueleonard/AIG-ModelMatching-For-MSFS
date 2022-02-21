@@ -3,7 +3,7 @@ major=1
 minor=0
 
 [General]
-atc_type="TT:ATCCOM.ATC_NAME VIKING.0.text"
+atc_type="$$:Viking"
 atc_model="TT:ATCCOM.AC_MODEL DHC6.0.text"
 Category="airplane"
 performance=""

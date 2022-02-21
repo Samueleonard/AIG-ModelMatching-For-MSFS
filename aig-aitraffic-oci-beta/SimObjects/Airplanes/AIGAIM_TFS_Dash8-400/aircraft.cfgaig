@@ -1695,3 +1695,21 @@ description=TFS_Dash8-400(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDO
+
+[fltsim.89]
+title=AIGAIM_ATSA Airlines Bombardier Dash 8-Q400
+model=AMP-ATSA Airlines
+texture=AMP-ATSA Airlines
+atc_id=OB2195
+atc_airline=ATSA
+atc_parking_types=RAMP,GATE
+atc_parking_codes=AMP
+ui_manufacturer=Bombardier
+ui_type=Bombardier Dash 8-Q400
+ui_variation=ATSA Peru
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: ATSA Peru Dash 8-400 FSX.zip
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMP

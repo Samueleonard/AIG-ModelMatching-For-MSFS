@@ -176,3 +176,21 @@ description=AIA_F-70(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EDR
+
+[fltsim.7]
+title=AIGAIM_Jetair Caribbean Fokker 70
+model=JRC-Jetair Caribbean
+texture=JRC-Jetair Caribbean
+atc_id=PJ-JAC
+atc_airline=JETAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JRC
+ui_manufacturer=Fokker
+ui_type=Fokker 70
+ui_variation=Jetair Caribbean
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: JetAir Caribbean Fokker 70 FSX.zip
+description=AIA_F-70(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JRC

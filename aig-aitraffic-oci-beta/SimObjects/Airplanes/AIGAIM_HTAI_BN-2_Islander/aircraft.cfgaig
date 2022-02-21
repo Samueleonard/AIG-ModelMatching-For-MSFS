@@ -3,8 +3,8 @@ major=1
 minor=0
 
 [General]
-atc_type="TT:ATCCOM.ATC_NAME BRITTEN-NORMAN.0.text"
-atc_model="TT:ATCCOM.AC_MODEL BN2P.0.text"
+atc_type="TT:ATCCOM.ATC_NAME BRITTENNORMAN.0.text"
+atc_model="TT:ATCCOM.AC_MODEL BN2B20.0.text"
 Category="airplane"
 performance=""
 editable=1
@@ -316,18 +316,19 @@ isUserSelectable=0
 icao_airline=DMS
 
 [fltsim.15]
-title=AIGAIM_OFD Ostfriesischer-Flugdienst Britten-Norman BN-2 Islander
-model=OFD-Ostfriesischer-Flugdienst
-texture=OFD-Ostfriesischer-Flugdienst
-atc_id=D-IFBN
+title=AIGAIM_Copenhagen Air Taxi Britten-Norman BN-2 Islander
+model=CAT-Copenhagen Air Taxi
+texture=CAT-Copenhagen Air Taxi
+atc_id=OY-CAT
+atc_airline=AIRCAT
 atc_parking_types=RAMP
-atc_parking_codes=OFD
-ui_manufacturer=Britten-Norman BN-2 Islander by Henry Tomkiewicz
+atc_parking_codes=CAT
+ui_manufacturer=Britten-Norman
 ui_type=Britten-Norman BN-2 Islander
-ui_variation=OLT
+ui_variation=Copenhagen Air Taxi
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: olt_islander_htai.zip
-description=HTAI_BN-2_Islander-shortnose(fs20)
+ui_createdby=Provided by: JCAI Filename: HTAI_BN2_CAT.zip
+description=HTAI_BN-2_Islander-longnose(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=OFD
+icao_airline=CAT

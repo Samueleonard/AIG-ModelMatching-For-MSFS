@@ -332,3 +332,21 @@ description=FAIB_BBJ1_WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
+
+[fltsim.18]
+title=AIGAIM_Korean Air Business Jet Boeing BBJ1 WL - HL8222
+model=KAL-Korean Air Exclusive_HL8222
+texture=KAL-Korean Air Exclusive_HL8222
+atc_id=HL8222
+atc_airline=KOREANAIR
+atc_parking_types=RAMP,GATE
+atc_parking_codes=KAL
+ui_manufacturer=FAIB
+ui_type=Boeing BBJ1 WL
+ui_variation=Korean Air BBJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_kal_boeing_737.zip
+description=FAIB_BBJ1_WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL

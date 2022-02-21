@@ -1781,3 +1781,253 @@ description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
+
+[fltsim.98]
+title=AIGAIM_Air Seven Boeing 737-400 - OY-ASA
+model=CAT-Airseven_OY-ASA
+texture=CAT-Airseven_OY-ASA
+atc_id=OY-ASA
+atc_airline=AIRCAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=AirSeven OY-ASA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400_Airseven_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAT
+
+[fltsim.99]
+title=AIGAIM_Air Seven Boeing 737-400 - OY-ASB
+model=CAT-Airseven_OY-ASB
+texture=CAT-Airseven_OY-ASB
+atc_id=OY-ASB
+atc_airline=AIRCAT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=AirSeven OY-ASB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400_Airseven_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAT
+
+[fltsim.100]
+title=AIGAIM_Gran Colombia de Aviacion Boeing 737-400 - New Livery
+model=GCA-Gran Colombia de Aviacion_New Livery
+texture=GCA-Gran Colombia de Aviacion_New Livery
+atc_id=HK-5304
+atc_airline=GRAN COLOMBIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GCA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400
+ui_variation=Gran Colombia de Aviación (GCA Airlines) - New Livery
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: cnai-faib_b734-grancolombiadeaviacion_hk-5304.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GCA
+
+[fltsim.101]
+title=AIGAIM_Gran Colombia de Aviacion Boeing 737-400
+model=GCA-Gran Colombia de Aviacion
+texture=GCA-Gran Colombia de Aviacion
+atc_id=HK-5288
+atc_airline=GRAN COLOMBIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GCA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400
+ui_variation=Gran Colombia de Aviación (GCA Airlines)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: cnai-faib_b734-grancolombiadeaviacion_hk-5288.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GCA
+
+[fltsim.102]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Eyebrows Swiftair Hybrid
+model=SWQ-iAero Airways_Logolight Eyebrows Swiftair Hybrid
+texture=SWQ-iAero Airways_Logolight Eyebrows Swiftair Hybrid
+atc_id=N545CC
+atc_airline=SWIFTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=SWQ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=iAero Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_swqhybrids_b734_kjm.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.103]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose
+model=SWQ-iAero Airways_Logolight White Nose
+texture=SWQ-iAero Airways_Logolight White Nose
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.104]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose Plugged Windows
+model=SWQ-iAero Airways_Logolight White Nose Plugged Windows
+texture=SWQ-iAero Airways_Logolight White Nose Plugged Windows
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.105]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Red Eyebrow
+model=SWQ-iAero Airways_Logolight Red Eyebrow
+texture=SWQ-iAero Airways_Logolight Red Eyebrow
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.106]
+title=AIGAIM_iAero Airways Boeing 737-400 - Swiftair Hybrid
+model=SWQ-iAero Airways_Swiftair Hybrid
+texture=SWQ-iAero Airways_Swiftair Hybrid
+atc_id=N808TJ
+atc_airline=SWIFTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=SWQ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=iAero Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_swqhybrids_b734_kjm.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.107]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Swiftair Hybrid
+model=SWQ-iAero Airways_Logolight Swiftair Hybrid
+texture=SWQ-iAero Airways_Logolight Swiftair Hybrid
+atc_id=N285XA
+atc_airline=SWIFTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=SWQ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=iAero Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_swqhybrids_b734_kjm.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.108]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose Rear Reg Striped Antenna
+model=SWQ-iAero Airways_Logolight White Nose Rear Reg Striped Antenna
+texture=SWQ-iAero Airways_Logolight White Nose Rear Reg Striped Antenna
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.109]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Rear Reg
+model=SWQ-iAero Airways_Logolight Rear Reg
+texture=SWQ-iAero Airways_Logolight Rear Reg
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.110]
+title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Rear Reg Prominent Eyebrows
+model=SWQ-iAero Airways_Logolight Rear Reg Prominent Eyebrows
+texture=SWQ-iAero Airways_Logolight Rear Reg Prominent Eyebrows
+atc_airline=SWIFTFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWQ
+ui_type=Boeing 737-400
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib734swq.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWQ
+
+[fltsim.111]
+title=AIGAIM_OWG Boeing 737-400 - C-GGWV
+model=NRL-OWG opb Nolinor_C-GGWV
+texture=NRL-OWG opb Nolinor_C-GGWV
+atc_airline=NOLINOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NRL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=OWG - opb Nolinor C-GGWV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_b734_nrl_update.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NRL
+
+[fltsim.112]
+title=AIGAIM_OWG Boeing 737-400 - C-GGWX
+model=NRL-OWG opb Nolinor_C-GGWX
+texture=NRL-OWG opb Nolinor_C-GGWX
+atc_airline=NOLINOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NRL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=OWG - Hola Sun opb Nolinor C-GGWX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_b734_nrl_update.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NRL

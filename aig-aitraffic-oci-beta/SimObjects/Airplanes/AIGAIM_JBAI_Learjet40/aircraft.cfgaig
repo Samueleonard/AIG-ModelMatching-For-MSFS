@@ -3,8 +3,8 @@ major=1
 minor=0
 
 [General]
-atc_type="TT:ATCCOM.ATC_NAME LEAR JET.0.text"
-atc_model="TT:ATCCOM.AC_MODEL 40.0.text"
+atc_type="TT:ATCCOM.ATC_NAME LEARJET.0.text"
+atc_model="$$:40"
 Category="airplane"
 performance=""
 editable=1

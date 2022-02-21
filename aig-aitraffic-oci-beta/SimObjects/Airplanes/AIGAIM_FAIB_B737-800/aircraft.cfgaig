@@ -549,3 +549,21 @@ description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
+
+[fltsim.29]
+title=AIGAIM_Greater Bay Airlines Boeing 737-800
+model=HGB-Greater Bay Airlines
+texture=HGB-Greater Bay Airlines
+atc_id=B-KJA
+atc_airline=GREATER BAY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HGB
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800
+ui_variation=Greater Bay Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_hgb_b738_jkm.zip
+description=FAIB_B737-800(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HGB

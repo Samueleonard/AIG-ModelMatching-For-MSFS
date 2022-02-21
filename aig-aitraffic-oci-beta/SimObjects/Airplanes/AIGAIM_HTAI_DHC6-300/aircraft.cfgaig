@@ -53,23 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Airfast Indonesia De Havilland DHC 6-300 Twin Otter
-model=AFE-Airfast Indonesia
-texture=AFE-Airfast Indonesia
-atc_airline=AIRFAST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFE
-ui_manufacturer=DE Havilland
-ui_type=De Havilland DHC 6-300 Twin Otter
-ui_variation=Airfast Indonesias
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: htai_dhc6_airfast.zip
-description=HTAI_DHC6-300(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AFE
-
-[fltsim.1]
 title=AIGAIM_Air Tahiti De Havilland DHC 6-300 Twin Otter - opb Air Archipels
 model=VTA-Air Tahiti_opb Air Archipels
 texture=VTA-Air Tahiti_opb Air Archipels
@@ -86,7 +69,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTA
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Isles of Scilly Skybus De Havilland DHC 6-300 Twin Otter
 model=IOS-Isles of Scilly Skybus
 texture=IOS-Isles of Scilly Skybus
@@ -103,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IOS
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Air Antilles De Havilland DHC 6-300 Twin Otter - Albino new titles (TEMP)
 model=GUY-Air Antilles_Albino new titles_temp
 texture=GUY-Air Antilles_Albino new titles_temp
@@ -121,7 +104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GUY
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Air Loyaute De Havilland DHC 6-300 Twin Otter
 model=RLY-Air Loyaute
 texture=RLY-Air Loyaute
@@ -138,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLY
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Air Caledonie De Havilland DHC 6-300 Twin Otter - opb Air Loyaute
 model=TPC-Air Caledonie_opb Air Loyaute
 texture=TPC-Air Caledonie_opb Air Loyaute
@@ -155,7 +138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TPC
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Air Vanuatu De Havilland DHC 6-300 Twin Otter - Albino
 model=AVN-Air Vanuatu_Albino
 texture=AVN-Air Vanuatu_Albino
@@ -172,7 +155,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVN
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Air Vanuatu De Havilland DHC 6-300 Twin Otter - Red YJ-AV11
 model=AVN-Air Vanuatu_Red YJ-AV11
 texture=AVN-Air Vanuatu_Red YJ-AV11
@@ -189,7 +172,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVN
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Nepal Airlines De Havilland DHC 6-300 Twin Otter - OC
 model=RNA-Nepal Airlines_OC
 texture=RNA-Nepal Airlines_OC
@@ -207,7 +190,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RNA
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Winair De Havilland DHC 6-300 Twin Otter - PJ-WIQ
 model=WIA-Winair_PJ-WIQ
 texture=WIA-Winair_PJ-WIQ
@@ -225,7 +208,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIA
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Winair De Havilland DHC 6-300 Twin Otter - PJ-WIU
 model=WIA-Winair_PJ-WIU
 texture=WIA-Winair_PJ-WIU
@@ -243,7 +226,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIA
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Winair De Havilland DHC 6-300 Twin Otter - PJ-WIP
 model=WIA-Winair_PJ-WIP
 texture=WIA-Winair_PJ-WIP
@@ -261,7 +244,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIA
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Winair De Havilland DHC 6-300 Twin Otter - PJ-WII
 model=WIA-Winair_PJ-WII
 texture=WIA-Winair_PJ-WII
@@ -279,7 +262,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIA
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Air Kiribati De Havilland DHC 6-300 Twin Otter
 model=AKL-Air Kiribati
 texture=AKL-Air Kiribati
@@ -298,7 +281,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AKL
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Air Tetiaroa De Havilland DHC 6-300 Twin Otter
 model=TOA-Air Tetiaroa
 texture=TOA-Air Tetiaroa
@@ -315,7 +298,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOA
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Aircalin De Havilland DHC 6-300 Twin Otter - OC
 model=ACI-Aircalin_OC
 texture=ACI-Aircalin_OC
@@ -333,7 +316,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACI
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Divi Divi Air De Havilland DHC 6-300 Twin Otter - blue wingtips
 model=DVR-Divi Divi Air_blue wingtips
 texture=DVR-Divi Divi Air_blue wingtips
@@ -351,7 +334,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DVR
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Divi Divi Air De Havilland DHC 6-300 Twin Otter - green wingtips
 model=DVR-Divi Divi Air_green wingtips
 texture=DVR-Divi Divi Air_green wingtips
@@ -369,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DVR
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Solomon Airlines De Havilland DHC 6-300 Twin Otter
 model=SOL-Solomon Airlines
 texture=SOL-Solomon Airlines
@@ -387,7 +370,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOL
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Solomon Airlines De Havilland DHC 6-300 Twin Otter - Albino
 model=SOL-Solomon Airlines_Albino
 texture=SOL-Solomon Airlines_Albino
@@ -405,7 +388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOL
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Solomon Airlines De Havilland DHC 6-300 Twin Otter - Blue Tail
 model=SOL-Solomon Airlines_Blue Tail
 texture=SOL-Solomon Airlines_Blue Tail
@@ -423,7 +406,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOL
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Cayman Airways De Havilland DHC 6-300 Twin Otter
 model=CAY-Cayman Airways
 texture=CAY-Cayman Airways
@@ -440,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAY
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Fiji Link De Havilland DHC 6-300 Twin Otter
 model=FJA-Fiji Link
 texture=FJA-Fiji Link
@@ -459,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FJA
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_interCaribbean Airways De Havilland DHC 6-300 Twin Otter - VQ-TCG
 model=IWY-interCaribbean Airways_VQ-TCG
 texture=IWY-interCaribbean Airways_VQ-TCG
@@ -477,7 +460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IWY
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_interCaribbean Airways De Havilland DHC 6-300 Twin Otter - VQ-TGW
 model=IWY-interCaribbean Airways_VQ-TGW
 texture=IWY-interCaribbean Airways_VQ-TGW
@@ -495,7 +478,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IWY
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_interCaribbean Airways De Havilland DHC 6-300 Twin Otter - VQ-THG
 model=IWY-interCaribbean Airways_VQ-THG
 texture=IWY-interCaribbean Airways_VQ-THG
@@ -513,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IWY
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_interCaribbean Airways De Havilland DHC 6-300 Twin Otter - VQ-TJP
 model=IWY-interCaribbean Airways_VQ-TJP
 texture=IWY-interCaribbean Airways_VQ-TJP
@@ -531,7 +514,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IWY
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Loganair De Havilland DHC 6-300 Twin Otter
 model=LOG-Loganair
 texture=LOG-Loganair
@@ -548,7 +531,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOG
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Samoa Airways De Havilland DHC 6-300 Twin Otter - Polynesian colors
 model=PAO-Samoa Airways_Polynesian colors
 texture=PAO-Samoa Airways_Polynesian colors

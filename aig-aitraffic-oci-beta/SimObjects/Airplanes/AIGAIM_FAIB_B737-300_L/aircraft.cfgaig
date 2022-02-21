@@ -1301,3 +1301,39 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TJB
+
+[fltsim.72]
+title=AIGAIM_Deraya Air Taxi Boeing 737-300 - Eyebrows
+model=DRY-Deraya Air Taxi_Eyebrows
+texture=DRY-Deraya Air Taxi_Eyebrows
+atc_airline=DERAYA
+atc_heavy=0
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DRY
+ui_manufacturer=FSXAIBureau
+ui_type=Boeing 737-300
+ui_variation=Deraya Air Taxi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib733dry.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DRY
+
+[fltsim.73]
+title=AIGAIM_Varesh Airlines Boeing 737-300 - Logolight
+model=VRH-Varesh Airlines_Logolight
+texture=VRH-Varesh Airlines_Logolight
+atc_id=EP-VAI
+atc_airline=SKY VICTOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=Varesh Airlines EP-VAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-300 Varesh Airlines.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRH
