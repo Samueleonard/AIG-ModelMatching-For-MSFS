@@ -819,3 +819,18 @@ description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
+
+[fltsim.41]
+title=AIGAIM_AH Aviation Pilatus PC-12 - OY-AWH
+model=GA2T-AH Aviation_OY-AWH
+texture=GA2T-AH Aviation_OY-AWH
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_type=Pilatus PC-12
+ui_variation=Pilatus PC-12NG, c/n 1816, AH Aviation OY-AWH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: AIG_PC12_OY-AWH.zip
+description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
