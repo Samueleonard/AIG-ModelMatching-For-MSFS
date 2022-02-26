@@ -1,0 +1,597 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BOMBARDIER.0.text"
+atc_model="TT:ATCCOM.AC_MODEL CHALLENGER.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=CL30
+icao_manufacturer=BOMBARDIER
+icao_model=Challenger 350
+icao_engine_type="Jet"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=0
+SMALL_PUSHBACK=1
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N1897A
+model=GA3J-Flexjet_N1897A
+texture=GA3J-Flexjet_N1897A
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA3J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20319, Flexjet, N1897A
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.1]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N425FX
+model=GA2J-Flexjet_N425FX
+texture=GA2J-Flexjet_N425FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20454, Flexjet, N425FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.2]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N517FX
+model=GA2J-Flexjet_N517FX
+texture=GA2J-Flexjet_N517FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20038, Flexjet, N517FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.3]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N518FX
+model=GA2J-Flexjet_N518FX
+texture=GA2J-Flexjet_N518FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20046, Flexjet, N518FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.4]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N520FX
+model=GA2J-Flexjet_N520FX
+texture=GA2J-Flexjet_N520FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20056, Flexjet, N520FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.5]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N521FX
+model=GA2J-Flexjet_N521FX
+texture=GA2J-Flexjet_N521FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20057, Flexjet, N521FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.6]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N522FX
+model=GA2J-Flexjet_N522FX
+texture=GA2J-Flexjet_N522FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20064, Flexjet, N522FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.7]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N524FX
+model=GA2J-Flexjet_N524FX
+texture=GA2J-Flexjet_N524FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20095, Flexjet, N524FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.8]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N525FX
+model=GA2J-Flexjet_N525FX
+texture=GA2J-Flexjet_N525FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20112, Flexjet, N525FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.9]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N526FX
+model=GA2J-Flexjet_N526FX
+texture=GA2J-Flexjet_N526FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20118, Flexjet, N526FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.10]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N527FX
+model=GA2J-Flexjet_N527FX
+texture=GA2J-Flexjet_N527FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20064, Flexjet, N527FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.11]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N528FX
+model=GA2J-Flexjet_N528FX
+texture=GA2J-Flexjet_N528FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20125, Flexjet, N528FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.12]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N529FX
+model=GA2J-Flexjet_N529FX
+texture=GA2J-Flexjet_N529FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20128, Flexjet, N529FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.13]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N530FX
+model=GA2J-Flexjet_N530FX
+texture=GA2J-Flexjet_N530FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20148, Flexjet, N530FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.14]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N531FX
+model=GA2J-Flexjet_N531FX
+texture=GA2J-Flexjet_N531FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20150, Flexjet, N531FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.15]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N532FX
+model=GA2J-Flexjet_N532FX
+texture=GA2J-Flexjet_N532FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20154, Flexjet, N532FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.16]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N533FX
+model=GA2J-Flexjet_N533FX
+texture=GA2J-Flexjet_N533FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20160, Flexjet, N533FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.17]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N534FX
+model=GA2J-Flexjet_N534FX
+texture=GA2J-Flexjet_N534FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20161, Flexjet, N534FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.18]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N535FX
+model=GA2J-Flexjet_N535FX
+texture=GA2J-Flexjet_N535FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20167, Flexjet, N535FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.19]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N536FX
+model=GA2J-Flexjet_N536FX
+texture=GA2J-Flexjet_N536FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20171, Flexjet, N536FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.20]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N538FX
+model=GA2J-Flexjet_N538FX
+texture=GA2J-Flexjet_N538FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20201, Flexjet, N538FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.21]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N540FX
+model=GA2J-Flexjet_N540FX
+texture=GA2J-Flexjet_N540FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20205, Flexjet, N540FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.22]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N541FX
+model=GA2J-Flexjet_N541FX
+texture=GA2J-Flexjet_N541FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20211, Flexjet, N541FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.23]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N542FX
+model=GA2J-Flexjet_N542FX
+texture=GA2J-Flexjet_N542FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20217, Flexjet, N542FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.24]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N545FX
+model=GA2J-Flexjet_N545FX
+texture=GA2J-Flexjet_N545FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20302, Flexjet, N545FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.25]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N547FX
+model=GA2J-Flexjet_N547FX
+texture=GA2J-Flexjet_N547FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20341, Flexjet, N547FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.26]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N548FX
+model=GA2J-Flexjet_N548FX
+texture=GA2J-Flexjet_N548FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20342, Flexjet, N548FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.27]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N549FX
+model=GA2J-Flexjet_N549FX
+texture=GA2J-Flexjet_N549FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20374, Flexjet, N549FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.28]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N550FX
+model=GA2J-Flexjet_N550FX
+texture=GA2J-Flexjet_N550FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20391, Flexjet, N550FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.29]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N551FX
+model=GA2J-Flexjet_N551FX
+texture=GA2J-Flexjet_N551FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20272, Flexjet, N551FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.30]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N552FX
+model=GA2J-Flexjet_N552FX
+texture=GA2J-Flexjet_N552FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20084, Flexjet, N552FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
+
+[fltsim.31]
+title=AIGAIM_Flexjet Bombardier Challenger 300 - N553FX
+model=GA2J-Flexjet_N553FX
+texture=GA2J-Flexjet_N553FX
+atc_airline=FLEXJET
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,LXJ
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20236, Flexjet, N553FX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FlexjetChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LXJ
