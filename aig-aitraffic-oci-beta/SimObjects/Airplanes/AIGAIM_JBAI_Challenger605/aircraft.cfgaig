@@ -368,3 +368,19 @@ description=JBAI_Challenger605-Marco_605_NoSat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+
+[fltsim.19]
+title=AIGAIM_Raytheon Technologies Bombardier Challenger 605 - N36RT
+model=GA2J-Raytheon Technologies_N36RT
+texture=GA2J-Raytheon Technologies_N36RT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger 605, c/n 5800, Raytheon Technologies, N36RT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: Raytheon_Technologies_CL605.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

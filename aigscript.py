@@ -3,6 +3,7 @@ from operator import truediv
 import os
 import shutil
 import time
+import webbrowser
 
 comFolderPath = "E:\\MSFS\\Community\\Traffic\\aig-aitraffic-oci-beta\\"
 githubFolderPath = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
@@ -27,6 +28,7 @@ def copyFiles(toGithub):
             shutil.move(githubFolderPath + name, comFolderPath)
             print("copied " + githubFolderPath + name + " to " + comFolderPath)
         shutil.move(githubFolderPath + "BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr", "C:\\Users\\samue\\Documents\\vPilot Files\\BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr")
+        shutil.rmtree(githubFolderPath)
     else:
         for name in names:
             print("copying " + comFolderPath + name + " to " + githubFolderPath)
@@ -36,13 +38,14 @@ def copyFiles(toGithub):
 
 def openGithub():
     os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
-    wait = input("commit your changes and press enter to continue")
 
 def createZip():
     print("creating zip folder at: " + githubFolderPath + ".zip")
     if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
         shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
     print("zip folder created")
+    webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
+    wait = input("commit your changes and press enter to continue")
 
 def start():
     clearGithubDir()
