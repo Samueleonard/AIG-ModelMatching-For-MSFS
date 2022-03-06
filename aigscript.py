@@ -40,7 +40,7 @@ def openGithub():
     os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
 
 def createZip():
-    print("creating zip folder at: " + githubFolderPath + ".zip")
+    print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
     if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
         shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
     print("zip folder created")
