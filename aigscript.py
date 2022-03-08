@@ -40,12 +40,16 @@ def openGithub():
     os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
 
 def createZip():
-    print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
-    if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
-        shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
-    print("zip folder created")
-    webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
-    wait = input("commit your changes and press enter to continue")
+    choice = input("Do you want to create a zip file? (y/n)")
+    if(choice == "y"):
+        print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
+        if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
+            shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
+        print("zip folder created")
+        webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
+        wait = input("commit your changes and press enter to continue")
+    else:
+        print("skipping zip creation")
 
 def start():
     clearGithubDir()
