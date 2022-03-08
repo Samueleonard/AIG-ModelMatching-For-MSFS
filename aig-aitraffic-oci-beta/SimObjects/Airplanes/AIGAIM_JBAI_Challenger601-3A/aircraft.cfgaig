@@ -103,3 +103,37 @@ description=JBAI_Challenger601-3A-601(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
+
+[fltsim.3]
+title=AIGAIM_Chartright Air Bombardier Challenger 601 - C-FTDA
+model=GA2J-Chartright Air_C-FTDA
+texture=GA2J-Chartright Air_C-FTDA
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 601
+ui_variation=Bombardier Challenger 601, c/n 3049, Chartright Air, C-FTDA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: JBAI_CL601_C-FTDA.zip
+description=JBAI_Challenger601-3A-Marco-601(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.4]
+title=AIGAIM_Chartright Air Bombardier Challenger 601 - C-GPAJ
+model=GA2J-Chartright Air_C-GPAJ
+texture=GA2J-Chartright Air_C-GPAJ
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 601
+ui_variation=Bombardier Challenger 601, c/n 3056, Chartright Air, C-GPAJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: JBAI_CL601_C-GPAJ.zip
+description=JBAI_Challenger601-3A-Marco-601(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT

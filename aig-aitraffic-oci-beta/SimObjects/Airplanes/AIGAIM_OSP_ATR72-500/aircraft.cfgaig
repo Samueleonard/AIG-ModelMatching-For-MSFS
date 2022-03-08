@@ -87,3 +87,39 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
+
+[fltsim.2]
+title=AIGAIM_CSA Czech Airlines ATR 72-500 - 95 Years
+model=CSA-CSA Czech Airlines_95 Years
+texture=CSA-CSA Czech Airlines_95 Years
+atc_id=OK-GFS
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=CSA Czech Airlines j.s.c.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATR72 CSA FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA
+
+[fltsim.3]
+title=AIGAIM_CSA Czech Airlines ATR 72-500 - Skyteam
+model=CSA-CSA Czech Airlines_Skyteam
+texture=CSA-CSA Czech Airlines_Skyteam
+atc_id=OK-GFR
+atc_airline=CSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSA
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=CSA Czech Airlines j.s.c.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATR72 CSA FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSA

@@ -638,3 +638,20 @@ description=JBAI_Challenger650-Marco_605_Sat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.35]
+title=AIGAIM_Chartright Air Bombardier Challenger 650 - C-FFBE
+model=GA2J-Chartright Air_C-FFBE
+texture=GA2J-Chartright Air_C-FFBE
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 650
+ui_variation=Bombardier Challenger 650, c/n 6168, Chartright Air, C-FFBE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: JBAI_CL650_C-FFBE.zip
+description=JBAI_Challenger650-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT

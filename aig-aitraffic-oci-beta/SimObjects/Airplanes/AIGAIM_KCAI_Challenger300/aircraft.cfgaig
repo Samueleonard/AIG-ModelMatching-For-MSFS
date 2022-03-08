@@ -595,3 +595,139 @@ description=KCAI_Challenger300-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LXJ
+
+[fltsim.32]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-FGCV
+model=GA2J-Chartright Air_C-FGCV
+texture=GA2J-Chartright Air_C-FGCV
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20042, Chartright Air, C-FGCV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.33]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-FGGF
+model=GA2J-Chartright Air_C-FGGF
+texture=GA2J-Chartright Air_C-FGGF
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20381, Chartright Air, C-FGGF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.34]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-FGSS
+model=GA2J-Chartright Air_C-FGSS
+texture=GA2J-Chartright Air_C-FGSS
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20114, Chartright Air, C-FGSS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.35]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-FWUT
+model=GA2J-Chartright Air_C-FWUT
+texture=GA2J-Chartright Air_C-FWUT
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20246, Chartright Air, C-FWUT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.36]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-FXGO
+model=GA2J-Chartright Air_C-FXGO
+texture=GA2J-Chartright Air_C-FXGO
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20242, Chartright Air, C-FXGO
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.37]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-GSJK
+model=GA2J-Chartright Air_C-GSJK
+texture=GA2J-Chartright Air_C-GSJK
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20433, Chartright Air, C-GSJK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.38]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-GTUF
+model=GA2J-Chartright Air_C-GTUF
+texture=GA2J-Chartright Air_C-GTUF
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20142, Chartright Air, C-GTUF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
+
+[fltsim.39]
+title=AIGAIM_Chartright Air Bombardier Challenger 300 - C-GWWW
+model=GA2J-Chartright Air_C-GWWW
+texture=GA2J-Chartright Air_C-GWWW
+atc_airline=CHARTRIGHT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,HRT
+ui_manufacturer=KCAI
+ui_type=Bombardier Challenger 300
+ui_variation=Bombardier Challenger 300, c/n 20451, Chartright Air, C-GWWW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ChartrightAirChallenger300s.zip
+description=KCAI_Challenger300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HRT
