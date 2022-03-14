@@ -728,42 +728,6 @@ isUserSelectable=0
 icao_airline=THY
 
 [fltsim.39]
-title=AIGAIM_Volaris Airbus A319-100 - OC
-model=VOI-Volaris_OC
-texture=VOI-Volaris_OC
-atc_id=XA-VOI
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A319-100
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a319_p3d.zip
-description=FAIB_A319-100_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.40]
-title=AIGAIM_Volaris Airbus A319-100 - OC no Engine Logo
-model=VOI-Volaris_OC no Engine Logo
-texture=VOI-Volaris_OC no Engine Logo
-atc_id=XA-VOK
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A319-100
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a319_p3d.zip
-description=FAIB_A319-100_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.41]
 title=AIGAIM_Volaris Costa Rica Airbus A319-100 - unnamed
 model=VOC-Volaris Costa Rica_unnamed
 texture=VOC-Volaris Costa Rica_unnamed
@@ -781,7 +745,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOC
 
-[fltsim.42]
+[fltsim.40]
 title=AIGAIM_Volaris Costa Rica Airbus A319-100 - Costa Rica
 model=VOC-Volaris Costa Rica_Costa Rica
 texture=VOC-Volaris Costa Rica_Costa Rica
@@ -799,7 +763,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOC
 
-[fltsim.43]
+[fltsim.41]
 title=AIGAIM_Volaris Costa Rica Airbus A319-100 - Alux Nahual
 model=VOC-Volaris Costa Rica_Alux Nahual
 texture=VOC-Volaris Costa Rica_Alux Nahual
@@ -817,7 +781,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOC
 
-[fltsim.44]
+[fltsim.42]
 title=AIGAIM_Bamboo Airways Airbus A319-100
 model=BAV-Bamboo Airways
 texture=BAV-Bamboo Airways
@@ -835,7 +799,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
 
-[fltsim.45]
+[fltsim.43]
 title=AIGAIM_British Airways Airbus A319-100
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -852,7 +816,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.46]
+[fltsim.44]
 title=AIGAIM_British Airways Airbus A319-100 - OC
 model=BAW-British Airways_OC
 texture=BAW-British Airways_OC
@@ -869,7 +833,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.47]
+[fltsim.45]
 title=AIGAIM_British Airways Airbus A319-100 - OC Crest
 model=BAW-British Airways_OC Crest
 texture=BAW-British Airways_OC Crest
@@ -886,7 +850,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.48]
+[fltsim.46]
 title=AIGAIM_British Airways Airbus A319-100 - Retro BEA
 model=BAW-British Airways_Retro BEA
 texture=BAW-British Airways_Retro BEA
@@ -903,7 +867,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.49]
+[fltsim.47]
 title=AIGAIM_British Airways Airbus A319-100 - LGW cfg
 model=BAW-British Airways_LGW cfg
 texture=BAW-British Airways_LGW cfg
@@ -920,7 +884,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.50]
+[fltsim.48]
 title=AIGAIM_British Airways Airbus A319-100 - LGW cfg OC Crest
 model=BAW-British Airways_LGW cfg OC Crest
 texture=BAW-British Airways_LGW cfg OC Crest
@@ -937,7 +901,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.51]
+[fltsim.49]
 title=AIGAIM_United Airlines Airbus A319-100
 model=UAL-United Airlines
 texture=UAL-United Airlines
@@ -955,7 +919,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.52]
+[fltsim.50]
 title=AIGAIM_United Airlines Airbus A319-100 - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -973,7 +937,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.53]
+[fltsim.51]
 title=AIGAIM_Ellinair Airbus A319-100
 model=ELB-Ellinair
 texture=ELB-Ellinair
@@ -991,7 +955,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELB
 
-[fltsim.54]
+[fltsim.52]
 title=AIGAIM_Eurowings Airbus A319-100 - IAE
 model=EWG-Eurowings_IAE
 texture=EWG-Eurowings_IAE
@@ -1009,7 +973,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.55]
+[fltsim.53]
 title=AIGAIM_Eurowings Airbus A319-100 - IAE White Engines
 model=EWG-Eurowings_IAE White Engines
 texture=EWG-Eurowings_IAE White Engines
@@ -1027,7 +991,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.56]
+[fltsim.54]
 title=AIGAIM_Eurowings Airbus A319-100 - IAE opb EWE
 model=EWG-Eurowings_IAE opb EWE
 texture=EWG-Eurowings_IAE opb EWE
@@ -1045,7 +1009,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.57]
+[fltsim.55]
 title=AIGAIM_Eurowings Airbus A319-100 - IAE Germanwings Wifi Dome
 model=EWG-Eurowings_IAE Germanwings Wifi Dome
 texture=EWG-Eurowings_IAE Germanwings Wifi Dome
@@ -1063,7 +1027,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.58]
+[fltsim.56]
 title=AIGAIM_Royal Air Philippines Airbus A319-100
 model=RYL-Royal Air Philippines
 texture=RYL-Royal Air Philippines
@@ -1078,7 +1042,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYL
 
-[fltsim.59]
+[fltsim.57]
 title=AIGAIM_SilkAir Airbus A319-100
 model=SLK-SilkAir
 texture=SLK-SilkAir
@@ -1096,7 +1060,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SLK
 
-[fltsim.60]
+[fltsim.58]
 title=AIGAIM_Qatar Airways Airbus A319-100 - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -1114,7 +1078,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.61]
+[fltsim.59]
 title=AIGAIM_HiSky Airbus A319-100 - IAE
 model=HYS-HiSky_IAE
 texture=HYS-HiSky_IAE
@@ -1132,7 +1096,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYS
 
-[fltsim.62]
+[fltsim.60]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - IAE
 model=TAM-LATAM Airlines Brasil_IAE
 texture=TAM-LATAM Airlines Brasil_IAE
@@ -1149,7 +1113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.63]
+[fltsim.61]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - IAE LATAM Travel
 model=TAM-LATAM Airlines Brasil_IAE LATAM Travel
 texture=TAM-LATAM Airlines Brasil_IAE LATAM Travel
@@ -1166,7 +1130,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.64]
+[fltsim.62]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - IAE OC (TEMP)
 model=TAM-LATAM Airlines Brasil_IAE OC_temp
 texture=TAM-LATAM Airlines Brasil_IAE OC_temp
@@ -1184,7 +1148,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.65]
+[fltsim.63]
 title=AIGAIM_LATAM Airlines Brasil Airbus A319-100 - IAE OC MSN 4000 (TEMP)
 model=TAM-LATAM Airlines Brasil_IAE OC MSN 4000_temp
 texture=TAM-LATAM Airlines Brasil_IAE OC MSN 4000_temp
@@ -1202,7 +1166,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.66]
+[fltsim.64]
 title=AIGAIM_LATAM Airlines Colombia Airbus A319-100 - IAE Colombia Flag
 model=ARE-LATAM Airlines Colombia_IAE Colombia Flag
 texture=ARE-LATAM Airlines Colombia_IAE Colombia Flag
@@ -1219,7 +1183,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARE
 
-[fltsim.67]
+[fltsim.65]
 title=AIGAIM_LATAM Airlines Colombia Airbus A319-100 - IAE OC Colombia Flag
 model=ARE-LATAM Airlines Colombia_IAE OC Colombia Flag
 texture=ARE-LATAM Airlines Colombia_IAE OC Colombia Flag
@@ -1236,7 +1200,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARE
 
-[fltsim.68]
+[fltsim.66]
 title=AIGAIM_LATAM Airlines Ecuador Airbus A319-100
 model=LNE-LATAM Airlines Ecuador
 texture=LNE-LATAM Airlines Ecuador
@@ -1253,7 +1217,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNE
 
-[fltsim.69]
+[fltsim.67]
 title=AIGAIM_LATAM Airlines Ecuador Airbus A319-100 - Oneworld
 model=LNE-LATAM Airlines Ecuador_Oneworld
 texture=LNE-LATAM Airlines Ecuador_Oneworld
@@ -1270,7 +1234,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNE
 
-[fltsim.70]
+[fltsim.68]
 title=AIGAIM_LATAM Airlines Ecuador Airbus A319-100 - OC
 model=LNE-LATAM Airlines Ecuador_OC
 texture=LNE-LATAM Airlines Ecuador_OC
@@ -1288,7 +1252,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNE
 
-[fltsim.71]
+[fltsim.69]
 title=AIGAIM_LATAM Airlines Ecuador Airbus A319-100 - opb LAN OC
 model=LNE-LATAM Airlines Ecuador_opb LAN OC
 texture=LNE-LATAM Airlines Ecuador_opb LAN OC
@@ -1305,7 +1269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNE
 
-[fltsim.72]
+[fltsim.70]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - IAE
 model=LPE-LATAM Airlines Peru_IAE
 texture=LPE-LATAM Airlines Peru_IAE
@@ -1322,7 +1286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.73]
+[fltsim.71]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - IAE Arriba Latinoamerica
 model=LPE-LATAM Airlines Peru_IAE Arriba Latinoamerica
 texture=LPE-LATAM Airlines Peru_IAE Arriba Latinoamerica
@@ -1339,7 +1303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.74]
+[fltsim.72]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - IAE Colombia Flag
 model=LPE-LATAM Airlines Peru_IAE Colombia Flag
 texture=LPE-LATAM Airlines Peru_IAE Colombia Flag
@@ -1356,7 +1320,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.75]
+[fltsim.73]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - IAE OC
 model=LPE-LATAM Airlines Peru_IAE OC
 texture=LPE-LATAM Airlines Peru_IAE OC
@@ -1373,7 +1337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.76]
+[fltsim.74]
 title=AIGAIM_LATAM Airlines Peru Airbus A319-100 - IAE OC Peru Flag
 model=LPE-LATAM Airlines Peru_IAE OC Peru Flag
 texture=LPE-LATAM Airlines Peru_IAE OC Peru Flag
@@ -1390,7 +1354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.77]
+[fltsim.75]
 title=AIGAIM_Royal Jordanian Airlines Airbus A319-100 - Webtitles
 model=RJA-Royal Jordanian Airlines_Webtitles
 texture=RJA-Royal Jordanian Airlines_Webtitles
@@ -1408,7 +1372,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.78]
+[fltsim.76]
 title=AIGAIM_Royal Jordanian Airlines Airbus A319-100 - Oneworld
 model=RJA-Royal Jordanian Airlines_Oneworld
 texture=RJA-Royal Jordanian Airlines_Oneworld
@@ -1426,7 +1390,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.79]
+[fltsim.77]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A319-100
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -1444,7 +1408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.80]
+[fltsim.78]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A319-100 - Retro Livery
 model=SAS-SAS Scandinavian Airlines_Retro Livery
 texture=SAS-SAS Scandinavian Airlines_Retro Livery
@@ -1462,7 +1426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.81]
+[fltsim.79]
 title=AIGAIM_South African Airways Airbus A319-100
 model=SAA-South African Airways
 texture=SAA-South African Airways
@@ -1480,7 +1444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAA
 
-[fltsim.82]
+[fltsim.80]
 title=AIGAIM_Spirit Airlines Airbus A319-100
 model=NKS-Spirit Airlines
 texture=NKS-Spirit Airlines
@@ -1498,7 +1462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
 
-[fltsim.83]
+[fltsim.81]
 title=AIGAIM_Spirit Airlines Airbus A319-100 - OC Yellow
 model=NKS-Spirit Airlines_OC Yellow
 texture=NKS-Spirit Airlines_OC Yellow
@@ -1516,7 +1480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
 
-[fltsim.84]
+[fltsim.82]
 title=AIGAIM_Spirit Airlines Airbus A319-100 - OC Yellow new Engine Titles
 model=NKS-Spirit Airlines_OC Yellow new Engine Titles
 texture=NKS-Spirit Airlines_OC Yellow new Engine Titles
@@ -1533,3 +1497,111 @@ description=FAIB_A319-100_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+
+[fltsim.83]
+title=AIGAIM_Volaris Airbus A319-100 - IAE Ixchel
+model=VOI-Volaris_IAE Ixchel
+texture=VOI-Volaris_IAE Ixchel
+atc_id=XA-VOI
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.84]
+title=AIGAIM_Volaris Airbus A319-100 - IAE Celina
+model=VOI-Volaris_IAE Celina
+texture=VOI-Volaris_IAE Celina
+atc_id=XA-VOC
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.85]
+title=AIGAIM_Volaris Airbus A319-100 - IAE albino
+model=VOI-Volaris_IAE albino
+texture=VOI-Volaris_IAE albino
+atc_id=XA-VOE
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.86]
+title=AIGAIM_Volaris Airbus A319-100 - IAE unnamed N504VL
+model=VOC-Volaris_IAE unnamed N504VL
+texture=VOC-Volaris_IAE unnamed N504VL
+atc_id=N504VL
+atc_airline=COSTA RICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOC
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris Costa Rica
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voc_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOC
+
+[fltsim.87]
+title=AIGAIM_Volaris Airbus A319-100 - IAE unnamed N501VL
+model=VOC-Volaris_IAE unnamed N501VL
+texture=VOC-Volaris_IAE unnamed N501VL
+atc_id=N501VL
+atc_airline=COSTA RICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOC
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris Costa Rica
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voc_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOC
+
+[fltsim.88]
+title=AIGAIM_Volaris Airbus A319-100 - IAE unnamed N503VL
+model=VOC-Volaris_IAE unnamed N503VL
+texture=VOC-Volaris_IAE unnamed N503VL
+atc_id=N503VL
+atc_airline=COSTA RICAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOC
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Volaris Costa Rica
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voc_a319_kjm.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOC

@@ -601,96 +601,6 @@ isUserSelectable=0
 icao_airline=VIV
 
 [fltsim.32]
-title=AIGAIM_Volaris Airbus A320-200SL - OC
-model=VOI-Volaris_OC
-texture=VOI-Volaris_OC
-atc_id=XA-VLL
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a320sl_p3d.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.33]
-title=AIGAIM_Volaris Airbus A320-200SL - OC unnamed
-model=VOI-Volaris_OC unnamed
-texture=VOI-Volaris_OC unnamed
-atc_id=XA-VLF
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a320sl_p3d.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.34]
-title=AIGAIM_Volaris Airbus A320-200SL - OC no Engine Logo
-model=VOI-Volaris_OC no Engine Logo
-texture=VOI-Volaris_OC no Engine Logo
-atc_id=N522VL
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a320sl_p3d.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.35]
-title=AIGAIM_Volaris Airbus A320-200SL - OC Ellos ahorraron Belly Titles
-model=VOI-Volaris_OC Ellos ahorraron Belly Titles
-texture=VOI-Volaris_OC Ellos ahorraron Belly Titles
-atc_id=XA-VLB
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a320sl_p3d.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.36]
-title=AIGAIM_Volaris Airbus A320-200SL - OC Frida
-model=VOI-Volaris_OC Frida
-texture=VOI-Volaris_OC Frida
-atc_id=N525VL
-atc_airline=VOLARIS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VOI
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Volaris
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_voi_a320sl_p3d.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VOI
-
-[fltsim.37]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE
 model=VLG-Vueling_IAE
 texture=VLG-Vueling_IAE
@@ -708,7 +618,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.38]
+[fltsim.33]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE Disneyland Paris Tinkerbell
 model=VLG-Vueling_IAE Disneyland Paris Tinkerbell
 texture=VLG-Vueling_IAE Disneyland Paris Tinkerbell
@@ -726,7 +636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.39]
+[fltsim.34]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE unnamed
 model=VLG-Vueling_IAE unnamed
 texture=VLG-Vueling_IAE unnamed
@@ -744,7 +654,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.40]
+[fltsim.35]
 title=AIGAIM_Vueling Airbus A320-200SL - IAE unnamed Vueling loves Barcelona
 model=VLG-Vueling_IAE unnamed Vueling loves Barcelona
 texture=VLG-Vueling_IAE unnamed Vueling loves Barcelona
@@ -762,7 +672,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.41]
+[fltsim.36]
 title=AIGAIM_British Airways Airbus A320-200SL
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -779,7 +689,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.42]
+[fltsim.37]
 title=AIGAIM_Tigerair Taiwan Airbus A320-200SL (TEMP)
 model=TTW-Tigerair Taiwan_temp
 texture=TTW-Tigerair Taiwan_temp
@@ -797,7 +707,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TTW
 
-[fltsim.43]
+[fltsim.38]
 title=AIGAIM_Thai Smile Airbus A320-200SL
 model=THD-Thai Smile
 texture=THD-Thai Smile
@@ -815,7 +725,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THD
 
-[fltsim.44]
+[fltsim.39]
 title=AIGAIM_Thai Smile Airbus A320-200SL - Cartoon Network
 model=THD-Thai Smile_Cartoon Network
 texture=THD-Thai Smile_Cartoon Network
@@ -833,7 +743,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THD
 
-[fltsim.45]
+[fltsim.40]
 title=AIGAIM_Jetstar Pacific Airbus A320-200SL
 model=PIC-Jetstar Pacific
 texture=PIC-Jetstar Pacific
@@ -851,7 +761,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIC
 
-[fltsim.46]
+[fltsim.41]
 title=AIGAIM_Etihad Airways Airbus A320-200SL
 model=ETD-Etihad Airways
 texture=ETD-Etihad Airways
@@ -869,7 +779,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.47]
+[fltsim.42]
 title=AIGAIM_Etihad Airways Airbus A320-200SL - OC
 model=ETD-Etihad Airways_OC
 texture=ETD-Etihad Airways_OC
@@ -887,7 +797,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.48]
+[fltsim.43]
 title=AIGAIM_Etihad Airways Airbus A320-200SL - OC Small Titles
 model=ETD-Etihad Airways_OC Small Titles
 texture=ETD-Etihad Airways_OC Small Titles
@@ -905,7 +815,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.49]
+[fltsim.44]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-HEK Huemul
 model=JES-JetSmart Argentina_LV-HEK Huemul
 texture=JES-JetSmart Argentina_LV-HEK Huemul
@@ -923,7 +833,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
 
-[fltsim.50]
+[fltsim.45]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-HVT Jaguar
 model=JES-JetSmart Argentina_LV-HVT Jaguar
 texture=JES-JetSmart Argentina_LV-HVT Jaguar
@@ -941,7 +851,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
 
-[fltsim.51]
+[fltsim.46]
 title=AIGAIM_JetSmart Argentina Airbus A320-200SL - LV-IVO Cardinal
 model=JES-JetSmart Argentina_LV-IVO Cardinal
 texture=JES-JetSmart Argentina_LV-IVO Cardinal
@@ -959,7 +869,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JES
 
-[fltsim.52]
+[fltsim.47]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWA Halcon Peregrino Austral
 model=JAT-JetSmart_CC-AWA Halcon Peregrino Austral
 texture=JAT-JetSmart_CC-AWA Halcon Peregrino Austral
@@ -977,7 +887,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.53]
+[fltsim.48]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWB Martin Pescador
 model=JAT-JetSmart_CC-AWB Martin Pescador
 texture=JAT-JetSmart_CC-AWB Martin Pescador
@@ -995,7 +905,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.54]
+[fltsim.49]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWC Loica
 model=JAT-JetSmart_CC-AWC Loica
 texture=JAT-JetSmart_CC-AWC Loica
@@ -1013,7 +923,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.55]
+[fltsim.50]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWD Condor Andino
 model=JAT-JetSmart_CC-AWD Condor Andino
 texture=JAT-JetSmart_CC-AWD Condor Andino
@@ -1031,7 +941,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.56]
+[fltsim.51]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWE Gaviota Austral
 model=JAT-JetSmart_CC-AWE Gaviota Austral
 texture=JAT-JetSmart_CC-AWE Gaviota Austral
@@ -1049,7 +959,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.57]
+[fltsim.52]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWF Puma Concolor
 model=JAT-JetSmart_CC-AWF Puma Concolor
 texture=JAT-JetSmart_CC-AWF Puma Concolor
@@ -1067,7 +977,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.58]
+[fltsim.53]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWG Pinguino Rey
 model=JAT-JetSmart_CC-AWG Pinguino Rey
 texture=JAT-JetSmart_CC-AWG Pinguino Rey
@@ -1085,7 +995,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.59]
+[fltsim.54]
 title=AIGAIM_JetSmart Airbus A320-200SL - CC-AWI Zorro Culpeo
 model=JAT-JetSmart_CC-AWI Zorro Culpeo
 texture=JAT-JetSmart_CC-AWI Zorro Culpeo
@@ -1103,7 +1013,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
 
-[fltsim.60]
+[fltsim.55]
 title=AIGAIM_MEA Middle East Airlines Airbus A320-200SL - IAE
 model=MEA-MEA Middle East Airlines_IAE
 texture=MEA-MEA Middle East Airlines_IAE
@@ -1121,7 +1031,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MEA
 
-[fltsim.61]
+[fltsim.56]
 title=AIGAIM_SaudiGulf Airlines Airbus A320-200SL
 model=SGQ-SaudiGulf Airlines
 texture=SGQ-SaudiGulf Airlines
@@ -1139,7 +1049,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SGQ
 
-[fltsim.62]
+[fltsim.57]
 title=AIGAIM_Scoot Airbus A320-200SL - rear Company Titles
 model=TGW-Scoot_rear Company Titles
 texture=TGW-Scoot_rear Company Titles
@@ -1157,7 +1067,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
 
-[fltsim.63]
+[fltsim.58]
 title=AIGAIM_Qatar Airways Airbus A320-200SL - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -1175,7 +1085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.64]
+[fltsim.59]
 title=AIGAIM_FlyArystan Airbus A320-200SL
 model=KZR-FlyArystan
 texture=KZR-FlyArystan
@@ -1193,7 +1103,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
 
-[fltsim.65]
+[fltsim.60]
 title=AIGAIM_FlyArystan Airbus A320-200SL - Unnamed
 model=KZR-FlyArystan_Unnamed
 texture=KZR-FlyArystan_Unnamed
@@ -1211,7 +1121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
 
-[fltsim.66]
+[fltsim.61]
 title=AIGAIM_FlyArystan Airbus A320-200SL - No Engine Titles
 model=KZR-FlyArystan_No Engine Titles
 texture=KZR-FlyArystan_No Engine Titles
@@ -1229,7 +1139,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
 
-[fltsim.67]
+[fltsim.62]
 title=AIGAIM_HiSky Airbus A320-200SL - IAE
 model=HYS-HiSky_IAE
 texture=HYS-HiSky_IAE
@@ -1247,7 +1157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HYS
 
-[fltsim.68]
+[fltsim.63]
 title=AIGAIM_IndiGo Airbus A320-200SL
 model=IGO-IndiGo
 texture=IGO-IndiGo
@@ -1265,7 +1175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
 
-[fltsim.69]
+[fltsim.64]
 title=AIGAIM_IndiGo Airbus A320-200SL - 100th A320
 model=IGO-IndiGo_100th A320
 texture=IGO-IndiGo_100th A320
@@ -1283,7 +1193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
 
-[fltsim.70]
+[fltsim.65]
 title=AIGAIM_IndiGo Airbus A320-200SL - Employee of the Year 2016
 model=IGO-IndiGo_Employee of the Year 2016
 texture=IGO-IndiGo_Employee of the Year 2016
@@ -1301,7 +1211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
 
-[fltsim.71]
+[fltsim.66]
 title=AIGAIM_Israir Airlines Airbus A320-200SL - IAE Partnership Marocco (TEMP)
 model=ISR-Israir Airlines_IAE Partnership Marocco_temp
 texture=ISR-Israir Airlines_IAE Partnership Marocco_temp
@@ -1319,7 +1229,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ISR
 
-[fltsim.72]
+[fltsim.67]
 title=AIGAIM_jetBlue Airbus A320-200SL - Blueberries
 model=JBU-jetBlue_Blueberries
 texture=JBU-jetBlue_Blueberries
@@ -1337,7 +1247,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.73]
+[fltsim.68]
 title=AIGAIM_jetBlue Airbus A320-200SL - Y150 Barcode
 model=JBU-jetBlue_Y150 Barcode
 texture=JBU-jetBlue_Y150 Barcode
@@ -1355,7 +1265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.74]
+[fltsim.69]
 title=AIGAIM_jetBlue Airbus A320-200SL - Y150 Connected to Blue
 model=JBU-jetBlue_Y150 Connected to Blue
 texture=JBU-jetBlue_Y150 Connected to Blue
@@ -1373,7 +1283,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.75]
+[fltsim.70]
 title=AIGAIM_jetBlue Airbus A320-200SL - Y150 jetBlue for Good
 model=JBU-jetBlue_Y150 jetBlue for Good
 texture=JBU-jetBlue_Y150 jetBlue for Good
@@ -1391,7 +1301,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.76]
+[fltsim.71]
 title=AIGAIM_Jetstar Airways Airbus A320-200SL
 model=JST-Jetstar Airways
 texture=JST-Jetstar Airways
@@ -1409,7 +1319,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JST
 
-[fltsim.77]
+[fltsim.72]
 title=AIGAIM_Jetstar Asia Airways Airbus A320-200SL
 model=JSA-Jetstar Asia Airways
 texture=JSA-Jetstar Asia Airways
@@ -1427,7 +1337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JSA
 
-[fltsim.78]
+[fltsim.73]
 title=AIGAIM_Jetstar Japan Airbus A320-200SL
 model=JJP-Jetstar Japan
 texture=JJP-Jetstar Japan
@@ -1445,7 +1355,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJP
 
-[fltsim.79]
+[fltsim.74]
 title=AIGAIM_Royal Brunei Airlines Airbus A320-200SL
 model=RBA-Royal Brunei
 texture=RBA-Royal Brunei
@@ -1463,7 +1373,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RBA
 
-[fltsim.80]
+[fltsim.75]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL
 model=NKS-Spirit Airlines
 texture=NKS-Spirit Airlines
@@ -1481,7 +1391,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
 
-[fltsim.81]
+[fltsim.76]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow
 model=NKS-Spirit Airlines_OC Yellow
 texture=NKS-Spirit Airlines_OC Yellow
@@ -1499,7 +1409,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
 
-[fltsim.82]
+[fltsim.77]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow new Engine Titles
 model=NKS-Spirit Airlines_OC Yellow new Engine Titles
 texture=NKS-Spirit Airlines_OC Yellow new Engine Titles
@@ -1517,7 +1427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
 
-[fltsim.83]
+[fltsim.78]
 title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Blue
 model=NKS-Spirit Airlines_OC Blue
 texture=NKS-Spirit Airlines_OC Blue
@@ -1534,3 +1444,489 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+
+[fltsim.79]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed XA-VRA
+model=VOI-Volaris_IAE unnamed XA-VRA
+texture=VOI-Volaris_IAE unnamed XA-VRA
+atc_id=XA-VLC
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.80]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed XA-VLX
+model=VOI-Volaris_IAE unnamed XA-VLX
+texture=VOI-Volaris_IAE unnamed XA-VLX
+atc_id=XA-VLX
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.81]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed XA-VLR
+model=VOI-Volaris_IAE unnamed XA-VLR
+texture=VOI-Volaris_IAE unnamed XA-VLR
+atc_id=XA-VLR
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.82]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Ruelas
+model=VOI-Volaris_IAE Los Ruelas
+texture=VOI-Volaris_IAE Los Ruelas
+atc_id=XA-VLS
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.83]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Ornelas
+model=VOI-Volaris_IAE Los Ornelas
+texture=VOI-Volaris_IAE Los Ornelas
+atc_id=XA-VLQ
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.84]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Trujillo
+model=VOI-Volaris_IAE Los Trujillo
+texture=VOI-Volaris_IAE Los Trujillo
+atc_id=XA-VLP
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.85]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Capistran
+model=VOI-Volaris_IAE Los Capistran
+texture=VOI-Volaris_IAE Los Capistran
+atc_id=XA-VLN
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.86]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Jesus
+model=VOI-Volaris_IAE Jesus
+texture=VOI-Volaris_IAE Jesus
+atc_id=XA-VLM
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.87]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Wendy
+model=VOI-Volaris_IAE Wendy
+texture=VOI-Volaris_IAE Wendy
+atc_id=XA-VLL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.88]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed N527VL
+model=VOI-Volaris_IAE unnamed N527VL
+texture=VOI-Volaris_IAE unnamed N527VL
+atc_id=N527VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.89]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Alberto
+model=VOI-Volaris_IAE Alberto
+texture=VOI-Volaris_IAE Alberto
+atc_id=XA-VLK
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.90]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Costa Rica
+model=VOI-Volaris_IAE Costa Rica
+texture=VOI-Volaris_IAE Costa Rica
+atc_id=N526VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.91]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE #FuerzaMexico
+model=VOI-Volaris_IAE #FuerzaMexico
+texture=VOI-Volaris_IAE #FuerzaMexico
+atc_id=N525VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.92]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed XA-VLF
+model=VOI-Volaris_IAE unnamed XA-VLF
+texture=VOI-Volaris_IAE unnamed XA-VLF
+atc_id=XA-VLF
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.93]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Kevin
+model=VOI-Volaris_IAE Kevin
+texture=VOI-Volaris_IAE Kevin
+atc_id=XA-VLE
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.94]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Margarita
+model=VOI-Volaris_IAE Margarita
+texture=VOI-Volaris_IAE Margarita
+atc_id=N524VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.95]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Samuel
+model=VOI-Volaris_IAE Samuel
+texture=VOI-Volaris_IAE Samuel
+atc_id=XA-VLD
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.96]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed N523VL
+model=VOI-Volaris_IAE unnamed N523VL
+texture=VOI-Volaris_IAE unnamed N523VL
+atc_id=N523VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.97]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Alejandra
+model=VOI-Volaris_IAE Alejandra
+texture=VOI-Volaris_IAE Alejandra
+atc_id=XA-VLB
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.98]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Cynthia
+model=VOI-Volaris_IAE Cynthia
+texture=VOI-Volaris_IAE Cynthia
+atc_id=XA-VLC
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.99]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE unnamed XA-VOZ
+model=VOI-Volaris_IAE unnamed XA-VOZ
+texture=VOI-Volaris_IAE unnamed XA-VOZ
+atc_id=XA-VOZ
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.100]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Martha
+model=VOI-Volaris_IAE Martha
+texture=VOI-Volaris_IAE Martha
+atc_id=XA-VOY
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.101]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Mirella
+model=VOI-Volaris_IAE Mirella
+texture=VOI-Volaris_IAE Mirella
+atc_id=N522VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.102]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Melissa
+model=VOI-Volaris_IAE Melissa
+texture=VOI-Volaris_IAE Melissa
+atc_id=N521VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.103]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Julian
+model=VOI-Volaris_IAE Julian
+texture=VOI-Volaris_IAE Julian
+atc_id=N520VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.104]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Medina
+model=VOI-Volaris_IAE Los Medina
+texture=VOI-Volaris_IAE Los Medina
+atc_id=N519VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI
+
+[fltsim.105]
+title=AIGAIM_Volaris Airbus A320-200SL - IAE Los Vasquez
+model=VOI-Volaris_IAE Los Vasquez
+texture=VOI-Volaris_IAE Los Vasquez
+atc_id=N518VL
+atc_airline=VOLARIS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VOI
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Volaris
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_voi_a320s_kjm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VOI

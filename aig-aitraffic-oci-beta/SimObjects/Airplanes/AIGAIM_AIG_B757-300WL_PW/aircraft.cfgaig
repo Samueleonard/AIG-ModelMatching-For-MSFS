@@ -38,12 +38,6 @@ MARSHALLER=1
 JETWAY=1
 
 [EFFECTS]
-wake=fx_wake
-water=fx_spray
-dirt=FX_ASOBO_TOUCHDIRT_BIG
-concrete=FX_ASOBO_TOUCHCONCRETE_BIG
-touchdown=FX_ASOBO_TouchDown_Big, 1
-contrail=FX_ASOBO_CONTRAIL_BIG
 effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
 effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
 
@@ -57,12 +51,6 @@ off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can b
 on_limit=12 ; Alpha above which the Alpha Protection timer starts
 on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
-
-[IKCHAINS]
-right_hand_target=""
-left_hand_target=""
-left_foot_target=""
-right_foot_target=""
 
 [fltsim.0]
 title=AIGAIM_Delta Air Lines Boeing 757-300WL

@@ -232,11 +232,15 @@
 	<Component ID="Slats">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_SLATS_AIRLINER</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == (A:AMBIENT TEMPERATURE, celsius) 30 &gt; and if{
-		(A:LIGHT BEACON, bool) 0 == if{ 70 }
-		els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT BEACON, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } } }
-		els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT BEACON, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
- </ANIM_CODE>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 87 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 182 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 196 &lt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 210 &lt; and if{ 87 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 222 &lt; and if{ 87 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 235 &lt; and if{ 87 }
+	   els{ 0 } } } } } } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
 		</UseTemplate>
@@ -245,11 +249,14 @@
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_FLAPS_AIRLINER</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == (A:AMBIENT TEMPERATURE, celsius) 30 &gt; and if{
-		(A:LIGHT BEACON, bool) 0 == if{ 30 }
-		els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT BEACON, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } } }
-		els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT BEACON, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
- </ANIM_CODE>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 25 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 182 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 196 &lt; and if{ 81 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 210 &lt; and if{ 53 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 222 &lt; and if{ 25 }
+	   els{ 0 } } } } } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
 		</UseTemplate>
@@ -282,9 +289,12 @@
 	<Component ID="Wingflex">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:WING FLEX PCT:1, percent) } els{ (A:WING FLEX PCT:1, percent) 50 + }</ANIM_CODE>
+			<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) 1.6 % (P:Local time,seconds) 2.3 % * (A:GROUND VELOCITY, knots) * } 
+			els{ (A:SIM ON GROUND, bool) 0 ==
+            if{ (A:WING FLEX PCT:1, percent) 0.5 * 75 + }
+            els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>17</ANIM_LAG>
+			<ANIM_LAG>33</ANIM_LAG>
 		</UseTemplate>
 	</Component>
 	
@@ -494,8 +504,8 @@
 		
 		<Component ID="Fuselage" Node="fuselage">
 			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
-				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 8000 &lt; and if{ 0.07 }
-				els{ (A:LIGHT NAV, bool) 1 == 25200 86400 (E:LOCAL TIME, seconds) rng or if{ 0.12 }
+				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 8000 &lt; and if{ 0.03 }
+				els{ (A:LIGHT NAV, bool) 1 == 25200 86400 (E:LOCAL TIME, seconds) rng or if{ 0.1 }
 				els{ 0 } }</EMISSIVE_CODE>
 			</UseTemplate>
 		</Component>

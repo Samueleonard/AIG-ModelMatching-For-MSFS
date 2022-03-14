@@ -26,13 +26,13 @@
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="engine1_still" Node="engine1_still">
+	<Component ID="engine1_still_vis" Node="engine1_still">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="engine2_still" Node="engine2_still">
+	<Component ID="engine2_still_vis" Node="engine2_still">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
@@ -48,13 +48,13 @@
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="engine1_blur" Node="engine1_blur">
+	<Component ID="engine1_blur_vis" Node="engine1_blur">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Component>
 	
-	<Component ID="engine2_blur" Node="engine2_blur">
+	<Component ID="engine2_blur_vis" Node="engine2_blur">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 		</UseTemplate>
@@ -91,9 +91,9 @@
 			<ANIM_NAME>TFS_777_Spoiler_Inner_L</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 		if{ (A:SPOILERS LEFT POSITION, percent) 0.8 * }
-		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:LEFT WHEEL RPM, rpm) 1 &gt; (A:CENTER WHEEL RPM, rpm) 0 == and
+		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 120 &lt; and
 			if{ 50 }
-			els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and 
+			els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and
 		if{ 100 } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -105,9 +105,9 @@
 			<ANIM_NAME>TFS_777_Spoiler_Inner_R</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 		if{ (A:SPOILERS RIGHT POSITION, percent) 0.8 * }
-		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:LEFT WHEEL RPM, rpm) 1 &gt; (A:CENTER WHEEL RPM, rpm) 0 == and
+		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 120 &lt; and
 			if{ 50 }
-			els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and 
+			els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and
 		if{ 100 } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -128,7 +128,7 @@
 			<ANIM_NAME>TFS_777_Spoiler_Out_R2</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 		if{ (A:SPOILERS RIGHT POSITION, percent) }
-		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 }
+		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 }
 		els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -158,7 +158,7 @@
 			<ANIM_NAME>TFS_777_Spoiler_Out_L2</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 		if{ (A:SPOILERS LEFT POSITION, percent) }
-		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 }
+		els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 }
 		els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -177,9 +177,7 @@
 	<Component ID="TFS_777_Spoiler_Out_LR5">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>TFS_777_Spoiler_Out_LR5</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
-		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 } 
-		els{ 0 } }</ANIM_CODE>
+			<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
 		</UseTemplate>
@@ -208,7 +206,7 @@
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 215 &lt; and if{ 50 }
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 235 &lt; and if{ 16 }
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 255 &lt; and if{ 3 }
-	   els{ 0 } } } } } }</ANIM_CODE>
+	   els{ 0 } } } } } } } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
 		</UseTemplate>
@@ -223,7 +221,7 @@
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 180 &lt; and if{ 100 }
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 200 &lt; and if{ 67 } 
 	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 215 &lt; and if{ 50 } 
-	   els{ 0 } } } } }</ANIM_CODE>
+	   els{ 0 } } } } } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
 		</UseTemplate>
@@ -243,9 +241,12 @@
 	<Component ID="Wingflex">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:WING FLEX PCT:1, percent) } els{ (A:WING FLEX PCT:1, percent) 50 + }</ANIM_CODE>
+			<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) 1.6 % (P:Local time,seconds) 2.3 % * (A:GROUND VELOCITY, knots) * } 
+			els{ (A:SIM ON GROUND, bool) 0 ==
+            if{ (A:WING FLEX PCT:1, percent) 0.5 * 75 + }
+            els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>17</ANIM_LAG>
+			<ANIM_LAG>33</ANIM_LAG>
 		</UseTemplate>
 	</Component>
 	
@@ -279,8 +280,7 @@
 	<Component ID="c_gear">
 		<UseTemplate Name="ASOBO_GEAR_Center_Template">
 			<ANIM_NAME>c_gear</ANIM_NAME>
-			<ANIM_LENGTH>125</ANIM_LENGTH>
-			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 	</Component>
@@ -288,8 +288,7 @@
 	<Component ID="l_gear">
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
 			<ANIM_NAME>l_gear</ANIM_NAME>
-			<ANIM_LENGTH>125</ANIM_LENGTH>
-			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 	</Component>
@@ -297,8 +296,7 @@
 	<Component ID="r_gear">
 		<UseTemplate Name="ASOBO_GEAR_Right_Template">
 			<ANIM_NAME>r_gear</ANIM_NAME>
-			<ANIM_LENGTH>125</ANIM_LENGTH>
-			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 	</Component>
@@ -422,5 +420,4 @@
 		</Component>
 
 </Behaviors>
-
 </ModelInfo>

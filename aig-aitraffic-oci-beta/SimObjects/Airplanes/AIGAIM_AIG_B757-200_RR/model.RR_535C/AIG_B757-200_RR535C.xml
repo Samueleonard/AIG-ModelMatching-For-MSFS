@@ -73,7 +73,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AIG_B757_Spoiler_R2</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
-		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 } }
+		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 } }
 		els{ (A:SPOILERS RIGHT POSITION, percent) }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -84,7 +84,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AIG_B757_Spoiler_R3</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
-		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 } }
+		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 } }
 		els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -104,7 +104,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AIG_B757_Spoiler_L2</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
-		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 } }
+		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } }
 		els{ (A:SPOILERS LEFT POSITION, percent) }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -115,7 +115,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AIG_B757_Spoiler_L3</ANIM_NAME>
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
-		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:CENTER WHEEL RPM, rpm) 1 &gt; and if{ 100 } }
+		if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } }
 		els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>50</ANIM_LAG>
@@ -210,9 +210,12 @@
 	<Component ID="Wingflex">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:WING FLEX PCT:1, percent) } els{ (A:WING FLEX PCT:1, percent) 50 + }</ANIM_CODE>
+			<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) 1.6 % (P:Local time,seconds) 2.3 % * (A:GROUND VELOCITY, knots) * } 
+			els{ (A:SIM ON GROUND, bool) 0 ==
+            if{ (A:WING FLEX PCT:1, percent) 0.5 * 75 + }
+            els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>17</ANIM_LAG>
+			<ANIM_LAG>33</ANIM_LAG>
 		</UseTemplate>
 	</Component>
 	

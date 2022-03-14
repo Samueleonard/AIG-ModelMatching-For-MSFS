@@ -62,8 +62,3 @@ def start():
 #######################################
 
 start()
-
-#delete the old files
-#move new files and folder into dir
-#open github desktop and commit
-#zip aig folder
