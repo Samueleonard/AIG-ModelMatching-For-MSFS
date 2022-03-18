@@ -532,3 +532,21 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
+
+[fltsim.28]
+title=AIGAIM_Pegasus Airlines Airbus A321-200neo
+model=PGT-Pegasus Airlines
+texture=PGT-Pegasus Airlines
+atc_id=TC-RBA
+atc_airline=SUNTURK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PGT
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Pegasus
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_A21N_pgt.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGT

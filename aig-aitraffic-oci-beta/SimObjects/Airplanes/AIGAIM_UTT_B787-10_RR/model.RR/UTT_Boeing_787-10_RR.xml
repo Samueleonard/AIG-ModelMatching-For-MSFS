@@ -613,9 +613,12 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 	<Component ID="Wingflex">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:WING FLEX PCT:1, percent) } els{ (A:WING FLEX PCT:1, percent) 50 + }</ANIM_CODE>
+			<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) 1.6 % (P:Local time,seconds) 2.3 % * (A:GROUND VELOCITY, knots) * } 
+			els{ (A:SIM ON GROUND, bool) 0 ==
+            if{ (A:WING FLEX PCT:1, percent) 0.5 * 75 + }
+            els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>17</ANIM_LAG>
+			<ANIM_LAG>33</ANIM_LAG>
 		</UseTemplate>
 	</Component>
 	
@@ -749,5 +752,4 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 		</Component>
 
 </Behaviors>
-
 </ModelInfo>

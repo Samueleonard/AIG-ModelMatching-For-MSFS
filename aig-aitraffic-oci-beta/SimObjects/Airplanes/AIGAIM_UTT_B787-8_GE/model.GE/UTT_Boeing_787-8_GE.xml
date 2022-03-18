@@ -495,12 +495,11 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 	<Component ID="Engine_Still_Windmill">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
-			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:AMBIENT WIND VELOCITY, knots) 20 &lt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and and
-		if{ (E:Local time, seconds) 3.2 * 100 % }
-		els{ (A:AMBIENT WIND VELOCITY, knots) 20 &gt; (A:ENG N1 RPM:1, percent) 6.55 &lt; and
-		if{ (E:Local time, seconds) 7.7 * 100 % }
-		els{ 0 } }</ANIM_CODE>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
 		</UseTemplate>
 	</Component>
 	
@@ -594,9 +593,12 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 	<Component ID="Wingflex">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
-			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:WING FLEX PCT:1, percent) } els{ (A:WING FLEX PCT:1, percent) 50 + }</ANIM_CODE>
+			<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) 1.6 % (P:Local time,seconds) 2.3 % * (A:GROUND VELOCITY, knots) * } 
+			els{ (A:SIM ON GROUND, bool) 0 ==
+            if{ (A:WING FLEX PCT:1, percent) 0.5 * 75 + }
+            els{ 0 } }</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>17</ANIM_LAG>
+			<ANIM_LAG>33</ANIM_LAG>
 		</UseTemplate>
 	</Component>
 	
@@ -730,5 +732,4 @@ if{ (A:SPOILERS RIGHT POSITION, percent) } els{
 		</Component>
 
 </Behaviors>
-
 </ModelInfo>

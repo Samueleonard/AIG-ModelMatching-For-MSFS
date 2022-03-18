@@ -1,5 +1,4 @@
 from genericpath import exists
-from operator import truediv
 import os
 import shutil
 import time
@@ -35,10 +34,7 @@ def copyFiles(toGithub):
             shutil.move(comFolderPath + name, githubFolderPath)
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
         shutil.move("C:\\Users\\samue\\Documents\\vPilot Files\\BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr", githubFolderPath)
-
-def openGithub():
-    os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
-
+    
 def createZip():
     choice = input("Do you want to create a zip file? (y/n)")
     if(choice == "y"):
@@ -54,7 +50,7 @@ def createZip():
 def start():
     clearGithubDir()
     copyFiles(True)
-    openGithub()
+    os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
     createZip()
     copyFiles(False)
 

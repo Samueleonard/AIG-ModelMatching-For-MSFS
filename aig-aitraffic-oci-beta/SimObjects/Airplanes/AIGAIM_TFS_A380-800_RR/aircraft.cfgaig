@@ -212,25 +212,6 @@ isUserSelectable=0
 icao_airline=BAW
 
 [fltsim.8]
-title=AIGAIM_Thai Airways Airbus A380-800
-model=THA-Thai Airways
-texture=THA-Thai Airways
-atc_id=HS-TUA
-atc_airline=THAI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Thai International Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai380tha.zip
-description=TFS_A380-800_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THA
-
-[fltsim.9]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Expo 2020 Sticker Wifi Dome
 model=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 2 Class Expo 2020 Sticker Wifi Dome
@@ -249,7 +230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Emirates Airbus A380-800 - RR 2 Class Year of Tolerance Wifi Dome
 model=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
 texture=UAE-Emirates_RR 2 Class Year of Tolerance Wifi Dome
@@ -268,7 +249,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Emirates Airbus A380-800 - RR 3 Class Expo 2020 Sticker Wifi Dome
 model=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
 texture=UAE-Emirates_RR 3 Class Expo 2020 Sticker Wifi Dome
@@ -287,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Singapore Airlines Airbus A380-800
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -306,7 +287,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Lufthansa Airbus A380-800
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -325,7 +306,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Lufthansa Airbus A380-800 - OC
 model=DLH-Lufthansa_OC
 texture=DLH-Lufthansa_OC
@@ -344,7 +325,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Qantas Airbus A380-800
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -363,7 +344,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Qantas Airbus A380-800 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC

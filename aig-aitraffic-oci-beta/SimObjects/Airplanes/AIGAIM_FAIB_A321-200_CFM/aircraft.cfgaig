@@ -1080,42 +1080,6 @@ isUserSelectable=0
 icao_airline=SVA
 
 [fltsim.59]
-title=AIGAIM_Finnair Airbus A321-200
-model=FIN-Finnair
-texture=FIN-Finnair
-atc_id=OH-LZE
-atc_airline=FINNAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FIN
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Finnair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
-description=FAIB_A321-200_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FIN
-
-[fltsim.60]
-title=AIGAIM_Finnair Airbus A321-200 - Chevrons
-model=FIN-Finnair_Chevrons
-texture=FIN-Finnair_Chevrons
-atc_id=OH-LZF
-atc_airline=FINNAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FIN
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Finnair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FIN
-
-[fltsim.61]
 title=AIGAIM_Swiss Airbus A321-200 - Chevrons
 model=SWR-Swiss_Chevrons
 texture=SWR-Swiss_Chevrons
@@ -1133,7 +1097,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.62]
+[fltsim.60]
 title=AIGAIM_TAP Air Portugal Airbus A321-200
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -1151,7 +1115,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.63]
+[fltsim.61]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -1169,7 +1133,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.64]
+[fltsim.62]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -1187,7 +1151,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.65]
+[fltsim.63]
 title=AIGAIM_S7 Airlines Airbus A321-200 - Chevrons
 model=SBI-S7 Airlines_Chevrons
 texture=SBI-S7 Airlines_Chevrons
@@ -1204,7 +1168,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.66]
+[fltsim.64]
 title=AIGAIM_Sunclass Airlines Airbus A321-200
 model=VKG-Sunclass Airlines
 texture=VKG-Sunclass Airlines
@@ -1222,7 +1186,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.67]
+[fltsim.65]
 title=AIGAIM_Titan Airways Airbus A321-200 - CFM Chevron All White
 model=AWC-Titan Airways_CFM Chevron All White
 texture=AWC-Titan Airways_CFM Chevron All White

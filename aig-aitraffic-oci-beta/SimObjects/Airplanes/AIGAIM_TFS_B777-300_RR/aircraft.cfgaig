@@ -96,25 +96,6 @@ isUserSelectable=0
 icao_airline=SDM
 
 [fltsim.2]
-title=AIGAIM_Thai Airways Boeing 777-300
-model=THA-Thai Airways
-texture=THA-Thai Airways
-atc_id=HS-TKA
-atc_airline=THAI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300
-ui_variation=Thai
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_tha_b773rr_fsx.zip
-description=TFS_B777-300_RR-rr(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THA
-
-[fltsim.3]
 title=AIGAIM_Cathay Pacific Boeing 777-300
 model=CPA-Cathay Pacific
 texture=CPA-Cathay Pacific
@@ -133,7 +114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Cathay Pacific Boeing 777-300 - WiFi
 model=CPA-Cathay Pacific_WiFi
 texture=CPA-Cathay Pacific_WiFi
@@ -152,7 +133,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Cathay Pacific Boeing 777-300 - Spirit of Hong Kong
 model=CPA-Cathay Pacific_Spirit of Hong Kong
 texture=CPA-Cathay Pacific_Spirit of Hong Kong
@@ -171,7 +152,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Singapore Airlines Boeing 777-300
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -190,7 +171,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Singapore Airlines Boeing 777-300 - Star Alliance
 model=SIA-Singapore Airlines_Star Alliance
 texture=SIA-Singapore Airlines_Star Alliance

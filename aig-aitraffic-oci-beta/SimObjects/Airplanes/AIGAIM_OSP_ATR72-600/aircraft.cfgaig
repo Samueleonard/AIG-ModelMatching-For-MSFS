@@ -537,3 +537,59 @@ description=OSP_ATR72-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
+
+[fltsim.27]
+title=AIGAIM_Bahamasair ATR 72-600
+model=BHS-Bahamasair
+texture=BHS-Bahamasair
+atc_id=C6-BFR
+atc_airline=BAHAMAS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BHS
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=Bahamasair C6-BFR
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: osp_at7_bhs_fsx.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BHS
+
+[fltsim.28]
+title=AIGAIM_Bangkok Airways ATR 72-600
+model=BKP-Bangkok Airways
+texture=BKP-Bangkok Airways
+atc_id=HS-PZF
+atc_airline=BANGKOK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BKP
+ui_manufacturer=OSP - ATR
+ui_type=ATR 72-600
+ui_variation=Bangkok Air - HS-PZF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: aiat7bkp.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BKP
+
+[fltsim.29]
+title=AIGAIM_Bangkok Airways ATR 72-600 - Sea & Palm Tree
+model=BKP-Bangkok Airways_Sea & Palm Tree
+texture=BKP-Bangkok Airways_Sea & Palm Tree
+atc_id=HS-PZH
+atc_airline=BANGKOK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BKP
+ui_manufacturer=OSP - ATR
+ui_type=ATR 72-600
+ui_variation=Bangkok Air - HS-PZH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: aiat7bkp.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BKP
