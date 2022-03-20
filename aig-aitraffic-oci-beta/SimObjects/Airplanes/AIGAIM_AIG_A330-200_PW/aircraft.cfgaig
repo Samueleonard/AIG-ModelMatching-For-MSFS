@@ -95,24 +95,6 @@ isUserSelectable=0
 icao_airline=GRL
 
 [fltsim.2]
-title=AIGAIM_Turkish Airlines Airbus A330-200 - PW Belly Titles
-model=THY-Turkish Airlines_PW Belly Titles
-texture=THY-Turkish Airlines_PW Belly Titles
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Turkish Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_A332_THY_PW.zip
-description=AIG_A330-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.3]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - PW Invest in Turkey
 model=THY-Turkish Airlines_PW Invest in Turkey
 texture=THY-Turkish Airlines_PW Invest in Turkey
@@ -124,13 +106,13 @@ ui_manufacturer=AIG
 ui_type=Airbus A330-200
 ui_variation=Turkish Airlines - Invest in Turkey
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_A332_THY_PW.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_PW.zip
 description=AIG_A330-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Delta Air Lines Airbus A330-200 - PW
 model=DAL-Delta Air Lines_PW
 texture=DAL-Delta Air Lines_PW
@@ -149,7 +131,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Delta Air Lines Airbus A330-200 - PW No Belly Titles
 model=DAL-Delta Air Lines_PW No Belly Titles
 texture=DAL-Delta Air Lines_PW No Belly Titles
@@ -168,7 +150,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Korean Air Airbus A330-200
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -186,7 +168,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Korean Air Airbus A330-200 - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -204,7 +186,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Korean Air Airbus A330-200 - OT
 model=KAL-Korean Air_OT
 texture=KAL-Korean Air_OT
@@ -221,3 +203,21 @@ description=AIG_A330-200_PW-PW_OT(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
+
+[fltsim.8]
+title=AIGAIM_Turkish Airlines Airbus A330-200 - PW Belly Logo
+model=THY-Turkish Airlines_PW Belly Logo
+texture=THY-Turkish Airlines_PW Belly Logo
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Turkish Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_PW.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY

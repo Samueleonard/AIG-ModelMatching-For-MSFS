@@ -286,3 +286,22 @@ description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KYE
+
+[fltsim.14]
+title=AIGAIM_Turkish Cargo Boeing 747-400ERF - opb AirACT
+model=THYC-Turkish Cargo_opb AirACT
+texture=THYC-Turkish Cargo_opb AirACT
+atc_id=TC-ACR
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=THYC
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=ACT Airlines Boeing 747-400F opf Turkish Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_744F_RUN_FSX.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THYC

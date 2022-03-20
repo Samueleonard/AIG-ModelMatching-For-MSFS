@@ -303,24 +303,6 @@ isUserSelectable=0
 icao_airline=ANA
 
 [fltsim.15]
-title=AIGAIM_Turkish Airlines Airbus A321-200neo - ACF
-model=THY-Turkish Airlines_ACF
-texture=THY-Turkish Airlines_ACF
-atc_id=TC-LSA
-atc_airline=TURKISH
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=Türk Hava Yollari
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Turkish FSX.zip
-description=FAIB_A321-200neo_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.16]
 title=AIGAIM_VietJet Air Airbus A321-200neo - ACF Petrolimex
 model=VJC-VietJet Air_ACF Petrolimex
 texture=VJC-VietJet Air_ACF Petrolimex
@@ -338,7 +320,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_VietJet Air Airbus A321-200neo
 model=VJC-VietJet Air
 texture=VJC-VietJet Air
@@ -356,7 +338,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_VietJet Air Airbus A321-200neo - 1st A321neo
 model=VJC-VietJet Air_1st A321neo
 texture=VJC-VietJet Air_1st A321neo
@@ -374,7 +356,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_VietJet Air Airbus A321-200neo - Petrolimex
 model=VJC-VietJet Air_Petrolimex
 texture=VJC-VietJet Air_Petrolimex
@@ -392,7 +374,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_VietJet Air Airbus A321-200neo - VietJet Mascots
 model=VJC-VietJet Air_VietJet Mascots
 texture=VJC-VietJet Air_VietJet Mascots
@@ -410,7 +392,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Vietnam Airlines Airbus A321-200neo
 model=HVN-Vietnam Airlines
 texture=HVN-Vietnam Airlines
@@ -428,7 +410,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Philippine Airlines Airbus A321-200neo
 model=PAL-Philippine Airlines
 texture=PAL-Philippine Airlines
@@ -445,7 +427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Cebu Pacific Airbus A321-200neo - ACF
 model=CEB-Cebu Pacific_ACF
 texture=CEB-Cebu Pacific_ACF
@@ -463,7 +445,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEB
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Lufthansa Airbus A321-200neo - ACF
 model=DLH-Lufthansa_ACF
 texture=DLH-Lufthansa_ACF
@@ -481,7 +463,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Hawaiian Airlines Airbus A321-200neo
 model=HAL-Hawaiian Airlines
 texture=HAL-Hawaiian Airlines
@@ -498,7 +480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAL
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_IndiGo Airbus A321-200neo - ACF
 model=IGO-IndiGo_ACF
 texture=IGO-IndiGo_ACF
@@ -516,7 +498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_jetBlue Airbus A321-200neo - ACF Balloons
 model=JBU-jetBlue_ACF Balloons
 texture=JBU-jetBlue_ACF Balloons
@@ -533,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_S7 Airlines Airbus A321-200neo
 model=SBI-S7 Airlines
 texture=SBI-S7 Airlines
@@ -550,7 +532,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Volaris Airbus A321-200neo - PW unnamed N534VL
 model=VOI-Volaris_PW unnamed N534VL
 texture=VOI-Volaris_PW unnamed N534VL
@@ -568,7 +550,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Volaris Airbus A321-200neo - PW unnamed N535VL
 model=VOI-Volaris_PW unnamed N535VL
 texture=VOI-Volaris_PW unnamed N535VL
@@ -586,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Volaris Airbus A321-200neo - PW unnamed N537VL
 model=VOI-Volaris_PW unnamed N537VL
 texture=VOI-Volaris_PW unnamed N537VL
@@ -604,7 +586,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Volaris Airbus A321-200neo - PW unnamed N536VL
 model=VOI-Volaris_PW unnamed N536VL
 texture=VOI-Volaris_PW unnamed N536VL
@@ -622,7 +604,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Volaris Airbus A321-200neo - PW Romina
 model=VOI-Volaris_PW Romina
 texture=VOI-Volaris_PW Romina
@@ -640,7 +622,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Volaris Airbus A321-200neo - PW unnamed N543VL
 model=VOI-Volaris_PW unnamed N543VL
 texture=VOI-Volaris_PW unnamed N543VL
@@ -657,3 +639,21 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
+
+[fltsim.34]
+title=AIGAIM_Turkish Airlines Airbus A321-200neo
+model=THY-Turkish Airlines
+texture=THY-Turkish Airlines
+atc_id=TC-LSA
+atc_airline=TURKISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Turkish FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY

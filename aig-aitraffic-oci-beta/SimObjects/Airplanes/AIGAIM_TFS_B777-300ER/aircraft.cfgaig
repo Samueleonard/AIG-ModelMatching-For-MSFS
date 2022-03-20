@@ -778,25 +778,6 @@ isUserSelectable=0
 icao_airline=THY
 
 [fltsim.38]
-title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Titles
-model=THY-Turkish Airlines_Belly Titles
-texture=THY-Turkish Airlines_Belly Titles
-atc_id=TC-JJU
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Türk Hava Yollari
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.39]
 title=AIGAIM_Air Canada Boeing 777-300ER - Wifi dome
 model=ACA-Air Canada_Wifi dome
 texture=ACA-Air Canada_Wifi dome
@@ -815,7 +796,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Air Canada Boeing 777-300ER - OC Wifi dome
 model=ACA-Air Canada_OC Wifi dome
 texture=ACA-Air Canada_OC Wifi dome
@@ -834,7 +815,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Air Canada Boeing 777-300ER - Cfg2 Wifi dome
 model=ACA-Air Canada_Cfg2 Wifi dome
 texture=ACA-Air Canada_Cfg2 Wifi dome
@@ -853,7 +834,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Air Canada Boeing 777-300ER - Cfg2 OC Wifi dome
 model=ACA-Air Canada_Cfg2 OC Wifi dome
 texture=ACA-Air Canada_Cfg2 OC Wifi dome
@@ -872,7 +853,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Virgin Australia Boeing 777-300ER - WiFi dome
 model=VOZ-Virgin Australia_WiFi dome
 texture=VOZ-Virgin Australia_WiFi dome
@@ -891,7 +872,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Biman Bangladesh Airlines Boeing 777-300ER
 model=BBC-Biman Bangladesh Airlines
 texture=BBC-Biman Bangladesh Airlines
@@ -910,7 +891,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBC
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_British Airways Boeing 777-300ER
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -928,7 +909,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_British Airways Boeing 777-300ER - OC WiFi Dome (TEMP)
 model=BAW-British Airways_OC WiFi Dome_temp
 texture=BAW-British Airways_OC WiFi Dome_temp
@@ -946,7 +927,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_Philippine Airlines Boeing 777-300ER (TEMP)
 model=PAL-Philippine Airlines_temp
 texture=PAL-Philippine Airlines_temp
@@ -965,7 +946,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_Thai Airways Boeing 777-300ER
 model=THA-Thai Airways
 texture=THA-Thai Airways
@@ -984,7 +965,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_EVA Air Boeing 777-300ER - fwd Dome
 model=EVA-EVA Air_fwd Dome
 texture=EVA-EVA Air_fwd Dome
@@ -1003,7 +984,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_EVA Air Boeing 777-300ER - OC fwd Dome
 model=EVA-EVA Air_OC fwd Dome
 texture=EVA-EVA Air_OC fwd Dome
@@ -1022,7 +1003,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_EVA Air Boeing 777-300ER - Star Alliance
 model=EVA-EVA Air_Star Alliance
 texture=EVA-EVA Air_Star Alliance
@@ -1041,7 +1022,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_EVA Air Boeing 777-300ER - B-16703 Sanrio Family
 model=EVA-EVA Air_B-16703 Sanrio Family
 texture=EVA-EVA Air_B-16703 Sanrio Family
@@ -1060,7 +1041,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_EVA Air Boeing 777-300ER - B-16722 Sanrio Characters
 model=EVA-EVA Air_B-16722 Sanrio Characters
 texture=EVA-EVA Air_B-16722 Sanrio Characters
@@ -1079,7 +1060,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-300ER
 model=DTA-TAAG Linhas Aereas de Angola
 texture=DTA-TAAG Linhas Aereas de Angola
@@ -1098,7 +1079,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTA
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_China Airlines Boeing 777-300ER
 model=CAL-China Airlines
 texture=CAL-China Airlines
@@ -1117,7 +1098,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_China Airlines Boeing 777-300ER - Boeing Livery
 model=CAL-China Airlines_Boeing Livery
 texture=CAL-China Airlines_Boeing Livery
@@ -1136,7 +1117,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class
 model=CPA-Cathay Pacific_3 Class
 texture=CPA-Cathay Pacific_3 Class
@@ -1155,7 +1136,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class WiFi
 model=CPA-Cathay Pacific_3 Class WiFi
 texture=CPA-Cathay Pacific_3 Class WiFi
@@ -1174,7 +1155,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class Oneworld WiFi
 model=CPA-Cathay Pacific_3 Class Oneworld WiFi
 texture=CPA-Cathay Pacific_3 Class Oneworld WiFi
@@ -1193,7 +1174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class OC
 model=CPA-Cathay Pacific_3 Class OC
 texture=CPA-Cathay Pacific_3 Class OC
@@ -1212,7 +1193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 3 Class OC WiFi
 model=CPA-Cathay Pacific_3 Class OC WiFi
 texture=CPA-Cathay Pacific_3 Class OC WiFi
@@ -1231,7 +1212,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class
 model=CPA-Cathay Pacific_2 Class
 texture=CPA-Cathay Pacific_2 Class
@@ -1250,7 +1231,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class WiFi
 model=CPA-Cathay Pacific_2 Class WiFi
 texture=CPA-Cathay Pacific_2 Class WiFi
@@ -1269,7 +1250,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class Oneworld WiFi
 model=CPA-Cathay Pacific_2 Class Oneworld WiFi
 texture=CPA-Cathay Pacific_2 Class Oneworld WiFi
@@ -1288,7 +1269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.65]
+[fltsim.64]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC
 model=CPA-Cathay Pacific_2 Class OC
 texture=CPA-Cathay Pacific_2 Class OC
@@ -1307,7 +1288,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.66]
+[fltsim.65]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC WiFi
 model=CPA-Cathay Pacific_2 Class OC WiFi
 texture=CPA-Cathay Pacific_2 Class OC WiFi
@@ -1326,7 +1307,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.67]
+[fltsim.66]
 title=AIGAIM_Cathay Pacific Boeing 777-300ER - 2 Class OC 50th 777-300ER
 model=CPA-Cathay Pacific_2 Class OC 50th 777-300ER
 texture=CPA-Cathay Pacific_2 Class OC 50th 777-300ER
@@ -1345,7 +1326,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.68]
+[fltsim.67]
 title=AIGAIM_United Airlines Boeing 777-300ER
 model=UAL-United Airlines
 texture=UAL-United Airlines
@@ -1364,7 +1345,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.69]
+[fltsim.68]
 title=AIGAIM_United Airlines Boeing 777-300ER - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -1383,7 +1364,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.70]
+[fltsim.69]
 title=AIGAIM_United Airlines Boeing 777-300ER - OC New Spirit of United
 model=UAL-United Airlines_OC New Spirit of United
 texture=UAL-United Airlines_OC New Spirit of United
@@ -1402,7 +1383,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.71]
+[fltsim.70]
 title=AIGAIM_EgyptAir Boeing 777-300ER
 model=MSR-EgyptAir
 texture=MSR-EgyptAir
@@ -1421,7 +1402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.72]
+[fltsim.71]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class
 model=UAE-Emirates_2 Class
 texture=UAE-Emirates_2 Class
@@ -1440,7 +1421,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.73]
+[fltsim.72]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Expo 2020 Sticker
 model=UAE-Emirates_2 Class Expo 2020 Sticker
 texture=UAE-Emirates_2 Class Expo 2020 Sticker
@@ -1459,7 +1440,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.74]
+[fltsim.73]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Blue Expo 2020
 model=UAE-Emirates_2 Class Blue Expo 2020
 texture=UAE-Emirates_2 Class Blue Expo 2020
@@ -1478,7 +1459,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.75]
+[fltsim.74]
 title=AIGAIM_Emirates Boeing 777-300ER - 2 Class Green Expo 2020
 model=UAE-Emirates_2 Class Green Expo 2020
 texture=UAE-Emirates_2 Class Green Expo 2020
@@ -1497,7 +1478,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.76]
+[fltsim.75]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class
 model=UAE-Emirates_3 Class
 texture=UAE-Emirates_3 Class
@@ -1516,7 +1497,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.77]
+[fltsim.76]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Expo 2020 Sticker
 model=UAE-Emirates_3 Class Expo 2020 Sticker
 texture=UAE-Emirates_3 Class Expo 2020 Sticker
@@ -1535,7 +1516,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.78]
+[fltsim.77]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Blue Expo 2020
 model=UAE-Emirates_3 Class Blue Expo 2020
 texture=UAE-Emirates_3 Class Blue Expo 2020
@@ -1554,7 +1535,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.79]
+[fltsim.78]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Green Expo 2020
 model=UAE-Emirates_3 Class Green Expo 2020
 texture=UAE-Emirates_3 Class Green Expo 2020
@@ -1573,7 +1554,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.80]
+[fltsim.79]
 title=AIGAIM_Emirates Boeing 777-300ER - 3 Class Orange Expo 2020
 model=UAE-Emirates_3 Class Orange Expo 2020
 texture=UAE-Emirates_3 Class Orange Expo 2020
@@ -1592,7 +1573,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
 
-[fltsim.81]
+[fltsim.80]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER
 model=ETH-Ethiopian Airlines
 texture=ETH-Ethiopian Airlines
@@ -1611,7 +1592,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.82]
+[fltsim.81]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - WiFi Dome
 model=ETH-Ethiopian Airlines_WiFi Dome
 texture=ETH-Ethiopian Airlines_WiFi Dome
@@ -1630,7 +1611,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.83]
+[fltsim.82]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - ET-ASK Ras Dashen
 model=ETH-Ethiopian Airlines_ET-ASK Ras Dashen
 texture=ETH-Ethiopian Airlines_ET-ASK Ras Dashen
@@ -1649,7 +1630,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.84]
+[fltsim.83]
 title=AIGAIM_Ethiopian Airlines Boeing 777-300ER - ET-ASL Ngorongoro
 model=ETH-Ethiopian Airlines_ET-ASL Ngorongoro
 texture=ETH-Ethiopian Airlines_ET-ASL Ngorongoro
@@ -1668,7 +1649,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.85]
+[fltsim.84]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class
 model=ETD-Etihad Airways_2 Class
 texture=ETD-Etihad Airways_2 Class
@@ -1687,7 +1668,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.86]
+[fltsim.85]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class OC
 model=ETD-Etihad Airways_2 Class OC
 texture=ETD-Etihad Airways_2 Class OC
@@ -1706,7 +1687,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.87]
+[fltsim.86]
 title=AIGAIM_Etihad Airways Boeing 777-300ER - 3 Class OC
 model=ETD-Etihad Airways_3 Class OC
 texture=ETD-Etihad Airways_3 Class OC
@@ -1725,7 +1706,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.88]
+[fltsim.87]
 title=AIGAIM_Korean Air Boeing 777-300ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -1744,7 +1725,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.89]
+[fltsim.88]
 title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
 model=KAL-Korean Air_200th Boeing
 texture=KAL-Korean Air_200th Boeing
@@ -1763,7 +1744,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.90]
+[fltsim.89]
 title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -1781,7 +1762,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.91]
+[fltsim.90]
 title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
 model=KAL-Korean Air_SuperM
 texture=KAL-Korean Air_SuperM
@@ -1800,7 +1781,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.92]
+[fltsim.91]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -1819,7 +1800,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.93]
+[fltsim.92]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
 model=SIA-Singapore Airlines_Fwd Dome
 texture=SIA-Singapore Airlines_Fwd Dome
@@ -1838,7 +1819,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.94]
+[fltsim.93]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
 model=SIA-Singapore Airlines_Star Alliance_temp
 texture=SIA-Singapore Airlines_Star Alliance_temp
@@ -1857,7 +1838,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.95]
+[fltsim.94]
 title=AIGAIM_Saudia Boeing 777-300ER
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -1876,7 +1857,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.96]
+[fltsim.95]
 title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
 model=SVA-Saudia_Ad Diriyah E-Prix
 texture=SVA-Saudia_Ad Diriyah E-Prix
@@ -1895,7 +1876,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.97]
+[fltsim.96]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named
 model=QTR-Qatar Airways_named
 texture=QTR-Qatar Airways_named
@@ -1914,7 +1895,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.98]
+[fltsim.97]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
 model=QTR-Qatar Airways_named fwd WiFi Dome
 texture=QTR-Qatar Airways_named fwd WiFi Dome
@@ -1933,7 +1914,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.99]
+[fltsim.98]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
 model=QTR-Qatar Airways_FIFA World Cup_temp
 texture=QTR-Qatar Airways_FIFA World Cup_temp
@@ -1952,7 +1933,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.100]
+[fltsim.99]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
 model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
 texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
@@ -1971,7 +1952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.101]
+[fltsim.100]
 title=AIGAIM_Swiss Boeing 777-300ER - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -1990,7 +1971,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.102]
+[fltsim.101]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER
 model=GIA-Garuda Indonesia
 texture=GIA-Garuda Indonesia
@@ -2009,7 +1990,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.103]
+[fltsim.102]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Wonderful Indonesia
 model=GIA-Garuda Indonesia_Wonderful Indonesia
 texture=GIA-Garuda Indonesia_Wonderful Indonesia
@@ -2028,7 +2009,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.104]
+[fltsim.103]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Skyteam
 model=GIA-Garuda Indonesia_Skyteam
 texture=GIA-Garuda Indonesia_Skyteam
@@ -2047,7 +2028,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.105]
+[fltsim.104]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Retro 1969-1985
 model=GIA-Garuda Indonesia_Retro 1969-1985
 texture=GIA-Garuda Indonesia_Retro 1969-1985
@@ -2066,7 +2047,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.106]
+[fltsim.105]
 title=AIGAIM_KLM Boeing 777-300ER
 model=KLM-KLM
 texture=KLM-KLM
@@ -2085,7 +2066,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.107]
+[fltsim.106]
 title=AIGAIM_KLM Boeing 777-300ER - fwd Sat
 model=KLM-KLM_fwd Sat
 texture=KLM-KLM_fwd Sat
@@ -2104,7 +2085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.108]
+[fltsim.107]
 title=AIGAIM_KLM Boeing 777-300ER - aft Sat
 model=KLM-KLM_aft Sat
 texture=KLM-KLM_aft Sat
@@ -2123,7 +2104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.109]
+[fltsim.108]
 title=AIGAIM_KLM Boeing 777-300ER - OC aft Sat
 model=KLM-KLM_OC aft Sat
 texture=KLM-KLM_OC aft Sat
@@ -2142,7 +2123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.110]
+[fltsim.109]
 title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat
 model=KLM-KLM_KLM ASIA aft Sat
 texture=KLM-KLM_KLM ASIA aft Sat
@@ -2161,7 +2142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.111]
+[fltsim.110]
 title=AIGAIM_KLM Boeing 777-300ER - Skyteam
 model=KLM-KLM_Skyteam
 texture=KLM-KLM_Skyteam
@@ -2180,7 +2161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.112]
+[fltsim.111]
 title=AIGAIM_KLM Boeing 777-300ER - Orange Pride aft Sat
 model=KLM-KLM_Orange Pride aft Sat
 texture=KLM-KLM_Orange Pride aft Sat
@@ -2199,7 +2180,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.113]
+[fltsim.112]
 title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
 model=KAC-Kuwait Airways_65 Years_temp
 texture=KAC-Kuwait Airways_65 Years_temp
@@ -2218,7 +2199,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
 
-[fltsim.114]
+[fltsim.113]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -2237,7 +2218,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.115]
+[fltsim.114]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
 model=TAM-LATAM Airlines Brasil_Star Wars
 texture=TAM-LATAM Airlines Brasil_Star Wars
@@ -2255,3 +2236,22 @@ description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
+
+[fltsim.115]
+title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Logo
+model=THY-Turkish Airlines_Belly Logo
+texture=THY-Turkish Airlines_Belly Logo
+atc_id=TC-JJU
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THY
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Türk Hava Yollari
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Turkish Airlines.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THY
