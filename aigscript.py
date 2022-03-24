@@ -7,7 +7,7 @@ import webbrowser
 comFolderPath = "E:\\MSFS\\Community\\Traffic\\aig-aitraffic-oci-beta\\"
 githubFolderPath = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
 
-names = ["Effects", "Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "SimObjects"]
+names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "SimObjects", 'Effects']
 
 #######################################
 
