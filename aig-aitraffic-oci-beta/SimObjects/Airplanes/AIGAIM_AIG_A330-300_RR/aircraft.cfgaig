@@ -969,3 +969,22 @@ description=AIG_A330-300_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.50]
+title=AIGAIM_ULS Airlines Cargo Airbus A330-300 - opb SMF
+model=KZU-ULS Airlines Cargo_opb SMF
+texture=KZU-ULS Airlines Cargo_opb SMF
+atc_id=T7-ULS
+atc_airline=UNIVERSAL CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=KZU
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=San Marino Executive Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_San Marino Executive Aviation.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KZU

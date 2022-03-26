@@ -108,3 +108,41 @@ description=TFS_A310-300F_GE-GE_300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJAC
+
+[fltsim.3]
+title=AIGAIM_Turkish Cargo Airbus A310-300F - opb ULS Airlines
+model=THYC-Turkish Cargo_opb ULS Airlines
+texture=THYC-Turkish Cargo_opb ULS Airlines
+atc_id=TC-LER
+atc_airline=TURKISH
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=THYC
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A310-300F
+ui_variation=ULS Airlines Cargo opf Turkish Airlines Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_Airbus A310-300_ULS_Airlines_Cargo_FSX.zip
+description=TFS_A310-300F_GE-GE_300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=THYC
+
+[fltsim.4]
+title=AIGAIM_ULS Airlines Cargo Airbus A310-300F
+model=KZU-ULS Airlines Cargo
+texture=KZU-ULS Airlines Cargo
+atc_id=TC-SGM
+atc_airline=UNIVERSAL CARGO
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KZU
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A310-300F
+ui_variation=ULS Airlines Cargo opf Turkish Airlines Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: TFS_Airbus A310-300_ULS_Airlines_Cargo_FSX.zip
+description=TFS_A310-300F_GE-GE_300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KZU

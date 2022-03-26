@@ -51,3 +51,39 @@ off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can b
 on_limit=12 ; Alpha above which the Alpha Protection timer starts
 on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Zimex Aviation Austria ATR 42-300
+model=AZD-Zimex Aviation Austria
+texture=AZD-Zimex Aviation Austria
+atc_id=OE-HZA
+atc_airline=MAILMAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZD
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300
+ui_variation=Zimex Aviation Austria
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Zimex_Aviation_NC_ATR_42-300_FSX.zip
+description=OSP_ATR42-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZD
+
+[fltsim.1]
+title=AIGAIM_Zimex Aviation Austria ATR 42-300 - opb IMX
+model=AZD-Zimex Aviation Austria_opb IMX
+texture=AZD-Zimex Aviation Austria_opb IMX
+atc_id=HB-AMB
+atc_airline=MAILMAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZD
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300
+ui_variation=Zimex Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Zimex_Aviation_NC_ATR_42-300_FSX.zip
+description=OSP_ATR42-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZD

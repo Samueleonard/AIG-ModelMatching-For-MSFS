@@ -87,3 +87,22 @@ description=OSP_ATR42-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+
+[fltsim.2]
+title=AIGAIM_NyxAir ATR 42-500 - White
+model=NYX-NyxAir_White
+texture=NYX-NyxAir_White
+atc_id=ES-NTA
+atc_airline=NYX AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NYX
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-500
+ui_variation=NyxAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Aerospatiale ATR 42-500 NyxAir_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR42-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NYX

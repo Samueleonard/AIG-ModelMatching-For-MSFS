@@ -177,3 +177,41 @@ description=TFS_S2000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOG
+
+[fltsim.7]
+title=AIGAIM_NyxAir Saab 2000 - White
+model=NYX-NyxAir_White
+texture=NYX-NyxAir_White
+atc_id=ES-NSF
+atc_airline=NYX AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NYX
+ui_manufacturer=Bombardier Saab
+ui_type=Saab 2000
+ui_variation=Air Leap opb NyxAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_2000_NyxAir Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S2000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NYX
+
+[fltsim.8]
+title=AIGAIM_NyxAir Saab 2000 - White Rear Reg
+model=NYX-NyxAir_White Rear Reg
+texture=NYX-NyxAir_White Rear Reg
+atc_id=ES-NSI
+atc_airline=NYX AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NYX
+ui_manufacturer=Bombardier Saab
+ui_type=Saab 2000
+ui_variation=NyxAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: TFS_SAAB_2000_NyxAir Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S2000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NYX

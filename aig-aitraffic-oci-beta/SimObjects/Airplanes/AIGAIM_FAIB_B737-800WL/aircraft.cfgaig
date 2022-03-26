@@ -11659,3 +11659,75 @@ description=FAIB_B737-800WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.652]
+title=AIGAIM_Pegasus Airlines Boeing 737-800WL - SN
+model=PGT-Pegasus Airlines_SN
+texture=PGT-Pegasus Airlines_SN
+atc_id=TC-AIS
+atc_airline=SUNTURK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PGT
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Pegasus Airlines TC-AIS (Sevde Nil D)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing_737-800WL_Pegasus Airlines_FSX.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGT
+
+[fltsim.653]
+title=AIGAIM_Pegasus Airlines Boeing 737-800WL - White Engine
+model=PGT-Pegasus Airlines_White Engine
+texture=PGT-Pegasus Airlines_White Engine
+atc_id=TC-CCJ
+atc_airline=SUNTURK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PGT
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Pegasus Airlines TC-CCJ (Yaren)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing_737-800WL_Pegasus Airlines_FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGT
+
+[fltsim.654]
+title=AIGAIM_Pegasus Airlines Boeing 737-800WL - SN Ada E
+model=PGT-Pegasus Airlines_SN Ada E
+texture=PGT-Pegasus Airlines_SN Ada E
+atc_id=TC-CPN
+atc_airline=SUNTURK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PGT
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Pegasus TC-CPN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_B738_PGT_ADA.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGT
+
+[fltsim.655]
+title=AIGAIM_Compass Air Cargo Boeing 737-800WL
+model=ADZ-Compass Air Cargo
+texture=ADZ-Compass Air Cargo
+atc_id=LZ-CXA
+atc_airline=MIGRATOR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ADZ
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Compass Air Cargo opb Aviosarda
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800WL BCF_Compass Air Cargo opb Aviosarda_FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ADZ

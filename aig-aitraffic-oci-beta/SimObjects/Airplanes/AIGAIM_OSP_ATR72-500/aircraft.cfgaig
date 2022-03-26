@@ -123,3 +123,76 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSA
+
+[fltsim.4]
+title=AIGAIM_Poste Air Cargo ATR 72-500
+model=MSA-Poste Air Cargo
+texture=MSA-Poste Air Cargo
+atc_id=OY-YBU
+atc_airline=MISTRAL WINGS
+atc_parking_types=RAMP
+atc_parking_codes=MSA
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Poste Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Aerospatiale _ATR_72-500F_Poste Air Cargo_FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MSA
+
+[fltsim.5]
+title=AIGAIM_Poste Air Cargo ATR 72-500 - Poste Italiane Titles
+model=MSA-Poste Air Cargo_Poste Italiane Titles
+texture=MSA-Poste Air Cargo_Poste Italiane Titles
+atc_id=OY-YAB
+atc_airline=MISTRAL WINGS
+atc_parking_types=RAMP
+atc_parking_codes=MSA
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Poste Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Aerospatiale _ATR_72-500F_Poste Air Cargo_FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MSA
+
+[fltsim.6]
+title=AIGAIM_Finnair ATR 72-500 - opb NORRA
+model=FIN-Finnair_opb NORRA
+texture=FIN-Finnair_opb NORRA
+atc_id=OH-ATI
+atc_airline=FINNAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FIN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500
+ui_variation=Nordic Regional Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Nordic_Regional_Airlines_opf_Finnair_ATR_72_500_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FIN
+
+[fltsim.7]
+title=AIGAIM_Zimex Aviation Austria ATR 72-500 - opb IMX
+model=AZD-Zimex Aviation Austria_opb IMX
+texture=AZD-Zimex Aviation Austria_opb IMX
+atc_id=HB-ALR
+atc_airline=MAILMAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZD
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500
+ui_variation=Zimex Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Zimex_Aviation_NC_ATR_72_500F_FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZD

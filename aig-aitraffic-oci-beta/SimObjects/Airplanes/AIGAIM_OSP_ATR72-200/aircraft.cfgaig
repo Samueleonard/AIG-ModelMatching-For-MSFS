@@ -103,3 +103,21 @@ description=OSP_ATR72-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUT
+
+[fltsim.3]
+title=AIGAIM_Zimex Aviation Austria ATR 72-200 - opb IMX
+model=AZD-Zimex Aviation Austria_opb IMX
+texture=AZD-Zimex Aviation Austria_opb IMX
+atc_id=HB-ALL
+atc_airline=MAILMAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZD
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_variation=Zimex Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR_72-202F_Zimex Aviation_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZD
