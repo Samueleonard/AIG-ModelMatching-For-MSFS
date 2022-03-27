@@ -238,3 +238,41 @@ description=AIG_A330-200F_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
+
+[fltsim.10]
+title=AIGAIM_CMA CGM Air Cargo Airbus A330-200F - opb Air Belgium
+model=ABBF-CMA CGM Air Cargo_opb Air Belgium
+texture=ABBF-CMA CGM Air Cargo_opb Air Belgium
+atc_id=OO-CMA
+atc_airline=AIR BELGIUM
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABBF,CMA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Air Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F Air Belgium.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CMA
+
+[fltsim.11]
+title=AIGAIM_CMA CGM Air Cargo Airbus A330-200F - 242t opb Air Belgium
+model=ABBF-CMA CGM Air Cargo_242t opb Air Belgium
+texture=ABBF-CMA CGM Air Cargo_242t opb Air Belgium
+atc_id=OO-AIR
+atc_airline=AIR BELGIUM
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABBF,CMA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Air Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200F Air Belgium.zip
+description=AIG_A330-200F_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CMA

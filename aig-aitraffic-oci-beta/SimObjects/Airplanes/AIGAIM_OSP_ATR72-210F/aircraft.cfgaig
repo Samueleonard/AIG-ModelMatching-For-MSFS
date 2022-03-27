@@ -1,0 +1,89 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME ATR.0.text"
+atc_model="$$:72-210"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator="AT73"
+icao_manufacturer="ATR"
+icao_model="ATR-72-211"
+icao_engine_type="Turboprop/Turboshaft"
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=1
+SMALL_PUSHBACK=0
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_LARGE
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_LARGE
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Empire Airlines ATR 72-210F
+model=CFS-Empire Airlines
+texture=CFS-Empire Airlines
+atc_airline=EMPIRE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CFS
+ui_manufacturer=Aerospatiale/Alenia
+ui_type=ATR 72-210F
+ui_variation=Empire Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP ATR 72-210 FDX.zip
+prop_anim_ratio=-0.10
+description=OSP_ATR72-210F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFS
+
+[fltsim.1]
+title=AIGAIM_Mountain Air Cargo ATR 72-210F
+model=MTN-Mountain Air Cargo
+texture=MTN-Mountain Air Cargo
+atc_airline=MOUNTAIN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MTN
+ui_manufacturer=Aerospatiale/Alenia
+ui_type=ATR 72-210F
+ui_variation=Mountain Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP ATR 72-210 FDX.zip
+prop_anim_ratio=-0.10
+description=OSP_ATR72-210F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MTN

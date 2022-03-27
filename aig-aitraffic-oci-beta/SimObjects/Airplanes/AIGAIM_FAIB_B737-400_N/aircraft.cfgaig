@@ -261,3 +261,74 @@ description=FAIB_B737-400-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
+
+[fltsim.14]
+title=AIGAIM_AerCaribe Boeing 737-400 - SF
+model=ACL-AerCaribe_SF
+texture=ACL-AerCaribe_SF
+atc_id=HK5139
+atc_airline=ADMIRE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ACL
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=AerCaribe Cargo HK-5139
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: AerCaribe_Cargo_B737-400F_Fleet.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACL
+
+[fltsim.15]
+title=AIGAIM_Airwork Boeing 737-400 - SF 'opf Parcelair'
+model=APK-Airwork_SF 'opf Parcelair'
+texture=APK-Airwork_SF 'opf Parcelair'
+atc_id=ZK-PAK
+atc_airline=AIRPAK
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=APK
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=Airwork (NZ) Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B734 Airwork New Zealand FSX.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=APK
+
+[fltsim.16]
+title=AIGAIM_Airwork Boeing 737-400 - SF 'opf Toll Aviation'
+model=TFR-Airwork_SF 'opf Toll Aviation'
+texture=TFR-Airwork_SF 'opf Toll Aviation'
+atc_id=ZK-TLK
+atc_airline=TOLL EXPRESS
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TFR
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=Airwork (NZ) Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B734 Airwork New Zealand FSX.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFR
+
+[fltsim.17]
+title=AIGAIM_My Indo Airlines Boeing 737-400 - SF
+model=MYU-My Indo Airlines_SF
+texture=MYU-My Indo Airlines_SF
+atc_airline=INDO
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MYU
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400 - SF
+ui_variation=My Indo Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB_737-400SF_My Indo Airlines.zip
+description=FAIB_B737-400-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MYU

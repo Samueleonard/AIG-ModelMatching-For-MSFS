@@ -288,3 +288,37 @@ description=HTAI_Beechjet400A-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+
+[fltsim.14]
+title=AIGAIM_Searca Beechjet 400A - HK-4645
+model=SRC-Searca_HK-4645
+texture=SRC-Searca_HK-4645
+atc_airline=SEARCA
+atc_parking_types=RAMP
+atc_parking_codes=SRC
+ui_manufacturer=HTAI
+ui_type=Beechjet 400A
+ui_variation=Beechjet 400A, c/n RK-174, Searca, HK-4645
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SearcaBeechjet400As.zip
+description=HTAI_Beechjet400A-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRC
+
+[fltsim.15]
+title=AIGAIM_Searca Beechjet 400A - HK-4801
+model=SRC-Searca_HK-4801
+texture=SRC-Searca_HK-4801
+atc_airline=SEARCA
+atc_parking_types=RAMP
+atc_parking_codes=SRC
+ui_manufacturer=HTAI
+ui_type=Beechjet 400A
+ui_variation=Beechjet 400A, c/n RK-173, Searca, HK-4801
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SearcaBeechjet400As.zip
+description=HTAI_Beechjet400A-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRC

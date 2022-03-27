@@ -159,3 +159,37 @@ description=HTAI_B1900C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PCO
+
+[fltsim.6]
+title=AIGAIM_Janet Beechcraft 1900C - N20RA
+model=WWW-Janet_N20RA
+texture=WWW-Janet_N20RA
+atc_airline=JANET
+atc_parking_types=RAMP
+atc_parking_codes=WWW
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900C
+ui_variation=Beech B1900C, c/n UB-42, EG & G, N20RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: EG&GB1900Cs.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WWW
+
+[fltsim.7]
+title=AIGAIM_Janet Beechcraft 1900C - N623RA
+model=WWW-Janet_N623RA
+texture=WWW-Janet_N623RA
+atc_airline=JANET
+atc_parking_types=RAMP
+atc_parking_codes=WWW
+ui_manufacturer=HTAI
+ui_type=Beechcraft 1900C
+ui_variation=Beech B1900C-1, c/n UC-163, EG & G, N623RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: EG&GB1900Cs.zip
+description=HTAI_B1900C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WWW

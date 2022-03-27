@@ -337,3 +337,97 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
+
+[fltsim.15]
+title=AIGAIM_4 Seasons Boeing 757-200WL - opb TAG Aviation UK
+model=BJO-4 Seasons_opb TAG Aviation UK
+texture=BJO-4 Seasons_opb TAG Aviation UK
+atc_id=G-TCSX
+atc_airline=SOVEREIGN
+atc_heavy=1
+atc_parking_types=RAMP
+atc_parking_codes=BJO,BBJ,VIP
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200WL
+ui_variation=TAG Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Boeing 757-200 Winglets_TAG_Aviation_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.16]
+title=AIGAIM_Consul Weltreisen Boeing 757-200WL - opb GainJet
+model=BJO-Consul Weltreisen_opb GainJet
+texture=BJO-Consul Weltreisen_opb GainJet
+atc_airline=GAIN JET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BJO
+ui_type=Boeing 757-200WL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: AIG_752W_RR_Gainjet_opf_Consul_SX-RFA.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.17]
+title=AIGAIM_MLW Aviation LLC Boeing 757-200WL
+model=MLW-MLW Aviation LLC
+texture=MLW-MLW Aviation LLC
+atc_id=N801DM
+atc_airline=GIANT
+atc_heavy=1
+atc_parking_types=RAMP
+atc_parking_codes=MLW
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=MLW Aviation LLC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_mlw_b752_p3d.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MLW
+
+[fltsim.18]
+title=AIGAIM_TCS World Travel Boeing 757-200WL - opb TUI Airlines UK
+model=BJO-TCS World Travel_opb TUI Airlines UK
+texture=BJO-TCS World Travel_opb TUI Airlines UK
+atc_id=G-OOBD
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BJO,BBJ
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200WL
+ui_variation=TCS World Travel opb TUI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Boeing 757-200 Winglets_TCS World Travel_opb_TUI_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO
+
+[fltsim.19]
+title=AIGAIM_Cargojet Boeing 757-200WL - PCF
+model=CJT-Cargojet_PCF
+texture=CJT-Cargojet_PCF
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Cargojet - C-FGKJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_B752_CJT_2020.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT

@@ -193,3 +193,20 @@ description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PFZ
+
+[fltsim.8]
+title=AIGAIM_Pivot Airlines Bombardier CRJ-100 - ex Air Canada Express
+model=GGN-Pivot Airlines_ex Air Canada Express
+texture=GGN-Pivot Airlines_ex Air Canada Express
+atc_airline=GREAT NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GGN
+ui_manufacturer=Raven AI
+ui_type=Bombardier CRJ-100
+ui_variation=Pivot Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: rai_crj1_ggn_2021.zip
+description=RFSL_CRJ-100-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GGN

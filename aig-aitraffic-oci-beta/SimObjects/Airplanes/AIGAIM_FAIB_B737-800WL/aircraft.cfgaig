@@ -11731,3 +11731,19 @@ description=FAIB_B737-800WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ADZ
+
+[fltsim.656]
+title=AIGAIM_Avelo Airlines Boeing 737-800WL
+model=VXP-Avelo Airlines
+texture=VXP-Avelo Airlines
+atc_id=N802XT
+atc_airline=AVELO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VXP
+ui_type=Boeing 737-800WL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Avelo Airlines B737-800 Fleet FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VXP

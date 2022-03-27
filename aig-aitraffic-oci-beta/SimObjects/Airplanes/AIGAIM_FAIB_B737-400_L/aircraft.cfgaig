@@ -1996,3 +1996,74 @@ description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSA
+
+[fltsim.111]
+title=AIGAIM_AerCaribe Boeing 737-400 - SF unnamed thin Titles
+model=ACL-AerCaribe_SF unnamed thin Titles
+texture=ACL-AerCaribe_SF unnamed thin Titles
+atc_id=HK5228
+atc_airline=ADMIRE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ACL
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=AerCaribe Cargo HK-5228
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: AerCaribe_Cargo_B737-400F_Fleet.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACL
+
+[fltsim.112]
+title=AIGAIM_Justice Prisoner & Alien Transportation System Boeing 737-400 - N639CS
+model=DOJ-Justice Prisoner & Alien Transportation System_N639CS
+texture=DOJ-Justice Prisoner & Alien Transportation System_N639CS
+atc_id=N639CS
+atc_airline=JUSTICE
+atc_parking_types=RAMP
+atc_parking_codes=DOJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=Department of Justice JPATS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_doj_boeing_734.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DOJ
+
+[fltsim.113]
+title=AIGAIM_Justice Prisoner & Alien Transportation System Boeing 737-400 - N640CS
+model=DOJ-Justice Prisoner & Alien Transportation System_N640CS
+texture=DOJ-Justice Prisoner & Alien Transportation System_N640CS
+atc_id=N640CS
+atc_airline=JUSTICE
+atc_parking_types=RAMP
+atc_parking_codes=DOJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=Department of Justice JPATS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_doj_boeing_734.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DOJ
+
+[fltsim.114]
+title=AIGAIM_Modern Logistics Boeing 737-400 - SF Eyebrows
+model=MWM-Modern Logistics_SF Eyebrows
+texture=MWM-Modern Logistics_SF Eyebrows
+atc_airline=MODERNAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MWM
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400 - SF
+ui_variation=Modern Logistics
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_734F_Modern_Logistics_PP-YBA.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MWM

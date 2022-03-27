@@ -5978,3 +5978,39 @@ description=FAIB_A320-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TDR
+
+[fltsim.333]
+title=AIGAIM_GlobalX Airlines Airbus A320-200
+model=GXA-GlobalX Airlines
+texture=GXA-GlobalX Airlines
+atc_id=N276GX
+atc_airline=GEMINI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GXA
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200
+ui_variation=Global X Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gxa_airbus_a320.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GXA
+
+[fltsim.334]
+title=AIGAIM_GlobalX Airlines Airbus A320-200 - Blue c/s
+model=GXA-GlobalX Airlines_Blue c_s
+texture=GXA-GlobalX Airlines_Blue c_s
+atc_id=N279GX
+atc_airline=GEMINI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GXA
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200
+ui_variation=Global X Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gxa_airbus_a320.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GXA

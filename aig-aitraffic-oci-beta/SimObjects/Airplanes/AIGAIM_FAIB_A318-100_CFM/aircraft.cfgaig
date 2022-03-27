@@ -127,3 +127,21 @@ description=FAIB_A318-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
+
+[fltsim.5]
+title=AIGAIM_TCS World Travel Airbus A318-100 - opb Titan Airways
+model=BJO-TCS World Travel_opb Titan Airways
+texture=BJO-TCS World Travel_opb Titan Airways
+atc_id=G-EUNB
+atc_airline=ZAP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BJO,BBJ
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A318-100
+ui_variation=TCS World Travel opb Titan Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A318-100_TCS World Travel opb Titan Airways_FSX.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BJO

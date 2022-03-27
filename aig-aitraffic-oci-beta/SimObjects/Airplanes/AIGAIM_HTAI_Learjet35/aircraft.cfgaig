@@ -257,3 +257,39 @@ description=HTAI_Learjet35(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJI
+
+[fltsim.12]
+title=AIGAIM_DRF Luftrettung Bombardier Learjet 35 - D-CDRF
+model=AMB-DRF Luftrettung_D-CDRF
+texture=AMB-DRF Luftrettung_D-CDRF
+atc_id=D-CDRF
+atc_airline=CIVIL AIR AMBULANCE
+atc_parking_types=RAMP
+atc_parking_codes=AMB,MED
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=DRF Luftrettung Bombardier Learjet 35 - D-CDRF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_DRF-Luftrettung_LJ35_FLEET_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMB
+
+[fltsim.13]
+title=AIGAIM_DRF Luftrettung Bombardier Learjet 35 - D-CCCB
+model=AMB-DRF Luftrettung_D-CCCB
+texture=AMB-DRF Luftrettung_D-CCCB
+atc_id=D-CCCB
+atc_airline=CIVIL AIR AMBULANCE
+atc_parking_types=RAMP
+atc_parking_codes=AMB,MED
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=DRF Luftrettung Bombardier Learjet 35 - D-CCCB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_DRF-Luftrettung_LJ35_FLEET_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMB

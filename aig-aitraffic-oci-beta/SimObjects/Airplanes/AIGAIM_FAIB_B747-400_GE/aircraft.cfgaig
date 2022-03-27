@@ -326,63 +326,6 @@ isUserSelectable=0
 icao_airline=CKS
 
 [fltsim.16]
-title=AIGAIM_Virgin Atlantic Boeing 747-400
-model=VIR-Virgin Atlantic
-texture=VIR-Virgin Atlantic
-atc_id=G-VBIG
-atc_airline=VIRGIN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VIR
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400
-ui_variation=Virgin Atlantic Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_vir_b744_p3d.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VIR
-
-[fltsim.17]
-title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC
-model=VIR-Virgin Atlantic_OC
-texture=VIR-Virgin Atlantic_OC
-atc_id=G-VROY
-atc_airline=VIRGIN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VIR
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400
-ui_variation=Virgin Atlantic Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_vir_b744_p3d.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VIR
-
-[fltsim.18]
-title=AIGAIM_Virgin Atlantic Boeing 747-400 - OC Forever Young
-model=VIR-Virgin Atlantic_OC Forever Young
-texture=VIR-Virgin Atlantic_OC Forever Young
-atc_id=G-VROS
-atc_airline=VIRGIN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VIR
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400
-ui_variation=Virgin Atlantic Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_vir_b744_p3d.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VIR
-
-[fltsim.19]
 title=AIGAIM_EVA Air Cargo Boeing 747-400 - BDSF OC Old Titles
 model=EVAC-EVA Air Cargo_BDSF OC Old Titles
 texture=EVAC-EVA Air Cargo_BDSF OC Old Titles
@@ -401,7 +344,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVAC
 
-[fltsim.20]
+[fltsim.17]
 title=AIGAIM_China Airlines Boeing 747-400
 model=CAL-China Airlines
 texture=CAL-China Airlines
@@ -420,7 +363,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.21]
+[fltsim.18]
 title=AIGAIM_China Airlines Boeing 747-400 - Skyteam
 model=CAL-China Airlines_Skyteam
 texture=CAL-China Airlines_Skyteam
@@ -439,7 +382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_Lufthansa Boeing 747-400
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -458,7 +401,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC Webtitles
 model=DLH-Lufthansa_OC Webtitles
 texture=DLH-Lufthansa_OC Webtitles
@@ -477,7 +420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -496,7 +439,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed Webtitles
 model=DLH-Lufthansa_OC unnamed Webtitles
 texture=DLH-Lufthansa_OC unnamed Webtitles
@@ -515,7 +458,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_Saudia Boeing 747-400 - GE Albino opb AAI
 model=SVA-Saudia_GE Albino opb AAI
 texture=SVA-Saudia_GE Albino opb AAI
@@ -534,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_Saudia Boeing 747-400 - GE OC New Tail Logo opb AAI
 model=SVA-Saudia_GE OC New Tail Logo opb AAI
 texture=SVA-Saudia_GE OC New Tail Logo opb AAI
@@ -553,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino opb ACT
 model=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
 texture=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
@@ -572,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino Large Reg opb ACT
 model=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
 texture=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
@@ -591,7 +534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
 model=QFA-Qantas_GE OC
 texture=QFA-Qantas_GE OC
@@ -610,7 +553,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_National Airlines Boeing 747-400 - BCF (TEMP)
 model=NCR-National Airlines_BCF_temp
 texture=NCR-National Airlines_BCF_temp
@@ -628,3 +571,19 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NCR
+
+[fltsim.29]
+title=AIGAIM_General Electric Propulsion Test Platform Boeing 747-400
+model=-General Electric Propulsion Test Platform
+texture=-General Electric Propulsion Test Platform
+atc_id=N747GF
+atc_heavy=1
+atc_parking_types=RAMP
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=GE Propulsion Test Platform ex JAL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_747-400_ge_aviation.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0

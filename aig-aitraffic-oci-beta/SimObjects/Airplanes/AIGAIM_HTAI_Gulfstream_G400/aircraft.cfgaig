@@ -69,3 +69,20 @@ description=HTAI_Gulfstream_G400(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
+
+[fltsim.1]
+title=AIGAIM_Olympia Aviation Gulfstream G400
+model=OLA-Olympia Aviation
+texture=OLA-Olympia Aviation
+atc_id=N559LC
+atc_parking_types=RAMP
+atc_parking_codes=OLA
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream G400
+ui_variation=Olympia Aviation Llc , S/N 1259
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Olympia-Aviation_G-IVSP_N559LC_jondix.zip
+description=HTAI_Gulfstream_G400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OLA

@@ -69,3 +69,17 @@ description=AIA_MD-81-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LER
+
+[fltsim.1]
+title=AIGAIM_Olympia Aviation McDonnell Douglas MD-81
+model=OLA-Olympia Aviation
+texture=OLA-Olympia Aviation
+atc_parking_types=RAMP
+atc_parking_codes=OLA
+ui_type=McDonnell Douglas MD-81
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aia_oal_md81_p3d.zip
+description=AIA_MD-81-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OLA

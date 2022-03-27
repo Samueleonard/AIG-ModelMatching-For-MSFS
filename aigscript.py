@@ -7,7 +7,7 @@ import webbrowser
 comFolderPath = "E:\\MSFS\\Community\\Traffic\\aig-aitraffic-oci-beta\\"
 githubFolderPath = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
 
-names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "SimObjects", 'Effects']
+names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "SimObjects", 'Effects', 'BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr']
 
 #######################################
 
@@ -25,17 +25,15 @@ def copyFiles(toGithub):
             print("copying " + githubFolderPath + name + " to " + comFolderPath)
             shutil.move(githubFolderPath + name, comFolderPath)
             print("copied " + githubFolderPath + name + " to " + comFolderPath)
-        shutil.move(githubFolderPath + "BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr", "C:\\Users\\samue\\Documents\\vPilot Files\\BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr")
         shutil.rmtree(githubFolderPath) #clear github folder after moving everything back to community
     else: #we are moving files into the github folder for zipping
         for name in names:
             print("copying " + comFolderPath + name + " to " + githubFolderPath)
             shutil.move(comFolderPath + name, githubFolderPath)
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
-        shutil.move("C:\\Users\\samue\\Documents\\vPilot Files\\BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr", githubFolderPath)
     
 def createZip(): #creates a zip file of the github folder then opens google drive to upload it
-    choice = input("Do you want to create a zip file? (y/n)")
+    choice = input("Do you want to create a zip file? (y/n)").lower()
     if(choice == "y"):
         print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
         if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):

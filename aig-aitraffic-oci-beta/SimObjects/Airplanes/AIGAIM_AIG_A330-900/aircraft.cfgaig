@@ -111,3 +111,75 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RBA
+
+[fltsim.3]
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC
+model=TAP-TAP Air Portugal_IC
+texture=TAP-TAP Air Portugal_IC
+atc_airline=AIR PORTUGAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=TAP Portugal CS-TUC 'Nuno Goncalves' (standard)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.4]
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 1st to fly A330neo
+model=TAP-TAP Air Portugal_IC 1st to fly A330neo
+texture=TAP-TAP Air Portugal_IC 1st to fly A330neo
+atc_airline=AIR PORTUGAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=TAP Portugal CS-TUA 'D. Maria I' ('First to Fly' sticker)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.5]
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 100th Aircraft
+model=TAP-TAP Air Portugal_IC 100th Aircraft
+texture=TAP-TAP Air Portugal_IC 100th Aircraft
+atc_airline=AIR PORTUGAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=TAP Portugal CS-TUI 'D. Alfonso Enriques' ('100th aircraft' sticker)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.6]
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC Star Alliance
+model=TAP-TAP Air Portugal_IC Star Alliance
+texture=TAP-TAP Air Portugal_IC Star Alliance
+atc_airline=AIR PORTUGAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=TAP Portugal CS-TUK 'D. Francisco de Almeida' (Star Alliance colors)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP

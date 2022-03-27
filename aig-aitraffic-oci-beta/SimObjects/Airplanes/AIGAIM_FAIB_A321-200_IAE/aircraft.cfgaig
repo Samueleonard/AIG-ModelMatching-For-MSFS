@@ -1209,3 +1209,21 @@ description=FAIB_A321-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
+
+[fltsim.66]
+title=AIGAIM_GlobalX Airlines Airbus A321-200
+model=GXA-GlobalX Airlines
+texture=GXA-GlobalX Airlines
+atc_id=N277GX
+atc_airline=GEMINI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GXA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Global X Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gxa_airbus_a321.zip
+description=FAIB_A321-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GXA

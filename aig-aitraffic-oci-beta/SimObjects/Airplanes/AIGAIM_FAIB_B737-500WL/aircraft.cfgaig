@@ -137,3 +137,21 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
+
+[fltsim.6]
+title=AIGAIM_Sierra Pacific Airlines Boeing 737-500WL
+model=SPA-Sierra Pacific Airlines
+texture=SPA-Sierra Pacific Airlines
+atc_id=N709S
+atc_airline=SIERRA PACIFIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SPA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500WL
+ui_variation=Sierria Pacific
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: Serria Pacific FAIB Boeing 737 fleet.zip
+description=FAIB_B737-500WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SPA

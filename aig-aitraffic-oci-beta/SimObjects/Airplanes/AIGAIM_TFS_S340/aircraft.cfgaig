@@ -998,3 +998,38 @@ description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEG
+
+[fltsim.52]
+title=AIGAIM_Air Century Saab 340B
+model=CEY-Air Century
+texture=CEY-Air Century
+atc_id=HI976
+atc_airline=CENTURYFLIGHT
+atc_parking_types=RAMP,GATE
+atc_parking_codes=CEY
+ui_manufacturer=Saab
+ui_type=Saab 340B
+ui_variation=Air Century
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Air Century SF340B.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CEY
+
+[fltsim.53]
+title=AIGAIM_Fly Corporate Saab 340
+model=FCX-Fly Corporate
+texture=FCX-Fly Corporate
+atc_airline=FLY CORP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FCX
+ui_manufacturer=TRAFFIC LUIS
+ui_type=Saab 340
+ui_variation=Fly Corporate
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: fly_corporate.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FCX

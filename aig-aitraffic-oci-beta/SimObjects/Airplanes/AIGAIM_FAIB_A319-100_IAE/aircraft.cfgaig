@@ -1533,3 +1533,21 @@ description=FAIB_A319-100_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOC
+
+[fltsim.85]
+title=AIGAIM_Skytraders Airbus A319-100
+model=SND-Skytraders
+texture=SND-Skytraders
+atc_id=VH-VCJ
+atc_airline=SNOWBIRD
+atc_parking_types=RAMP
+atc_parking_codes=SND
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100
+ui_variation=Skytraders
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A319 Skytraders FSX.zip
+description=FAIB_A319-100_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SND
