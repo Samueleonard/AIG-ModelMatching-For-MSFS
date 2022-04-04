@@ -146,3 +146,41 @@ description=AIG_A330-300_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
+
+[fltsim.5]
+title=AIGAIM_China Southern Airlines Airbus A330-300 - 242t PW
+model=CSN-China Southern Airlines_242t PW
+texture=CSN-China Southern Airlines_242t PW
+atc_id=B-8358
+atc_airline=CHINA SOUTHERN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Southern Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300 PW_China Southern Airlines.zip
+description=AIG_A330-300_PW-PW_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN
+
+[fltsim.6]
+title=AIGAIM_China Southern Airlines Airbus A330-300 - PW WiFi dome
+model=CSN-China Southern Airlines_PW WiFi dome
+texture=CSN-China Southern Airlines_PW WiFi dome
+atc_id=B-5939
+atc_airline=CHINA SOUTHERN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=China Southern Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300 PW_China Southern Airlines.zip
+description=AIG_A330-300_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN

@@ -32,7 +32,7 @@ def copyFiles(toGithub):
             shutil.move(comFolderPath + name, githubFolderPath)
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
     
-def createZip(): #creates a zip file of the github folder then opens google drive to upload it
+    
     choice = input("Do you want to create a zip file? (y/n)").lower()
     if(choice == "y"):
         print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
