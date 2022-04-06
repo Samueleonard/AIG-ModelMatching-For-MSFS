@@ -44,12 +44,14 @@ def copyFiles(toGithub):
         wait = input("commit your changes and press enter to continue")
     else:
         print("skipping zip creation")
+        choice = input("have you pushed your changes to github? (y/n)").lower()
+        while choice != "y":
+            choice = input("have you pushed your changes to github? (y/n)").lower()
 
 def start(): #main function
     clearGithubDir()
     copyFiles(True)
     os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
-    createZip()
     copyFiles(False)
 
 
