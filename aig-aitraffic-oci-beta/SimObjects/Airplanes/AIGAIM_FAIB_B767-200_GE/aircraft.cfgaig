@@ -180,25 +180,6 @@ isUserSelectable=0
 icao_airline=ABX
 
 [fltsim.7]
-title=AIGAIM_West Atlantic Sweden Boeing 767-200 - BDSF
-model=SWN-West Atlantic Sweden_BDSF
-texture=SWN-West Atlantic Sweden_BDSF
-atc_id=SE-RLB
-atc_airline=AIR SWEDEN
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWN
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 767-200
-ui_variation=West Atlantic Sweden
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_Sweden_Boeing_767_200F_FSX.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWN
-
-[fltsim.8]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ABX Air
 model=AMZ-Amazon Prime Air_BDSF opb ABX Air
 texture=AMZ-Amazon Prime Air_BDSF opb ABX Air
@@ -217,7 +198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ABX Air White belly
 model=AMZ-Amazon Prime Air_BDSF opb ABX Air White belly
 texture=AMZ-Amazon Prime Air_BDSF opb ABX Air White belly
@@ -236,7 +217,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ABX Air Airborne Express
 model=AMZ-Amazon Prime Air_BDSF opb ABX Air Airborne Express
 texture=AMZ-Amazon Prime Air_BDSF opb ABX Air Airborne Express
@@ -255,7 +236,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ABX Air No titles
 model=AMZ-Amazon Prime Air_BDSF opb ABX Air No titles
 texture=AMZ-Amazon Prime Air_BDSF opb ABX Air No titles
@@ -274,7 +255,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ATI White fairing
 model=AMZ-Amazon Prime Air_BDSF opb ATI White fairing
 texture=AMZ-Amazon Prime Air_BDSF opb ATI White fairing
@@ -292,7 +273,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ATI White with titles
 model=AMZ-Amazon Prime Air_BDSF opb ATI White with titles
 texture=AMZ-Amazon Prime Air_BDSF opb ATI White with titles
@@ -310,7 +291,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Amazon Prime Air Boeing 767-200 - BDSF opb ATI New titles
 model=AMZ-Amazon Prime Air_BDSF opb ATI New titles
 texture=AMZ-Amazon Prime Air_BDSF opb ATI New titles
@@ -328,7 +309,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Amerijet International Boeing 767-200 - BDSF
 model=AJT-Amerijet International_BDSF
 texture=AJT-Amerijet International_BDSF
@@ -347,7 +328,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJT
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Amerijet International Boeing 767-200 - BDSF DHL
 model=AJT-Amerijet International_BDSF DHL
 texture=AJT-Amerijet International_BDSF DHL
@@ -366,7 +347,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJT
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Atlas Air Boeing 767-200 - GE BDSF DHL
 model=GTI-Atlas Air_GE BDSF DHL
 texture=GTI-Atlas Air_GE BDSF DHL
@@ -385,7 +366,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Atlas Air Boeing 767-200 - GE BDSF DHL former Rugby World Cup
 model=GTI-Atlas Air_GE BDSF DHL former Rugby World Cup
 texture=GTI-Atlas Air_GE BDSF DHL former Rugby World Cup
@@ -404,7 +385,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF
 model=DHX-DHL Intl Aviation ME_BDSF
 texture=DHX-DHL Intl Aviation ME_BDSF
@@ -423,7 +404,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF Bahrain Airshow
 model=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
 texture=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
@@ -442,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF opb SkyTaxi Poland
 model=DHX-DHL Intl Aviation ME_BDSF opb SkyTaxi Poland
 texture=DHX-DHL Intl Aviation ME_BDSF opb SkyTaxi Poland
@@ -461,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_EAT Leipzig Boeing 767-200 - BDSF opb West Atlantic Airlines
 model=BCS-EAT Leipzig_BDSF opb West Atlantic Airlines
 texture=BCS-EAT Leipzig_BDSF opb West Atlantic Airlines
@@ -480,7 +461,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Raya Airways Boeing 767-200 - BDSF
 model=RMY-Raya Airways_BDSF
 texture=RMY-Raya Airways_BDSF
@@ -499,7 +480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RMY
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Star Air Boeing 767-200 - GEA BDSF
 model=SRR-Star Air_GEA BDSF
 texture=SRR-Star Air_GEA BDSF
@@ -518,7 +499,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRR
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Star Air Boeing 767-200 - GEC BDSF
 model=SRR-Star Air_GEC BDSF
 texture=SRR-Star Air_GEC BDSF

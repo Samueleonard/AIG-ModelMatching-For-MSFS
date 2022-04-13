@@ -53,24 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_ASL Airlines Ireland ATR 42-300F - Fedex Colours
-model=ABR-ASL Airlines Ireland_Fedex Colours
-texture=ABR-ASL Airlines Ireland_Fedex Colours
-atc_id=EI-FXD
-atc_airline=CONTRACT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABR
-ui_manufacturer=OSP
-ui_type=ATR 42-300F
-ui_variation=ASL Airlines Ireland 'Fedex Feeder Livery'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ASL_Airlines_Ireland_ATR_42_300_FSX.zip
-description=OSP_ATR42-300F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABR
-
-[fltsim.1]
 title=AIGAIM_Empire Airlines ATR 42-300F
 model=CFS-Empire Airlines
 texture=CFS-Empire Airlines
@@ -85,7 +67,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFS
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Mountain Air Cargo ATR 42-300F
 model=MTN-Mountain Air Cargo
 texture=MTN-Mountain Air Cargo
@@ -100,7 +82,64 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MTN
 
+[fltsim.2]
+title=AIGAIM_Swiftair ATR 42-300F (TEMP)
+model=SWT-Swiftair_temp
+texture=SWT-Swiftair_temp
+atc_id=EC-ISX
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300F
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR42-300F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
+
 [fltsim.3]
+title=AIGAIM_Swiftair ATR 42-300F - forward title (TEMP)
+model=SWT-Swiftair_forward title_temp
+texture=SWT-Swiftair_forward title_temp
+atc_id=EC-JBX
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300F
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR42-300F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
+
+[fltsim.4]
+title=AIGAIM_Swiftair ATR 42-300F - Fedex colours
+model=SWT-Swiftair_Fedex colours
+texture=SWT-Swiftair_Fedex colours
+atc_id=EC-KAI
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300F
+ui_variation=Fedex opb Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR42-300F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
+
+[fltsim.5]
 title=AIGAIM_Jetcraft Aviation ATR 42-300F - opf Toll Aviaion
 model=TFX-Jetcraft Aviation_opf Toll Aviaion
 texture=TFX-Jetcraft Aviation_opf Toll Aviaion

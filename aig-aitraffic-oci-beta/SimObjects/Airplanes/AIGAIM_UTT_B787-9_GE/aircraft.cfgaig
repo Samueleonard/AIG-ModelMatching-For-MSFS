@@ -701,3 +701,22 @@ description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLX
+
+[fltsim.34]
+title=AIGAIM_Qatar Airways Boeing 787-9
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_id=A7-BHA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Qatar Airways.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

@@ -382,22 +382,3 @@ description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
-
-[fltsim.17]
-title=AIGAIM_Qatar Airways Airbus A380-800 - named
-model=QTR-Qatar Airways_named
-texture=QTR-Qatar Airways_named
-atc_id=A7-APA
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A380 Qatar Airways FSX.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR

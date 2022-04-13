@@ -1052,24 +1052,6 @@ isUserSelectable=0
 icao_airline=DLH
 
 [fltsim.57]
-title=AIGAIM_Qatar Airways Airbus A321-200 - named
-model=QTR-Qatar Airways_named
-texture=QTR-Qatar Airways_named
-atc_id=A7-ADT
-atc_airline=QATARI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Qatar Airways FSX.zip
-description=FAIB_A321-200_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.58]
 title=AIGAIM_Gulf Air Airbus A321-200
 model=GFA-Gulf Air
 texture=GFA-Gulf Air
@@ -1086,7 +1068,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Jetstar Airways Airbus A321-200 - Billboard
 model=JST-Jetstar Airways_Billboard
 texture=JST-Jetstar Airways_Billboard
@@ -1104,7 +1086,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JST
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_LATAM Airlines Brasil Airbus A321-200 - IAE
 model=TAM-LATAM Airlines Brasil_IAE
 texture=TAM-LATAM Airlines Brasil_IAE
@@ -1121,7 +1103,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_LATAM Airlines Brasil Airbus A321-200 - IAE OC
 model=TAM-LATAM Airlines Brasil_IAE OC
 texture=TAM-LATAM Airlines Brasil_IAE OC
@@ -1139,7 +1121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Nile Air Airbus A321-200 - Invest in Egypt
 model=NIA-Nile Air_Invest in Egypt
 texture=NIA-Nile Air_Invest in Egypt
@@ -1156,7 +1138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NIA
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Royal Air Maroc Airbus A321-200 -  opb SmartLynx
 model=RAM-Royal Air Maroc_ opb SmartLynx
 texture=RAM-Royal Air Maroc_ opb SmartLynx
@@ -1174,7 +1156,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_Royal Jordanian Airlines Airbus A321-200
 model=RJA-Royal Jordanian Airlines
 texture=RJA-Royal Jordanian Airlines
@@ -1192,7 +1174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.65]
+[fltsim.64]
 title=AIGAIM_SriLankan Airlines Airbus A321-200
 model=ALK-SriLankan Airlines
 texture=ALK-SriLankan Airlines
@@ -1210,7 +1192,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.66]
+[fltsim.65]
 title=AIGAIM_GlobalX Airlines Airbus A321-200
 model=GXA-GlobalX Airlines
 texture=GXA-GlobalX Airlines
@@ -1227,3 +1209,21 @@ description=FAIB_A321-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GXA
+
+[fltsim.66]
+title=AIGAIM_Qatar Airways Airbus A321-200
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_id=A7-ADT
+atc_airline=QATARI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Qatar Airways FSX.zip
+description=FAIB_A321-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

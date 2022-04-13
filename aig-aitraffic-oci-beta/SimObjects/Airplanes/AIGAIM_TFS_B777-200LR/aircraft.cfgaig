@@ -287,25 +287,6 @@ isUserSelectable=0
 icao_airline=ETH
 
 [fltsim.12]
-title=AIGAIM_Qatar Airways Boeing 777-200LR - named fwd WiFi Dome
-model=QTR-Qatar Airways_named fwd WiFi Dome
-texture=QTR-Qatar Airways_named fwd WiFi Dome
-atc_id=A7-BBE
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200LR
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B772LR Qatar Airways FSX.zip
-description=TFS_B777-200LR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.13]
 title=AIGAIM_Turkmenistan Airlines Boeing 777-200LR
 model=TUA-Turkmenistan Airlines
 texture=TUA-Turkmenistan Airlines
@@ -323,3 +304,40 @@ description=TFS_B777-200LR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
+
+[fltsim.13]
+title=AIGAIM_Qatar Airways Boeing 777-200LR
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_id=A7-BBE
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200LR
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B772LR Qatar Airways FSX.zip
+description=TFS_B777-200LR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.14]
+title=AIGAIM_Qatar Airways Boeing 777-200LR - FIFA 2022
+model=QTR-Qatar Airways_FIFA 2022
+texture=QTR-Qatar Airways_FIFA 2022
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200LR
+ui_variation=Qatar Airways - A7-BBI FIFA World Cup
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_B77L_QTR_A7BBI.zip
+description=TFS_B777-200LR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

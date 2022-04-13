@@ -87,3 +87,22 @@ description=OSP_ATR72-210F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MTN
+
+[fltsim.2]
+title=AIGAIM_SprintAir ATR 72-210F - Red
+model=SRN-SprintAir_Red
+texture=SRN-SprintAir_Red
+atc_id=SP-SPD
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-210F
+ui_variation=Sprint Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR_72_210_Sprint Air_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-210F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN

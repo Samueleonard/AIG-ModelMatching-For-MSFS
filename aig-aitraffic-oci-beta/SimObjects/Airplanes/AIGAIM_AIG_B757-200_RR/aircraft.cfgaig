@@ -605,3 +605,23 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
+
+[fltsim.29]
+title=AIGAIM_Swiftair Boeing 757-200 - RR APF Albino
+model=SWT-Swiftair_RR APF Albino
+texture=SWT-Swiftair_RR APF Albino
+atc_id=EC-NQJ
+atc_airline=SWIFT
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200PF Swiftair_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT

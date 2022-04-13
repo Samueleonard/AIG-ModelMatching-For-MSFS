@@ -2275,3 +2275,21 @@ description=FAIB_B737-700WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
+
+[fltsim.126]
+title=AIGAIM_ASL Airlines France Boeing 737-700WL - Albino No Eyebrows
+model=FPO-ASL Airlines France_Albino No Eyebrows
+texture=FPO-ASL Airlines France_Albino No Eyebrows
+atc_id=F-GZTP
+atc_airline=FRENCH POST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FPO
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-700WL
+ui_variation=ASL Airlines France
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_700W_FSX.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FPO

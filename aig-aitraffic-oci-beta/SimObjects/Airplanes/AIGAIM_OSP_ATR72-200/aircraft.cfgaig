@@ -121,3 +121,22 @@ description=OSP_ATR72-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZD
+
+[fltsim.4]
+title=AIGAIM_Swiftair ATR 72-200 - opf Uep Fly
+model=SWT-Swiftair_opf Uep Fly
+texture=SWT-Swiftair_opf Uep Fly
+atc_id=EC-LST
+atc_airline=SWIFT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_variation=uepfly opb Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR 72-200_uepfly_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT

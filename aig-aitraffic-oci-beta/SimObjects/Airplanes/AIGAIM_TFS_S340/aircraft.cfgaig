@@ -420,25 +420,6 @@ isUserSelectable=0
 icao_airline=CAY
 
 [fltsim.20]
-title=AIGAIM_SprintAir Saab 340 - Pax
-model=SRN-SprintAir_Pax
-texture=SRN-SprintAir_Pax
-atc_id=SP-KPG
-atc_airline=SPRINTAIR
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRN
-ui_manufacturer=The Fruit Stand
-ui_type=Saab 340
-ui_variation=Sprint Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
-prop_anim_ratio=-0.2
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRN
-
-[fltsim.21]
 title=AIGAIM_SprintAir Saab 340 - QC
 model=SRN-SprintAir_QC
 texture=SRN-SprintAir_QC
@@ -450,14 +431,14 @@ ui_manufacturer=The Fruit Stand
 ui_type=Saab 340
 ui_variation=Sprint Air
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
 prop_anim_ratio=-0.2
 description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_SprintAir Saab 340F
 model=SRN-SprintAir
 texture=SRN-SprintAir
@@ -469,33 +450,14 @@ ui_manufacturer=The Fruit Stand
 ui_type=Saab 340F
 ui_variation=Sprint Air
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
 prop_anim_ratio=-0.2
 description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.23]
-title=AIGAIM_SprintAir Saab 340F - opf SprintAir Cargo
-model=SRN-SprintAir_opf SprintAir Cargo
-texture=SRN-SprintAir_opf SprintAir Cargo
-atc_id=SP-KPH
-atc_airline=SPRINTAIR CARGO
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRN
-ui_manufacturer=The Fruit Stand
-ui_type=Saab 340F
-ui_variation=Sprint Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
-prop_anim_ratio=-0.2
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRN
-
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Seaborne Airlines Saab 340B - Lobster
 model=SBS-Seaborne Airlines_Lobster
 texture=SBS-Seaborne Airlines_Lobster
@@ -513,7 +475,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Seaborne Airlines Saab 340B - Ray
 model=SBS-Seaborne Airlines_Ray
 texture=SBS-Seaborne Airlines_Ray
@@ -531,7 +493,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_Seaborne Airlines Saab 340B - Turtle
 model=SBS-Seaborne Airlines_Turtle
 texture=SBS-Seaborne Airlines_Turtle
@@ -549,7 +511,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Seaborne Airlines Saab 340B - Shark
 model=SBS-Seaborne Airlines_Shark
 texture=SBS-Seaborne Airlines_Shark
@@ -567,7 +529,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_Seaborne Airlines Saab 340B - Silver Airways livery
 model=SBS-Seaborne Airlines_Silver Airways livery
 texture=SBS-Seaborne Airlines_Silver Airways livery
@@ -585,7 +547,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.29]
+[fltsim.27]
 title=AIGAIM_Silver Airways Saab 340B
 model=SIL-Silver Airways
 texture=SIL-Silver Airways
@@ -603,7 +565,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.30]
+[fltsim.28]
 title=AIGAIM_Silver Airways Saab 340B - Black Reg
 model=SIL-Silver Airways_Black Reg
 texture=SIL-Silver Airways_Black Reg
@@ -621,7 +583,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.31]
+[fltsim.29]
 title=AIGAIM_Silver Airways Saab 340B - Pensacola Blue Wahoos
 model=SIL-Silver Airways_Pensacola Blue Wahoos
 texture=SIL-Silver Airways_Pensacola Blue Wahoos
@@ -639,7 +601,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.32]
+[fltsim.30]
 title=AIGAIM_Silver Airways Saab 340B - Saluting Service Members
 model=SIL-Silver Airways_Saluting Service Members
 texture=SIL-Silver Airways_Saluting Service Members
@@ -657,7 +619,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.33]
+[fltsim.31]
 title=AIGAIM_Silver Airways Saab 340B - Daytona Tortugas
 model=SIL-Silver Airways_Daytona Tortugas
 texture=SIL-Silver Airways_Daytona Tortugas
@@ -675,7 +637,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.34]
+[fltsim.32]
 title=AIGAIM_Real Tonga Airline Saab 340B - old logo
 model=RLT-Real Tonga Airline_old logo
 texture=RLT-Real Tonga Airline_old logo
@@ -693,7 +655,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLT
 
-[fltsim.35]
+[fltsim.33]
 title=AIGAIM_Loganair Saab 340B
 model=LOG-Loganair
 texture=LOG-Loganair
@@ -710,7 +672,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOG
 
-[fltsim.36]
+[fltsim.34]
 title=AIGAIM_Loganair Saab 340B - opb Nyxair
 model=LOG-Loganair_opb Nyxair
 texture=LOG-Loganair_opb Nyxair
@@ -727,7 +689,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOG
 
-[fltsim.37]
+[fltsim.35]
 title=AIGAIM_Loganair Cargo Saab 340F
 model=LOGC-Loganair Cargo
 texture=LOGC-Loganair Cargo
@@ -744,7 +706,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOGC
 
-[fltsim.38]
+[fltsim.36]
 title=AIGAIM_Loganair Cargo Saab 340F - Basic Titles
 model=LOGC-Loganair Cargo_Basic Titles
 texture=LOGC-Loganair Cargo_Basic Titles
@@ -762,7 +724,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOGC
 
-[fltsim.39]
+[fltsim.37]
 title=AIGAIM_Regional Express Saab 340
 model=RXA-Regional Express
 texture=RXA-Regional Express
@@ -780,7 +742,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.40]
+[fltsim.38]
 title=AIGAIM_Regional Express Saab 340 - addl Window
 model=RXA-Regional Express_addl Window
 texture=RXA-Regional Express_addl Window
@@ -798,7 +760,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.41]
+[fltsim.39]
 title=AIGAIM_Regional Express Saab 340 - addl covered Window
 model=RXA-Regional Express_addl covered Window
 texture=RXA-Regional Express_addl covered Window
@@ -816,7 +778,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.42]
+[fltsim.40]
 title=AIGAIM_Regional Express Saab 340 - Pen Air Livery
 model=RXA-Regional Express_Pen Air Livery
 texture=RXA-Regional Express_Pen Air Livery
@@ -834,7 +796,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.43]
+[fltsim.41]
 title=AIGAIM_Regional Express Saab 340 - Grey Door Tape addl covered Window
 model=RXA-Regional Express_Grey Door Tape addl covered Window
 texture=RXA-Regional Express_Grey Door Tape addl covered Window
@@ -852,7 +814,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.44]
+[fltsim.42]
 title=AIGAIM_Regional Express Saab 340 - Blue Engines
 model=RXA-Regional Express_Blue Engines
 texture=RXA-Regional Express_Blue Engines
@@ -870,7 +832,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.45]
+[fltsim.43]
 title=AIGAIM_Regional Express Saab 340 - US Airways Hybrid
 model=RXA-Regional Express_US Airways Hybrid
 texture=RXA-Regional Express_US Airways Hybrid
@@ -888,7 +850,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.46]
+[fltsim.44]
 title=AIGAIM_Regional Express Saab 340 - Shark Cage
 model=RXA-Regional Express_Shark Cage
 texture=RXA-Regional Express_Shark Cage
@@ -905,7 +867,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.47]
+[fltsim.45]
 title=AIGAIM_Regional Express Saab 340 - No Titles
 model=RXA-Regional Express_No Titles
 texture=RXA-Regional Express_No Titles
@@ -923,7 +885,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.48]
+[fltsim.46]
 title=AIGAIM_NyxAir Saab 340B - Ex Nextjet
 model=NYX-NyxAir_Ex Nextjet
 texture=NYX-NyxAir_Ex Nextjet
@@ -942,7 +904,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NYX
 
-[fltsim.49]
+[fltsim.47]
 title=AIGAIM_NyxAir Saab 340F - 340B Cargo Titles
 model=NYX-NyxAir_340B Cargo Titles
 texture=NYX-NyxAir_340B Cargo Titles
@@ -961,7 +923,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NYX
 
-[fltsim.50]
+[fltsim.48]
 title=AIGAIM_Airest Saab 340F - ES-LSD
 model=AEG-Airest_ES-LSD
 texture=AEG-Airest_ES-LSD
@@ -980,7 +942,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEG
 
-[fltsim.51]
+[fltsim.49]
 title=AIGAIM_Airest Saab 340F - ES-LSF
 model=AEG-Airest_ES-LSF
 texture=AEG-Airest_ES-LSF
@@ -999,7 +961,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEG
 
-[fltsim.52]
+[fltsim.50]
 title=AIGAIM_Air Century Saab 340B
 model=CEY-Air Century
 texture=CEY-Air Century
@@ -1017,7 +979,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEY
 
-[fltsim.53]
+[fltsim.51]
 title=AIGAIM_Fly Corporate Saab 340
 model=FCX-Fly Corporate
 texture=FCX-Fly Corporate
@@ -1033,3 +995,41 @@ description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FCX
+
+[fltsim.52]
+title=AIGAIM_SprintAir Saab 340
+model=SRN-SprintAir
+texture=SRN-SprintAir
+atc_id=SP-KPL
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340
+ui_variation=SprintAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
+[fltsim.53]
+title=AIGAIM_SprintAir Saab 340 - QC opf SprintAir Cargo
+model=SRN-SprintAir_QC opf SprintAir Cargo
+texture=SRN-SprintAir_QC opf SprintAir Cargo
+atc_id=SP-KPC
+atc_airline=SPRINTAIR CARGO
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340
+ui_variation=SprintAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Sprint Air_Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN

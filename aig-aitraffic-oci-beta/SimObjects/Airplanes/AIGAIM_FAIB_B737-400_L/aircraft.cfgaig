@@ -210,78 +210,6 @@ isUserSelectable=0
 icao_airline=NPT
 
 [fltsim.10]
-title=AIGAIM_West Atlantic UK Boeing 737-400 - SF Cargo Airlines-stickers
-model=NPT-West Atlantic UK_SF Cargo Airlines-stickers
-texture=NPT-West Atlantic UK_SF Cargo Airlines-stickers
-atc_id=G-JMCS
-atc_airline=NEPTUNE
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=NPT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=West Atlantic UK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NPT
-
-[fltsim.11]
-title=AIGAIM_West Atlantic UK Boeing 737-400 - SF Albino
-model=NPT-West Atlantic UK_SF Albino
-texture=NPT-West Atlantic UK_SF Albino
-atc_id=G-NPTY
-atc_airline=NEPTUNE
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=NPT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=West Atlantic UK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NPT
-
-[fltsim.12]
-title=AIGAIM_West Atlantic UK Boeing 737-400 - SF Albino Cargo Airlines-stickers
-model=NPT-West Atlantic UK_SF Albino Cargo Airlines-stickers
-texture=NPT-West Atlantic UK_SF Albino Cargo Airlines-stickers
-atc_id=G-JMCY
-atc_airline=NEPTUNE
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=NPT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=West Atlantic UK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NPT
-
-[fltsim.13]
-title=AIGAIM_West Atlantic UK Boeing 737-400 - SF All White lsf Vallair
-model=NPT-West Atlantic UK_SF All White lsf Vallair
-texture=NPT-West Atlantic UK_SF All White lsf Vallair
-atc_id=G-CKUZ
-atc_airline=NEPTUNE
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=NPT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=West Atlantic UK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NPT
-
-[fltsim.14]
 title=AIGAIM_West Atlantic UK Boeing 737-400 - SF Eyebrows Cargo Airlines-stickers
 model=NPT-West Atlantic UK_SF Eyebrows Cargo Airlines-stickers
 texture=NPT-West Atlantic UK_SF Eyebrows Cargo Airlines-stickers
@@ -299,7 +227,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.15]
+[fltsim.11]
 title=AIGAIM_Air Ghana Boeing 737-400 - SF DHL Hybrid
 model=GHN-Air Ghana_SF DHL Hybrid
 texture=GHN-Air Ghana_SF DHL Hybrid
@@ -317,7 +245,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GHN
 
-[fltsim.16]
+[fltsim.12]
 title=AIGAIM_Air Horizont Boeing 737-400 - no tail logo
 model=HAT-Air Horizont_no tail logo
 texture=HAT-Air Horizont_no tail logo
@@ -335,7 +263,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAT
 
-[fltsim.17]
+[fltsim.13]
 title=AIGAIM_Air Incheon Boeing 737-400 - SF eyebrows
 model=AIH-Air Incheon_SF eyebrows
 texture=AIH-Air Incheon_SF eyebrows
@@ -353,7 +281,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIH
 
-[fltsim.18]
+[fltsim.14]
 title=AIGAIM_Albastar Boeing 737-400
 model=LAV-Albastar
 texture=LAV-Albastar
@@ -370,7 +298,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
 
-[fltsim.19]
+[fltsim.15]
 title=AIGAIM_Albastar Boeing 737-400 - Air Horizont
 model=LAV-Albastar_Air Horizont
 texture=LAV-Albastar_Air Horizont
@@ -388,7 +316,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
 
-[fltsim.20]
+[fltsim.16]
 title=AIGAIM_Albawings Boeing 737-400 (TEMP)
 model=AWT-Albawings_temp
 texture=AWT-Albawings_temp
@@ -406,7 +334,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWT
 
-[fltsim.21]
+[fltsim.17]
 title=AIGAIM_Albawings Boeing 737-400 - eyebrows
 model=AWT-Albawings_eyebrows
 texture=AWT-Albawings_eyebrows
@@ -424,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWT
 
-[fltsim.22]
+[fltsim.18]
 title=AIGAIM_AlMasria Universal Airlines Boeing 737-400 - SU-TCI
 model=LMU-AlMasria Universal Airlines_SU-TCI
 texture=LMU-AlMasria Universal Airlines_SU-TCI
@@ -442,7 +370,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LMU
 
-[fltsim.23]
+[fltsim.19]
 title=AIGAIM_AlMasria Universal Airlines Boeing 737-400 - SU-TCK
 model=LMU-AlMasria Universal Airlines_SU-TCK
 texture=LMU-AlMasria Universal Airlines_SU-TCK
@@ -460,7 +388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LMU
 
-[fltsim.24]
+[fltsim.20]
 title=AIGAIM_Aloha Air Cargo Boeing 737-400 - SF Northern Air Cargo white with titles
 model=AAH-Aloha Air Cargo_SF Northern Air Cargo white with titles
 texture=AAH-Aloha Air Cargo_SF Northern Air Cargo white with titles
@@ -478,7 +406,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAH
 
-[fltsim.25]
+[fltsim.21]
 title=AIGAIM_Ariana Afghan Airlines Boeing 737-400
 model=AFG-Ariana Afghan Airlines
 texture=AFG-Ariana Afghan Airlines
@@ -495,7 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFG
 
-[fltsim.26]
+[fltsim.22]
 title=AIGAIM_ASL Airlines France Boeing 737-400 - SF White Titles
 model=FPO-ASL Airlines France_SF White Titles
 texture=FPO-ASL Airlines France_SF White Titles
@@ -513,7 +441,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.27]
+[fltsim.23]
 title=AIGAIM_ASL Airlines France Boeing 737-400 - SF White Titles 'AEI-sticker'
 model=FPO-ASL Airlines France_SF White Titles 'AEI-sticker'
 texture=FPO-ASL Airlines France_SF White Titles 'AEI-sticker'
@@ -531,25 +459,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.28]
-title=AIGAIM_ASL Airlines France Boeing 737-400 - SF White lower Titles LHS F-GIXN
-model=FPO-ASL Airlines France_SF White lower Titles LHS F-GIXN
-texture=FPO-ASL Airlines France_SF White lower Titles LHS F-GIXN
-atc_id=F-GIXN
-atc_airline=FRENCH POST
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=FPO
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=ASL Airlines France
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_400F_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FPO
-
-[fltsim.29]
+[fltsim.24]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF basic Jettime cs, no title
 model=ABR-ASL Airlines Ireland_SF basic Jettime cs, no title
 texture=ABR-ASL Airlines Ireland_SF basic Jettime cs, no title
@@ -567,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.30]
+[fltsim.25]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF basic Jettime cs, no title, high Reg
 model=ABR-ASL Airlines Ireland_SF basic Jettime cs, no title, high Reg
 texture=ABR-ASL Airlines Ireland_SF basic Jettime cs, no title, high Reg
@@ -585,25 +495,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.31]
-title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF opb FPO F-GZTT
-model=ABR-ASL Airlines Ireland_SF opb FPO F-GZTT
-texture=ABR-ASL Airlines Ireland_SF opb FPO F-GZTT
-atc_id=F-GZTT
-atc_airline=CONTRACT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABR
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=ASL Airlines France
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_400F_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABR
-
-[fltsim.32]
+[fltsim.26]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF opb FPO F-GZTX
 model=ABR-ASL Airlines Ireland_SF opb FPO F-GZTX
 texture=ABR-ASL Airlines Ireland_SF opb FPO F-GZTX
@@ -621,7 +513,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.33]
+[fltsim.27]
 title=AIGAIM_ATRAN Boeing 737-400 - SF front title
 model=VAS-ATRAN_SF front title
 texture=VAS-ATRAN_SF front title
@@ -639,7 +531,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VAS
 
-[fltsim.34]
+[fltsim.28]
 title=AIGAIM_Avior Airlines Boeing 737-400
 model=ROI-Avior Airlines
 texture=ROI-Avior Airlines
@@ -657,7 +549,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROI
 
-[fltsim.35]
+[fltsim.29]
 title=AIGAIM_Azul Cargo Boeing 737-400 - SF PR-AJY
 model=AZUC-Azul Cargo_SF PR-AJY
 texture=AZUC-Azul Cargo_SF PR-AJY
@@ -674,7 +566,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZUC
 
-[fltsim.36]
+[fltsim.30]
 title=AIGAIM_Azul Cargo Boeing 737-400 - SF PR-AJZ
 model=AZUC-Azul Cargo_SF PR-AJZ
 texture=AZUC-Azul Cargo_SF PR-AJZ
@@ -691,7 +583,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZUC
 
-[fltsim.37]
+[fltsim.31]
 title=AIGAIM_K-Mile Air Boeing 737-400 - SF eyebrows
 model=KMI-K-Mile Air_SF eyebrows
 texture=KMI-K-Mile Air_SF eyebrows
@@ -709,7 +601,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMI
 
-[fltsim.38]
+[fltsim.32]
 title=AIGAIM_K-Mile Air Boeing 737-400 - SF eyebrows AEI Sticker
 model=KMI-K-Mile Air_SF eyebrows AEI Sticker
 texture=KMI-K-Mile Air_SF eyebrows AEI Sticker
@@ -727,7 +619,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMI
 
-[fltsim.39]
+[fltsim.33]
 title=AIGAIM_K-Mile Air Boeing 737-400 - BDSF
 model=KMI-K-Mile Air_BDSF
 texture=KMI-K-Mile Air_BDSF
@@ -745,7 +637,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMI
 
-[fltsim.40]
+[fltsim.34]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF
 model=TAY-ASL Airlines Belgium_SF
 texture=TAY-ASL Airlines Belgium_SF
@@ -763,7 +655,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.41]
+[fltsim.35]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF Albino
 model=TAY-ASL Airlines Belgium_SF Albino
 texture=TAY-ASL Airlines Belgium_SF Albino
@@ -781,7 +673,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.42]
+[fltsim.36]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF Albino Nose Logo
 model=TAY-ASL Airlines Belgium_SF Albino Nose Logo
 texture=TAY-ASL Airlines Belgium_SF Albino Nose Logo
@@ -799,7 +691,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.43]
+[fltsim.37]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF FedEx
 model=TAY-ASL Airlines Belgium_SF FedEx
 texture=TAY-ASL Airlines Belgium_SF FedEx
@@ -811,49 +703,13 @@ ui_manufacturer=FAIB
 ui_type=Boeing 737-400 - SF
 ui_variation=ASL Airlines Belgium
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_Fedex_ASL_Airlines_Belgium_FSX.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_ASL Airlines Belgium - Fedex Liverys 2021_FSX.zip
 description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.44]
-title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF Albino opb ASL Airlines France
-model=TAY-ASL Airlines Belgium_SF Albino opb ASL Airlines France
-texture=TAY-ASL Airlines Belgium_SF Albino opb ASL Airlines France
-atc_id=F-GIXU
-atc_airline=QUALITY
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=ASL Airlines France
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_400F_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAY
-
-[fltsim.45]
-title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF opb Bluebird Nordic
-model=TAY-ASL Airlines Belgium_SF opb Bluebird Nordic
-texture=TAY-ASL Airlines Belgium_SF opb Bluebird Nordic
-atc_id=TF-BBN
-atc_airline=QUALITY
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=ASL Airlines Belgium opb Bluebird Nordic
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400SF_Bluebird Nordic_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAY
-
-[fltsim.46]
+[fltsim.38]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - BDSF
 model=TAY-ASL Airlines Belgium_BDSF
 texture=TAY-ASL Airlines Belgium_BDSF
@@ -871,7 +727,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.47]
+[fltsim.39]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - BDSF FedEx OE-Reg
 model=TAY-ASL Airlines Belgium_BDSF FedEx OE-Reg
 texture=TAY-ASL Airlines Belgium_BDSF FedEx OE-Reg
@@ -883,13 +739,13 @@ ui_manufacturer=FAIB
 ui_type=Boeing 737-400 - BDSF
 ui_variation=ASL Airlines Belgium
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_Fedex_ASL_Airlines_Belgium_FSX.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_ASL Airlines Belgium - Fedex Liverys 2021_FSX.zip
 description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.48]
+[fltsim.40]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - BDSF FedEx OO-Reg
 model=TAY-ASL Airlines Belgium_BDSF FedEx OO-Reg
 texture=TAY-ASL Airlines Belgium_BDSF FedEx OO-Reg
@@ -901,13 +757,13 @@ ui_manufacturer=FAIB
 ui_type=Boeing 737-400 - BDSF
 ui_variation=ASL Airlines Belgium
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_Fedex_ASL_Airlines_Belgium_FSX.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400F_ASL Airlines Belgium - Fedex Liverys 2021_FSX.zip
 description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.49]
+[fltsim.41]
 title=AIGAIM_iAero Airways Cargo Boeing 737-400 - SF DHL
 model=SWQ-iAero Airways Cargo_SF DHL
 texture=SWQ-iAero Airways Cargo_SF DHL
@@ -925,7 +781,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.50]
+[fltsim.42]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-400 - Citta di Venezia
 model=BPA-Blue Panorama Airlines_Citta di Venezia
 texture=BPA-Blue Panorama Airlines_Citta di Venezia
@@ -943,7 +799,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.51]
+[fltsim.43]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-400 - Citta di Palermo
 model=BPA-Blue Panorama Airlines_Citta di Palermo
 texture=BPA-Blue Panorama Airlines_Citta di Palermo
@@ -961,7 +817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.52]
+[fltsim.44]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-400 - opb Air Horizont Albino
 model=BPA-Blue Panorama Airlines_opb Air Horizont Albino
 texture=BPA-Blue Panorama Airlines_opb Air Horizont Albino
@@ -979,7 +835,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.53]
+[fltsim.45]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-400 - opb Air Horizont blue tail
 model=BPA-Blue Panorama Airlines_opb Air Horizont blue tail
 texture=BPA-Blue Panorama Airlines_opb Air Horizont blue tail
@@ -997,7 +853,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.54]
+[fltsim.46]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-400 - opb Albawings
 model=BPA-Blue Panorama Airlines_opb Albawings
 texture=BPA-Blue Panorama Airlines_opb Albawings
@@ -1015,7 +871,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.55]
+[fltsim.47]
 title=AIGAIM_Buraq Air Boeing 737-400
 model=BRQ-Buraq Air
 texture=BRQ-Buraq Air
@@ -1033,7 +889,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRQ
 
-[fltsim.56]
+[fltsim.48]
 title=AIGAIM_Sunrise Airways Boeing 737-400 - eyebrows opb Peruvian
 model=KSZ-Sunrise Airways_eyebrows opb Peruvian
 texture=KSZ-Sunrise Airways_eyebrows opb Peruvian
@@ -1049,7 +905,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KSZ
 
-[fltsim.57]
+[fltsim.49]
 title=AIGAIM_Canadian North Boeing 737-400
 model=MPE-Canadian North
 texture=MPE-Canadian North
@@ -1066,7 +922,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.58]
+[fltsim.50]
 title=AIGAIM_Canadian North Boeing 737-400C - Combi
 model=MPE-Canadian North_Combi
 texture=MPE-Canadian North_Combi
@@ -1083,7 +939,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.59]
+[fltsim.51]
 title=AIGAIM_Cargoair Boeing 737-400 - SF Eyebrows Enter Air hybrid
 model=CGF-Cargoair_SF Eyebrows Enter Air hybrid
 texture=CGF-Cargoair_SF Eyebrows Enter Air hybrid
@@ -1101,7 +957,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.60]
+[fltsim.52]
 title=AIGAIM_Cargoair Boeing 737-400 - SF Eyebrows Enter Air hybrid small titles
 model=CGF-Cargoair_SF Eyebrows Enter Air hybrid small titles
 texture=CGF-Cargoair_SF Eyebrows Enter Air hybrid small titles
@@ -1119,7 +975,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.61]
+[fltsim.53]
 title=AIGAIM_Comair Boeing 737-400 - opf British Airways
 model=CAW-Comair_opf British Airways
 texture=CAW-Comair_opf British Airways
@@ -1136,7 +992,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.62]
+[fltsim.54]
 title=AIGAIM_UR Airlines Boeing 737-400 - Eyebrows
 model=UBD-UR Airlines_Eyebrows
 texture=UBD-UR Airlines_Eyebrows
@@ -1154,7 +1010,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBD
 
-[fltsim.63]
+[fltsim.55]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb ASL Airlines Hungary
 model=BCS-EAT Leipzig_SF opb ASL Airlines Hungary
 texture=BCS-EAT Leipzig_SF opb ASL Airlines Hungary
@@ -1172,7 +1028,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.64]
+[fltsim.56]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb ASL Airlines Hungary Eyebrows
 model=BCS-EAT Leipzig_SF opb ASL Airlines Hungary Eyebrows
 texture=BCS-EAT Leipzig_SF opb ASL Airlines Hungary Eyebrows
@@ -1190,7 +1046,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.65]
+[fltsim.57]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb ASL Airlines Hungary Eyebrows Emerald Isle
 model=BCS-EAT Leipzig_SF opb ASL Airlines Hungary Eyebrows Emerald Isle
 texture=BCS-EAT Leipzig_SF opb ASL Airlines Hungary Eyebrows Emerald Isle
@@ -1208,7 +1064,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.66]
+[fltsim.58]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Bluebird Nordic
 model=BCS-EAT Leipzig_SF opb Bluebird Nordic
 texture=BCS-EAT Leipzig_SF opb Bluebird Nordic
@@ -1226,7 +1082,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.67]
+[fltsim.59]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Cargoair
 model=BCS-EAT Leipzig_SF opb Cargoair
 texture=BCS-EAT Leipzig_SF opb Cargoair
@@ -1244,7 +1100,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.68]
+[fltsim.60]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Cargoair DHL Hybrid
 model=BCS-EAT Leipzig_SF opb Cargoair DHL Hybrid
 texture=BCS-EAT Leipzig_SF opb Cargoair DHL Hybrid
@@ -1262,7 +1118,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.69]
+[fltsim.61]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb West Atlantic Airlines
 model=BCS-EAT Leipzig_SF opb West Atlantic Airlines
 texture=BCS-EAT Leipzig_SF opb West Atlantic Airlines
@@ -1280,7 +1136,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.70]
+[fltsim.62]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb West Atlantic Airlines Eyebrows
 model=BCS-EAT Leipzig_SF opb West Atlantic Airlines Eyebrows
 texture=BCS-EAT Leipzig_SF opb West Atlantic Airlines Eyebrows
@@ -1298,7 +1154,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.71]
+[fltsim.63]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb West Atlantic Airlines Eyebrows Old Colours
 model=BCS-EAT Leipzig_SF opb West Atlantic Airlines Eyebrows Old Colours
 texture=BCS-EAT Leipzig_SF opb West Atlantic Airlines Eyebrows Old Colours
@@ -1316,7 +1172,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.72]
+[fltsim.64]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb West Atlantic Airlines DHL Hybrid
 model=BCS-EAT Leipzig_SF opb West Atlantic Airlines DHL Hybrid
 texture=BCS-EAT Leipzig_SF opb West Atlantic Airlines DHL Hybrid
@@ -1334,7 +1190,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.73]
+[fltsim.65]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Swiftair
 model=BCS-EAT Leipzig_SF opb Swiftair
 texture=BCS-EAT Leipzig_SF opb Swiftair
@@ -1352,7 +1208,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.74]
+[fltsim.66]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Swiftair White Tail
 model=BCS-EAT Leipzig_SF opb Swiftair White Tail
 texture=BCS-EAT Leipzig_SF opb Swiftair White Tail
@@ -1370,7 +1226,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.75]
+[fltsim.67]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Swiftair DHL Hybrid
 model=BCS-EAT Leipzig_SF opb Swiftair DHL Hybrid
 texture=BCS-EAT Leipzig_SF opb Swiftair DHL Hybrid
@@ -1388,7 +1244,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.76]
+[fltsim.68]
 title=AIGAIM_EAT Leipzig Boeing 737-400 - SF opb Swiftair DHL Hybrid Spanish Flag
 model=BCS-EAT Leipzig_SF opb Swiftair DHL Hybrid Spanish Flag
 texture=BCS-EAT Leipzig_SF opb Swiftair DHL Hybrid Spanish Flag
@@ -1406,7 +1262,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.77]
+[fltsim.69]
 title=AIGAIM_Electra Airways Boeing 737-400 - Blue Air hybrid
 model=EAF-Electra Airways_Blue Air hybrid
 texture=EAF-Electra Airways_Blue Air hybrid
@@ -1424,7 +1280,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EAF
 
-[fltsim.78]
+[fltsim.70]
 title=AIGAIM_LOT Polish Airlines Boeing 737-400
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -1442,7 +1298,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.79]
+[fltsim.71]
 title=AIGAIM_LOT Polish Airlines Boeing 737-400 - opb GJT
 model=LOT-LOT Polish Airlines_opb GJT
 texture=LOT-LOT Polish Airlines_opb GJT
@@ -1460,7 +1316,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.80]
+[fltsim.72]
 title=AIGAIM_LOT Polish Airlines Boeing 737-400 - eyebrows White opb GJT
 model=LOT-LOT Polish Airlines_eyebrows White opb GJT
 texture=LOT-LOT Polish Airlines_eyebrows White opb GJT
@@ -1478,7 +1334,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.81]
+[fltsim.73]
 title=AIGAIM_Raya Airways Boeing 737-400 - SF Albino
 model=RMY-Raya Airways_SF Albino
 texture=RMY-Raya Airways_SF Albino
@@ -1496,7 +1352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RMY
 
-[fltsim.82]
+[fltsim.74]
 title=AIGAIM_GP Aviation Boeing 737-400 - Votan Aero
 model=GPX-GP Aviation_Votan Aero
 texture=GPX-GP Aviation_Votan Aero
@@ -1514,7 +1370,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GPX
 
-[fltsim.83]
+[fltsim.75]
 title=AIGAIM_Kalitta Charters II Boeing 737-400 - SF
 model=KII-Kalitta Charters II_SF
 texture=KII-Kalitta Charters II_SF
@@ -1532,7 +1388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KII
 
-[fltsim.84]
+[fltsim.76]
 title=AIGAIM_Kalitta Charters II Boeing 737-400 - SF DHL
 model=KII-Kalitta Charters II_SF DHL
 texture=KII-Kalitta Charters II_SF DHL
@@ -1550,7 +1406,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KII
 
-[fltsim.85]
+[fltsim.77]
 title=AIGAIM_Kalitta Charters II Boeing 737-400 - SF DHL Hybrid
 model=KII-Kalitta Charters II_SF DHL Hybrid
 texture=KII-Kalitta Charters II_SF DHL Hybrid
@@ -1568,7 +1424,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KII
 
-[fltsim.86]
+[fltsim.78]
 title=AIGAIM_Kulula Boeing 737-400 - Flying 102 white nose
 model=CAW-Kulula_Flying 102 white nose
 texture=CAW-Kulula_Flying 102 white nose
@@ -1586,7 +1442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.87]
+[fltsim.79]
 title=AIGAIM_Qantas Freight Boeing 737-400 - SF Australia Post
 model=QFAC-Qantas Freight_SF Australia Post
 texture=QFAC-Qantas Freight_SF Australia Post
@@ -1604,61 +1460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
 
-[fltsim.88]
-title=AIGAIM_Swiftair Boeing 737-400 - SF
-model=SWT-Swiftair_SF
-texture=SWT-Swiftair_SF
-atc_id=EC-MNM
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=Swiftair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Swiftair_DHL_Boeing_737_400F_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.89]
-title=AIGAIM_Swiftair Boeing 737-400 - SF opb Bluebird Nordic
-model=SWT-Swiftair_SF opb Bluebird Nordic
-texture=SWT-Swiftair_SF opb Bluebird Nordic
-atc_id=TF-BBK
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=Bluebird Nordic
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Bluebird_Nordic_Boeing_737_400F_FSX.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.90]
-title=AIGAIM_Swiftair Boeing 737-400 - SF opb Cargoair
-model=SWT-Swiftair_SF opb Cargoair
-texture=SWT-Swiftair_SF opb Cargoair
-atc_id=LZ-CGV
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-400 - SF
-ui_variation=CargoAir LZ-CGV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_b734_cgf.zip
-description=FAIB_B737-400-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.91]
+[fltsim.80]
 title=AIGAIM_Titan Airways Boeing 737-400 - SF
 model=AWC-Titan Airways_SF
 texture=AWC-Titan Airways_SF
@@ -1675,7 +1477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
 
-[fltsim.92]
+[fltsim.81]
 title=AIGAIM_Turpial Airlines Boeing 737-400
 model=VTU-Turpial Airlines
 texture=VTU-Turpial Airlines
@@ -1693,7 +1495,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTU
 
-[fltsim.93]
+[fltsim.82]
 title=AIGAIM_Poste Air Cargo Boeing 737-400 - SF
 model=MSA-Poste Air Cargo_SF
 texture=MSA-Poste Air Cargo_SF
@@ -1711,7 +1513,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSA
 
-[fltsim.94]
+[fltsim.83]
 title=AIGAIM_DHL Aero Expreso Boeing 737-400 - SF
 model=DAE-DHL Aero Expreso_SF
 texture=DAE-DHL Aero Expreso_SF
@@ -1729,7 +1531,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
 
-[fltsim.95]
+[fltsim.84]
 title=AIGAIM_Air Seven Boeing 737-400 - OY-ASA
 model=CAT-Airseven_OY-ASA
 texture=CAT-Airseven_OY-ASA
@@ -1747,7 +1549,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAT
 
-[fltsim.96]
+[fltsim.85]
 title=AIGAIM_Air Seven Boeing 737-400 - OY-ASB
 model=CAT-Airseven_OY-ASB
 texture=CAT-Airseven_OY-ASB
@@ -1765,7 +1567,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAT
 
-[fltsim.97]
+[fltsim.86]
 title=AIGAIM_Gran Colombia de Aviacion Boeing 737-400 - New Livery
 model=GCA-Gran Colombia de Aviacion_New Livery
 texture=GCA-Gran Colombia de Aviacion_New Livery
@@ -1783,7 +1585,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCA
 
-[fltsim.98]
+[fltsim.87]
 title=AIGAIM_Gran Colombia de Aviacion Boeing 737-400
 model=GCA-Gran Colombia de Aviacion
 texture=GCA-Gran Colombia de Aviacion
@@ -1801,7 +1603,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCA
 
-[fltsim.99]
+[fltsim.88]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Eyebrows Swiftair Hybrid
 model=SWQ-iAero Airways_Logolight Eyebrows Swiftair Hybrid
 texture=SWQ-iAero Airways_Logolight Eyebrows Swiftair Hybrid
@@ -1819,7 +1621,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.100]
+[fltsim.89]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose
 model=SWQ-iAero Airways_Logolight White Nose
 texture=SWQ-iAero Airways_Logolight White Nose
@@ -1834,7 +1636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.101]
+[fltsim.90]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose Plugged Windows
 model=SWQ-iAero Airways_Logolight White Nose Plugged Windows
 texture=SWQ-iAero Airways_Logolight White Nose Plugged Windows
@@ -1849,7 +1651,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.102]
+[fltsim.91]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Red Eyebrow
 model=SWQ-iAero Airways_Logolight Red Eyebrow
 texture=SWQ-iAero Airways_Logolight Red Eyebrow
@@ -1864,7 +1666,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.103]
+[fltsim.92]
 title=AIGAIM_iAero Airways Boeing 737-400 - Swiftair Hybrid
 model=SWQ-iAero Airways_Swiftair Hybrid
 texture=SWQ-iAero Airways_Swiftair Hybrid
@@ -1882,7 +1684,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.104]
+[fltsim.93]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Swiftair Hybrid
 model=SWQ-iAero Airways_Logolight Swiftair Hybrid
 texture=SWQ-iAero Airways_Logolight Swiftair Hybrid
@@ -1900,7 +1702,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.105]
+[fltsim.94]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight White Nose Rear Reg Striped Antenna
 model=SWQ-iAero Airways_Logolight White Nose Rear Reg Striped Antenna
 texture=SWQ-iAero Airways_Logolight White Nose Rear Reg Striped Antenna
@@ -1915,7 +1717,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.106]
+[fltsim.95]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Rear Reg
 model=SWQ-iAero Airways_Logolight Rear Reg
 texture=SWQ-iAero Airways_Logolight Rear Reg
@@ -1930,7 +1732,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.107]
+[fltsim.96]
 title=AIGAIM_iAero Airways Boeing 737-400 - Logolight Rear Reg Prominent Eyebrows
 model=SWQ-iAero Airways_Logolight Rear Reg Prominent Eyebrows
 texture=SWQ-iAero Airways_Logolight Rear Reg Prominent Eyebrows
@@ -1945,7 +1747,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.108]
+[fltsim.97]
 title=AIGAIM_OWG Boeing 737-400 - C-GGWV
 model=NRL-OWG opb Nolinor_C-GGWV
 texture=NRL-OWG opb Nolinor_C-GGWV
@@ -1962,7 +1764,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.109]
+[fltsim.98]
 title=AIGAIM_OWG Boeing 737-400 - C-GGWX
 model=NRL-OWG opb Nolinor_C-GGWX
 texture=NRL-OWG opb Nolinor_C-GGWX
@@ -1979,7 +1781,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.110]
+[fltsim.99]
 title=AIGAIM_Poste Air Cargo Boeing 737-400 - SF Rear Titles
 model=MSA-Poste Air Cargo_SF Rear Titles
 texture=MSA-Poste Air Cargo_SF Rear Titles
@@ -1997,7 +1799,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSA
 
-[fltsim.111]
+[fltsim.100]
 title=AIGAIM_AerCaribe Boeing 737-400 - SF unnamed thin Titles
 model=ACL-AerCaribe_SF unnamed thin Titles
 texture=ACL-AerCaribe_SF unnamed thin Titles
@@ -2015,7 +1817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACL
 
-[fltsim.112]
+[fltsim.101]
 title=AIGAIM_Justice Prisoner & Alien Transportation System Boeing 737-400 - N639CS
 model=DOJ-Justice Prisoner & Alien Transportation System_N639CS
 texture=DOJ-Justice Prisoner & Alien Transportation System_N639CS
@@ -2033,7 +1835,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DOJ
 
-[fltsim.113]
+[fltsim.102]
 title=AIGAIM_Justice Prisoner & Alien Transportation System Boeing 737-400 - N640CS
 model=DOJ-Justice Prisoner & Alien Transportation System_N640CS
 texture=DOJ-Justice Prisoner & Alien Transportation System_N640CS
@@ -2051,7 +1853,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DOJ
 
-[fltsim.114]
+[fltsim.103]
 title=AIGAIM_Modern Logistics Boeing 737-400 - SF Eyebrows
 model=MWM-Modern Logistics_SF Eyebrows
 texture=MWM-Modern Logistics_SF Eyebrows
@@ -2067,3 +1869,218 @@ description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWM
+
+[fltsim.104]
+title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF Albino Eyebrows opb FPO
+model=TAY-ASL Airlines Belgium_SF Albino Eyebrows opb FPO
+texture=TAY-ASL Airlines Belgium_SF Albino Eyebrows opb FPO
+atc_id=F-GIXN
+atc_airline=QUALITY
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines France
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_400F_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAY
+
+[fltsim.105]
+title=AIGAIM_ASL Airlines Belgium Boeing 737-400 - SF Albino Eyebrows high title opb FPO
+model=TAY-ASL Airlines Belgium_SF Albino Eyebrows high title opb FPO
+texture=TAY-ASL Airlines Belgium_SF Albino Eyebrows high title opb FPO
+atc_id=F-GZTI
+atc_airline=QUALITY
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines France
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_ASL_Airlines_France_Boeing_737_400F_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAY
+
+[fltsim.106]
+title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF
+model=ABR-ASL Airlines Ireland_SF
+texture=ABR-ASL Airlines Ireland_SF
+atc_id=EI-STS
+atc_airline=CONTRACT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABR
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines Ireland
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_ASL Airlines Ireland_Boeing 737-400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABR
+
+[fltsim.107]
+title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF white, Fuselage only
+model=ABR-ASL Airlines Ireland_SF white, Fuselage only
+texture=ABR-ASL Airlines Ireland_SF white, Fuselage only
+atc_id=EI-STJ
+atc_airline=CONTRACT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABR
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines Ireland
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_ASL Airlines Ireland_Boeing 737-400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABR
+
+[fltsim.108]
+title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF white, Fuselage and Engine
+model=ABR-ASL Airlines Ireland_SF white, Fuselage and Engine
+texture=ABR-ASL Airlines Ireland_SF white, Fuselage and Engine
+atc_id=EI-STL
+atc_airline=CONTRACT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABR
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines Ireland
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_ASL Airlines Ireland_Boeing 737-400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABR
+
+[fltsim.109]
+title=AIGAIM_ASL Airlines Ireland Boeing 737-400 - SF all white, no title
+model=ABR-ASL Airlines Ireland_SF all white, no title
+texture=ABR-ASL Airlines Ireland_SF all white, no title
+atc_id=EI-STK
+atc_airline=CONTRACT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABR
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=ASL Airlines Ireland
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_ASL Airlines Ireland_Boeing 737-400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABR
+
+[fltsim.110]
+title=AIGAIM_West Atlantic Sweden Boeing 737-400 - SF opb Swiftair blue engines (TEMP)
+model=SWN-West Atlantic Sweden_SF opb Swiftair blue engines_temp
+texture=SWN-West Atlantic Sweden_SF opb Swiftair blue engines_temp
+atc_id=EC-MIE
+atc_airline=AIR SWEDEN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWN
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-400SF_Swiftair_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWN
+
+[fltsim.111]
+title=AIGAIM_West Atlantic Sweden Boeing 737-400 - SF opb Swiftair West Atlantic
+model=SWN-West Atlantic Sweden_SF opb Swiftair West Atlantic
+texture=SWN-West Atlantic Sweden_SF opb Swiftair West Atlantic
+atc_id=EC-NML
+atc_airline=AIR SWEDEN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWN
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-400SF_Swiftair_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWN
+
+[fltsim.112]
+title=AIGAIM_West Atlantic UK Boeing 737-400 - SF All White
+model=NPT-West Atlantic UK_SF All White
+texture=NPT-West Atlantic UK_SF All White
+atc_id=G-CKUZ
+atc_airline=NEPTUNE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=NPT
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=West Atlantic UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NPT
+
+[fltsim.113]
+title=AIGAIM_West Atlantic UK Boeing 737-400 - SF White with Blue Tail Cargo Airlines-stickers
+model=NPT-West Atlantic UK_SF White with Blue Tail Cargo Airlines-stickers
+texture=NPT-West Atlantic UK_SF White with Blue Tail Cargo Airlines-stickers
+atc_id=G-JMCV
+atc_airline=NEPTUNE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=NPT
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=West Atlantic UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NPT
+
+[fltsim.114]
+title=AIGAIM_West Atlantic UK Boeing 737-400 - SF Eyebrows
+model=NPT-West Atlantic UK_SF Eyebrows
+texture=NPT-West Atlantic UK_SF Eyebrows
+atc_id=G-NPTX
+atc_airline=NEPTUNE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=NPT
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-400 - SF
+ui_variation=West Atlantic UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_West_Atlantic_UK_Boeing_737_400SF_FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NPT
+
+[fltsim.115]
+title=AIGAIM_West Atlantic UK Boeing 737-400 - SF opb Titan Airways
+model=NPT-West Atlantic UK_SF opb Titan Airways
+texture=NPT-West Atlantic UK_SF opb Titan Airways
+atc_airline=NEPTUNE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NPT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400 - SF
+ui_variation=Titan Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_titanairways_73p.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NPT

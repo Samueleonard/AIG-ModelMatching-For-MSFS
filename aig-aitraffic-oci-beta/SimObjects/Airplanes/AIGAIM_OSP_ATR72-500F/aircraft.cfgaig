@@ -87,3 +87,60 @@ description=OSP_ATR72-500F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
+
+[fltsim.2]
+title=AIGAIM_SprintAir ATR 72-500F
+model=SRN-SprintAir
+texture=SRN-SprintAir
+atc_id=SP-SPF
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500F
+ui_variation=SprintAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Aerospatiale ATR 72-500F_SprintAir_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-500F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
+[fltsim.3]
+title=AIGAIM_SprintAir ATR 72-500F - Red
+model=SRN-SprintAir_Red
+texture=SRN-SprintAir_Red
+atc_id=SP-SPI
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500F
+ui_variation=SprintAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Aerospatiale ATR 72-500F_SprintAir_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-500F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
+[fltsim.4]
+title=AIGAIM_SprintAir ATR 72-500F - light pink
+model=SRN-SprintAir_light pink
+texture=SRN-SprintAir_light pink
+atc_id=SP-SPN
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500F
+ui_variation=SprintAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Aerospatiale ATR 72-500F_SprintAir_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-500F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN

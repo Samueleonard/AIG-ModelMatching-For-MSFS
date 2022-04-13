@@ -1877,82 +1877,6 @@ isUserSelectable=0
 icao_airline=SVA
 
 [fltsim.96]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - named
-model=QTR-Qatar Airways_named
-texture=QTR-Qatar Airways_named
-atc_id=SU-BAJ
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.97]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - named fwd WiFi Dome
-model=QTR-Qatar Airways_named fwd WiFi Dome
-texture=QTR-Qatar Airways_named fwd WiFi Dome
-atc_id=SU-BAJ
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.98]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA World Cup (TEMP)
-model=QTR-Qatar Airways_FIFA World Cup_temp
-texture=QTR-Qatar Airways_FIFA World Cup_temp
-atc_id=SU-BAX
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.99]
-title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld fwd WiFi Dome
-model=QTR-Qatar Airways_Oneworld fwd WiFi Dome
-texture=QTR-Qatar Airways_Oneworld fwd WiFi Dome
-atc_id=SU-BAA
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.100]
 title=AIGAIM_Swiss Boeing 777-300ER - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -1971,7 +1895,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.101]
+[fltsim.97]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER
 model=GIA-Garuda Indonesia
 texture=GIA-Garuda Indonesia
@@ -1990,7 +1914,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.102]
+[fltsim.98]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Wonderful Indonesia
 model=GIA-Garuda Indonesia_Wonderful Indonesia
 texture=GIA-Garuda Indonesia_Wonderful Indonesia
@@ -2009,7 +1933,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.103]
+[fltsim.99]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Skyteam
 model=GIA-Garuda Indonesia_Skyteam
 texture=GIA-Garuda Indonesia_Skyteam
@@ -2028,7 +1952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.104]
+[fltsim.100]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Retro 1969-1985
 model=GIA-Garuda Indonesia_Retro 1969-1985
 texture=GIA-Garuda Indonesia_Retro 1969-1985
@@ -2047,7 +1971,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.105]
+[fltsim.101]
 title=AIGAIM_KLM Boeing 777-300ER
 model=KLM-KLM
 texture=KLM-KLM
@@ -2066,7 +1990,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.106]
+[fltsim.102]
 title=AIGAIM_KLM Boeing 777-300ER - fwd Sat
 model=KLM-KLM_fwd Sat
 texture=KLM-KLM_fwd Sat
@@ -2085,7 +2009,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.107]
+[fltsim.103]
 title=AIGAIM_KLM Boeing 777-300ER - aft Sat
 model=KLM-KLM_aft Sat
 texture=KLM-KLM_aft Sat
@@ -2104,7 +2028,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.108]
+[fltsim.104]
 title=AIGAIM_KLM Boeing 777-300ER - OC aft Sat
 model=KLM-KLM_OC aft Sat
 texture=KLM-KLM_OC aft Sat
@@ -2123,7 +2047,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.109]
+[fltsim.105]
 title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat
 model=KLM-KLM_KLM ASIA aft Sat
 texture=KLM-KLM_KLM ASIA aft Sat
@@ -2142,7 +2066,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.110]
+[fltsim.106]
 title=AIGAIM_KLM Boeing 777-300ER - Skyteam
 model=KLM-KLM_Skyteam
 texture=KLM-KLM_Skyteam
@@ -2161,7 +2085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.111]
+[fltsim.107]
 title=AIGAIM_KLM Boeing 777-300ER - Orange Pride aft Sat
 model=KLM-KLM_Orange Pride aft Sat
 texture=KLM-KLM_Orange Pride aft Sat
@@ -2180,7 +2104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.112]
+[fltsim.108]
 title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
 model=KAC-Kuwait Airways_65 Years_temp
 texture=KAC-Kuwait Airways_65 Years_temp
@@ -2199,7 +2123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
 
-[fltsim.113]
+[fltsim.109]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -2218,7 +2142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.114]
+[fltsim.110]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
 model=TAM-LATAM Airlines Brasil_Star Wars
 texture=TAM-LATAM Airlines Brasil_Star Wars
@@ -2237,7 +2161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.115]
+[fltsim.111]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Logo
 model=THY-Turkish Airlines_Belly Logo
 texture=THY-Turkish Airlines_Belly Logo
@@ -2255,3 +2179,154 @@ description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.112]
+title=AIGAIM_Qatar Cargo Boeing 777-300ER - Pax
+model=QTRC-Qatar Airways Cargo_Pax
+texture=QTRC-Qatar Airways Cargo_Pax
+atc_id=SU-BAE
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=QTRC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTRC
+
+[fltsim.113]
+title=AIGAIM_Qatar Cargo Boeing 777-300ER - Pax Oneworld
+model=QTRC-Qatar Airways Cargo_Pax Oneworld
+texture=QTRC-Qatar Airways Cargo_Pax Oneworld
+atc_id=SU-BAA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=QTRC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTRC
+
+[fltsim.114]
+title=AIGAIM_Qatar Airways Boeing 777-300ER
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_id=SU-BAE
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.115]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld
+model=QTR-Qatar Airways_Oneworld
+texture=QTR-Qatar Airways_Oneworld
+atc_id=SU-BAA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.116]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA 2022 Ribbon
+model=QTR-Qatar Airways_FIFA 2022 Ribbon
+texture=QTR-Qatar Airways_FIFA 2022 Ribbon
+atc_id=SU-BAX
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.117]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA 2022 Purple
+model=QTR-Qatar Airways_FIFA 2022 Purple
+texture=QTR-Qatar Airways_FIFA 2022 Purple
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=FSPainter
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways - A7-BEB FIFA World Cup
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_B77W_QTR_A7BEB.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.118]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - Anniversary Retro
+model=QTR-Qatar Airways_Anniversary Retro
+texture=QTR-Qatar Airways_Anniversary Retro
+atc_id=SU-BAC
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.119]
+title=AIGAIM_Qatar Airways Boeing 777-300ER - 25th Anniversary Sticker
+model=QTR-Qatar Airways_25th Anniversary Sticker
+texture=QTR-Qatar Airways_25th Anniversary Sticker
+atc_id=SU-BEE
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER Qatar Airways FSX.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

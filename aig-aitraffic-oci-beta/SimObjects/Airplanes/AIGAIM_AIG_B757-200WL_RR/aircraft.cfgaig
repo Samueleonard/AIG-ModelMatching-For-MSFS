@@ -431,3 +431,23 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
+
+[fltsim.20]
+title=AIGAIM_Swiftair Boeing 757-200WL - RR PCF
+model=SWT-Swiftair_RR PCF
+texture=SWT-Swiftair_RR PCF
+atc_id=EC-NIV
+atc_airline=SWIFT
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200WL
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Boeing 757-200WL Swiftair_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
