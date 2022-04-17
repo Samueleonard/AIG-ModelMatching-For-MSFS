@@ -276,3 +276,41 @@ description=AIG_A330-200F_RR-RR_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMA
+
+[fltsim.12]
+title=AIGAIM_Hungary Air Cargo Airbus A330-200F - opb Wizz Air
+model=WZZC-Hungary Air Cargo_opb Wizz Air
+texture=WZZC-Hungary Air Cargo_opb Wizz Air
+atc_id=HA-LHU
+atc_airline=WIZZAIR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=WZZC
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Wizz Air opf Government of Hungary
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F_Wizz Air.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WZZC
+
+[fltsim.13]
+title=AIGAIM_Qatar Cargo Airbus A330-200F - opb CMA CGM AirCargo
+model=QTRC-Qatar Airways Cargo_opb CMA CGM AirCargo
+texture=QTRC-Qatar Airways Cargo_opb CMA CGM AirCargo
+atc_id=OO-CMA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=QTRC
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200F
+ui_variation=Air Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F Air Belgium.zip
+description=AIG_A330-200F_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTRC

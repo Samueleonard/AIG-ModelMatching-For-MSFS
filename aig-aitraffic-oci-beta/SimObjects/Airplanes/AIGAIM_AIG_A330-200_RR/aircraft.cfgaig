@@ -624,25 +624,6 @@ isUserSelectable=0
 icao_airline=GIA
 
 [fltsim.31]
-title=AIGAIM_Fiji Airways Airbus A330-200 - RR
-model=FJI-Fiji Airways_RR
-texture=FJI-Fiji Airways_RR
-atc_id=DQ-FJT
-atc_airline=FIJI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FJI
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Fiji Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Fiji Airways.zip
-description=AIG_A330-200_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FJI
-
-[fltsim.32]
 title=AIGAIM_Hawaiian Airlines Airbus A330-200
 model=HAL-Hawaiian Airlines
 texture=HAL-Hawaiian Airlines
@@ -660,7 +641,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAL
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Hawaiian Airlines Airbus A330-200 - 242t
 model=HAL-Hawaiian Airlines_242t
 texture=HAL-Hawaiian Airlines_242t
@@ -678,7 +659,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAL
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Hawaiian Airlines Airbus A330-200 - OC
 model=HAL-Hawaiian Airlines_OC
 texture=HAL-Hawaiian Airlines_OC
@@ -696,7 +677,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HAL
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Kuwait Airways Airbus A330-200 - OC 65 Years (TEMP)
 model=KAC-Kuwait Airways_OC 65 Years_temp
 texture=KAC-Kuwait Airways_OC 65 Years_temp
@@ -714,7 +695,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_SriLankan Airlines Airbus A330-200 - named Oneworld
 model=ALK-SriLankan Airlines_named Oneworld
 texture=ALK-SriLankan Airlines_named Oneworld
@@ -733,7 +714,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_SriLankan Airlines Airbus A330-200 - OT Small 3rd Door
 model=ALK-SriLankan Airlines_OT Small 3rd Door
 texture=ALK-SriLankan Airlines_OT Small 3rd Door
@@ -752,7 +733,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Sunclass Airlines Airbus A330-200 - OT
 model=VKG-Sunclass Airlines_OT
 texture=VKG-Sunclass Airlines_OT
@@ -771,7 +752,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Avianca Airbus A330-200 - Old Livery
 model=AVA-Avianca_Old Livery
 texture=AVA-Avianca_Old Livery
@@ -789,7 +770,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Avianca Airbus A330-200 - Star Alliance
 model=AVA-Avianca_Star Alliance
 texture=AVA-Avianca_Star Alliance
@@ -807,7 +788,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVA
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_TAP Air Portugal Airbus A330-200 - RR opb Wamos Air
 model=TAP-TAP Air Portugal_RR opb Wamos Air
 texture=TAP-TAP Air Portugal_RR opb Wamos Air
@@ -826,7 +807,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_China Southern Airlines Airbus A330-200 - RR
 model=CSN-China Southern Airlines_RR
 texture=CSN-China Southern Airlines_RR
@@ -844,3 +825,41 @@ description=AIG_A330-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+
+[fltsim.42]
+title=AIGAIM_Fiji Airways Airbus A330-200 - DQ-FJT
+model=FJI-Fiji Airways_DQ-FJT
+texture=FJI-Fiji Airways_DQ-FJT
+atc_id=DQ-FJT
+atc_airline=FIJI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FJI
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Fiji Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Fiji Airways.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FJI
+
+[fltsim.43]
+title=AIGAIM_Fiji Airways Airbus A330-200 - DQ-FJV
+model=FJI-Fiji Airways_DQ-FJV
+texture=FJI-Fiji Airways_DQ-FJV
+atc_id=DQ-FJV
+atc_airline=FIJI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FJI
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Fiji Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Fiji Airways.zip
+description=AIG_A330-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FJI

@@ -6014,3 +6014,21 @@ description=FAIB_A320-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNE
+
+[fltsim.335]
+title=AIGAIM_Bulgaria Air Airbus A320-200 - White
+model=LZB-Bulgaria Air_White
+texture=LZB-Bulgaria Air_White
+atc_id=LZ-FBE
+atc_airline=FLYING BULGARIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LZB
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A320-200
+ui_variation=Bulgaria Air - LZ-FBC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A320-200_Bulgaria Air_FSX.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LZB
