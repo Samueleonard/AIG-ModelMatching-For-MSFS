@@ -183,3 +183,22 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
+
+[fltsim.7]
+title=AIGAIM_Iberojet Airbus A330-900neo - opb OBS
+model=EVE-Iberojet_opb OBS
+texture=EVE-Iberojet_opb OBS
+atc_id=CS-TKH
+atc_airline=EVELOP
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVE
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=TAP Portugal CS-TKH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a339_eve.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVE

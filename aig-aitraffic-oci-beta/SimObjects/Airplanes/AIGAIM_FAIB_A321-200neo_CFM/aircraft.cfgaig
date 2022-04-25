@@ -550,3 +550,21 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
+
+[fltsim.29]
+title=AIGAIM_Air Arabia Airbus A321-200neo - Year of the Fifthieth
+model=ABY-Air Arabia_Year of the Fifthieth
+texture=ABY-Air Arabia_Year of the Fifthieth
+atc_id=A6-ATF
+atc_airline=ARABIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ABY
+ui_manufacturer=FSX AI Bureau
+ui_type=Airbus A321-200neo
+ui_variation=Air Arabia A6-ATF ('year of the fiftieth' logos)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a321_aby_50.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABY

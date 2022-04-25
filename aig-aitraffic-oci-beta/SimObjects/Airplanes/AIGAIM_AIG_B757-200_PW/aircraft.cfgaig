@@ -301,22 +301,3 @@ description=AIG_B757-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ERF
-
-[fltsim.13]
-title=AIGAIM_Raya Airways Boeing 757-200 - PCF
-model=RMY-Raya Airways_PCF
-texture=RMY-Raya Airways_PCF
-atc_id=9M-RYA
-atc_airline=RAYA EXPRESS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=RMY
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=Raya Airways 9M-RYA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: Raya_Airways_B757-200F_Fleet_FSX.zip
-description=AIG_B757-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RMY

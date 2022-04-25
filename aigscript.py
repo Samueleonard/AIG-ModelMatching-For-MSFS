@@ -20,6 +20,7 @@ def clearGithubDir(): #clears the github folder of all files and remakes it empt
     print("github folder cleared")
         
 def copyFiles(toGithub):
+
     if(not toGithub): #we are moving files back to the community folder after zipping
         for name in names:
             print("copying " + githubFolderPath + name + " to " + comFolderPath)
@@ -32,21 +33,18 @@ def copyFiles(toGithub):
             shutil.move(comFolderPath + name, githubFolderPath)
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
     
-    
-    choice = input("Do you want to create a zip file? (y/n)").lower()
-    if(choice == "y"):
-        print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
-        if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
-            shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
-        print("zip folder created")
-        webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
-        webbrowser.open("https://github.com/Samueleonard/AIG-ModelMatching-For-MSFS/releases/new")
-        wait = input("commit your changes and press enter to continue")
-    else:
-        print("skipping zip creation")
-        choice = input("have you pushed your changes to github? (y/n)").lower()
-        while choice != "y":
-            choice = input("have you pushed your changes to github? (y/n)").lower()
+        choice = input("Do you want to create a zip file? (y/n)").lower()
+        if(choice == "y"):
+            print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
+            if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
+                shutil.make_archive(githubFolderPath, 'zip', "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta")
+            print("zip folder created")
+            webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
+            webbrowser.open("https://github.com/Samueleonard/AIG-ModelMatching-For-MSFS/releases/new")
+            wait = input("commit your changes and press enter to continue")
+        else:
+            print("skipping zip creation")
+            push = input("push changes to github then press enter to continue")
 
 def start(): #main function
     clearGithubDir()

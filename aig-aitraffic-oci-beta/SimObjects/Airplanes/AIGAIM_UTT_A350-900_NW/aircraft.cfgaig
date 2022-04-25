@@ -496,3 +496,22 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.24]
+title=AIGAIM_Iberojet Airbus A350-900 New WL
+model=EVE-Iberojet
+texture=EVE-Iberojet
+atc_id=EC-NBO
+atc_airline=EVELOP
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVE
+ui_manufacturer=UTT
+ui_type=Airbus A350-900 New WL
+ui_variation=Iberojet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_a359_iberojet.zip
+description=UTT_A350-900_NW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVE
