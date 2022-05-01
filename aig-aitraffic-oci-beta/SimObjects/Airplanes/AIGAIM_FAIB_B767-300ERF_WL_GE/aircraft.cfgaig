@@ -323,3 +323,41 @@ description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TMN
+
+[fltsim.15]
+title=AIGAIM_DHL Air UK Boeing 767-300ERF WL - GE
+model=DHK-DHL Air UK_GE
+texture=DHK-DHL Air UK_GE
+atc_id=G-DHLG
+atc_airline=WORLD EXPRESS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHK
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ERF WL
+ui_variation=DHL Air UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhk_b763f_jkm.zip
+description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHK
+
+[fltsim.16]
+title=AIGAIM_DHL Air UK Boeing 767-300ERF WL - GE No1 Best Workplace
+model=DHK-DHL Air UK_GE No1 Best Workplace
+texture=DHK-DHL Air UK_GE No1 Best Workplace
+atc_id=G-DHLE
+atc_airline=WORLD EXPRESS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHK
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ERF WL
+ui_variation=DHL Air UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhk_b763f_jkm.zip
+description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHK

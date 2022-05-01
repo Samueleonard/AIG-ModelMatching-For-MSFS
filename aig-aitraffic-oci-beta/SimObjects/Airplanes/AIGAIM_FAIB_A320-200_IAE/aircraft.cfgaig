@@ -3725,3 +3725,56 @@ description=FAIB_A320-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.207]
+title=AIGAIM_AirSial Airbus A320-200
+model=SIF-AirSial
+texture=SIF-AirSial
+atc_airline=AIR SIAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SIF
+ui_manufacturer=AirSial
+ui_type=Airbus A320-200
+ui_variation=AirSial
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a320iae_airsial.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIF
+
+[fltsim.208]
+title=AIGAIM_Lift Airline Airbus A320-200 - Orange Tail
+model=GBB-Lift Airline_Orange Tail
+texture=GBB-Lift Airline_Orange Tail
+atc_id=ZS-GAL
+atc_airline=GLOBE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GBB
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200
+ui_variation=Global Aviation Operations (Pty) Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A320 Lift.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GBB
+
+[fltsim.209]
+title=AIGAIM_Lift Airline Airbus A320-200 - Black Tail
+model=GBB-Lift Airline_Black Tail
+texture=GBB-Lift Airline_Black Tail
+atc_id=ZS-GAO
+atc_airline=GLOBE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GBB
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200
+ui_variation=Global Aviation Operations (Pty) Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A320 Lift.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GBB

@@ -202,3 +202,21 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
+
+[fltsim.8]
+title=AIGAIM_Air Belgium Airbus A330-900neo - Wifi dome
+model=ABB-Air Belgium_Wifi dome
+texture=ABB-Air Belgium_Wifi dome
+atc_airline=AIR BELGIUM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ABB
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Air Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_abb_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABB

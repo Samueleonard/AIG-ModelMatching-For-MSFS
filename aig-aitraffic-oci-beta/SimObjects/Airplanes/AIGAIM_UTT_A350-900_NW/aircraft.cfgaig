@@ -515,3 +515,22 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
+
+[fltsim.25]
+title=AIGAIM_French Bee Airbus A350-900 New WL - Wifi dome
+model=FBU-French Bee_Wifi dome
+texture=FBU-French Bee_Wifi dome
+atc_id=F-HREV
+atc_airline=FRENCH BEE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBU
+ui_manufacturer=UTT
+ui_type=Airbus A350-900 New WL
+ui_variation=French Bee F-HREV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: UTT A359 FBU.zip
+description=UTT_A350-900_NW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBU

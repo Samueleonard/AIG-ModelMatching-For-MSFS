@@ -451,3 +451,22 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
+
+[fltsim.21]
+title=AIGAIM_DHL Air Austria Boeing 757-200WL - RR PCF
+model=DHA-DHL Air Austria_RR PCF
+texture=DHA-DHL Air Austria_RR PCF
+atc_id=OE-LNJ
+atc_airline=YELLOW TAIL
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHA
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHA
