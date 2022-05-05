@@ -32,6 +32,8 @@ def copyFiles(toGithub):
             print("copying " + comFolderPath + name + " to " + githubFolderPath)
             shutil.move(comFolderPath + name, githubFolderPath)
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
+        
+        os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
     
         choice = input("Do you want to create a zip file? (y/n)").lower()
         if(choice == "y"):
@@ -49,7 +51,6 @@ def copyFiles(toGithub):
 def start(): #main function
     clearGithubDir()
     copyFiles(True)
-    os.startfile("C:\\Users\\samue\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe")
     copyFiles(False)
 
 
