@@ -179,3 +179,21 @@ description=HTAI_DHC6-400(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FJA
+
+[fltsim.7]
+title=AIGAIM_Zimex Aviation Viking Air DHC 6-400 Twin Otter - White
+model=IMX-Zimex Aviation_White
+texture=IMX-Zimex Aviation_White
+atc_id=HB-LUX
+atc_airline=ZIMEX
+atc_parking_types=RAMP
+atc_parking_codes=IMX
+ui_manufacturer=Viking
+ui_type=Viking Air DHC 6-400 Twin Otter
+ui_variation=Zimex Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Zimex Aviation Dash 6 FSX.zip
+description=HTAI_DHC6-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IMX

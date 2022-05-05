@@ -517,3 +517,41 @@ description=FAIB_B767-200_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRR
+
+[fltsim.25]
+title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF
+model=IGA-SkyTaxi_BDSF
+texture=IGA-SkyTaxi_BDSF
+atc_id=SP-MRF
+atc_airline=IGUANA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=IGA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=SkyTaxi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_B762_IGA.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IGA
+
+[fltsim.26]
+title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF DHL livery
+model=IGA-SkyTaxi_BDSF DHL livery
+texture=IGA-SkyTaxi_BDSF DHL livery
+atc_id=SP-MRE
+atc_airline=IGUANA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=IGA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=SkyTaxi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_iga-dhl_b762_jkm.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IGA

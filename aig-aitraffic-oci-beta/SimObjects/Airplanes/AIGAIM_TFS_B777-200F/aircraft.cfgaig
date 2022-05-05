@@ -152,25 +152,6 @@ isUserSelectable=0
 icao_airline=BOX
 
 [fltsim.5]
-title=AIGAIM_AeroLogic Boeing 777-200F - DHL 007-sticker
-model=BOX-AeroLogic_DHL 007-sticker
-texture=BOX-AeroLogic_DHL 007-sticker
-atc_id=D-AALM
-atc_airline=GERMAN CARGO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=BOX
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200F
-ui_variation=AeroLogic GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777F Aerologic FSX.zip
-description=TFS_B777-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BOX
-
-[fltsim.6]
 title=AIGAIM_Air China Cargo Boeing 777-200F
 model=CAO-Air China Cargo
 texture=CAO-Air China Cargo
@@ -189,7 +170,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Air China Cargo Boeing 777-200F - Black Titles
 model=CAO-Air China Cargo_Black Titles
 texture=CAO-Air China Cargo_Black Titles
@@ -208,7 +189,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAO
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Turkish Airlines Cargo Boeing 777-200F - Belly Titles
 model=THYC-Turkish Airlines Cargo_Belly Titles
 texture=THYC-Turkish Airlines Cargo_Belly Titles
@@ -227,7 +208,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Air France Cargo Boeing 777-200F - OC
 model=AFR-Air France Cargo_OC
 texture=AFR-Air France Cargo_OC
@@ -246,7 +227,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_ANA Cargo Boeing 777-200F - Blue Jay
 model=ANAC-ANA Cargo_Blue Jay
 texture=ANAC-ANA Cargo_Blue Jay
@@ -264,7 +245,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANAC
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Southern Air Boeing 777-200F - DHL
 model=SOO-Southern Air_DHL
 texture=SOO-Southern Air_DHL
@@ -283,7 +264,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Southern Air Boeing 777-200F - DHL Hybrid
 model=SOO-Southern Air_DHL Hybrid
 texture=SOO-Southern Air_DHL Hybrid
@@ -302,7 +283,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Southern Air Boeing 777-200F - ex-LAN Cargo
 model=SOO-Southern Air_ex-LAN Cargo
 texture=SOO-Southern Air_ex-LAN Cargo
@@ -321,7 +302,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Southern Air Boeing 777-200F - white
 model=SOO-Southern Air_white
 texture=SOO-Southern Air_white
@@ -340,7 +321,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Kalitta Air Boeing 777-200F - DHL Hybrid
 model=CKS-Kalitta Air_DHL Hybrid
 texture=CKS-Kalitta Air_DHL Hybrid
@@ -359,7 +340,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Kalitta Air Boeing 777-200F - DHL Colors
 model=CKS-Kalitta Air_DHL Colors
 texture=CKS-Kalitta Air_DHL Colors
@@ -378,12 +359,12 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_FedEx Express Boeing 777-200F
 model=FDX-FedEx Express
 texture=FDX-FedEx Express
 atc_id=N889FD
-atc_airline=FEDEX
+atc_airline=FedEx
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
 atc_parking_codes=FDX
@@ -397,7 +378,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDX
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_EVA Air Cargo Boeing 777-200F
 model=EVAC-EVA Air Cargo
 texture=EVAC-EVA Air Cargo
@@ -416,7 +397,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVAC
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Emirates SkyCargo Boeing 777-200F - Expo 2020
 model=UAEC-Emirates SkyCargo_Expo 2020
 texture=UAEC-Emirates SkyCargo_Expo 2020
@@ -435,7 +416,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAEC
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Ethiopian Airlines Cargo Boeing 777-200F
 model=ETHC-Ethiopian Airlines Cargo
 texture=ETHC-Ethiopian Airlines Cargo
@@ -454,7 +435,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETHC
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Ethiopian Airlines Cargo Boeing 777-200F - ET-APS The Renaissance Dam
 model=ETHC-Ethiopian Airlines Cargo_ET-APS The Renaissance Dam
 texture=ETHC-Ethiopian Airlines Cargo_ET-APS The Renaissance Dam
@@ -473,7 +454,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETHC
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Ethiopian Airlines Cargo Boeing 777-200F - ET-ARJ The Amazon
 model=ETHC-Ethiopian Airlines Cargo_ET-ARJ The Amazon
 texture=ETHC-Ethiopian Airlines Cargo_ET-ARJ The Amazon
@@ -492,7 +473,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETHC
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Ethiopian Airlines Cargo Boeing 777-200F - ET-ARK Mandela
 model=ETHC-Ethiopian Airlines Cargo_ET-ARK Mandela
 texture=ETHC-Ethiopian Airlines Cargo_ET-ARK Mandela
@@ -511,7 +492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETHC
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Etihad Cargo Boeing 777-200F
 model=ETDC-Etihad Cargo
 texture=ETDC-Etihad Cargo
@@ -530,7 +511,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETDC
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Etihad Cargo Boeing 777-200F - OC
 model=ETDC-Etihad Cargo_OC
 texture=ETDC-Etihad Cargo_OC
@@ -549,7 +530,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETDC
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Etihad Cargo Boeing 777-200F - White
 model=ETDC-Etihad Cargo_White
 texture=ETDC-Etihad Cargo_White
@@ -568,7 +549,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETDC
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Korean Air Cargo Boeing 777-200F
 model=KALC-Korean Air Cargo
 texture=KALC-Korean Air Cargo
@@ -587,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KALC
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Saudia Cargo Boeing 777-200F
 model=SVAC-Saudia Cargo
 texture=SVAC-Saudia Cargo
@@ -606,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F
 model=GEC-Lufthansa Cargo
 texture=GEC-Lufthansa Cargo
@@ -625,7 +606,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Sustainable Fuel
 model=GEC-Lufthansa Cargo_Sustainable Fuel
 texture=GEC-Lufthansa Cargo_Sustainable Fuel
@@ -644,7 +625,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Cargo Human Care
 model=GEC-Lufthansa Cargo_Cargo Human Care
 texture=GEC-Lufthansa Cargo_Cargo Human Care
@@ -663,7 +644,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - OC
 model=GEC-Lufthansa Cargo_OC
 texture=GEC-Lufthansa Cargo_OC
@@ -682,7 +663,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Natural Beauty
 model=GEC-Lufthansa Cargo_Natural Beauty
 texture=GEC-Lufthansa Cargo_Natural Beauty
@@ -701,7 +682,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Turkish Cargo Boeing 777-200F
 model=THYC-Turkish Cargo
 texture=THYC-Turkish Cargo
@@ -720,7 +701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Qatar Cargo Boeing 777-200F
 model=QTRC-Qatar Airways Cargo
 texture=QTRC-Qatar Airways Cargo
@@ -739,7 +720,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_AeroLogic Boeing 777-200F - DHL 007
 model=BOX-AeroLogic_DHL 007
 texture=BOX-AeroLogic_DHL 007

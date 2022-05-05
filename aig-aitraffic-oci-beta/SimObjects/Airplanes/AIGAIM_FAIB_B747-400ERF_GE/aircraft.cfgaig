@@ -129,32 +129,13 @@ ui_manufacturer=FAIB
 ui_type=Boeing 747-400F
 ui_variation=Cargo Air Lines 4X-ICA
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
+ui_createdby=Provided by: KAIW2 Filename: faib_b744f_icl_kjm.zip
 description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICL
 
 [fltsim.6]
-title=AIGAIM_CAL Cargo Airlines Boeing 747-400ERF - Ex Jade Cargo
-model=ICL-CAL Cargo Airlines_Ex Jade Cargo
-texture=ICL-CAL Cargo Airlines_Ex Jade Cargo
-atc_id=4X-ICD
-atc_airline=CAL
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ICL
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargo Air Lines 4X-ICD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_74f_icl_update19.zip
-description=FAIB_B747-400ERF_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICL
-
-[fltsim.7]
 title=AIGAIM_Cargolux Boeing 747-400ERF - LX-ECV SeaLife Trust
 model=CLX-Cargolux_LX-ECV SeaLife Trust
 texture=CLX-Cargolux_LX-ECV SeaLife Trust
@@ -173,7 +154,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Cargolux Boeing 747-400ERF - LX-JCV Albino
 model=CLX-Cargolux_LX-JCV Albino
 texture=CLX-Cargolux_LX-JCV Albino
@@ -192,7 +173,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLX
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Saudia Cargo Boeing 747-400ERF - GE Albino opb ACT
 model=SVAC-Saudia Cargo_GE Albino opb ACT
 texture=SVAC-Saudia Cargo_GE Albino opb ACT
@@ -211,7 +192,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo
 model=MPH-Martinair_KLM Cargo
 texture=MPH-Martinair_KLM Cargo
@@ -230,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPH
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Martinair Boeing 747-400ERF - KLM Cargo old CARGO logo
 model=MPH-Martinair_KLM Cargo old CARGO logo
 texture=MPH-Martinair_KLM Cargo old CARGO logo
@@ -249,7 +230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPH
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N904AR'
 model=KYE-Sky Lease Cargo_'N904AR'
 texture=KYE-Sky Lease Cargo_'N904AR'
@@ -268,7 +249,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KYE
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Sky Lease Cargo Boeing 747-400ERF - 'N903AR'
 model=KYE-Sky Lease Cargo_'N903AR'
 texture=KYE-Sky Lease Cargo_'N903AR'
@@ -287,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KYE
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Turkish Cargo Boeing 747-400ERF - opb AirACT
 model=THYC-Turkish Cargo_opb AirACT
 texture=THYC-Turkish Cargo_opb AirACT
@@ -305,3 +286,22 @@ description=FAIB_B747-400ERF_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
+
+[fltsim.14]
+title=AIGAIM_Challenge Airlines Boeing 747-400ERF
+model=CHG-Challenge Airlines
+texture=CHG-Challenge Airlines
+atc_id=OO-ACF
+atc_airline=CHALLENGE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CHG
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Challenge Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b744f_chg_kjm.zip
+description=FAIB_B747-400ERF_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHG

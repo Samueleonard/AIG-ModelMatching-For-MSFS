@@ -231,25 +231,6 @@ isUserSelectable=0
 icao_airline=CKS
 
 [fltsim.11]
-title=AIGAIM_CAL Cargo Airlines Boeing 747-400F - PW
-model=ICL-CAL Cargo Airlines_PW
-texture=ICL-CAL Cargo Airlines_PW
-atc_id=4X-ICB
-atc_airline=CAL
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ICL
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Cargo Air Lines 4X-ICB 'Challenge accepted'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_744f_icl_fleet_update.zip
-description=FAIB_B747-400F_PW-FPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICL
-
-[fltsim.12]
 title=AIGAIM_Singapore Airlines Cargo Boeing 747-400F
 model=SIAC-Singapore Airlines Cargo
 texture=SIAC-Singapore Airlines Cargo
@@ -268,7 +249,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SQC
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Saudia Cargo Boeing 747-400F - PW Albino opb ACT
 model=SVAC-Saudia Cargo_PW Albino opb ACT
 texture=SVAC-Saudia Cargo_PW Albino opb ACT
@@ -287,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVAC
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Silk Way West Airlines Boeing 747-400F - 'Albino'
 model=AZG-Silk Way West Airlines_'Albino'
 texture=AZG-Silk Way West Airlines_'Albino'
@@ -305,3 +286,22 @@ description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZG
+
+[fltsim.14]
+title=AIGAIM_CAL Cargo Airlines Boeing 747-400F
+model=ICL-CAL Cargo Airlines
+texture=ICL-CAL Cargo Airlines
+atc_id=4X-ICB
+atc_airline=CAL
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ICL
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=CAL Cargo Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b744f_icl_kjm.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICL

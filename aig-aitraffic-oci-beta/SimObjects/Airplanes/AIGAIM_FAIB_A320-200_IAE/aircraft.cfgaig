@@ -3778,3 +3778,21 @@ description=FAIB_A320-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GBB
+
+[fltsim.210]
+title=AIGAIM_UR Airlines Airbus A320-200 - opb GetJet
+model=UBD-UR Airlines_opb GetJet
+texture=UBD-UR Airlines_opb GetJet
+atc_id=LY-EMU
+atc_airline=URAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UBD
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A320-200
+ui_variation=Getjet Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A320-200_IAE_Getjet Airlines _FSX.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UBD

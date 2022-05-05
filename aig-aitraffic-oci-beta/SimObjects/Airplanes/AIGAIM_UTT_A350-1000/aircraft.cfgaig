@@ -129,3 +129,22 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.4]
+title=AIGAIM_French Bee Airbus A350-1000 - Wifi dome
+model=FBU-French Bee_Wifi dome
+texture=FBU-French Bee_Wifi dome
+atc_id=F-HMIX
+atc_airline=FRENCH BEE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBU
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=French Bee
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_a35x_fbu.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBU

@@ -2322,3 +2322,39 @@ description=FAIB_B737-800SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VXP
+
+[fltsim.129]
+title=AIGAIM_Flydubai Boeing 737-800SSW - SN
+model=FDB-Flydubai_SN
+texture=FDB-Flydubai_SN
+atc_id=A6-FEW
+atc_airline=SKY DUBAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDB
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Fly Dubai A6-FEW (scimitars, SN, WiFi dome, ETOPS)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738ssw_fdb.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDB
+
+[fltsim.130]
+title=AIGAIM_Flydubai Boeing 737-800SSW - SN LHS sticker
+model=FDB-Flydubai_SN LHS sticker
+texture=FDB-Flydubai_SN LHS sticker
+atc_id=A6-FEC
+atc_airline=SKY DUBAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDB
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Fly Dubai A6-FEC (scimitars, SN, WiFi dome, '10 years' logo)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738ssw_fdb.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDB

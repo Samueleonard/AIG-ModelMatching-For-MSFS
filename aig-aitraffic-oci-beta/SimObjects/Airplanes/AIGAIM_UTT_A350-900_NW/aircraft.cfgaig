@@ -407,25 +407,6 @@ isUserSelectable=0
 icao_airline=FJI
 
 [fltsim.19]
-title=AIGAIM_French Bee Airbus A350-900 New WL
-model=FBU-French Bee
-texture=FBU-French Bee
-atc_id=F-HREV
-atc_airline=FRENCH BEE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FBU
-ui_manufacturer=UTT
-ui_type=Airbus A350-900 New WL
-ui_variation=French Bee F-HREV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: UTT A359 FBU.zip
-description=UTT_A350-900_NW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FBU
-
-[fltsim.20]
 title=AIGAIM_LATAM Airlines Brasil Airbus A350-900 New WL
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -443,7 +424,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A350-900 New WL - New Colors
 model=SAS-SAS Scandinavian Airlines_New Colors
 texture=SAS-SAS Scandinavian Airlines_New Colors
@@ -461,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Turkish Airlines Airbus A350-900 New WL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -479,7 +460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Qatar Airways Airbus A350-900 New WL
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -497,7 +478,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Iberojet Airbus A350-900 New WL
 model=EVE-Iberojet
 texture=EVE-Iberojet
@@ -516,7 +497,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_French Bee Airbus A350-900 New WL - Wifi dome
 model=FBU-French Bee_Wifi dome
 texture=FBU-French Bee_Wifi dome
