@@ -79,25 +79,6 @@ isUserSelectable=0
 icao_airline=CCA
 
 [fltsim.3]
-title=AIGAIM_Air India Boeing 747-400 - VT-ESO
-model=AIC-Air India_VT-ESO
-texture=AIC-Air India_VT-ESO
-atc_id=VT-ESO
-atc_airline=AIR INDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AIC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400
-ui_variation=Air India - Khajuraho - VT-ESO
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_747-400_Air_India_FSX.zip
-description=FAIB_B747-400_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AIC
-
-[fltsim.4]
 title=AIGAIM_Wamos Air Boeing 747-400 - PW
 model=PLM-Wamos Air_PW
 texture=PLM-Wamos Air_PW
@@ -115,7 +96,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PLM
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Astral Aviation Boeing 747-400 - PW BDSF
 model=ACP-Astral Aviation_PW BDSF
 texture=ACP-Astral Aviation_PW BDSF
@@ -134,7 +115,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACP
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Atlas Air Boeing 747-400 - PW BCF White with titles and blue engines
 model=GTI-Atlas Air_PW BCF White with titles and blue engines
 texture=GTI-Atlas Air_PW BCF White with titles and blue engines
@@ -153,7 +134,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Kalitta Air Boeing 747-400 - PW BCF
 model=CKS-Kalitta Air_PW BCF
 texture=CKS-Kalitta Air_PW BCF
@@ -172,7 +153,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Kalitta Air Boeing 747-400 - PW BCF Albino
 model=CKS-Kalitta Air_PW BCF Albino
 texture=CKS-Kalitta Air_PW BCF Albino
@@ -191,7 +172,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Kalitta Air Boeing 747-400 - PW BCF Pacific Air Cargo
 model=CKS-Kalitta Air_PW BCF Pacific Air Cargo
 texture=CKS-Kalitta Air_PW BCF Pacific Air Cargo
@@ -210,7 +191,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_El Al Israel Airlines Boeing 747-400 - OC
 model=ELY-El Al Israel Airlines_OC
 texture=ELY-El Al Israel Airlines_OC
@@ -229,7 +210,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Korean Air Boeing 747-400
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -247,7 +228,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Saudia Boeing 747-400 - PW Albino opb AAI
 model=SVA-Saudia_PW Albino opb AAI
 texture=SVA-Saudia_PW Albino opb AAI
@@ -266,7 +247,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Saudia Boeing 747-400 - PW no Engine Logos opb AAI
 model=SVA-Saudia_PW no Engine Logos opb AAI
 texture=SVA-Saudia_PW no Engine Logos opb AAI
@@ -285,7 +266,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Martinair Boeing 747-400 - BCF
 model=MPH-Martinair_BCF
 texture=MPH-Martinair_BCF
@@ -304,7 +285,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPH
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Challenge Airlines Boeing 747-400 - BCF
 model=CHG-Challenge Airlines_BCF
 texture=CHG-Challenge Airlines_BCF

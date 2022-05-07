@@ -134,25 +134,6 @@ isUserSelectable=0
 icao_airline=OMA
 
 [fltsim.4]
-title=AIGAIM_Air India Boeing 787-8 - VT-A Reg
-model=AIC-Air India_VT-A Reg
-texture=AIC-Air India_VT-A Reg
-atc_id=VT-ANJ
-atc_airline=AIR INDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AIC
-ui_manufacturer=UTT
-ui_type=Boeing 787-8
-ui_variation=Air India - VT-ANJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: ai788aic_v2_fsx.zip
-description=UTT_B787-8_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AIC
-
-[fltsim.5]
 title=AIGAIM_Air India Boeing 787-8 - Star Alliance
 model=AIC-Air India_Star Alliance
 texture=AIC-Air India_Star Alliance
@@ -171,7 +152,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIC
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Air Tanzania Boeing 787-8
 model=ATC-Air Tanzania
 texture=ATC-Air Tanzania
@@ -190,7 +171,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATC
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_American Airlines Boeing 787-8
 model=AAL-American Airlines
 texture=AAL-American Airlines
@@ -209,7 +190,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_AZAL Azerbaijan Airlines Boeing 787-8 - GE engine sticker
 model=AHY-AZAL Azerbaijan Airlines_GE engine sticker
 texture=AHY-AZAL Azerbaijan Airlines_GE engine sticker
@@ -228,7 +209,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Air Canada Boeing 787-8 - Wifi dome
 model=ACA-Air Canada_Wifi dome
 texture=ACA-Air Canada_Wifi dome
@@ -247,7 +228,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Air Canada Boeing 787-8 - OC
 model=ACA-Air Canada_OC
 texture=ACA-Air Canada_OC
@@ -265,7 +246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Air Canada Boeing 787-8 - OC Wifi dome
 model=ACA-Air Canada_OC Wifi dome
 texture=ACA-Air Canada_OC Wifi dome
@@ -284,7 +265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Biman Bangladesh Airlines Boeing 787-8
 model=BBC-Biman Bangladesh Airlines
 texture=BBC-Biman Bangladesh Airlines
@@ -303,7 +284,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBC
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_United Airlines Boeing 787-8 - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -322,7 +303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_Uzbekistan Airways Boeing 787-8
 model=UZB-Uzbekistan Airways
 texture=UZB-Uzbekistan Airways
@@ -341,7 +322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UZB
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_Uzbekistan Airways Boeing 787-8 - WiFi Dome
 model=UZB-Uzbekistan Airways_WiFi Dome
 texture=UZB-Uzbekistan Airways_WiFi Dome
@@ -360,7 +341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UZB
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE
 model=ETH-Ethiopian Airlines_GE
 texture=ETH-Ethiopian Airlines_GE
@@ -379,7 +360,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOO Lake Tana
 model=ETH-Ethiopian Airlines_GE ET-AOO Lake Tana
 texture=ETH-Ethiopian Airlines_GE ET-AOO Lake Tana
@@ -398,7 +379,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOP Queen of Sheba
 model=ETH-Ethiopian Airlines_GE ET-AOP Queen of Sheba
 texture=ETH-Ethiopian Airlines_GE ET-AOP Queen of Sheba
@@ -417,7 +398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOQ Africa First
 model=ETH-Ethiopian Airlines_GE ET-AOQ Africa First
 texture=ETH-Ethiopian Airlines_GE ET-AOQ Africa First
@@ -436,7 +417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOR Addis Ababa
 model=ETH-Ethiopian Airlines_GE ET-AOR Addis Ababa
 texture=ETH-Ethiopian Airlines_GE ET-AOR Addis Ababa
@@ -455,7 +436,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOS Lucy
 model=ETH-Ethiopian Airlines_GE ET-AOS Lucy
 texture=ETH-Ethiopian Airlines_GE ET-AOS Lucy
@@ -474,7 +455,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOT Walia Ibex
 model=ETH-Ethiopian Airlines_GE ET-AOT Walia Ibex
 texture=ETH-Ethiopian Airlines_GE ET-AOT Walia Ibex
@@ -493,7 +474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-AOV Taj Mahal
 model=ETH-Ethiopian Airlines_GE ET-AOV Taj Mahal
 texture=ETH-Ethiopian Airlines_GE ET-AOV Taj Mahal
@@ -512,7 +493,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Ethiopian Airlines Boeing 787-8 - GE ET-ASH Mountain Nyala
 model=ETH-Ethiopian Airlines_GE ET-ASH Mountain Nyala
 texture=ETH-Ethiopian Airlines_GE ET-ASH Mountain Nyala
@@ -531,7 +512,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_TUI fly Netherlands Boeing 787-8
 model=TFL-TUI fly Netherlands
 texture=TFL-TUI fly Netherlands
@@ -549,7 +530,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_TUI fly Netherlands Boeing 787-8 - belly logo
 model=TFL-TUI fly Netherlands_belly logo
 texture=TFL-TUI fly Netherlands_belly logo
@@ -567,7 +548,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Jetstar Airways Boeing 787-8
 model=JST-Jetstar Airways
 texture=JST-Jetstar Airways
@@ -586,7 +567,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JST
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Kenya Airways Boeing 787-8
 model=KQA-Kenya Airways
 texture=KQA-Kenya Airways
@@ -605,7 +586,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Kenya Airways Boeing 787-8 - 5Y-KZA Rift Valley
 model=KQA-Kenya Airways_5Y-KZA Rift Valley
 texture=KQA-Kenya Airways_5Y-KZA Rift Valley
@@ -624,7 +605,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Kenya Airways Boeing 787-8 - 5Y-KZB Zambezi River
 model=KQA-Kenya Airways_5Y-KZB Zambezi River
 texture=KQA-Kenya Airways_5Y-KZB Zambezi River
@@ -643,7 +624,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Kenya Airways Boeing 787-8 - 5Y-KZC Maasai Mara
 model=KQA-Kenya Airways_5Y-KZC Maasai Mara
 texture=KQA-Kenya Airways_5Y-KZC Maasai Mara
@@ -662,7 +643,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Kenya Airways Boeing 787-8 - 5Y-KZE Serengeti Plains
 model=KQA-Kenya Airways_5Y-KZE Serengeti Plains
 texture=KQA-Kenya Airways_5Y-KZE Serengeti Plains
@@ -681,7 +662,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Kenya Airways Boeing 787-8 - 5Y-KZG Magical Kenya
 model=KQA-Kenya Airways_5Y-KZG Magical Kenya
 texture=KQA-Kenya Airways_5Y-KZG Magical Kenya
@@ -700,7 +681,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Royal Air Maroc Boeing 787-8 - OC
 model=RAM-Royal Air Maroc_OC
 texture=RAM-Royal Air Maroc_OC
@@ -719,7 +700,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Royal Air Maroc Boeing 787-8 - Oneworld
 model=RAM-Royal Air Maroc_Oneworld
 texture=RAM-Royal Air Maroc_Oneworld
@@ -738,7 +719,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_Royal Jordanian Airlines Boeing 787-8
 model=RJA-Royal Jordanian Airlines
 texture=RJA-Royal Jordanian Airlines
@@ -757,7 +738,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Royal Jordanian Airlines Boeing 787-8 - White Engines
 model=RJA-Royal Jordanian Airlines_White Engines
 texture=RJA-Royal Jordanian Airlines_White Engines
@@ -776,7 +757,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_TUI Airways UK Boeing 787-8 - named
 model=TOM-TUI Airways UK_named
 texture=TOM-TUI Airways UK_named
@@ -794,7 +775,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_TUI fly Belgium Boeing 787-8
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -812,7 +793,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_TUIfly Nordic Boeing 787-8 - opb TUI Airways UK named
 model=BLX-TUIfly Nordic_opb TUI Airways UK named
 texture=BLX-TUIfly Nordic_opb TUI Airways UK named
@@ -830,7 +811,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLX
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Qatar Airways Boeing 787-8
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -848,3 +829,22 @@ description=UTT_B787-8_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.41]
+title=AIGAIM_Air India Boeing 787-8
+model=AIC-Air India
+texture=AIC-Air India
+atc_id=VT-ANJ
+atc_airline=AIR INDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AIC
+ui_manufacturer=UTT
+ui_type=Boeing 787-8
+ui_variation=Air India - VT-ANJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: ai788aic_v2_fsx.zip
+description=UTT_B787-8_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIC

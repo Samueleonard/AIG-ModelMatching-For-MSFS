@@ -586,3 +586,21 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABQ
+
+[fltsim.31]
+title=AIGAIM_IndiGo Airbus A321-200neo - CFM
+model=IGO-IndiGo_CFM
+texture=IGO-IndiGo_CFM
+atc_id=VT-ILB
+atc_airline=IFLY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IGO
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=IndiGo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321NEO IndiGo.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IGO
