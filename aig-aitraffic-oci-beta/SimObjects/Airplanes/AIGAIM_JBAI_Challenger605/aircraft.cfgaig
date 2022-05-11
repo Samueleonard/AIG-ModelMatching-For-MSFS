@@ -186,6 +186,7 @@ description=JBAI_Challenger605-605_NoSat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+atc_airline=
 
 [fltsim.8]
 title=AIGAIM_Mylan Pharmaceuticals Bombardier Challenger 605 - N624MY

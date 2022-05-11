@@ -437,3 +437,22 @@ description=FAIB_B747-400F_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CALC
+
+[fltsim.22]
+title=AIGAIM_CargoLogicAir Boeing 747-400F
+model=CLU-CargoLogicAir
+texture=CLU-CargoLogicAir
+atc_id=G-CLAA
+atc_airline=FIREBIRD
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CLU
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=CargoLogicAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_clu_boeing_744f.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CLU

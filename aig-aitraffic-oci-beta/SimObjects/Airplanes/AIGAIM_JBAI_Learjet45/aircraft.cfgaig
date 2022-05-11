@@ -201,6 +201,7 @@ description=JBAI_Learjet45-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+atc_airline=
 
 [fltsim.9]
 title=AIGAIM_Mayo Aviation Bombardier Learjet 45 - N419LG

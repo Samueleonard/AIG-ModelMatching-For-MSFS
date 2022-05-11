@@ -204,25 +204,6 @@ isUserSelectable=0
 icao_airline=THY
 
 [fltsim.8]
-title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - OT PW ETOPS Argentina
-model=ARG-Aerolineas Argentinas_OT PW ETOPS Argentina
-texture=ARG-Aerolineas Argentinas_OT PW ETOPS Argentina
-atc_id=LV-FNK
-atc_airline=ARGENTINA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ARG
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Aerolineas Argentinas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200 OT PW_Aerolineas Argentinas.zip
-description=AIG_A330-200_PW-PW_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ARG
-
-[fltsim.9]
 title=AIGAIM_China Southern Airlines Airbus A330-200 - PW
 model=CSN-China Southern Airlines_PW
 texture=CSN-China Southern Airlines_PW
@@ -240,3 +221,22 @@ description=AIG_A330-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+
+[fltsim.9]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - OT PW
+model=ARG-Aerolineas Argentinas_OT PW
+texture=ARG-Aerolineas Argentinas_OT PW
+atc_id=LV-FNK
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200 OT PW_Aerolineas Argentinas.zip
+description=AIG_A330-200_PW-PW_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG

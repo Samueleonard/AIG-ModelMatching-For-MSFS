@@ -956,3 +956,60 @@ description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
+
+[fltsim.49]
+title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF
+model=DHX-DHL Intl Aviation ME_BCF
+texture=DHX-DHL Intl Aviation ME_BCF
+atc_id=A9C-DHU
+atc_airline=DILMUN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHX
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DHL International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhx_b763w_kjm.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHX
+
+[fltsim.50]
+title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF No1 Best Workplace
+model=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
+texture=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
+atc_id=A9C-DHY
+atc_airline=DILMUN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHX
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DHL International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhx_b763w_kjm.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHX
+
+[fltsim.51]
+title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BDSF
+model=DHX-DHL Intl Aviation ME_BDSF
+texture=DHX-DHL Intl Aviation ME_BDSF
+atc_id=A9C-DHS
+atc_airline=DILMUN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHX
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DHL International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhx_b763w_kjm.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHX

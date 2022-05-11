@@ -123,3 +123,21 @@ description=AIA_B737-MAX9-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.4]
+title=AIGAIM_Aeromexico Boeing 737 MAX 9
+model=AMX-Aeromexico
+texture=AMX-Aeromexico
+atc_id=XA-BBB
+atc_airline=AEROMEXICO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AMX
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 9
+ui_variation=Aerovías de México, S.A. de C.V.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX9 Aeromexico.zip
+description=AIA_B737-MAX9-Sat_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AMX
