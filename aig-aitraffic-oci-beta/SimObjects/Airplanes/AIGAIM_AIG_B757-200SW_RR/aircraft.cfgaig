@@ -206,3 +206,22 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+
+[fltsim.8]
+title=AIGAIM_Icelandair Boeing 757-200SW - National Geographic
+model=ICE-National Geographic World Tour_National Geographic
+texture=ICE-National Geographic World Tour_National Geographic
+atc_airline=ICEAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ICE
+ui_manufacturer=Alpha India Group
+ui_type=Boeing 757-200SW
+ui_variation=Icelandair TF-FIS National Geographic
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_752W_ICE_NAT.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200SW_RR-RR_SW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ICE

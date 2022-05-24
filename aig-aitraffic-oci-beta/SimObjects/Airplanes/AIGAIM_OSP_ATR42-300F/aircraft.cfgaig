@@ -83,44 +83,6 @@ isUserSelectable=0
 icao_airline=MTN
 
 [fltsim.2]
-title=AIGAIM_Swiftair ATR 42-300F (TEMP)
-model=SWT-Swiftair_temp
-texture=SWT-Swiftair_temp
-atc_id=EC-ISX
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=Aerospatiale
-ui_type=ATR 42-300F
-ui_variation=Swiftair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR42-300F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.3]
-title=AIGAIM_Swiftair ATR 42-300F - forward title (TEMP)
-model=SWT-Swiftair_forward title_temp
-texture=SWT-Swiftair_forward title_temp
-atc_id=EC-JBX
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=Aerospatiale
-ui_type=ATR 42-300F
-ui_variation=Swiftair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR42-300F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.4]
 title=AIGAIM_Swiftair ATR 42-300F - Fedex colours
 model=SWT-Swiftair_Fedex colours
 texture=SWT-Swiftair_Fedex colours
@@ -139,20 +101,40 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.5]
-title=AIGAIM_Jetcraft Aviation ATR 42-300F - opf Toll Aviaion
-model=TFX-Jetcraft Aviation_opf Toll Aviaion
-texture=TFX-Jetcraft Aviation_opf Toll Aviaion
-atc_id=VH-TOX
-atc_airline=TOLL EXPRESS
-atc_parking_types=RAMP
-atc_parking_codes=TFX
+[fltsim.3]
+title=AIGAIM_Swiftair ATR 42-300F
+model=SWT-Swiftair
+texture=SWT-Swiftair
+atc_id=EC-ISX
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
 ui_manufacturer=Aerospatiale
 ui_type=ATR 42-300F
-ui_variation=Toll Priority
+ui_variation=Swiftair
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FLTSIM Filename: ai_toll_atr42.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
+prop_anim_ratio=-0.2
 description=OSP_ATR42-300F(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=TFX
+icao_airline=SWT
+
+[fltsim.4]
+title=AIGAIM_Swiftair ATR 42-300F - forward title
+model=SWT-Swiftair_forward title
+texture=SWT-Swiftair_forward title
+atc_id=EC-JBX
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 42-300F
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_ATR_42_300F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR42-300F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT

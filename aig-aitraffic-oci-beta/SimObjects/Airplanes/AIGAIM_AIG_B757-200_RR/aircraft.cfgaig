@@ -315,7 +315,7 @@ ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=DHL Air G-DHKX
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
 description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -362,25 +362,6 @@ isUserSelectable=0
 icao_airline=BCS
 
 [fltsim.16]
-title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK
-model=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK
-texture=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK
-atc_id=G-BIKK
-atc_airline=EUROTRANS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=BCS
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200
-ui_variation=DHL Air G-BIKK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
-description=AIG_B757-200_RR-RR_535C(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BCS
-
-[fltsim.17]
 title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK White Rear Door Tape
 model=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK White Rear Door Tape
 texture=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK White Rear Door Tape
@@ -393,13 +374,13 @@ ui_manufacturer=Boeing
 ui_type=Boeing 757-200
 ui_variation=DHL Air G-BMRJ
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
+ui_createdby=Provided by: KAIW Filename: aig_dhk_b752f_p3d_20-11.zip
 description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Jet2com Boeing 757-200
 model=EXS-Jet2com
 texture=EXS-Jet2com
@@ -418,7 +399,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Jet2com Boeing 757-200 - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -437,7 +418,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines
 model=VSV-SCAT Airlines_Sunday Airlines
 texture=VSV-SCAT Airlines_Sunday Airlines
@@ -455,7 +436,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_SCAT Airlines Boeing 757-200 - Sunday Airlines OC
 model=VSV-SCAT Airlines_Sunday Airlines OC
 texture=VSV-SCAT Airlines_Sunday Airlines OC
@@ -474,7 +455,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Privilege Style Boeing 757-200
 model=PVG-Privilege Style
 texture=PVG-Privilege Style
@@ -493,7 +474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PVG
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Morningstar Air Express Boeing 757-200 - SF
 model=MAL-Morningstar Air Express_SF
 texture=MAL-Morningstar Air Express_SF
@@ -512,7 +493,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAL
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Qantas Freight Boeing 757-200 - PCF opb Freight Pacific Air Express
 model=QFAC-Qantas Freight_PCF opb Freight Pacific Air Express
 texture=QFAC-Qantas Freight_PCF opb Freight Pacific Air Express
@@ -528,7 +509,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Titan Airways Boeing 757-200 - RR
 model=AWC-Titan Airways_RR
 texture=AWC-Titan Airways_RR
@@ -547,7 +528,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Turkmenistan Airlines Boeing 757-200
 model=TUA-Turkmenistan Airlines
 texture=TUA-Turkmenistan Airlines
@@ -567,7 +548,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Hapag Lloyd Cruises Boeing 757-200 - opb ICE Albert Ballin
 model=BJO-Hapag Lloyd Cruises_opb ICE Albert Ballin
 texture=BJO-Hapag Lloyd Cruises_opb ICE Albert Ballin
@@ -587,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Cargojet Boeing 757-200 - PCF
 model=CJT-Cargojet_PCF
 texture=CJT-Cargojet_PCF
@@ -606,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Swiftair Boeing 757-200 - RR APF Albino
 model=SWT-Swiftair_RR APF Albino
 texture=SWT-Swiftair_RR APF Albino
@@ -626,7 +607,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_DHL Air Austria Boeing 757-200 - RR PCF
 model=DHA-DHL Air Austria_RR PCF
 texture=DHA-DHL Air Austria_RR PCF
@@ -645,7 +626,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHA
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_DHL Air UK Boeing 757-200 - RR_535C SF
 model=DHK-DHL Air UK_RR_535C SF
 texture=DHK-DHL Air UK_RR_535C SF
@@ -664,7 +645,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_DHL Air UK Boeing 757-200 - RR_535C SF No1 Best Workplace
 model=DHK-DHL Air UK_RR_535C SF No1 Best Workplace
 texture=DHK-DHL Air UK_RR_535C SF No1 Best Workplace
@@ -682,3 +663,98 @@ description=AIG_B757-200_RR-RR_535C(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
+
+[fltsim.32]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF
+model=BCS-EAT Leipzig_RR PCF
+texture=BCS-EAT Leipzig_RR PCF
+atc_id=D-ALEV
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.33]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb DHL Air Austria As One Against Cancer
+model=BCS-EAT Leipzig_RR PCF opb DHL Air Austria As One Against Cancer
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air Austria As One Against Cancer
+atc_id=OE-LNE
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.34]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb DHL Air Austria No1 Best Workplace
+model=BCS-EAT Leipzig_RR PCF opb DHL Air Austria No1 Best Workplace
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air Austria No1 Best Workplace
+atc_id=OE-LNF
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.35]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - RR PCF opb DHL Air UK Tusk Trust
+model=BCS-EAT Leipzig_RR PCF opb DHL Air UK Tusk Trust
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air UK Tusk Trust
+atc_id=G-DHKK
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.36]
+title=AIGAIM_EAT Leipzig Boeing 757-200 - RR_535C SF opb DHL Air UK No1 Best Workplace
+model=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK No1 Best Workplace
+texture=BCS-EAT Leipzig_RR_535C SF opb DHL Air UK No1 Best Workplace
+atc_id=G-BMRB
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200
+ui_variation=DHL Air UK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: aig_dhk_b752f_p3d_20-11.zip
+description=AIG_B757-200_RR-RR_535C(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS

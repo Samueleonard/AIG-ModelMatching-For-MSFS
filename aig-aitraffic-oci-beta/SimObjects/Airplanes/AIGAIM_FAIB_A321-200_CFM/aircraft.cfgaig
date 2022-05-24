@@ -1026,60 +1026,6 @@ isUserSelectable=0
 icao_airline=EXS
 
 [fltsim.56]
-title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC
-model=SVA-Saudia_Chevrons OC
-texture=SVA-Saudia_Chevrons OC
-atc_id=HZ-ASM
-atc_airline=SAUDIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Saudi Arabian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.57]
-title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC WiFi Dome
-model=SVA-Saudia_Chevrons OC WiFi Dome
-texture=SVA-Saudia_Chevrons OC WiFi Dome
-atc_id=HZ-ASH
-atc_airline=SAUDIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Saudi Arabian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.58]
-title=AIGAIM_Saudia Airbus A321-200 - Chevrons OC Vision 2030
-model=SVA-Saudia_Chevrons OC Vision 2030
-texture=SVA-Saudia_Chevrons OC Vision 2030
-atc_id=HZ-ASL
-atc_airline=SAUDIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200
-ui_variation=Saudi Arabian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Saudia FSX.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.59]
 title=AIGAIM_Swiss Airbus A321-200 - Chevrons
 model=SWR-Swiss_Chevrons
 texture=SWR-Swiss_Chevrons
@@ -1097,7 +1043,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.60]
+[fltsim.57]
 title=AIGAIM_TAP Air Portugal Airbus A321-200
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -1115,7 +1061,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.61]
+[fltsim.58]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -1133,7 +1079,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.62]
+[fltsim.59]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -1151,7 +1097,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.63]
+[fltsim.60]
 title=AIGAIM_S7 Airlines Airbus A321-200 - Chevrons
 model=SBI-S7 Airlines_Chevrons
 texture=SBI-S7 Airlines_Chevrons
@@ -1168,7 +1114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.64]
+[fltsim.61]
 title=AIGAIM_Sunclass Airlines Airbus A321-200
 model=VKG-Sunclass Airlines
 texture=VKG-Sunclass Airlines
@@ -1186,7 +1132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.65]
+[fltsim.62]
 title=AIGAIM_Titan Airways Airbus A321-200 - CFM Chevron All White
 model=AWC-Titan Airways_CFM Chevron All White
 texture=AWC-Titan Airways_CFM Chevron All White
@@ -1202,3 +1148,110 @@ description=FAIB_A321-200_CFM-CFMC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
+
+[fltsim.63]
+title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM
+model=CES-China Eastern Airlines_CFM
+texture=CES-China Eastern Airlines_CFM
+atc_id=B-6345
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=China Eastern CFM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 China Eastern FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.64]
+title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM - OC
+model=CES-China Eastern Airlines_CFM - OC
+texture=CES-China Eastern Airlines_CFM - OC
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321_ces_cfm.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES
+
+[fltsim.65]
+title=AIGAIM_EAT Leipzig Airbus A321-200 - PCF opb SmartLynx Malta DHL Hybrid
+model=BCS-EAT Leipzig_PCF opb SmartLynx Malta DHL Hybrid
+texture=BCS-EAT Leipzig_PCF opb SmartLynx Malta DHL Hybrid
+atc_id=9H-CGB
+atc_airline=EUROTRANS
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=SmartLynx Airlines Malta Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321-200 P2F Smartlynx Cargo.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.66]
+title=AIGAIM_Saudia Airbus A321-200
+model=SVA-Saudia
+texture=SVA-Saudia
+atc_id=HZ-ASM
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB_A321_Saudia_FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.67]
+title=AIGAIM_Saudia Airbus A321-200 - Wifi
+model=SVA-Saudia_Wifi
+texture=SVA-Saudia_Wifi
+atc_id=HZ-ASH
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB_A321_Saudia_FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.68]
+title=AIGAIM_Saudia Airbus A321-200 - Vision 2030 Engine Logo
+model=SVA-Saudia_Vision 2030 Engine Logo
+texture=SVA-Saudia_Vision 2030 Engine Logo
+atc_id=HZ-ASL
+atc_airline=SAUDIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB_A321_Saudia_FSX.zip
+description=FAIB_A321-200_CFM-CFMC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA

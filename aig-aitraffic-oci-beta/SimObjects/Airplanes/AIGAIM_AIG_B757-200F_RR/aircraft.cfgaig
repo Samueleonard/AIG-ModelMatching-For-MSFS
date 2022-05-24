@@ -92,25 +92,6 @@ isUserSelectable=0
 icao_airline=UPS
 
 [fltsim.2]
-title=AIGAIM_EAT Leipzig Boeing 757-200F - RR opb DHL Air UK
-model=BCS-EAT Leipzig_RR opb DHL Air UK
-texture=BCS-EAT Leipzig_RR opb DHL Air UK
-atc_id=G-DHKX
-atc_airline=EUROTRANS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=BCS
-ui_manufacturer=Boeing
-ui_type=Boeing 757-200F
-ui_variation=DHL Air G-DHKX
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
-description=AIG_B757-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BCS
-
-[fltsim.3]
 title=AIGAIM_Icelandair Cargo Boeing 757-200F
 model=ICEC-Icelandair Cargo
 texture=ICEC-Icelandair Cargo

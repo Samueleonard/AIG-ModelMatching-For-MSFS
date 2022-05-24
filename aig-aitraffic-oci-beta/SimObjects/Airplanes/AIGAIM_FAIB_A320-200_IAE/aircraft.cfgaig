@@ -3421,24 +3421,6 @@ isUserSelectable=0
 icao_airline=AWC
 
 [fltsim.190]
-title=AIGAIM_TUI Airways UK Airbus A320-200 - IAE opb GetJet
-model=TOM-TUI Airways UK_IAE opb GetJet
-texture=TOM-TUI Airways UK_IAE opb GetJet
-atc_id=LY-COB
-atc_airline=TOMJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=FAIB - Airbus
-ui_type=Airbus A320-200
-ui_variation=Getjet Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Airbus A320-200_IAE_Getjet Airlines _FSX.zip
-description=FAIB_A320-200_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.191]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Los Ruiz
 model=VOI-Volaris_IAE Los Ruiz
 texture=VOI-Volaris_IAE Los Ruiz
@@ -3456,7 +3438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.192]
+[fltsim.191]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Paula
 model=VOI-Volaris_IAE Paula
 texture=VOI-Volaris_IAE Paula
@@ -3474,7 +3456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.193]
+[fltsim.192]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Alfredo
 model=VOI-Volaris_IAE Alfredo
 texture=VOI-Volaris_IAE Alfredo
@@ -3492,7 +3474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.194]
+[fltsim.193]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Fernanda
 model=VOI-Volaris_IAE Fernanda
 texture=VOI-Volaris_IAE Fernanda
@@ -3510,7 +3492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.195]
+[fltsim.194]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Los Perez
 model=VOI-Volaris_IAE Los Perez
 texture=VOI-Volaris_IAE Los Perez
@@ -3528,7 +3510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.196]
+[fltsim.195]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Alex
 model=VOI-Volaris_IAE Alex
 texture=VOI-Volaris_IAE Alex
@@ -3546,7 +3528,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.197]
+[fltsim.196]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Blanquita
 model=VOI-Volaris_IAE Blanquita
 texture=VOI-Volaris_IAE Blanquita
@@ -3564,7 +3546,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.198]
+[fltsim.197]
 title=AIGAIM_Volaris Airbus A320-200 - IAE unnamed
 model=VOI-Volaris_IAE unnamed
 texture=VOI-Volaris_IAE unnamed
@@ -3582,7 +3564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.199]
+[fltsim.198]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Brooke
 model=VOI-Volaris_IAE Brooke
 texture=VOI-Volaris_IAE Brooke
@@ -3600,7 +3582,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.200]
+[fltsim.199]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Laura
 model=VOI-Volaris_IAE Laura
 texture=VOI-Volaris_IAE Laura
@@ -3618,7 +3600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.201]
+[fltsim.200]
 title=AIGAIM_Volaris Airbus A320-200 - IAE unnamed N505VL
 model=VOI-Volaris_IAE unnamed N505VL
 texture=VOI-Volaris_IAE unnamed N505VL
@@ -3636,7 +3618,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.202]
+[fltsim.201]
 title=AIGAIM_Volaris Airbus A320-200 - IAE Paloma
 model=VOI-Volaris_IAE Paloma
 texture=VOI-Volaris_IAE Paloma
@@ -3654,7 +3636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOI
 
-[fltsim.203]
+[fltsim.202]
 title=AIGAIM_Bangkok Airways Airbus A320-200 - Shopee
 model=BKP-Bangkok Airways_Shopee
 texture=BKP-Bangkok Airways_Shopee
@@ -3672,7 +3654,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BKP
 
-[fltsim.204]
+[fltsim.203]
 title=AIGAIM_Qatar Airways Airbus A320-200 - IAE
 model=QTR-Qatar Airways_IAE
 texture=QTR-Qatar Airways_IAE
@@ -3690,7 +3672,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.205]
+[fltsim.204]
 title=AIGAIM_Qatar Airways Airbus A320-200 - IAE Oneworld
 model=QTR-Qatar Airways_IAE Oneworld
 texture=QTR-Qatar Airways_IAE Oneworld
@@ -3708,7 +3690,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.206]
+[fltsim.205]
 title=AIGAIM_AirSial Airbus A320-200
 model=SIF-AirSial
 texture=SIF-AirSial
@@ -3725,7 +3707,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIF
 
-[fltsim.207]
+[fltsim.206]
 title=AIGAIM_Lift Airline Airbus A320-200 - Orange Tail
 model=GBB-Lift Airline_Orange Tail
 texture=GBB-Lift Airline_Orange Tail
@@ -3743,7 +3725,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GBB
 
-[fltsim.208]
+[fltsim.207]
 title=AIGAIM_Lift Airline Airbus A320-200 - Black Tail
 model=GBB-Lift Airline_Black Tail
 texture=GBB-Lift Airline_Black Tail
@@ -3761,7 +3743,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GBB
 
-[fltsim.209]
+[fltsim.208]
 title=AIGAIM_UR Airlines Airbus A320-200 - opb GetJet
 model=UBD-UR Airlines_opb GetJet
 texture=UBD-UR Airlines_opb GetJet
@@ -3779,7 +3761,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBD
 
-[fltsim.210]
+[fltsim.209]
 title=AIGAIM_IndiGo Airbus A320-200 - IAE
 model=IGO-IndiGo_IAE
 texture=IGO-IndiGo_IAE

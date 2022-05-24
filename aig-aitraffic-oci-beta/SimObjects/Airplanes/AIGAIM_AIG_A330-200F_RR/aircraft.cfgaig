@@ -75,25 +75,6 @@ isUserSelectable=0
 icao_airline=HKC
 
 [fltsim.1]
-title=AIGAIM_MNG Airlines Airbus A330-200F - OC
-model=MNB-MNG Airlines_OC
-texture=MNB-MNG Airlines_OC
-atc_id=TC-MCZ
-atc_airline=BLACK SEA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=MNB
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200F
-ui_variation=MNG Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F_MNG Airlines.zip
-description=AIG_A330-200F_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MNB
-
-[fltsim.2]
 title=AIGAIM_Turkish Airlines Cargo Airbus A330-200F
 model=THYC-Turkish Airlines Cargo
 texture=THYC-Turkish Airlines Cargo
@@ -111,7 +92,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Turkish Airlines Cargo Airbus A330-200F - 242t
 model=THYC-Turkish Airlines Cargo_242t
 texture=THYC-Turkish Airlines Cargo_242t
@@ -129,7 +110,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Air Hong Kong Airbus A330-200F - DHL opb ASL Ireland
 model=AHK-Air Hong Kong_DHL opb ASL Ireland
 texture=AHK-Air Hong Kong_DHL opb ASL Ireland
@@ -148,7 +129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHK
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Avianca Cargo Airbus A330-200F
 model=TPA-Avianca Cargo
 texture=TPA-Avianca Cargo
@@ -166,7 +147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TPA
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Avianca Cargo Airbus A330-200F - Tampa Cargo Livery
 model=TPA-Avianca Cargo_Tampa Cargo Livery
 texture=TPA-Avianca Cargo_Tampa Cargo Livery
@@ -184,7 +165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TPA
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_EAT Leipzig Airbus A330-200F
 model=BCS-EAT Leipzig
 texture=BCS-EAT Leipzig
@@ -197,13 +178,13 @@ ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200F
 ui_variation=EAT Leipzig
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200F EAT Leipzig DHL.zip
+ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200F EAT Leipzig DHL.zip
 description=AIG_A330-200F_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Turkish Cargo Airbus A330-200F - RR
 model=THYC-Turkish Cargo_RR
 texture=THYC-Turkish Cargo_RR
@@ -221,7 +202,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Turkish Cargo Airbus A330-200F - 242t RR
 model=THYC-Turkish Cargo_242t RR
 texture=THYC-Turkish Cargo_242t RR
@@ -239,7 +220,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_CMA CGM Air Cargo Airbus A330-200F - opb Air Belgium
 model=ABBF-CMA CGM Air Cargo_opb Air Belgium
 texture=ABBF-CMA CGM Air Cargo_opb Air Belgium
@@ -258,7 +239,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMA
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_CMA CGM Air Cargo Airbus A330-200F - 242t opb Air Belgium
 model=ABBF-CMA CGM Air Cargo_242t opb Air Belgium
 texture=ABBF-CMA CGM Air Cargo_242t opb Air Belgium
@@ -277,7 +258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMA
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Hungary Air Cargo Airbus A330-200F - opb Wizz Air
 model=WZZC-Hungary Air Cargo_opb Wizz Air
 texture=WZZC-Hungary Air Cargo_opb Wizz Air
@@ -296,7 +277,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WZZC
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Qatar Cargo Airbus A330-200F - opb CMA CGM AirCargo
 model=QTRC-Qatar Airways Cargo_opb CMA CGM AirCargo
 texture=QTRC-Qatar Airways Cargo_opb CMA CGM AirCargo

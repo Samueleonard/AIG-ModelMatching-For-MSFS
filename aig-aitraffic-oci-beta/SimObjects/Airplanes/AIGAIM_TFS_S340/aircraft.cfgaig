@@ -657,7 +657,7 @@ model=LOGC-Loganair Cargo
 texture=LOGC-Loganair Cargo
 atc_airline=LOGAN
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=LOGC
+atc_parking_codes=LOGC,LOG
 ui_manufacturer=The Fruit Stand
 ui_type=Saab 340F
 ui_variation=Loganair - Tartan Livery
@@ -666,7 +666,7 @@ ui_createdby=Provided by: FC75 Filename: tfs_loganairtartan_sff.zip
 description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=LOGC
+icao_airline=LOG
 
 [fltsim.34]
 title=AIGAIM_Loganair Cargo Saab 340F - Basic Titles
@@ -675,7 +675,7 @@ texture=LOGC-Loganair Cargo_Basic Titles
 atc_id=G-GNTB
 atc_airline=LOGAN
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=LOGC
+atc_parking_codes=LOGC,LOG
 ui_manufacturer=The Fruit Stand
 ui_type=Saab 340F
 ui_variation=Loganair
@@ -684,7 +684,7 @@ ui_createdby=Provided by: JCAI Filename: TFS_Loganair_LOG_SAAB_340_FSX.zip
 description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=LOGC
+icao_airline=LOG
 
 [fltsim.35]
 title=AIGAIM_Regional Express Saab 340
@@ -897,7 +897,7 @@ ui_manufacturer=SAAB
 ui_type=Saab 340F
 ui_variation=Airest
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Airest_fleet_2016_FSX.zip
+ui_createdby=Provided by: JCAI Filename: TFS_SAAB_340_Airest_fleet_2016_FSX.zip
 prop_anim_ratio=-0.2
 description=TFS_S340(fs20)
 isAirTraffic=1
@@ -1033,3 +1033,59 @@ description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGA
+
+[fltsim.54]
+title=AIGAIM_Aerotranscargo Saab 340 - opb Airest ES-LSG
+model=ATG-Aerotranscargo_opb Airest ES-LSG
+texture=ATG-Aerotranscargo_opb Airest ES-LSG
+atc_id=ES-LSG
+atc_airline=MOLDCARGO
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ATG
+ui_manufacturer=SAAB
+ui_type=Saab 340
+ui_variation=Airest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Airest_fleet_2016_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATG
+
+[fltsim.55]
+title=AIGAIM_Air Chathams Saab 340
+model=CVA-Air Chathams
+texture=CVA-Air Chathams
+atc_id=ZK-KRA
+atc_airline=CHATHAM
+atc_parking_types=RAMP
+atc_parking_codes=CVA
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340
+ui_variation=Air Chathams
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: aisf3cva.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CVA
+
+[fltsim.56]
+title=AIGAIM_Air Gotland AB Saab 340A - opb Sprint Air 'SP-KPL'
+model=SRN-Air Gotland_opb Sprint Air 'SP-KPL'
+texture=SRN-Air Gotland_opb Sprint Air 'SP-KPL'
+atc_id=SP-KPL
+atc_airline=SPRINTAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340A
+ui_variation=Sprint Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_SAAB_340_Sprint Air - Air Gotland AB_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN

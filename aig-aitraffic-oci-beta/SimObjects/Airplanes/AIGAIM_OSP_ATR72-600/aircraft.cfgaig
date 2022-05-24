@@ -719,3 +719,163 @@ description=OSP_ATR72-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWR
+
+[fltsim.37]
+title=AIGAIM_Air Caraibes ATR 72-600 - Simply
+model=FWI-Air Caraibes_Simply
+texture=FWI-Air Caraibes_Simply
+atc_id=F-OSIX
+atc_airline=FRENCH WEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FWI
+ui_manufacturer=OSP ATR
+ui_type=ATR 72-600
+ui_variation=Air Caraïbes
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATR_72-500 600 FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FWI
+
+[fltsim.38]
+title=AIGAIM_Caribbean Airlines ATR 72-600
+model=BWA-Caribbean Airlines
+texture=BWA-Caribbean Airlines
+atc_id=9Y-TTI
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-600
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines ATR 72-600 Fleet FSXv2.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.39]
+title=AIGAIM_Caribbean Airlines ATR 72-600 - Old Livery
+model=BWA-Caribbean Airlines_Old Livery
+texture=BWA-Caribbean Airlines_Old Livery
+atc_id=9Y-TTB
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-600
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines ATR 72-600 Fleet FSXv2.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.40]
+title=AIGAIM_Caribbean Airlines ATR 72-600 - Old Livery No Website
+model=BWA-Caribbean Airlines_Old Livery No Website
+texture=BWA-Caribbean Airlines_Old Livery No Website
+atc_id=9Y-TTE
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-600
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines ATR 72-600 Fleet FSXv2.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.41]
+title=AIGAIM_Caribbean Airlines ATR 72-600 - Old Livery No Titles
+model=BWA-Caribbean Airlines_Old Livery No Titles
+texture=BWA-Caribbean Airlines_Old Livery No Titles
+atc_id=9Y-TTA
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-600
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines ATR 72-600 Fleet FSXv2.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.42]
+title=AIGAIM_Caribbean Airlines ATR 72-600 - Albino
+model=BWA-Caribbean Airlines_Albino
+texture=BWA-Caribbean Airlines_Albino
+atc_id=9Y-TTF
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-600
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines ATR 72-600 Fleet FSXv2.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.43]
+title=AIGAIM_TAP Express ATR 72-600 - opb White old webtitles
+model=TAPX-TAP Express_opb White old webtitles
+texture=TAPX-TAP Express_opb White old webtitles
+atc_id=CS-DJE
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAPX,WHT
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=TAP Express CS-DJE 'Braganca'(www.flytap.com webtitles)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: osp_at7_tap_fleet2018_fsx.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WHT
+
+[fltsim.44]
+title=AIGAIM_TAP Express ATR 72-600 - opb White short webtitles
+model=TAPX-TAP Express_opb White short webtitles
+texture=TAPX-TAP Express_opb White short webtitles
+atc_id=CS-DJB
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAPX,WHT
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=TAP Express CS-DJB 'Guarda' (flytap.com webtitles)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: osp_at7_tap_fleet2018_fsx.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WHT
+
+[fltsim.45]
+title=AIGAIM_FlyBig ATR 72-600 - Trujet colors
+model=-FlyBig_Trujet colors
+texture=-FlyBig_Trujet colors
+atc_id=VT-TMC
+atc_airline=KRIS
+atc_parking_types=GATE,RAMP
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=Trujet - VT-TMC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: OSP ATR72 Trujet_FSX_v3.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0

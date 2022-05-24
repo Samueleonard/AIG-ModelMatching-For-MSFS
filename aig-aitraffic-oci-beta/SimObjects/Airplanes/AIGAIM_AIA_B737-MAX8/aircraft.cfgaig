@@ -561,3 +561,40 @@ description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
+
+[fltsim.28]
+title=AIGAIM_Caribbean Airlines Boeing 737 MAX 8
+model=BWA-Caribbean Airlines
+texture=BWA-Caribbean Airlines
+atc_id=9Y-CAL
+atc_airline=CARIBBEAN AIRLINES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BWA
+ui_manufacturer=Caribbean Airlines
+ui_type=Boeing 737 MAX 8
+ui_variation=Caribbean Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: aia737max8_caribbean_airlines.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BWA
+
+[fltsim.29]
+title=AIGAIM_TUI Airways UK Boeing 737 MAX 8 - named
+model=TOM-TUI Airways UK_named
+texture=TOM-TUI Airways UK_named
+atc_id=G-TUMB
+atc_airline=TOMJET
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=TUI UK Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX TUIfly UK.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM

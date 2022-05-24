@@ -1493,24 +1493,6 @@ isUserSelectable=0
 icao_airline=LOT
 
 [fltsim.80]
-title=AIGAIM_TAP Express Embraer EMB-195 - IC opb Portugalia Wifi dome
-model=TAPX-TAP Express_IC opb Portugalia Wifi dome
-texture=TAPX-TAP Express_IC opb Portugalia Wifi dome
-atc_id=CS-TTZ
-atc_airline=AIR PORTUGAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAPX
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=TAP Express opb Portugalia CS-TTZ 'Madeira'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_emb195_tap_fsx.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAPX
-
-[fltsim.81]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMA
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
@@ -1528,7 +1510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.82]
+[fltsim.81]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMB
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
@@ -1545,3 +1527,21 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
+
+[fltsim.82]
+title=AIGAIM_TAP Express Embraer EMB-195 - IC opb Portugalia Wifi dome
+model=TAPX-TAP Express_IC opb Portugalia Wifi dome
+texture=TAPX-TAP Express_IC opb Portugalia Wifi dome
+atc_id=CS-TTZ
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAPX,PGA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=TAP Express opb Portugalia CS-TTZ 'Madeira'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_emb195_tap_fsx.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGA

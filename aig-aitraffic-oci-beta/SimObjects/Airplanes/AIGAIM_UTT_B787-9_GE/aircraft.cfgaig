@@ -583,7 +583,7 @@ ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
 ui_variation=Saudia HZ-ARB
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: utt_789_sva_fsx.zip
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
 description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -813,3 +813,152 @@ description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
+
+[fltsim.40]
+title=AIGAIM_Etihad Airways Boeing 787-9
+model=ETD-Etihad Airways
+texture=ETD-Etihad Airways
+atc_id=A6-BLH
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-9
+ui_variation=Etihad - A6-BLH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai789etd.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.41]
+title=AIGAIM_Etihad Airways Boeing 787-9 - Abu Dhabi Grand Prix
+model=ETD-Etihad Airways_Abu Dhabi Grand Prix
+texture=ETD-Etihad Airways_Abu Dhabi Grand Prix
+atc_id=A6-BLV
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-9
+ui_variation=Etihad - A6-BLV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai789etd.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.42]
+title=AIGAIM_Saudia Boeing 787-9 - Arabic Calligraphy
+model=SVA-Saudia_Arabic Calligraphy
+texture=SVA-Saudia_Arabic Calligraphy
+atc_id=HZ-AR13
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.43]
+title=AIGAIM_Saudia Boeing 787-9 - Riyadh Season 2021
+model=SVA-Saudia_Riyadh Season 2021
+texture=SVA-Saudia_Riyadh Season 2021
+atc_id=HZ-ARB
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.44]
+title=AIGAIM_Saudia Boeing 787-9 - 75 Years
+model=SVA-Saudia_75 Years
+texture=SVA-Saudia_75 Years
+atc_id=HZ-ARE
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.45]
+title=AIGAIM_Shanghai Airlines Boeing 787-9
+model=CSH-Shanghai Airlines
+texture=CSH-Shanghai Airlines
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 787-9
+ui_variation=Shanghai Airlines Boeing 787-9 B-208X
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH
+
+[fltsim.46]
+title=AIGAIM_Shanghai Airlines Boeing 787-9 - 100th
+model=CSH-Shanghai Airlines_100th
+texture=CSH-Shanghai Airlines_100th
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 787-9
+ui_variation=Shanghai Airlines Boeing 787-9 B-1111 100th CSH plane
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH
+
+[fltsim.47]
+title=AIGAIM_TUI Airways UK Boeing 787-9
+model=TOM-TUI Airways UK
+texture=TOM-TUI Airways UK
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=TUI Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM

@@ -216,3 +216,21 @@ description=FAIB_A319-100SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBA
+
+[fltsim.10]
+title=AIGAIM_China Eastern Airlines Airbus A319-100SL - CFM - OC Magnificent Qinghai
+model=CES-China Eastern Airlines_CFM - OC Magnificent Qinghai
+texture=CES-China Eastern Airlines_CFM - OC Magnificent Qinghai
+atc_id=B-6458
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A319-100SL
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a319s_ces_qinghai.zip
+description=FAIB_A319-100SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES

@@ -459,82 +459,6 @@ isUserSelectable=0
 icao_airline=DLH
 
 [fltsim.23]
-title=AIGAIM_Saudia Boeing 747-400 - GE Albino opb AAI
-model=SVA-Saudia_GE Albino opb AAI
-texture=SVA-Saudia_GE Albino opb AAI
-atc_id=TF-AAK
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=Saudia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 Saudia FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.24]
-title=AIGAIM_Saudia Boeing 747-400 - GE OC New Tail Logo opb AAI
-model=SVA-Saudia_GE OC New Tail Logo opb AAI
-texture=SVA-Saudia_GE OC New Tail Logo opb AAI
-atc_id=TF-AAC
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=Saudia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 Saudia FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.25]
-title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino opb ACT
-model=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
-texture=SVAC-Saudia Cargo_GE BDSF Albino opb ACT
-atc_id=TC-ACF
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SVAC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=Saudia Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 SF Saudia Cargo FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVAC
-
-[fltsim.26]
-title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF Albino Large Reg opb ACT
-model=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
-texture=SVAC-Saudia Cargo_GE BDSF Albino Large Reg opb ACT
-atc_id=TC-ACG
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SVAC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=Saudia Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 SF Saudia Cargo FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVAC
-
-[fltsim.27]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
 model=QFA-Qantas_GE OC
 texture=QFA-Qantas_GE OC
@@ -553,7 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.28]
+[fltsim.24]
 title=AIGAIM_National Airlines Boeing 747-400 - BCF (TEMP)
 model=NCR-National Airlines_BCF_temp
 texture=NCR-National Airlines_BCF_temp
@@ -572,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NCR
 
-[fltsim.29]
+[fltsim.25]
 title=AIGAIM_General Electric Propulsion Test Platform Boeing 747-400
 model=-General Electric Propulsion Test Platform
 texture=-General Electric Propulsion Test Platform
@@ -587,3 +511,41 @@ ui_createdby=Provided by: AVSIM Filename: faib_747-400_ge_aviation.zip
 description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
+
+[fltsim.26]
+title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF
+model=SVAC-Saudia Cargo_GE BDSF
+texture=SVAC-Saudia Cargo_GE BDSF
+atc_id=TF-AMB
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SVAC,SVA
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Saudia Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Saudia Cargo FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.27]
+title=AIGAIM_Iraqi Airways Boeing 747-400
+model=IAW-Iraqi Airways
+texture=IAW-Iraqi Airways
+atc_id=N952CA
+atc_airline=IRAQI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IAW
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Iraqi Airways Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Iraqi FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IAW

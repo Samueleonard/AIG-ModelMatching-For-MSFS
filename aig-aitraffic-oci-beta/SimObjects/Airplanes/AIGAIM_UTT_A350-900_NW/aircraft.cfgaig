@@ -515,3 +515,40 @@ description=UTT_A350-900_NW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBU
+
+[fltsim.25]
+title=AIGAIM_Air Caraibes Airbus A350-900 New WL
+model=FWI-Air Caraibes
+texture=FWI-Air Caraibes
+atc_id=F-HTRE
+atc_airline=FRENCH WEST
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FWI
+ui_manufacturer=UTT
+ui_type=Airbus A350-900 New WL
+ui_variation=Air Caraibes (new winglets)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_a359_fwi.zip
+description=UTT_A350-900_NW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FWI
+
+[fltsim.26]
+title=AIGAIM_China Eastern Airlines Airbus A350-900 New WL
+model=CES-China Eastern Airlines
+texture=CES-China Eastern Airlines
+atc_airline=CHINA EASTERN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900 New WL
+ui_variation=China Eastern Airlines Corporation Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A350-900 China Eastern.zip
+description=UTT_A350-900_NW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES

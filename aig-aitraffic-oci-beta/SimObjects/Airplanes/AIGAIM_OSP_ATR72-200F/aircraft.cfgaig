@@ -218,25 +218,6 @@ isUserSelectable=0
 icao_airline=SRN
 
 [fltsim.9]
-title=AIGAIM_Swiftair ATR 72-200F (TEMP)
-model=SWT-Swiftair_temp
-texture=SWT-Swiftair_temp
-atc_id=EC-LSN
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-200F
-ui_variation=Swiftair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.10]
 title=AIGAIM_Swiftair ATR 72-200F - LFD no windows
 model=SWT-Swiftair_LFD no windows
 texture=SWT-Swiftair_LFD no windows
@@ -248,14 +229,14 @@ ui_manufacturer=Aerospatiale
 ui_type=ATR 72-200F
 ui_variation=Swiftair
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
 prop_anim_ratio=-0.2
 description=OSP_ATR72-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Zimex Aviation ATR 72-200F
 model=IMX-Zimex Aviation
 texture=IMX-Zimex Aviation
@@ -273,7 +254,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IMX
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Zimex Aviation ATR 72-200F - BDA Logistics
 model=IMX-Zimex Aviation_BDA Logistics
 texture=IMX-Zimex Aviation_BDA Logistics
@@ -291,7 +272,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IMX
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_West Atlantic UK ATR 72-200F - LFD no windows
 model=NPT-West Atlantic UK_LFD no windows
 texture=NPT-West Atlantic UK_LFD no windows
@@ -309,3 +290,41 @@ description=OSP_ATR72-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
+
+[fltsim.13]
+title=AIGAIM_Swiftair ATR 72-200F
+model=SWT-Swiftair
+texture=SWT-Swiftair
+atc_id=EC-LSN
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
+
+[fltsim.14]
+title=AIGAIM_Swiftair ATR 72-200 - QC
+model=SWT-Swiftair_QC
+texture=SWT-Swiftair_QC
+atc_id=EC-KIZ
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT

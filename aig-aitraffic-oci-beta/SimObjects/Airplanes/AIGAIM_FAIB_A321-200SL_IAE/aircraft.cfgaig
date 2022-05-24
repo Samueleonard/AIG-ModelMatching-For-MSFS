@@ -1247,3 +1247,21 @@ description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.68]
+title=AIGAIM_China Eastern Airlines Airbus A321-200SL - IAE - Skyteam
+model=CES-China Eastern Airlines_IAE - Skyteam
+texture=CES-China Eastern Airlines_IAE - Skyteam
+atc_id=B-1838
+atc_airline=CHINA EASTERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CES
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=China Eastern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_a321s_ces_skyteam.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CES

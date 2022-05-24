@@ -1227,3 +1227,21 @@ description=FAIB_A321-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.67]
+title=AIGAIM_Iraqi Airways Airbus A321-200
+model=IAW-Iraqi Airways
+texture=IAW-Iraqi Airways
+atc_id=YI-AGS
+atc_airline=IRAQI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IAW
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Iraqi Airways Company
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Iraqi FSX.zip
+description=FAIB_A321-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IAW

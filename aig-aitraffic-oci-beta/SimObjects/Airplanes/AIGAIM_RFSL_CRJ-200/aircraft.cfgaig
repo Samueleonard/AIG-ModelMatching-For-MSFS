@@ -556,3 +556,20 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=XAI
+
+[fltsim.29]
+title=AIGAIM_Liuzhou Zhengling Group Bombardier CRJ-200 - VP-CWY
+model=GA3J-Liuzhou Zhengling Group_VP-CWY
+texture=GA3J-Liuzhou Zhengling Group_VP-CWY
+atc_airline=LIUZHOU
+atc_parking_types=RAMP
+atc_parking_codes=GA3J
+ui_manufacturer=Raven AI Labs
+ui_type=Bombardier CRJ-200
+ui_variation=Avionco Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: RFSAI CRJ200 Liuzhou Zhengling Group.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA3J

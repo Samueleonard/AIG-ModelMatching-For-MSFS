@@ -216,7 +216,7 @@ ui_manufacturer=Boeing
 ui_type=Boeing 757-200WL
 ui_variation=DHL Air G-DHKA
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: DHL_Air_B757-200F_Fleet_2016_FSX.zip
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
 description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -320,25 +320,6 @@ isUserSelectable=0
 icao_airline=NCR
 
 [fltsim.14]
-title=AIGAIM_TUI Airways UK Boeing 757-200WL
-model=TOM-TUI Airways UK
-texture=TOM-TUI Airways UK
-atc_airline=TOMJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=Alpha India
-ui_type=Boeing 757-200WL
-ui_variation=TUI Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_tuiairways_75w.zip
-prop_anim_ratio=1.59
-description=AIG_B757-200WL_RR-RR_WL(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.15]
 title=AIGAIM_4 Seasons Boeing 757-200WL - opb TAG Aviation UK
 model=BJO-4 Seasons_opb TAG Aviation UK
 texture=BJO-4 Seasons_opb TAG Aviation UK
@@ -358,7 +339,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Consul Weltreisen Boeing 757-200WL - opb GainJet
 model=BJO-Consul Weltreisen_opb GainJet
 texture=BJO-Consul Weltreisen_opb GainJet
@@ -374,7 +355,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_MLW Aviation LLC Boeing 757-200WL
 model=MLW-MLW Aviation LLC
 texture=MLW-MLW Aviation LLC
@@ -393,7 +374,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MLW
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_TCS World Travel Boeing 757-200WL - opb TUI Airlines UK
 model=BJO-TCS World Travel_opb TUI Airlines UK
 texture=BJO-TCS World Travel_opb TUI Airlines UK
@@ -413,7 +394,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Cargojet Boeing 757-200WL - PCF
 model=CJT-Cargojet_PCF
 texture=CJT-Cargojet_PCF
@@ -432,7 +413,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Swiftair Boeing 757-200WL - RR PCF
 model=SWT-Swiftair_RR PCF
 texture=SWT-Swiftair_RR PCF
@@ -452,7 +433,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_DHL Air Austria Boeing 757-200WL - RR PCF
 model=DHA-DHL Air Austria_RR PCF
 texture=DHA-DHL Air Austria_RR PCF
@@ -470,3 +451,137 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHA
+
+[fltsim.21]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF
+model=BCS-EAT Leipzig_RR PCF
+texture=BCS-EAT Leipzig_RR PCF
+atc_id=D-ALEU
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.22]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air Austria
+model=BCS-EAT Leipzig_RR PCF opb DHL Air Austria
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air Austria
+atc_id=OE-LNJ
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.23]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air Austria As One Against Cancer
+model=BCS-EAT Leipzig_RR PCF opb DHL Air Austria As One Against Cancer
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air Austria As One Against Cancer
+atc_id=OE-LNX
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.24]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air Austria Servus Austria
+model=BCS-EAT Leipzig_RR PCF opb DHL Air Austria Servus Austria
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air Austria Servus Austria
+atc_id=OE-LNZ
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.25]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air UK As One Against Cancer
+model=BCS-EAT Leipzig_RR PCF opb DHL Air UK As One Against Cancer
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air UK As One Against Cancer
+atc_id=G-DHKS
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.26]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb DHL Air UK Tusk Trust
+model=BCS-EAT Leipzig_RR PCF opb DHL Air UK Tusk Trust
+texture=BCS-EAT Leipzig_RR PCF opb DHL Air UK Tusk Trust
+atc_id=G-DHKR
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=AIG
+ui_type=Boeing 757-200WL
+ui_variation=EAT Leipzig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_bcs_b752f_jkm.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
+
+[fltsim.27]
+title=AIGAIM_EAT Leipzig Boeing 757-200WL - RR PCF opb Cygnus Air
+model=BCS-EAT Leipzig_RR PCF opb Cygnus Air
+texture=BCS-EAT Leipzig_RR PCF opb Cygnus Air
+atc_id=EC-NFN
+atc_airline=EUROTRANS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=Alpha India Group - Boeing
+ui_type=Boeing 757-200WL
+ui_variation=Cygnus Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Boeing 757-200WL Cygnus Air_FSX.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS

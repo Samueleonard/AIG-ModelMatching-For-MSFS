@@ -456,3 +456,22 @@ description=FAIB_B747-400F_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLU
+
+[fltsim.23]
+title=AIGAIM_Saudia Cargo Boeing 747-400F - GE
+model=SVAC-Saudia Cargo_GE
+texture=SVAC-Saudia Cargo_GE
+atc_id=TF-AMA
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SVAC,SVA
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=Saudia Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Saudia Cargo FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA

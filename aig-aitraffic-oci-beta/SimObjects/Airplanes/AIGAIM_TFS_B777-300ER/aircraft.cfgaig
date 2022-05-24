@@ -1631,63 +1631,6 @@ isUserSelectable=0
 icao_airline=ETH
 
 [fltsim.83]
-title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class
-model=ETD-Etihad Airways_2 Class
-texture=ETD-Etihad Airways_2 Class
-atc_id=A6-ETA
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=Boeing
-ui_type=Boeing 777-300ER
-ui_variation=Etihad - A6-ETA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.84]
-title=AIGAIM_Etihad Airways Boeing 777-300ER - 2 Class OC
-model=ETD-Etihad Airways_2 Class OC
-texture=ETD-Etihad Airways_2 Class OC
-atc_id=A6-ETH
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-300ER
-ui_variation=Etihad - A6-ETH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.85]
-title=AIGAIM_Etihad Airways Boeing 777-300ER - 3 Class OC
-model=ETD-Etihad Airways_3 Class OC
-texture=ETD-Etihad Airways_3 Class OC
-atc_id=A6-ETK
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-300ER
-ui_variation=Etihad - A6-ETK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
-description=TFS_B777-300ER-satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.86]
 title=AIGAIM_Korean Air Boeing 777-300ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -1706,7 +1649,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.87]
+[fltsim.84]
 title=AIGAIM_Korean Air Boeing 777-300ER - 200th Boeing
 model=KAL-Korean Air_200th Boeing
 texture=KAL-Korean Air_200th Boeing
@@ -1725,7 +1668,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.88]
+[fltsim.85]
 title=AIGAIM_Korean Air Boeing 777-300ER - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -1743,7 +1686,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.89]
+[fltsim.86]
 title=AIGAIM_Korean Air Boeing 777-300ER - SuperM
 model=KAL-Korean Air_SuperM
 texture=KAL-Korean Air_SuperM
@@ -1762,7 +1705,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.90]
+[fltsim.87]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -1781,7 +1724,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.91]
+[fltsim.88]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Fwd Dome
 model=SIA-Singapore Airlines_Fwd Dome
 texture=SIA-Singapore Airlines_Fwd Dome
@@ -1800,7 +1743,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.92]
+[fltsim.89]
 title=AIGAIM_Singapore Airlines Boeing 777-300ER - Star Alliance (TEMP)
 model=SIA-Singapore Airlines_Star Alliance_temp
 texture=SIA-Singapore Airlines_Star Alliance_temp
@@ -1819,7 +1762,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.93]
+[fltsim.90]
 title=AIGAIM_Saudia Boeing 777-300ER
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -1832,32 +1775,13 @@ ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-300ER
 ui_variation=Saudi Arabian Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
+ui_createdby=Provided by: JB Filename: B777-300ER_Saudia_FSX.zip
 description=TFS_B777-300ER-no_satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.94]
-title=AIGAIM_Saudia Boeing 777-300ER - Ad Diriyah E-Prix
-model=SVA-Saudia_Ad Diriyah E-Prix
-texture=SVA-Saudia_Ad Diriyah E-Prix
-atc_id=HZ-AK43
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Saudi Arabian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-300ER Saudia FSX.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.95]
+[fltsim.91]
 title=AIGAIM_Swiss Boeing 777-300ER - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -1876,7 +1800,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.96]
+[fltsim.92]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER
 model=GIA-Garuda Indonesia
 texture=GIA-Garuda Indonesia
@@ -1895,7 +1819,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.97]
+[fltsim.93]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Wonderful Indonesia
 model=GIA-Garuda Indonesia_Wonderful Indonesia
 texture=GIA-Garuda Indonesia_Wonderful Indonesia
@@ -1914,7 +1838,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.98]
+[fltsim.94]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Skyteam
 model=GIA-Garuda Indonesia_Skyteam
 texture=GIA-Garuda Indonesia_Skyteam
@@ -1933,7 +1857,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.99]
+[fltsim.95]
 title=AIGAIM_Garuda Indonesia Boeing 777-300ER - Retro 1969-1985
 model=GIA-Garuda Indonesia_Retro 1969-1985
 texture=GIA-Garuda Indonesia_Retro 1969-1985
@@ -1952,7 +1876,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.100]
+[fltsim.96]
 title=AIGAIM_KLM Boeing 777-300ER
 model=KLM-KLM
 texture=KLM-KLM
@@ -1971,7 +1895,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.101]
+[fltsim.97]
 title=AIGAIM_KLM Boeing 777-300ER - fwd Sat
 model=KLM-KLM_fwd Sat
 texture=KLM-KLM_fwd Sat
@@ -1990,7 +1914,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.102]
+[fltsim.98]
 title=AIGAIM_KLM Boeing 777-300ER - aft Sat
 model=KLM-KLM_aft Sat
 texture=KLM-KLM_aft Sat
@@ -2009,7 +1933,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.103]
+[fltsim.99]
 title=AIGAIM_KLM Boeing 777-300ER - OC aft Sat
 model=KLM-KLM_OC aft Sat
 texture=KLM-KLM_OC aft Sat
@@ -2028,7 +1952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.104]
+[fltsim.100]
 title=AIGAIM_KLM Boeing 777-300ER - KLM ASIA aft Sat
 model=KLM-KLM_KLM ASIA aft Sat
 texture=KLM-KLM_KLM ASIA aft Sat
@@ -2047,7 +1971,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.105]
+[fltsim.101]
 title=AIGAIM_KLM Boeing 777-300ER - Skyteam
 model=KLM-KLM_Skyteam
 texture=KLM-KLM_Skyteam
@@ -2066,7 +1990,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.106]
+[fltsim.102]
 title=AIGAIM_KLM Boeing 777-300ER - Orange Pride aft Sat
 model=KLM-KLM_Orange Pride aft Sat
 texture=KLM-KLM_Orange Pride aft Sat
@@ -2085,26 +2009,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.107]
-title=AIGAIM_Kuwait Airways Boeing 777-300ER - 65 Years (TEMP)
-model=KAC-Kuwait Airways_65 Years_temp
-texture=KAC-Kuwait Airways_65 Years_temp
-atc_id=9K-AOL
-atc_airline=KUWAITI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAC
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-300ER
-ui_variation=Kuwait Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B773ER Kuwait Airways.zip
-description=TFS_B777-300ER-no_satcomm(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAC
-
-[fltsim.108]
+[fltsim.103]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -2123,7 +2028,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.109]
+[fltsim.104]
 title=AIGAIM_LATAM Airlines Brasil Boeing 777-300ER - Star Wars
 model=TAM-LATAM Airlines Brasil_Star Wars
 texture=TAM-LATAM Airlines Brasil_Star Wars
@@ -2142,7 +2047,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.110]
+[fltsim.105]
 title=AIGAIM_Turkish Airlines Boeing 777-300ER - Belly Logo
 model=THY-Turkish Airlines_Belly Logo
 texture=THY-Turkish Airlines_Belly Logo
@@ -2161,7 +2066,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.111]
+[fltsim.106]
 title=AIGAIM_Qatar Cargo Boeing 777-300ER - Pax
 model=QTRC-Qatar Airways Cargo_Pax
 texture=QTRC-Qatar Airways Cargo_Pax
@@ -2180,7 +2085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.112]
+[fltsim.107]
 title=AIGAIM_Qatar Cargo Boeing 777-300ER - Pax Oneworld
 model=QTRC-Qatar Airways Cargo_Pax Oneworld
 texture=QTRC-Qatar Airways Cargo_Pax Oneworld
@@ -2199,7 +2104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.113]
+[fltsim.108]
 title=AIGAIM_Qatar Airways Boeing 777-300ER
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -2218,7 +2123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.114]
+[fltsim.109]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - Oneworld
 model=QTR-Qatar Airways_Oneworld
 texture=QTR-Qatar Airways_Oneworld
@@ -2237,7 +2142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.115]
+[fltsim.110]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA 2022 Ribbon
 model=QTR-Qatar Airways_FIFA 2022 Ribbon
 texture=QTR-Qatar Airways_FIFA 2022 Ribbon
@@ -2256,7 +2161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.116]
+[fltsim.111]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - FIFA 2022 Purple
 model=QTR-Qatar Airways_FIFA 2022 Purple
 texture=QTR-Qatar Airways_FIFA 2022 Purple
@@ -2274,7 +2179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.117]
+[fltsim.112]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - Anniversary Retro
 model=QTR-Qatar Airways_Anniversary Retro
 texture=QTR-Qatar Airways_Anniversary Retro
@@ -2293,7 +2198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.118]
+[fltsim.113]
 title=AIGAIM_Qatar Airways Boeing 777-300ER - 25th Anniversary Sticker
 model=QTR-Qatar Airways_25th Anniversary Sticker
 texture=QTR-Qatar Airways_25th Anniversary Sticker
@@ -2311,3 +2216,117 @@ description=TFS_B777-300ER-satcomm(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.114]
+title=AIGAIM_Etihad Airways Boeing 777-300ER
+model=ETD-Etihad Airways
+texture=ETD-Etihad Airways
+atc_id=A6-ETA
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=Boeing
+ui_type=Boeing 777-300ER
+ui_variation=Etihad - A6-ETA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.115]
+title=AIGAIM_Etihad Airways Boeing 777-300ER - OC
+model=ETD-Etihad Airways_OC
+texture=ETD-Etihad Airways_OC
+atc_id=A6-ETH
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=The Fruit Stand - Boeing
+ui_type=Boeing 777-300ER
+ui_variation=Etihad - A6-ETH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai77wetd_fsx.zip
+description=TFS_B777-300ER-satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.116]
+title=AIGAIM_Kuwait Airways Boeing 777-300ER
+model=KAC-Kuwait Airways
+texture=KAC-Kuwait Airways
+atc_id=9K-AOL
+atc_airline=KUWAITI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Kuwait Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B773ER Kuwait Airways.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAC
+
+[fltsim.117]
+title=AIGAIM_Saudia Boeing 777-300ER - Retrojet
+model=SVA-Saudia_Retrojet
+texture=SVA-Saudia_Retrojet
+atc_id=HZ-AK28
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER_Saudia_FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.118]
+title=AIGAIM_Saudia Boeing 777-300ER - Formula E
+model=SVA-Saudia_Formula E
+texture=SVA-Saudia_Formula E
+atc_id=HZ-AK43
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER_Saudia_FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.119]
+title=AIGAIM_Saudia Boeing 777-300ER - 75 Years sticker
+model=SVA-Saudia_75 Years sticker
+texture=SVA-Saudia_75 Years sticker
+atc_id=HZ-AK25
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-300ER
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777-300ER_Saudia_FSX.zip
+description=TFS_B777-300ER-no_satcomm(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA

@@ -155,24 +155,6 @@ isUserSelectable=0
 icao_airline=BTI
 
 [fltsim.6]
-title=AIGAIM_Air Tanzania Airbus A220-300 - Wifi Dome
-model=ATC-Air Tanzania_Wifi Dome
-texture=ATC-Air Tanzania_Wifi Dome
-atc_id=5H-TCH
-atc_airline=TANZANIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ATC
-ui_manufacturer=Airbus
-ui_type=Airbus A220-300
-ui_variation=Air Tanzania
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: sbai_bcs3_atc.zip
-description=SBAI_A220-300(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ATC
-
-[fltsim.7]
 title=AIGAIM_Air Canada Airbus A220-300 - Wifi dome
 model=ACA-Air Canada_Wifi dome
 texture=ACA-Air Canada_Wifi dome
@@ -189,7 +171,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_EgyptAir Airbus A220-300
 model=MSR-EgyptAir
 texture=MSR-EgyptAir
@@ -206,7 +188,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Korean Air Airbus A220-300
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -223,7 +205,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Korean Air Airbus A220-300 - 50 Years
 model=KAL-Korean Air_50 Years
 texture=KAL-Korean Air_50 Years
@@ -240,7 +222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Lufthansa Airbus A220-300 - opb BTI
 model=DLH-Lufthansa_opb BTI
 texture=DLH-Lufthansa_opb BTI
@@ -257,7 +239,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Swiss Airbus A220-300
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -275,7 +257,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Swiss Airbus A220-300 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -292,3 +274,20 @@ description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
+
+[fltsim.13]
+title=AIGAIM_Air Tanzania Airbus A220-300
+model=ATC-Air Tanzania
+texture=ATC-Air Tanzania
+atc_airline=TANZANIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ATC
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Air Tanzania Company limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Air Tanazania.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATC

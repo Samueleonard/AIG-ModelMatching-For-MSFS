@@ -190,3 +190,22 @@ description=UTT_B787-10_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+
+[fltsim.7]
+title=AIGAIM_Saudia Boeing 787-10
+model=SVA-Saudia
+texture=SVA-Saudia
+atc_id=HZ-AR24
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-10
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-10_Saudia.zip
+description=UTT_B787-10_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA

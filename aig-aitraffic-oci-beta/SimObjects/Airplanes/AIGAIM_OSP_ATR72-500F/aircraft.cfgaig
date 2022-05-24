@@ -144,3 +144,20 @@ description=OSP_ATR72-500F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
+
+[fltsim.5]
+title=AIGAIM_Loganair Cargo ATR 72-500F
+model=LOGC-Loganair Cargo
+texture=LOGC-Loganair Cargo
+atc_airline=LOGAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=LOGC,LOG
+ui_manufacturer=OSP
+ui_type=ATR 72-500F
+ui_variation=Loganair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: osp_loganair_at7.zip
+description=OSP_ATR72-500F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOG

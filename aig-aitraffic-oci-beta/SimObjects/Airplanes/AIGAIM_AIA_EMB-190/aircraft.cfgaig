@@ -964,24 +964,6 @@ isUserSelectable=0
 icao_airline=SWR
 
 [fltsim.51]
-title=AIGAIM_TAP Express Embraer EMB-190 - IC opb Portugalia
-model=TAPX-TAP Express_IC opb Portugalia
-texture=TAPX-TAP Express_IC opb Portugalia
-atc_id=CS-TPV
-atc_airline=AIR PORTUGAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAPX
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-190
-ui_variation=TAP Express opb Portugalia CS-TPV 'Vila Real'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_e190_tap_fsx.zip
-description=AIA_EMB-190(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAPX
-
-[fltsim.52]
 title=AIGAIM_jetBlue Embraer EMB-190 - Barcode
 model=JBU-jetBlue_Barcode
 texture=JBU-jetBlue_Barcode
@@ -999,7 +981,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_jetBlue Embraer EMB-190 - Blueberries
 model=JBU-jetBlue_Blueberries
 texture=JBU-jetBlue_Blueberries
@@ -1017,7 +999,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_jetBlue Embraer EMB-190 - Highrise
 model=JBU-jetBlue_Highrise
 texture=JBU-jetBlue_Highrise
@@ -1035,7 +1017,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_jetBlue Embraer EMB-190 - Tartan Blue
 model=JBU-jetBlue_Tartan Blue
 texture=JBU-jetBlue_Tartan Blue
@@ -1053,7 +1035,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_jetBlue Embraer EMB-190 - Tartan Lime
 model=JBU-jetBlue_Tartan Lime
 texture=JBU-jetBlue_Tartan Lime
@@ -1071,7 +1053,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_jetBlue Embraer EMB-190 - Blueprint
 model=JBU-jetBlue_Blueprint
 texture=JBU-jetBlue_Blueprint
@@ -1089,7 +1071,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JBU
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Kenya Airways Embraer EMB-190
 model=KQA-Kenya Airways
 texture=KQA-Kenya Airways
@@ -1107,7 +1089,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Kenya Airways Embraer EMB-190 - 900th E-Jet
 model=KQA-Kenya Airways_900th E-Jet
 texture=KQA-Kenya Airways_900th E-Jet
@@ -1125,7 +1107,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Kenya Airways Embraer EMB-190 - Skyteam
 model=KQA-Kenya Airways_Skyteam
 texture=KQA-Kenya Airways_Skyteam
@@ -1143,7 +1125,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190
 model=KLM-KLM
 texture=KLM-KLM
@@ -1161,7 +1143,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_KLM Cityhopper Embraer EMB-190 - Skyteam
 model=KLM-KLM_Skyteam
 texture=KLM-KLM_Skyteam
@@ -1179,7 +1161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Royal Air Maroc Embraer EMB-190 - 'OC 60 Years''
 model=RAM-Royal Air Maroc_'OC 60 Years''
 texture=RAM-Royal Air Maroc_'OC 60 Years''
@@ -1197,25 +1179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.64]
-title=AIGAIM_SA Airlink Embraer EMB-190
-model=LNK-SA Airlink
-texture=LNK-SA Airlink
-atc_id=ZS-YAA
-atc_airline=LINK
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LNK
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-190
-ui_variation=SA Airlink (Pty) Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ERJ190 SA Airlink.zip
-description=AIA_EMB-190(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LNK
-
-[fltsim.65]
+[fltsim.63]
 title=AIGAIM_TUI fly Belgium Embraer EMB-190
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -1232,7 +1196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.66]
+[fltsim.64]
 title=AIGAIM_Finnair Embraer EMB-190
 model=FIN-Finnair
 texture=FIN-Finnair
@@ -1250,7 +1214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.67]
+[fltsim.65]
 title=AIGAIM_Finnair Embraer EMB-190 - Oneworld
 model=FIN-Finnair_Oneworld
 texture=FIN-Finnair_Oneworld
@@ -1268,7 +1232,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.68]
+[fltsim.66]
 title=AIGAIM_Aerolineas Argentinas Embraer EMB-190 - Austral Livery
 model=ARG-Aerolineas Argentinas_Austral Livery
 texture=ARG-Aerolineas Argentinas_Austral Livery
@@ -1286,7 +1250,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
 
-[fltsim.69]
+[fltsim.67]
 title=AIGAIM_Aerolineas Argentinas Embraer EMB-190 - Austral Livery Skyteam
 model=ARG-Aerolineas Argentinas_Austral Livery Skyteam
 texture=ARG-Aerolineas Argentinas_Austral Livery Skyteam
@@ -1303,3 +1267,39 @@ description=AIA_EMB-190(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
+
+[fltsim.68]
+title=AIGAIM_Airlink Embraer EMB-190 - OC
+model=LNK-Airlink_OC
+texture=LNK-Airlink_OC
+atc_id=ZS-YAA
+atc_airline=LINK
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNK
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-190
+ui_variation=SA Airlink (Pty) Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ190 SA Airlink.zip
+description=AIA_EMB-190(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNK
+
+[fltsim.69]
+title=AIGAIM_TAP Express Embraer EMB-190 - IC opb Portugalia
+model=TAPX-TAP Express_IC opb Portugalia
+texture=TAPX-TAP Express_IC opb Portugalia
+atc_id=CS-TPV
+atc_airline=AIR PORTUGAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAPX,PGA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-190
+ui_variation=TAP Express opb Portugalia CS-TPV 'Vila Real'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_e190_tap_fsx.zip
+description=AIA_EMB-190(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PGA

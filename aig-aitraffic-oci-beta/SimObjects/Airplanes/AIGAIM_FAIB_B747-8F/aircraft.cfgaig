@@ -489,7 +489,7 @@ texture=KALC-Korean Air Cargo
 atc_airline=KOREANAIR
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=KALC
+atc_parking_codes=KALC,KAL
 ui_manufacturer=FAIB
 ui_type=Boeing 747-8F
 ui_variation=Korean Air Cargo
@@ -498,28 +498,9 @@ ui_createdby=Provided by: ATCO Filename: faib_748f_kalc3.zip
 description=FAIB_B747-8F-f(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=KALC
+icao_airline=KAL
 
 [fltsim.25]
-title=AIGAIM_Saudia Cargo Boeing 747-8F
-model=SVAC-Saudia Cargo
-texture=SVAC-Saudia Cargo
-atc_id=HZ-AI3
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SVAC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-8F
-ui_variation=Saudia Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-8F Saudia FSX.zip
-description=FAIB_B747-8F-f(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVAC
-
-[fltsim.26]
 title=AIGAIM_Qantas Freight Boeing 747-8F - opb Atlas Air
 model=QFAC-Qantas Freight_opb Atlas Air
 texture=QFAC-Qantas Freight_opb Atlas Air
@@ -538,7 +519,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Qantas Freight Boeing 747-8F - opb Atlas Air Belly Titles
 model=QFAC-Qantas Freight_opb Atlas Air Belly Titles
 texture=QFAC-Qantas Freight_opb Atlas Air Belly Titles
@@ -557,7 +538,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Silk Way West Airlines Boeing 747-8F
 model=AZG-Silk Way West Airlines
 texture=AZG-Silk Way West Airlines
@@ -576,7 +557,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZG
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Qatar Cargo Boeing 747-8F
 model=QTCR-Qatar Airways Cargo
 texture=QTCR-Qatar Airways Cargo
