@@ -585,3 +585,22 @@ description=AIG_B757-200WL_RR-RR_WL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+
+[fltsim.28]
+title=AIGAIM_Blue Dart Aviation Boeing 757-200WL - PCF 25 Years (TEMP)
+model=BDA-Blue Dart Aviation_PCF 25 Years_temp
+texture=BDA-Blue Dart Aviation_PCF 25 Years_temp
+atc_id=VT-BDB
+atc_airline=BLUE DART
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=BDA
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200WL
+ui_variation=Blue Dart Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_752_BDA.zip
+description=AIG_B757-200WL_RR-RR_WL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BDA

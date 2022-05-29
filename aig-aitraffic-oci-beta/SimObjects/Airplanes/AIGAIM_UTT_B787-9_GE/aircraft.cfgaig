@@ -477,63 +477,6 @@ isUserSelectable=0
 icao_airline=ETH
 
 [fltsim.22]
-title=AIGAIM_Etihad Airways Boeing 787-9 - 2 Class
-model=ETD-Etihad Airways_2 Class
-texture=ETD-Etihad Airways_2 Class
-atc_id=A6-BLH
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=Etihad - A6-BLH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789etd.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.23]
-title=AIGAIM_Etihad Airways Boeing 787-9 - 2 Class F1 Grand Prix
-model=ETD-Etihad Airways_2 Class F1 Grand Prix
-texture=ETD-Etihad Airways_2 Class F1 Grand Prix
-atc_id=A6-BLV
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=Etihad - A6-BLV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789etd.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.24]
-title=AIGAIM_Etihad Airways Boeing 787-9 - 3 Class
-model=ETD-Etihad Airways_3 Class
-texture=ETD-Etihad Airways_3 Class
-atc_id=A6-BLA
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=Etihad - A6-BLA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789etd.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.25]
 title=AIGAIM_Korean Air Boeing 787-9
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -552,7 +495,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_Korean Air Boeing 787-9 - 50 Years
 model=KAL-Korean Air_50 Years
 texture=KAL-Korean Air_50 Years
@@ -571,7 +514,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_Saudia Boeing 787-9
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -589,7 +532,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_Qantas Boeing 787-9
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -608,7 +551,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_Qantas Boeing 787-9 - Yam Dreaming
 model=QFA-Qantas_Yam Dreaming
 texture=QFA-Qantas_Yam Dreaming
@@ -627,7 +570,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_KLM Boeing 787-9
 model=KLM-KLM
 texture=KLM-KLM
@@ -646,7 +589,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_Royal Air Maroc Boeing 787-9
 model=RAM-Royal Air Maroc
 texture=RAM-Royal Air Maroc
@@ -665,7 +608,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.32]
+[fltsim.29]
 title=AIGAIM_TUI Airways UK Boeing 787-9 - named
 model=TOM-TUI Airways UK_named
 texture=TOM-TUI Airways UK_named
@@ -683,7 +626,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
 
-[fltsim.33]
+[fltsim.30]
 title=AIGAIM_TUIfly Nordic Boeing 787-9
 model=BLX-TUIfly Nordic
 texture=BLX-TUIfly Nordic
@@ -702,7 +645,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLX
 
-[fltsim.34]
+[fltsim.31]
 title=AIGAIM_Qatar Airways Boeing 787-9
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -721,7 +664,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.35]
+[fltsim.32]
 title=AIGAIM_DHL Air UK Boeing 787-9 - Preighter opb TUI Airways
 model=DHK-DHL Air UK_Preighter opb TUI Airways
 texture=DHK-DHL Air UK_Preighter opb TUI Airways
@@ -739,7 +682,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
 
-[fltsim.36]
+[fltsim.33]
 title=AIGAIM_Aeromexico Boeing 787-9
 model=AMX-Aeromexico
 texture=AMX-Aeromexico
@@ -758,7 +701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.37]
+[fltsim.34]
 title=AIGAIM_Aeromexico Boeing 787-9 - Guadalupe
 model=AMX-Aeromexico_Guadalupe
 texture=AMX-Aeromexico_Guadalupe
@@ -777,7 +720,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.38]
+[fltsim.35]
 title=AIGAIM_Aeromexico Boeing 787-9 - Quetzalcoatl
 model=AMX-Aeromexico_Quetzalcoatl
 texture=AMX-Aeromexico_Quetzalcoatl
@@ -796,7 +739,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.39]
+[fltsim.36]
 title=AIGAIM_Vistara Boeing 787-9
 model=VTI-Vistara
 texture=VTI-Vistara
@@ -814,7 +757,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_Etihad Airways Boeing 787-9
 model=ETD-Etihad Airways
 texture=ETD-Etihad Airways
@@ -833,7 +776,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.41]
+[fltsim.38]
 title=AIGAIM_Etihad Airways Boeing 787-9 - Abu Dhabi Grand Prix
 model=ETD-Etihad Airways_Abu Dhabi Grand Prix
 texture=ETD-Etihad Airways_Abu Dhabi Grand Prix
@@ -852,7 +795,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETD
 
-[fltsim.42]
+[fltsim.39]
 title=AIGAIM_Saudia Boeing 787-9 - Arabic Calligraphy
 model=SVA-Saudia_Arabic Calligraphy
 texture=SVA-Saudia_Arabic Calligraphy
@@ -871,7 +814,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.43]
+[fltsim.40]
 title=AIGAIM_Saudia Boeing 787-9 - Riyadh Season 2021
 model=SVA-Saudia_Riyadh Season 2021
 texture=SVA-Saudia_Riyadh Season 2021
@@ -890,7 +833,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.44]
+[fltsim.41]
 title=AIGAIM_Saudia Boeing 787-9 - 75 Years
 model=SVA-Saudia_75 Years
 texture=SVA-Saudia_75 Years
@@ -909,7 +852,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.45]
+[fltsim.42]
 title=AIGAIM_Shanghai Airlines Boeing 787-9
 model=CSH-Shanghai Airlines
 texture=CSH-Shanghai Airlines
@@ -927,7 +870,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.46]
+[fltsim.43]
 title=AIGAIM_Shanghai Airlines Boeing 787-9 - 100th
 model=CSH-Shanghai Airlines_100th
 texture=CSH-Shanghai Airlines_100th
@@ -945,7 +888,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.47]
+[fltsim.44]
 title=AIGAIM_TUI Airways UK Boeing 787-9
 model=TOM-TUI Airways UK
 texture=TOM-TUI Airways UK

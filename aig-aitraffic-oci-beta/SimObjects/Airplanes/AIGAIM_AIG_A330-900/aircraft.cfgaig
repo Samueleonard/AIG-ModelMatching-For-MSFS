@@ -220,3 +220,39 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABB
+
+[fltsim.9]
+title=AIGAIM_Corsair International Airbus A330-900neo
+model=CRL-Corsair International
+texture=CRL-Corsair International
+atc_airline=CORSAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Corsair International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL
+
+[fltsim.10]
+title=AIGAIM_Corsair International Airbus A330-900neo - No International Titles
+model=CRL-Corsair International_No International Titles
+texture=CRL-Corsair International_No International Titles
+atc_airline=CORSAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Corsair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL

@@ -37,40 +37,6 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
-title=AIGAIM_Shanghai Airlines Boeing 737-700
-model=CSH-Shanghai Airlines
-texture=CSH-Shanghai Airlines
-atc_airline=SHANGHAI AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSH
-ui_manufacturer=Boeing
-ui_type=Boeing 737-700
-ui_variation=Shanghai Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b737_csh.zip
-description=FAIB_B737-700(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSH
-
-[fltsim.1]
-title=AIGAIM_China Eastern Airlines Boeing 737-700 - OC
-model=CES-China Eastern Airlines_OC
-texture=CES-China Eastern Airlines_OC
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-700
-ui_variation=China Eastern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b737_ces.zip
-description=FAIB_B737-700(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.2]
 title=AIGAIM_China Southern Airlines Boeing 737-700
 model=CSN-China Southern Airlines
 texture=CSN-China Southern Airlines
@@ -87,7 +53,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.3]
+[fltsim.1]
 title=AIGAIM_China United Airlines Boeing 737-700
 model=CUA-China United Airlines
 texture=CUA-China United Airlines
@@ -104,7 +70,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUA
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_Xiamen Airlines Boeing 737-700
 model=CXA-Xiamen Airlines
 texture=CXA-Xiamen Airlines
@@ -121,7 +87,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_Xiamen Airlines Boeing 737-700 - Eyebrows
 model=CXA-Xiamen Airlines_Eyebrows
 texture=CXA-Xiamen Airlines_Eyebrows
@@ -139,7 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Xiamen Airlines Boeing 737-700 - OC
 model=CXA-Xiamen Airlines_OC
 texture=CXA-Xiamen Airlines_OC
@@ -157,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_MIAT Mongolian Airlines Boeing 737-700
 model=MGL-MIAT Mongolian Airlines
 texture=MGL-MIAT Mongolian Airlines
@@ -174,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MGL
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Travel Service Boeing 737-700 - Smartwings
 model=TVS-Travel Service_Smartwings
 texture=TVS-Travel Service_Smartwings
@@ -191,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Travel Service Boeing 737-700 - Smartwings blue engine
 model=TVS-Travel Service_Smartwings blue engine
 texture=TVS-Travel Service_Smartwings blue engine
@@ -209,7 +175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_Kunming Airlines Boeing 737-700 - Eyebrows
 model=KNA-Kunming Airlines_Eyebrows
 texture=KNA-Kunming Airlines_Eyebrows
@@ -227,7 +193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_Air China Boeing 737-700
 model=CCA-Air China
 texture=CCA-Air China
@@ -244,7 +210,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Air China Boeing 737-700 - Pink Peony
 model=CCA-Air China_Pink Peony
 texture=CCA-Air China_Pink Peony
@@ -262,7 +228,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-700 - IC
 model=GLO-GOL Transportes Aereos_IC
 texture=GLO-GOL Transportes Aereos_IC
@@ -280,7 +246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.14]
+[fltsim.12]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-700 - IC WiFi Dome
 model=GLO-GOL Transportes Aereos_IC WiFi Dome
 texture=GLO-GOL Transportes Aereos_IC WiFi Dome
@@ -298,7 +264,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.15]
+[fltsim.13]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-700 - IC Webtitles
 model=GLO-GOL Transportes Aereos_IC Webtitles
 texture=GLO-GOL Transportes Aereos_IC Webtitles
@@ -316,7 +282,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.16]
+[fltsim.14]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-700 - IC Eyebrows
 model=GLO-GOL Transportes Aereos_IC Eyebrows
 texture=GLO-GOL Transportes Aereos_IC Eyebrows
@@ -334,7 +300,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.17]
+[fltsim.15]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-700 - OC GOL+
 model=GLO-GOL Transportes Aereos_OC GOL+
 texture=GLO-GOL Transportes Aereos_OC GOL+
@@ -352,7 +318,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Eznis Airways Boeing 737-700
 model=EZA-Eznis Airways
 texture=EZA-Eznis Airways
@@ -367,7 +333,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZA
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Fly Baghdad Boeing 737-700 - Eyebrows
 model=FBA-Fly Baghdad_Eyebrows
 texture=FBA-Fly Baghdad_Eyebrows
@@ -385,7 +351,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBA
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700 - no Dome
 model=SAS-SAS Scandinavian Airlines_no Dome
 texture=SAS-SAS Scandinavian Airlines_no Dome
@@ -403,7 +369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Sun Country Airlines Boeing 737-700 - IC
 model=SCX-Sun Country Airlines_IC
 texture=SCX-Sun Country Airlines_IC

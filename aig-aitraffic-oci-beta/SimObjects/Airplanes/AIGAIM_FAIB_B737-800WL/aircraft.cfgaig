@@ -262,95 +262,6 @@ isUserSelectable=0
 icao_airline=CSH
 
 [fltsim.13]
-title=AIGAIM_Shanghai Airlines Boeing 737-800WL - SN (TEMP)
-model=CSH-Shanghai Airlines_SN_temp
-texture=CSH-Shanghai Airlines_SN_temp
-atc_airline=SHANGHAI AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSH
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=Shangai Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b738w_csh.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSH
-
-[fltsim.14]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL (TEMP)
-model=CES-China Eastern Airlines_temp
-texture=CES-China Eastern Airlines_temp
-atc_id=B-5689
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-800 China Eastern FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.15]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - Yunnan Titles (TEMP)
-model=CES-China Eastern Airlines_Yunnan Titles_temp
-texture=CES-China Eastern Airlines_Yunnan Titles_temp
-atc_id=B-6147
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern additional titles
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-800 China Eastern FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.16]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - OC
-model=CES-China Eastern Airlines_OC
-texture=CES-China Eastern Airlines_OC
-atc_id=B-5517
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b738w_ces_old.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.17]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - OC Welcome to Enshi
-model=CES-China Eastern Airlines_OC Welcome to Enshi
-texture=CES-China Eastern Airlines_OC Welcome to Enshi
-atc_id=B-5745
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern B737-800W B-5475 Welcome toEnshi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Bruno Koppel on JCAI Filename: FAIB_CES_Enshi_738W_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.18]
 title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN
 model=CES-China Eastern Airlines_SN
 texture=CES-China Eastern Airlines_SN
@@ -368,25 +279,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.19]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN Yunnan Titles
-model=CES-China Eastern Airlines_SN Yunnan Titles
-texture=CES-China Eastern Airlines_SN Yunnan Titles
-atc_id=B-6147
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern additional titles
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-800 China Eastern FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.20]
+[fltsim.14]
 title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN Yunnan Peacock (Orange)
 model=CES-China Eastern Airlines_SN Yunnan Peacock (Orange)
 texture=CES-China Eastern Airlines_SN Yunnan Peacock (Orange)
@@ -404,60 +297,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.21]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN Skyteam
-model=CES-China Eastern Airlines_SN Skyteam
-texture=CES-China Eastern Airlines_SN Skyteam
-atc_id=B-1981
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern Skyteam
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-800 China Eastern FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.22]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN OC (TEMP)
-model=CES-China Eastern Airlines_SN OC_temp
-texture=CES-China Eastern Airlines_SN OC_temp
-atc_id=B-5517
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b738w_ces_old.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.23]
-title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN OC Yunnan Peacock (Orange)
-model=CES-China Eastern Airlines_SN OC Yunnan Peacock (Orange)
-texture=CES-China Eastern Airlines_SN OC Yunnan Peacock (Orange)
-atc_airline=CHINA EASTERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CES
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800WL
-ui_variation=China Eastern - Yunnan
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b738w_ces_b-5683.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CES
-
-[fltsim.24]
+[fltsim.15]
 title=AIGAIM_China Southern Airlines Boeing 737-800WL
 model=CSN-China Southern Airlines
 texture=CSN-China Southern Airlines
@@ -474,7 +314,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.25]
+[fltsim.16]
 title=AIGAIM_China Southern Airlines Boeing 737-800WL - Skyteam (TEMP)
 model=CSN-China Southern Airlines_Skyteam_temp
 texture=CSN-China Southern Airlines_Skyteam_temp
@@ -491,7 +331,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.26]
+[fltsim.17]
 title=AIGAIM_China Southern Airlines Boeing 737-800WL - SN (TEMP)
 model=CSN-China Southern Airlines_SN_temp
 texture=CSN-China Southern Airlines_SN_temp
@@ -508,7 +348,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.27]
+[fltsim.18]
 title=AIGAIM_China Southern Airlines Boeing 737-800WL - SN Skyteam
 model=CSN-China Southern Airlines_SN Skyteam
 texture=CSN-China Southern Airlines_SN Skyteam
@@ -525,7 +365,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.28]
+[fltsim.19]
 title=AIGAIM_China United Airlines Boeing 737-800WL
 model=CUA-China United Airlines
 texture=CUA-China United Airlines
@@ -542,7 +382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUA
 
-[fltsim.29]
+[fltsim.20]
 title=AIGAIM_China United Airlines Boeing 737-800WL - SN
 model=CUA-China United Airlines_SN
 texture=CUA-China United Airlines_SN
@@ -559,7 +399,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUA
 
-[fltsim.30]
+[fltsim.21]
 title=AIGAIM_Jiangxi Air Boeing 737-800WL
 model=CJX-Jiangxi Air
 texture=CJX-Jiangxi Air
@@ -577,7 +417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJX
 
-[fltsim.31]
+[fltsim.22]
 title=AIGAIM_Jiangxi Air Boeing 737-800WL - OC
 model=CJX-Jiangxi Air_OC
 texture=CJX-Jiangxi Air_OC
@@ -595,7 +435,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJX
 
-[fltsim.32]
+[fltsim.23]
 title=AIGAIM_Jiangxi Air Boeing 737-800WL - SN (TEMP)
 model=CJX-Jiangxi Air_SN_temp
 texture=CJX-Jiangxi Air_SN_temp
@@ -613,7 +453,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJX
 
-[fltsim.33]
+[fltsim.24]
 title=AIGAIM_Hebei Airlines Boeing 737-800WL
 model=HBH-Hebei Airlines
 texture=HBH-Hebei Airlines
@@ -631,7 +471,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HBH
 
-[fltsim.34]
+[fltsim.25]
 title=AIGAIM_Hebei Airlines Boeing 737-800WL - OC
 model=HBH-Hebei Airlines_OC
 texture=HBH-Hebei Airlines_OC
@@ -649,7 +489,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HBH
 
-[fltsim.35]
+[fltsim.26]
 title=AIGAIM_Hebei Airlines Boeing 737-800WL - SN
 model=HBH-Hebei Airlines_SN
 texture=HBH-Hebei Airlines_SN
@@ -667,7 +507,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HBH
 
-[fltsim.36]
+[fltsim.27]
 title=AIGAIM_Hebei Airlines Boeing 737-800WL - SN Enjoy Hebei
 model=HBH-Hebei Airlines_SN Enjoy Hebei
 texture=HBH-Hebei Airlines_SN Enjoy Hebei
@@ -685,7 +525,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HBH
 
-[fltsim.37]
+[fltsim.28]
 title=AIGAIM_Hebei Airlines Boeing 737-800WL - SN OC
 model=HBH-Hebei Airlines_SN OC
 texture=HBH-Hebei Airlines_SN OC
@@ -703,7 +543,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HBH
 
-[fltsim.38]
+[fltsim.29]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL
 model=CXA-Xiamen Airlines
 texture=CXA-Xiamen Airlines
@@ -721,7 +561,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.39]
+[fltsim.30]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - OC
 model=CXA-Xiamen Airlines_OC
 texture=CXA-Xiamen Airlines_OC
@@ -739,7 +579,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.40]
+[fltsim.31]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - Skyteam
 model=CXA-Xiamen Airlines_Skyteam
 texture=CXA-Xiamen Airlines_Skyteam
@@ -756,7 +596,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.41]
+[fltsim.32]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - SN
 model=CXA-Xiamen Airlines_SN
 texture=CXA-Xiamen Airlines_SN
@@ -773,7 +613,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.42]
+[fltsim.33]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - SN Skyteam (TEMP)
 model=CXA-Xiamen Airlines_SN Skyteam_temp
 texture=CXA-Xiamen Airlines_SN Skyteam_temp
@@ -790,7 +630,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.43]
+[fltsim.34]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - SN 100th Boeing
 model=CXA-Xiamen Airlines_SN 100th Boeing
 texture=CXA-Xiamen Airlines_SN 100th Boeing
@@ -808,7 +648,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.44]
+[fltsim.35]
 title=AIGAIM_Xiamen Airlines Boeing 737-800WL - SN 8888th Boeing 737
 model=CXA-Xiamen Airlines_SN 8888th Boeing 737
 texture=CXA-Xiamen Airlines_SN 8888th Boeing 737
@@ -826,7 +666,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.45]
+[fltsim.36]
 title=AIGAIM_Aerolineas Argentinas Boeing 737-800WL
 model=ARG-Aerolineas Argentinas
 texture=ARG-Aerolineas Argentinas
@@ -844,7 +684,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
 
-[fltsim.46]
+[fltsim.37]
 title=AIGAIM_Aerolineas Argentinas Boeing 737-800WL - SN
 model=ARG-Aerolineas Argentinas_SN
 texture=ARG-Aerolineas Argentinas_SN
@@ -862,7 +702,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
 
-[fltsim.47]
+[fltsim.38]
 title=AIGAIM_Aerolineas Argentinas Boeing 737-800WL - SN New Argentina Sticker
 model=ARG-Aerolineas Argentinas_SN New Argentina Sticker
 texture=ARG-Aerolineas Argentinas_SN New Argentina Sticker
@@ -880,7 +720,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARG
 
-[fltsim.48]
+[fltsim.39]
 title=AIGAIM_Aeromexico Boeing 737-800WL
 model=AMX-Aeromexico
 texture=AMX-Aeromexico
@@ -897,7 +737,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.49]
+[fltsim.40]
 title=AIGAIM_Aeromexico Boeing 737-800WL - WiFi dome
 model=AMX-Aeromexico_WiFi dome
 texture=AMX-Aeromexico_WiFi dome
@@ -914,7 +754,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.50]
+[fltsim.41]
 title=AIGAIM_Air Albania Boeing 737-800WL - opb THY
 model=ABN-Air Albania_opb THY
 texture=ABN-Air Albania_opb THY
@@ -932,7 +772,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABN
 
-[fltsim.51]
+[fltsim.42]
 title=AIGAIM_Air Algerie Boeing 737-800WL
 model=DAH-Air Algerie
 texture=DAH-Air Algerie
@@ -950,7 +790,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.52]
+[fltsim.43]
 title=AIGAIM_Air Algerie Boeing 737-800WL - Unnamed
 model=DAH-Air Algerie_Unnamed
 texture=DAH-Air Algerie_Unnamed
@@ -968,7 +808,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.53]
+[fltsim.44]
 title=AIGAIM_Air Algerie Boeing 737-800WL - OC
 model=DAH-Air Algerie_OC
 texture=DAH-Air Algerie_OC
@@ -986,7 +826,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.54]
+[fltsim.45]
 title=AIGAIM_Air Algerie Boeing 737-800WL - SN OC Unnamed
 model=DAH-Air Algerie_SN OC Unnamed
 texture=DAH-Air Algerie_SN OC Unnamed
@@ -1004,7 +844,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.55]
+[fltsim.46]
 title=AIGAIM_Air Algerie Boeing 737-800WL - SN OC 25th 737
 model=DAH-Air Algerie_SN OC 25th 737
 texture=DAH-Air Algerie_SN OC 25th 737
@@ -1022,7 +862,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.56]
+[fltsim.47]
 title=AIGAIM_Thai Lion Air Boeing 737-800WL - SN
 model=TLM-Thai Lion Air_SN
 texture=TLM-Thai Lion Air_SN
@@ -1040,7 +880,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TLM
 
-[fltsim.57]
+[fltsim.48]
 title=AIGAIM_MIAT Mongolian Airlines Boeing 737-800WL
 model=MGL-MIAT Mongolian Airlines
 texture=MGL-MIAT Mongolian Airlines
@@ -1058,7 +898,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MGL
 
-[fltsim.58]
+[fltsim.49]
 title=AIGAIM_MIAT Mongolian Airlines Boeing 737-800WL - Eyebrows
 model=MGL-MIAT Mongolian Airlines_Eyebrows
 texture=MGL-MIAT Mongolian Airlines_Eyebrows
@@ -1075,7 +915,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MGL
 
-[fltsim.59]
+[fltsim.50]
 title=AIGAIM_MIAT Mongolian Airlines Boeing 737-800WL - SN BVB 09
 model=MGL-MIAT Mongolian Airlines_SN BVB 09
 texture=MGL-MIAT Mongolian Airlines_SN BVB 09
@@ -1093,7 +933,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MGL
 
-[fltsim.60]
+[fltsim.51]
 title=AIGAIM_Suparna Airlines Boeing 737-800WL - OC
 model=YZR-Suparna Airlines_OC
 texture=YZR-Suparna Airlines_OC
@@ -1111,7 +951,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZR
 
-[fltsim.61]
+[fltsim.52]
 title=AIGAIM_Suparna Airlines Boeing 737-800WL - SN
 model=YZR-Suparna Airlines_SN
 texture=YZR-Suparna Airlines_SN
@@ -1129,7 +969,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZR
 
-[fltsim.62]
+[fltsim.53]
 title=AIGAIM_Suparna Airlines Boeing 737-800WL - SN OC
 model=YZR-Suparna Airlines_SN OC
 texture=YZR-Suparna Airlines_SN OC
@@ -1147,7 +987,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZR
 
-[fltsim.63]
+[fltsim.54]
 title=AIGAIM_Med-View Airlines Boeing 737-800WL - opb euroAtlantic (TEMP)
 model=MEV-Med-View Airlines_opb euroAtlantic_temp
 texture=MEV-Med-View Airlines_opb euroAtlantic_temp
@@ -1165,7 +1005,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MEV
 
-[fltsim.64]
+[fltsim.55]
 title=AIGAIM_Malindo Air Boeing 737-800WL - SN
 model=MXD-Malindo Air_SN
 texture=MXD-Malindo Air_SN
@@ -1183,7 +1023,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
 
-[fltsim.65]
+[fltsim.56]
 title=AIGAIM_Malindo Air Boeing 737-800WL - SN EDTO
 model=MXD-Malindo Air_SN EDTO
 texture=MXD-Malindo Air_SN EDTO
@@ -1201,7 +1041,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
 
-[fltsim.66]
+[fltsim.57]
 title=AIGAIM_Malindo Air Boeing 737-800WL - SN Batik Hybrid
 model=MXD-Malindo Air_SN Batik Hybrid
 texture=MXD-Malindo Air_SN Batik Hybrid
@@ -1219,7 +1059,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
 
-[fltsim.67]
+[fltsim.58]
 title=AIGAIM_Malindo Air Boeing 737-800WL - SN Batik Malaysia
 model=MXD-Malindo Air_SN Batik Malaysia
 texture=MXD-Malindo Air_SN Batik Malaysia
@@ -1237,7 +1077,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
 
-[fltsim.68]
+[fltsim.59]
 title=AIGAIM_Malindo Air Boeing 737-800WL - SN Batik Malaysia 178th 737
 model=MXD-Malindo Air_SN Batik Malaysia 178th 737
 texture=MXD-Malindo Air_SN Batik Malaysia 178th 737
@@ -1255,7 +1095,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXD
 
-[fltsim.69]
+[fltsim.60]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL
 model=MAS-Malaysia Airlines
 texture=MAS-Malaysia Airlines
@@ -1273,7 +1113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.70]
+[fltsim.61]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - MC
 model=MAS-Malaysia Airlines_MC
 texture=MAS-Malaysia Airlines_MC
@@ -1291,7 +1131,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.71]
+[fltsim.62]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - OC new WL
 model=MAS-Malaysia Airlines_OC new WL
 texture=MAS-Malaysia Airlines_OC new WL
@@ -1309,7 +1149,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.72]
+[fltsim.63]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - OC 737 Engine Titles
 model=MAS-Malaysia Airlines_OC 737 Engine Titles
 texture=MAS-Malaysia Airlines_OC 737 Engine Titles
@@ -1327,7 +1167,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.73]
+[fltsim.64]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - 40th Anniversary
 model=MAS-Malaysia Airlines_40th Anniversary
 texture=MAS-Malaysia Airlines_40th Anniversary
@@ -1345,7 +1185,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.74]
+[fltsim.65]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - Oneworld
 model=MAS-Malaysia Airlines_Oneworld
 texture=MAS-Malaysia Airlines_Oneworld
@@ -1363,7 +1203,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.75]
+[fltsim.66]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN
 model=MAS-Malaysia Airlines_SN
 texture=MAS-Malaysia Airlines_SN
@@ -1381,7 +1221,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.76]
+[fltsim.67]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN MC
 model=MAS-Malaysia Airlines_SN MC
 texture=MAS-Malaysia Airlines_SN MC
@@ -1399,7 +1239,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.77]
+[fltsim.68]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN 100th Boeing 737
 model=MAS-Malaysia Airlines_SN 100th Boeing 737
 texture=MAS-Malaysia Airlines_SN 100th Boeing 737
@@ -1417,7 +1257,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.78]
+[fltsim.69]
 title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN Negaraku
 model=MAS-Malaysia Airlines_SN Negaraku
 texture=MAS-Malaysia Airlines_SN Negaraku
@@ -1435,7 +1275,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.79]
+[fltsim.70]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN
 model=LNI-Lion Air_SN
 texture=LNI-Lion Air_SN
@@ -1453,7 +1293,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.80]
+[fltsim.71]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN No Group Titles
 model=LNI-Lion Air_SN No Group Titles
 texture=LNI-Lion Air_SN No Group Titles
@@ -1470,7 +1310,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.81]
+[fltsim.72]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN No Engine Logo
 model=LNI-Lion Air_SN No Engine Logo
 texture=LNI-Lion Air_SN No Engine Logo
@@ -1488,7 +1328,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.82]
+[fltsim.73]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN Lion Parcel Engine Titles
 model=LNI-Lion Air_SN Lion Parcel Engine Titles
 texture=LNI-Lion Air_SN Lion Parcel Engine Titles
@@ -1506,7 +1346,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.83]
+[fltsim.74]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN Lion Parcel Fuse + Engine Titles
 model=LNI-Lion Air_SN Lion Parcel Fuse + Engine Titles
 texture=LNI-Lion Air_SN Lion Parcel Fuse + Engine Titles
@@ -1524,7 +1364,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.84]
+[fltsim.75]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN Lion Parcel Main Titles PK-LPK
 model=LNI-Lion Air_SN Lion Parcel Main Titles PK-LPK
 texture=LNI-Lion Air_SN Lion Parcel Main Titles PK-LPK
@@ -1542,7 +1382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.85]
+[fltsim.76]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN Lion Parcel Main Titles PK-LPL
 model=LNI-Lion Air_SN Lion Parcel Main Titles PK-LPL
 texture=LNI-Lion Air_SN Lion Parcel Main Titles PK-LPL
@@ -1560,7 +1400,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.86]
+[fltsim.77]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN Lion Parcel Main + Engine Titles
 model=LNI-Lion Air_SN Lion Parcel Main + Engine Titles
 texture=LNI-Lion Air_SN Lion Parcel Main + Engine Titles
@@ -1578,7 +1418,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.87]
+[fltsim.78]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN 7370th Boeing 737
 model=LNI-Lion Air_SN 7370th Boeing 737
 texture=LNI-Lion Air_SN 7370th Boeing 737
@@ -1595,7 +1435,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.88]
+[fltsim.79]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN 80th Boeing 737NG
 model=LNI-Lion Air_SN 80th Boeing 737NG
 texture=LNI-Lion Air_SN 80th Boeing 737NG
@@ -1612,7 +1452,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.89]
+[fltsim.80]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN 90th Boeing 737NG
 model=LNI-Lion Air_SN 90th Boeing 737NG
 texture=LNI-Lion Air_SN 90th Boeing 737NG
@@ -1629,7 +1469,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.90]
+[fltsim.81]
 title=AIGAIM_Lion Air Boeing 737-800WL - SN 150th Boeing 737NG
 model=LNI-Lion Air_SN 150th Boeing 737NG
 texture=LNI-Lion Air_SN 150th Boeing 737NG
@@ -1647,7 +1487,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNI
 
-[fltsim.91]
+[fltsim.82]
 title=AIGAIM_Lucky Air Boeing 737-800WL
 model=LKE-Lucky Air
 texture=LKE-Lucky Air
@@ -1665,7 +1505,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.92]
+[fltsim.83]
 title=AIGAIM_Lucky Air Boeing 737-800WL - opb Hainan Old HNA Logo
 model=LKE-Lucky Air_opb Hainan Old HNA Logo
 texture=LKE-Lucky Air_opb Hainan Old HNA Logo
@@ -1683,7 +1523,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.93]
+[fltsim.84]
 title=AIGAIM_Nok Air Boeing 737-800WL - HS-DBA
 model=NOK-Nok Air_HS-DBA
 texture=NOK-Nok Air_HS-DBA
@@ -1701,7 +1541,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.94]
+[fltsim.85]
 title=AIGAIM_Nok Air Boeing 737-800WL - HS-DBB
 model=NOK-Nok Air_HS-DBB
 texture=NOK-Nok Air_HS-DBB
@@ -1719,7 +1559,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.95]
+[fltsim.86]
 title=AIGAIM_Nok Air Boeing 737-800WL - HS-DBE
 model=NOK-Nok Air_HS-DBE
 texture=NOK-Nok Air_HS-DBE
@@ -1737,7 +1577,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.96]
+[fltsim.87]
 title=AIGAIM_Nok Air Boeing 737-800WL - HS-DBO
 model=NOK-Nok Air_HS-DBO
 texture=NOK-Nok Air_HS-DBO
@@ -1755,7 +1595,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.97]
+[fltsim.88]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBK
 model=NOK-Nok Air_SN HS-DBK
 texture=NOK-Nok Air_SN HS-DBK
@@ -1773,7 +1613,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.98]
+[fltsim.89]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBP
 model=NOK-Nok Air_SN HS-DBP
 texture=NOK-Nok Air_SN HS-DBP
@@ -1791,7 +1631,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.99]
+[fltsim.90]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBQ
 model=NOK-Nok Air_SN HS-DBQ
 texture=NOK-Nok Air_SN HS-DBQ
@@ -1809,7 +1649,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.100]
+[fltsim.91]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBR
 model=NOK-Nok Air_SN HS-DBR
 texture=NOK-Nok Air_SN HS-DBR
@@ -1827,7 +1667,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.101]
+[fltsim.92]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBS
 model=NOK-Nok Air_SN HS-DBS
 texture=NOK-Nok Air_SN HS-DBS
@@ -1845,7 +1685,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.102]
+[fltsim.93]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBT
 model=NOK-Nok Air_SN HS-DBT
 texture=NOK-Nok Air_SN HS-DBT
@@ -1863,7 +1703,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.103]
+[fltsim.94]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBU
 model=NOK-Nok Air_SN HS-DBU
 texture=NOK-Nok Air_SN HS-DBU
@@ -1881,7 +1721,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.104]
+[fltsim.95]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBV
 model=NOK-Nok Air_SN HS-DBV
 texture=NOK-Nok Air_SN HS-DBV
@@ -1899,7 +1739,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.105]
+[fltsim.96]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBW
 model=NOK-Nok Air_SN HS-DBW
 texture=NOK-Nok Air_SN HS-DBW
@@ -1917,7 +1757,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.106]
+[fltsim.97]
 title=AIGAIM_Nok Air Boeing 737-800WL - SN HS-DBX
 model=NOK-Nok Air_SN HS-DBX
 texture=NOK-Nok Air_SN HS-DBX
@@ -1935,7 +1775,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.107]
+[fltsim.98]
 title=AIGAIM_Grand China Air Boeing 737-800WL - OC
 model=GDC-Grand China Air_OC
 texture=GDC-Grand China Air_OC
@@ -1953,7 +1793,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GDC
 
-[fltsim.108]
+[fltsim.99]
 title=AIGAIM_Fuzhou Airlines Boeing 737-800WL
 model=FZA-Fuzhou Airlines
 texture=FZA-Fuzhou Airlines
@@ -1971,7 +1811,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FZA
 
-[fltsim.109]
+[fltsim.100]
 title=AIGAIM_Fuzhou Airlines Boeing 737-800WL - Mount Putuo
 model=FZA-Fuzhou Airlines_Mount Putuo
 texture=FZA-Fuzhou Airlines_Mount Putuo
@@ -1989,7 +1829,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FZA
 
-[fltsim.110]
+[fltsim.101]
 title=AIGAIM_Fuzhou Airlines Boeing 737-800WL - SN
 model=FZA-Fuzhou Airlines_SN
 texture=FZA-Fuzhou Airlines_SN
@@ -2007,7 +1847,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FZA
 
-[fltsim.111]
+[fltsim.102]
 title=AIGAIM_Air Changan Boeing 737-800WL - Taibai Mountains
 model=CGN-Air Changan_Taibai Mountains
 texture=CGN-Air Changan_Taibai Mountains
@@ -2025,7 +1865,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGN
 
-[fltsim.112]
+[fltsim.103]
 title=AIGAIM_Air Changan Boeing 737-800WL - Shaanxi Rural Credit
 model=CGN-Air Changan_Shaanxi Rural Credit
 texture=CGN-Air Changan_Shaanxi Rural Credit
@@ -2043,7 +1883,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGN
 
-[fltsim.113]
+[fltsim.104]
 title=AIGAIM_Air Changan Boeing 737-800WL - Didi Kuaidi
 model=CGN-Air Changan_Didi Kuaidi
 texture=CGN-Air Changan_Didi Kuaidi
@@ -2061,7 +1901,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGN
 
-[fltsim.114]
+[fltsim.105]
 title=AIGAIM_Air Changan Boeing 737-800WL - SN
 model=CGN-Air Changan_SN
 texture=CGN-Air Changan_SN
@@ -2079,7 +1919,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGN
 
-[fltsim.115]
+[fltsim.106]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - Old HNA Logo
 model=CHH-Hainan Airlines_Old HNA Logo
 texture=CHH-Hainan Airlines_Old HNA Logo
@@ -2097,7 +1937,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.116]
+[fltsim.107]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - OC Old HNA Logo
 model=CHH-Hainan Airlines_OC Old HNA Logo
 texture=CHH-Hainan Airlines_OC Old HNA Logo
@@ -2115,7 +1955,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.117]
+[fltsim.108]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - China Xinhua Airlines
 model=CHH-Hainan Airlines_China Xinhua Airlines
 texture=CHH-Hainan Airlines_China Xinhua Airlines
@@ -2133,7 +1973,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.118]
+[fltsim.109]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - SN Old HNA Logo
 model=CHH-Hainan Airlines_SN Old HNA Logo
 texture=CHH-Hainan Airlines_SN Old HNA Logo
@@ -2151,7 +1991,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.119]
+[fltsim.110]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - SN OC Old HNA Logo
 model=CHH-Hainan Airlines_SN OC Old HNA Logo
 texture=CHH-Hainan Airlines_SN OC Old HNA Logo
@@ -2169,7 +2009,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.120]
+[fltsim.111]
 title=AIGAIM_Hainan Airlines Boeing 737-800WL - SN 20th Anniversary
 model=CHH-Hainan Airlines_SN 20th Anniversary
 texture=CHH-Hainan Airlines_SN 20th Anniversary
@@ -2187,7 +2027,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.121]
+[fltsim.112]
 title=AIGAIM_Batik Air Boeing 737-800WL - SN
 model=BTK-Batik Air_SN
 texture=BTK-Batik Air_SN
@@ -2205,7 +2045,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
 
-[fltsim.122]
+[fltsim.113]
 title=AIGAIM_Batik Air Boeing 737-800WL - SN ETOPS
 model=BTK-Batik Air_SN ETOPS
 texture=BTK-Batik Air_SN ETOPS
@@ -2223,7 +2063,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BTK
 
-[fltsim.123]
+[fltsim.114]
 title=AIGAIM_Urumqi Air Boeing 737-800WL
 model=CUH-Urumqi Air
 texture=CUH-Urumqi Air
@@ -2241,7 +2081,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUH
 
-[fltsim.124]
+[fltsim.115]
 title=AIGAIM_Urumqi Air Boeing 737-800WL - SN
 model=CUH-Urumqi Air_SN
 texture=CUH-Urumqi Air_SN
@@ -2259,7 +2099,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUH
 
-[fltsim.125]
+[fltsim.116]
 title=AIGAIM_Urumqi Air Boeing 737-800WL - SN U-Fly Alliance
 model=CUH-Urumqi Air_SN U-Fly Alliance
 texture=CUH-Urumqi Air_SN U-Fly Alliance
@@ -2277,7 +2117,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUH
 
-[fltsim.126]
+[fltsim.117]
 title=AIGAIM_Japan Airlines Boeing 737-800WL
 model=JAL-Japan Airlines
 texture=JAL-Japan Airlines
@@ -2295,7 +2135,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.127]
+[fltsim.118]
 title=AIGAIM_Japan Airlines Boeing 737-800WL - No WiFi Dome
 model=JAL-Japan Airlines_No WiFi Dome
 texture=JAL-Japan Airlines_No WiFi Dome
@@ -2313,7 +2153,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.128]
+[fltsim.119]
 title=AIGAIM_Japan Airlines Boeing 737-800WL - SN
 model=JAL-Japan Airlines_SN
 texture=JAL-Japan Airlines_SN
@@ -2331,7 +2171,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.129]
+[fltsim.120]
 title=AIGAIM_Japan Airlines Boeing 737-800WL - SN JAL Express
 model=JAL-Japan Airlines_SN JAL Express
 texture=JAL-Japan Airlines_SN JAL Express
@@ -2349,7 +2189,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.130]
+[fltsim.121]
 title=AIGAIM_Japan Airlines Boeing 737-800WL - SN Tokyo 2020
 model=JAL-Japan Airlines_SN Tokyo 2020
 texture=JAL-Japan Airlines_SN Tokyo 2020
@@ -2367,7 +2207,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.131]
+[fltsim.122]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA01RK
 model=JTA-Japan Transocean Air_SN JA01RK
 texture=JTA-Japan Transocean Air_SN JA01RK
@@ -2385,7 +2225,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.132]
+[fltsim.123]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA02RK
 model=JTA-Japan Transocean Air_SN JA02RK
 texture=JTA-Japan Transocean Air_SN JA02RK
@@ -2403,7 +2243,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.133]
+[fltsim.124]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA03RK Okinawa Karate
 model=JTA-Japan Transocean Air_SN JA03RK Okinawa Karate
 texture=JTA-Japan Transocean Air_SN JA03RK Okinawa Karate
@@ -2421,7 +2261,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.134]
+[fltsim.125]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA04RK Okinawa Karate
 model=JTA-Japan Transocean Air_SN JA04RK Okinawa Karate
 texture=JTA-Japan Transocean Air_SN JA04RK Okinawa Karate
@@ -2439,7 +2279,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.135]
+[fltsim.126]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA05RK Jinbei Jet
 model=JTA-Japan Transocean Air_SN JA05RK Jinbei Jet
 texture=JTA-Japan Transocean Air_SN JA05RK Jinbei Jet
@@ -2457,7 +2297,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.136]
+[fltsim.127]
 title=AIGAIM_Japan Transocean Air Boeing 737-800WL - SN JA06RK Sakura Jinbei
 model=JTA-Japan Transocean Air_SN JA06RK Sakura Jinbei
 texture=JTA-Japan Transocean Air_SN JA06RK Sakura Jinbei
@@ -2475,7 +2315,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTA
 
-[fltsim.137]
+[fltsim.128]
 title=AIGAIM_Pobeda Boeing 737-800WL - SN
 model=PBD-Pobeda_SN
 texture=PBD-Pobeda_SN
@@ -2493,7 +2333,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PBD
 
-[fltsim.138]
+[fltsim.129]
 title=AIGAIM_Caribbean Airlines Boeing 737-800WL - Albino
 model=BWA-Caribbean Airlines_Albino
 texture=BWA-Caribbean Airlines_Albino
@@ -2511,7 +2351,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BWA
 
-[fltsim.139]
+[fltsim.130]
 title=AIGAIM_Caribbean Airlines Boeing 737-800WL - Spirit of Guyana
 model=BWA-Caribbean Airlines_Spirit of Guyana
 texture=BWA-Caribbean Airlines_Spirit of Guyana
@@ -2529,7 +2369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BWA
 
-[fltsim.140]
+[fltsim.131]
 title=AIGAIM_Dalian Airlines Boeing 737-800WL - OC
 model=CCD-Dalian Airlines_OC
 texture=CCD-Dalian Airlines_OC
@@ -2547,7 +2387,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCD
 
-[fltsim.141]
+[fltsim.132]
 title=AIGAIM_Dalian Airlines Boeing 737-800WL - SN
 model=CCD-Dalian Airlines_SN
 texture=CCD-Dalian Airlines_SN
@@ -2565,7 +2405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCD
 
-[fltsim.142]
+[fltsim.133]
 title=AIGAIM_Spring Airlines Japan Boeing 737-800WL - SN
 model=SJO-Spring Airlines Japan_SN
 texture=SJO-Spring Airlines Japan_SN
@@ -2583,7 +2423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJO
 
-[fltsim.143]
+[fltsim.134]
 title=AIGAIM_Spring Airlines Japan Boeing 737-800WL - SN higher Subtitles LHS
 model=SJO-Spring Airlines Japan_SN higher Subtitles LHS
 texture=SJO-Spring Airlines Japan_SN higher Subtitles LHS
@@ -2601,7 +2441,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJO
 
-[fltsim.144]
+[fltsim.135]
 title=AIGAIM_Rossiya Airlines Boeing 737-800WL
 model=SDM-Rossiya Airlines
 texture=SDM-Rossiya Airlines
@@ -2619,7 +2459,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.145]
+[fltsim.136]
 title=AIGAIM_Rossiya Airlines Boeing 737-800WL - SN (TEMP)
 model=SDM-Rossiya Airlines_SN_temp
 texture=SDM-Rossiya Airlines_SN_temp
@@ -2637,7 +2477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.146]
+[fltsim.137]
 title=AIGAIM_Air Vanuatu Boeing 737-800WL - SN
 model=AVN-Air Vanuatu_SN
 texture=AVN-Air Vanuatu_SN
@@ -2655,7 +2495,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AVN
 
-[fltsim.147]
+[fltsim.138]
 title=AIGAIM_Travel Service Boeing 737-800WL - Moravian-Silesian Region
 model=TVS-Travel Service_Moravian-Silesian Region
 texture=TVS-Travel Service_Moravian-Silesian Region
@@ -2672,7 +2512,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.148]
+[fltsim.139]
 title=AIGAIM_Travel Service Boeing 737-800WL - Smartwings
 model=TVS-Travel Service_Smartwings
 texture=TVS-Travel Service_Smartwings
@@ -2689,7 +2529,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.149]
+[fltsim.140]
 title=AIGAIM_Travel Service Boeing 737-800WL - Smartwings (white)
 model=TVS-Travel Service_Smartwings (white)
 texture=TVS-Travel Service_Smartwings (white)
@@ -2706,7 +2546,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.150]
+[fltsim.141]
 title=AIGAIM_Travel Service Boeing 737-800WL - MIAT Mongolian Airlines Hybrid
 model=TVS-Travel Service_MIAT Mongolian Airlines Hybrid
 texture=TVS-Travel Service_MIAT Mongolian Airlines Hybrid
@@ -2724,7 +2564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.151]
+[fltsim.142]
 title=AIGAIM_Travel Service Boeing 737-800WL - Smartwings ex Eastern Hybrid
 model=TVS-Travel Service_Smartwings ex Eastern Hybrid
 texture=TVS-Travel Service_Smartwings ex Eastern Hybrid
@@ -2742,7 +2582,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.152]
+[fltsim.143]
 title=AIGAIM_Travel Service Boeing 737-800WL - Smartwings Swift Air Hybrid
 model=TVS-Travel Service_Smartwings Swift Air Hybrid
 texture=TVS-Travel Service_Smartwings Swift Air Hybrid
@@ -2760,7 +2600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.153]
+[fltsim.144]
 title=AIGAIM_Travel Service Boeing 737-800WL - SN
 model=TVS-Travel Service_SN
 texture=TVS-Travel Service_SN
@@ -2777,7 +2617,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVS
 
-[fltsim.154]
+[fltsim.145]
 title=AIGAIM_Kunming Airlines Boeing 737-800WL - SN
 model=KNA-Kunming Airlines_SN
 texture=KNA-Kunming Airlines_SN
@@ -2795,7 +2635,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.155]
+[fltsim.146]
 title=AIGAIM_Kunming Airlines Boeing 737-800WL - SN Dian Lake
 model=KNA-Kunming Airlines_SN Dian Lake
 texture=KNA-Kunming Airlines_SN Dian Lake
@@ -2813,7 +2653,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.156]
+[fltsim.147]
 title=AIGAIM_Kunming Airlines Boeing 737-800WL - SN Honghe Nativeland
 model=KNA-Kunming Airlines_SN Honghe Nativeland
 texture=KNA-Kunming Airlines_SN Honghe Nativeland
@@ -2831,7 +2671,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.157]
+[fltsim.148]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL
 model=CDG-Shandong Airlines
 texture=CDG-Shandong Airlines
@@ -2849,7 +2689,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.158]
+[fltsim.149]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - 3rd Asian Beach Games
 model=CDG-Shandong Airlines_3rd Asian Beach Games
 texture=CDG-Shandong Airlines_3rd Asian Beach Games
@@ -2867,7 +2707,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.159]
+[fltsim.150]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - Friendly Shandong Jinan
 model=CDG-Shandong Airlines_Friendly Shandong Jinan
 texture=CDG-Shandong Airlines_Friendly Shandong Jinan
@@ -2885,7 +2725,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.160]
+[fltsim.151]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - Xiamen
 model=CDG-Shandong Airlines_Xiamen
 texture=CDG-Shandong Airlines_Xiamen
@@ -2903,7 +2743,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.161]
+[fltsim.152]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - QQ.com
 model=CDG-Shandong Airlines_QQ.com
 texture=CDG-Shandong Airlines_QQ.com
@@ -2921,7 +2761,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.162]
+[fltsim.153]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN
 model=CDG-Shandong Airlines_SN
 texture=CDG-Shandong Airlines_SN
@@ -2939,7 +2779,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.163]
+[fltsim.154]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN 100th Boeing 737NG
 model=CDG-Shandong Airlines_SN 100th Boeing 737NG
 texture=CDG-Shandong Airlines_SN 100th Boeing 737NG
@@ -2957,7 +2797,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.164]
+[fltsim.155]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN 2014 Qingdao Expo B-5787
 model=CDG-Shandong Airlines_SN 2014 Qingdao Expo B-5787
 texture=CDG-Shandong Airlines_SN 2014 Qingdao Expo B-5787
@@ -2975,7 +2815,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.165]
+[fltsim.156]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN 2014 Qingdao Expo B-5856
 model=CDG-Shandong Airlines_SN 2014 Qingdao Expo B-5856
 texture=CDG-Shandong Airlines_SN 2014 Qingdao Expo B-5856
@@ -2993,7 +2833,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.166]
+[fltsim.157]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN China Arts Festival
 model=CDG-Shandong Airlines_SN China Arts Festival
 texture=CDG-Shandong Airlines_SN China Arts Festival
@@ -3011,7 +2851,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.167]
+[fltsim.158]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN DEEJ
 model=CDG-Shandong Airlines_SN DEEJ
 texture=CDG-Shandong Airlines_SN DEEJ
@@ -3029,7 +2869,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.168]
+[fltsim.159]
 title=AIGAIM_Shandong Airlines Boeing 737-800WL - SN Shandong-Jingzhi Wine
 model=CDG-Shandong Airlines_SN Shandong-Jingzhi Wine
 texture=CDG-Shandong Airlines_SN Shandong-Jingzhi Wine
@@ -3047,7 +2887,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.169]
+[fltsim.160]
 title=AIGAIM_Oman Air Boeing 737-800WL
 model=OMA-Oman Air
 texture=OMA-Oman Air
@@ -3065,7 +2905,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.170]
+[fltsim.161]
 title=AIGAIM_Oman Air Boeing 737-800WL - belly titles
 model=OMA-Oman Air_belly titles
 texture=OMA-Oman Air_belly titles
@@ -3083,7 +2923,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.171]
+[fltsim.162]
 title=AIGAIM_Oman Air Boeing 737-800WL - SN
 model=OMA-Oman Air_SN
 texture=OMA-Oman Air_SN
@@ -3101,7 +2941,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.172]
+[fltsim.163]
 title=AIGAIM_Oman Air Boeing 737-800WL - SN belly titles
 model=OMA-Oman Air_SN belly titles
 texture=OMA-Oman Air_SN belly titles
@@ -3119,7 +2959,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.173]
+[fltsim.164]
 title=AIGAIM_Air China Boeing 737-800WL
 model=CCA-Air China
 texture=CCA-Air China
@@ -3137,7 +2977,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.174]
+[fltsim.165]
 title=AIGAIM_Air China Boeing 737-800WL - No Flag
 model=CCA-Air China_No Flag
 texture=CCA-Air China_No Flag
@@ -3155,7 +2995,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.175]
+[fltsim.166]
 title=AIGAIM_Air China Boeing 737-800WL - Expo 2019 B-5425
 model=CCA-Air China_Expo 2019 B-5425
 texture=CCA-Air China_Expo 2019 B-5425
@@ -3173,7 +3013,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.176]
+[fltsim.167]
 title=AIGAIM_Air China Boeing 737-800WL - Expo 2019 B-5497
 model=CCA-Air China_Expo 2019 B-5497
 texture=CCA-Air China_Expo 2019 B-5497
@@ -3191,7 +3031,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.177]
+[fltsim.168]
 title=AIGAIM_Air China Boeing 737-800WL - Golden Peony
 model=CCA-Air China_Golden Peony
 texture=CCA-Air China_Golden Peony
@@ -3209,7 +3049,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.178]
+[fltsim.169]
 title=AIGAIM_Air China Boeing 737-800WL - Phoenix
 model=CCA-Air China_Phoenix
 texture=CCA-Air China_Phoenix
@@ -3227,7 +3067,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.179]
+[fltsim.170]
 title=AIGAIM_Air China Boeing 737-800WL - Yellow Peony
 model=CCA-Air China_Yellow Peony
 texture=CCA-Air China_Yellow Peony
@@ -3245,7 +3085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.180]
+[fltsim.171]
 title=AIGAIM_Air China Boeing 737-800WL - SN
 model=CCA-Air China_SN
 texture=CCA-Air China_SN
@@ -3262,7 +3102,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.181]
+[fltsim.172]
 title=AIGAIM_Air China Boeing 737-800WL - SN No Flag
 model=CCA-Air China_SN No Flag
 texture=CCA-Air China_SN No Flag
@@ -3280,7 +3120,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.182]
+[fltsim.173]
 title=AIGAIM_Air China Boeing 737-800WL - SN Inner Mongolia
 model=CCA-Air China_SN Inner Mongolia
 texture=CCA-Air China_SN Inner Mongolia
@@ -3298,7 +3138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCA
 
-[fltsim.183]
+[fltsim.174]
 title=AIGAIM_Serene Air Boeing 737-800WL
 model=SEP-Serene Air
 texture=SEP-Serene Air
@@ -3316,7 +3156,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEP
 
-[fltsim.184]
+[fltsim.175]
 title=AIGAIM_Serene Air Boeing 737-800WL - SN
 model=SEP-Serene Air_SN
 texture=SEP-Serene Air_SN
@@ -3334,7 +3174,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEP
 
-[fltsim.185]
+[fltsim.176]
 title=AIGAIM_Samoa Airways Boeing 737-800WL - opb Neos (TEMP)
 model=PAO-Samoa Airways_opb Neos_temp
 texture=PAO-Samoa Airways_opb Neos_temp
@@ -3351,7 +3191,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAO
 
-[fltsim.186]
+[fltsim.177]
 title=AIGAIM_NordStar Boeing 737-800WL
 model=TYA-NordStar
 texture=TYA-NordStar
@@ -3369,7 +3209,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TYA
 
-[fltsim.187]
+[fltsim.178]
 title=AIGAIM_NordStar Boeing 737-800WL - Winter Universiade 2019
 model=TYA-NordStar_Winter Universiade 2019
 texture=TYA-NordStar_Winter Universiade 2019
@@ -3387,7 +3227,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TYA
 
-[fltsim.188]
+[fltsim.179]
 title=AIGAIM_Travel Service Hungary Boeing 737-800WL - Eyebrows
 model=TVL-Travel Service Hungary_Eyebrows
 texture=TVL-Travel Service Hungary_Eyebrows
@@ -3404,7 +3244,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVL
 
-[fltsim.189]
+[fltsim.180]
 title=AIGAIM_Travel Service Hungary Boeing 737-800WL - Smartwings
 model=TVL-Travel Service Hungary_Smartwings
 texture=TVL-Travel Service Hungary_Smartwings
@@ -3421,7 +3261,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVL
 
-[fltsim.190]
+[fltsim.181]
 title=AIGAIM_Travel Service Poland Boeing 737-800WL - Smartwings
 model=TVP-Travel Service Poland_Smartwings
 texture=TVP-Travel Service Poland_Smartwings
@@ -3439,7 +3279,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVP
 
-[fltsim.191]
+[fltsim.182]
 title=AIGAIM_Travel Service Poland Boeing 737-800WL - Smartwings OK-Reg
 model=TVP-Travel Service Poland_Smartwings OK-Reg
 texture=TVP-Travel Service Poland_Smartwings OK-Reg
@@ -3456,7 +3296,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVP
 
-[fltsim.192]
+[fltsim.183]
 title=AIGAIM_Travel Service Poland Boeing 737-800WL - Travel Service OK-Reg
 model=TVP-Travel Service Poland_Travel Service OK-Reg
 texture=TVP-Travel Service Poland_Travel Service OK-Reg
@@ -3473,7 +3313,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVP
 
-[fltsim.193]
+[fltsim.184]
 title=AIGAIM_Travel Service Slovakia Boeing 737-800WL - Smartwings
 model=TVQ-Travel Service Slovakia_Smartwings
 texture=TVQ-Travel Service Slovakia_Smartwings
@@ -3491,7 +3331,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVQ
 
-[fltsim.194]
+[fltsim.185]
 title=AIGAIM_Travel Service Slovakia Boeing 737-800WL - opb AirExplore Albino
 model=TVQ-Travel Service Slovakia_opb AirExplore Albino
 texture=TVQ-Travel Service Slovakia_opb AirExplore Albino
@@ -3509,7 +3349,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVQ
 
-[fltsim.195]
+[fltsim.186]
 title=AIGAIM_Travel Service Slovakia Boeing 737-800WL - opb Go2Sky Albino
 model=TVQ-Travel Service Slovakia_opb Go2Sky Albino
 texture=TVQ-Travel Service Slovakia_opb Go2Sky Albino
@@ -3527,7 +3367,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVQ
 
-[fltsim.196]
+[fltsim.187]
 title=AIGAIM_Travel Service Slovakia Boeing 737-800WL - opb Go2Sky Hybrid
 model=TVQ-Travel Service Slovakia_opb Go2Sky Hybrid
 texture=TVQ-Travel Service Slovakia_opb Go2Sky Hybrid
@@ -3545,7 +3385,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVQ
 
-[fltsim.197]
+[fltsim.188]
 title=AIGAIM_Travel Service Slovakia Boeing 737-800WL - SN Travel Service OK-Reg
 model=TVQ-Travel Service Slovakia_SN Travel Service OK-Reg
 texture=TVQ-Travel Service Slovakia_SN Travel Service OK-Reg
@@ -3562,7 +3402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVQ
 
-[fltsim.198]
+[fltsim.189]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXJ
 model=AXB-Air India Express_VT-AXJ
 texture=AXB-Air India Express_VT-AXJ
@@ -3580,7 +3420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.199]
+[fltsim.190]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXM
 model=AXB-Air India Express_VT-AXM
 texture=AXB-Air India Express_VT-AXM
@@ -3598,7 +3438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.200]
+[fltsim.191]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXN
 model=AXB-Air India Express_VT-AXN
 texture=AXB-Air India Express_VT-AXN
@@ -3616,7 +3456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.201]
+[fltsim.192]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXP
 model=AXB-Air India Express_VT-AXP
 texture=AXB-Air India Express_VT-AXP
@@ -3634,7 +3474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.202]
+[fltsim.193]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXQ
 model=AXB-Air India Express_VT-AXQ
 texture=AXB-Air India Express_VT-AXQ
@@ -3652,7 +3492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.203]
+[fltsim.194]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXR
 model=AXB-Air India Express_VT-AXR
 texture=AXB-Air India Express_VT-AXR
@@ -3670,7 +3510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.204]
+[fltsim.195]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXT
 model=AXB-Air India Express_VT-AXT
 texture=AXB-Air India Express_VT-AXT
@@ -3688,7 +3528,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.205]
+[fltsim.196]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXU
 model=AXB-Air India Express_VT-AXU
 texture=AXB-Air India Express_VT-AXU
@@ -3706,7 +3546,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.206]
+[fltsim.197]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXW
 model=AXB-Air India Express_VT-AXW
 texture=AXB-Air India Express_VT-AXW
@@ -3724,7 +3564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.207]
+[fltsim.198]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXX
 model=AXB-Air India Express_VT-AXX
 texture=AXB-Air India Express_VT-AXX
@@ -3742,7 +3582,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.208]
+[fltsim.199]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXZ
 model=AXB-Air India Express_VT-AXZ
 texture=AXB-Air India Express_VT-AXZ
@@ -3760,7 +3600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.209]
+[fltsim.200]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AYB
 model=AXB-Air India Express_VT-AYB
 texture=AXB-Air India Express_VT-AYB
@@ -3778,7 +3618,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.210]
+[fltsim.201]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AYC
 model=AXB-Air India Express_VT-AYC
 texture=AXB-Air India Express_VT-AYC
@@ -3796,7 +3636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.211]
+[fltsim.202]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AYD
 model=AXB-Air India Express_VT-AYD
 texture=AXB-Air India Express_VT-AYD
@@ -3814,7 +3654,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.212]
+[fltsim.203]
 title=AIGAIM_UTair Boeing 737-800WL
 model=UTA-UTair
 texture=UTA-UTair
@@ -3831,7 +3671,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
 
-[fltsim.213]
+[fltsim.204]
 title=AIGAIM_UTair Boeing 737-800WL - named
 model=UTA-UTair_named
 texture=UTA-UTair_named
@@ -3848,7 +3688,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
 
-[fltsim.214]
+[fltsim.205]
 title=AIGAIM_UTair Boeing 737-800WL - OC named
 model=UTA-UTair_OC named
 texture=UTA-UTair_OC named
@@ -3866,7 +3706,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
 
-[fltsim.215]
+[fltsim.206]
 title=AIGAIM_Shenzhen Airlines Boeing 737-800WL
 model=CSZ-Shenzhen Airlines
 texture=CSZ-Shenzhen Airlines
@@ -3884,7 +3724,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.216]
+[fltsim.207]
 title=AIGAIM_Shenzhen Airlines Boeing 737-800WL - Eyebrows
 model=CSZ-Shenzhen Airlines_Eyebrows
 texture=CSZ-Shenzhen Airlines_Eyebrows
@@ -3902,7 +3742,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.217]
+[fltsim.208]
 title=AIGAIM_Shenzhen Airlines Boeing 737-800WL - Universiade Shenzhen 2011
 model=CSZ-Shenzhen Airlines_Universiade Shenzhen 2011
 texture=CSZ-Shenzhen Airlines_Universiade Shenzhen 2011
@@ -3920,7 +3760,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.218]
+[fltsim.209]
 title=AIGAIM_Shenzhen Airlines Boeing 737-800WL - SN
 model=CSZ-Shenzhen Airlines_SN
 texture=CSZ-Shenzhen Airlines_SN
@@ -3938,7 +3778,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.219]
+[fltsim.210]
 title=AIGAIM_West Atlantic UK Boeing 737-800WL - BCF 1st -800BCF
 model=NPT-West Atlantic UK_BCF 1st -800BCF
 texture=NPT-West Atlantic UK_BCF 1st -800BCF
@@ -3956,7 +3796,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.220]
+[fltsim.211]
 title=AIGAIM_WestJet Boeing 737-800WL - OC Old Logo
 model=WJA-WestJet_OC Old Logo
 texture=WJA-WestJet_OC Old Logo
@@ -3973,7 +3813,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.221]
+[fltsim.212]
 title=AIGAIM_WestJet Boeing 737-800WL - SN OC
 model=WJA-WestJet_SN OC
 texture=WJA-WestJet_SN OC
@@ -3990,7 +3830,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.222]
+[fltsim.213]
 title=AIGAIM_Air Europa Boeing 737-800WL - OC
 model=AEA-Air Europa_OC
 texture=AEA-Air Europa_OC
@@ -4008,7 +3848,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.223]
+[fltsim.214]
 title=AIGAIM_Air Europa Boeing 737-800WL - OC El Mundo
 model=AEA-Air Europa_OC El Mundo
 texture=AEA-Air Europa_OC El Mundo
@@ -4026,7 +3866,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.224]
+[fltsim.215]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN
 model=AEA-Air Europa_SN
 texture=AEA-Air Europa_SN
@@ -4044,7 +3884,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.225]
+[fltsim.216]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN WiFi Dome
 model=AEA-Air Europa_SN WiFi Dome
 texture=AEA-Air Europa_SN WiFi Dome
@@ -4062,7 +3902,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.226]
+[fltsim.217]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN Express WiFi Dome
 model=AEA-Air Europa_SN Express WiFi Dome
 texture=AEA-Air Europa_SN Express WiFi Dome
@@ -4080,7 +3920,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.227]
+[fltsim.218]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN Skyteam
 model=AEA-Air Europa_SN Skyteam
 texture=AEA-Air Europa_SN Skyteam
@@ -4098,7 +3938,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.228]
+[fltsim.219]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN 30 Anos
 model=AEA-Air Europa_SN 30 Anos
 texture=AEA-Air Europa_SN 30 Anos
@@ -4116,7 +3956,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.229]
+[fltsim.220]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN Panama (TEMP)
 model=AEA-Air Europa_SN Panama_temp
 texture=AEA-Air Europa_SN Panama_temp
@@ -4134,7 +3974,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.230]
+[fltsim.221]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN OC
 model=AEA-Air Europa_SN OC
 texture=AEA-Air Europa_SN OC
@@ -4152,7 +3992,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.231]
+[fltsim.222]
 title=AIGAIM_Air Europa Boeing 737-800WL - SN OC VISA
 model=AEA-Air Europa_SN OC VISA
 texture=AEA-Air Europa_SN OC VISA
@@ -4170,7 +4010,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AEA
 
-[fltsim.232]
+[fltsim.223]
 title=AIGAIM_Air Niugini Boeing 737-800WL
 model=ANG-Air Niugini
 texture=ANG-Air Niugini
@@ -4187,7 +4027,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANG
 
-[fltsim.233]
+[fltsim.224]
 title=AIGAIM_Air Transat Boeing 737-800WL - OC
 model=TSC-Air Transat_OC
 texture=TSC-Air Transat_OC
@@ -4204,7 +4044,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.234]
+[fltsim.225]
 title=AIGAIM_Air Transat Boeing 737-800WL - Smartwings WL (TEMP)
 model=TSC-Air Transat_Smartwings WL_temp
 texture=TSC-Air Transat_Smartwings WL_temp
@@ -4221,7 +4061,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.235]
+[fltsim.226]
 title=AIGAIM_Air Transat Boeing 737-800WL - Smartwings Hybrid
 model=TSC-Air Transat_Smartwings Hybrid
 texture=TSC-Air Transat_Smartwings Hybrid
@@ -4238,7 +4078,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.236]
+[fltsim.227]
 title=AIGAIM_Albastar Boeing 737-800WL
 model=LAV-Albastar
 texture=LAV-Albastar
@@ -4255,7 +4095,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
 
-[fltsim.237]
+[fltsim.228]
 title=AIGAIM_Albastar Boeing 737-800WL - EDEN
 model=LAV-Albastar_EDEN
 texture=LAV-Albastar_EDEN
@@ -4272,7 +4112,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
 
-[fltsim.238]
+[fltsim.229]
 title=AIGAIM_Albastar Boeing 737-800WL - EI-Reg
 model=LAV-Albastar_EI-Reg
 texture=LAV-Albastar_EI-Reg
@@ -4289,7 +4129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAV
 
-[fltsim.239]
+[fltsim.230]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL
 model=ANA-All Nippon Airways
 texture=ANA-All Nippon Airways
@@ -4307,7 +4147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.240]
+[fltsim.231]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL - Star Alliance
 model=ANA-All Nippon Airways_Star Alliance
 texture=ANA-All Nippon Airways_Star Alliance
@@ -4325,7 +4165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.241]
+[fltsim.232]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL - Toyama
 model=ANA-All Nippon Airways_Toyama
 texture=ANA-All Nippon Airways_Toyama
@@ -4343,7 +4183,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.242]
+[fltsim.233]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL - SN
 model=ANA-All Nippon Airways_SN
 texture=ANA-All Nippon Airways_SN
@@ -4361,7 +4201,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.243]
+[fltsim.234]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL - SN 737 Titles
 model=ANA-All Nippon Airways_SN 737 Titles
 texture=ANA-All Nippon Airways_SN 737 Titles
@@ -4379,7 +4219,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.244]
+[fltsim.235]
 title=AIGAIM_All Nippon Airways Boeing 737-800WL - SN Tohoku Flower
 model=ANA-All Nippon Airways_SN Tohoku Flower
 texture=ANA-All Nippon Airways_SN Tohoku Flower
@@ -4397,7 +4237,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.245]
+[fltsim.236]
 title=AIGAIM_Amazon Prime Air Boeing 737-800WL - BCF opb Sun Country Airlines
 model=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines
 texture=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines
@@ -4415,7 +4255,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.246]
+[fltsim.237]
 title=AIGAIM_Amazon Prime Air Boeing 737-800WL - BCF opb Sun Country Airlines Aurora
 model=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines Aurora
 texture=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines Aurora
@@ -4433,7 +4273,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.247]
+[fltsim.238]
 title=AIGAIM_Amazon Prime Air Boeing 737-800WL - BCF opb Sun Country Airlines Bias for Altitude
 model=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines Bias for Altitude
 texture=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines Bias for Altitude
@@ -4451,7 +4291,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.248]
+[fltsim.239]
 title=AIGAIM_Amazon Prime Air Boeing 737-800WL - BCF opb Atlas Air
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air
@@ -4469,7 +4309,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.249]
+[fltsim.240]
 title=AIGAIM_AMC Aviation Poland Boeing 737-800WL - opb BPA 9H-FRA
 model=AMQ-AMC Aviation Poland_opb BPA 9H-FRA
 texture=AMQ-AMC Aviation Poland_opb BPA 9H-FRA
@@ -4487,7 +4327,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMQ
 
-[fltsim.250]
+[fltsim.241]
 title=AIGAIM_AMC Aviation Poland Boeing 737-800WL - opb BPA EI-GIM
 model=AMQ-AMC Aviation Poland_opb BPA EI-GIM
 texture=AMQ-AMC Aviation Poland_opb BPA EI-GIM
@@ -4505,7 +4345,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMQ
 
-[fltsim.251]
+[fltsim.242]
 title=AIGAIM_American Airlines Boeing 737-800WL
 model=AAL-American Airlines
 texture=AAL-American Airlines
@@ -4523,7 +4363,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.252]
+[fltsim.243]
 title=AIGAIM_American Airlines Boeing 737-800WL - Oneworld
 model=AAL-American Airlines_Oneworld
 texture=AAL-American Airlines_Oneworld
@@ -4541,7 +4381,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.253]
+[fltsim.244]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN
 model=AAL-American Airlines_SN
 texture=AAL-American Airlines_SN
@@ -4559,7 +4399,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.254]
+[fltsim.245]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Red WL Tip
 model=AAL-American Airlines_SN Red WL Tip
 texture=AAL-American Airlines_SN Red WL Tip
@@ -4577,7 +4417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.255]
+[fltsim.246]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Oneworld
 model=AAL-American Airlines_SN Oneworld
 texture=AAL-American Airlines_SN Oneworld
@@ -4595,7 +4435,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.256]
+[fltsim.247]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Astrojet
 model=AAL-American Airlines_SN Astrojet
 texture=AAL-American Airlines_SN Astrojet
@@ -4613,7 +4453,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.257]
+[fltsim.248]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Heritage American
 model=AAL-American Airlines_SN Heritage American
 texture=AAL-American Airlines_SN Heritage American
@@ -4631,7 +4471,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.258]
+[fltsim.249]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Heritage TWA
 model=AAL-American Airlines_SN Heritage TWA
 texture=AAL-American Airlines_SN Heritage TWA
@@ -4649,7 +4489,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.259]
+[fltsim.250]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Heritage Reno Air
 model=AAL-American Airlines_SN Heritage Reno Air
 texture=AAL-American Airlines_SN Heritage Reno Air
@@ -4667,7 +4507,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.260]
+[fltsim.251]
 title=AIGAIM_American Airlines Boeing 737-800WL - SN Heritage Air Cal
 model=AAL-American Airlines_SN Heritage Air Cal
 texture=AAL-American Airlines_SN Heritage Air Cal
@@ -4685,7 +4525,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAL
 
-[fltsim.261]
+[fltsim.252]
 title=AIGAIM_Arik Air Boeing 737-800WL
 model=ARA-Arik Air
 texture=ARA-Arik Air
@@ -4703,7 +4543,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARA
 
-[fltsim.262]
+[fltsim.253]
 title=AIGAIM_ASKY Airlines Boeing 737-800WL
 model=SKK-ASKY Airlines
 texture=SKK-ASKY Airlines
@@ -4721,7 +4561,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKK
 
-[fltsim.263]
+[fltsim.254]
 title=AIGAIM_ASKY Airlines Boeing 737-800WL - SN
 model=SKK-ASKY Airlines_SN
 texture=SKK-ASKY Airlines_SN
@@ -4739,7 +4579,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKK
 
-[fltsim.264]
+[fltsim.255]
 title=AIGAIM_ASL Airlines France Boeing 737-800WL - BCF
 model=FPO-ASL Airlines France_BCF
 texture=FPO-ASL Airlines France_BCF
@@ -4757,7 +4597,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.265]
+[fltsim.256]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-800WL - BCF opf Amazon Prime
 model=ABR-ASL Airlines Ireland_BCF opf Amazon Prime
 texture=ABR-ASL Airlines Ireland_BCF opf Amazon Prime
@@ -4775,7 +4615,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.266]
+[fltsim.257]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-800WL - BCF opf Amazon Prime 'Ode to Fly'
 model=ABR-ASL Airlines Ireland_BCF opf Amazon Prime 'Ode to Fly'
 texture=ABR-ASL Airlines Ireland_BCF opf Amazon Prime 'Ode to Fly'
@@ -4793,7 +4633,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.267]
+[fltsim.258]
 title=AIGAIM_ATRAN Boeing 737-800WL - BCF
 model=VAS-ATRAN_BCF
 texture=VAS-ATRAN_BCF
@@ -4811,7 +4651,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VAS
 
-[fltsim.268]
+[fltsim.259]
 title=AIGAIM_Turkish Airlines Boeing 737-800WL - SN
 model=THY-Turkish Airlines_SN
 texture=THY-Turkish Airlines_SN
@@ -4829,7 +4669,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.269]
+[fltsim.260]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-800WL - BCF
 model=TAY-ASL Airlines Belgium_BCF
 texture=TAY-ASL Airlines Belgium_BCF
@@ -4847,7 +4687,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.270]
+[fltsim.261]
 title=AIGAIM_iAero Airways Cargo Boeing 737-800WL - BDSF DHL
 model=SWQ-iAero Airways Cargo_BDSF DHL
 texture=SWQ-iAero Airways Cargo_BDSF DHL
@@ -4865,7 +4705,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.271]
+[fltsim.262]
 title=AIGAIM_iAero Airways Cargo Boeing 737-800WL - BDSF DHL blue winglet
 model=SWQ-iAero Airways Cargo_BDSF DHL blue winglet
 texture=SWQ-iAero Airways Cargo_BDSF DHL blue winglet
@@ -4883,7 +4723,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.272]
+[fltsim.263]
 title=AIGAIM_Flair Airlines Boeing 737-800WL
 model=FLE-Flair Airlines
 texture=FLE-Flair Airlines
@@ -4900,7 +4740,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FLE
 
-[fltsim.273]
+[fltsim.264]
 title=AIGAIM_Flair Airlines Boeing 737-800WL - Bill Hardy
 model=FLE-Flair Airlines_Bill Hardy
 texture=FLE-Flair Airlines_Bill Hardy
@@ -4917,7 +4757,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FLE
 
-[fltsim.274]
+[fltsim.265]
 title=AIGAIM_Flair Airlines Boeing 737-800WL - Jim Rogers
 model=FLE-Flair Airlines_Jim Rogers
 texture=FLE-Flair Airlines_Jim Rogers
@@ -4934,7 +4774,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FLE
 
-[fltsim.275]
+[fltsim.266]
 title=AIGAIM_Air Cairo Boeing 737-800WL - opb AMC Airlines
 model=MSC-Air Cairo_opb AMC Airlines
 texture=MSC-Air Cairo_opb AMC Airlines
@@ -4952,7 +4792,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSC
 
-[fltsim.276]
+[fltsim.267]
 title=AIGAIM_Virgin Australia Boeing 737-800WL
 model=VOZ-Virgin Australia
 texture=VOZ-Virgin Australia
@@ -4970,7 +4810,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.277]
+[fltsim.268]
 title=AIGAIM_Virgin Australia Boeing 737-800WL - WiFi dome
 model=VOZ-Virgin Australia_WiFi dome
 texture=VOZ-Virgin Australia_WiFi dome
@@ -4988,7 +4828,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.278]
+[fltsim.269]
 title=AIGAIM_Virgin Australia Boeing 737-800WL - SN WiFi dome
 model=VOZ-Virgin Australia_SN WiFi dome
 texture=VOZ-Virgin Australia_SN WiFi dome
@@ -5006,7 +4846,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.279]
+[fltsim.270]
 title=AIGAIM_Volotea Boeing 737-800WL - opb LAV
 model=VOE-Volotea_opb LAV
 texture=VOE-Volotea_opb LAV
@@ -5023,7 +4863,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.280]
+[fltsim.271]
 title=AIGAIM_Bees Airline Boeing 737-800WL
 model=UBE-Bees Airline
 texture=UBE-Bees Airline
@@ -5041,7 +4881,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBE
 
-[fltsim.281]
+[fltsim.272]
 title=AIGAIM_Belavia Boeing 737-800WL
 model=BRU-Belavia
 texture=BRU-Belavia
@@ -5056,7 +4896,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.282]
+[fltsim.273]
 title=AIGAIM_Belavia Boeing 737-800WL - SN
 model=BRU-Belavia_SN
 texture=BRU-Belavia_SN
@@ -5071,7 +4911,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.283]
+[fltsim.274]
 title=AIGAIM_Belavia Boeing 737-800WL - OC
 model=BRU-Belavia_OC
 texture=BRU-Belavia_OC
@@ -5086,7 +4926,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.284]
+[fltsim.275]
 title=AIGAIM_Biman Bangladesh Airlines Boeing 737-800WL - Eyebrows
 model=BBC-Biman Bangladesh Airlines_Eyebrows
 texture=BBC-Biman Bangladesh Airlines_Eyebrows
@@ -5104,7 +4944,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBC
 
-[fltsim.285]
+[fltsim.276]
 title=AIGAIM_Biman Bangladesh Airlines Boeing 737-800WL - SN
 model=BBC-Biman Bangladesh Airlines_SN
 texture=BBC-Biman Bangladesh Airlines_SN
@@ -5122,7 +4962,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBC
 
-[fltsim.286]
+[fltsim.277]
 title=AIGAIM_Blue Air Boeing 737-800WL - OC
 model=BLA-Blue Air_OC
 texture=BLA-Blue Air_OC
@@ -5140,7 +4980,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
 
-[fltsim.287]
+[fltsim.278]
 title=AIGAIM_Blue Air Boeing 737-800WL - OC eyebrows
 model=BLA-Blue Air_OC eyebrows
 texture=BLA-Blue Air_OC eyebrows
@@ -5158,7 +4998,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BLA
 
-[fltsim.288]
+[fltsim.279]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-800WL - citta di Bergamo
 model=BPA-Blue Panorama Airlines_citta di Bergamo
 texture=BPA-Blue Panorama Airlines_citta di Bergamo
@@ -5176,7 +5016,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.289]
+[fltsim.280]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-800WL - citta di Pisa
 model=BPA-Blue Panorama Airlines_citta di Pisa
 texture=BPA-Blue Panorama Airlines_citta di Pisa
@@ -5194,7 +5034,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.290]
+[fltsim.281]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-800WL - citta di Genova
 model=BPA-Blue Panorama Airlines_citta di Genova
 texture=BPA-Blue Panorama Airlines_citta di Genova
@@ -5212,7 +5052,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.291]
+[fltsim.282]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-800WL - citta di Torino
 model=BPA-Blue Panorama Airlines_citta di Torino
 texture=BPA-Blue Panorama Airlines_citta di Torino
@@ -5230,7 +5070,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.292]
+[fltsim.283]
 title=AIGAIM_Blue Panorama Airlines Boeing 737-800WL - citta di Bologna
 model=BPA-Blue Panorama Airlines_citta di Bologna
 texture=BPA-Blue Panorama Airlines_citta di Bologna
@@ -5248,7 +5088,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.293]
+[fltsim.284]
 title=AIGAIM_Buraq Air Boeing 737-800WL
 model=BRQ-Buraq Air
 texture=BRQ-Buraq Air
@@ -5266,7 +5106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRQ
 
-[fltsim.294]
+[fltsim.285]
 title=AIGAIM_Buzz Boeing 737-800WL - SN RYR
 model=RYS-Buzz_SN RYR
 texture=RYS-Buzz_SN RYR
@@ -5284,7 +5124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYS
 
-[fltsim.295]
+[fltsim.286]
 title=AIGAIM_Buzz Boeing 737-800WL - SN RYR OC
 model=RYS-Buzz_SN RYR OC
 texture=RYS-Buzz_SN RYR OC
@@ -5302,7 +5142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYS
 
-[fltsim.296]
+[fltsim.287]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL
 model=GLO-GOL Transportes Aereos
 texture=GLO-GOL Transportes Aereos
@@ -5320,7 +5160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.297]
+[fltsim.288]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - IC
 model=GLO-GOL Transportes Aereos_IC
 texture=GLO-GOL Transportes Aereos_IC
@@ -5338,7 +5178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.298]
+[fltsim.289]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - IC Webtitles
 model=GLO-GOL Transportes Aereos_IC Webtitles
 texture=GLO-GOL Transportes Aereos_IC Webtitles
@@ -5356,7 +5196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.299]
+[fltsim.290]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - IC Voa Canarinho
 model=GLO-GOL Transportes Aereos_IC Voa Canarinho
 texture=GLO-GOL Transportes Aereos_IC Voa Canarinho
@@ -5374,7 +5214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.300]
+[fltsim.291]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - IC TV ao vivo bordo
 model=GLO-GOL Transportes Aereos_IC TV ao vivo bordo
 texture=GLO-GOL Transportes Aereos_IC TV ao vivo bordo
@@ -5392,7 +5232,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.301]
+[fltsim.292]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - OC GOL+
 model=GLO-GOL Transportes Aereos_OC GOL+
 texture=GLO-GOL Transportes Aereos_OC GOL+
@@ -5410,7 +5250,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.302]
+[fltsim.293]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - SN
 model=GLO-GOL Transportes Aereos_SN
 texture=GLO-GOL Transportes Aereos_SN
@@ -5428,7 +5268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.303]
+[fltsim.294]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - SN IC
 model=GLO-GOL Transportes Aereos_SN IC
 texture=GLO-GOL Transportes Aereos_SN IC
@@ -5446,7 +5286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.304]
+[fltsim.295]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - SN IC Webtitles
 model=GLO-GOL Transportes Aereos_SN IC Webtitles
 texture=GLO-GOL Transportes Aereos_SN IC Webtitles
@@ -5464,7 +5304,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.305]
+[fltsim.296]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - SN IC Selecao
 model=GLO-GOL Transportes Aereos_SN IC Selecao
 texture=GLO-GOL Transportes Aereos_SN IC Selecao
@@ -5482,7 +5322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.306]
+[fltsim.297]
 title=AIGAIM_GOL Transportes Aereos Boeing 737-800WL - SN OC GOL+
 model=GLO-GOL Transportes Aereos_SN OC GOL+
 texture=GLO-GOL Transportes Aereos_SN OC GOL+
@@ -5500,7 +5340,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GLO
 
-[fltsim.307]
+[fltsim.298]
 title=AIGAIM_Divi Divi Air Boeing 737-800WL - SN Corendon Dutch Hybrid (TEMP)
 model=DVR-Divi Divi Air_SN Corendon Dutch Hybrid_temp
 texture=DVR-Divi Divi Air_SN Corendon Dutch Hybrid_temp
@@ -5518,7 +5358,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DVR
 
-[fltsim.308]
+[fltsim.299]
 title=AIGAIM_Okay Airways Boeing 737-800WL
 model=OKA-Okay Airways
 texture=OKA-Okay Airways
@@ -5536,7 +5376,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OKA
 
-[fltsim.309]
+[fltsim.300]
 title=AIGAIM_Okay Airways Boeing 737-800WL - SN
 model=OKA-Okay Airways_SN
 texture=OKA-Okay Airways_SN
@@ -5554,7 +5394,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OKA
 
-[fltsim.310]
+[fltsim.301]
 title=AIGAIM_Okay Airways Boeing 737-800WL - SN 9999th Boeing 737
 model=OKA-Okay Airways_SN 9999th Boeing 737
 texture=OKA-Okay Airways_SN 9999th Boeing 737
@@ -5572,7 +5412,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OKA
 
-[fltsim.311]
+[fltsim.302]
 title=AIGAIM_Mandarin Airlines Boeing 737-800WL - SN Taichung
 model=MDA-Mandarin Airlines_SN Taichung
 texture=MDA-Mandarin Airlines_SN Taichung
@@ -5590,7 +5430,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MDA
 
-[fltsim.312]
+[fltsim.303]
 title=AIGAIM_Cayman Airways Boeing 737 MAX 8 (TEMP)
 model=CAY-Cayman Airways_temp
 texture=CAY-Cayman Airways_temp
@@ -5608,7 +5448,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAY
 
-[fltsim.313]
+[fltsim.304]
 title=AIGAIM_Flybondi Boeing 737-800WL
 model=FBZ-Flybondi
 texture=FBZ-Flybondi
@@ -5626,7 +5466,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBZ
 
-[fltsim.314]
+[fltsim.305]
 title=AIGAIM_China Airlines Boeing 737-800WL - Eyebrows
 model=CAL-China Airlines_Eyebrows
 texture=CAL-China Airlines_Eyebrows
@@ -5644,7 +5484,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.315]
+[fltsim.306]
 title=AIGAIM_China Airlines Boeing 737-800WL - SN
 model=CAL-China Airlines_SN
 texture=CAL-China Airlines_SN
@@ -5662,7 +5502,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.316]
+[fltsim.307]
 title=AIGAIM_China Airlines Boeing 737-800WL - SN Buddy Bears
 model=CAL-China Airlines_SN Buddy Bears
 texture=CAL-China Airlines_SN Buddy Bears
@@ -5680,7 +5520,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.317]
+[fltsim.308]
 title=AIGAIM_Ceiba Intercontinental Boeing 737-800WL
 model=CEL-Ceiba Intercontinental
 texture=CEL-Ceiba Intercontinental
@@ -5698,7 +5538,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEL
 
-[fltsim.318]
+[fltsim.309]
 title=AIGAIM_Ceiba Intercontinental Boeing 737-800WL - lsf White Airways
 model=CEL-Ceiba Intercontinental_lsf White Airways
 texture=CEL-Ceiba Intercontinental_lsf White Airways
@@ -5716,7 +5556,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEL
 
-[fltsim.319]
+[fltsim.310]
 title=AIGAIM_CHair Airlines Boeing 737-800WL - Enter Air Hybrid (TEMP)
 model=GSW-CHair Airlines_Enter Air Hybrid_temp
 texture=GSW-CHair Airlines_Enter Air Hybrid_temp
@@ -5734,7 +5574,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GSW
 
-[fltsim.320]
+[fltsim.311]
 title=AIGAIM_Comair Boeing 737-800WL - opf British Airways
 model=CAW-Comair_opf British Airways
 texture=CAW-Comair_opf British Airways
@@ -5751,7 +5591,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.321]
+[fltsim.312]
 title=AIGAIM_Copa Airlines Boeing 737-800WL
 model=CMP-Copa Airlines
 texture=CMP-Copa Airlines
@@ -5769,7 +5609,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
-[fltsim.322]
+[fltsim.313]
 title=AIGAIM_Corendon Airlines Boeing 737-800WL
 model=CAI-Corendon Airlines
 texture=CAI-Corendon Airlines
@@ -5787,7 +5627,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.323]
+[fltsim.314]
 title=AIGAIM_Corendon Airlines Boeing 737-800WL - Detur
 model=CAI-Corendon Airlines_Detur
 texture=CAI-Corendon Airlines_Detur
@@ -5805,7 +5645,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.324]
+[fltsim.315]
 title=AIGAIM_Corendon Airlines Boeing 737-800WL - OC (TEMP)
 model=CAI-Corendon Airlines_OC_temp
 texture=CAI-Corendon Airlines_OC_temp
@@ -5822,7 +5662,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.325]
+[fltsim.316]
 title=AIGAIM_Corendon Airlines Boeing 737-800WL - opb AirExplore all white
 model=CAI-Corendon Airlines_opb AirExplore all white
 texture=CAI-Corendon Airlines_opb AirExplore all white
@@ -5840,7 +5680,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.326]
+[fltsim.317]
 title=AIGAIM_Corendon Airlines Boeing 737-800WL - SN
 model=CAI-Corendon Airlines_SN
 texture=CAI-Corendon Airlines_SN
@@ -5858,7 +5698,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.327]
+[fltsim.318]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL
 model=CXI-Corendon Airlines Europe
 texture=CXI-Corendon Airlines Europe
@@ -5876,7 +5716,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.328]
+[fltsim.319]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL - opb CAI
 model=CXI-Corendon Airlines Europe_opb CAI
 texture=CXI-Corendon Airlines Europe_opb CAI
@@ -5894,7 +5734,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.329]
+[fltsim.320]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL - opb AirExplore all white
 model=CXI-Corendon Airlines Europe_opb AirExplore all white
 texture=CXI-Corendon Airlines Europe_opb AirExplore all white
@@ -5912,7 +5752,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.330]
+[fltsim.321]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL - SN
 model=CXI-Corendon Airlines Europe_SN
 texture=CXI-Corendon Airlines Europe_SN
@@ -5930,7 +5770,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.331]
+[fltsim.322]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL - SN 1. FC Nuernberg logojet
 model=CXI-Corendon Airlines Europe_SN 1. FC Nuernberg logojet
 texture=CXI-Corendon Airlines Europe_SN 1. FC Nuernberg logojet
@@ -5948,7 +5788,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.332]
+[fltsim.323]
 title=AIGAIM_Corendon Airlines Europe Boeing 737-800WL - SN opb CAI
 model=CXI-Corendon Airlines Europe_SN opb CAI
 texture=CXI-Corendon Airlines Europe_SN opb CAI
@@ -5966,7 +5806,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.333]
+[fltsim.324]
 title=AIGAIM_Corendon Dutch Airlines Boeing 737-800WL - MC
 model=CND-Corendon Dutch Airlines_MC
 texture=CND-Corendon Dutch Airlines_MC
@@ -5984,7 +5824,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CND
 
-[fltsim.334]
+[fltsim.325]
 title=AIGAIM_Corendon Dutch Airlines Boeing 737-800WL - all white
 model=CND-Corendon Dutch Airlines_all white
 texture=CND-Corendon Dutch Airlines_all white
@@ -6002,7 +5842,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CND
 
-[fltsim.335]
+[fltsim.326]
 title=AIGAIM_Delta Air Lines Boeing 737-800WL
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -6020,7 +5860,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.336]
+[fltsim.327]
 title=AIGAIM_Delta Air Lines Boeing 737-800WL - No Belly Titles
 model=DAL-Delta Air Lines_No Belly Titles
 texture=DAL-Delta Air Lines_No Belly Titles
@@ -6038,7 +5878,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.337]
+[fltsim.328]
 title=AIGAIM_Delta Air Lines Boeing 737-800WL - Skyteam
 model=DAL-Delta Air Lines_Skyteam
 texture=DAL-Delta Air Lines_Skyteam
@@ -6056,7 +5896,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.338]
+[fltsim.329]
 title=AIGAIM_Delta Air Lines Boeing 737-800WL - SN aft Live TV Dome
 model=DAL-Delta Air Lines_SN aft Live TV Dome
 texture=DAL-Delta Air Lines_SN aft Live TV Dome
@@ -6074,7 +5914,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.339]
+[fltsim.330]
 title=AIGAIM_Donghai Airlines Boeing 737-800WL - SN
 model=EPA-Donghai Airlines_SN
 texture=EPA-Donghai Airlines_SN
@@ -6092,7 +5932,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EPA
 
-[fltsim.340]
+[fltsim.331]
 title=AIGAIM_Ukraine International Airlines Boeing 737-800WL
 model=AUI-Ukraine International Airlines
 texture=AUI-Ukraine International Airlines
@@ -6110,7 +5950,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
 
-[fltsim.341]
+[fltsim.332]
 title=AIGAIM_Ukraine International Airlines Boeing 737-800WL - SN
 model=AUI-Ukraine International Airlines_SN
 texture=AUI-Ukraine International Airlines_SN
@@ -6128,7 +5968,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
 
-[fltsim.342]
+[fltsim.333]
 title=AIGAIM_US-Bangla Airlines Boeing 737-800WL
 model=UBG-US-Bangla Airlines
 texture=UBG-US-Bangla Airlines
@@ -6146,7 +5986,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBG
 
-[fltsim.343]
+[fltsim.334]
 title=AIGAIM_US-Bangla Airlines Boeing 737-800WL - eyebrows
 model=UBG-US-Bangla Airlines_eyebrows
 texture=UBG-US-Bangla Airlines_eyebrows
@@ -6164,7 +6004,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBG
 
-[fltsim.344]
+[fltsim.335]
 title=AIGAIM_Eastar Jet Boeing 737-800WL
 model=ESR-Eastar Jet
 texture=ESR-Eastar Jet
@@ -6182,7 +6022,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
 
-[fltsim.345]
+[fltsim.336]
 title=AIGAIM_Eastar Jet Boeing 737-800WL - white engines
 model=ESR-Eastar Jet_white engines
 texture=ESR-Eastar Jet_white engines
@@ -6200,7 +6040,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
 
-[fltsim.346]
+[fltsim.337]
 title=AIGAIM_Eastar Jet Boeing 737-800WL - white engines eyebrows
 model=ESR-Eastar Jet_white engines eyebrows
 texture=ESR-Eastar Jet_white engines eyebrows
@@ -6218,7 +6058,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
 
-[fltsim.347]
+[fltsim.338]
 title=AIGAIM_Eastar Jet Boeing 737-800WL - white engines large titles
 model=ESR-Eastar Jet_white engines large titles
 texture=ESR-Eastar Jet_white engines large titles
@@ -6236,7 +6076,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
 
-[fltsim.348]
+[fltsim.339]
 title=AIGAIM_Eastar Jet Boeing 737-800WL - SN white engines
 model=ESR-Eastar Jet_SN white engines
 texture=ESR-Eastar Jet_SN white engines
@@ -6254,7 +6094,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ESR
 
-[fltsim.349]
+[fltsim.340]
 title=AIGAIM_EgyptAir Boeing 737-800WL
 model=MSR-EgyptAir
 texture=MSR-EgyptAir
@@ -6272,7 +6112,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.350]
+[fltsim.341]
 title=AIGAIM_EgyptAir Boeing 737-800WL - '85 Years cs'
 model=MSR-EgyptAir_'85 Years cs'
 texture=MSR-EgyptAir_'85 Years cs'
@@ -6290,7 +6130,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.351]
+[fltsim.342]
 title=AIGAIM_EgyptAir Boeing 737-800WL - 'Star Alliance'
 model=MSR-EgyptAir_'Star Alliance'
 texture=MSR-EgyptAir_'Star Alliance'
@@ -6308,7 +6148,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.352]
+[fltsim.343]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL
 model=ELY-El Al Israel Airlines
 texture=ELY-El Al Israel Airlines
@@ -6326,7 +6166,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.353]
+[fltsim.344]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - OC
 model=ELY-El Al Israel Airlines_OC
 texture=ELY-El Al Israel Airlines_OC
@@ -6344,7 +6184,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.354]
+[fltsim.345]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - OC No Subtitle
 model=ELY-El Al Israel Airlines_OC No Subtitle
 texture=ELY-El Al Israel Airlines_OC No Subtitle
@@ -6362,7 +6202,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.355]
+[fltsim.346]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - OC WiFi
 model=ELY-El Al Israel Airlines_OC WiFi
 texture=ELY-El Al Israel Airlines_OC WiFi
@@ -6380,7 +6220,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.356]
+[fltsim.347]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - Sun d'Or Sticker
 model=ELY-El Al Israel Airlines_Sun d'Or Sticker
 texture=ELY-El Al Israel Airlines_Sun d'Or Sticker
@@ -6398,7 +6238,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.357]
+[fltsim.348]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - Sun d'Or Colours
 model=ELY-El Al Israel Airlines_Sun d'Or Colours
 texture=ELY-El Al Israel Airlines_Sun d'Or Colours
@@ -6416,7 +6256,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.358]
+[fltsim.349]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - Sun d'Or opb AirExplore
 model=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
 texture=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
@@ -6434,7 +6274,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.359]
+[fltsim.350]
 title=AIGAIM_El Al Israel Airlines Boeing 737-800WL - UP hybrid
 model=ELY-El Al Israel Airlines_UP hybrid
 texture=ELY-El Al Israel Airlines_UP hybrid
@@ -6452,7 +6292,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.360]
+[fltsim.351]
 title=AIGAIM_Enter Air Boeing 737-800WL
 model=ENT-Enter Air
 texture=ENT-Enter Air
@@ -6470,7 +6310,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ENT
 
-[fltsim.361]
+[fltsim.352]
 title=AIGAIM_Enter Air Boeing 737-800WL - Eyebrows
 model=ENT-Enter Air_Eyebrows
 texture=ENT-Enter Air_Eyebrows
@@ -6488,7 +6328,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ENT
 
-[fltsim.362]
+[fltsim.353]
 title=AIGAIM_Enter Air Boeing 737-800WL - 100 years of Independence
 model=ENT-Enter Air_100 years of Independence
 texture=ENT-Enter Air_100 years of Independence
@@ -6506,7 +6346,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ENT
 
-[fltsim.363]
+[fltsim.354]
 title=AIGAIM_Enter Air Boeing 737-800WL - Albino opb Go2Sky
 model=ENT-Enter Air_Albino opb Go2Sky
 texture=ENT-Enter Air_Albino opb Go2Sky
@@ -6524,7 +6364,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ENT
 
-[fltsim.364]
+[fltsim.355]
 title=AIGAIM_Enter Air Boeing 737-800WL - SN
 model=ENT-Enter Air_SN
 texture=ENT-Enter Air_SN
@@ -6542,7 +6382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ENT
 
-[fltsim.365]
+[fltsim.356]
 title=AIGAIM_ETF Airways Boeing 737-800WL
 model=EZZ-ETF Airways
 texture=EZZ-ETF Airways
@@ -6559,7 +6399,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZZ
 
-[fltsim.366]
+[fltsim.357]
 title=AIGAIM_ETF Airways Boeing 737-800WL - Albino
 model=EZZ-ETF Airways_Albino
 texture=EZZ-ETF Airways_Albino
@@ -6577,7 +6417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZZ
 
-[fltsim.367]
+[fltsim.358]
 title=AIGAIM_Ethiopian Airlines Boeing 737-800WL
 model=ETH-Ethiopian Airlines
 texture=ETH-Ethiopian Airlines
@@ -6595,7 +6435,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.368]
+[fltsim.359]
 title=AIGAIM_Ethiopian Airlines Boeing 737-800WL - SN
 model=ETH-Ethiopian Airlines_SN
 texture=ETH-Ethiopian Airlines_SN
@@ -6613,7 +6453,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.369]
+[fltsim.360]
 title=AIGAIM_Ethiopian Airlines Boeing 737-800WL - SN White
 model=ETH-Ethiopian Airlines_SN White
 texture=ETH-Ethiopian Airlines_SN White
@@ -6631,7 +6471,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.370]
+[fltsim.361]
 title=AIGAIM_Ethiopian Airlines Cargo Boeing 737-800WL - SF
 model=ETHC-Ethiopian Airlines Cargo_SF
 texture=ETHC-Ethiopian Airlines Cargo_SF
@@ -6649,7 +6489,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETHC
 
-[fltsim.371]
+[fltsim.362]
 title=AIGAIM_Eurowings Boeing 737-800WL - opb TUI
 model=EWG-Eurowings_opb TUI
 texture=EWG-Eurowings_opb TUI
@@ -6667,7 +6507,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.372]
+[fltsim.363]
 title=AIGAIM_Eurowings Boeing 737-800WL - SN opb TUI
 model=EWG-Eurowings_SN opb TUI
 texture=EWG-Eurowings_SN opb TUI
@@ -6685,7 +6525,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.373]
+[fltsim.364]
 title=AIGAIM_Korean Air Boeing 737-800WL - Small Titles
 model=KAL-Korean Air_Small Titles
 texture=KAL-Korean Air_Small Titles
@@ -6702,7 +6542,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.374]
+[fltsim.365]
 title=AIGAIM_Korean Air Boeing 737-800WL - Eyebrows Small Titles
 model=KAL-Korean Air_Eyebrows Small Titles
 texture=KAL-Korean Air_Eyebrows Small Titles
@@ -6719,7 +6559,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.375]
+[fltsim.366]
 title=AIGAIM_Korean Air Boeing 737-800WL - Eyebrows Skyteam
 model=KAL-Korean Air_Eyebrows Skyteam
 texture=KAL-Korean Air_Eyebrows Skyteam
@@ -6736,7 +6576,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.376]
+[fltsim.367]
 title=AIGAIM_Korean Air Boeing 737-800WL - SN
 model=KAL-Korean Air_SN
 texture=KAL-Korean Air_SN
@@ -6753,7 +6593,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.377]
+[fltsim.368]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Hearts
 model=SKY-Skymark Airlines_Hearts
 texture=SKY-Skymark Airlines_Hearts
@@ -6771,7 +6611,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.378]
+[fltsim.369]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Heart + Club
 model=SKY-Skymark Airlines_Heart + Club
 texture=SKY-Skymark Airlines_Heart + Club
@@ -6789,7 +6629,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.379]
+[fltsim.370]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Heart + Diamond
 model=SKY-Skymark Airlines_Heart + Diamond
 texture=SKY-Skymark Airlines_Heart + Diamond
@@ -6807,7 +6647,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.380]
+[fltsim.371]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Heart rhs
 model=SKY-Skymark Airlines_Heart rhs
 texture=SKY-Skymark Airlines_Heart rhs
@@ -6825,7 +6665,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.381]
+[fltsim.372]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Green Club + Spade
 model=SKY-Skymark Airlines_Green Club + Spade
 texture=SKY-Skymark Airlines_Green Club + Spade
@@ -6843,7 +6683,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.382]
+[fltsim.373]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Blue Diamonds
 model=SKY-Skymark Airlines_Blue Diamonds
 texture=SKY-Skymark Airlines_Blue Diamonds
@@ -6861,7 +6701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.383]
+[fltsim.374]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Cherries
 model=SKY-Skymark Airlines_Cherries
 texture=SKY-Skymark Airlines_Cherries
@@ -6879,7 +6719,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.384]
+[fltsim.375]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Sunflower
 model=SKY-Skymark Airlines_Sunflower
 texture=SKY-Skymark Airlines_Sunflower
@@ -6897,7 +6737,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.385]
+[fltsim.376]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - Quaver
 model=SKY-Skymark Airlines_Quaver
 texture=SKY-Skymark Airlines_Quaver
@@ -6915,7 +6755,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.386]
+[fltsim.377]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - SN Hearts
 model=SKY-Skymark Airlines_SN Hearts
 texture=SKY-Skymark Airlines_SN Hearts
@@ -6933,7 +6773,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.387]
+[fltsim.378]
 title=AIGAIM_Skymark Airlines Boeing 737-800WL - SN Heart + Green Club
 model=SKY-Skymark Airlines_SN Heart + Green Club
 texture=SKY-Skymark Airlines_SN Heart + Green Club
@@ -6951,7 +6791,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SKY
 
-[fltsim.388]
+[fltsim.379]
 title=AIGAIM_Solaseed Air Boeing 737-800WL
 model=SNJ-Solaseed Air
 texture=SNJ-Solaseed Air
@@ -6969,7 +6809,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.389]
+[fltsim.380]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN
 model=SNJ-Solaseed Air_SN
 texture=SNJ-Solaseed Air_SN
@@ -6987,7 +6827,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.390]
+[fltsim.381]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN JA805X (TEMP)
 model=SNJ-Solaseed Air_SN JA805X_temp
 texture=SNJ-Solaseed Air_SN JA805X_temp
@@ -7005,7 +6845,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.391]
+[fltsim.382]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN JA807X (TEMP)
 model=SNJ-Solaseed Air_SN JA807X_temp
 texture=SNJ-Solaseed Air_SN JA807X_temp
@@ -7023,7 +6863,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.392]
+[fltsim.383]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN JA809X (TEMP)
 model=SNJ-Solaseed Air_SN JA809X_temp
 texture=SNJ-Solaseed Air_SN JA809X_temp
@@ -7041,7 +6881,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.393]
+[fltsim.384]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN JA810X (TEMP)
 model=SNJ-Solaseed Air_SN JA810X_temp
 texture=SNJ-Solaseed Air_SN JA810X_temp
@@ -7059,7 +6899,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.394]
+[fltsim.385]
 title=AIGAIM_Solaseed Air Boeing 737-800WL - SN JA812X
 model=SNJ-Solaseed Air_SN JA812X
 texture=SNJ-Solaseed Air_SN JA812X
@@ -7077,7 +6917,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
 
-[fltsim.395]
+[fltsim.386]
 title=AIGAIM_Jin Air Boeing 737-800WL - OC Eyebrows
 model=JNA-Jin Air_OC Eyebrows
 texture=JNA-Jin Air_OC Eyebrows
@@ -7095,7 +6935,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.396]
+[fltsim.387]
 title=AIGAIM_Jin Air Boeing 737-800WL - SN
 model=JNA-Jin Air_SN
 texture=JNA-Jin Air_SN
@@ -7113,7 +6953,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.397]
+[fltsim.388]
 title=AIGAIM_Somon Air Boeing 737-800WL
 model=SMR-Somon Air
 texture=SMR-Somon Air
@@ -7131,7 +6971,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SMR
 
-[fltsim.398]
+[fltsim.389]
 title=AIGAIM_Neos Boeing 737-800WL - OC Radio Italia
 model=NOS-Neos_OC Radio Italia
 texture=NOS-Neos_OC Radio Italia
@@ -7148,7 +6988,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOS
 
-[fltsim.399]
+[fltsim.390]
 title=AIGAIM_Neos Boeing 737-800WL - Samoa Hybrid
 model=NOS-Neos_Samoa Hybrid
 texture=NOS-Neos_Samoa Hybrid
@@ -7166,7 +7006,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOS
 
-[fltsim.400]
+[fltsim.391]
 title=AIGAIM_Neos Boeing 737-800WL - Angry Birds 2
 model=NOS-Neos_Angry Birds 2
 texture=NOS-Neos_Angry Birds 2
@@ -7184,7 +7024,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOS
 
-[fltsim.401]
+[fltsim.392]
 title=AIGAIM_Jet2com Boeing 737-800WL
 model=EXS-Jet2com
 texture=EXS-Jet2com
@@ -7201,7 +7041,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.402]
+[fltsim.393]
 title=AIGAIM_Jet2com Boeing 737-800WL - Great Package Holidays, Great Flight Times
 model=EXS-Jet2com_Great Package Holidays, Great Flight Times
 texture=EXS-Jet2com_Great Package Holidays, Great Flight Times
@@ -7218,7 +7058,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.403]
+[fltsim.394]
 title=AIGAIM_Jet2com Boeing 737-800WL - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -7235,7 +7075,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.404]
+[fltsim.395]
 title=AIGAIM_Jet2com Boeing 737-800WL - SN
 model=EXS-Jet2com_SN
 texture=EXS-Jet2com_SN
@@ -7252,7 +7092,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.405]
+[fltsim.396]
 title=AIGAIM_Jet2com Boeing 737-800WL - SN Cafe Mambo Ibiza
 model=EXS-Jet2com_SN Cafe Mambo Ibiza
 texture=EXS-Jet2com_SN Cafe Mambo Ibiza
@@ -7269,7 +7109,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.406]
+[fltsim.397]
 title=AIGAIM_Jet2com Boeing 737-800WL - SN Lanzarote
 model=EXS-Jet2com_SN Lanzarote
 texture=EXS-Jet2com_SN Lanzarote
@@ -7286,7 +7126,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.407]
+[fltsim.398]
 title=AIGAIM_Jet2com Boeing 737-800WL - SN Jet2 Holidays
 model=EXS-Jet2com_SN Jet2 Holidays
 texture=EXS-Jet2com_SN Jet2 Holidays
@@ -7303,7 +7143,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.408]
+[fltsim.399]
 title=AIGAIM_Jeju Air Boeing 737-800WL - Stones
 model=JJA-Jeju Air_Stones
 texture=JJA-Jeju Air_Stones
@@ -7321,7 +7161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.409]
+[fltsim.400]
 title=AIGAIM_Jeju Air Boeing 737-800WL - Volcanos
 model=JJA-Jeju Air_Volcanos
 texture=JJA-Jeju Air_Volcanos
@@ -7339,7 +7179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.410]
+[fltsim.401]
 title=AIGAIM_Jeju Air Boeing 737-800WL - Volcanos Refresh
 model=JJA-Jeju Air_Volcanos Refresh
 texture=JJA-Jeju Air_Volcanos Refresh
@@ -7357,7 +7197,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.411]
+[fltsim.402]
 title=AIGAIM_Jeju Air Boeing 737-800WL - Waves
 model=JJA-Jeju Air_Waves
 texture=JJA-Jeju Air_Waves
@@ -7375,7 +7215,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.412]
+[fltsim.403]
 title=AIGAIM_Jeju Air Boeing 737-800WL - Waves Refresh
 model=JJA-Jeju Air_Waves Refresh
 texture=JJA-Jeju Air_Waves Refresh
@@ -7393,7 +7233,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.413]
+[fltsim.404]
 title=AIGAIM_Jeju Air Boeing 737-800WL - OC
 model=JJA-Jeju Air_OC
 texture=JJA-Jeju Air_OC
@@ -7411,7 +7251,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.414]
+[fltsim.405]
 title=AIGAIM_Jeju Air Boeing 737-800WL - OC eyebrows
 model=JJA-Jeju Air_OC eyebrows
 texture=JJA-Jeju Air_OC eyebrows
@@ -7429,7 +7269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.415]
+[fltsim.406]
 title=AIGAIM_Jeju Air Boeing 737-800WL - SN Stones
 model=JJA-Jeju Air_SN Stones
 texture=JJA-Jeju Air_SN Stones
@@ -7447,7 +7287,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.416]
+[fltsim.407]
 title=AIGAIM_Jeju Air Boeing 737-800WL - SN Volcanos
 model=JJA-Jeju Air_SN Volcanos
 texture=JJA-Jeju Air_SN Volcanos
@@ -7465,7 +7305,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.417]
+[fltsim.408]
 title=AIGAIM_Jeju Air Boeing 737-800WL - SN Waves
 model=JJA-Jeju Air_SN Waves
 texture=JJA-Jeju Air_SN Waves
@@ -7483,7 +7323,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.418]
+[fltsim.409]
 title=AIGAIM_Jeju Air Boeing 737-800WL - SN OC
 model=JJA-Jeju Air_SN OC
 texture=JJA-Jeju Air_SN OC
@@ -7501,7 +7341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JJA
 
-[fltsim.419]
+[fltsim.410]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL
 model=SJY-Sriwijaya Air
 texture=SJY-Sriwijaya Air
@@ -7519,7 +7359,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.420]
+[fltsim.411]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL - dot com
 model=SJY-Sriwijaya Air_dot com
 texture=SJY-Sriwijaya Air_dot com
@@ -7537,7 +7377,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.421]
+[fltsim.412]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL - OC
 model=SJY-Sriwijaya Air_OC
 texture=SJY-Sriwijaya Air_OC
@@ -7555,7 +7395,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.422]
+[fltsim.413]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL - OC Eyebrows
 model=SJY-Sriwijaya Air_OC Eyebrows
 texture=SJY-Sriwijaya Air_OC Eyebrows
@@ -7573,7 +7413,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.423]
+[fltsim.414]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL - OC Eyebrows I love Papua
 model=SJY-Sriwijaya Air_OC Eyebrows I love Papua
 texture=SJY-Sriwijaya Air_OC Eyebrows I love Papua
@@ -7591,7 +7431,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.424]
+[fltsim.415]
 title=AIGAIM_Sriwijaya Air Boeing 737-800WL - OC 72nd Berja Kermasa
 model=SJY-Sriwijaya Air_OC 72nd Berja Kermasa
 texture=SJY-Sriwijaya Air_OC 72nd Berja Kermasa
@@ -7609,7 +7449,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.425]
+[fltsim.416]
 title=AIGAIM_Lufthansa Boeing 737-800WL - opb SXD
 model=DLH-Lufthansa_opb SXD
 texture=DLH-Lufthansa_opb SXD
@@ -7627,7 +7467,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.426]
+[fltsim.417]
 title=AIGAIM_Lufthansa Boeing 737-800WL - opb SXD Grey Belly
 model=DLH-Lufthansa_opb SXD Grey Belly
 texture=DLH-Lufthansa_opb SXD Grey Belly
@@ -7645,7 +7485,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.427]
+[fltsim.418]
 title=AIGAIM_LOT Polish Airlines Boeing 737-800WL
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -7663,7 +7503,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.428]
+[fltsim.419]
 title=AIGAIM_SilkAir Boeing 737-800WL - SN
 model=SLK-SilkAir_SN
 texture=SLK-SilkAir_SN
@@ -7681,7 +7521,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SLK
 
-[fltsim.429]
+[fltsim.420]
 title=AIGAIM_Ruili Airlines Boeing 737-800WL - SN
 model=RLH-Ruili Airlines_SN
 texture=RLH-Ruili Airlines_SN
@@ -7699,7 +7539,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.430]
+[fltsim.421]
 title=AIGAIM_Ruili Airlines Boeing 737-800WL - SN Albino
 model=RLH-Ruili Airlines_SN Albino
 texture=RLH-Ruili Airlines_SN Albino
@@ -7717,7 +7557,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.431]
+[fltsim.422]
 title=AIGAIM_Ruili Airlines Boeing 737-800WL - SN Albino WiFi
 model=RLH-Ruili Airlines_SN Albino WiFi
 texture=RLH-Ruili Airlines_SN Albino WiFi
@@ -7735,7 +7575,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.432]
+[fltsim.423]
 title=AIGAIM_Pegasus Airlines Boeing 737-800WL
 model=PGT-Pegasus Airlines
 texture=PGT-Pegasus Airlines
@@ -7753,7 +7593,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.433]
+[fltsim.424]
 title=AIGAIM_FlyEgypt Boeing 737-800WL - OC
 model=FEG-FlyEgypt_OC
 texture=FEG-FlyEgypt_OC
@@ -7771,7 +7611,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FEG
 
-[fltsim.434]
+[fltsim.425]
 title=AIGAIM_FlyEgypt Boeing 737-800WL - OC Red Belly Antenna
 model=FEG-FlyEgypt_OC Red Belly Antenna
 texture=FEG-FlyEgypt_OC Red Belly Antenna
@@ -7789,7 +7629,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FEG
 
-[fltsim.435]
+[fltsim.426]
 title=AIGAIM_Transavia Boeing 737-800WL
 model=TRA-Transavia
 texture=TRA-Transavia
@@ -7807,7 +7647,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.436]
+[fltsim.427]
 title=AIGAIM_Transavia Boeing 737-800WL - OC
 model=TRA-Transavia_OC
 texture=TRA-Transavia_OC
@@ -7825,7 +7665,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.437]
+[fltsim.428]
 title=AIGAIM_Transavia Boeing 737-800WL - SN
 model=TRA-Transavia_SN
 texture=TRA-Transavia_SN
@@ -7843,7 +7683,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.438]
+[fltsim.429]
 title=AIGAIM_Transavia Boeing 737-800WL - SN named
 model=TRA-Transavia_SN named
 texture=TRA-Transavia_SN named
@@ -7861,7 +7701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.439]
+[fltsim.430]
 title=AIGAIM_Transavia Boeing 737-800WL - SN Peter Pan
 model=TRA-Transavia_SN Peter Pan
 texture=TRA-Transavia_SN Peter Pan
@@ -7879,7 +7719,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.440]
+[fltsim.431]
 title=AIGAIM_Transavia Boeing 737-800WL - SN Sunweb 2019
 model=TRA-Transavia_SN Sunweb 2019
 texture=TRA-Transavia_SN Sunweb 2019
@@ -7897,7 +7737,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.441]
+[fltsim.432]
 title=AIGAIM_Transavia France Boeing 737-800WL
 model=TVF-Transavia France
 texture=TVF-Transavia France
@@ -7915,7 +7755,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.442]
+[fltsim.433]
 title=AIGAIM_Transavia France Boeing 737-800WL - eyebrows
 model=TVF-Transavia France_eyebrows
 texture=TVF-Transavia France_eyebrows
@@ -7933,7 +7773,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.443]
+[fltsim.434]
 title=AIGAIM_Transavia France Boeing 737-800WL - OC
 model=TVF-Transavia France_OC
 texture=TVF-Transavia France_OC
@@ -7951,7 +7791,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.444]
+[fltsim.435]
 title=AIGAIM_Transavia France Boeing 737-800WL - SN
 model=TVF-Transavia France_SN
 texture=TVF-Transavia France_SN
@@ -7969,7 +7809,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.445]
+[fltsim.436]
 title=AIGAIM_Transavia France Boeing 737-800WL - SN OC
 model=TVF-Transavia France_SN OC
 texture=TVF-Transavia France_SN OC
@@ -7987,7 +7827,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVF
 
-[fltsim.446]
+[fltsim.437]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800WL -  EuroAtlantic Hybrid
 model=TFL-TUI fly Netherlands_ EuroAtlantic Hybrid
 texture=TFL-TUI fly Netherlands_ EuroAtlantic Hybrid
@@ -8005,7 +7845,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.447]
+[fltsim.438]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800WL - Miami Air hybrid (TEMP)
 model=TFL-TUI fly Netherlands_Miami Air hybrid_temp
 texture=TFL-TUI fly Netherlands_Miami Air hybrid_temp
@@ -8023,7 +7863,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.448]
+[fltsim.439]
 title=AIGAIM_TUI fly Netherlands Boeing 737-800WL - JAF OC
 model=TFL-TUI fly Netherlands_JAF OC
 texture=TFL-TUI fly Netherlands_JAF OC
@@ -8040,7 +7880,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.449]
+[fltsim.440]
 title=AIGAIM_T'Way Air Boeing 737-800WL - Save the Children (nose)
 model=TWB-T'Way Air_Save the Children (nose)
 texture=TWB-T'Way Air_Save the Children (nose)
@@ -8058,7 +7898,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.450]
+[fltsim.441]
 title=AIGAIM_T'Way Air Boeing 737-800WL - Save the Children (rear)
 model=TWB-T'Way Air_Save the Children (rear)
 texture=TWB-T'Way Air_Save the Children (rear)
@@ -8076,7 +7916,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.451]
+[fltsim.442]
 title=AIGAIM_T'Way Air Boeing 737-800WL - Sorryehan
 model=TWB-T'Way Air_Sorryehan
 texture=TWB-T'Way Air_Sorryehan
@@ -8094,7 +7934,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.452]
+[fltsim.443]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC
 model=TWB-T'Way Air_OC
 texture=TWB-T'Way Air_OC
@@ -8112,7 +7952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.453]
+[fltsim.444]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC Save the Children (nose)
 model=TWB-T'Way Air_OC Save the Children (nose)
 texture=TWB-T'Way Air_OC Save the Children (nose)
@@ -8130,7 +7970,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.454]
+[fltsim.445]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC reg on tail
 model=TWB-T'Way Air_OC reg on tail
 texture=TWB-T'Way Air_OC reg on tail
@@ -8148,7 +7988,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.455]
+[fltsim.446]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC alt titles Save the Children (nose)
 model=TWB-T'Way Air_OC alt titles Save the Children (nose)
 texture=TWB-T'Way Air_OC alt titles Save the Children (nose)
@@ -8166,7 +8006,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.456]
+[fltsim.447]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC alt titles Save the Children (rear)
 model=TWB-T'Way Air_OC alt titles Save the Children (rear)
 texture=TWB-T'Way Air_OC alt titles Save the Children (rear)
@@ -8184,7 +8024,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.457]
+[fltsim.448]
 title=AIGAIM_T'Way Air Boeing 737-800WL - OC alt titles Sehun Birthday Jet
 model=TWB-T'Way Air_OC alt titles Sehun Birthday Jet
 texture=TWB-T'Way Air_OC alt titles Sehun Birthday Jet
@@ -8202,7 +8042,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.458]
+[fltsim.449]
 title=AIGAIM_T'Way Air Boeing 737-800WL - SN Save the Children (nose)
 model=TWB-T'Way Air_SN Save the Children (nose)
 texture=TWB-T'Way Air_SN Save the Children (nose)
@@ -8220,7 +8060,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.459]
+[fltsim.450]
 title=AIGAIM_T'Way Air Boeing 737-800WL - SN Save the Children (rear)
 model=TWB-T'Way Air_SN Save the Children (rear)
 texture=TWB-T'Way Air_SN Save the Children (rear)
@@ -8238,7 +8078,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.460]
+[fltsim.451]
 title=AIGAIM_T'Way Air Boeing 737-800WL - SN OC
 model=TWB-T'Way Air_SN OC
 texture=TWB-T'Way Air_SN OC
@@ -8256,7 +8096,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.461]
+[fltsim.452]
 title=AIGAIM_Qantas Boeing 737-800WL
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -8274,7 +8114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.462]
+[fltsim.453]
 title=AIGAIM_Qantas Boeing 737-800WL - WiFi Dome
 model=QFA-Qantas_WiFi Dome
 texture=QFA-Qantas_WiFi Dome
@@ -8292,7 +8132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.463]
+[fltsim.454]
 title=AIGAIM_Qantas Boeing 737-800WL - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
@@ -8310,7 +8150,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.464]
+[fltsim.455]
 title=AIGAIM_Qantas Boeing 737-800WL - OC WiFi Dome
 model=QFA-Qantas_OC WiFi Dome
 texture=QFA-Qantas_OC WiFi Dome
@@ -8328,7 +8168,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.465]
+[fltsim.456]
 title=AIGAIM_Qantas Boeing 737-800WL - OC Yananyi
 model=QFA-Qantas_OC Yananyi
 texture=QFA-Qantas_OC Yananyi
@@ -8346,7 +8186,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.466]
+[fltsim.457]
 title=AIGAIM_Qantas Boeing 737-800WL - Retro Roo II
 model=QFA-Qantas_Retro Roo II
 texture=QFA-Qantas_Retro Roo II
@@ -8364,7 +8204,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.467]
+[fltsim.458]
 title=AIGAIM_Qantas Boeing 737-800WL - SN WiFi Dome
 model=QFA-Qantas_SN WiFi Dome
 texture=QFA-Qantas_SN WiFi Dome
@@ -8382,7 +8222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.468]
+[fltsim.459]
 title=AIGAIM_Qantas Boeing 737-800WL - SN OC (TEMP)
 model=QFA-Qantas_SN OC_temp
 texture=QFA-Qantas_SN OC_temp
@@ -8400,7 +8240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.469]
+[fltsim.460]
 title=AIGAIM_Qantas Boeing 737-800WL - SN OC WiFi Dome
 model=QFA-Qantas_SN OC WiFi Dome
 texture=QFA-Qantas_SN OC WiFi Dome
@@ -8418,7 +8258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.470]
+[fltsim.461]
 title=AIGAIM_Qantas Boeing 737-800WL - SN OC Mendoowoorrji
 model=QFA-Qantas_SN OC Mendoowoorrji
 texture=QFA-Qantas_SN OC Mendoowoorrji
@@ -8436,7 +8276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.471]
+[fltsim.462]
 title=AIGAIM_Qantas Boeing 737-800WL - SN Retro James Strong
 model=QFA-Qantas_SN Retro James Strong
 texture=QFA-Qantas_SN Retro James Strong
@@ -8454,7 +8294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.472]
+[fltsim.463]
 title=AIGAIM_GetJet Airlines Boeing 737-800WL - opb Go2Sky Albino
 model=GJT-GetJet Airlines_opb Go2Sky Albino
 texture=GJT-GetJet Airlines_opb Go2Sky Albino
@@ -8472,7 +8312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GJT
 
-[fltsim.473]
+[fltsim.464]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL
 model=GIA-Garuda Indonesia
 texture=GIA-Garuda Indonesia
@@ -8490,7 +8330,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.474]
+[fltsim.465]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - Skyteam
 model=GIA-Garuda Indonesia_Skyteam
 texture=GIA-Garuda Indonesia_Skyteam
@@ -8508,7 +8348,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.475]
+[fltsim.466]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - Retro 1961-1969
 model=GIA-Garuda Indonesia_Retro 1961-1969
 texture=GIA-Garuda Indonesia_Retro 1961-1969
@@ -8526,7 +8366,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.476]
+[fltsim.467]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - Retro 1969-1985
 model=GIA-Garuda Indonesia_Retro 1969-1985
 texture=GIA-Garuda Indonesia_Retro 1969-1985
@@ -8544,7 +8384,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.477]
+[fltsim.468]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - SN
 model=GIA-Garuda Indonesia_SN
 texture=GIA-Garuda Indonesia_SN
@@ -8562,7 +8402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.478]
+[fltsim.469]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - SN Sky Interior
 model=GIA-Garuda Indonesia_SN Sky Interior
 texture=GIA-Garuda Indonesia_SN Sky Interior
@@ -8580,7 +8420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.479]
+[fltsim.470]
 title=AIGAIM_Garuda Indonesia Boeing 737-800WL - SN 123rd Boeing 737
 model=GIA-Garuda Indonesia_SN 123rd Boeing 737
 texture=GIA-Garuda Indonesia_SN 123rd Boeing 737
@@ -8598,7 +8438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.480]
+[fltsim.471]
 title=AIGAIM_Fiji Airways Boeing 737-800WL
 model=FJI-Fiji Airways
 texture=FJI-Fiji Airways
@@ -8616,7 +8456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FJI
 
-[fltsim.481]
+[fltsim.472]
 title=AIGAIM_Flydubai Boeing 737-800WL - SN
 model=FDB-Flydubai_SN
 texture=FDB-Flydubai_SN
@@ -8634,7 +8474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDB
 
-[fltsim.482]
+[fltsim.473]
 title=AIGAIM_Fly Gangwon Boeing 737-800WL - SN
 model=FGW-Fly Gangwon_SN
 texture=FGW-Fly Gangwon_SN
@@ -8652,7 +8492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FGW
 
-[fltsim.483]
+[fltsim.474]
 title=AIGAIM_Flyr Boeing 737-800WL
 model=FOX-Flyr
 texture=FOX-Flyr
@@ -8670,7 +8510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FOX
 
-[fltsim.484]
+[fltsim.475]
 title=AIGAIM_Georgian Airways Boeing 737-800WL -SF
 model=TGZ-Georgian Airways
 texture=TGZ-Georgian Airways
@@ -8688,7 +8528,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGZ
 
-[fltsim.485]
+[fltsim.476]
 title=AIGAIM_Georgian Airways Boeing 737-800WL
 model=TGZ-Georgian Airways
 texture=TGZ-Georgian Airways
@@ -8706,7 +8546,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGZ
 
-[fltsim.486]
+[fltsim.477]
 title=AIGAIM_Kenya Airways Boeing 737-800WL
 model=KQA-Kenya Airways
 texture=KQA-Kenya Airways
@@ -8724,7 +8564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.487]
+[fltsim.478]
 title=AIGAIM_Kenya Airways Boeing 737-800WL - SN
 model=KQA-Kenya Airways_SN
 texture=KQA-Kenya Airways_SN
@@ -8742,7 +8582,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.488]
+[fltsim.479]
 title=AIGAIM_Kenya Airways Boeing 737-800WL - SN Skyteam
 model=KQA-Kenya Airways_SN Skyteam
 texture=KQA-Kenya Airways_SN Skyteam
@@ -8760,7 +8600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.489]
+[fltsim.480]
 title=AIGAIM_KLM Boeing 737-800WL
 model=KLM-KLM
 texture=KLM-KLM
@@ -8778,7 +8618,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.490]
+[fltsim.481]
 title=AIGAIM_KLM Boeing 737-800WL - OC
 model=KLM-KLM_OC
 texture=KLM-KLM_OC
@@ -8796,7 +8636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.491]
+[fltsim.482]
 title=AIGAIM_KLM Boeing 737-800WL - SN aft Sat
 model=KLM-KLM_SN aft Sat
 texture=KLM-KLM_SN aft Sat
@@ -8814,7 +8654,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.492]
+[fltsim.483]
 title=AIGAIM_KLM Boeing 737-800WL - SN OC
 model=KLM-KLM_SN OC
 texture=KLM-KLM_SN OC
@@ -8832,7 +8672,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.493]
+[fltsim.484]
 title=AIGAIM_Kulula Boeing 737-800WL - Europcar ZS-ZWO
 model=CAW-Kulula_Europcar ZS-ZWO
 texture=CAW-Kulula_Europcar ZS-ZWO
@@ -8850,7 +8690,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.494]
+[fltsim.485]
 title=AIGAIM_Kulula Boeing 737-800WL - Europcar ZS-ZWT white nose
 model=CAW-Kulula_Europcar ZS-ZWT white nose
 texture=CAW-Kulula_Europcar ZS-ZWT white nose
@@ -8868,7 +8708,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.495]
+[fltsim.486]
 title=AIGAIM_Luxair Boeing 737-800WL - SN (TEMP)
 model=LGL-Luxair_SN_temp
 texture=LGL-Luxair_SN_temp
@@ -8886,7 +8726,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LGL
 
-[fltsim.496]
+[fltsim.487]
 title=AIGAIM_Mauritania Airlines Boeing 737-800WL - SN
 model=MAI-Mauritania Airlines_SN
 texture=MAI-Mauritania Airlines_SN
@@ -8904,7 +8744,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAI
 
-[fltsim.497]
+[fltsim.488]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-DYJ
 model=NAX-Norwegian_LN-DYJ
 texture=NAX-Norwegian_LN-DYJ
@@ -8922,7 +8762,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.498]
+[fltsim.489]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-DYK
 model=NAX-Norwegian_LN-DYK
 texture=NAX-Norwegian_LN-DYK
@@ -8940,7 +8780,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.499]
+[fltsim.490]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-DYR
 model=NAX-Norwegian_LN-DYR
 texture=NAX-Norwegian_LN-DYR
@@ -8958,7 +8798,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.500]
+[fltsim.491]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-DYX
 model=NAX-Norwegian_LN-DYX
 texture=NAX-Norwegian_LN-DYX
@@ -8976,7 +8816,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.501]
+[fltsim.492]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-DYY
 model=NAX-Norwegian_LN-DYY
 texture=NAX-Norwegian_LN-DYY
@@ -8994,7 +8834,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.502]
+[fltsim.493]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENN
 model=NAX-Norwegian_LN-ENN
 texture=NAX-Norwegian_LN-ENN
@@ -9012,7 +8852,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.503]
+[fltsim.494]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENO
 model=NAX-Norwegian_LN-ENO
 texture=NAX-Norwegian_LN-ENO
@@ -9030,7 +8870,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.504]
+[fltsim.495]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENP
 model=NAX-Norwegian_LN-ENP
 texture=NAX-Norwegian_LN-ENP
@@ -9048,7 +8888,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.505]
+[fltsim.496]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENQ
 model=NAX-Norwegian_LN-ENQ
 texture=NAX-Norwegian_LN-ENQ
@@ -9066,7 +8906,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.506]
+[fltsim.497]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENR
 model=NAX-Norwegian_LN-ENR
 texture=NAX-Norwegian_LN-ENR
@@ -9084,7 +8924,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.507]
+[fltsim.498]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENS
 model=NAX-Norwegian_LN-ENS
 texture=NAX-Norwegian_LN-ENS
@@ -9102,7 +8942,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.508]
+[fltsim.499]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-ENT
 model=NAX-Norwegian_LN-ENT
 texture=NAX-Norwegian_LN-ENT
@@ -9120,7 +8960,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.509]
+[fltsim.500]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NGM
 model=NAX-Norwegian_LN-NGM
 texture=NAX-Norwegian_LN-NGM
@@ -9138,7 +8978,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.510]
+[fltsim.501]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NGZ
 model=NAX-Norwegian_LN-NGZ
 texture=NAX-Norwegian_LN-NGZ
@@ -9156,7 +8996,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.511]
+[fltsim.502]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NHA
 model=NAX-Norwegian_LN-NHA
 texture=NAX-Norwegian_LN-NHA
@@ -9174,7 +9014,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.512]
+[fltsim.503]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NIG
 model=NAX-Norwegian_LN-NIG
 texture=NAX-Norwegian_LN-NIG
@@ -9192,7 +9032,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.513]
+[fltsim.504]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NIH
 model=NAX-Norwegian_LN-NIH
 texture=NAX-Norwegian_LN-NIH
@@ -9210,7 +9050,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.514]
+[fltsim.505]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NII
 model=NAX-Norwegian_LN-NII
 texture=NAX-Norwegian_LN-NII
@@ -9228,7 +9068,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.515]
+[fltsim.506]
 title=AIGAIM_Norwegian Boeing 737-800WL - LN-NOD
 model=NAX-Norwegian_LN-NOD
 texture=NAX-Norwegian_LN-NOD
@@ -9246,7 +9086,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.516]
+[fltsim.507]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPD
 model=NAX-Norwegian_SE-RPD
 texture=NAX-Norwegian_SE-RPD
@@ -9264,7 +9104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.517]
+[fltsim.508]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPE
 model=NAX-Norwegian_SE-RPE
 texture=NAX-Norwegian_SE-RPE
@@ -9282,7 +9122,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.518]
+[fltsim.509]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPJ
 model=NAX-Norwegian_SE-RPJ
 texture=NAX-Norwegian_SE-RPJ
@@ -9300,7 +9140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.519]
+[fltsim.510]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPK
 model=NAX-Norwegian_SE-RPK
 texture=NAX-Norwegian_SE-RPK
@@ -9318,7 +9158,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.520]
+[fltsim.511]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPL
 model=NAX-Norwegian_SE-RPL
 texture=NAX-Norwegian_SE-RPL
@@ -9336,7 +9176,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.521]
+[fltsim.512]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPM
 model=NAX-Norwegian_SE-RPM
 texture=NAX-Norwegian_SE-RPM
@@ -9354,7 +9194,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.522]
+[fltsim.513]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPR
 model=NAX-Norwegian_SE-RPR
 texture=NAX-Norwegian_SE-RPR
@@ -9372,7 +9212,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.523]
+[fltsim.514]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPS
 model=NAX-Norwegian_SE-RPS
 texture=NAX-Norwegian_SE-RPS
@@ -9390,7 +9230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.524]
+[fltsim.515]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RPT
 model=NAX-Norwegian_SE-RPT
 texture=NAX-Norwegian_SE-RPT
@@ -9408,7 +9248,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.525]
+[fltsim.516]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RRB
 model=NAX-Norwegian_SE-RRB
 texture=NAX-Norwegian_SE-RRB
@@ -9426,7 +9266,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.526]
+[fltsim.517]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RRE
 model=NAX-Norwegian_SE-RRE
 texture=NAX-Norwegian_SE-RRE
@@ -9444,7 +9284,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.527]
+[fltsim.518]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RRF
 model=NAX-Norwegian_SE-RRF
 texture=NAX-Norwegian_SE-RRF
@@ -9462,7 +9302,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.528]
+[fltsim.519]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RRG
 model=NAX-Norwegian_SE-RRG
 texture=NAX-Norwegian_SE-RRG
@@ -9480,7 +9320,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.529]
+[fltsim.520]
 title=AIGAIM_Norwegian Boeing 737-800WL - SE-RRO
 model=NAX-Norwegian_SE-RRO
 texture=NAX-Norwegian_SE-RRO
@@ -9498,7 +9338,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAX
 
-[fltsim.530]
+[fltsim.521]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL
 model=RAM-Royal Air Maroc
 texture=RAM-Royal Air Maroc
@@ -9516,7 +9356,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.531]
+[fltsim.522]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - SN
 model=RAM-Royal Air Maroc_SN
 texture=RAM-Royal Air Maroc_SN
@@ -9534,7 +9374,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.532]
+[fltsim.523]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - SN 'Oneworld'
 model=RAM-Royal Air Maroc_SN 'Oneworld'
 texture=RAM-Royal Air Maroc_SN 'Oneworld'
@@ -9552,7 +9392,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.533]
+[fltsim.524]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - OC
 model=RAM-Royal Air Maroc_OC
 texture=RAM-Royal Air Maroc_OC
@@ -9570,7 +9410,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.534]
+[fltsim.525]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - SN 'OC'
 model=RAM-Royal Air Maroc_SN 'OC'
 texture=RAM-Royal Air Maroc_SN 'OC'
@@ -9588,7 +9428,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.535]
+[fltsim.526]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - SN 'OC 60 Years'
 model=RAM-Royal Air Maroc_SN 'OC 60 Years'
 texture=RAM-Royal Air Maroc_SN 'OC 60 Years'
@@ -9606,7 +9446,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.536]
+[fltsim.527]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - '60 Years'
 model=RAM-Royal Air Maroc_'60 Years'
 texture=RAM-Royal Air Maroc_'60 Years'
@@ -9624,7 +9464,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.537]
+[fltsim.528]
 title=AIGAIM_Royal Air Maroc Boeing 737-800WL - '50th 737NG'
 model=RAM-Royal Air Maroc_'50th 737NG'
 texture=RAM-Royal Air Maroc_'50th 737NG'
@@ -9642,7 +9482,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAM
 
-[fltsim.538]
+[fltsim.529]
 title=AIGAIM_Rwandair Boeing 737-800WL
 model=RWD-Rwandair
 texture=RWD-Rwandair
@@ -9660,7 +9500,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWD
 
-[fltsim.539]
+[fltsim.530]
 title=AIGAIM_Rwandair Boeing 737-800WL - SN Wifi Dome
 model=RWD-Rwandair_SN Wifi Dome
 texture=RWD-Rwandair_SN Wifi Dome
@@ -9678,7 +9518,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWD
 
-[fltsim.540]
+[fltsim.531]
 title=AIGAIM_Ryanair Boeing 737-800WL
 model=RYR-Ryanair
 texture=RYR-Ryanair
@@ -9696,7 +9536,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.541]
+[fltsim.532]
 title=AIGAIM_Ryanair Boeing 737-800WL - Striped WL
 model=RYR-Ryanair_Striped WL
 texture=RYR-Ryanair_Striped WL
@@ -9714,7 +9554,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.542]
+[fltsim.533]
 title=AIGAIM_Ryanair Boeing 737-800WL - Striped WL (lhs)
 model=RYR-Ryanair_Striped WL (lhs)
 texture=RYR-Ryanair_Striped WL (lhs)
@@ -9732,7 +9572,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.543]
+[fltsim.534]
 title=AIGAIM_Ryanair Boeing 737-800WL - Striped WL (rhs)
 model=RYR-Ryanair_Striped WL (rhs)
 texture=RYR-Ryanair_Striped WL (rhs)
@@ -9750,7 +9590,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.544]
+[fltsim.535]
 title=AIGAIM_Ryanair Boeing 737-800WL - Costa Brava / Catalunya
 model=RYR-Ryanair_Costa Brava _ Catalunya
 texture=RYR-Ryanair_Costa Brava _ Catalunya
@@ -9768,7 +9608,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.545]
+[fltsim.536]
 title=AIGAIM_Ryanair Boeing 737-800WL - Costa Brava / Catalunya Striped WL (rhs)
 model=RYR-Ryanair_Costa Brava _ Catalunya Striped WL (rhs)
 texture=RYR-Ryanair_Costa Brava _ Catalunya Striped WL (rhs)
@@ -9786,7 +9626,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.546]
+[fltsim.537]
 title=AIGAIM_Ryanair Boeing 737-800WL - Vitoria The Basque Connection (lhs)
 model=RYR-Ryanair_Vitoria The Basque Connection (lhs)
 texture=RYR-Ryanair_Vitoria The Basque Connection (lhs)
@@ -9804,7 +9644,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.547]
+[fltsim.538]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC
 model=RYR-Ryanair_OC
 texture=RYR-Ryanair_OC
@@ -9822,7 +9662,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.548]
+[fltsim.539]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Striped WL
 model=RYR-Ryanair_OC Striped WL
 texture=RYR-Ryanair_OC Striped WL
@@ -9840,7 +9680,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.549]
+[fltsim.540]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Striped WL (lhs)
 model=RYR-Ryanair_OC Striped WL (lhs)
 texture=RYR-Ryanair_OC Striped WL (lhs)
@@ -9858,7 +9698,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.550]
+[fltsim.541]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Striped WL (rhs)
 model=RYR-Ryanair_OC Striped WL (rhs)
 texture=RYR-Ryanair_OC Striped WL (rhs)
@@ -9876,7 +9716,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.551]
+[fltsim.542]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Costa Brava / Catalunya Text only Striped WL (rhs) (TEMP)
 model=RYR-Ryanair_OC Costa Brava _ Catalunya Text only Striped WL (rhs)_temp
 texture=RYR-Ryanair_OC Costa Brava _ Catalunya Text only Striped WL (rhs)_temp
@@ -9894,7 +9734,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.552]
+[fltsim.543]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Dreamliner Fuselage
 model=RYR-Ryanair_OC Dreamliner Fuselage
 texture=RYR-Ryanair_OC Dreamliner Fuselage
@@ -9912,7 +9752,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.553]
+[fltsim.544]
 title=AIGAIM_Ryanair Boeing 737-800WL - OC Vitoria The Basque Connection (lhs) Striped WL (rhs)
 model=RYR-Ryanair_OC Vitoria The Basque Connection (lhs) Striped WL (rhs)
 texture=RYR-Ryanair_OC Vitoria The Basque Connection (lhs) Striped WL (rhs)
@@ -9930,7 +9770,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.554]
+[fltsim.545]
 title=AIGAIM_Ryanair Boeing 737-800WL - SN
 model=RYR-Ryanair_SN
 texture=RYR-Ryanair_SN
@@ -9948,7 +9788,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.555]
+[fltsim.546]
 title=AIGAIM_Ryanair Boeing 737-800WL - SN opb MAY RYR
 model=RYR-Ryanair_SN opb MAY RYR
 texture=RYR-Ryanair_SN opb MAY RYR
@@ -9966,7 +9806,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.556]
+[fltsim.547]
 title=AIGAIM_Ryanair Boeing 737-800WL - SN opb RUK RYR OC
 model=RYR-Ryanair_SN opb RUK RYR OC
 texture=RYR-Ryanair_SN opb RUK RYR OC
@@ -9984,7 +9824,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYR
 
-[fltsim.557]
+[fltsim.548]
 title=AIGAIM_S7 Airlines Boeing 737-800WL
 model=SBI-S7 Airlines
 texture=SBI-S7 Airlines
@@ -10001,7 +9841,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.558]
+[fltsim.549]
 title=AIGAIM_S7 Airlines Boeing 737-800WL - WiFi Dome
 model=SBI-S7 Airlines_WiFi Dome
 texture=SBI-S7 Airlines_WiFi Dome
@@ -10018,7 +9858,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.559]
+[fltsim.550]
 title=AIGAIM_S7 Airlines Boeing 737-800WL - Oneworld
 model=SBI-S7 Airlines_Oneworld
 texture=SBI-S7 Airlines_Oneworld
@@ -10035,7 +9875,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.560]
+[fltsim.551]
 title=AIGAIM_S7 Airlines Boeing 737-800WL - OC
 model=SBI-S7 Airlines_OC
 texture=SBI-S7 Airlines_OC
@@ -10053,7 +9893,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.561]
+[fltsim.552]
 title=AIGAIM_S7 Airlines Boeing 737-800WL - SN
 model=SBI-S7 Airlines_SN
 texture=SBI-S7 Airlines_SN
@@ -10070,7 +9910,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.562]
+[fltsim.553]
 title=AIGAIM_S7 Airlines Boeing 737-800WL - SN OC (TEMP)
 model=SBI-S7 Airlines_SN OC_temp
 texture=SBI-S7 Airlines_SN OC_temp
@@ -10088,7 +9928,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.563]
+[fltsim.554]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800WL
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -10106,7 +9946,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.564]
+[fltsim.555]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800WL - Star Alliance
 model=SAS-SAS Scandinavian Airlines_Star Alliance
 texture=SAS-SAS Scandinavian Airlines_Star Alliance
@@ -10124,7 +9964,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.565]
+[fltsim.556]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800WL - SN
 model=SAS-SAS Scandinavian Airlines_SN
 texture=SAS-SAS Scandinavian Airlines_SN
@@ -10142,7 +9982,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.566]
+[fltsim.557]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800WL - SN no Dome
 model=SAS-SAS Scandinavian Airlines_SN no Dome
 texture=SAS-SAS Scandinavian Airlines_SN no Dome
@@ -10160,7 +10000,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.567]
+[fltsim.558]
 title=AIGAIM_Southwest Airlines Boeing 737-800WL - SN OC
 model=SWA-Southwest Airlines_SN OC
 texture=SWA-Southwest Airlines_SN OC
@@ -10178,7 +10018,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.568]
+[fltsim.559]
 title=AIGAIM_SpiceJet Boeing 737-800WL
 model=SEJ-SpiceJet
 texture=SEJ-SpiceJet
@@ -10196,115 +10036,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.569]
-title=AIGAIM_SpiceJet Boeing 737-800WL - EDTO Marking
-model=SEJ-SpiceJet_EDTO Marking
-texture=SEJ-SpiceJet_EDTO Marking
-atc_id=VT-SLE
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - New Livery EDTO_Mango Powder_VT-SLE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.570]
-title=AIGAIM_SpiceJet Boeing 737-800WL - Wifi Dome
-model=SEJ-SpiceJet_Wifi Dome
-texture=SEJ-SpiceJet_Wifi Dome
-atc_id=VT-SLF
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - New Livery Satcom_Unnamed_VT-SLF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.571]
-title=AIGAIM_SpiceJet Boeing 737-800WL - Telangana Tourism VT-SLJ
-model=SEJ-SpiceJet_Telangana Tourism VT-SLJ
-texture=SEJ-SpiceJet_Telangana Tourism VT-SLJ
-atc_id=VT-SLJ
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet Telangana Tourism - VT-SLJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_Specials_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.572]
-title=AIGAIM_SpiceJet Boeing 737-800WL - Albino
-model=SEJ-SpiceJet_Albino
-texture=SEJ-SpiceJet_Albino
-atc_id=VT-SLN
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - New Livery Albino_Unnamed_VT-SLN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.573]
-title=AIGAIM_SpiceJet Boeing 737-800WL - Albino rear Titles VT-SLL
-model=SEJ-SpiceJet_Albino rear Titles VT-SLL
-texture=SEJ-SpiceJet_Albino rear Titles VT-SLL
-atc_id=VT-SLL
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet PregaNews Albino - VT-SLL
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_Specials_FSX.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.574]
-title=AIGAIM_SpiceJet Boeing 737-800WL - opb CAI
-model=SEJ-SpiceJet_opb CAI
-texture=SEJ-SpiceJet_opb CAI
-atc_id=TC-COE
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=BOEING
-ui_type=Boeing 737-800WL
-ui_variation=Corendon Airlines TC-COE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738_cai.zip
-description=FAIB_B737-800WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.575]
+[fltsim.560]
 title=AIGAIM_SpiceJet Boeing 737-800WL - SN
 model=SEJ-SpiceJet_SN
 texture=SEJ-SpiceJet_SN
@@ -10322,97 +10054,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.576]
-title=AIGAIM_SpiceJet Boeing 737-800WL - SN EDTO Marking
-model=SEJ-SpiceJet_SN EDTO Marking
-texture=SEJ-SpiceJet_SN EDTO Marking
-atc_id=VT-SZN
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - New Livery SN EDTO_Pepper_VT-SZN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.577]
-title=AIGAIM_SpiceJet Boeing 737-800WL - SN OC
-model=SEJ-SpiceJet_SN OC
-texture=SEJ-SpiceJet_SN OC
-atc_id=VT-SGV
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - Old Livery SN_Nigella_VT-SGV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_OC_FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.578]
-title=AIGAIM_SpiceJet Boeing 737-800WL - SN OC Albino VT-SZK
-model=SEJ-SpiceJet_SN OC Albino VT-SZK
-texture=SEJ-SpiceJet_SN OC Albino VT-SZK
-atc_id=VT-SZK
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - Old Livery SN Albino_Red Chilli_VT-SZK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_OC_FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.579]
-title=AIGAIM_SpiceJet Boeing 737-800WL - SN OC EDTO Marking
-model=SEJ-SpiceJet_SN OC EDTO Marking
-texture=SEJ-SpiceJet_SN OC EDTO Marking
-atc_id=VT-SGZ
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800WL
-ui_variation=SpiceJet - Old Livery SN EDTO_Caraway_VT-SGZ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_OC_FSX.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.580]
-title=AIGAIM_SpiceJet Boeing 737-800WL - SN opb CAI Small Titles
-model=SEJ-SpiceJet_SN opb CAI Small Titles
-texture=SEJ-SpiceJet_SN opb CAI Small Titles
-atc_id=TC-COR
-atc_airline=SPICEJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=BOEING
-ui_type=Boeing 737-800WL
-ui_variation=Corendon Airlines TC-COR (Short Nozzle, small titles)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738_cai.zip
-description=FAIB_B737-800WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.581]
+[fltsim.561]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL (TEMP)
 model=SCX-Sun Country Airlines_temp
 texture=SCX-Sun Country Airlines_temp
@@ -10430,7 +10072,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.582]
+[fltsim.562]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL - Gray Reg
 model=SCX-Sun Country Airlines_Gray Reg
 texture=SCX-Sun Country Airlines_Gray Reg
@@ -10448,7 +10090,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.583]
+[fltsim.563]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL - LHS Outer WL Logo
 model=SCX-Sun Country Airlines_LHS Outer WL Logo
 texture=SCX-Sun Country Airlines_LHS Outer WL Logo
@@ -10466,7 +10108,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.584]
+[fltsim.564]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL - SN Blue Reg
 model=SCX-Sun Country Airlines_SN Blue Reg
 texture=SCX-Sun Country Airlines_SN Blue Reg
@@ -10484,7 +10126,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.585]
+[fltsim.565]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL - IC
 model=SCX-Sun Country Airlines_IC
 texture=SCX-Sun Country Airlines_IC
@@ -10502,7 +10144,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.586]
+[fltsim.566]
 title=AIGAIM_Sun Country Airlines Boeing 737-800WL - OC
 model=SCX-Sun Country Airlines_OC
 texture=SCX-Sun Country Airlines_OC
@@ -10520,7 +10162,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.587]
+[fltsim.567]
 title=AIGAIM_SunExpress Boeing 737-800WL
 model=SXS-SunExpress
 texture=SXS-SunExpress
@@ -10538,7 +10180,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.588]
+[fltsim.568]
 title=AIGAIM_SunExpress Boeing 737-800WL - 30 years
 model=SXS-SunExpress_30 years
 texture=SXS-SunExpress_30 years
@@ -10556,7 +10198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.589]
+[fltsim.569]
 title=AIGAIM_SunExpress Boeing 737-800WL - 30 years and QR-Code
 model=SXS-SunExpress_30 years and QR-Code
 texture=SXS-SunExpress_30 years and QR-Code
@@ -10574,7 +10216,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.590]
+[fltsim.570]
 title=AIGAIM_SunExpress Boeing 737-800WL - 30 years and Aspendos 2019
 model=SXS-SunExpress_30 years and Aspendos 2019
 texture=SXS-SunExpress_30 years and Aspendos 2019
@@ -10592,7 +10234,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.591]
+[fltsim.571]
 title=AIGAIM_SunExpress Boeing 737-800WL - QR-Code
 model=SXS-SunExpress_QR-Code
 texture=SXS-SunExpress_QR-Code
@@ -10610,7 +10252,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.592]
+[fltsim.572]
 title=AIGAIM_SunExpress Boeing 737-800WL - white fuselage, grey belly
 model=SXS-SunExpress_white fuselage, grey belly
 texture=SXS-SunExpress_white fuselage, grey belly
@@ -10628,7 +10270,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.593]
+[fltsim.573]
 title=AIGAIM_SunExpress Boeing 737-800WL - Istanbul
 model=SXS-SunExpress_Istanbul
 texture=SXS-SunExpress_Istanbul
@@ -10646,7 +10288,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.594]
+[fltsim.574]
 title=AIGAIM_SunExpress Boeing 737-800WL - Eintracht Frankfurt
 model=SXS-SunExpress_Eintracht Frankfurt
 texture=SXS-SunExpress_Eintracht Frankfurt
@@ -10664,7 +10306,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SXS
 
-[fltsim.595]
+[fltsim.575]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - Smartwings Hybrid
 model=SWG-Sunwing Airlines_Smartwings Hybrid
 texture=SWG-Sunwing Airlines_Smartwings Hybrid
@@ -10682,7 +10324,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.596]
+[fltsim.576]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - Smartwings Hybrid Mexico/Mazatlan (TEMP)
 model=SWG-Sunwing Airlines_Smartwings Hybrid Mexico_Mazatlan_temp
 texture=SWG-Sunwing Airlines_Smartwings Hybrid Mexico_Mazatlan_temp
@@ -10699,7 +10341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.597]
+[fltsim.577]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - Smartwings Hybrid OK-Reg
 model=SWG-Sunwing Airlines_Smartwings Hybrid OK-Reg
 texture=SWG-Sunwing Airlines_Smartwings Hybrid OK-Reg
@@ -10717,7 +10359,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.598]
+[fltsim.578]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - Travelservice Hybrid
 model=SWG-Sunwing Airlines_Travelservice Hybrid
 texture=SWG-Sunwing Airlines_Travelservice Hybrid
@@ -10735,7 +10377,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.599]
+[fltsim.579]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - SN Travelservice Hybrid Grand Palladium Hotels & Resorts (TEMP)
 model=SWG-Sunwing Airlines_SN Travelservice Hybrid Grand Palladium Hotels & Resorts_temp
 texture=SWG-Sunwing Airlines_SN Travelservice Hybrid Grand Palladium Hotels & Resorts_temp
@@ -10752,7 +10394,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.600]
+[fltsim.580]
 title=AIGAIM_Sunwing Airlines Boeing 737-800WL - SN Travelservice WL OK-Reg
 model=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
 texture=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
@@ -10770,7 +10412,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWG
 
-[fltsim.601]
+[fltsim.581]
 title=AIGAIM_TAROM Boeing 737-800WL - SN
 model=ROT-TAROM_SN
 texture=ROT-TAROM_SN
@@ -10788,7 +10430,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.602]
+[fltsim.582]
 title=AIGAIM_TAROM Boeing 737-800WL - SN Crest
 model=ROT-TAROM_SN Crest
 texture=ROT-TAROM_SN Crest
@@ -10806,7 +10448,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.603]
+[fltsim.583]
 title=AIGAIM_TUIfly Boeing 737-800WL - Blue WL
 model=TUI-TUIfly_Blue WL
 texture=TUI-TUIfly_Blue WL
@@ -10824,7 +10466,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.604]
+[fltsim.584]
 title=AIGAIM_TUIfly Boeing 737-800WL - Blank WL
 model=TUI-TUIfly_Blank WL
 texture=TUI-TUIfly_Blank WL
@@ -10842,7 +10484,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.605]
+[fltsim.585]
 title=AIGAIM_TUIfly Boeing 737-800WL - Albino
 model=TUI-TUIfly_Albino
 texture=TUI-TUIfly_Albino
@@ -10860,7 +10502,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.606]
+[fltsim.586]
 title=AIGAIM_TUIfly Boeing 737-800WL - All White
 model=TUI-TUIfly_All White
 texture=TUI-TUIfly_All White
@@ -10878,7 +10520,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.607]
+[fltsim.587]
 title=AIGAIM_TUIfly Boeing 737-800WL - TUI BLUE Hotels
 model=TUI-TUIfly_TUI BLUE Hotels
 texture=TUI-TUIfly_TUI BLUE Hotels
@@ -10896,7 +10538,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.608]
+[fltsim.588]
 title=AIGAIM_TUIfly Boeing 737-800WL - Robinson Resorts
 model=TUI-TUIfly_Robinson Resorts
 texture=TUI-TUIfly_Robinson Resorts
@@ -10914,7 +10556,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.609]
+[fltsim.589]
 title=AIGAIM_TUIfly Boeing 737-800WL - CEWE Fotobuch
 model=TUI-TUIfly_CEWE Fotobuch
 texture=TUI-TUIfly_CEWE Fotobuch
@@ -10932,7 +10574,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUI
 
-[fltsim.610]
+[fltsim.590]
 title=AIGAIM_TUI fly Belgium Boeing 737-800WL
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -10949,7 +10591,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.611]
+[fltsim.591]
 title=AIGAIM_TUI fly Belgium Boeing 737-800WL - Old Colors
 model=JAF-TUI fly Belgium_Old Colors
 texture=JAF-TUI fly Belgium_Old Colors
@@ -10966,7 +10608,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.612]
+[fltsim.592]
 title=AIGAIM_Turkmenistan Airlines Boeing 737-800WL - SN
 model=TUA-Turkmenistan Airlines_SN
 texture=TUA-Turkmenistan Airlines_SN
@@ -10984,7 +10626,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
 
-[fltsim.613]
+[fltsim.593]
 title=AIGAIM_Jet Time Boeing 737-800WL - 'OY-JZJ'
 model=JTD-Jet Time_'OY-JZJ'
 texture=JTD-Jet Time_'OY-JZJ'
@@ -11002,7 +10644,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTD
 
-[fltsim.614]
+[fltsim.594]
 title=AIGAIM_iAero Airways Boeing 737-800WL - Eastern Hybrid
 model=SWQ-iAero Airways_Eastern Hybrid
 texture=SWQ-iAero Airways_Eastern Hybrid
@@ -11017,7 +10659,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.615]
+[fltsim.595]
 title=AIGAIM_iAero Airways Boeing 737-800WL
 model=SWQ-iAero Airways
 texture=SWQ-iAero Airways
@@ -11032,7 +10674,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.616]
+[fltsim.596]
 title=AIGAIM_iAero Airways Boeing 737-800WL - XTRA Hybrid
 model=SWQ-iAero Airways_XTRA Hybrid
 texture=SWQ-iAero Airways_XTRA Hybrid
@@ -11047,7 +10689,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.617]
+[fltsim.597]
 title=AIGAIM_iAero Airways Boeing 737-800WL - Visible Prior Livery
 model=SWQ-iAero Airways_Visible Prior Livery
 texture=SWQ-iAero Airways_Visible Prior Livery
@@ -11062,7 +10704,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWQ
 
-[fltsim.618]
+[fltsim.598]
 title=AIGAIM_9 Air Boeing 737-800WL - SN Mauve
 model=JYH-9 Air_SN Mauve
 texture=JYH-9 Air_SN Mauve
@@ -11079,7 +10721,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JYH
 
-[fltsim.619]
+[fltsim.599]
 title=AIGAIM_9 Air Boeing 737-800WL - SN Red Gold
 model=JYH-9 Air_SN Red Gold
 texture=JYH-9 Air_SN Red Gold
@@ -11096,7 +10738,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JYH
 
-[fltsim.620]
+[fltsim.600]
 title=AIGAIM_9 Air Boeing 737-800WL - SN Light Blue
 model=JYH-9 Air_SN Light Blue
 texture=JYH-9 Air_SN Light Blue
@@ -11113,7 +10755,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JYH
 
-[fltsim.621]
+[fltsim.601]
 title=AIGAIM_9 Air Boeing 737-800WL - SN Red CMG App
 model=JYH-9 Air_SN Red CMG App
 texture=JYH-9 Air_SN Red CMG App
@@ -11128,7 +10770,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JYH
 
-[fltsim.622]
+[fltsim.602]
 title=AIGAIM_9 Air Boeing 737-800WL - SN Green CMG App
 model=JYH-9 Air_SN Green CMG App
 texture=JYH-9 Air_SN Green CMG App
@@ -11143,7 +10785,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JYH
 
-[fltsim.623]
+[fltsim.603]
 title=AIGAIM_Anadolujet Boeing 737-800WL
 model=THY-Anadolujet
 texture=THY-Anadolujet
@@ -11160,7 +10802,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.624]
+[fltsim.604]
 title=AIGAIM_Anadolujet Boeing 737-800WL - Large THY sticker
 model=THY-Anadolujet_Large THY sticker
 texture=THY-Anadolujet_Large THY sticker
@@ -11178,7 +10820,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.625]
+[fltsim.605]
 title=AIGAIM_Anadolujet Boeing 737-800WL - SN
 model=THY-Anadolujet_SN
 texture=THY-Anadolujet_SN
@@ -11196,7 +10838,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.626]
+[fltsim.606]
 title=AIGAIM_Anadolujet Boeing 737-800WL - SN Large THY sticker
 model=THY-Anadolujet_SN Large THY sticker
 texture=THY-Anadolujet_SN Large THY sticker
@@ -11214,7 +10856,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.627]
+[fltsim.607]
 title=AIGAIM_Anadolujet Boeing 737-800WL - SN WiFi dome
 model=THY-Anadolujet_SN WiFi dome
 texture=THY-Anadolujet_SN WiFi dome
@@ -11232,7 +10874,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.628]
+[fltsim.608]
 title=AIGAIM_Turkish Airlines Boeing 737-800WL - SN 6000th NG
 model=THY-Turkish Airlines_SN 6000th NG
 texture=THY-Turkish Airlines_SN 6000th NG
@@ -11250,7 +10892,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.629]
+[fltsim.609]
 title=AIGAIM_Pegasus Airlines Boeing 737-800WL - SN
 model=PGT-Pegasus Airlines_SN
 texture=PGT-Pegasus Airlines_SN
@@ -11268,7 +10910,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.630]
+[fltsim.610]
 title=AIGAIM_Pegasus Airlines Boeing 737-800WL - White Engine
 model=PGT-Pegasus Airlines_White Engine
 texture=PGT-Pegasus Airlines_White Engine
@@ -11286,7 +10928,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.631]
+[fltsim.611]
 title=AIGAIM_Pegasus Airlines Boeing 737-800WL - SN Ada E
 model=PGT-Pegasus Airlines_SN Ada E
 texture=PGT-Pegasus Airlines_SN Ada E
@@ -11304,7 +10946,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.632]
+[fltsim.612]
 title=AIGAIM_Compass Air Cargo Boeing 737-800WL
 model=ADZ-Compass Air Cargo
 texture=ADZ-Compass Air Cargo
@@ -11316,13 +10958,13 @@ ui_manufacturer=FAIB - Boeing
 ui_type=Boeing 737-800WL
 ui_variation=Compass Air Cargo opb Aviosarda
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800WL BCF_Compass Air Cargo opb Aviosarda_FSX.zip
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800WL BCF_Compass Air Cargo opb Aviosarda_FSX.zip
 description=FAIB_B737-800WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ADZ
 
-[fltsim.633]
+[fltsim.613]
 title=AIGAIM_Avelo Airlines Boeing 737-800WL
 model=VXP-Avelo Airlines
 texture=VXP-Avelo Airlines
@@ -11338,7 +10980,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VXP
 
-[fltsim.634]
+[fltsim.614]
 title=AIGAIM_ASL Airlines Belgium Boeing 737-800WL - BCF FedEx
 model=TAY-ASL Airlines Belgium_BCF FedEx
 texture=TAY-ASL Airlines Belgium_BCF FedEx
@@ -11356,7 +10998,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAY
 
-[fltsim.635]
+[fltsim.615]
 title=AIGAIM_ASL Airlines France Boeing 737-800WL - BCF FedEx
 model=FPO-ASL Airlines France_BCF FedEx
 texture=FPO-ASL Airlines France_BCF FedEx
@@ -11374,7 +11016,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPO
 
-[fltsim.636]
+[fltsim.616]
 title=AIGAIM_ASL Airlines Ireland Boeing 737-800WL - BCF opb ASL Airlines Belgium
 model=ABR-ASL Airlines Ireland_BCF opb ASL Airlines Belgium
 texture=ABR-ASL Airlines Ireland_BCF opb ASL Airlines Belgium
@@ -11392,7 +11034,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.637]
+[fltsim.617]
 title=AIGAIM_West Atlantic Sweden Boeing 737-800WL - BCF
 model=SWN-West Atlantic Sweden_BCF
 texture=SWN-West Atlantic Sweden_BCF
@@ -11410,7 +11052,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWN
 
-[fltsim.638]
+[fltsim.618]
 title=AIGAIM_West Atlantic Sweden Boeing 737-800WL - BCF FedEx
 model=SWN-West Atlantic Sweden_BCF FedEx
 texture=SWN-West Atlantic Sweden_BCF FedEx
@@ -11428,7 +11070,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWN
 
-[fltsim.639]
+[fltsim.619]
 title=AIGAIM_Bluebird Nordic Boeing 737-800WL - BCF
 model=BBD-Bluebird Nordic_BCF
 texture=BBD-Bluebird Nordic_BCF
@@ -11446,7 +11088,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBD
 
-[fltsim.640]
+[fltsim.620]
 title=AIGAIM_Cargoair Boeing 737-800WL - SF basic Primera new titles
 model=CGF-Cargoair_SF basic Primera new titles
 texture=CGF-Cargoair_SF basic Primera new titles
@@ -11464,7 +11106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.641]
+[fltsim.621]
 title=AIGAIM_Cargoair Boeing 737-800WL - SF basic Kulula paint no titles
 model=CGF-Cargoair_SF basic Kulula paint no titles
 texture=CGF-Cargoair_SF basic Kulula paint no titles
@@ -11482,7 +11124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.642]
+[fltsim.622]
 title=AIGAIM_Air Incheon Boeing 737-800WL - SF HL8319
 model=AIH-Air Incheon_SF HL8319
 texture=AIH-Air Incheon_SF HL8319
@@ -11500,7 +11142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIH
 
-[fltsim.643]
+[fltsim.623]
 title=AIGAIM_Air Incheon Boeing 737-800WL - SF HL8338
 model=AIH-Air Incheon_SF HL8338
 texture=AIH-Air Incheon_SF HL8338
@@ -11518,7 +11160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIH
 
-[fltsim.644]
+[fltsim.624]
 title=AIGAIM_Air Incheon Boeing 737-800WL - SF HL8503
 model=AIH-Air Incheon_SF HL8503
 texture=AIH-Air Incheon_SF HL8503
@@ -11536,7 +11178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIH
 
-[fltsim.645]
+[fltsim.625]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-AXI
 model=AXB-Air India Express_VT-AXI
 texture=AXB-Air India Express_VT-AXI
@@ -11554,7 +11196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.646]
+[fltsim.626]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHA
 model=AXB-Air India Express_VT-GHA
 texture=AXB-Air India Express_VT-GHA
@@ -11572,7 +11214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.647]
+[fltsim.627]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHB
 model=AXB-Air India Express_VT-GHB
 texture=AXB-Air India Express_VT-GHB
@@ -11590,7 +11232,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.648]
+[fltsim.628]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHC
 model=AXB-Air India Express_VT-GHC
 texture=AXB-Air India Express_VT-GHC
@@ -11608,7 +11250,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.649]
+[fltsim.629]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHD
 model=AXB-Air India Express_VT-GHD
 texture=AXB-Air India Express_VT-GHD
@@ -11626,7 +11268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.650]
+[fltsim.630]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHE
 model=AXB-Air India Express_VT-GHE
 texture=AXB-Air India Express_VT-GHE
@@ -11644,7 +11286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.651]
+[fltsim.631]
 title=AIGAIM_Air India Express Boeing 737-800WL - VT-GHF
 model=AXB-Air India Express_VT-GHF
 texture=AXB-Air India Express_VT-GHF
@@ -11662,7 +11304,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AXB
 
-[fltsim.652]
+[fltsim.632]
 title=AIGAIM_Ewa Air Boeing 737-800WL
 model=EWR-Ewa Air
 texture=EWR-Ewa Air
@@ -11680,7 +11322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWR
 
-[fltsim.653]
+[fltsim.633]
 title=AIGAIM_Vistara Boeing 737-800WL
 model=VTI-Vistara
 texture=VTI-Vistara
@@ -11698,7 +11340,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
 
-[fltsim.654]
+[fltsim.634]
 title=AIGAIM_Caribbean Airlines Boeing 737-800WL - Old Livery
 model=BWA-Caribbean Airlines_Old Livery
 texture=BWA-Caribbean Airlines_Old Livery
@@ -11716,7 +11358,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BWA
 
-[fltsim.655]
+[fltsim.635]
 title=AIGAIM_China Eastern Airlines Boeing 737-800WL - SN Additional Titles
 model=CES-China Eastern Airlines_SN Additional Titles
 texture=CES-China Eastern Airlines_SN Additional Titles
@@ -11734,7 +11376,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.656]
+[fltsim.636]
 title=AIGAIM_FlySafair Boeing 737-800WL
 model=SFR-FlySafair
 texture=SFR-FlySafair
@@ -11751,7 +11393,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFR
 
-[fltsim.657]
+[fltsim.637]
 title=AIGAIM_FlySafair Boeing 737-800WL - eyebrows
 model=SFR-FlySafair_eyebrows
 texture=SFR-FlySafair_eyebrows
@@ -11768,7 +11410,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFR
 
-[fltsim.658]
+[fltsim.638]
 title=AIGAIM_FlySafair Boeing 737-800WL - eyebrows Rear Springbok
 model=SFR-FlySafair_eyebrows Rear Springbok
 texture=SFR-FlySafair_eyebrows Rear Springbok
@@ -11785,7 +11427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFR
 
-[fltsim.659]
+[fltsim.639]
 title=AIGAIM_FlySafair Boeing 737-800WL - eyebrows Front Springbok
 model=SFR-FlySafair_eyebrows Front Springbok
 texture=SFR-FlySafair_eyebrows Front Springbok
@@ -11802,7 +11444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFR
 
-[fltsim.660]
+[fltsim.640]
 title=AIGAIM_Shanghai Airlines Boeing 737-800WL - SN
 model=CSH-Shanghai Airlines_SN
 texture=CSH-Shanghai Airlines_SN
@@ -11819,7 +11461,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.661]
+[fltsim.641]
 title=AIGAIM_Iraqi Airways Boeing 737-800WL - SN
 model=IAW-Iraqi Airways_SN
 texture=IAW-Iraqi Airways_SN
@@ -11837,7 +11479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAW
 
-[fltsim.662]
+[fltsim.642]
 title=AIGAIM_Iraqi Airways Boeing 737-800WL - SN opb AirExplore White
 model=IAW-Iraqi Airways_SN opb AirExplore White
 texture=IAW-Iraqi Airways_SN opb AirExplore White
@@ -11855,7 +11497,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAW
 
-[fltsim.663]
+[fltsim.643]
 title=AIGAIM_Kargo Xpress Boeing 737-800WL - BCF
 model=KXP-Kargo Xpress_BCF
 texture=KXP-Kargo Xpress_BCF
@@ -11873,7 +11515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KXP
 
-[fltsim.664]
+[fltsim.644]
 title=AIGAIM_World Cargo Airlines Boeing 737-800WL - BCF
 model=WCM-World Cargo Airlines_BCF
 texture=WCM-World Cargo Airlines_BCF
@@ -11890,3 +11532,75 @@ description=FAIB_B737-800WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WCM
+
+[fltsim.645]
+title=AIGAIM_SpiceJet Boeing 737-800WL - Wifi
+model=SEJ-SpiceJet_Wifi
+texture=SEJ-SpiceJet_Wifi
+atc_id=VT-SLF
+atc_airline=SPICEJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=SpiceJet - New Livery Satcom_Unnamed_VT-SLF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.646]
+title=AIGAIM_SpiceJet Boeing 737-800WL - Albino (TEMP)
+model=SEJ-SpiceJet_Albino_temp
+texture=SEJ-SpiceJet_Albino_temp
+atc_id=VT-SLM
+atc_airline=SPICEJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=SpiceJet - Albino_Unnamed_VT-SLM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_NC_FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.647]
+title=AIGAIM_SpiceJet Boeing 737-800WL - SN White Fuselage
+model=SEJ-SpiceJet_SN White Fuselage
+texture=SEJ-SpiceJet_SN White Fuselage
+atc_id=VT-SZK
+atc_airline=SPICEJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=SpiceJet - Old Livery SN Albino_Red Chilli_VT-SZK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB_737-800W_SpiceJet_OC_FSX.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.648]
+title=AIGAIM_Corsair International Boeing 737-800WL - opb Air Austral F-ONGB
+model=CRL-Corsair International_opb Air Austral F-ONGB
+texture=CRL-Corsair International_opb Air Austral F-ONGB
+atc_id=F-ONGB
+atc_airline=CORSAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Air Austral F-ONGB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_reu_fleet_fsx.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL

@@ -79,7 +79,7 @@ atc_airline=CHINA SOUTHERN
 atc_parking_types=GATE,RAMP
 atc_parking_codes=CSN
 ui_manufacturer=Boeing
-ui_type=Boeing 737-800
+ui_type=B737-800
 ui_variation=China Southern
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b738w_csn_skyteam.zip
@@ -523,14 +523,14 @@ model=SEJC-SpiceXpress_BCF
 texture=SEJC-SpiceXpress_BCF
 atc_airline=SPICEJET
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=SEJC
+atc_parking_codes=SEJC,SEJ
 ui_type=Boeing 737-800
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: FC75 Filename: FAIB_738_SpiceXpress.zip
 description=FAIB_B737-800(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SEJC
+icao_airline=SEJ
 
 [fltsim.28]
 title=AIGAIM_Sun Country Airlines Boeing 737-800 - OC

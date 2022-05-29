@@ -1605,63 +1605,6 @@ isUserSelectable=0
 icao_airline=LWG
 
 [fltsim.84]
-title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - OC
-model=SEJ-SpiceJet_OC
-texture=SEJ-SpiceJet_OC
-atc_id=VT-SUP
-atc_airline=SPICEJET
-atc_parking_types=RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=SpiceJet - Std. Livery_Imli_VT-SUP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.85]
-title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - OC Line Number
-model=SEJ-SpiceJet_OC Line Number
-texture=SEJ-SpiceJet_OC Line Number
-atc_id=VT-SUM
-atc_airline=SPICEJET
-atc_parking_types=RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=SpiceJet - Std. Livery with LN No._Jaiphal_VT-SUM
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.86]
-title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - Albino Small Titles no Engine Titles
-model=SEJ-SpiceJet_Albino Small Titles no Engine Titles
-texture=SEJ-SpiceJet_Albino Small Titles no Engine Titles
-atc_id=VT-SUW
-atc_airline=SPICEJET
-atc_parking_types=RAMP
-atc_parking_codes=SEJ
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=SpiceJet - Only Title_VT-SUW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEJ
-
-[fltsim.87]
 title=AIGAIM_Tchadia Airlines Bombardier Dash 8-Q400
 model=CDO-Tchadia Airlines
 texture=CDO-Tchadia Airlines
@@ -1679,7 +1622,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDO
 
-[fltsim.88]
+[fltsim.85]
 title=AIGAIM_ATSA Airlines Bombardier Dash 8-Q400
 model=AMP-ATSA Airlines
 texture=AMP-ATSA Airlines
@@ -1697,7 +1640,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMP
 
-[fltsim.89]
+[fltsim.86]
 title=AIGAIM_Air Tanzania Bombardier Dash 8-Q400 - Diff Giraffe on Tail
 model=ATC-Air Tanzania_Diff Giraffe on Tail
 texture=ATC-Air Tanzania_Diff Giraffe on Tail
@@ -1713,3 +1656,60 @@ description=TFS_Dash8-400(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATC
+
+[fltsim.87]
+title=AIGAIM_SpiceJet Bombardier Dash 8-Q400
+model=SEJ-SpiceJet
+texture=SEJ-SpiceJet
+atc_id=VT-SUM
+atc_airline=SPICEJET
+atc_parking_types=RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Std. Livery with LN No._Jaiphal_VT-SUM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.88]
+title=AIGAIM_SpiceJet Bombardier Dash 8-Q400 - Albino
+model=SEJ-SpiceJet_Albino
+texture=SEJ-SpiceJet_Albino
+atc_id=VT-SUW
+atc_airline=SPICEJET
+atc_parking_types=RAMP
+atc_parking_codes=SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Only Title_VT-SUW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ
+
+[fltsim.89]
+title=AIGAIM_SpiceXpress Bombardier Dash 8-Q400 - Pax
+model=SEJC-SpiceXpress_Pax
+texture=SEJC-SpiceXpress_Pax
+atc_id=VT-SUM
+atc_airline=SPICEJET
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SEJC,SEJ
+ui_manufacturer=The Fruit Stand
+ui_type=Bombardier Dash 8-Q400
+ui_variation=SpiceJet - Std. Livery with LN No._Jaiphal_VT-SUM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: TFS_Dash-8_Q400_SpiceJet_FSX.zip
+prop_anim_ratio=-0.2
+description=TFS_Dash8-400(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEJ

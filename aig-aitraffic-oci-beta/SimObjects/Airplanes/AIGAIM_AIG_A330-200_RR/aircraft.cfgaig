@@ -1008,3 +1008,20 @@ description=AIG_A330-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
+
+[fltsim.52]
+title=AIGAIM_Corsair International Airbus A330-200 - OT
+model=CRL-Corsair International_OT
+texture=CRL-Corsair International_OT
+atc_airline=CORSAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_crl_a332_p3d.zip
+description=AIG_A330-200_RR-RR_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL
