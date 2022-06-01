@@ -87,3 +87,22 @@ description=TFS_A310-300_GE-GE_300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
+
+[fltsim.2]
+title=AIGAIM_Iran Air Airbus A310-300
+model=IRA-Iran Air
+texture=IRA-Iran Air
+atc_id=EP-IBL
+atc_airline=IRANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRA
+ui_manufacturer=Airbus
+ui_type=Airbus A310-300
+ui_variation=Airbus A310 Iran Air EP-IBL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A310-300 Iran Air FSX.zip
+description=TFS_A310-300_GE-GE_300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRA

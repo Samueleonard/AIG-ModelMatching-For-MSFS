@@ -111,3 +111,41 @@ description=TFS_B777-200_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
+
+[fltsim.3]
+title=AIGAIM_Pakistan International Airlines Boeing 777-200
+model=PIA-Pakistan International Airlines
+texture=PIA-Pakistan International Airlines
+atc_id=AP-BGJ
+atc_airline=PAKISTAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200
+ui_variation=Pakistan International Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS B777-200ER PIA.zip
+description=TFS_B777-200_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PIA
+
+[fltsim.4]
+title=AIGAIM_Pakistan International Airlines Boeing 777-200 - OC
+model=PIA-Pakistan International Airlines_OC
+texture=PIA-Pakistan International Airlines_OC
+atc_id=AP-BGK
+atc_airline=PAKISTAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200
+ui_variation=Pakistan International AP-BGK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: ai_772_pia_fleet_fsx.zip
+description=TFS_B777-200_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PIA

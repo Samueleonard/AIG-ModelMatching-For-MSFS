@@ -291,3 +291,39 @@ description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATC
+
+[fltsim.14]
+title=AIGAIM_Air Austral Airbus A220-300 - Cliff/Palm Tree F-OMER
+model=REU-Air Austral_Cliff_Palm Tree F-OMER
+texture=REU-Air Austral_Cliff_Palm Tree F-OMER
+atc_id=F-OMER
+atc_airline=REUNION
+atc_parking_types=GATE,RAMP
+atc_parking_codes=REU
+ui_manufacturer=AIRBUS
+ui_type=Airbus A220-300
+ui_variation=Air Austral F-OMER
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: sbai_a220-300_reu.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=REU
+
+[fltsim.15]
+title=AIGAIM_Air Austral Airbus A220-300 - Waterfall F-OTER
+model=REU-Air Austral_Waterfall F-OTER
+texture=REU-Air Austral_Waterfall F-OTER
+atc_id=F-OTER
+atc_airline=REUNION
+atc_parking_types=GATE,RAMP
+atc_parking_codes=REU
+ui_manufacturer=AIRBUS
+ui_type=Airbus A220-300
+ui_variation=Air Austral F-OTER
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: sbai_a220-300_reu.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=REU

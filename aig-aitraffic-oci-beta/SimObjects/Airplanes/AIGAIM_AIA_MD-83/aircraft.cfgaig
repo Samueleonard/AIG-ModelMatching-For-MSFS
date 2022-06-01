@@ -389,3 +389,20 @@ description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WAL
+
+[fltsim.19]
+title=AIGAIM_Kish Air McDonnell Douglas MD-83
+model=KIS-Kish Air
+texture=KIS-Kish Air
+atc_airline=KISH AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KIS
+ui_manufacturer=AIA
+ui_type=McDonnell Douglas MD-83
+ui_variation=Kish Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: AIA_MD8X_KISH_FLEET_FSX.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KIS

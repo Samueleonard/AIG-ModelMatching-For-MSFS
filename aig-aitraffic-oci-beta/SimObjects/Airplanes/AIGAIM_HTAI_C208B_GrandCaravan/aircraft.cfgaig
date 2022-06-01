@@ -850,3 +850,57 @@ description=HTAI_C208B_Grand_Caravan-cp(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNK
+
+[fltsim.45]
+title=AIGAIM_Azul Conecta Cessna 208B Grand Caravan
+model=ACN-Azul Conecta
+texture=ACN-Azul Conecta
+atc_id=PT-MEM
+atc_airline=AZUL CONECTA
+atc_parking_types=RAMP
+atc_parking_codes=ACN
+ui_manufacturer=Cessna
+ui_type=Cessna 208B Grand Caravan
+ui_variation="PT-MEM"
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: azulconectafleethtaic208b.zip
+description=HTAI_C208B_Grand_Caravan-cp(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACN
+
+[fltsim.46]
+title=AIGAIM_Azul Conecta Cessna 208B Grand Caravan - Pink Ribbon
+model=ACN-Azul Conecta_Pink Ribbon
+texture=ACN-Azul Conecta_Pink Ribbon
+atc_id=PT-MEM
+atc_airline=AZUL CONECTA
+atc_parking_types=RAMP
+atc_parking_codes=ACN
+ui_manufacturer=Cessna
+ui_type=Cessna 208B Grand Caravan
+ui_variation="PT-MED"
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: azulconectafleethtaic208b.zip
+description=HTAI_C208B_Grand_Caravan-cp(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACN
+
+[fltsim.47]
+title=AIGAIM_Azul Conecta Cessna 208B Grand Caravan - TwoFlex Hybrid
+model=ACN-Azul Conecta_TwoFlex Hybrid
+texture=ACN-Azul Conecta_TwoFlex Hybrid
+atc_id=PR-MAU
+atc_airline=AZUL CONECTA
+atc_parking_types=RAMP
+atc_parking_codes=ACN
+ui_manufacturer=Cessna
+ui_type=Cessna 208B Grand Caravan
+ui_variation="PR-MAU"
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_ad2f_c208.zip
+description=HTAI_C208B_Grand_Caravan-cp(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACN

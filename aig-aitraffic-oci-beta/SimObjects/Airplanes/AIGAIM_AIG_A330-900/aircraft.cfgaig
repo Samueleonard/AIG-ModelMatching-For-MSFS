@@ -256,3 +256,39 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRL
+
+[fltsim.11]
+title=AIGAIM_Azul Airbus A330-900neo
+model=AZU-Azul
+texture=AZU-Azul
+atc_airline=AZUL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Azul Linhas Aéreas Brasileiras
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.12]
+title=AIGAIM_Azul Airbus A330-900neo - Blue U
+model=AZU-Azul_Blue U
+texture=AZU-Azul_Blue U
+atc_airline=AZUL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Azul Linhas Aéreas Brasileiras
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU

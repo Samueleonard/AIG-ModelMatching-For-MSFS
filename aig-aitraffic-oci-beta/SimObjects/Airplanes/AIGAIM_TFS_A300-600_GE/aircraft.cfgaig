@@ -53,27 +53,9 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Iran Air Airbus A300-600 - EP-IBB
-model=IRA-Iran Air_EP-IBB
-texture=IRA-Iran Air_EP-IBB
-atc_id=EP-IBB
-atc_airline=IRANAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IRA
-ui_manufacturer=Airbus
-ui_type=Airbus A300-600
-ui_variation=Airbus A300-600 GE Iran Air EP-IBB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: TFS A300-600 Iran Air FSX.zip
-description=TFS_A300-600_GE-A306_GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IRA
-
-[fltsim.1]
-title=AIGAIM_Iran Air Airbus A300-600 - EP-IBC
-model=IRA-Iran Air_EP-IBC
-texture=IRA-Iran Air_EP-IBC
+title=AIGAIM_Iran Air Airbus A300-600
+model=IRA-Iran Air
+texture=IRA-Iran Air
 atc_id=EP-IBC
 atc_airline=IRANAIR
 atc_parking_types=GATE,RAMP
@@ -88,17 +70,17 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
 
-[fltsim.2]
-title=AIGAIM_Iran Air Airbus A300-600 - EP-IBD
-model=IRA-Iran Air_EP-IBD
-texture=IRA-Iran Air_EP-IBD
-atc_id=EP-IBD
+[fltsim.1]
+title=AIGAIM_Iran Air Airbus A300-600 - White Wingtips
+model=IRA-Iran Air_White Wingtips
+texture=IRA-Iran Air_White Wingtips
+atc_id=EP-IBB
 atc_airline=IRANAIR
 atc_parking_types=GATE,RAMP
 atc_parking_codes=IRA
 ui_manufacturer=Airbus
 ui_type=Airbus A300-600
-ui_variation=Airbus A300-600 GE Iran Air EP-IBD
+ui_variation=Airbus A300-600 GE Iran Air EP-IBB
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A300-600 Iran Air FSX.zip
 description=TFS_A300-600_GE-A306_GE(fs20)

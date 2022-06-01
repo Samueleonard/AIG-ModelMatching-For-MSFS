@@ -861,3 +861,165 @@ ui_createdby=Provided by: FC75 Filename: OSP ATR72 Trujet_FSX_v3.zip
 description=OSP_ATR72-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
+
+[fltsim.45]
+title=AIGAIM_Tsaradia ATR 72-600 - Air Madagascar
+model=TDS-Tsaradia_Air Madagascar
+texture=TDS-Tsaradia_Air Madagascar
+atc_id=5R-EJB
+atc_airline=TSARADIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TDS
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-600
+ui_variation=Tsaradia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: osp_at76_tsaradia.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TDS
+
+[fltsim.46]
+title=AIGAIM_Azul Cargo ATR 72-600 - Preighter PR-AKB
+model=AZUC-Azul Cargo_Preighter PR-AKB
+texture=AZUC-Azul Cargo_Preighter PR-AKB
+atc_id=PR-AKB
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZUC,AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-AKB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.47]
+title=AIGAIM_Azul ATR 72-600 - PR-AKC Blue U
+model=AZU-Azul_PR-AKC Blue U
+texture=AZU-Azul_PR-AKC Blue U
+atc_id=PR-AKC
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-AKC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.48]
+title=AIGAIM_Azul ATR 72-600 - PR-AKF Pink Ribbon (TEMP)
+model=AZU-Azul_PR-AKF Pink Ribbon_temp
+texture=AZU-Azul_PR-AKF Pink Ribbon_temp
+atc_id=PR-AKF
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-AKF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.49]
+title=AIGAIM_Azul ATR 72-600 - PR-AQL Blue U Smile (TEMP)
+model=AZU-Azul_PR-AQL Blue U Smile_temp
+texture=AZU-Azul_PR-AQL Blue U Smile_temp
+atc_id=PR-AQL
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-AQL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.50]
+title=AIGAIM_Azul ATR 72-600 - PR-AQM Blue U Smile (TEMP)
+model=AZU-Azul_PR-AQM Blue U Smile_temp
+texture=AZU-Azul_PR-AQM Blue U Smile_temp
+atc_id=PR-AQM
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-AQM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.51]
+title=AIGAIM_Azul ATR 72-600 - PR-ATW Blue U Subtitles
+model=AZU-Azul_PR-ATW Blue U Subtitles
+texture=AZU-Azul_PR-ATW Blue U Subtitles
+atc_id=PR-ATW
+atc_airline=AZUL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Azul PR-ATW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 AZUL FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.52]
+title=AIGAIM_Iran Air ATR 72-600
+model=IRA-Iran Air
+texture=IRA-Iran Air
+atc_id=EP-ATA
+atc_airline=IRANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRA
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Iran Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 Iran Air FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRA
+
+[fltsim.53]
+title=AIGAIM_Iran Air ATR 72-600 - Belly Ribbon
+model=IRA-Iran Air_Belly Ribbon
+texture=IRA-Iran Air_Belly Ribbon
+atc_id=EP-ATF
+atc_airline=IRANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRA
+ui_manufacturer=ATR
+ui_type=ATR 72-600
+ui_variation=Iran Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72-600 Iran Air FSX.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRA

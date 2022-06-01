@@ -621,3 +621,38 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
+
+[fltsim.33]
+title=AIGAIM_Gulf Air Airbus A321-200neo - 70th Anniversary Retro 1976
+model=GFA-Gulf Air_70th Anniversary Retro 1976
+texture=GFA-Gulf Air_70th Anniversary Retro 1976
+atc_airline=GULF AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GFA
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Gulf Air - Retro
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_A21N_GFA_2021.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GFA
+
+[fltsim.34]
+title=AIGAIM_SalamAir Airbus A321-200neo
+model=OMS-SalamAir
+texture=OMS-SalamAir
+atc_id=A4O-OXA
+atc_airline=MAZOON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMS
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Ṭayaran as-Salam
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB_A321NEO_SalamAir.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMS

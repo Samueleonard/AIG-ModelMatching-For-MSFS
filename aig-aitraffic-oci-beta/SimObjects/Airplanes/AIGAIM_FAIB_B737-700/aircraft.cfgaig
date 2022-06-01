@@ -334,24 +334,6 @@ isUserSelectable=0
 icao_airline=EZA
 
 [fltsim.17]
-title=AIGAIM_Fly Baghdad Boeing 737-700 - Eyebrows
-model=FBA-Fly Baghdad_Eyebrows
-texture=FBA-Fly Baghdad_Eyebrows
-atc_id=YI-BAN
-atc_airline=IRAQ EXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FBA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-700
-ui_variation=Fly Baghdad YI-BAN 'Mustafa'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_73g_fba_fleet_fsx.zip
-description=FAIB_B737-700(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FBA
-
-[fltsim.18]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700 - no Dome
 model=SAS-SAS Scandinavian Airlines_no Dome
 texture=SAS-SAS Scandinavian Airlines_no Dome
@@ -369,7 +351,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Sun Country Airlines Boeing 737-700 - IC
 model=SCX-Sun Country Airlines_IC
 texture=SCX-Sun Country Airlines_IC
@@ -386,3 +368,21 @@ description=FAIB_B737-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
+
+[fltsim.19]
+title=AIGAIM_Fly Baghdad Boeing 737-700
+model=FBA-FlyBaghdad
+texture=FBA-FlyBaghdad
+atc_id=YI-BAN
+atc_airline=IRAQ EXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-700
+ui_variation=Fly Baghdad YI-BAN 'Mustafa'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_73g_fba_fleet_fsx.zip
+description=FAIB_B737-700(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBA

@@ -3287,3 +3287,39 @@ description=FAIB_A320-200SL_CFM-CFM_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
+
+[fltsim.182]
+title=AIGAIM_Go First Airbus A320-200SL - OC
+model=GOW-Go First_OC
+texture=GOW-Go First_OC
+atc_id=VT-GOM
+atc_airline=GO AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GOW
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=GoAir - VT-GOM (Blue - New Logos)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: FAIB A320 GoAir ceo 2018_FSX.zip
+description=FAIB_A320-200SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOW
+
+[fltsim.183]
+title=AIGAIM_Pakistan International Airlines Airbus A320-200SL - Interjet
+model=PIA-Pakistan International Airlines_Interjet
+texture=PIA-Pakistan International Airlines_Interjet
+atc_id=XA-IUA
+atc_airline=PAKISTAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PIA
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200SL
+ui_variation=Interjet XA-IUA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a320sl_aij_fsx.zip
+description=FAIB_A320-200SL_CFM-CFM_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PIA

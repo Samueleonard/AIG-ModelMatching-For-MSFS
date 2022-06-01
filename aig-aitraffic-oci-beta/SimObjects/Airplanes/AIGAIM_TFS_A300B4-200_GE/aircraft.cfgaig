@@ -53,16 +53,16 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Iran Air Airbus A300B4-200
+title=AIGAIM_Iran Air Airbus A300B4-200F
 model=IRA-Iran Air
 texture=IRA-Iran Air
 atc_id=EP-IBI
 atc_airline=IRANAIR
-atc_heavy=0
+atc_heavy=1
 atc_parking_types=GATE,RAMP
 atc_parking_codes=IRA
 ui_manufacturer=Airbus
-ui_type=Airbus A300B4-200
+ui_type=Airbus A300B4-200F
 ui_variation=Iran Air
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: TFS A300B4-200 Iran Air.zip

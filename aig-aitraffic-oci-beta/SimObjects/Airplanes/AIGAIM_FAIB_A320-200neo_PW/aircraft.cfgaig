@@ -1459,3 +1459,20 @@ description=FAIB_A320-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAT
+
+[fltsim.80]
+title=AIGAIM_Go First Airbus A320-200neo - OC
+model=GOW-Go First_OC
+texture=GOW-Go First_OC
+atc_airline=GO AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GOW
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200neo
+ui_variation=GoAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_a20n_gow.zip
+description=FAIB_A320-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GOW

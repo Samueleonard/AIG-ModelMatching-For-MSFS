@@ -285,3 +285,57 @@ description=RFSL_EMB-170v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PEV
+
+[fltsim.13]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA01FJ
+model=FDA-Fuji Dream Airlines_JA01FJ
+texture=FDA-Fuji Dream Airlines_JA01FJ
+atc_id=JA01FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-170
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB170 Fuji Dream FSX.zip
+description=RFSL_EMB-170v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.14]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA02FJ
+model=FDA-Fuji Dream Airlines_JA02FJ
+texture=FDA-Fuji Dream Airlines_JA02FJ
+atc_id=JA02FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-170
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB170 Fuji Dream FSX.zip
+description=RFSL_EMB-170v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.15]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA04FJ
+model=FDA-Fuji Dream Airlines_JA04FJ
+texture=FDA-Fuji Dream Airlines_JA04FJ
+atc_id=JA04FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-170
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB170 Fuji Dream FSX.zip
+description=RFSL_EMB-170v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA

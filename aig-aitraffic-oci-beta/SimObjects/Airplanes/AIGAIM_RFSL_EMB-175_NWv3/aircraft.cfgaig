@@ -300,3 +300,147 @@ description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
+
+[fltsim.14]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA09FJ
+model=FDA-Fuji Dream Airlines_JA09FJ
+texture=FDA-Fuji Dream Airlines_JA09FJ
+atc_id=JA09FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.15]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA10FJ
+model=FDA-Fuji Dream Airlines_JA10FJ
+texture=FDA-Fuji Dream Airlines_JA10FJ
+atc_id=JA10FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.16]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA11FJ
+model=FDA-Fuji Dream Airlines_JA11FJ
+texture=FDA-Fuji Dream Airlines_JA11FJ
+atc_id=JA11FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.17]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA12FJ
+model=FDA-Fuji Dream Airlines_JA12FJ
+texture=FDA-Fuji Dream Airlines_JA12FJ
+atc_id=JA12FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.18]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA13FJ
+model=FDA-Fuji Dream Airlines_JA13FJ
+texture=FDA-Fuji Dream Airlines_JA13FJ
+atc_id=JA13FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.19]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA14FJ
+model=FDA-Fuji Dream Airlines_JA14FJ
+texture=FDA-Fuji Dream Airlines_JA14FJ
+atc_id=JA14FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.20]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA15FJ
+model=FDA-Fuji Dream Airlines_JA15FJ
+texture=FDA-Fuji Dream Airlines_JA15FJ
+atc_id=JA15FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA
+
+[fltsim.21]
+title=AIGAIM_Fuji Dream Airlines Embraer EMB-175 New WL - JA16FJ
+model=FDA-Fuji Dream Airlines_JA16FJ
+texture=FDA-Fuji Dream Airlines_JA16FJ
+atc_id=JA16FJ
+atc_airline=FUJI DREAM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-175 New WL
+ui_variation=Fuji Dream Airlines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EMB175 Fuji Dream FSX.zip
+description=RFSL_EMB-175_NWv3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDA

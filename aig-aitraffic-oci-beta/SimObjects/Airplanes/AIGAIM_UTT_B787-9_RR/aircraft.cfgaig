@@ -532,25 +532,6 @@ isUserSelectable=0
 icao_airline=GFA
 
 [fltsim.25]
-title=AIGAIM_Gulf Air Boeing 787-9 - Retro - 70th Anniversary
-model=GFA-Gulf Air_Retro - 70th Anniversary
-texture=GFA-Gulf Air_Retro - 70th Anniversary
-atc_id=A9C-FG
-atc_airline=GULF AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GFA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Tayaran al-Halig
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Gulf Air.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GFA
-
-[fltsim.26]
 title=AIGAIM_LATAM Airlines Chile Boeing 787-9
 model=LAN-LATAM Airlines Chile
 texture=LAN-LATAM Airlines Chile
@@ -569,7 +550,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_LATAM Airlines Peru Boeing 787-9
 model=LPE-LATAM Airlines Peru
 texture=LPE-LATAM Airlines Peru
@@ -587,3 +568,22 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
+
+[fltsim.27]
+title=AIGAIM_Gulf Air Boeing 787-9 - 70th Anniversary Retro
+model=GFA-Gulf Air_70th Anniversary Retro
+texture=GFA-Gulf Air_70th Anniversary Retro
+atc_id=A9C-FG
+atc_airline=GULF AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GFA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Tayaran al-Halig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Gulf Air.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GFA
