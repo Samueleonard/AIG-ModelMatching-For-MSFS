@@ -395,42 +395,6 @@ isUserSelectable=0
 icao_airline=AUA
 
 [fltsim.19]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AUA Blue U Canarinho
-model=AZU-Azul_PR-AUA Blue U Canarinho
-texture=AZU-Azul_PR-AUA Blue U Canarinho
-atc_id=PR-AUA
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AUA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.20]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AUC Blue U
-model=AZU-Azul_PR-AUC Blue U
-texture=AZU-Azul_PR-AUC Blue U
-atc_id=PR-AUC
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AUC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.21]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUE Blue U Smile
 model=AZU-Azul_PR-AUE Blue U Smile
 texture=AZU-Azul_PR-AUE Blue U Smile
@@ -448,7 +412,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUF Blue U Smile
 model=AZU-Azul_PR-AUF Blue U Smile
 texture=AZU-Azul_PR-AUF Blue U Smile
@@ -466,7 +430,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUH Blue U (TEMP)
 model=AZU-Azul_PR-AUH Blue U_temp
 texture=AZU-Azul_PR-AUH Blue U_temp
@@ -484,7 +448,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUI Blue U
 model=AZU-Azul_PR-AUI Blue U
 texture=AZU-Azul_PR-AUI Blue U
@@ -502,7 +466,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUJ Blue U
 model=AZU-Azul_PR-AUJ Blue U
 texture=AZU-Azul_PR-AUJ Blue U
@@ -520,7 +484,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUK Blue U
 model=AZU-Azul_PR-AUK Blue U
 texture=AZU-Azul_PR-AUK Blue U
@@ -538,7 +502,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUM Blue U
 model=AZU-Azul_PR-AUM Blue U
 texture=AZU-Azul_PR-AUM Blue U
@@ -556,7 +520,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUN Blue U
 model=AZU-Azul_PR-AUN Blue U
 texture=AZU-Azul_PR-AUN Blue U
@@ -574,7 +538,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.29]
+[fltsim.27]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUO Blue U
 model=AZU-Azul_PR-AUO Blue U
 texture=AZU-Azul_PR-AUO Blue U
@@ -592,25 +556,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.30]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AUP Blue U 1200th Embraer
-model=AZU-Azul_PR-AUP Blue U 1200th Embraer
-texture=AZU-Azul_PR-AUP Blue U 1200th Embraer
-atc_id=PR-AUP
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AUP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUQ Sky
 model=AZU-Azul_PR-AUQ Sky
 texture=AZU-Azul_PR-AUQ Sky
@@ -628,7 +574,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.32]
+[fltsim.29]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXA Blue U Subtitles
 model=AZU-Azul_PR-AXA Blue U Subtitles
 texture=AZU-Azul_PR-AXA Blue U Subtitles
@@ -646,7 +592,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.33]
+[fltsim.30]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXB Blue U Subtitles
 model=AZU-Azul_PR-AXB Blue U Subtitles
 texture=AZU-Azul_PR-AXB Blue U Subtitles
@@ -664,7 +610,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.34]
+[fltsim.31]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXC Blue U Subtitles
 model=AZU-Azul_PR-AXC Blue U Subtitles
 texture=AZU-Azul_PR-AXC Blue U Subtitles
@@ -682,25 +628,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.35]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AXD Blue U Subtitles
-model=AZU-Azul_PR-AXD Blue U Subtitles
-texture=AZU-Azul_PR-AXD Blue U Subtitles
-atc_id=PR-AXD
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AXD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.36]
+[fltsim.32]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXE Blue U Subtitles (TEMP)
 model=AZU-Azul_PR-AXE Blue U Subtitles_temp
 texture=AZU-Azul_PR-AXE Blue U Subtitles_temp
@@ -718,25 +646,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.37]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AXF Blue U Subtitles
-model=AZU-Azul_PR-AXF Blue U Subtitles
-texture=AZU-Azul_PR-AXF Blue U Subtitles
-atc_id=PR-AXF
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AXF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.38]
+[fltsim.33]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXG Blue U Subtitles
 model=AZU-Azul_PR-AXG Blue U Subtitles
 texture=AZU-Azul_PR-AXG Blue U Subtitles
@@ -754,7 +664,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.39]
+[fltsim.34]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXH 50 Cities
 model=AZU-Azul_PR-AXH 50 Cities
 texture=AZU-Azul_PR-AXH 50 Cities
@@ -772,25 +682,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.40]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AXI Blue U Subtitles
-model=AZU-Azul_PR-AXI Blue U Subtitles
-texture=AZU-Azul_PR-AXI Blue U Subtitles
-atc_id=PR-AXI
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AXI
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.41]
+[fltsim.35]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXJ Blue U Subtitles
 model=AZU-Azul_PR-AXJ Blue U Subtitles
 texture=AZU-Azul_PR-AXJ Blue U Subtitles
@@ -808,7 +700,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.42]
+[fltsim.36]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXK Blue U Subtitles
 model=AZU-Azul_PR-AXK Blue U Subtitles
 texture=AZU-Azul_PR-AXK Blue U Subtitles
@@ -826,7 +718,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.43]
+[fltsim.37]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXL Blue U Caixa
 model=AZU-Azul_PR-AXL Blue U Caixa
 texture=AZU-Azul_PR-AXL Blue U Caixa
@@ -844,7 +736,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.44]
+[fltsim.38]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXN Blue U Subtitles
 model=AZU-Azul_PR-AXN Blue U Subtitles
 texture=AZU-Azul_PR-AXN Blue U Subtitles
@@ -862,7 +754,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.45]
+[fltsim.39]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXO Blue U Subtitles
 model=AZU-Azul_PR-AXO Blue U Subtitles
 texture=AZU-Azul_PR-AXO Blue U Subtitles
@@ -880,25 +772,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.46]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AXP Blue U
-model=AZU-Azul_PR-AXP Blue U
-texture=AZU-Azul_PR-AXP Blue U
-atc_id=PR-AXP
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AXP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.47]
+[fltsim.40]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXR Blue U (TEMP)
 model=AZU-Azul_PR-AXR Blue U_temp
 texture=AZU-Azul_PR-AXR Blue U_temp
@@ -916,7 +790,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.48]
+[fltsim.41]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXS Blue U (TEMP)
 model=AZU-Azul_PR-AXS Blue U_temp
 texture=AZU-Azul_PR-AXS Blue U_temp
@@ -934,7 +808,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.49]
+[fltsim.42]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXT Blue U
 model=AZU-Azul_PR-AXT Blue U
 texture=AZU-Azul_PR-AXT Blue U
@@ -952,7 +826,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.50]
+[fltsim.43]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXU Blue U
 model=AZU-Azul_PR-AXU Blue U
 texture=AZU-Azul_PR-AXU Blue U
@@ -970,25 +844,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.51]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AXW Blue U
-model=AZU-Azul_PR-AXW Blue U
-texture=AZU-Azul_PR-AXW Blue U
-atc_id=PR-AXW
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AXW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.52]
+[fltsim.44]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXX Blue U
 model=AZU-Azul_PR-AXX Blue U
 texture=AZU-Azul_PR-AXX Blue U
@@ -1006,7 +862,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.53]
+[fltsim.45]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXY Blue U
 model=AZU-Azul_PR-AXY Blue U
 texture=AZU-Azul_PR-AXY Blue U
@@ -1024,7 +880,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.54]
+[fltsim.46]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXZ Blue U
 model=AZU-Azul_PR-AXZ Blue U
 texture=AZU-Azul_PR-AXZ Blue U
@@ -1042,7 +898,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.55]
+[fltsim.47]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYI Blue U Subtitles
 model=AZU-Azul_PR-AYI Blue U Subtitles
 texture=AZU-Azul_PR-AYI Blue U Subtitles
@@ -1060,25 +916,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.56]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AYJ Blue U Subtitles
-model=AZU-Azul_PR-AYJ Blue U Subtitles
-texture=AZU-Azul_PR-AYJ Blue U Subtitles
-atc_id=PR-AYJ
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AYJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.57]
+[fltsim.48]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYK Blue U Subtitles
 model=AZU-Azul_PR-AYK Blue U Subtitles
 texture=AZU-Azul_PR-AYK Blue U Subtitles
@@ -1096,7 +934,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.58]
+[fltsim.49]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYL Blue U Subtitles (TEMP)
 model=AZU-Azul_PR-AYL Blue U Subtitles_temp
 texture=AZU-Azul_PR-AYL Blue U Subtitles_temp
@@ -1114,7 +952,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.59]
+[fltsim.50]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYN Blue U Subtitles
 model=AZU-Azul_PR-AYN Blue U Subtitles
 texture=AZU-Azul_PR-AYN Blue U Subtitles
@@ -1132,25 +970,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.60]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AYO Pink Ribbon
-model=AZU-Azul_PR-AYO Pink Ribbon
-texture=AZU-Azul_PR-AYO Pink Ribbon
-atc_id=PR-AYO
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AYO
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.61]
+[fltsim.51]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYV Brazil Flag
 model=AZU-Azul_PR-AYV Brazil Flag
 texture=AZU-Azul_PR-AYV Brazil Flag
@@ -1168,25 +988,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.62]
-title=AIGAIM_Azul Embraer EMB-195 - PR-AYX Rumo a Sustentabilidade
-model=AZU-Azul_PR-AYX Rumo a Sustentabilidade
-texture=AZU-Azul_PR-AYX Rumo a Sustentabilidade
-atc_id=PR-AYX
-atc_airline=AZUL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-195
-ui_variation=Azul Linhas Aereas PR-AYX
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA ERJ195 Azul FSX.zip
-description=AIA_EMB-195(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZU
-
-[fltsim.63]
+[fltsim.52]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYY Azul Viagens
 model=AZU-Azul_PR-AYY Azul Viagens
 texture=AZU-Azul_PR-AYY Azul Viagens
@@ -1204,7 +1006,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.64]
+[fltsim.53]
 title=AIGAIM_Belavia Embraer EMB-195
 model=BRU-Belavia
 texture=BRU-Belavia
@@ -1222,7 +1024,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.65]
+[fltsim.54]
 title=AIGAIM_Belavia Embraer EMB-195 - OC
 model=BRU-Belavia_OC
 texture=BRU-Belavia_OC
@@ -1240,7 +1042,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.66]
+[fltsim.55]
 title=AIGAIM_Belavia Embraer EMB-195 - World of Tanks
 model=BRU-Belavia_World of Tanks
 texture=BRU-Belavia_World of Tanks
@@ -1258,7 +1060,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.67]
+[fltsim.56]
 title=AIGAIM_Breeze Airways Embraer EMB-195
 model=MXY-Breeze Airways
 texture=MXY-Breeze Airways
@@ -1276,7 +1078,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXY
 
-[fltsim.68]
+[fltsim.57]
 title=AIGAIM_Ukraine International Airlines Embraer EMB-195
 model=AUI-Ukraine International Airlines
 texture=AUI-Ukraine International Airlines
@@ -1294,7 +1096,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
 
-[fltsim.69]
+[fltsim.58]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC
 model=DLHX-Lufthansa Regional_opb CLH OC
 texture=DLHX-Lufthansa Regional_opb CLH OC
@@ -1312,7 +1114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.70]
+[fltsim.59]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb CLH OC unnamed LH Titles
 model=DLHX-Lufthansa Regional_opb CLH OC unnamed LH Titles
 texture=DLHX-Lufthansa Regional_opb CLH OC unnamed LH Titles
@@ -1330,7 +1132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.71]
+[fltsim.60]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA
 model=DLHX-Lufthansa Regional_opb DLA
 texture=DLHX-Lufthansa Regional_opb DLA
@@ -1348,7 +1150,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.72]
+[fltsim.61]
 title=AIGAIM_Lufthansa Regional Embraer EMB-195 - opb DLA OC Hellas Verona
 model=DLHX-Lufthansa Regional_opb DLA OC Hellas Verona
 texture=DLHX-Lufthansa Regional_opb DLA OC Hellas Verona
@@ -1366,7 +1168,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLHX
 
-[fltsim.73]
+[fltsim.62]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -1384,7 +1186,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.74]
+[fltsim.63]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Belly Titles
 model=LOT-LOT Polish Airlines_Belly Titles
 texture=LOT-LOT Polish Airlines_Belly Titles
@@ -1402,7 +1204,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.75]
+[fltsim.64]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC
 model=LOT-LOT Polish Airlines_OC
 texture=LOT-LOT Polish Airlines_OC
@@ -1420,7 +1222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.76]
+[fltsim.65]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Grzeski
 model=LOT-LOT Polish Airlines_OC Grzeski
 texture=LOT-LOT Polish Airlines_OC Grzeski
@@ -1438,7 +1240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.77]
+[fltsim.66]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - OC Sliwka Naleczowska
 model=LOT-LOT Polish Airlines_OC Sliwka Naleczowska
 texture=LOT-LOT Polish Airlines_OC Sliwka Naleczowska
@@ -1456,7 +1258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.78]
+[fltsim.67]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Azul Hybrid SP-LNN
 model=LOT-LOT Polish Airlines_Azul Hybrid SP-LNN
 texture=LOT-LOT Polish Airlines_Azul Hybrid SP-LNN
@@ -1474,7 +1276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.79]
+[fltsim.68]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-195 - Saratov Hybrid
 model=LOT-LOT Polish Airlines_Saratov Hybrid
 texture=LOT-LOT Polish Airlines_Saratov Hybrid
@@ -1492,7 +1294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.80]
+[fltsim.69]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMA
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMA
@@ -1510,7 +1312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.81]
+[fltsim.70]
 title=AIGAIM_Royal Jordanian Airlines Embraer EMB-195 - Webtitles JY-EMB
 model=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
 texture=RJA-Royal Jordanian Airlines_Webtitles JY-EMB
@@ -1528,7 +1330,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RJA
 
-[fltsim.82]
+[fltsim.71]
 title=AIGAIM_TAP Express Embraer EMB-195 - IC opb Portugalia Wifi dome
 model=TAPX-TAP Express_IC opb Portugalia Wifi dome
 texture=TAPX-TAP Express_IC opb Portugalia Wifi dome
@@ -1546,7 +1348,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGA
 
-[fltsim.83]
+[fltsim.72]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AUP Blue U
 model=AZU-Azul_PR-AUP Blue U
 texture=AZU-Azul_PR-AUP Blue U
@@ -1564,7 +1366,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.84]
+[fltsim.73]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AXP Tripadvisor World Best Airline 2020 (TEMP)
 model=AZU-Azul_PR-AXP Tripadvisor World Best Airline 2020_temp
 texture=AZU-Azul_PR-AXP Tripadvisor World Best Airline 2020_temp
@@ -1582,7 +1384,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.85]
+[fltsim.74]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYE Blue U Subtitles
 model=AZU-Azul_PR-AYE Blue U Subtitles
 texture=AZU-Azul_PR-AYE Blue U Subtitles
@@ -1600,7 +1402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.86]
+[fltsim.75]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYF Blue U Subtitles
 model=AZU-Azul_PR-AYF Blue U Subtitles
 texture=AZU-Azul_PR-AYF Blue U Subtitles
@@ -1618,7 +1420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.87]
+[fltsim.76]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYG Blue U Subtitles
 model=AZU-Azul_PR-AYG Blue U Subtitles
 texture=AZU-Azul_PR-AYG Blue U Subtitles
@@ -1636,7 +1438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.88]
+[fltsim.77]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYX Rumo a Sustentabilidade (TEMP)
 model=AZU-Azul_PR-AYX Rumo a Sustentabilidade_temp
 texture=AZU-Azul_PR-AYX Rumo a Sustentabilidade_temp
@@ -1654,7 +1456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
 
-[fltsim.89]
+[fltsim.78]
 title=AIGAIM_Azul Embraer EMB-195 - PR-AYZ Blue U Subtitles
 model=AZU-Azul_PR-AYZ Blue U Subtitles
 texture=AZU-Azul_PR-AYZ Blue U Subtitles
