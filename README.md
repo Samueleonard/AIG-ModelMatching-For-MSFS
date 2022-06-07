@@ -12,7 +12,7 @@ Included is the latest AIG install for MSFS ONLY.
 
 Download from - 
 
-[Google Drive](https://drive.google.com/file/d/1dXGrK_mOzdnhA1mH1W53xWkv6xNnEjrq/view?usp=sharing) for a zipped file (4.5gb download, ~35gb unzipped)
+[Google Drive](https://drive.google.com/file/d/1dXGrK_mOzdnhA1mH1W53xWkv6xNnEjrq/view?usp=sharing) for a zipped file (5.1gb download, ~44gb unzipped)
 
 Just drag into the community folder. If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot.
 
