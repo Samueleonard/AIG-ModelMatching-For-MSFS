@@ -27,7 +27,7 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 
 I will aim to update this pack every time there is a significant update to AIG.
 
-If you wish to update your install, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+If you wish to update your install earlier than me, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
 
 ## USAGE WITH ONLINE NETWORKS (VATSIM)
 
@@ -37,7 +37,7 @@ A VMR File for [VATSIM](https://vatsim.net/) usage has been included in the fold
 
 If you want to manually download the latest version, it is available at:  https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching
 
-To enable the VMR file, just select it through 'custom rules' in the vPilot menu 
+To enable the VMR file, just select it through 'custom rules' in the vPilot menu. 
 
 ![image](https://user-images.githubusercontent.com/34142670/172803394-104b65f9-48eb-49c0-b121-974a03fe4118.png)
 
