@@ -471,3 +471,22 @@ description=TFS_A340-300-Normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+
+[fltsim.22]
+title=AIGAIM_Iran Aseman Airlines Airbus A340-300
+model=IRC-Iran Aseman Airlines
+texture=IRC-Iran Aseman Airlines
+atc_id=EP-AJA
+atc_airline=ASEMAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRC
+ui_manufacturer=Airbus
+ui_type=Airbus A340-300
+ui_variation=Iran Iran Aseman EP-APA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A340-300 Iran Aseman FSX.zip
+description=TFS_A340-300-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRC

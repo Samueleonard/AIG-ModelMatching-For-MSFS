@@ -2217,3 +2217,21 @@ description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZU
+
+[fltsim.124]
+title=AIGAIM_Iran Aseman Airlines Boeing 737-400
+model=IRC-Iran Aseman Airlines
+texture=IRC-Iran Aseman Airlines
+atc_id=EP-AOP
+atc_airline=ASEMAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRC
+ui_manufacturer=Boeing
+ui_type=Boeing 737-400
+ui_variation=Iran Aseman Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-400 Iran Aseman FSX.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRC

@@ -587,3 +587,21 @@ description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
+
+[fltsim.28]
+title=AIGAIM_Air New Zealand Boeing 787-9 - Black
+model=ANZ-Air New Zealand_Black
+texture=ANZ-Air New Zealand_Black
+atc_airline=NEW ZEALAND
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANZ
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Air New Zealand Black
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: UTT_B789_ANZ.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANZ

@@ -87,3 +87,22 @@ description=TFS_A300-600_GE-A306_GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
+
+[fltsim.2]
+title=AIGAIM_Iran Airtour Airbus A300-600
+model=IRB-Iran Airtour
+texture=IRB-Iran Airtour
+atc_id=EP-MNN
+atc_airline=IRAN AIRTOUR
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRB
+ui_manufacturer=Airbus
+ui_type=Airbus A300-600
+ui_variation=Iran Airtour
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A300-600 Iran Airtour.zip
+description=TFS_A300-600_GE-A306_GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRB

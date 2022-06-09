@@ -2840,3 +2840,21 @@ description=FAIB_A319-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
+
+[fltsim.157]
+title=AIGAIM_Zagros Airlines Airbus A319-100 - OC BEL Hybrid
+model=IZG-Zagros Airlines_OC BEL Hybrid
+texture=IZG-Zagros Airlines_OC BEL Hybrid
+atc_id=EP-ZAX
+atc_airline=ZAGROS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IZG
+ui_manufacturer=FAIB
+ui_type=Airbus A319-100
+ui_variation=Zagros Airlines:: Paint by Joel Branchu
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FLTSIM Filename: a32xizg.zip
+description=FAIB_A319-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IZG

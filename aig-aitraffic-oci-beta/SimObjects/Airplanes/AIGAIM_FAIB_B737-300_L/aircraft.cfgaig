@@ -1335,3 +1335,21 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
+
+[fltsim.74]
+title=AIGAIM_Saha Airlines Boeing 737-300 (TEMP)
+model=IRZ-Saha Airlines_temp
+texture=IRZ-Saha Airlines_temp
+atc_id=EP-SIJ
+atc_airline=SAHA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRZ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=Saha Airlines EP-SIJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-300 Saha Airlines.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRZ

@@ -414,3 +414,39 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CUB
+
+[fltsim.20]
+title=AIGAIM_Air New Zealand Link ATR 72-500 - opb Mount Cook
+model=NZM-Air New Zealand Link_opb Mount Cook
+texture=NZM-Air New Zealand Link_opb Mount Cook
+atc_id=ZK-MCB
+atc_airline=NEW ZEALAND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NZM,ANZX
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Air New Zealand Link ZK-MCB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: osp-at75-fern-fsx.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NZM
+
+[fltsim.21]
+title=AIGAIM_Iran Aseman Airlines ATR 72-500
+model=IRC-Iran Aseman Airlines
+texture=IRC-Iran Aseman Airlines
+atc_id=EP-ATX
+atc_airline=ASEMAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRC
+ui_manufacturer=ATR
+ui_type=ATR 72-500
+ui_variation=Iran Aseman
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: OSP ATR72 Iran Aseman FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRC

@@ -843,3 +843,75 @@ description=OSP_ATR72-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
+
+[fltsim.44]
+title=AIGAIM_Air New Zealand Link ATR 72-600 - opb Mount Cook
+model=NZM-Air New Zealand Link_opb Mount Cook
+texture=NZM-Air New Zealand Link_opb Mount Cook
+atc_id=ZK-MVE
+atc_airline=NEW ZEALAND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NZM,ANZX
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=Air New Zealand Link ZK-MVE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: osp-at76-fern-fsx.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NZM
+
+[fltsim.45]
+title=AIGAIM_Air New Zealand Link ATR 72-600 - opb Mount Cook Black Livery
+model=NZM-Air New Zealand Link_opb Mount Cook Black Livery
+texture=NZM-Air New Zealand Link_opb Mount Cook Black Livery
+atc_id=ZK-MVA
+atc_airline=NEW ZEALAND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NZM,ANZX
+ui_manufacturer=OSP ATR
+ui_type=ATR 72-600
+ui_variation=Air New Zealand 'All Blacks'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: osp_at76_anz_all_blacks.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NZM
+
+[fltsim.46]
+title=AIGAIM_Air New Zealand ATR 72-600
+model=ANZ-Air New Zealand
+texture=ANZ-Air New Zealand
+atc_id=ZK-MVE
+atc_airline=NEW ZEALAND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANZ
+ui_manufacturer=OSP
+ui_type=ATR 72-600
+ui_variation=Air New Zealand Link ZK-MVE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: osp-at76-fern-fsx.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANZ
+
+[fltsim.47]
+title=AIGAIM_Air New Zealand ATR 72-600 - Black
+model=ANZ-Air New Zealand_Black
+texture=ANZ-Air New Zealand_Black
+atc_id=ZK-MVA
+atc_airline=NEW ZEALAND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANZ
+ui_manufacturer=OSP ATR
+ui_type=ATR 72-600
+ui_variation=Air New Zealand 'All Blacks'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: osp_at76_anz_all_blacks.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANZ
