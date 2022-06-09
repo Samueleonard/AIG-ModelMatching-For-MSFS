@@ -1,14 +1,17 @@
-# AIG-ModelMatching-For-MSFS
-Latest version of AIG modelmatching for MSFS -  I take the pain so you don't have to.
+# AIG-Model Matching-For-MSFS
+## Introduction
 
-A VMR File for vatsim usage has been included in the root folder (full permission granted - credit to britishavgeek) however if you still wish to manually download for the latest version: https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching
+Latest version of AIG model matching for MSFS -  I take the pain so you don't have to.
+
+A VMR File for [VATSIM](https://vatsim.net/) usage has been included in the root folder (full permission granted - credit to britishavgeek) however if you still wish to manually download for the latest version: https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching
 
 Included is the latest AIG install for MSFS ONLY.
 
 <p>AI Sounds now work as of 02/01/2022 - issue fixed by AIG (thank you)
 <p>Offline AI traffic plans are included - offline aig traffic works (you must use the aig traffic controller to inject correct (not included - available on aig website))
   
-<b>INSTALL</b>
+
+## <b>INSTALL</b>
 
 Download from - 
 
@@ -16,8 +19,8 @@ Download from -
 
 Just drag into the community folder. If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot.
 
+**NEVER  DOWNLOAD ANYTHING FROM THE GITHUB - ONLY DOWNLOAD FROM THE LINK ABOVE**
 
-MANUAL UPDATES
+## MANUAL UPDATES
 
 .aig manager recommended for manually updating, however I will try to keep this updated as often as possible - ideally weekly however definitely every time there is a new addition (within a few days) - manual updates suggested in case I forget to update
-
