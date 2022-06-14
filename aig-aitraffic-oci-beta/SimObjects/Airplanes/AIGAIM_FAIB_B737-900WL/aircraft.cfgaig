@@ -144,3 +144,21 @@ description=FAIB_B737-900WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
+
+[fltsim.6]
+title=AIGAIM_Oman Air Boeing 737-900WL
+model=OMA-Oman Air
+texture=OMA-Oman Air
+atc_id=A4O-BI
+atc_airline=OMAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-900WL
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B739ER Oman Air FSX.zip
+description=FAIB_B737-900WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA

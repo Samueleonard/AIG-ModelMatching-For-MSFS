@@ -905,3 +905,22 @@ description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
+
+[fltsim.45]
+title=AIGAIM_Oman Air Boeing 787-9 - fwd wifi
+model=OMA-Oman Air_fwd wifi
+texture=OMA-Oman Air_fwd wifi
+atc_id=A4O-SF
+atc_airline=OMAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Oman Air FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA

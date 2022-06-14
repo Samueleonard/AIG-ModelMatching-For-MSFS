@@ -2235,3 +2235,20 @@ description=FAIB_B737-400-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRC
+
+[fltsim.125]
+title=AIGAIM_Air North Boeing 737-400 - Logolight
+model=ANT-Air North_Logolight
+texture=ANT-Air North_Logolight
+atc_airline=AIR NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-400
+ui_variation=Air North
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_734_ant.zip
+description=FAIB_B737-400-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT

@@ -106,3 +106,22 @@ description=TFS_A310-300_GE-GE_300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
+
+[fltsim.3]
+title=AIGAIM_Ariana Afghan Airlines Airbus A310-300
+model=AFG-Ariana Afghan Airlines
+texture=AFG-Ariana Afghan Airlines
+atc_id=YA-CAV
+atc_airline=ARIANA
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFG
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A310-300
+ui_variation=Ariana Afghan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_Airbus A310-300_Ariana Afghan Airlines_FSX.zip
+description=TFS_A310-300_GE-GE_300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFG

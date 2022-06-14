@@ -369,3 +369,20 @@ description=AIA_F-100(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRC
+
+[fltsim.18]
+title=AIGAIM_Qeshm Airlines Fokker 100 (TEMP)
+model=QSM-Qeshm Air_temp
+texture=QSM-Qeshm Air_temp
+atc_airline=QESHM AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QSM
+ui_manufacturer=AI Aardvark
+ui_type=Fokker 100
+ui_variation=Qeshm Air EP-FQG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: qeshm_f100.zip
+description=AIA_F-100(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QSM

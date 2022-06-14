@@ -106,3 +106,20 @@ description=OSP_ATR42-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
+
+[fltsim.3]
+title=AIGAIM_Air North ATR 42-300
+model=ANT-Air North
+texture=ANT-Air North
+atc_airline=AIR NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=OSP
+ui_type=ATR 42-300
+ui_variation=Air North
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: osp_at43_ant.zip
+description=OSP_ATR42-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT

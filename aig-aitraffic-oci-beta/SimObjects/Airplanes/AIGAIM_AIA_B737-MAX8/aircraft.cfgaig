@@ -598,3 +598,21 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
+
+[fltsim.30]
+title=AIGAIM_Oman Air Boeing 737 MAX 8
+model=OMA-Oman Air
+texture=OMA-Oman Air
+atc_id=A4O-MA
+atc_airline=OMAN AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA_B737_MAX8_Oman_Air.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA

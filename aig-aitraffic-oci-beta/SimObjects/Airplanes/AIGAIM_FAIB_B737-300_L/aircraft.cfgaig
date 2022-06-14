@@ -1177,24 +1177,6 @@ isUserSelectable=0
 icao_airline=TJB
 
 [fltsim.65]
-title=AIGAIM_Varesh Airlines Boeing 737-300 - Logolight
-model=VRH-Varesh Airlines_Logolight
-texture=VRH-Varesh Airlines_Logolight
-atc_id=EP-VAI
-atc_airline=SKY VICTOR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VRH
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300
-ui_variation=Varesh Airlines EP-VAI
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-300 Varesh Airlines.zip
-description=FAIB_B737-300-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VRH
-
-[fltsim.66]
 title=AIGAIM_Deraya Air Taxi Boeing 737-300 - QC
 model=DRY-Deraya Air Taxi_QC
 texture=DRY-Deraya Air Taxi_QC
@@ -1212,7 +1194,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DRY
 
-[fltsim.67]
+[fltsim.66]
 title=AIGAIM_West Atlantic UK Boeing 737-300 - BDSF Cargo Airlines-stickers
 model=NPT-West Atlantic UK_BDSF Cargo Airlines-stickers
 texture=NPT-West Atlantic UK_BDSF Cargo Airlines-stickers
@@ -1230,7 +1212,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NPT
 
-[fltsim.68]
+[fltsim.67]
 title=AIGAIM_Cargoair Boeing 737-300 - SF Eyebrows
 model=CGF-Cargoair_SF Eyebrows
 texture=CGF-Cargoair_SF Eyebrows
@@ -1248,7 +1230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CGF
 
-[fltsim.69]
+[fltsim.68]
 title=AIGAIM_UR Airlines Boeing 737-300
 model=UBD-UR Airlines
 texture=UBD-UR Airlines
@@ -1266,7 +1248,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UBD
 
-[fltsim.70]
+[fltsim.69]
 title=AIGAIM_BidAir Cargo Boeing 737-300 - SF Big 737 Titles
 model=BRH-BidAir Cargo_SF Big 737 Titles
 texture=BRH-BidAir Cargo_SF Big 737 Titles
@@ -1284,7 +1266,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRH
 
-[fltsim.71]
+[fltsim.70]
 title=AIGAIM_EAT Leipzig Boeing 737-300 - SF opb Cargoair Eyebrows
 model=BCS-EAT Leipzig_SF opb Cargoair Eyebrows
 texture=BCS-EAT Leipzig_SF opb Cargoair Eyebrows
@@ -1302,7 +1284,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.72]
+[fltsim.71]
 title=AIGAIM_Asia Cargo Airlines Boeing 737-300 - SF eyebrows Tri MG colors
 model=TMG-Asia Cargo Airlines_SF eyebrows Tri MG colors
 texture=TMG-Asia Cargo Airlines_SF eyebrows Tri MG colors
@@ -1319,7 +1301,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TMG
 
-[fltsim.73]
+[fltsim.72]
 title=AIGAIM_China Southern Airlines Boeing 737-300
 model=CSN-China Southern Airlines
 texture=CSN-China Southern Airlines
@@ -1336,7 +1318,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.74]
+[fltsim.73]
 title=AIGAIM_Saha Airlines Boeing 737-300 (TEMP)
 model=IRZ-Saha Airlines_temp
 texture=IRZ-Saha Airlines_temp
@@ -1353,3 +1335,57 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRZ
+
+[fltsim.74]
+title=AIGAIM_Varesh Airlines Boeing 737-300
+model=VRH-Varesh Airlines
+texture=VRH-Varesh Airlines
+atc_id=EP-VAA
+atc_airline=SKY VICTOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=Varesh Airlines EP-VAA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-300 Varesh Airlines.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRH
+
+[fltsim.75]
+title=AIGAIM_Varesh Airlines Boeing 737-300 - no 737 titles
+model=VRH-Varesh Airlines_no 737 titles
+texture=VRH-Varesh Airlines_no 737 titles
+atc_id=EP-VAI
+atc_airline=SKY VICTOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VRH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=Varesh Airlines EP-VAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-300 Varesh Airlines.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VRH
+
+[fltsim.76]
+title=AIGAIM_ATA Airlines Boeing 737-300 - OC Albino
+model=TBZ-ATA Airlines_OC Albino
+texture=TBZ-ATA Airlines_OC Albino
+atc_id=EP-TAF
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=Jat Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: tbz_b733.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
