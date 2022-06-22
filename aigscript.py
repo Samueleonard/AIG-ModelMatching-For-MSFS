@@ -49,7 +49,7 @@ def copyFiles(toGithub):
         if(choice == "y"):
             print("creating zip folder at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
             if(not exists(githubFolderPath + "\\aig-aitraffic-oci-beta.zip")):
-                shutil.make_archive(githubFolderPath, 'zip', githubFolderPath+"\\aig-aitraffic-oci-beta")
+                shutil.make_archive(githubFolderPath, 'zip', githubFolderPath)
             print("zip folder created at: " + githubFolderPath + "aig-aitraffic-oci-beta.zip")
             webbrowser.open("https://drive.google.com/drive/u/1/my-drive")
             webbrowser.open("https://github.com/Samueleonard/AIG-ModelMatching-For-MSFS/releases/new")
