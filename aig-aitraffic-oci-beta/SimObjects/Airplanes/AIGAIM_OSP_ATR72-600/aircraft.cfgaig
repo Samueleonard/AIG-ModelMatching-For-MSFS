@@ -915,3 +915,39 @@ description=OSP_ATR72-600(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANZ
+
+[fltsim.48]
+title=AIGAIM_Japan Air Commuter ATR 72-600
+model=JALX-Japan Air Commuter
+texture=JALX-Japan Air Commuter
+atc_id=JA08JC
+atc_airline=COMMUTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JALX,JAC
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-600
+ui_variation=Japan Air Commuter
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: osp_jac_atr_72_600.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAC
+
+[fltsim.49]
+title=AIGAIM_Japan Air Commuter ATR 72-600 - 1500th ATR
+model=JALX-Japan Air Commuter_1500th ATR
+texture=JALX-Japan Air Commuter_1500th ATR
+atc_id=JA06JC
+atc_airline=COMMUTER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JALX,JAC
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-600
+ui_variation=Japan Air Commuter
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: osp_jac_atr_72_600.zip
+description=OSP_ATR72-600(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAC

@@ -9,7 +9,18 @@ githubFolderPath = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
 
 names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "Effects", 'SimObjects', 'BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr']
 
+
+
 #######################################
+
+##AIG is adding payware models - obviously these cannot be distributed so we must remove the individual payware models from the folder and back into the main aig folder
+paywareModelNames = ["aig 1", "aig 2"]
+
+def handlePaywareModels():
+    for i in range(len(paywareModelNames)):
+        print(githubFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i])
+        print(comFolderPath + "\\simobjects\\airplanes" + paywareModelNames[i])
+        #shutil.move(githubFolderPath ) #move out payware files before commiting/shipping
 
 
 def clearGithubDir(): #clears the github folder of all files and remakes it empty

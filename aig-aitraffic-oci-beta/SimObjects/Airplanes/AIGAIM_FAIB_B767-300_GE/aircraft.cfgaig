@@ -122,24 +122,6 @@ isUserSelectable=0
 icao_airline=JAL
 
 [fltsim.4]
-title=AIGAIM_All Nippon Airways Boeing 767-300
-model=ANA-All Nippon Airways
-texture=ANA-All Nippon Airways
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300
-ui_variation=All Nippon Airways - JA8568
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_ana_fleet.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANA
-
-[fltsim.5]
 title=AIGAIM_Asiana Airlines Boeing 767-300
 model=AAR-Asiana Airlines
 texture=AAR-Asiana Airlines
@@ -158,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Asiana Airlines Boeing 767-300 - Star Alliance
 model=AAR-Asiana Airlines_Star Alliance
 texture=AAR-Asiana Airlines_Star Alliance
@@ -177,7 +159,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Air Do Boeing 767-300
 model=ADO-Air Do
 texture=ADO-Air Do
@@ -196,7 +178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ADO
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Air Do Boeing 767-300 - Pokemon Rockon Jet (TEMP)
 model=ADO-Air Do_Pokemon Rockon Jet_temp
 texture=ADO-Air Do_Pokemon Rockon Jet_temp

@@ -49,25 +49,6 @@ concrete=fx_sparks ;
 touchdown=fx_tchdwn, 1 ; 
 
 [fltsim.0]
-title=AIGAIM_ANA Cargo Boeing 767-300ERF WL - Okinawa
-model=ANAC-ANA Cargo_Okinawa
-texture=ANAC-ANA Cargo_Okinawa
-atc_id=JA605F
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANAC
-ui_manufacturer=Boeing
-ui_type=Boeing 767-300ERF WL
-ui_variation=ANA All Nippon Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: ANA Cargo FAIB B767-300F.zip
-description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANAC
-
-[fltsim.1]
 title=AIGAIM_Polar Air Cargo Boeing 767-300ERF WL - DHL Hybrid
 model=PAC-Polar Air Cargo_DHL Hybrid
 texture=PAC-Polar Air Cargo_DHL Hybrid
@@ -86,7 +67,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAC
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Mas Air Cargo Boeing 767-300ERF WL
 model=MAA-Mas Air Cargo
 texture=MAA-Mas Air Cargo
@@ -105,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAA
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_UPS Airlines Boeing 767-300ERF WL
 model=UPS-UPS Airlines
 texture=UPS-UPS Airlines
@@ -121,7 +102,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_UPS Airlines Boeing 767-300ERF WL - Old Titles
 model=UPS-UPS Airlines_Old Titles
 texture=UPS-UPS Airlines_Old Titles
@@ -140,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_LATAM Cargo Brasil Boeing 767-300ERF WL - ABSA Cargo Colors
 model=LTG-LATAM Cargo Brasil_ABSA Cargo Colors
 texture=LTG-LATAM Cargo Brasil_ABSA Cargo Colors
@@ -158,7 +139,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LTG
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_LATAM Cargo Brasil Boeing 767-300ERF WL - LAN Cargo Colors
 model=LTG-LATAM Cargo Brasil_LAN Cargo Colors
 texture=LTG-LATAM Cargo Brasil_LAN Cargo Colors
@@ -176,7 +157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LTG
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_LATAM Cargo Brasil Boeing 767-300ERF WL - TAM Cargo Colors
 model=LTG-LATAM Cargo Brasil_TAM Cargo Colors
 texture=LTG-LATAM Cargo Brasil_TAM Cargo Colors
@@ -194,7 +175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LTG
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_LATAM Cargo Chile Boeing 767-300ERF WL
 model=LCO-LATAM Cargo Chile
 texture=LCO-LATAM Cargo Chile
@@ -212,7 +193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LCO
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_LATAM Cargo Chile Boeing 767-300ERF WL - Colombia Flag
 model=LCO-LATAM Cargo Chile_Colombia Flag
 texture=LCO-LATAM Cargo Chile_Colombia Flag
@@ -230,7 +211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LCO
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_LATAM Cargo Chile Boeing 767-300ERF WL - LAN Cargo Colombia Flag
 model=LCO-LATAM Cargo Chile_LAN Cargo Colombia Flag
 texture=LCO-LATAM Cargo Chile_LAN Cargo Colombia Flag
@@ -248,7 +229,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LCO
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Star Air Boeing 767-300ERF WL
 model=SRR-Star Air
 texture=SRR-Star Air
@@ -267,7 +248,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRR
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Tasman Cargo Airlines Boeing 767-300ERF WL
 model=TMN-Tasman Cargo Airlines
 texture=TMN-Tasman Cargo Airlines
@@ -286,7 +267,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TMN
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Tasman Cargo Airlines Boeing 767-300ERF WL - DHL UK
 model=TMN-Tasman Cargo Airlines_DHL UK
 texture=TMN-Tasman Cargo Airlines_DHL UK
@@ -305,7 +286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TMN
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_DHL Air UK Boeing 767-300ERF WL - GE
 model=DHK-DHL Air UK_GE
 texture=DHK-DHL Air UK_GE
@@ -324,7 +305,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_DHL Air UK Boeing 767-300ERF WL - GE No1 Best Workplace
 model=DHK-DHL Air UK_GE No1 Best Workplace
 texture=DHK-DHL Air UK_GE No1 Best Workplace
@@ -342,3 +323,22 @@ description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
+
+[fltsim.15]
+title=AIGAIM_ANA Cargo Boeing 767-300ERF WL
+model=ANAC-ANA Cargo
+texture=ANAC-ANA Cargo
+atc_id=JA605F
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANAC,ANA
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300ERF WL
+ui_variation=ANA All Nippon Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: ANA Cargo FAIB B767-300F.zip
+description=FAIB_B767-300ERF_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA

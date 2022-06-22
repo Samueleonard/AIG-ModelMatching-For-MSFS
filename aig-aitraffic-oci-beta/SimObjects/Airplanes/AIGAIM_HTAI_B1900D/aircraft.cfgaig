@@ -457,3 +457,73 @@ description=HTAI_B1900D(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TCB
+
+[fltsim.23]
+title=AIGAIM_Air Liaison Beechcraft 1900D
+model=LSJ-Air Liaison
+texture=LSJ-Air Liaison
+atc_airline=LIAISON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LSJ
+ui_manufacturer=Henry Tomkiewicz
+ui_type=Beechcraft 1900D
+ui_variation=Air Liaison
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: HTAI_B190_LSJ_FLEET.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LSJ
+
+[fltsim.24]
+title=AIGAIM_Air Liaison Beechcraft 1900D - ex Air Canada
+model=LSJ-Air Liaison_ex Air Canada
+texture=LSJ-Air Liaison_ex Air Canada
+atc_airline=LIAISON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LSJ
+ui_manufacturer=Henry Tomkiewicz
+ui_type=Beechcraft 1900D
+ui_variation=Air Liaison - Air Canada Express Hybrid
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: HTAI_B190_LSJ_FLEET.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LSJ
+
+[fltsim.25]
+title=AIGAIM_CemAir Beechcraft 1900D
+model=KEM-CemAir
+texture=KEM-CemAir
+atc_id=ZS-CMI
+atc_airline=CEMAIR
+atc_parking_types=RAMP
+atc_parking_codes=KEM
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=CemAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: HTAI Beechcraft 1900D CemAir_FSX.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KEM
+
+[fltsim.26]
+title=AIGAIM_CemAir Beechcraft 1900D - Albino
+model=KEM-CemAir_Albino
+texture=KEM-CemAir_Albino
+atc_id=ZS-CMN
+atc_airline=CEMAIR
+atc_parking_types=RAMP
+atc_parking_codes=KEM
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=CemAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: HTAI Beechcraft 1900D CemAir_FSX.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KEM

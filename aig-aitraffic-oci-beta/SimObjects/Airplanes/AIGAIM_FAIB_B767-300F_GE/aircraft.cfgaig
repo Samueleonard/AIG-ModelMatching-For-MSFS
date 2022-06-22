@@ -85,3 +85,41 @@ description=FAIB_B767-300F_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDX
+
+[fltsim.2]
+title=AIGAIM_ANA Cargo Boeing 767-300F
+model=ANAC-ANA Cargo
+texture=ANAC-ANA Cargo
+atc_id=JA601F
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ANAC,ANA
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300F
+ui_variation=ANA Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: ANA Cargo FAIB B767-300F.zip
+description=FAIB_B767-300F_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.3]
+title=AIGAIM_ANA Cargo Boeing 767-300F - BCF
+model=ANAC-ANA Cargo_BCF
+texture=ANAC-ANA Cargo_BCF
+atc_id=JA603A
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ANAC,ANA
+ui_manufacturer=Boeing
+ui_type=Boeing 767-300F
+ui_variation=ANA Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: ANA Cargo FAIB B767-300F.zip
+description=FAIB_B767-300F_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA

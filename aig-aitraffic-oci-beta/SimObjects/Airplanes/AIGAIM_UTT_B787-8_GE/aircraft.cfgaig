@@ -924,3 +924,22 @@ description=UTT_B787-8_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
+
+[fltsim.46]
+title=AIGAIM_Japan Airlines Boeing 787-8
+model=JAL-Japan Airlines
+texture=JAL-Japan Airlines
+atc_id=JA861J
+atc_airline=JAPAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAL
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-8
+ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B788_Japan_Airlines.zip
+description=UTT_B787-8_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAL

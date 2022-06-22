@@ -214,42 +214,6 @@ isUserSelectable=0
 icao_airline=IRB
 
 [fltsim.9]
-title=AIGAIM_Zagros Airlines McDonnell Douglas MD-82 (TEMP)
-model=IZG-Zagros Airlines_temp
-texture=IZG-Zagros Airlines_temp
-atc_id=EP-ZAA
-atc_airline=ZAGROS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IZG
-ui_manufacturer=Aardvark
-ui_type=McDonnell Douglas MD-82
-ui_variation=Zagros Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: MD-8x Zagros Airlines.zip
-description=AIA_MD-82-cone_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IZG
-
-[fltsim.10]
-title=AIGAIM_Zagros Airlines McDonnell Douglas MD-82 - Cone (TEMP)
-model=IZG-Zagros Airlines_Cone_temp
-texture=IZG-Zagros Airlines_Cone_temp
-atc_id=EP-ZAD
-atc_airline=ZAGROS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IZG
-ui_manufacturer=Aardvark
-ui_type=McDonnell Douglas MD-82
-ui_variation=Zagros Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: MD-8x Zagros Airlines.zip
-description=AIA_MD-82-cone_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IZG
-
-[fltsim.11]
 title=AIGAIM_Zagros Airlines McDonnell Douglas MD-82 - AMX Hybrid
 model=IZG-Zagros Airlines_AMX Hybrid
 texture=IZG-Zagros Airlines_AMX Hybrid
@@ -263,6 +227,42 @@ ui_variation=Zagros Airlines
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JB Filename: MD-8x Zagros Airlines.zip
 description=AIA_MD-82-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IZG
+
+[fltsim.10]
+title=AIGAIM_Zagros Airlines McDonnell Douglas MD-82
+model=IZG-Zagros Airlines
+texture=IZG-Zagros Airlines
+atc_id=EP-ZAA
+atc_airline=ZAGROS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IZG
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-82
+ui_variation=Zagros Airlines EP-ZAA (new livery, screwdriver tail)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md80_izg_fleet.zip
+description=AIA_MD-82-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IZG
+
+[fltsim.11]
+title=AIGAIM_Zagros Airlines McDonnell Douglas MD-82 - Cone
+model=IZG-Zagros Airlines_Cone
+texture=IZG-Zagros Airlines_Cone
+atc_id=EP-ZAM
+atc_airline=ZAGROS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IZG
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-82
+ui_variation=Zagros Airlines EP-ZAM (new livery, cone tail)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md80_izg_fleet.zip
+description=AIA_MD-82-cone_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IZG

@@ -490,3 +490,60 @@ description=TFS_A340-300-Normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRC
+
+[fltsim.23]
+title=AIGAIM_Mahan Air Airbus A340-300
+model=IRM-Mahan Air
+texture=IRM-Mahan Air
+atc_id=EP-MMC
+atc_airline=MAHAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRM
+ui_manufacturer=Airbus
+ui_type=Airbus A340-300
+ui_variation=Mahan Air EP-MMC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A340-300 Mahan Air FSX.zip
+description=TFS_A340-300-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRM
+
+[fltsim.24]
+title=AIGAIM_Kam Air Airbus A340-300
+model=KMF-Kam Air
+texture=KMF-Kam Air
+atc_id=YA-KMU
+atc_airline=KAMGAR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KMF
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Kam Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A340-300 Kam Air.zip
+description=TFS_A340-300-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KMF
+
+[fltsim.25]
+title=AIGAIM_Kam Air Airbus A340-300 - White fuselage
+model=KMF-Kam Air_White fuselage
+texture=KMF-Kam Air_White fuselage
+atc_id=YA-KMH
+atc_airline=KAMGAR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KMF
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Kam Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A340-300 Kam Air.zip
+description=TFS_A340-300-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KMF

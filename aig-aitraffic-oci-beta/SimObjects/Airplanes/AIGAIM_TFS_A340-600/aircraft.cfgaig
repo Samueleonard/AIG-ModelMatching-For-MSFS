@@ -184,3 +184,22 @@ description=TFS_A340-600-Normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
+
+[fltsim.7]
+title=AIGAIM_Mahan Air Airbus A340-600
+model=IRM-Mahan Air
+texture=IRM-Mahan Air
+atc_id=EP-MMH
+atc_airline=MAHAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=IRM
+ui_manufacturer=Airbus
+ui_type=Airbus A340-600
+ui_variation=Mahan Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A340-600 Mahan Air FSX.zip
+description=TFS_A340-600-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IRM

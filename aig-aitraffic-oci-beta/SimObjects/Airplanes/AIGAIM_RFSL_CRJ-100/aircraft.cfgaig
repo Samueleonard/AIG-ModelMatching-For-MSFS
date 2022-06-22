@@ -210,3 +210,39 @@ description=RFSL_CRJ-100-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GGN
+
+[fltsim.9]
+title=AIGAIM_CemAir Bombardier CRJ-100
+model=KEM-CemAir
+texture=KEM-CemAir
+atc_id=ZS-CMB
+atc_airline=CEMAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KEM
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-100
+ui_variation=CemAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: RFSL CRJ-200_CemAir_FSX_P3D.zip
+description=RFSL_CRJ-100-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KEM
+
+[fltsim.10]
+title=AIGAIM_CemAir Bombardier CRJ-100 - No Titles
+model=KEM-CemAir_No Titles
+texture=KEM-CemAir_No Titles
+atc_id=ZS-CRJ
+atc_airline=CEMAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KEM
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-100
+ui_variation=CemAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: RFSL CRJ-200_CemAir_FSX_P3D.zip
+description=RFSL_CRJ-100-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KEM

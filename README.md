@@ -5,9 +5,9 @@ Latest version of AIG model matching for MSFS -  I take the pain so you don't ha
 
 Included is the latest AIG install for MSFS ONLY.
 
-. AI Sounds now work as of 02/01/2022 - issue fixed by AIG (thank you)
+**AI Sounds now work as of 02/01/2022** - *issue fixed by AIG*
 
-. Offline AI traffic plans are included - described below
+**Offline AI traffic plans are included** - *described below*
   
 
 ## <b>INSTALL</b>
@@ -27,7 +27,7 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 
 I will aim to update this pack every time there is a significant update to AIG.
 
-If you wish to update your install earlier than me, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+However, if you wish to update your install before me, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
 
 ## USAGE WITH ONLINE NETWORKS (VATSIM)
 
@@ -47,4 +47,11 @@ To enable the VMR file, just select it through 'custom rules' in the vPilot menu
 You can now use the pack as offline AI traffic, with the usage of the [AIG Traffic Controller](https://www.alpha-india.net/aigfiles/files/Software/AIG_TrafficController.zip)
 
 *no support is given for the usage of offline traffic however from limited testing, all should work correctly*
+
+## PAYWARE MODELS
+
+AIG will be adding payware models to the installer. For obvious reasons, these will not be distributed by me for free.
+Any payware models that i do purchase will be removed from the pack, before it is shipped, and no payware files will be uploaded to the final version, or to the github.
+
+If you do purchase a payware model for use with AIG, you will have to manually update your install using the AIG manager (described above).
 

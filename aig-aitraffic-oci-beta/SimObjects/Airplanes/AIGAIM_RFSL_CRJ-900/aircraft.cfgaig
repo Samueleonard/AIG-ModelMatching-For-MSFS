@@ -645,3 +645,21 @@ description=RFSL_CRJ-900-NWC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UGD
+
+[fltsim.34]
+title=AIGAIM_CemAir Bombardier CRJ-900
+model=KEM-CemAir
+texture=KEM-CemAir
+atc_id=ZS-CMP
+atc_airline=CEMAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KEM
+ui_manufacturer=Raven FS Labs (RFSL)
+ui_type=Bombardier CRJ-900
+ui_variation=CemAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: RFSL CRJ-900_CemAir_FSX_P3D.zip
+description=RFSL_CRJ-900-NWC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KEM

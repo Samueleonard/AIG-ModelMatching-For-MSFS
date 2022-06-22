@@ -1302,23 +1302,6 @@ isUserSelectable=0
 icao_airline=TMG
 
 [fltsim.72]
-title=AIGAIM_China Southern Airlines Boeing 737-300
-model=CSN-China Southern Airlines
-texture=CSN-China Southern Airlines
-atc_airline=CHINA SOUTHERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSN
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300
-ui_variation=China Southern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
-description=FAIB_B737-300-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSN
-
-[fltsim.73]
 title=AIGAIM_Saha Airlines Boeing 737-300 (TEMP)
 model=IRZ-Saha Airlines_temp
 texture=IRZ-Saha Airlines_temp
@@ -1336,7 +1319,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRZ
 
-[fltsim.74]
+[fltsim.73]
 title=AIGAIM_Varesh Airlines Boeing 737-300
 model=VRH-Varesh Airlines
 texture=VRH-Varesh Airlines
@@ -1354,7 +1337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VRH
 
-[fltsim.75]
+[fltsim.74]
 title=AIGAIM_Varesh Airlines Boeing 737-300 - no 737 titles
 model=VRH-Varesh Airlines_no 737 titles
 texture=VRH-Varesh Airlines_no 737 titles
@@ -1372,7 +1355,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VRH
 
-[fltsim.76]
+[fltsim.75]
 title=AIGAIM_ATA Airlines Boeing 737-300 - OC Albino
 model=TBZ-ATA Airlines_OC Albino
 texture=TBZ-ATA Airlines_OC Albino
@@ -1389,3 +1372,20 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
+
+[fltsim.76]
+title=AIGAIM_China Southern Airlines Boeing 737-300
+model=CSN-China Southern Airlines
+texture=CSN-China Southern Airlines
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=China Southern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN

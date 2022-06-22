@@ -301,28 +301,10 @@ isUserSelectable=0
 icao_airline=IBX
 
 [fltsim.14]
-title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Musubimaru Jet
-model=IBX-Ibex Airlines_NextGen Musubimaru Jet
-texture=IBX-Ibex Airlines_NextGen Musubimaru Jet
+title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Musubimaru
+model=IBX-Ibex Airlines_NextGen Musubimaru
+texture=IBX-Ibex Airlines_NextGen Musubimaru
 atc_id=JA14RJ
-atc_airline=IBEX
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IBX
-ui_manufacturer=Bombardier
-ui_type=Bombardier CRJ-700
-ui_variation=IBEX Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: rfsl_ibx_crj_700.zip
-description=RFSL_CRJ-700-NG(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IBX
-
-[fltsim.15]
-title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen Soma 20th Anniversary
-model=IBX-Ibex Airlines_NextGen Soma 20th Anniversary
-texture=IBX-Ibex Airlines_NextGen Soma 20th Anniversary
-atc_id=JA06RJ
 atc_airline=IBEX
 atc_parking_types=GATE,RAMP
 atc_parking_codes=IBX
