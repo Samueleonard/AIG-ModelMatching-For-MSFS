@@ -15,13 +15,15 @@ names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "E
 
 ##AIG is adding payware models - obviously these cannot be distributed so we must remove the individual payware models from the folder and back into the main aig folder
 paywareModelNames = ["aig 1", "aig 2"]
-
-def handlePaywareModels():
+def handlePaywareModels(): #move out payware files before commiting/shipping
     for i in range(len(paywareModelNames)):
-        print(githubFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i])
-        print(comFolderPath + "\\simobjects\\airplanes" + paywareModelNames[i])
-        #shutil.move(githubFolderPath ) #move out payware files before commiting/shipping
+        if exists(githubFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i]):
+            print("moving: " + githubFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i] + " to " + comFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i])
+            #shutil.move(githubFolderPath ) 
+        else:
+            print(githubFolderPath + "\\simobjects\\airplanes\\" + paywareModelNames[i] + " does not exist")
 
+#######################################
 
 def clearGithubDir(): #clears the github folder of all files and remakes it empty
     print("clearing github folder")
@@ -66,4 +68,5 @@ def start(): #main function
 
 #######################################
 
-start()
+#start()
+handlePaywareModels()
