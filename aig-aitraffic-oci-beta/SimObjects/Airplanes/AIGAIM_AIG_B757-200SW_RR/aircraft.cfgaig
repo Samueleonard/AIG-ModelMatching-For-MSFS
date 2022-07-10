@@ -93,82 +93,6 @@ isUserSelectable=0
 icao_airline=TCV
 
 [fltsim.2]
-title=AIGAIM_United Airlines Boeing 757-200SW - RR
-model=UAL-United Airlines_RR
-texture=UAL-United Airlines_RR
-atc_id=N48127
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AIG
-ui_type=Boeing 757-200SW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
-description=AIG_B757-200SW_RR-RR_SW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.3]
-title=AIGAIM_United Airlines Boeing 757-200SW - RR California Art
-model=UAL-United Airlines_RR California Art
-texture=UAL-United Airlines_RR California Art
-atc_id=N14106
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AIG
-ui_type=Boeing 757-200SW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
-description=AIG_B757-200SW_RR-RR_SW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.4]
-title=AIGAIM_United Airlines Boeing 757-200SW - RR New York Art
-model=UAL-United Airlines_RR New York Art
-texture=UAL-United Airlines_RR New York Art
-atc_id=N14102
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AIG
-ui_type=Boeing 757-200SW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
-description=AIG_B757-200SW_RR-RR_SW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.5]
-title=AIGAIM_United Airlines Boeing 757-200SW - RR OC
-model=UAL-United Airlines_RR OC
-texture=UAL-United Airlines_RR OC
-atc_id=N13110
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AIG
-ui_type=Boeing 757-200SW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
-description=AIG_B757-200SW_RR-RR_SW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.6]
 title=AIGAIM_Icelandair Boeing 757-200SW
 model=ICE-Icelandair
 texture=ICE-Icelandair
@@ -188,7 +112,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.7]
+[fltsim.3]
 title=AIGAIM_Icelandair Boeing 757-200SW - Aurora Boralis
 model=ICE-Icelandair_Aurora Boralis
 texture=ICE-Icelandair_Aurora Boralis
@@ -207,7 +131,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.8]
+[fltsim.4]
 title=AIGAIM_Icelandair Boeing 757-200SW - National Geographic
 model=ICE-National Geographic World Tour_National Geographic
 texture=ICE-National Geographic World Tour_National Geographic
@@ -225,3 +149,79 @@ description=AIG_B757-200SW_RR-RR_SW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
+
+[fltsim.5]
+title=AIGAIM_United Airlines Boeing 757-200SW - RR
+model=UAL-United Airlines_RR
+texture=UAL-United Airlines_RR
+atc_id=N48127
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-200SW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
+description=AIG_B757-200SW_RR-RR_SW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.6]
+title=AIGAIM_United Airlines Boeing 757-200SW - RR California Art
+model=UAL-United Airlines_RR California Art
+texture=UAL-United Airlines_RR California Art
+atc_id=N14106
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-200SW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
+description=AIG_B757-200SW_RR-RR_SW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.7]
+title=AIGAIM_United Airlines Boeing 757-200SW - RR New York Art
+model=UAL-United Airlines_RR New York Art
+texture=UAL-United Airlines_RR New York Art
+atc_id=N14102
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-200SW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
+description=AIG_B757-200SW_RR-RR_SW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.8]
+title=AIGAIM_United Airlines Boeing 757-200SW - RR OC
+model=UAL-United Airlines_RR OC
+texture=UAL-United Airlines_RR OC
+atc_id=N13110
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AIG
+ui_type=Boeing 757-200SW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_ual_b752w_jkm.zip
+description=AIG_B757-200SW_RR-RR_SW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL

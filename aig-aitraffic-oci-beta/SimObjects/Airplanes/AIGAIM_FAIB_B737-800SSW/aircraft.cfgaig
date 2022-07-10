@@ -55,232 +55,6 @@ isUserSelectable=0
 icao_airline=AMX
 
 [fltsim.1]
-title=AIGAIM_Pobeda Boeing 737-800SSW - SN
-model=PBD-Pobeda_SN
-texture=PBD-Pobeda_SN
-atc_id=VP-BPS
-atc_airline=POBEDA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PBD
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Pobeda VP-BPS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738ssw_pbd.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PBD
-
-[fltsim.2]
-title=AIGAIM_Travel Service Boeing 737-800SSW
-model=TVS-Travel Service
-texture=TVS-Travel Service
-atc_airline=SKYTRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVS
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travel Service
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_travelservice_738s_fsx.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVS
-
-[fltsim.3]
-title=AIGAIM_Travel Service Boeing 737-800SSW - Smartwings
-model=TVS-Travel Service_Smartwings
-texture=TVS-Travel Service_Smartwings
-atc_id=OK-TVU
-atc_airline=SKYTRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVS
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travelservice 'SN Smartwings'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVS
-
-[fltsim.4]
-title=AIGAIM_Travel Service Boeing 737-800SSW - SN
-model=TVS-Travel Service_SN
-texture=TVS-Travel Service_SN
-atc_airline=SKYTRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVS
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travel Service
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KPK Filename: faib_travelservice_738s_fsx.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVS
-
-[fltsim.5]
-title=AIGAIM_Travel Service Boeing 737-800SSW - SN Smartwings
-model=TVS-Travel Service_SN Smartwings
-texture=TVS-Travel Service_SN Smartwings
-atc_id=OK-TVU
-atc_airline=SKYTRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVS
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travelservice 'SN Smartwings'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVS
-
-[fltsim.6]
-title=AIGAIM_Travel Service Poland Boeing 737-800SSW - Smartwings/Sunwing Hybrid
-model=TVP-Travel Service Poland_Smartwings_Sunwing Hybrid
-texture=TVP-Travel Service Poland_Smartwings_Sunwing Hybrid
-atc_id=C-FDBD
-atc_airline=JET TRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVP
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travelservice 'Smartwings/Sunwing Hybrid'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800W_Travel Service_leases_2017_FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVP
-
-[fltsim.7]
-title=AIGAIM_Travel Service Poland Boeing 737-800SSW - old Smartwings/Sunwing Hybrid
-model=TVP-Travel Service Poland_old Smartwings_Sunwing Hybrid
-texture=TVP-Travel Service Poland_old Smartwings_Sunwing Hybrid
-atc_id=C-FTDW
-atc_airline=JET TRAVEL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TVP
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Travelservice 'Smartwings/Sunwing Hybrid'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TVP
-
-[fltsim.8]
-title=AIGAIM_WestJet Boeing 737-800SSW - OC Old Logo
-model=WJA-WestJet_OC Old Logo
-texture=WJA-WestJet_OC Old Logo
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - OC Old Logo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.9]
-title=AIGAIM_WestJet Boeing 737-800SSW - Disney World Frozen
-model=WJA-WestJet_Disney World Frozen
-texture=WJA-WestJet_Disney World Frozen
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - Frozen Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.10]
-title=AIGAIM_WestJet Boeing 737-800SSW - Disney World Micky Mouse
-model=WJA-WestJet_Disney World Micky Mouse
-texture=WJA-WestJet_Disney World Micky Mouse
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - Mickey Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.11]
-title=AIGAIM_WestJet Boeing 737-800SSW - SN OC
-model=WJA-WestJet_SN OC
-texture=WJA-WestJet_SN OC
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - SN OC Leaf Logo Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.12]
-title=AIGAIM_WestJet Boeing 737-800SSW - SN OC Old Logo
-model=WJA-WestJet_SN OC Old Logo
-texture=WJA-WestJet_SN OC Old Logo
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - SN OC Old Logo Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.13]
-title=AIGAIM_WestJet Boeing 737-800SSW - SN OC Old Logo 100th Boeing 737NG
-model=WJA-WestJet_SN OC Old Logo 100th Boeing 737NG
-texture=WJA-WestJet_SN OC Old Logo 100th Boeing 737NG
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Westjet - SN OC Old Logo 100th 737NG Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.14]
 title=AIGAIM_Air Transat Boeing 737-800SSW - OC
 model=TSC-Air Transat_OC
 texture=TSC-Air Transat_OC
@@ -297,7 +71,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.15]
+[fltsim.2]
 title=AIGAIM_Air Transat Boeing 737-800SSW - OC No WL Logo
 model=TSC-Air Transat_OC No WL Logo
 texture=TSC-Air Transat_OC No WL Logo
@@ -314,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.16]
+[fltsim.3]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW
 model=ASA-Alaska Airlines
 texture=ASA-Alaska Airlines
@@ -332,7 +106,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.17]
+[fltsim.4]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - No WiFi Dome
 model=ASA-Alaska Airlines_No WiFi Dome
 texture=ASA-Alaska Airlines_No WiFi Dome
@@ -350,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.18]
+[fltsim.5]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS
 model=ASA-Alaska Airlines_ETOPS
 texture=ASA-Alaska Airlines_ETOPS
@@ -368,7 +142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.19]
+[fltsim.6]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS No WiFi Dome
 model=ASA-Alaska Airlines_ETOPS No WiFi Dome
 texture=ASA-Alaska Airlines_ETOPS No WiFi Dome
@@ -386,7 +160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.20]
+[fltsim.7]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS SN No WiFi Dome
 model=ASA-Alaska Airlines_ETOPS SN No WiFi Dome
 texture=ASA-Alaska Airlines_ETOPS SN No WiFi Dome
@@ -404,7 +178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.21]
+[fltsim.8]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS SN OC No Wifi Dome Lei Flowers
 model=ASA-Alaska Airlines_ETOPS SN OC No Wifi Dome Lei Flowers
 texture=ASA-Alaska Airlines_ETOPS SN OC No Wifi Dome Lei Flowers
@@ -422,7 +196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.22]
+[fltsim.9]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS Salmon Thirty Salmon II
 model=ASA-Alaska Airlines_ETOPS Salmon Thirty Salmon II
 texture=ASA-Alaska Airlines_ETOPS Salmon Thirty Salmon II
@@ -440,7 +214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.23]
+[fltsim.10]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS Spirit of the Islands
 model=ASA-Alaska Airlines_ETOPS Spirit of the Islands
 texture=ASA-Alaska Airlines_ETOPS Spirit of the Islands
@@ -458,7 +232,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.24]
+[fltsim.11]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS Honoring Those Who Serve
 model=ASA-Alaska Airlines_ETOPS Honoring Those Who Serve
 texture=ASA-Alaska Airlines_ETOPS Honoring Those Who Serve
@@ -476,7 +250,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.25]
+[fltsim.12]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS Toy Story 4
 model=ASA-Alaska Airlines_ETOPS Toy Story 4
 texture=ASA-Alaska Airlines_ETOPS Toy Story 4
@@ -494,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.26]
+[fltsim.13]
 title=AIGAIM_Alaska Airlines Boeing 737-800SSW - ETOPS SN Pixar Pier
 model=ASA-Alaska Airlines_ETOPS SN Pixar Pier
 texture=ASA-Alaska Airlines_ETOPS SN Pixar Pier
@@ -512,7 +286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ASA
 
-[fltsim.27]
+[fltsim.14]
 title=AIGAIM_Amazon Prime Air Boeing 737-800SSW - BCF opb Sun Country Airlines
 model=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines
 texture=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines
@@ -530,7 +304,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.28]
+[fltsim.15]
 title=AIGAIM_Amazon Prime Air Boeing 737-800SSW - BCF opb Sun Country Airlines blue scimitar
 model=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines blue scimitar
 texture=AMZ-Amazon Prime Air_BCF opb Sun Country Airlines blue scimitar
@@ -548,7 +322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.29]
+[fltsim.16]
 title=AIGAIM_Amazon Prime Air Boeing 737-800SSW - BCF opb Atlas Air
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air
@@ -566,7 +340,23 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.30]
+[fltsim.17]
+title=AIGAIM_Avelo Airlines Boeing 737-800SSW
+model=VXP-Avelo Airlines
+texture=VXP-Avelo Airlines
+atc_id=N801XT
+atc_airline=AVELO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VXP
+ui_type=Boeing 737-800SSW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Avelo Airlines B737-800 Fleet FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VXP
+
+[fltsim.18]
 title=AIGAIM_Belavia Boeing 737-800SSW
 model=BRU-Belavia
 texture=BRU-Belavia
@@ -581,97 +371,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.31]
-title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW
-model=GLO-GOL Transportes Aereos
-texture=GLO-GOL Transportes Aereos
-atc_id=PR-GUI
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=GOL Transportes Aereos
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-
-[fltsim.32]
-title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - OC GOL+
-model=GLO-GOL Transportes Aereos_OC GOL+
-texture=GLO-GOL Transportes Aereos_OC GOL+
-atc_id=PR-GUG
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=GOL Transportes Aereos
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-
-[fltsim.33]
-title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - OC GOL+ Selecao Sticker
-model=GLO-GOL Transportes Aereos_OC GOL+ Selecao Sticker
-texture=GLO-GOL Transportes Aereos_OC GOL+ Selecao Sticker
-atc_id=PR-GUH
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=GOL Transportes Aereos
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-
-[fltsim.34]
-title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - SN OC GOL+
-model=GLO-GOL Transportes Aereos_SN OC GOL+
-texture=GLO-GOL Transportes Aereos_SN OC GOL+
-atc_id=PR-GUP
-atc_airline=GOL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=GLO
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=GOL Transportes Aereos
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GLO
-
-[fltsim.35]
-title=AIGAIM_Flybondi Boeing 737-800SSW
-model=FBZ-Flybondi
-texture=FBZ-Flybondi
-atc_id=LV-HFQ
-atc_airline=BONDI
-atc_parking_types=GATE,RAMP
-atc_parking_codes=FBZ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=FlyBondi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: faib_b738fbd_fsx.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=FBZ
-
-[fltsim.36]
+[fltsim.19]
 title=AIGAIM_Comair Boeing 737-800SSW - opf British Airways
 model=CAW-Comair_opf British Airways
 texture=CAW-Comair_opf British Airways
@@ -688,7 +388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.37]
+[fltsim.20]
 title=AIGAIM_Comair Boeing 737-800SSW - SN opf British Airways
 model=CAW-Comair_SN opf British Airways
 texture=CAW-Comair_SN opf British Airways
@@ -705,7 +405,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAW
 
-[fltsim.38]
+[fltsim.21]
 title=AIGAIM_Copa Airlines Boeing 737-800SSW - SN
 model=CMP-Copa Airlines_SN
 texture=CMP-Copa Airlines_SN
@@ -723,25 +423,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
-[fltsim.39]
-title=AIGAIM_Copa Airlines Boeing 737-800SSW - SN Star Alliance
-model=CMP-Copa Airlines_SN Star Alliance
-texture=CMP-Copa Airlines_SN Star Alliance
-atc_id=HP-1728CMP
-atc_airline=COPA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CMP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Compania Panamena de Aviacion, S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Copa SA FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CMP
-
-[fltsim.40]
+[fltsim.22]
 title=AIGAIM_Copa Airlines Boeing 737-800SSW - SN ConnectMiles.com
 model=CMP-Copa Airlines_SN ConnectMiles.com
 texture=CMP-Copa Airlines_SN ConnectMiles.com
@@ -759,7 +441,25 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
-[fltsim.41]
+[fltsim.23]
+title=AIGAIM_Copa Airlines Boeing 737-800SSW - SN Star Alliance
+model=CMP-Copa Airlines_SN Star Alliance
+texture=CMP-Copa Airlines_SN Star Alliance
+atc_id=HP-1728CMP
+atc_airline=COPA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CMP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Compania Panamena de Aviacion, S.A.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Copa SA FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CMP
+
+[fltsim.24]
 title=AIGAIM_Copa Airlines Boeing 737-800SSW
 model=CMP-Copa Airlines
 texture=CMP-Copa Airlines
@@ -777,1433 +477,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
-[fltsim.42]
-title=AIGAIM_Copa Airlines Colombia Boeing 737-800SSW - Wingo
-model=RPB-Copa Airlines Colombia_Wingo
-texture=RPB-Copa Airlines Colombia_Wingo
-atc_id=HP-1532CMP
-atc_airline=AEROREPUBLICA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=RPB
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=AeroRepública S.A.(operado por Copa Airlines Colombia)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Wingo.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RPB
-
-[fltsim.43]
-title=AIGAIM_Corendon Airlines Boeing 737-800SSW
-model=CAI-Corendon Airlines
-texture=CAI-Corendon Airlines
-atc_id=TC-TJS
-atc_airline=CORENDON
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CAI
-ui_manufacturer=BOEING
-ui_type=Boeing 737-800SSW
-ui_variation=Corendon Airlines TC-TJS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738_cai.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CAI
-
-[fltsim.44]
-title=AIGAIM_United Airlines Boeing 737-800SSW
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N37267
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.45]
-title=AIGAIM_United Airlines Boeing 737-800SSW - Star Wars
-model=UAL-United Airlines_Star Wars
-texture=UAL-United Airlines_Star Wars
-atc_id=N36272
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.46]
-title=AIGAIM_United Airlines Boeing 737-800SSW - Star Alliance
-model=UAL-United Airlines_Star Alliance
-texture=UAL-United Airlines_Star Alliance
-atc_id=N14219
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.47]
-title=AIGAIM_United Airlines Boeing 737-800SSW - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N77258
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.48]
-title=AIGAIM_United Airlines Boeing 737-800SSW - OC Star Alliance
-model=UAL-United Airlines_OC Star Alliance
-texture=UAL-United Airlines_OC Star Alliance
-atc_id=N76516
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.49]
-title=AIGAIM_United Airlines Boeing 737-800SSW - OC Capt Marlon Green
-model=UAL-United Airlines_OC Capt Marlon Green
-texture=UAL-United Airlines_OC Capt Marlon Green
-atc_id=N77518
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.50]
-title=AIGAIM_United Airlines Boeing 737-800SSW - SN OC
-model=UAL-United Airlines_SN OC
-texture=UAL-United Airlines_SN OC
-atc_id=N78540
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.51]
-title=AIGAIM_El Al Israel Airlines Boeing 737-800SSW - Sun d'Or opb AirExplore
-model=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
-texture=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
-atc_id=OM-KEX
-atc_airline=ELAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ELY
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=ElAl / Sun d'Or OM-KEX (lsd from AirExplore)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738_ely_leases.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ELY
-
-[fltsim.52]
-title=AIGAIM_Enter Air Boeing 737-800SSW
-model=ENT-Enter Air
-texture=ENT-Enter Air
-atc_id=SP-ESG
-atc_airline=ENTERAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ENT
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Enter Air Sp. z o.o.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Enter Air FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ENT
-
-[fltsim.53]
-title=AIGAIM_Ethiopian Airlines Boeing 737-800SSW - SN
-model=ETH-Ethiopian Airlines_SN
-texture=ETH-Ethiopian Airlines_SN
-atc_id=ET-APF
-atc_airline=ETHIOPIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Ethiopian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Ethiopian FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-
-[fltsim.54]
-title=AIGAIM_Ethiopian Airlines Boeing 737-800SSW - SN White
-model=ETH-Ethiopian Airlines_SN White
-texture=ETH-Ethiopian Airlines_SN White
-atc_id=ET-APF
-atc_airline=ETHIOPIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Ethiopian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Ethiopian FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-
-[fltsim.55]
-title=AIGAIM_Neos Boeing 737-800SSW - OC Radio Italia
-model=NOS-Neos_OC Radio Italia
-texture=NOS-Neos_OC Radio Italia
-atc_airline=MOONFLOWER
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NOS
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Neos scimitars
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_neos_738s_fsx.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NOS
-
-[fltsim.56]
-title=AIGAIM_Jeju Air Boeing 737-800SSW - Stones
-model=JJA-Jeju Air_Stones
-texture=JJA-Jeju Air_Stones
-atc_id=HL8321
-atc_airline=JEJU AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JJA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Jeju Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JJA
-
-[fltsim.57]
-title=AIGAIM_Jeju Air Boeing 737-800SSW - Volcanos
-model=JJA-Jeju Air_Volcanos
-texture=JJA-Jeju Air_Volcanos
-atc_id=HL8322
-atc_airline=JEJU AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JJA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Jeju Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JJA
-
-[fltsim.58]
-title=AIGAIM_LOT Polish Airlines Boeing 737-800SSW - eyebrows lsf NewGen
-model=LOT-LOT Polish Airlines_eyebrows lsf NewGen
-texture=LOT-LOT Polish Airlines_eyebrows lsf NewGen
-atc_id=SP-LWE
-atc_airline=LOT
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=LOT Polish Airlines NewGen hybrid
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_738_lot_lwe.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-
-[fltsim.59]
-title=AIGAIM_Transavia Boeing 737-800SSW - SN
-model=TRA-Transavia_SN
-texture=TRA-Transavia_SN
-atc_id=PH-HSM
-atc_airline=TRANSAVIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TRA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Transavia Airlines C.V.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Transavia.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TRA
-
-[fltsim.60]
-title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW
-model=TFL-TUI fly Netherlands
-texture=TFL-TUI fly Netherlands
-atc_airline=ORANGE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TFL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airlines Netherlands
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnl_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFL
-
-[fltsim.61]
-title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG sunnycars Hybrid
-model=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
-texture=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
-atc_airline=ORANGE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TFL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airlines Netherlands - SunnyCars
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnlleases_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFL
-
-[fltsim.62]
-title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG aerfi.aero Hybrid
-model=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
-texture=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
-atc_airline=ORANGE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TFL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airlines Netherlands - Airfi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnlleases_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFL
-
-[fltsim.63]
-title=AIGAIM_Fly All Ways Boeing 737-800SSW - opb Air Explore
-model=EDR-Fly All Ways_opb Air Explore
-texture=EDR-Fly All Ways_opb Air Explore
-atc_id=OM-LEX
-atc_airline=BIRDVIEW
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EDR
-ui_type=Boeing 737-800SSW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Fly All Ways B737-800 FSXv2.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EDR
-
-[fltsim.64]
-title=AIGAIM_Kulula Boeing 737-800SSW - SN
-model=CAW-Kulula_SN
-texture=CAW-Kulula_SN
-atc_id=ZS-ZWE
-atc_airline=COMMERCIAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CAW
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Comair Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Kulula FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CAW
-
-[fltsim.65]
-title=AIGAIM_Kulula Boeing 737-800SSW - SN white nose
-model=CAW-Kulula_SN white nose
-texture=CAW-Kulula_SN white nose
-atc_id=ZS-ZWA
-atc_airline=COMMERCIAL
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CAW
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Comair Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 Kulula FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CAW
-
-[fltsim.66]
-title=AIGAIM_Luxair Boeing 737-800SSW - SN
-model=LGL-Luxair_SN
-texture=LGL-Luxair_SN
-atc_id=LX-LGV
-atc_airline=LUXAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LGL
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Luxair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_lgl_b738sw_fsx_v2.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LGL
-
-[fltsim.67]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW
-model=SQP-SkyUp Airlines
-texture=SQP-SkyUp Airlines
-atc_id=UR-SQH
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.68]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - Eyebrows
-model=SQP-SkyUp Airlines_Eyebrows
-texture=SQP-SkyUp Airlines_Eyebrows
-atc_id=UR-SQG
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.69]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN
-model=SQP-SkyUp Airlines_SN
-texture=SQP-SkyUp Airlines_SN
-atc_id=UR-SQF
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines SSW SN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.70]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN fwd titles
-model=SQP-SkyUp Airlines_SN fwd titles
-texture=SQP-SkyUp Airlines_SN fwd titles
-atc_id=UR-SQA
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines SSW SN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.71]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN white belly
-model=SQP-SkyUp Airlines_SN white belly
-texture=SQP-SkyUp Airlines_SN white belly
-atc_id=UR-SQB
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.72]
-title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN aft Reg
-model=SQP-SkyUp Airlines_SN aft Reg
-texture=SQP-SkyUp Airlines_SN aft Reg
-atc_id=UR-SQC
-atc_airline=SKYUP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SQP
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=SkyUp Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SQP
-
-[fltsim.73]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN
-model=SWA-Southwest Airlines_SN
-texture=SWA-Southwest Airlines_SN
-atc_id=N8644C
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.74]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitars
-model=SWA-Southwest Airlines_SN Blue Scimitars
-texture=SWA-Southwest Airlines_SN Blue Scimitars
-atc_id=N8511K
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.75]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitar (lhs)
-model=SWA-Southwest Airlines_SN Blue Scimitar (lhs)
-texture=SWA-Southwest Airlines_SN Blue Scimitar (lhs)
-atc_id=N8652B
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.76]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitar (rhs)
-model=SWA-Southwest Airlines_SN Blue Scimitar (rhs)
-texture=SWA-Southwest Airlines_SN Blue Scimitar (rhs)
-atc_id=N8654B
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.77]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN ETOPS
-model=SWA-Southwest Airlines_SN ETOPS
-texture=SWA-Southwest Airlines_SN ETOPS
-atc_id=N8325D
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.78]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN ETOPS Blue Scimitar (lhs)
-model=SWA-Southwest Airlines_SN ETOPS Blue Scimitar (lhs)
-texture=SWA-Southwest Airlines_SN ETOPS Blue Scimitar (lhs)
-atc_id=N8390C
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.79]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Heart One
-model=SWA-Southwest Airlines_SN Heart One
-texture=SWA-Southwest Airlines_SN Heart One
-atc_id=N8642E
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.80]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Heart Two
-model=SWA-Southwest Airlines_SN Heart Two
-texture=SWA-Southwest Airlines_SN Heart Two
-atc_id=N8645A
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.81]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN OC
-model=SWA-Southwest Airlines_SN OC
-texture=SWA-Southwest Airlines_SN OC
-atc_id=N8639B
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swaoc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.82]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN OC White Scimitars
-model=SWA-Southwest Airlines_SN OC White Scimitars
-texture=SWA-Southwest Airlines_SN OC White Scimitars
-atc_id=N8633B
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swaoc_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.83]
-title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Freedom One
-model=SWA-Southwest Airlines_SN Freedom One
-texture=SWA-Southwest Airlines_SN Freedom One
-atc_id=N500WR
-atc_airline=SOUTHWEST
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Southwest
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_b738w_freedomone_kjm.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWA
-
-[fltsim.84]
-title=AIGAIM_Sun Country Airlines Boeing 737-800SSW - OC
-model=SCX-Sun Country Airlines_OC
-texture=SCX-Sun Country Airlines_OC
-atc_id=N820SY
-atc_airline=SUN COUNTRY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SCX
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sun Country
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_scx_b738_jkm.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SCX
-
-[fltsim.85]
-title=AIGAIM_SunExpress Boeing 737-800SSW
-model=SXS-SunExpress
-texture=SXS-SunExpress
-atc_id=TC-SNT
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.86]
-title=AIGAIM_SunExpress Boeing 737-800SSW - 30 years
-model=SXS-SunExpress_30 years
-texture=SXS-SunExpress_30 years
-atc_id=TC-SNN
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.87]
-title=AIGAIM_SunExpress Boeing 737-800SSW - Shaun the Sheep
-model=SXS-SunExpress_Shaun the Sheep
-texture=SXS-SunExpress_Shaun the Sheep
-atc_id=TC-SNU
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.88]
-title=AIGAIM_SunExpress Boeing 737-800SSW - Albino, white tail
-model=SXS-SunExpress_Albino, white tail
-texture=SXS-SunExpress_Albino, white tail
-atc_id=TC-SPF
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.89]
-title=AIGAIM_SunExpress Boeing 737-800SSW - SN
-model=SXS-SunExpress_SN
-texture=SXS-SunExpress_SN
-atc_id=TC-SOB
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.90]
-title=AIGAIM_SunExpress Boeing 737-800SSW - SN 30 years
-model=SXS-SunExpress_SN 30 years
-texture=SXS-SunExpress_SN 30 years
-atc_id=TC-SEK
-atc_airline=SUNEXPRESS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SXS
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Günes Ekspress Havacilik A.S
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SXS
-
-[fltsim.91]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW
-model=SWG-Sunwing Airlines
-texture=SWG-Sunwing Airlines
-atc_id=C-FEAK
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.92]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Princess Hotels & Resorts (TEMP)
-model=SWG-Sunwing Airlines_Princess Hotels & Resorts_temp
-texture=SWG-Sunwing Airlines_Princess Hotels & Resorts_temp
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines - C-FDBD Cuba 2018 Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_swg_logojets.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.93]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - TUI hybrid
-model=SWG-Sunwing Airlines_TUI hybrid
-texture=SWG-Sunwing Airlines_TUI hybrid
-atc_id=C-FVWA
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.94]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Smartwings Hybrid blue Engines
-model=SWG-Sunwing Airlines_Smartwings Hybrid blue Engines
-texture=SWG-Sunwing Airlines_Smartwings Hybrid blue Engines
-atc_id=C-CKVL
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.95]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Smartwings Hybrid Travelservice WL
-model=SWG-Sunwing Airlines_Smartwings Hybrid Travelservice WL
-texture=SWG-Sunwing Airlines_Smartwings Hybrid Travelservice WL
-atc_id=C-GNVR
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.96]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Travelservice Hybrid
-model=SWG-Sunwing Airlines_Travelservice Hybrid
-texture=SWG-Sunwing Airlines_Travelservice Hybrid
-atc_id=C-GPVS
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.97]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN
-model=SWG-Sunwing Airlines_SN
-texture=SWG-Sunwing Airlines_SN
-atc_id=C-FYJD
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.98]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN OC
-model=SWG-Sunwing Airlines_SN OC
-texture=SWG-Sunwing Airlines_SN OC
-atc_id=C-FFPH
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.99]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN OC white Scimitar
-model=SWG-Sunwing Airlines_SN OC white Scimitar
-texture=SWG-Sunwing Airlines_SN OC white Scimitar
-atc_id=C-FLSW
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_sunwing_738s_fsx.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.100]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid
-model=SWG-Sunwing Airlines_SN TUI hybrid
-texture=SWG-Sunwing Airlines_SN TUI hybrid
-atc_id=C-FVWA
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.101]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid G-reg
-model=SWG-Sunwing Airlines_SN TUI hybrid G-reg
-texture=SWG-Sunwing Airlines_SN TUI hybrid G-reg
-atc_id=C-FDZY
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.102]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid white WL with TUI-logo
-model=SWG-Sunwing Airlines_SN TUI hybrid white WL with TUI-logo
-texture=SWG-Sunwing Airlines_SN TUI hybrid white WL with TUI-logo
-atc_id=C-FUIM
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.103]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN full TUI colours G-reg
-model=SWG-Sunwing Airlines_SN full TUI colours G-reg
-texture=SWG-Sunwing Airlines_SN full TUI colours G-reg
-atc_id=C-FDZY
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.104]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Smartwings Hybrid
-model=SWG-Sunwing Airlines_SN Smartwings Hybrid
-texture=SWG-Sunwing Airlines_SN Smartwings Hybrid
-atc_id=C-GKVU
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.105]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Smartwings Hybrid Royalton Luxury Resorts Cuba (TEMP)
-model=SWG-Sunwing Airlines_SN Smartwings Hybrid Royalton Luxury Resorts Cuba_temp
-texture=SWG-Sunwing Airlines_SN Smartwings Hybrid Royalton Luxury Resorts Cuba_temp
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines - OK-TVU Iberostar 2018 Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_swg_logojets.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.106]
-title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Travelservice WL OK-Reg
-model=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
-texture=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
-atc_id=OK-TVT
-atc_airline=SUNWING
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWG
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Sunwing Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWG
-
-[fltsim.107]
-title=AIGAIM_Swoop Boeing 737-800SSW - SN
-model=WSW-Swoop_SN
-texture=WSW-Swoop_SN
-atc_airline=SWOOP
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WSW
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Swoop SN Scimitar Winglets
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_738_wsw1.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WSW
-
-[fltsim.108]
-title=AIGAIM_TUI Airways UK Boeing 737-800SSW
-model=TOM-TUI Airways UK
-texture=TOM-TUI Airways UK
-atc_airline=TOMJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airways WK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.109]
-title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN
-model=TOM-TUI Airways UK_SN
-texture=TOM-TUI Airways UK_SN
-atc_airline=TOMJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airways WK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.110]
-title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN no engines titles
-model=TOM-TUI Airways UK_SN no engines titles
-texture=TOM-TUI Airways UK_SN no engines titles
-atc_airline=TOMJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airways WU
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.111]
-title=AIGAIM_TUIfly Boeing 737-800SSW
-model=TUI-TUIfly
-texture=TUI-TUIfly
-atc_id=D-ABKI
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.112]
-title=AIGAIM_TUIfly Boeing 737-800SSW - Blank SSW
-model=TUI-TUIfly_Blank SSW
-texture=TUI-TUIfly_Blank SSW
-atc_id=D-ABKI
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.113]
-title=AIGAIM_TUIfly Boeing 737-800SSW - Blue SSW
-model=TUI-TUIfly_Blue SSW
-texture=TUI-TUIfly_Blue SSW
-atc_id=D-ATUA
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.114]
-title=AIGAIM_TUIfly Boeing 737-800SSW - RIU Hotels and Resorts
-model=TUI-TUIfly_RIU Hotels and Resorts
-texture=TUI-TUIfly_RIU Hotels and Resorts
-atc_id=D-ATUZ
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.115]
-title=AIGAIM_TUIfly Boeing 737-800SSW - SN Blue SSW
-model=TUI-TUIfly_SN Blue SSW
-texture=TUI-TUIfly_SN Blue SSW
-atc_id=D-ATUJ
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.116]
-title=AIGAIM_TUIfly Boeing 737-800SSW - SN MC
-model=TUI-TUIfly_SN MC
-texture=TUI-TUIfly_SN MC
-atc_id=D-ATUM
-atc_airline=TUI JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TUI
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=TUIfly Vermarktungs GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
-description=FAIB_B737-800SSW-scimitars_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TUI
-
-[fltsim.117]
-title=AIGAIM_TUI fly Belgium Boeing 737-800SSW
-model=JAF-TUI fly Belgium
-texture=JAF-TUI fly Belgium
-atc_airline=BEAUTY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAF
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airlines Belgium
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAF
-
-[fltsim.118]
-title=AIGAIM_TUI fly Belgium Boeing 737-800SSW - Family Life Hotels
-model=JAF-TUI fly Belgium_Family Life Hotels
-texture=JAF-TUI fly Belgium_Family Life Hotels
-atc_id=OO-JAF
-atc_airline=BEAUTY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAF
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800SSW
-ui_variation=Jetairfly
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly Belgium Family Life FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAF
-
-[fltsim.119]
-title=AIGAIM_TUI fly Belgium Boeing 737-800SSW - Old Colors
-model=JAF-TUI fly Belgium_Old Colors
-texture=JAF-TUI fly Belgium_Old Colors
-atc_airline=BEAUTY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAF
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=TUI Airlines Belgium AX
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_73h.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAF
-
-[fltsim.120]
-title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZM'
-model=JTD-Jet Time_'OY-JZM'
-texture=JTD-Jet Time_'OY-JZM'
-atc_id=OY-JZM
-atc_airline=NEW JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTD
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Jettime
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTD
-
-[fltsim.121]
-title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZN'
-model=JTD-Jet Time_'OY-JZN'
-texture=JTD-Jet Time_'OY-JZN'
-atc_id=OY-JZN
-atc_airline=NEW JET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JTD
-ui_manufacturer=FAIB
-ui_type=Boeing 737-800SSW
-ui_variation=Jettime
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
-description=FAIB_B737-800SSW-scimitars(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JTD
-
-[fltsim.122]
+[fltsim.25]
 title=AIGAIM_Copa Airlines Boeing 737-800SSW - FePaFut
 model=CMP-Copa Airlines_FePaFut
 texture=CMP-Copa Airlines_FePaFut
@@ -2221,23 +495,133 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
-[fltsim.123]
-title=AIGAIM_Avelo Airlines Boeing 737-800SSW
-model=VXP-Avelo Airlines
-texture=VXP-Avelo Airlines
-atc_id=N801XT
-atc_airline=AVELO
+[fltsim.26]
+title=AIGAIM_Copa Airlines Colombia Boeing 737-800SSW - Wingo
+model=RPB-Copa Airlines Colombia_Wingo
+texture=RPB-Copa Airlines Colombia_Wingo
+atc_id=HP-1532CMP
+atc_airline=AEROREPUBLICA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=VXP
+atc_parking_codes=RPB
+ui_manufacturer=Boeing
 ui_type=Boeing 737-800SSW
+ui_variation=AeroRepública S.A.(operado por Copa Airlines Colombia)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Avelo Airlines B737-800 Fleet FSX.zip
+ui_createdby=Provided by: JB Filename: FAIB B738 Wingo.zip
 description=FAIB_B737-800SSW-scimitars(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=VXP
+icao_airline=RPB
 
-[fltsim.124]
+[fltsim.27]
+title=AIGAIM_Corendon Airlines Boeing 737-800SSW
+model=CAI-Corendon Airlines
+texture=CAI-Corendon Airlines
+atc_id=TC-TJS
+atc_airline=CORENDON
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAI
+ui_manufacturer=BOEING
+ui_type=Boeing 737-800SSW
+ui_variation=Corendon Airlines TC-TJS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_cai.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAI
+
+[fltsim.28]
+title=AIGAIM_El Al Israel Airlines Boeing 737-800SSW - Sun d'Or opb AirExplore
+model=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
+texture=ELY-El Al Israel Airlines_Sun d'Or opb AirExplore
+atc_id=OM-KEX
+atc_airline=ELAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=ElAl / Sun d'Or OM-KEX (lsd from AirExplore)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_ely_leases.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.29]
+title=AIGAIM_Enter Air Boeing 737-800SSW
+model=ENT-Enter Air
+texture=ENT-Enter Air
+atc_id=SP-ESG
+atc_airline=ENTERAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ENT
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Enter Air Sp. z o.o.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Enter Air FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ENT
+
+[fltsim.30]
+title=AIGAIM_Ethiopian Airlines Boeing 737-800SSW - SN
+model=ETH-Ethiopian Airlines_SN
+texture=ETH-Ethiopian Airlines_SN
+atc_id=ET-APF
+atc_airline=ETHIOPIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Ethiopian FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.31]
+title=AIGAIM_Ethiopian Airlines Boeing 737-800SSW - SN White
+model=ETH-Ethiopian Airlines_SN White
+texture=ETH-Ethiopian Airlines_SN White
+atc_id=ET-APF
+atc_airline=ETHIOPIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Ethiopian FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.32]
+title=AIGAIM_Flybondi Boeing 737-800SSW
+model=FBZ-Flybondi
+texture=FBZ-Flybondi
+atc_id=LV-HFQ
+atc_airline=BONDI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FBZ
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=FlyBondi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: faib_b738fbd_fsx.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FBZ
+
+[fltsim.33]
 title=AIGAIM_Flydubai Boeing 737-800SSW - SN
 model=FDB-Flydubai_SN
 texture=FDB-Flydubai_SN
@@ -2255,7 +639,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDB
 
-[fltsim.125]
+[fltsim.34]
 title=AIGAIM_Flydubai Boeing 737-800SSW - SN LHS sticker
 model=FDB-Flydubai_SN LHS sticker
 texture=FDB-Flydubai_SN LHS sticker
@@ -2273,7 +657,714 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDB
 
-[fltsim.126]
+[fltsim.35]
+title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW
+model=GLO-GOL Transportes Aereos
+texture=GLO-GOL Transportes Aereos
+atc_id=PR-GUI
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.36]
+title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - OC GOL+
+model=GLO-GOL Transportes Aereos_OC GOL+
+texture=GLO-GOL Transportes Aereos_OC GOL+
+atc_id=PR-GUG
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.37]
+title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - OC GOL+ Selecao Sticker
+model=GLO-GOL Transportes Aereos_OC GOL+ Selecao Sticker
+texture=GLO-GOL Transportes Aereos_OC GOL+ Selecao Sticker
+atc_id=PR-GUH
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.38]
+title=AIGAIM_GOL Transportes Aereos Boeing 737-800SSW - SN OC GOL+
+model=GLO-GOL Transportes Aereos_SN OC GOL+
+texture=GLO-GOL Transportes Aereos_SN OC GOL+
+atc_id=PR-GUP
+atc_airline=GOL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GLO
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=GOL Transportes Aereos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_gol_boeing_73H.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GLO
+
+[fltsim.39]
+title=AIGAIM_Jeju Air Boeing 737-800SSW - Stones
+model=JJA-Jeju Air_Stones
+texture=JJA-Jeju Air_Stones
+atc_id=HL8321
+atc_airline=JEJU AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JJA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Jeju Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JJA
+
+[fltsim.40]
+title=AIGAIM_Jeju Air Boeing 737-800SSW - Volcanos
+model=JJA-Jeju Air_Volcanos
+texture=JJA-Jeju Air_Volcanos
+atc_id=HL8322
+atc_airline=JEJU AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JJA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Jeju Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JJA
+
+[fltsim.41]
+title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZM'
+model=JTD-Jet Time_'OY-JZM'
+texture=JTD-Jet Time_'OY-JZM'
+atc_id=OY-JZM
+atc_airline=NEW JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JTD
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Jettime
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTD
+
+[fltsim.42]
+title=AIGAIM_Jet Time Boeing 737-800SSW - 'OY-JZN'
+model=JTD-Jet Time_'OY-JZN'
+texture=JTD-Jet Time_'OY-JZN'
+atc_id=OY-JZN
+atc_airline=NEW JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JTD
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Jettime
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 737-800SSW-WL Jettime 2021_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTD
+
+[fltsim.43]
+title=AIGAIM_Kulula Boeing 737-800SSW - SN
+model=CAW-Kulula_SN
+texture=CAW-Kulula_SN
+atc_id=ZS-ZWE
+atc_airline=COMMERCIAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAW
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Comair Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Kulula FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAW
+
+[fltsim.44]
+title=AIGAIM_Kulula Boeing 737-800SSW - SN white nose
+model=CAW-Kulula_SN white nose
+texture=CAW-Kulula_SN white nose
+atc_id=ZS-ZWA
+atc_airline=COMMERCIAL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAW
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Comair Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Kulula FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAW
+
+[fltsim.45]
+title=AIGAIM_LOT Polish Airlines Boeing 737-800SSW - eyebrows lsf NewGen
+model=LOT-LOT Polish Airlines_eyebrows lsf NewGen
+texture=LOT-LOT Polish Airlines_eyebrows lsf NewGen
+atc_id=SP-LWE
+atc_airline=LOT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LOT
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=LOT Polish Airlines NewGen hybrid
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_lot_lwe.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOT
+
+[fltsim.46]
+title=AIGAIM_Luxair Boeing 737-800SSW - SN
+model=LGL-Luxair_SN
+texture=LGL-Luxair_SN
+atc_id=LX-LGV
+atc_airline=LUXAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LGL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Luxair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_lgl_b738sw_fsx_v2.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LGL
+
+[fltsim.47]
+title=AIGAIM_Neos Boeing 737-800SSW - OC Radio Italia
+model=NOS-Neos_OC Radio Italia
+texture=NOS-Neos_OC Radio Italia
+atc_airline=MOONFLOWER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NOS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Neos scimitars
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_neos_738s_fsx.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOS
+
+[fltsim.48]
+title=AIGAIM_Pobeda Boeing 737-800SSW - SN
+model=PBD-Pobeda_SN
+texture=PBD-Pobeda_SN
+atc_id=VP-BPS
+atc_airline=POBEDA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PBD
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Pobeda VP-BPS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738ssw_pbd.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PBD
+
+[fltsim.49]
+title=AIGAIM_WestJet Boeing 737-800SSW - OC Old Logo
+model=WJA-WestJet_OC Old Logo
+texture=WJA-WestJet_OC Old Logo
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - OC Old Logo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.50]
+title=AIGAIM_WestJet Boeing 737-800SSW - Disney World Frozen
+model=WJA-WestJet_Disney World Frozen
+texture=WJA-WestJet_Disney World Frozen
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - Frozen Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.51]
+title=AIGAIM_WestJet Boeing 737-800SSW - Disney World Micky Mouse
+model=WJA-WestJet_Disney World Micky Mouse
+texture=WJA-WestJet_Disney World Micky Mouse
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - Mickey Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.52]
+title=AIGAIM_WestJet Boeing 737-800SSW - SN OC
+model=WJA-WestJet_SN OC
+texture=WJA-WestJet_SN OC
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - SN OC Leaf Logo Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.53]
+title=AIGAIM_WestJet Boeing 737-800SSW - SN OC Old Logo
+model=WJA-WestJet_SN OC Old Logo
+texture=WJA-WestJet_SN OC Old Logo
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - SN OC Old Logo Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.54]
+title=AIGAIM_WestJet Boeing 737-800SSW - SN OC Old Logo 100th Boeing 737NG
+model=WJA-WestJet_SN OC Old Logo 100th Boeing 737NG
+texture=WJA-WestJet_SN OC Old Logo 100th Boeing 737NG
+atc_airline=WESTJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Westjet - SN OC Old Logo 100th 737NG Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wja_2020.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.55]
+title=AIGAIM_United Airlines Boeing 737-800SSW
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N37267
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.56]
+title=AIGAIM_United Airlines Boeing 737-800SSW - Star Wars
+model=UAL-United Airlines_Star Wars
+texture=UAL-United Airlines_Star Wars
+atc_id=N36272
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.57]
+title=AIGAIM_United Airlines Boeing 737-800SSW - Star Alliance
+model=UAL-United Airlines_Star Alliance
+texture=UAL-United Airlines_Star Alliance
+atc_id=N14219
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.58]
+title=AIGAIM_United Airlines Boeing 737-800SSW - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N77258
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.59]
+title=AIGAIM_United Airlines Boeing 737-800SSW - OC Star Alliance
+model=UAL-United Airlines_OC Star Alliance
+texture=UAL-United Airlines_OC Star Alliance
+atc_id=N76516
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.60]
+title=AIGAIM_United Airlines Boeing 737-800SSW - OC Capt Marlon Green
+model=UAL-United Airlines_OC Capt Marlon Green
+texture=UAL-United Airlines_OC Capt Marlon Green
+atc_id=N77518
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.61]
+title=AIGAIM_United Airlines Boeing 737-800SSW - SN OC
+model=UAL-United Airlines_SN OC
+texture=UAL-United Airlines_SN OC
+atc_id=N78540
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_ual_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.62]
+title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW
+model=TFL-TUI fly Netherlands
+texture=TFL-TUI fly Netherlands
+atc_airline=ORANGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TFL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airlines Netherlands
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnl_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFL
+
+[fltsim.63]
+title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG sunnycars Hybrid
+model=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
+texture=TFL-TUI fly Netherlands_SWG sunnycars Hybrid
+atc_airline=ORANGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TFL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airlines Netherlands - SunnyCars
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnlleases_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFL
+
+[fltsim.64]
+title=AIGAIM_TUI fly Netherlands Boeing 737-800SSW - SWG aerfi.aero Hybrid
+model=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
+texture=TFL-TUI fly Netherlands_SWG aerfi.aero Hybrid
+atc_airline=ORANGE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TFL
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airlines Netherlands - Airfi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnlleases_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFL
+
+[fltsim.65]
+title=AIGAIM_TUI fly Belgium Boeing 737-800SSW
+model=JAF-TUI fly Belgium
+texture=JAF-TUI fly Belgium
+atc_airline=BEAUTY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAF
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airlines Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAF
+
+[fltsim.66]
+title=AIGAIM_TUI fly Belgium Boeing 737-800SSW - Family Life Hotels
+model=JAF-TUI fly Belgium_Family Life Hotels
+texture=JAF-TUI fly Belgium_Family Life Hotels
+atc_id=OO-JAF
+atc_airline=BEAUTY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAF
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Jetairfly
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly Belgium Family Life FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAF
+
+[fltsim.67]
+title=AIGAIM_TUI fly Belgium Boeing 737-800SSW - Old Colors
+model=JAF-TUI fly Belgium_Old Colors
+texture=JAF-TUI fly Belgium_Old Colors
+atc_airline=BEAUTY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAF
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airlines Belgium AX
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAF
+
+[fltsim.68]
+title=AIGAIM_TUIfly Boeing 737-800SSW
+model=TUI-TUIfly
+texture=TUI-TUIfly
+atc_id=D-ABKI
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.69]
+title=AIGAIM_TUIfly Boeing 737-800SSW - Blank SSW
+model=TUI-TUIfly_Blank SSW
+texture=TUI-TUIfly_Blank SSW
+atc_id=D-ABKI
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.70]
+title=AIGAIM_TUIfly Boeing 737-800SSW - Blue SSW
+model=TUI-TUIfly_Blue SSW
+texture=TUI-TUIfly_Blue SSW
+atc_id=D-ATUA
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.71]
+title=AIGAIM_TUIfly Boeing 737-800SSW - RIU Hotels and Resorts
+model=TUI-TUIfly_RIU Hotels and Resorts
+texture=TUI-TUIfly_RIU Hotels and Resorts
+atc_id=D-ATUZ
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.72]
+title=AIGAIM_TUIfly Boeing 737-800SSW - SN Blue SSW
+model=TUI-TUIfly_SN Blue SSW
+texture=TUI-TUIfly_SN Blue SSW
+atc_id=D-ATUJ
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.73]
+title=AIGAIM_TUIfly Boeing 737-800SSW - SN MC
+model=TUI-TUIfly_SN MC
+texture=TUI-TUIfly_SN MC
+atc_id=D-ATUM
+atc_airline=TUI JET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TUI
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=TUIfly Vermarktungs GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 TUIfly FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TUI
+
+[fltsim.74]
+title=AIGAIM_TUI Airways UK Boeing 737-800SSW
+model=TOM-TUI Airways UK
+texture=TOM-TUI Airways UK
+atc_airline=TOMJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airways WK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
+
+[fltsim.75]
 title=AIGAIM_TUI Airways UK Boeing 737-800SSW - Robinson Club Resorts
 model=TOM-TUI Airways UK_Robinson Club Resorts
 texture=TOM-TUI Airways UK_Robinson Club Resorts
@@ -2291,7 +1382,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
 
-[fltsim.127]
+[fltsim.76]
 title=AIGAIM_TUI Airways UK Boeing 737-800SSW - ex TUIfly
 model=TOM-TUI Airways UK_ex TUIfly
 texture=TOM-TUI Airways UK_ex TUIfly
@@ -2309,7 +1400,41 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
 
-[fltsim.128]
+[fltsim.77]
+title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN
+model=TOM-TUI Airways UK_SN
+texture=TOM-TUI Airways UK_SN
+atc_airline=TOMJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airways WK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
+
+[fltsim.78]
+title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN no engines titles
+model=TOM-TUI Airways UK_SN no engines titles
+texture=TOM-TUI Airways UK_SN no engines titles
+atc_airline=TOMJET
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=TUI Airways WU
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairways_73h.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
+
+[fltsim.79]
 title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN ex TUIfly Nordic
 model=TOM-TUI Airways UK_SN ex TUIfly Nordic
 texture=TOM-TUI Airways UK_SN ex TUIfly Nordic
@@ -2327,7 +1452,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
 
-[fltsim.129]
+[fltsim.80]
 title=AIGAIM_TUI Airways UK Boeing 737-800SSW - SN Sunwing hybrid
 model=TOM-TUI Airways UK_SN Sunwing hybrid
 texture=TOM-TUI Airways UK_SN Sunwing hybrid
@@ -2344,3 +1469,862 @@ description=FAIB_B737-800SSW-scimitars_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
+
+[fltsim.81]
+title=AIGAIM_Travel Service Poland Boeing 737-800SSW - Smartwings/Sunwing Hybrid
+model=TVP-Travel Service Poland_Smartwings_Sunwing Hybrid
+texture=TVP-Travel Service Poland_Smartwings_Sunwing Hybrid
+atc_id=C-FDBD
+atc_airline=JET TRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVP
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travelservice 'Smartwings/Sunwing Hybrid'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_leases_2017_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVP
+
+[fltsim.82]
+title=AIGAIM_Travel Service Poland Boeing 737-800SSW - old Smartwings/Sunwing Hybrid
+model=TVP-Travel Service Poland_old Smartwings_Sunwing Hybrid
+texture=TVP-Travel Service Poland_old Smartwings_Sunwing Hybrid
+atc_id=C-FTDW
+atc_airline=JET TRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVP
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travelservice 'Smartwings/Sunwing Hybrid'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVP
+
+[fltsim.83]
+title=AIGAIM_Travel Service Boeing 737-800SSW
+model=TVS-Travel Service
+texture=TVS-Travel Service
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travel Service
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_travelservice_738s_fsx.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.84]
+title=AIGAIM_Travel Service Boeing 737-800SSW - Smartwings
+model=TVS-Travel Service_Smartwings
+texture=TVS-Travel Service_Smartwings
+atc_id=OK-TVU
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travelservice 'SN Smartwings'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.85]
+title=AIGAIM_Travel Service Boeing 737-800SSW - SN
+model=TVS-Travel Service_SN
+texture=TVS-Travel Service_SN
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travel Service
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KPK Filename: faib_travelservice_738s_fsx.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.86]
+title=AIGAIM_Travel Service Boeing 737-800SSW - SN Smartwings
+model=TVS-Travel Service_SN Smartwings
+texture=TVS-Travel Service_SN Smartwings
+atc_id=OK-TVU
+atc_airline=SKYTRAVEL
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TVS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Travelservice 'SN Smartwings'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800W_Travel Service_Poland_leases_2017_FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TVS
+
+[fltsim.87]
+title=AIGAIM_Transavia Boeing 737-800SSW - SN
+model=TRA-Transavia_SN
+texture=TRA-Transavia_SN
+atc_id=PH-HSM
+atc_airline=TRANSAVIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TRA
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Transavia Airlines C.V.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Transavia.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TRA
+
+[fltsim.88]
+title=AIGAIM_Sun Country Airlines Boeing 737-800SSW - OC
+model=SCX-Sun Country Airlines_OC
+texture=SCX-Sun Country Airlines_OC
+atc_id=N820SY
+atc_airline=SUN COUNTRY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SCX
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sun Country
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_scx_b738_jkm.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SCX
+
+[fltsim.89]
+title=AIGAIM_SunExpress Boeing 737-800SSW
+model=SXS-SunExpress
+texture=SXS-SunExpress
+atc_id=TC-SNT
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.90]
+title=AIGAIM_SunExpress Boeing 737-800SSW - 30 years
+model=SXS-SunExpress_30 years
+texture=SXS-SunExpress_30 years
+atc_id=TC-SNN
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.91]
+title=AIGAIM_SunExpress Boeing 737-800SSW - Shaun the Sheep
+model=SXS-SunExpress_Shaun the Sheep
+texture=SXS-SunExpress_Shaun the Sheep
+atc_id=TC-SNU
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.92]
+title=AIGAIM_SunExpress Boeing 737-800SSW - Albino, white tail
+model=SXS-SunExpress_Albino, white tail
+texture=SXS-SunExpress_Albino, white tail
+atc_id=TC-SPF
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.93]
+title=AIGAIM_SunExpress Boeing 737-800SSW - SN
+model=SXS-SunExpress_SN
+texture=SXS-SunExpress_SN
+atc_id=TC-SOB
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.94]
+title=AIGAIM_SunExpress Boeing 737-800SSW - SN 30 years
+model=SXS-SunExpress_SN 30 years
+texture=SXS-SunExpress_SN 30 years
+atc_id=TC-SEK
+atc_airline=SUNEXPRESS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SXS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=Günes Ekspress Havacilik A.S
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 SunExpress FSX.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SXS
+
+[fltsim.95]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW
+model=SWG-Sunwing Airlines
+texture=SWG-Sunwing Airlines
+atc_id=C-FEAK
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.96]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Princess Hotels & Resorts (TEMP)
+model=SWG-Sunwing Airlines_Princess Hotels & Resorts_temp
+texture=SWG-Sunwing Airlines_Princess Hotels & Resorts_temp
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines - C-FDBD Cuba 2018 Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_swg_logojets.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.97]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - TUI hybrid
+model=SWG-Sunwing Airlines_TUI hybrid
+texture=SWG-Sunwing Airlines_TUI hybrid
+atc_id=C-FVWA
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.98]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Smartwings Hybrid blue Engines
+model=SWG-Sunwing Airlines_Smartwings Hybrid blue Engines
+texture=SWG-Sunwing Airlines_Smartwings Hybrid blue Engines
+atc_id=C-CKVL
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.99]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Smartwings Hybrid Travelservice WL
+model=SWG-Sunwing Airlines_Smartwings Hybrid Travelservice WL
+texture=SWG-Sunwing Airlines_Smartwings Hybrid Travelservice WL
+atc_id=C-GNVR
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.100]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - Travelservice Hybrid
+model=SWG-Sunwing Airlines_Travelservice Hybrid
+texture=SWG-Sunwing Airlines_Travelservice Hybrid
+atc_id=C-GPVS
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.101]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN
+model=SWG-Sunwing Airlines_SN
+texture=SWG-Sunwing Airlines_SN
+atc_id=C-FYJD
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.102]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN OC
+model=SWG-Sunwing Airlines_SN OC
+texture=SWG-Sunwing Airlines_SN OC
+atc_id=C-FFPH
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.103]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN OC white Scimitar
+model=SWG-Sunwing Airlines_SN OC white Scimitar
+texture=SWG-Sunwing Airlines_SN OC white Scimitar
+atc_id=C-FLSW
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_sunwing_738s_fsx.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.104]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid
+model=SWG-Sunwing Airlines_SN TUI hybrid
+texture=SWG-Sunwing Airlines_SN TUI hybrid
+atc_id=C-FVWA
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.105]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid G-reg
+model=SWG-Sunwing Airlines_SN TUI hybrid G-reg
+texture=SWG-Sunwing Airlines_SN TUI hybrid G-reg
+atc_id=C-FDZY
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.106]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN TUI hybrid white WL with TUI-logo
+model=SWG-Sunwing Airlines_SN TUI hybrid white WL with TUI-logo
+texture=SWG-Sunwing Airlines_SN TUI hybrid white WL with TUI-logo
+atc_id=C-FUIM
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.107]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN full TUI colours G-reg
+model=SWG-Sunwing Airlines_SN full TUI colours G-reg
+texture=SWG-Sunwing Airlines_SN full TUI colours G-reg
+atc_id=C-FDZY
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swg2018_p3d4.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.108]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Smartwings Hybrid
+model=SWG-Sunwing Airlines_SN Smartwings Hybrid
+texture=SWG-Sunwing Airlines_SN Smartwings Hybrid
+atc_id=C-GKVU
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2019_b738_p3d-1.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.109]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Smartwings Hybrid Royalton Luxury Resorts Cuba (TEMP)
+model=SWG-Sunwing Airlines_SN Smartwings Hybrid Royalton Luxury Resorts Cuba_temp
+texture=SWG-Sunwing Airlines_SN Smartwings Hybrid Royalton Luxury Resorts Cuba_temp
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines - OK-TVU Iberostar 2018 Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_swg_logojets.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.110]
+title=AIGAIM_Sunwing Airlines Boeing 737-800SSW - SN Travelservice WL OK-Reg
+model=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
+texture=SWG-Sunwing Airlines_SN Travelservice WL OK-Reg
+atc_id=OK-TVT
+atc_airline=SUNWING
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWG
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Sunwing Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_swghybrids2020_b738_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWG
+
+[fltsim.111]
+title=AIGAIM_Swoop Boeing 737-800SSW - SN
+model=WSW-Swoop_SN
+texture=WSW-Swoop_SN
+atc_airline=SWOOP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WSW
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Swoop SN Scimitar Winglets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_738_wsw1.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WSW
+
+[fltsim.112]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW
+model=SQP-SkyUp Airlines
+texture=SQP-SkyUp Airlines
+atc_id=UR-SQH
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.113]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - Eyebrows
+model=SQP-SkyUp Airlines_Eyebrows
+texture=SQP-SkyUp Airlines_Eyebrows
+atc_id=UR-SQG
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.114]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN
+model=SQP-SkyUp Airlines_SN
+texture=SQP-SkyUp Airlines_SN
+atc_id=UR-SQF
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines SSW SN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.115]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN fwd titles
+model=SQP-SkyUp Airlines_SN fwd titles
+texture=SQP-SkyUp Airlines_SN fwd titles
+atc_id=UR-SQA
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines SSW SN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.116]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN white belly
+model=SQP-SkyUp Airlines_SN white belly
+texture=SQP-SkyUp Airlines_SN white belly
+atc_id=UR-SQB
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.117]
+title=AIGAIM_SkyUp Airlines Boeing 737-800SSW - SN aft Reg
+model=SQP-SkyUp Airlines_SN aft Reg
+texture=SQP-SkyUp Airlines_SN aft Reg
+atc_id=UR-SQC
+atc_airline=SKYUP
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SQP
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800SSW
+ui_variation=SkyUp Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_sqp_boeing_738ssw.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SQP
+
+[fltsim.118]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN
+model=SWA-Southwest Airlines_SN
+texture=SWA-Southwest Airlines_SN
+atc_id=N8644C
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.119]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitars
+model=SWA-Southwest Airlines_SN Blue Scimitars
+texture=SWA-Southwest Airlines_SN Blue Scimitars
+atc_id=N8511K
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.120]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitar (lhs)
+model=SWA-Southwest Airlines_SN Blue Scimitar (lhs)
+texture=SWA-Southwest Airlines_SN Blue Scimitar (lhs)
+atc_id=N8652B
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.121]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Blue Scimitar (rhs)
+model=SWA-Southwest Airlines_SN Blue Scimitar (rhs)
+texture=SWA-Southwest Airlines_SN Blue Scimitar (rhs)
+atc_id=N8654B
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.122]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN ETOPS
+model=SWA-Southwest Airlines_SN ETOPS
+texture=SWA-Southwest Airlines_SN ETOPS
+atc_id=N8325D
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.123]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN ETOPS Blue Scimitar (lhs)
+model=SWA-Southwest Airlines_SN ETOPS Blue Scimitar (lhs)
+texture=SWA-Southwest Airlines_SN ETOPS Blue Scimitar (lhs)
+atc_id=N8390C
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.124]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Heart One
+model=SWA-Southwest Airlines_SN Heart One
+texture=SWA-Southwest Airlines_SN Heart One
+atc_id=N8642E
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.125]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Heart Two
+model=SWA-Southwest Airlines_SN Heart Two
+texture=SWA-Southwest Airlines_SN Heart Two
+atc_id=N8645A
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738_swanc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.126]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN OC
+model=SWA-Southwest Airlines_SN OC
+texture=SWA-Southwest Airlines_SN OC
+atc_id=N8639B
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swaoc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.127]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN OC White Scimitars
+model=SWA-Southwest Airlines_SN OC White Scimitars
+texture=SWA-Southwest Airlines_SN OC White Scimitars
+atc_id=N8633B
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b738_swaoc_p3d.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA
+
+[fltsim.128]
+title=AIGAIM_Southwest Airlines Boeing 737-800SSW - SN Freedom One
+model=SWA-Southwest Airlines_SN Freedom One
+texture=SWA-Southwest Airlines_SN Freedom One
+atc_id=N500WR
+atc_airline=SOUTHWEST
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800SSW
+ui_variation=Southwest
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_b738w_freedomone_kjm.zip
+description=FAIB_B737-800SSW-scimitars_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWA

@@ -53,108 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Regency Air Hawker 400XP - N188JF
-model=GA2J-Regency Air_N188JF
-texture=GA2J-Regency Air_N188JF
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-446, Regency Air, N188JF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.1]
-title=AIGAIM_Regency Air Hawker 400XP - N710RA
-model=GA2J-Regency Air_N710RA
-texture=GA2J-Regency Air_N710RA
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-543, Regency Air, N710RA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.2]
-title=AIGAIM_Regency Air Hawker 400XP - N872RA
-model=GA2J-Regency Air_N872RA
-texture=GA2J-Regency Air_N872RA
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-563, Regency Air, N872RA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.3]
-title=AIGAIM_Regency Air Hawker 400XP - N923RA
-model=GA2J-Regency Air_N923RA
-texture=GA2J-Regency Air_N923RA
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-424, Regency Air, N923RA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.4]
-title=AIGAIM_Regency Air Hawker 400XP - N926RA
-model=GA2J-Regency Air_N926RA
-texture=GA2J-Regency Air_N926RA
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-358, Regency Air, N926RA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.5]
-title=AIGAIM_Regency Air Hawker 400XP - N937RA
-model=GA2J-Regency Air_N937RA
-texture=GA2J-Regency Air_N937RA
-atc_airline=REGENCY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J,RGY
-ui_manufacturer=HTAI
-ui_type=Hawker 400
-ui_variation=Hawker 400XP, c/n RK-460, Regency Air, N937RA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RGY
-
-[fltsim.6]
 title=AIGAIM_Don Davis Aviation Hawker 400XP - N330R
 model=GA2J-Don Davis Aviation_N330R
 texture=GA2J-Don Davis Aviation_N330R
@@ -170,7 +68,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.7]
+[fltsim.1]
 title=AIGAIM_Don Davis Aviation Hawker 400XP - N835TB
 model=GA2J-Don Davis Aviation_N835TB
 texture=GA2J-Don Davis Aviation_N835TB
@@ -186,24 +84,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.8]
-title=AIGAIM_Lyddon Aero Center Hawker 400XP - N390SB
-model=GA2J-Lyddon Aero Center_N390SB
-texture=GA2J-Lyddon Aero Center_N390SB
-atc_id=N390SB
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=Hawker
-ui_type=Hawker 400
-ui_variation=Lyddon Aero Center Hawker 400XP N390SB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: HTAI_Lyddon-Aero-Center_H400XP_N390SB_jondix.zip
-description=HTAI_Hawker400XP-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.9]
+[fltsim.2]
 title=AIGAIM_Jet Linx Hawker 400XP - N1JP
 model=JTL-Jet Linx_N1JP
 texture=JTL-Jet Linx_N1JP
@@ -220,7 +101,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTL
 
-[fltsim.10]
+[fltsim.3]
 title=AIGAIM_Jet Linx Hawker 400XP - N215JL
 model=JTL-Jet Linx_N215JL
 texture=JTL-Jet Linx_N215JL
@@ -237,7 +118,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTL
 
-[fltsim.11]
+[fltsim.4]
 title=AIGAIM_Jet Linx Hawker 400XP - N345HC
 model=JTL-Jet Linx_N345HC
 texture=JTL-Jet Linx_N345HC
@@ -254,7 +135,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTL
 
-[fltsim.12]
+[fltsim.5]
 title=AIGAIM_Jet Linx Hawker 400XP - N480M
 model=JTL-Jet Linx_N480M
 texture=JTL-Jet Linx_N480M
@@ -271,7 +152,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTL
 
-[fltsim.13]
+[fltsim.6]
 title=AIGAIM_Jet Linx Hawker 400XP - N732WB
 model=JTL-Jet Linx_N732WB
 texture=JTL-Jet Linx_N732WB
@@ -288,7 +169,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTL
 
-[fltsim.14]
+[fltsim.7]
 title=AIGAIM_Turnkey Jet Hawker 400XP - N317PC
 model=GA2J-Turnkey Jet_N317PC
 texture=GA2J-Turnkey Jet_N317PC
@@ -299,6 +180,125 @@ ui_type=Hawker 400
 ui_variation=Hawker 400XP, c/n RK-357, Turnkey Jet, N317PC
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: Marco Kosterman on JCAI Filename: TurnkeyJetHawker400XP.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.8]
+title=AIGAIM_Regency Air Hawker 400XP - N188JF
+model=GA2J-Regency Air_N188JF
+texture=GA2J-Regency Air_N188JF
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-446, Regency Air, N188JF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.9]
+title=AIGAIM_Regency Air Hawker 400XP - N710RA
+model=GA2J-Regency Air_N710RA
+texture=GA2J-Regency Air_N710RA
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-543, Regency Air, N710RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.10]
+title=AIGAIM_Regency Air Hawker 400XP - N872RA
+model=GA2J-Regency Air_N872RA
+texture=GA2J-Regency Air_N872RA
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-563, Regency Air, N872RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.11]
+title=AIGAIM_Regency Air Hawker 400XP - N923RA
+model=GA2J-Regency Air_N923RA
+texture=GA2J-Regency Air_N923RA
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-424, Regency Air, N923RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.12]
+title=AIGAIM_Regency Air Hawker 400XP - N926RA
+model=GA2J-Regency Air_N926RA
+texture=GA2J-Regency Air_N926RA
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-358, Regency Air, N926RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.13]
+title=AIGAIM_Regency Air Hawker 400XP - N937RA
+model=GA2J-Regency Air_N937RA
+texture=GA2J-Regency Air_N937RA
+atc_airline=REGENCY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,RGY
+ui_manufacturer=HTAI
+ui_type=Hawker 400
+ui_variation=Hawker 400XP, c/n RK-460, Regency Air, N937RA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: RegencyAirHawker400XPs.zip
+description=HTAI_Hawker400XP-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RGY
+
+[fltsim.14]
+title=AIGAIM_Lyddon Aero Center Hawker 400XP - N390SB
+model=GA2J-Lyddon Aero Center_N390SB
+texture=GA2J-Lyddon Aero Center_N390SB
+atc_id=N390SB
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Hawker
+ui_type=Hawker 400
+ui_variation=Lyddon Aero Center Hawker 400XP N390SB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Lyddon-Aero-Center_H400XP_N390SB_jondix.zip
 description=HTAI_Hawker400XP-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0

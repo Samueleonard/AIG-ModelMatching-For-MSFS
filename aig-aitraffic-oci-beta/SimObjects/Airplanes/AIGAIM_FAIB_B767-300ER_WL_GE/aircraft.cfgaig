@@ -49,80 +49,42 @@ concrete=fx_sparks ;
 touchdown=fx_tchdwn, 1 ; 
 
 [fltsim.0]
-title=AIGAIM_Boliviana de Aviacion Boeing 767-300ER WL
-model=BOV-Boliviana de Aviacion
-texture=BOV-Boliviana de Aviacion
-atc_id=CP-3017
-atc_airline=BOLIVIANA
+title=AIGAIM_Air Canada Rouge Boeing 767-300ER WL - GE small AC titles
+model=ROU-Air Canada Rouge_GE small AC titles
+texture=ROU-Air Canada Rouge_GE small AC titles
+atc_airline=ROUGE
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=BOV
+atc_parking_codes=ROU
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER WL
-ui_variation=Boliviana de Aviacion
+ui_variation=Air Canada Rouge - Small Air Canada Titles Wifi
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_bov_boeing_763.zip
+ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
 description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=BOV
+icao_airline=ROU
 
 [fltsim.1]
-title=AIGAIM_MIAT Mongolian Airlines Boeing 767-300ER WL
-model=MGL-MIAT Mongolian Airlines
-texture=MGL-MIAT Mongolian Airlines
-atc_id=JU-1021
-atc_airline=MONGOL AIR
+title=AIGAIM_Air Canada Rouge Boeing 767-300ER WL - GE small AC titles no WiFi dome
+model=ROU-Air Canada Rouge_GE small AC titles no WiFi dome
+texture=ROU-Air Canada Rouge_GE small AC titles no WiFi dome
+atc_airline=ROUGE
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=MGL
-ui_manufacturer=FAIB - Boeing
+atc_parking_codes=ROU
+ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER WL
-ui_variation=MIAT Mongolian Airlines - JU-1021
+ui_variation=Air Canada Rouge - Small Air Canada Titles No Wifi
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai763mgl_fsx.zip
+ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
 description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=MGL
+icao_airline=ROU
 
 [fltsim.2]
-title=AIGAIM_Japan Airlines Boeing 767-300ER WL
-model=JAL-Japan Airlines
-texture=JAL-Japan Airlines
-atc_airline=JAPAN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Japan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_jal_fleet1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAL
-
-[fltsim.3]
-title=AIGAIM_WestJet Boeing 767-300ER WL - OC
-model=WJA-WestJet_OC
-texture=WJA-WestJet_OC
-atc_airline=WESTJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Westjet - C-GOGN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_wja.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.4]
 title=AIGAIM_Air Transport International Boeing 767-300ER WL - BDSF
 model=ATN-Air Transport International_BDSF
 texture=ATN-Air Transport International_BDSF
@@ -141,7 +103,25 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
 
-[fltsim.5]
+[fltsim.3]
+title=AIGAIM_All Nippon Airways Boeing 767-300ER WL
+model=ANA-All Nippon Airways
+texture=ANA-All Nippon Airways
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=ANA All Nippon Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_763_ana_fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.4]
 title=AIGAIM_Aloha Air Cargo Boeing 767-300ER WL - BDSF opb ATN
 model=AAH-Aloha Air Cargo_BDSF opb ATN
 texture=AAH-Aloha Air Cargo_BDSF opb ATN
@@ -160,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAH
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER WL - BCF opb Atlas Air
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air
@@ -179,7 +159,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER WL - BDSF opb Atlas Air
 model=AMZ-Amazon Prime Air_BDSF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BDSF opb Atlas Air
@@ -198,7 +178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER WL - BDSF opb ATI
 model=AMZ-Amazon Prime Air_BDSF opb ATI
 texture=AMZ-Amazon Prime Air_BDSF opb ATI
@@ -217,7 +197,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER WL - BDSF opb ATI Unbridled Air
 model=AMZ-Amazon Prime Air_BDSF opb ATI Unbridled Air
 texture=AMZ-Amazon Prime Air_BDSF opb ATI Unbridled Air
@@ -236,7 +216,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER WL - BDSF opb Cargojet
 model=AMZ-Amazon Prime Air_BDSF opb Cargojet
 texture=AMZ-Amazon Prime Air_BDSF opb Cargojet
@@ -254,7 +234,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_Amerijet International Boeing 767-300ER WL - BDSF
 model=AJT-Amerijet International_BDSF
 texture=AJT-Amerijet International_BDSF
@@ -273,7 +253,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJT
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Atlas Air Boeing 767-300ER WL - GE
 model=GTI-Atlas Air_GE
 texture=GTI-Atlas Air_GE
@@ -292,7 +272,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Atlas Air Boeing 767-300ER WL - GE 1-1-1-1
 model=GTI-Atlas Air_GE 1-1-1-1
 texture=GTI-Atlas Air_GE 1-1-1-1
@@ -311,7 +291,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_AZAL Azerbaijan Airlines Boeing 767-300ER WL
 model=AHY-AZAL Azerbaijan Airlines
 texture=AHY-AZAL Azerbaijan Airlines
@@ -330,100 +310,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
 
-[fltsim.15]
-title=AIGAIM_Northern Air Cargo Boeing 767-300ER WL - BDSF
-model=NAC-Northern Air Cargo_BDSF
-texture=NAC-Northern Air Cargo_BDSF
-atc_id=N379CX
-atc_airline=YUKON
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=NAC
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Amazon Prime Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b763f_nac_p3d.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NAC
-
-[fltsim.16]
-title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BDSF DHL Colors
-model=CKS-Kalitta Air_GE BDSF DHL Colors
-texture=CKS-Kalitta Air_GE BDSF DHL Colors
-atc_id=N284DH
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b763_cks_p3dv1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.17]
-title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BCF DHL Colors
-model=CKS-Kalitta Air_GE BCF DHL Colors
-texture=CKS-Kalitta Air_GE BCF DHL Colors
-atc_id=N739DH
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b763_cks_p3dv1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.18]
-title=AIGAIM_Air Canada Rouge Boeing 767-300ER WL - GE small AC titles
-model=ROU-Air Canada Rouge_GE small AC titles
-texture=ROU-Air Canada Rouge_GE small AC titles
-atc_airline=ROUGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ROU
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Air Canada Rouge - Small Air Canada Titles Wifi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ROU
-
-[fltsim.19]
-title=AIGAIM_Air Canada Rouge Boeing 767-300ER WL - GE small AC titles no WiFi dome
-model=ROU-Air Canada Rouge_GE small AC titles no WiFi dome
-texture=ROU-Air Canada Rouge_GE small AC titles no WiFi dome
-atc_airline=ROUGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ROU
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Air Canada Rouge - Small Air Canada Titles No Wifi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ROU
-
-[fltsim.20]
+[fltsim.14]
 title=AIGAIM_Blue Panorama Airlines Boeing 767-300ER WL - GE Citta di Milano
 model=BPA-Blue Panorama Airlines_GE Citta di Milano
 texture=BPA-Blue Panorama Airlines_GE Citta di Milano
@@ -442,7 +329,62 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.21]
+[fltsim.15]
+title=AIGAIM_Boliviana de Aviacion Boeing 767-300ER WL
+model=BOV-Boliviana de Aviacion
+texture=BOV-Boliviana de Aviacion
+atc_id=CP-3017
+atc_airline=BOLIVIANA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BOV
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Boliviana de Aviacion
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_bov_boeing_763.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BOV
+
+[fltsim.16]
+title=AIGAIM_Cargojet Boeing 767-300ER WL - BCF
+model=CJT-Cargojet_BCF
+texture=CJT-Cargojet_BCF
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Cargojet BCF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_CJT_2020.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT
+
+[fltsim.17]
+title=AIGAIM_Cargojet Boeing 767-300ER WL - BDSF
+model=CJT-Cargojet_BDSF
+texture=CJT-Cargojet_BDSF
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Cargojet BDSF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_CJT_2020.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT
+
+[fltsim.18]
 title=AIGAIM_Condor Boeing 767-300ER WL - GE
 model=CFG-Condor_GE
 texture=CFG-Condor_GE
@@ -461,7 +403,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_Condor Boeing 767-300ER WL - GE MC
 model=CFG-Condor_GE MC
 texture=CFG-Condor_GE MC
@@ -480,7 +422,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_Condor Boeing 767-300ER WL - GE Retro
 model=CFG-Condor_GE Retro
 texture=CFG-Condor_GE Retro
@@ -499,7 +441,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE
 model=DAL-Delta Air Lines_GE
 texture=DAL-Delta Air Lines_GE
@@ -518,7 +460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE No Belly Titles
 model=DAL-Delta Air Lines_GE No Belly Titles
 texture=DAL-Delta Air Lines_GE No Belly Titles
@@ -537,7 +479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE Andrew Young
 model=DAL-Delta Air Lines_GE Andrew Young
 texture=DAL-Delta Air Lines_GE Andrew Young
@@ -556,7 +498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_DHL Aero Expreso Boeing 767-300ER WL - BCF
 model=DAE-DHL Aero Expreso_BCF
 texture=DAE-DHL Aero Expreso_BCF
@@ -575,7 +517,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_DHL Aero Expreso Boeing 767-300ER WL - BCF Americas Cup 2020
 model=DAE-DHL Aero Expreso_BCF Americas Cup 2020
 texture=DAE-DHL Aero Expreso_BCF Americas Cup 2020
@@ -594,333 +536,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
 
-[fltsim.29]
-title=AIGAIM_Neos Boeing 767-300ER WL - Moonflower Jet
-model=NOS-Neos_Moonflower Jet
-texture=NOS-Neos_Moonflower Jet
-atc_airline=MOONFLOWER
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NOS
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Neos - Moonflower
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_neos_76w.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NOS
-
-[fltsim.30]
-title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL
-model=TFL-TUI fly Netherlands
-texture=TFL-TUI fly Netherlands
-atc_airline=ORANGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TFL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=TUI Airlines Netherlands
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnl_76w.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFL
-
-[fltsim.31]
-title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL - opb JAF
-model=TFL-TUI fly Netherlands_opb JAF
-texture=TFL-TUI fly Netherlands_opb JAF
-atc_airline=ORANGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TFL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=TUI Airlines Belgium
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_76w.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFL
-
-[fltsim.32]
-title=AIGAIM_Icelandair Boeing 767-300ER WL
-model=ICE-Icelandair
-texture=ICE-Icelandair
-atc_id=TF-ISN
-atc_airline=ICE AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ICE
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Icelandair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: faib_b763w_ice_p3d.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ICE
-
-[fltsim.33]
-title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL
-model=TAM-LATAM Airlines Brasil
-texture=TAM-LATAM Airlines Brasil
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Brasil - PT-MOD No Flag
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.34]
-title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - Brazil Flag
-model=TAM-LATAM Airlines Brasil_Brazil Flag
-texture=TAM-LATAM Airlines Brasil_Brazil Flag
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Brasil - PT-MSY Brasil Flag
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.35]
-title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC
-model=TAM-LATAM Airlines Brasil_OC
-texture=TAM-LATAM Airlines Brasil_OC
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Brasil - OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.36]
-title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Red Carpet
-model=TAM-LATAM Airlines Brasil_OC Red Carpet
-texture=TAM-LATAM Airlines Brasil_OC Red Carpet
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Brasil - OC PT-MSO The Magic Red Carpet
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.37]
-title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Oneworld Red Carpet
-model=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
-texture=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
-atc_airline=TAM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Brasil - OC PT-MOC Oneworld
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAM
-
-[fltsim.38]
-title=AIGAIM_LATAM Airlines Chile Boeing 767-300ER WL
-model=LAN-LATAM Airlines Chile
-texture=LAN-LATAM Airlines Chile
-atc_airline=LAN CHILE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LAN
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Chile
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAN
-
-[fltsim.39]
-title=AIGAIM_LATAM Airlines Ecuador Boeing 767-300ER WL - opb LAN OC
-model=LNE-LATAM Airlines Ecuador_opb LAN OC
-texture=LNE-LATAM Airlines Ecuador_opb LAN OC
-atc_airline=AEROLANE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LNE
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Chile - OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LNE
-
-[fltsim.40]
-title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL
-model=LPE-LATAM Airlines Peru
-texture=LPE-LATAM Airlines Peru
-atc_airline=LANPERU
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LPE,LAN
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Chile
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LPE
-
-[fltsim.41]
-title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL - OC
-model=LPE-LATAM Airlines Peru_OC
-texture=LPE-LATAM Airlines Peru_OC
-atc_airline=LANPERU
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LPE,LAN
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Airlines Chile - OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LPE
-
-[fltsim.42]
-title=AIGAIM_LATAM Cargo Colombia Boeing 767-300ER WL - BCF Colombia Flag
-model=LAE-LATAM Cargo Colombia_BCF Colombia Flag
-texture=LAE-LATAM Cargo Colombia_BCF Colombia Flag
-atc_airline=LANCO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=LAE
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=LATAM Cargo Colombia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763f_latamcargo.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LAE
-
-[fltsim.43]
-title=AIGAIM_Omni Air International Boeing 767-300ER WL
-model=OAE-Omni Air International
-texture=OAE-Omni Air International
-atc_id=N432AX
-atc_airline=OMNI-EXPRESS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OAE
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Omni Air International
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_oae_b763_p3d-1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OAE
-
-[fltsim.44]
-title=AIGAIM_TUI Airways UK Boeing 767-300ER WL
-model=TOM-TUI Airways UK
-texture=TOM-TUI Airways UK
-atc_airline=TOMJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=TUI Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_tuiairways_76w.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.45]
-title=AIGAIM_Cargojet Boeing 767-300ER WL - BCF
-model=CJT-Cargojet_BCF
-texture=CJT-Cargojet_BCF
-atc_airline=CARGOJET
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CJT
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Cargojet BCF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_CJT_2020.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CJT
-
-[fltsim.46]
-title=AIGAIM_Cargojet Boeing 767-300ER WL - BDSF
-model=CJT-Cargojet_BDSF
-texture=CJT-Cargojet_BDSF
-atc_airline=CARGOJET
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CJT
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=Cargojet BDSF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_CJT_2020.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CJT
-
-[fltsim.47]
+[fltsim.26]
 title=AIGAIM_DHL Air UK Boeing 767-300ER WL - GE BDSF No1 Best Workplace
 model=DHK-DHL Air UK_GE BDSF No1 Best Workplace
 texture=DHK-DHL Air UK_GE BDSF No1 Best Workplace
@@ -939,7 +555,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
 
-[fltsim.48]
+[fltsim.27]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF
 model=DHX-DHL Intl Aviation ME_BCF
 texture=DHX-DHL Intl Aviation ME_BCF
@@ -958,7 +574,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.49]
+[fltsim.28]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF No1 Best Workplace
 model=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
 texture=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
@@ -977,7 +593,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.50]
+[fltsim.29]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BDSF
 model=DHX-DHL Intl Aviation ME_BDSF
 texture=DHX-DHL Intl Aviation ME_BDSF
@@ -996,20 +612,404 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.51]
-title=AIGAIM_All Nippon Airways Boeing 767-300ER WL
-model=ANA-All Nippon Airways
-texture=ANA-All Nippon Airways
-atc_airline=ALL NIPPON
+[fltsim.30]
+title=AIGAIM_Icelandair Boeing 767-300ER WL
+model=ICE-Icelandair
+texture=ICE-Icelandair
+atc_id=TF-ISN
+atc_airline=ICE AIR
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
+atc_parking_codes=ICE
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER WL
-ui_variation=ANA All Nippon Airways
+ui_variation=Icelandair
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_ana_fleet.zip
+ui_createdby=Provided by: JCAI Filename: faib_b763w_ice_p3d.zip
 description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ANA
+icao_airline=ICE
+
+[fltsim.31]
+title=AIGAIM_Japan Airlines Boeing 767-300ER WL
+model=JAL-Japan Airlines
+texture=JAL-Japan Airlines
+atc_airline=JAPAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=JAL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Japan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_763_jal_fleet1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JAL
+
+[fltsim.32]
+title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BDSF DHL Colors
+model=CKS-Kalitta Air_GE BDSF DHL Colors
+texture=CKS-Kalitta Air_GE BDSF DHL Colors
+atc_id=N284DH
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b763_cks_p3dv1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.33]
+title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BCF DHL Colors
+model=CKS-Kalitta Air_GE BCF DHL Colors
+texture=CKS-Kalitta Air_GE BCF DHL Colors
+atc_id=N739DH
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b763_cks_p3dv1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.34]
+title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL
+model=TAM-LATAM Airlines Brasil
+texture=TAM-LATAM Airlines Brasil
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Brasil - PT-MOD No Flag
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.35]
+title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - Brazil Flag
+model=TAM-LATAM Airlines Brasil_Brazil Flag
+texture=TAM-LATAM Airlines Brasil_Brazil Flag
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Brasil - PT-MSY Brasil Flag
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.36]
+title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC
+model=TAM-LATAM Airlines Brasil_OC
+texture=TAM-LATAM Airlines Brasil_OC
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Brasil - OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.37]
+title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Red Carpet
+model=TAM-LATAM Airlines Brasil_OC Red Carpet
+texture=TAM-LATAM Airlines Brasil_OC Red Carpet
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Brasil - OC PT-MSO The Magic Red Carpet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.38]
+title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Oneworld Red Carpet
+model=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
+texture=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
+atc_airline=TAM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Brasil - OC PT-MOC Oneworld
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAM
+
+[fltsim.39]
+title=AIGAIM_LATAM Airlines Chile Boeing 767-300ER WL
+model=LAN-LATAM Airlines Chile
+texture=LAN-LATAM Airlines Chile
+atc_airline=LAN CHILE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAN
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Chile
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAN
+
+[fltsim.40]
+title=AIGAIM_LATAM Airlines Ecuador Boeing 767-300ER WL - opb LAN OC
+model=LNE-LATAM Airlines Ecuador_opb LAN OC
+texture=LNE-LATAM Airlines Ecuador_opb LAN OC
+atc_airline=AEROLANE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LNE
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Chile - OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LNE
+
+[fltsim.41]
+title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL
+model=LPE-LATAM Airlines Peru
+texture=LPE-LATAM Airlines Peru
+atc_airline=LANPERU
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LPE,LAN
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Chile
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LPE
+
+[fltsim.42]
+title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL - OC
+model=LPE-LATAM Airlines Peru_OC
+texture=LPE-LATAM Airlines Peru_OC
+atc_airline=LANPERU
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LPE,LAN
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Airlines Chile - OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: latam-airlines-fleet.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LPE
+
+[fltsim.43]
+title=AIGAIM_LATAM Cargo Colombia Boeing 767-300ER WL - BCF Colombia Flag
+model=LAE-LATAM Cargo Colombia_BCF Colombia Flag
+texture=LAE-LATAM Cargo Colombia_BCF Colombia Flag
+atc_airline=LANCO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=LAE
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=LATAM Cargo Colombia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_763f_latamcargo.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAE
+
+[fltsim.44]
+title=AIGAIM_MIAT Mongolian Airlines Boeing 767-300ER WL
+model=MGL-MIAT Mongolian Airlines
+texture=MGL-MIAT Mongolian Airlines
+atc_id=JU-1021
+atc_airline=MONGOL AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MGL
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 767-300ER WL
+ui_variation=MIAT Mongolian Airlines - JU-1021
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai763mgl_fsx.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MGL
+
+[fltsim.45]
+title=AIGAIM_Neos Boeing 767-300ER WL - Moonflower Jet
+model=NOS-Neos_Moonflower Jet
+texture=NOS-Neos_Moonflower Jet
+atc_airline=MOONFLOWER
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NOS
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Neos - Moonflower
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_neos_76w.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOS
+
+[fltsim.46]
+title=AIGAIM_Northern Air Cargo Boeing 767-300ER WL - BDSF
+model=NAC-Northern Air Cargo_BDSF
+texture=NAC-Northern Air Cargo_BDSF
+atc_id=N379CX
+atc_airline=YUKON
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=NAC
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Amazon Prime Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b763f_nac_p3d.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NAC
+
+[fltsim.47]
+title=AIGAIM_Omni Air International Boeing 767-300ER WL
+model=OAE-Omni Air International
+texture=OAE-Omni Air International
+atc_id=N432AX
+atc_airline=OMNI-EXPRESS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OAE
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Omni Air International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_oae_b763_p3d-1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OAE
+
+[fltsim.48]
+title=AIGAIM_WestJet Boeing 767-300ER WL - OC
+model=WJA-WestJet_OC
+texture=WJA-WestJet_OC
+atc_airline=WESTJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Westjet - C-GOGN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_763_wja.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.49]
+title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL
+model=TFL-TUI fly Netherlands
+texture=TFL-TUI fly Netherlands
+atc_airline=ORANGE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TFL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=TUI Airlines Netherlands
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesnl_76w.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFL
+
+[fltsim.50]
+title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL - opb JAF
+model=TFL-TUI fly Netherlands_opb JAF
+texture=TFL-TUI fly Netherlands_opb JAF
+atc_airline=ORANGE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TFL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=TUI Airlines Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairlinesbe_76w.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TFL
+
+[fltsim.51]
+title=AIGAIM_TUI Airways UK Boeing 767-300ER WL
+model=TOM-TUI Airways UK
+texture=TOM-TUI Airways UK
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=TUI Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_tuiairways_76w.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM

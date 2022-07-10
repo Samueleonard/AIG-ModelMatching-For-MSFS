@@ -72,25 +72,6 @@ isUserSelectable=0
 icao_airline=TNO
 
 [fltsim.1]
-title=AIGAIM_MNG Airlines Airbus A300-600F - GE
-model=MNB-MNG Airlines_GE
-texture=MNB-MNG Airlines_GE
-atc_id=TC-MCD
-atc_airline=BLACK SEA
-atc_heavy=0
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=MNB
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A300-600F
-ui_variation=MNG Havayollari
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A300-300F MNG FSX.zip
-description=TFS_A300-600F_GE-A306_GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MNB
-
-[fltsim.2]
 title=AIGAIM_Air Hong Kong Airbus A300-600F - GE
 model=AHK-Air Hong Kong_GE
 texture=AHK-Air Hong Kong_GE
@@ -103,11 +84,30 @@ ui_manufacturer=The Fruit Stand
 ui_type=Airbus A300-600F
 ui_variation=Air Hong Kong
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_Airbus_A300-600F_Air_Hong_kong_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_Airbus_A300-600F_Air_Hong_kong_FSX.zip
 description=TFS_A300-600F_GE-A306_GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHK
+
+[fltsim.2]
+title=AIGAIM_EAT Leipzig Airbus A300-600F - opb Solinair White
+model=BCS-EAT Leipzig_opb Solinair White
+texture=BCS-EAT Leipzig_opb Solinair White
+atc_id=S5-ABO
+atc_airline=EUROTRANS
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BCS
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A300-600F
+ui_variation=Solinair d.o.o.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A300-300F Solinair.zip
+description=TFS_A300-600F_GE-A306_GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BCS
 
 [fltsim.3]
 title=AIGAIM_FedEx Express Airbus A300-600F - GE
@@ -128,23 +128,23 @@ isUserSelectable=0
 icao_airline=FDX
 
 [fltsim.4]
-title=AIGAIM_EAT Leipzig Airbus A300-600F - opb Solinair White
-model=BCS-EAT Leipzig_opb Solinair White
-texture=BCS-EAT Leipzig_opb Solinair White
-atc_id=S5-ABO
-atc_airline=EUROTRANS
+title=AIGAIM_MNG Airlines Airbus A300-600F - GE
+model=MNB-MNG Airlines_GE
+texture=MNB-MNG Airlines_GE
+atc_id=TC-MCD
+atc_airline=BLACK SEA
 atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BCS
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MNB
 ui_manufacturer=The Fruit Stand
 ui_type=Airbus A300-600F
-ui_variation=Solinair d.o.o.
+ui_variation=MNG Havayollari
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A300-300F Solinair.zip
+ui_createdby=Provided by: JB Filename: A300-300F MNG FSX.zip
 description=TFS_A300-600F_GE-A306_GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=BCS
+icao_airline=MNB
 
 [fltsim.5]
 title=AIGAIM_Solinair Airbus A300-600F - opb MNB

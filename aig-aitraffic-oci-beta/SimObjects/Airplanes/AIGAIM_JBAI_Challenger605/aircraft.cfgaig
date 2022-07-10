@@ -53,6 +53,57 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Sparfell Luftfahrt Bombardier Challenger 605 - OE-IIX
+model=GA3J-Sparfell Luftfahrt_OE-IIX
+texture=GA3J-Sparfell Luftfahrt_OE-IIX
+atc_id=OE-IIX
+atc_airline=LAUDA RUSH
+atc_parking_types=RAMP
+atc_parking_codes=GA3J,LDX
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 605
+ui_variation=LaudaMotion
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: jbai_ldm_cl65_p3d.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LDX
+
+[fltsim.1]
+title=AIGAIM_Florida Wings Bombardier Challenger 605 - N99KW
+model=GA2J-Florida Wings_N99KW
+texture=GA2J-Florida Wings_N99KW
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger 605, c/n 5877, Florida Wings, N99KW
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FloridaWingsChallenger605N99KW.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.2]
+title=AIGAIM_FMC Corporation Bombardier Challenger 605 - N1088
+model=GA2J-FMC Corporation_N1088
+texture=GA2J-FMC Corporation_N1088
+atc_id=N1088
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=FMC Corporation Bombardier Challenger 605 N1088
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FMC_CL65.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.3]
 title=AIGAIM_FlightWorks Bombardier Challenger 605 - N110CP
 model=GA2J-FlightWorks_N110CP
 texture=GA2J-FlightWorks_N110CP
@@ -69,54 +120,6 @@ description=JBAI_Challenger605-605_NoSat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FWK
-
-[fltsim.1]
-title=AIGAIM_Shaw Communications Bombardier Challenger 605 - C-FSCI
-model=GA2J-Shaw Communication_C-FSCI
-texture=GA2J-Shaw Communication_C-FSCI
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger CL-605, c/n 5948, Shaw Communications, C-FSCI
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ShawCommunicationsCL605s.zip
-description=JBAI_Challenger605-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.2]
-title=AIGAIM_Shaw Communications Bombardier Challenger 605 - C-FSJY
-model=GA2J-Shaw Communication_C-FSJY
-texture=GA2J-Shaw Communication_C-FSJY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger CL-605, c/n 5986, Shaw Communications, C-FSJY
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ShawCommunicationsCL605s.zip
-description=JBAI_Challenger605-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.3]
-title=AIGAIM_Florida Wings Bombardier Challenger 605 - N99KW
-model=GA2J-Florida Wings_N99KW
-texture=GA2J-Florida Wings_N99KW
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger 605, c/n 5877, Florida Wings, N99KW
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: FloridaWingsChallenger605N99KW.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
 
 [fltsim.4]
 title=AIGAIM_Rush Enterprises Bombardier Challenger 605 - N39RE
@@ -136,140 +139,38 @@ isUserSelectable=0
 icao_airline=GA2J
 
 [fltsim.5]
-title=AIGAIM_FMC Corporation Bombardier Challenger 605 - N1088
-model=GA2J-FMC Corporation_N1088
-texture=GA2J-FMC Corporation_N1088
-atc_id=N1088
+title=AIGAIM_Shaw Communications Bombardier Challenger 605 - C-FSCI
+model=GA2J-Shaw Communication_C-FSCI
+texture=GA2J-Shaw Communication_C-FSCI
 atc_parking_types=RAMP
 atc_parking_codes=GA2J
 ui_manufacturer=JBAI
 ui_type=Bombardier Challenger 605
-ui_variation=FMC Corporation Bombardier Challenger 605 N1088
+ui_variation=Bombardier Challenger CL-605, c/n 5948, Shaw Communications, C-FSCI
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FMC_CL65.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ShawCommunicationsCL605s.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
 [fltsim.6]
-title=AIGAIM_Sparfell Luftfahrt Bombardier Challenger 605 - OE-IIX
-model=GA3J-Sparfell Luftfahrt_OE-IIX
-texture=GA3J-Sparfell Luftfahrt_OE-IIX
-atc_id=OE-IIX
-atc_airline=LAUDA RUSH
+title=AIGAIM_Shaw Communications Bombardier Challenger 605 - C-FSJY
+model=GA2J-Shaw Communication_C-FSJY
+texture=GA2J-Shaw Communication_C-FSJY
 atc_parking_types=RAMP
-atc_parking_codes=GA3J,LDX
-ui_manufacturer=Bombardier
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
 ui_type=Bombardier Challenger 605
-ui_variation=LaudaMotion
+ui_variation=Bombardier Challenger CL-605, c/n 5986, Shaw Communications, C-FSJY
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: jbai_ldm_cl65_p3d.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: ShawCommunicationsCL605s.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=LDX
+icao_airline=GA2J
 
 [fltsim.7]
-title=AIGAIM_Latitude 33 Aviation Bombardier Challenger 605 - N605CE
-model=GA2J-Latitude 33 Aviation_N605CE
-texture=GA2J-Latitude 33 Aviation_N605CE
-atc_id=N605CE
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=Bombardier
-ui_type=Bombardier Challenger 605
-ui_variation=Latitude 33 Aviation N605CE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: DFAI Filename: Latitude-33-Aviation-Bombardier-Challenger-605.zip
-description=JBAI_Challenger605-605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.8]
-title=AIGAIM_Mylan Pharmaceuticals Bombardier Challenger 605 - N624MY
-model=GA2J-Mylan Pharmaceuticals_N624MY
-texture=GA2J-Mylan Pharmaceuticals_N624MY
-atc_id=N624MY
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Mylan Pharmaceuticals Bombardier Challenger 605 N624MY
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: Mylan_CL65.zip
-description=JBAI_Challenger605-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.9]
-title=AIGAIM_McCormick & Co Bombardier Challenger 605 - N232MC
-model=GA2J-McCormick & Co_N232MC
-texture=GA2J-McCormick & Co_N232MC
-atc_id=N232MC
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=McCormick & Co Bombardier Challenger 605 N232MC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: McCormick_CL65.zip
-description=JBAI_Challenger605-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.10]
-title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N75NP
-model=GA2J-Nationwide Insurance_N75NP
-texture=GA2J-Nationwide Insurance_N75NP
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger CL-605, c/n 5873, Nationwide Insurance, N75NP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.11]
-title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N86NP
-model=GA2J-Nationwide Insurance_N86NP
-texture=GA2J-Nationwide Insurance_N86NP
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger CL-605, c/n 5874, Nationwide Insurance, N86NP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.12]
-title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N97NP
-model=GA2J-Nationwide Insurance_N97NP
-texture=GA2J-Nationwide Insurance_N97NP
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger CL-605, c/n 5905, Nationwide Insurance, N97NP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
-description=JBAI_Challenger605-Marco_605_NoSat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.13]
 title=AIGAIM_Aurora Jet Partners Bombardier Challenger 605 - C-FXWT
 model=GA2J-Aurora Jet Partners_C-FXWT
 texture=GA2J-Aurora Jet Partners_C-FXWT
@@ -286,7 +187,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.14]
+[fltsim.8]
 title=AIGAIM_Aurora Jet Partners Bombardier Challenger 605 - C-GBKB
 model=GA2J-Aurora Jet Partners_C-GBKB
 texture=GA2J-Aurora Jet Partners_C-GBKB
@@ -303,7 +204,24 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.15]
+[fltsim.9]
+title=AIGAIM_Latitude 33 Aviation Bombardier Challenger 605 - N605CE
+model=GA2J-Latitude 33 Aviation_N605CE
+texture=GA2J-Latitude 33 Aviation_N605CE
+atc_id=N605CE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 605
+ui_variation=Latitude 33 Aviation N605CE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: DFAI Filename: Latitude-33-Aviation-Bombardier-Challenger-605.zip
+description=JBAI_Challenger605-605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.10]
 title=AIGAIM_UniFirst Bombardier Challenger 605 - N683UF
 model=GA2J-Uni First_N683UF
 texture=GA2J-Uni First_N683UF
@@ -320,7 +238,105 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
+[fltsim.11]
+title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N75NP
+model=GA2J-Nationwide Insurance_N75NP
+texture=GA2J-Nationwide Insurance_N75NP
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger CL-605, c/n 5873, Nationwide Insurance, N75NP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.12]
+title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N86NP
+model=GA2J-Nationwide Insurance_N86NP
+texture=GA2J-Nationwide Insurance_N86NP
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger CL-605, c/n 5874, Nationwide Insurance, N86NP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.13]
+title=AIGAIM_Nationwide Insurance Bombardier Challenger 605 - N97NP
+model=GA2J-Nationwide Insurance_N97NP
+texture=GA2J-Nationwide Insurance_N97NP
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger CL-605, c/n 5905, Nationwide Insurance, N97NP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: NationwideInsuranceCL605s.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.14]
+title=AIGAIM_Mylan Pharmaceuticals Bombardier Challenger 605 - N624MY
+model=GA2J-Mylan Pharmaceuticals_N624MY
+texture=GA2J-Mylan Pharmaceuticals_N624MY
+atc_id=N624MY
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Mylan Pharmaceuticals Bombardier Challenger 605 N624MY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: Mylan_CL65.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.15]
+title=AIGAIM_McCormick & Co Bombardier Challenger 605 - N232MC
+model=GA2J-McCormick & Co_N232MC
+texture=GA2J-McCormick & Co_N232MC
+atc_id=N232MC
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=McCormick & Co Bombardier Challenger 605 N232MC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: McCormick_CL65.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
 [fltsim.16]
+title=AIGAIM_Raytheon Technologies Bombardier Challenger 605 - N36RT
+model=GA2J-Raytheon Technologies_N36RT
+texture=GA2J-Raytheon Technologies_N36RT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger 605, c/n 5800, Raytheon Technologies, N36RT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: Raytheon_Technologies_CL605.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.17]
 title=AIGAIM_Canadian Pacific Bombardier Challenger 605 - C-GKCP
 model=GA2J-Canadian Pacific_C-GKCP
 texture=GA2J-Canadian Pacific_C-GKCP
@@ -336,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.17]
+[fltsim.18]
 title=AIGAIM_Wegmans Bombardier Challenger 605 - N1500
 model=GA2J-Wegmans_N1500
 texture=GA2J-Wegmans_N1500
@@ -352,7 +368,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.18]
+[fltsim.19]
 title=AIGAIM_Weyerhaeuser Bombardier Challenger 605 - N605LT
 model=BJO-Weyerhaeuser_N605LT
 texture=BJO-Weyerhaeuser_N605LT
@@ -368,19 +384,3 @@ description=JBAI_Challenger605-Marco_605_NoSat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
-
-[fltsim.19]
-title=AIGAIM_Raytheon Technologies Bombardier Challenger 605 - N36RT
-model=GA2J-Raytheon Technologies_N36RT
-texture=GA2J-Raytheon Technologies_N36RT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Bombardier Challenger 605
-ui_variation=Bombardier Challenger 605, c/n 5800, Raytheon Technologies, N36RT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: Raytheon_Technologies_CL605.zip
-description=JBAI_Challenger605-Marco_605_Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J

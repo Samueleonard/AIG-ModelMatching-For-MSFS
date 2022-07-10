@@ -53,6 +53,55 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Abilene Aero Beechcraft King Air C90A - N126MM
+model=GA2T-Abilene Aero_N126MM
+texture=GA2T-Abilene Aero_N126MM
+atc_id=N126MM
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft King Air C90
+ui_variation=Abilene Aero Beechcraft King Air C90A N126MM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Abilene-Aero_c90_jondix.zip
+description=HTAI_BeechC90-4Blades-PT6A-21-Fin(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.1]
+title=AIGAIM_Turbo Air Beechcraft King Air E90 - N900AC
+model=GA2T-Turbo Air_N900AC
+texture=GA2T-Turbo Air_N900AC
+atc_id=N900AC
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_type=Beechcraft King Air E90
+ui_variation=Turbo Air N900AC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: Turbo Air N900AC.zip
+description=HTAI_BeechC90-4Blades-PT6A-21-Fin(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.2]
+title=AIGAIM_Better Living Aviation Beechcraft King Air C90 - N501MS
+model=GA2T-Better Living Aviation_N501MS
+texture=GA2T-Better Living Aviation_N501MS
+atc_id=N501MS
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_type=Beechcraft King Air C90
+ui_variation=Better Living Aviation N501MS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: Better Living Aviation.zip
+description=HTAI_BeechC90-4Blades-PT6A-21-Fin(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.3]
 title=AIGAIM_Mountain Aviation Beechcraft King Air C90B - N315RP
 model=GA2T-Mountain Aviation_N315RP
 texture=GA2T-Mountain Aviation_N315RP

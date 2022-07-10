@@ -32,6 +32,23 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
+title=AIGAIM_Air North Boeing 737-500
+model=ANT-Air North
+texture=ANT-Air North
+atc_airline=AIR NORTH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Air North - OC C-GANJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_735_ant_fleet2018.zip
+description=FAIB_B737-500-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT
+
+[fltsim.1]
 title=AIGAIM_Chilean Air Force Boeing 737-500 - 921
 model=GOV-Chilean Air Force_921
 texture=GOV-Chilean Air Force_921
@@ -48,7 +65,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOV
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Belavia Boeing 737-500
 model=BRU-Belavia
 texture=BRU-Belavia
@@ -66,7 +83,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BRU
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_SCAT Airlines Boeing 737-500
 model=VSV-SCAT Airlines
 texture=VSV-SCAT Airlines
@@ -84,7 +101,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_SCAT Airlines Boeing 737-500 - OC
 model=VSV-SCAT Airlines_OC
 texture=VSV-SCAT Airlines_OC

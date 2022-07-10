@@ -64,49 +64,13 @@ ui_manufacturer=OSP
 ui_type=ATR 72-200F
 ui_variation=ASL Airlines Ireland
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ASL_Airlines_Ireland_ATR_72_202F_Fedex_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ASL_Airlines_Ireland_ATR_72_202F_Fedex_FSX.zip
 description=OSP_ATR72-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
 [fltsim.1]
-title=AIGAIM_Mountain Air Cargo ATR 72-200F
-model=MTN-Mountain Air Cargo
-texture=MTN-Mountain Air Cargo
-atc_airline=MOUNTAIN
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=MTN
-ui_manufacturer=Aerospatiale/Alenia
-ui_type=ATR 72-200F
-ui_variation=Morningstar Air Express
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP ATR 72-200 FDX.zip
-prop_anim_ratio=-0.10
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MTN
-
-[fltsim.2]
-title=AIGAIM_ASL Airlines UK ATR 72-200F
-model=ABV-ASL Airlines UK
-texture=ABV-ASL Airlines UK
-atc_id=G-OASL
-atc_airline=CARGOBLUE
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ABV
-ui_manufacturer=OSP
-ui_type=ATR 72-200F
-ui_variation=ASL Airlines UK Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ASL Airlines UK Limited_ATR_72-200F_FSX.zip
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ABV
-
-[fltsim.3]
 title=AIGAIM_ASL Airlines Ireland ATR 72-200F - basic Farnair colours Blue Engines
 model=ABR-ASL Airlines Ireland_basic Farnair colours Blue Engines
 texture=ABR-ASL Airlines Ireland_basic Farnair colours Blue Engines
@@ -124,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_ASL Airlines Ireland ATR 72-200F - basic Farnair colours White Engines
 model=ABR-ASL Airlines Ireland_basic Farnair colours White Engines
 texture=ABR-ASL Airlines Ireland_basic Farnair colours White Engines
@@ -142,7 +106,25 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABR
 
-[fltsim.5]
+[fltsim.3]
+title=AIGAIM_ASL Airlines UK ATR 72-200F
+model=ABV-ASL Airlines UK
+texture=ABV-ASL Airlines UK
+atc_id=G-OASL
+atc_airline=CARGOBLUE
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ABV
+ui_manufacturer=OSP
+ui_type=ATR 72-200F
+ui_variation=ASL Airlines UK Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ASL Airlines UK Limited_ATR_72-200F_FSX.zip
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABV
+
+[fltsim.4]
 title=AIGAIM_Morningstar Air Express ATR 72-200F
 model=MAL-Morningstar Air Express
 texture=MAL-Morningstar Air Express
@@ -160,83 +142,43 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAL
 
-[fltsim.6]
-title=AIGAIM_SprintAir ATR 72-200F
-model=SRN-SprintAir
-texture=SRN-SprintAir
-atc_id=SP-SPE
-atc_airline=SPRINTAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SRN
-ui_manufacturer=Aerospatiale
+[fltsim.5]
+title=AIGAIM_Mountain Air Cargo ATR 72-200F
+model=MTN-Mountain Air Cargo
+texture=MTN-Mountain Air Cargo
+atc_airline=MOUNTAIN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MTN
+ui_manufacturer=Aerospatiale/Alenia
 ui_type=ATR 72-200F
-ui_variation=Sprint Air
+ui_variation=Morningstar Air Express
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
-prop_anim_ratio=-0.2
+ui_createdby=Provided by: JCAI Filename: OSP ATR 72-200 FDX.zip
+prop_anim_ratio=-0.10
 description=OSP_ATR72-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SRN
+icao_airline=MTN
+
+[fltsim.6]
+title=AIGAIM_RAF-Avia ATR 72-200F
+model=MTL-RAF-Avia
+texture=MTL-RAF-Avia
+atc_id=YL-RAI
+atc_airline=MITAVIA
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MTL
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=RAF Avia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_AT72_MTL_FSX.zip
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MTL
 
 [fltsim.7]
-title=AIGAIM_SprintAir ATR 72-200F - Red
-model=SRN-SprintAir_Red
-texture=SRN-SprintAir_Red
-atc_id=SP-SPC
-atc_airline=SPRINTAIR
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRN
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-200F
-ui_variation=Sprint Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRN
-
-[fltsim.8]
-title=AIGAIM_SprintAir ATR 72-200F - visible windows
-model=SRN-SprintAir_visible windows
-texture=SRN-SprintAir_visible windows
-atc_id=SP-SPA
-atc_airline=SPRINTAIR
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRN
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-200F
-ui_variation=Sprint Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRN
-
-[fltsim.9]
-title=AIGAIM_Swiftair ATR 72-200F - LFD no windows
-model=SWT-Swiftair_LFD no windows
-texture=SWT-Swiftair_LFD no windows
-atc_id=EC-JQF
-atc_airline=SWIFT
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SWT
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-200F
-ui_variation=Swiftair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
-prop_anim_ratio=-0.2
-description=OSP_ATR72-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWT
-
-[fltsim.10]
 title=AIGAIM_Zimex Aviation ATR 72-200F
 model=IMX-Zimex Aviation
 texture=IMX-Zimex Aviation
@@ -248,13 +190,13 @@ ui_manufacturer=Aerospatiale
 ui_type=ATR 72-200F
 ui_variation=Zimex Aviation
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR_72-202F_Zimex Aviation_FSX.zip
+ui_createdby=Provided by: JCAI Filename: OSP_ATR_72-202F_Zimex Aviation_FSX.zip
 description=OSP_ATR72-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IMX
 
-[fltsim.11]
+[fltsim.8]
 title=AIGAIM_Zimex Aviation ATR 72-200F - BDA Logistics
 model=IMX-Zimex Aviation_BDA Logistics
 texture=IMX-Zimex Aviation_BDA Logistics
@@ -272,7 +214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IMX
 
-[fltsim.12]
+[fltsim.9]
 title=AIGAIM_Swiftair ATR 72-200F
 model=SWT-Swiftair
 texture=SWT-Swiftair
@@ -291,7 +233,26 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.13]
+[fltsim.10]
+title=AIGAIM_Swiftair ATR 72-200F - LFD no windows
+model=SWT-Swiftair_LFD no windows
+texture=SWT-Swiftair_LFD no windows
+atc_id=EC-JQF
+atc_airline=SWIFT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SWT
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=Swiftair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_Swiftair_opf_DHL_ATR_72_200F_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWT
+
+[fltsim.11]
 title=AIGAIM_Swiftair ATR 72-200 - QC
 model=SWT-Swiftair_QC
 texture=SWT-Swiftair_QC
@@ -310,7 +271,64 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
+[fltsim.12]
+title=AIGAIM_SprintAir ATR 72-200F
+model=SRN-SprintAir
+texture=SRN-SprintAir
+atc_id=SP-SPE
+atc_airline=SPRINTAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=Sprint Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
+[fltsim.13]
+title=AIGAIM_SprintAir ATR 72-200F - Red
+model=SRN-SprintAir_Red
+texture=SRN-SprintAir_Red
+atc_id=SP-SPC
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=Sprint Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
 [fltsim.14]
+title=AIGAIM_SprintAir ATR 72-200F - visible windows
+model=SRN-SprintAir_visible windows
+texture=SRN-SprintAir_visible windows
+atc_id=SP-SPA
+atc_airline=SPRINTAIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRN
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200F
+ui_variation=Sprint Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR_72_200_Sprint Air_Fleet_FSX.zip
+prop_anim_ratio=-0.2
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRN
+
+[fltsim.15]
 title=AIGAIM_West Atlantic UK ATR 72-200F - LFD no windows
 model=NPT-West Atlantic UK_LFD no windows
 texture=NPT-West Atlantic UK_LFD no windows

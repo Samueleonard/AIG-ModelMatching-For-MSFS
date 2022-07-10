@@ -89,6 +89,24 @@ isUserSelectable=0
 icao_airline=GA3J
 
 [fltsim.2]
+title=AIGAIM_Private Wings Dornier 328-300 Jet
+model=PWF-Private Wings
+texture=PWF-Private Wings
+atc_id=D-BJET
+atc_airline=PRIVATE WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PWF
+ui_manufacturer=Alpha India
+ui_type=Dornier 328-300 Jet
+ui_variation=Cirrus Airlines D-BJET - repaint by Jannik Dahl
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: aig_328jet_privatewings.zip
+description=AIG_D328-300_Jet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PWF
+
+[fltsim.3]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet
 model=SUS-Sun Air of Scandinavia
 texture=SUS-Sun Air of Scandinavia
@@ -100,13 +118,13 @@ ui_manufacturer=Alpha India
 ui_type=Dornier 328-300 Jet
 ui_variation=Sun-Air of Scandinavia
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_Donier_328Jet_Sun-Air_of_Scandinavia_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Donier_328Jet_Sun-Air_of_Scandinavia_FSX.zip
 description=AIG_D328-300_Jet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - OY-NCO
 model=SUS-Sun Air of Scandinavia_OY-NCO
 texture=SUS-Sun Air of Scandinavia_OY-NCO
@@ -124,7 +142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.4]
+[fltsim.5]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - OY-NCP
 model=SUS-Sun Air of Scandinavia_OY-NCP
 texture=SUS-Sun Air of Scandinavia_OY-NCP
@@ -142,7 +160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.5]
+[fltsim.6]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - OY-NCU
 model=SUS-Sun Air of Scandinavia_OY-NCU
 texture=SUS-Sun Air of Scandinavia_OY-NCU
@@ -160,7 +178,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.6]
+[fltsim.7]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - OY-NCW
 model=SUS-Sun Air of Scandinavia_OY-NCW
 texture=SUS-Sun Air of Scandinavia_OY-NCW
@@ -178,7 +196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.7]
+[fltsim.8]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - D-BMAD
 model=SUS-Sun Air of Scandinavia_D-BMAD
 texture=SUS-Sun Air of Scandinavia_D-BMAD
@@ -196,7 +214,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
 
-[fltsim.8]
+[fltsim.9]
 title=AIGAIM_Sun Air of Scandinavia Dornier 328-300 Jet - OY-NCJ
 model=SUS-Sun Air of Scandinavia_OY-NCJ
 texture=SUS-Sun Air of Scandinavia_OY-NCJ
@@ -213,21 +231,3 @@ description=AIG_D328-300_Jet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUS
-
-[fltsim.9]
-title=AIGAIM_Private Wings Dornier 328-300 Jet - OC
-model=PWF-Private Wings_OC
-texture=PWF-Private Wings_OC
-atc_id=D-BJET
-atc_airline=PRIVATE WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PWF
-ui_manufacturer=Alpha India
-ui_type=Dornier 328-300 Jet
-ui_variation=Cirrus Airlines D-BJET - repaint by Jannik Dahl
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: aig_328jet_privatewings.zip
-description=AIG_D328-300_Jet(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PWF

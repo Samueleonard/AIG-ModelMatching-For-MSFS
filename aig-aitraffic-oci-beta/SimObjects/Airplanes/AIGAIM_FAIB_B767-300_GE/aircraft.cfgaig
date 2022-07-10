@@ -68,98 +68,6 @@ isUserSelectable=0
 icao_airline=DAH
 
 [fltsim.1]
-title=AIGAIM_Japan Airlines Boeing 767-300
-model=JAL-Japan Airlines
-texture=JAL-Japan Airlines
-atc_airline=JAPANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300
-ui_variation=Japan Airlines - JA8988 Fwd Dome
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_jal_fleet1.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAL
-
-[fltsim.2]
-title=AIGAIM_Japan Airlines Boeing 767-300 - 50 Years Asahiyama Zoo
-model=JAL-Japan Airlines_50 Years Asahiyama Zoo
-texture=JAL-Japan Airlines_50 Years Asahiyama Zoo
-atc_airline=JAPANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300
-ui_variation=Japan Airlines - JA8976 Fwd Dome Asahiyama Zoo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_jal_update_apr181.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAL
-
-[fltsim.3]
-title=AIGAIM_Japan Airlines Boeing 767-300 - Oneworld
-model=JAL-Japan Airlines_Oneworld
-texture=JAL-Japan Airlines_Oneworld
-atc_airline=JAPANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300
-ui_variation=Japan Airlines - JA8980 Fwd Dome Oneworld
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_jal_fleet1.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JAL
-
-[fltsim.4]
-title=AIGAIM_Asiana Airlines Boeing 767-300
-model=AAR-Asiana Airlines
-texture=AAR-Asiana Airlines
-atc_id=HL7247
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=FSX-AI Bureau (FAIB)
-ui_type=Boeing 767-300
-ui_variation=Asiana Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B763_Asiana.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR
-
-[fltsim.5]
-title=AIGAIM_Asiana Airlines Boeing 767-300 - Star Alliance
-model=AAR-Asiana Airlines_Star Alliance
-texture=AAR-Asiana Airlines_Star Alliance
-atc_id=HL7516
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=FSX-AI Bureau (FAIB)
-ui_type=Boeing 767-300
-ui_variation=Asiana Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B763_Asiana.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR
-
-[fltsim.6]
 title=AIGAIM_Air Do Boeing 767-300
 model=ADO-Air Do
 texture=ADO-Air Do
@@ -178,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ADO
 
-[fltsim.7]
+[fltsim.2]
 title=AIGAIM_Air Do Boeing 767-300 - Pokemon Rockon Jet (TEMP)
 model=ADO-Air Do_Pokemon Rockon Jet_temp
 texture=ADO-Air Do_Pokemon Rockon Jet_temp
@@ -196,3 +104,41 @@ description=FAIB_B767-300_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ADO
+
+[fltsim.3]
+title=AIGAIM_Asiana Airlines Boeing 767-300
+model=AAR-Asiana Airlines
+texture=AAR-Asiana Airlines
+atc_id=HL7247
+atc_airline=ASIANA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAR
+ui_manufacturer=FSX-AI Bureau (FAIB)
+ui_type=Boeing 767-300
+ui_variation=Asiana Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B763_Asiana.zip
+description=FAIB_B767-300_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAR
+
+[fltsim.4]
+title=AIGAIM_Asiana Airlines Boeing 767-300 - Star Alliance
+model=AAR-Asiana Airlines_Star Alliance
+texture=AAR-Asiana Airlines_Star Alliance
+atc_id=HL7516
+atc_airline=ASIANA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAR
+ui_manufacturer=FSX-AI Bureau (FAIB)
+ui_type=Boeing 767-300
+ui_variation=Asiana Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B763_Asiana.zip
+description=FAIB_B767-300_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAR

@@ -53,42 +53,24 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_United Airlines Boeing 737 MAX 9
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N27519
-atc_airline=UNITED
+title=AIGAIM_Aeromexico Boeing 737 MAX 9
+model=AMX-Aeromexico
+texture=AMX-Aeromexico
+atc_id=XA-BBB
+atc_airline=AEROMEXICO
 atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
+atc_parking_codes=AMX
 ui_manufacturer=AI Aardvark
 ui_type=Boeing 737 MAX 9
-ui_variation=United Continental Holdings Inc.
+ui_variation=Aerovías de México, S.A. de C.V.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA B737 MAX9 United.zip
-description=AIA_B737-MAX9-no_refl(fs20)
+ui_createdby=Provided by: JB Filename: AIA B737 MAX9 Aeromexico.zip
+description=AIA_B737-MAX9-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UAL
+icao_airline=AMX
 
 [fltsim.1]
-title=AIGAIM_United Airlines Boeing 737 MAX 9 - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N27503
-atc_airline=UNITED
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 9
-ui_variation=United Continental Holdings Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA B737 MAX9 United.zip
-description=AIA_B737-MAX9-no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.2]
 title=AIGAIM_Copa Airlines Boeing 737 MAX 9
 model=CMP-Copa Airlines
 texture=CMP-Copa Airlines
@@ -106,7 +88,43 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CMP
 
+[fltsim.2]
+title=AIGAIM_United Airlines Boeing 737 MAX 9
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N27519
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 9
+ui_variation=United Continental Holdings Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX9 United.zip
+description=AIA_B737-MAX9-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
 [fltsim.3]
+title=AIGAIM_United Airlines Boeing 737 MAX 9 - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N27503
+atc_airline=UNITED
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 9
+ui_variation=United Continental Holdings Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B737 MAX9 United.zip
+description=AIA_B737-MAX9-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.4]
 title=AIGAIM_Turkish Airlines Boeing 737 MAX 9
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -123,21 +141,3 @@ description=AIA_B737-MAX9-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
-
-[fltsim.4]
-title=AIGAIM_Aeromexico Boeing 737 MAX 9
-model=AMX-Aeromexico
-texture=AMX-Aeromexico
-atc_id=XA-BBB
-atc_airline=AEROMEXICO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AMX
-ui_manufacturer=AI Aardvark
-ui_type=Boeing 737 MAX 9
-ui_variation=Aerovías de México, S.A. de C.V.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIA B737 MAX9 Aeromexico.zip
-description=AIA_B737-MAX9-Sat_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AMX

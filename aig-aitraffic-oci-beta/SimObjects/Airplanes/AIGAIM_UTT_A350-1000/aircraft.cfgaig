@@ -59,6 +59,25 @@ left_foot_target=""
 right_foot_target=""
 
 [fltsim.0]
+title=AIGAIM_Air Caraibes Airbus A350-1000
+model=FWI-Air Caraibes
+texture=FWI-Air Caraibes
+atc_id=F-HMIL
+atc_airline=FRENCH WEST
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FWI
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Air Caraibes
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_a35k_fwi.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FWI
+
+[fltsim.1]
 title=AIGAIM_British Airways Airbus A350-1000
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -76,7 +95,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Cathay Pacific Airbus A350-1000
 model=CPA-Cathay Pacific
 texture=CPA-Cathay Pacific
@@ -94,43 +113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.2]
-title=AIGAIM_Qatar Airways Airbus A350-1000
-model=QTR-Qatar Airways
-texture=QTR-Qatar Airways
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-1000
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
-description=UTT_A350-1000(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
 [fltsim.3]
-title=AIGAIM_Qatar Airways Airbus A350-1000 - Oneworld
-model=QTR-Qatar Airways_Oneworld
-texture=QTR-Qatar Airways_Oneworld
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-1000
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
-description=UTT_A350-1000(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.4]
 title=AIGAIM_French Bee Airbus A350-1000 - Wifi dome
 model=FBU-French Bee_Wifi dome
 texture=FBU-French Bee_Wifi dome
@@ -149,21 +132,38 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBU
 
-[fltsim.5]
-title=AIGAIM_Air Caraibes Airbus A350-1000
-model=FWI-Air Caraibes
-texture=FWI-Air Caraibes
-atc_id=F-HMIL
-atc_airline=FRENCH WEST
+[fltsim.4]
+title=AIGAIM_Qatar Airways Airbus A350-1000
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_airline=QATARI
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=FWI
-ui_manufacturer=UTT
+atc_parking_codes=QTR
+ui_manufacturer="United Traffic Team (UTT)"
 ui_type=Airbus A350-1000
-ui_variation=Air Caraibes
+ui_variation=Qatar Airways Company Q.C.S.C.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_a35k_fwi.zip
+ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
 description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=FWI
+icao_airline=QTR
+
+[fltsim.5]
+title=AIGAIM_Qatar Airways Airbus A350-1000 - Oneworld
+model=QTR-Qatar Airways_Oneworld
+texture=QTR-Qatar Airways_Oneworld
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-1000
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A35K Qatar Airways.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR

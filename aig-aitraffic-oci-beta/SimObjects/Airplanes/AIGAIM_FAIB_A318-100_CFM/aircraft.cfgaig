@@ -111,24 +111,6 @@ isUserSelectable=0
 icao_airline=BAW
 
 [fltsim.4]
-title=AIGAIM_TAROM Airbus A318-100
-model=ROT-TAROM
-texture=ROT-TAROM
-atc_id=YR-ASC
-atc_airline=TAROM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ROT
-ui_manufacturer=Airbus
-ui_type=Airbus A318-100
-ui_variation=S.C. Compania Nationala de Transporturi Aeriene Romane TAROM S.A
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A318 TAROM FSX.zip
-description=FAIB_A318-100_CFM-CFM(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ROT
-
-[fltsim.5]
 title=AIGAIM_TCS World Travel Airbus A318-100 - opb Titan Airways
 model=BJO-TCS World Travel_opb Titan Airways
 texture=BJO-TCS World Travel_opb Titan Airways
@@ -145,3 +127,21 @@ description=FAIB_A318-100_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+
+[fltsim.5]
+title=AIGAIM_TAROM Airbus A318-100
+model=ROT-TAROM
+texture=ROT-TAROM
+atc_id=YR-ASC
+atc_airline=TAROM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ROT
+ui_manufacturer=Airbus
+ui_type=Airbus A318-100
+ui_variation=S.C. Compania Nationala de Transporturi Aeriene Romane TAROM S.A
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A318 TAROM FSX.zip
+description=FAIB_A318-100_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ROT

@@ -386,120 +386,6 @@ isUserSelectable=0
 icao_airline=GTI
 
 [fltsim.18]
-title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF Bahrain Airshow
-model=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
-texture=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
-atc_id=A9C-DHJ
-atc_airline=DILMUN
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=DHX
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200
-ui_variation=DHL International
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_dhx_b762_kjm.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DHX
-
-[fltsim.19]
-title=AIGAIM_Raya Airways Boeing 767-200 - BDSF
-model=RMY-Raya Airways_BDSF
-texture=RMY-Raya Airways_BDSF
-atc_id=9M-RXA
-atc_airline=RAYA EXPRESS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=RMY
-ui_manufacturer=Boeing
-ui_type=Boeing 767-200
-ui_variation=Raya Airways 9M-RXA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: Raya_Airways_B767-200F_Fleet.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RMY
-
-[fltsim.20]
-title=AIGAIM_Star Air Boeing 767-200 - GEA BDSF
-model=SRR-Star Air_GEA BDSF
-texture=SRR-Star Air_GEA BDSF
-atc_id=OY-SRL
-atc_airline=WHITESTAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRR
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200
-ui_variation=Star Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_srr_b762_p3d.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRR
-
-[fltsim.21]
-title=AIGAIM_Star Air Boeing 767-200 - GEC BDSF
-model=SRR-Star Air_GEC BDSF
-texture=SRR-Star Air_GEC BDSF
-atc_id=OY-SRJ
-atc_airline=WHITESTAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=SRR
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200
-ui_variation=Star Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_srr_b762_p3d.zip
-description=FAIB_B767-200_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SRR
-
-[fltsim.22]
-title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF
-model=IGA-SkyTaxi_BDSF
-texture=IGA-SkyTaxi_BDSF
-atc_id=SP-MRF
-atc_airline=IGUANA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=IGA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200
-ui_variation=SkyTaxi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_B762_IGA.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IGA
-
-[fltsim.23]
-title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF DHL livery
-model=IGA-SkyTaxi_BDSF DHL livery
-texture=IGA-SkyTaxi_BDSF DHL livery
-atc_id=SP-MRE
-atc_airline=IGUANA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=IGA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200
-ui_variation=SkyTaxi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_iga-dhl_b762_jkm.zip
-description=FAIB_B767-200_GE-GEA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IGA
-
-[fltsim.24]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-200
 model=DHX-DHL Intl Aviation ME
 texture=DHX-DHL Intl Aviation ME
@@ -518,7 +404,26 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.25]
+[fltsim.19]
+title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF Bahrain Airshow
+model=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
+texture=DHX-DHL Intl Aviation ME_BDSF Bahrain Airshow
+atc_id=A9C-DHP
+atc_airline=DILMUN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=DHX
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=DHL International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_dhx_b762_kjm.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHX
+
+[fltsim.20]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-200 - BDSF Official Logistics Partner
 model=DHX-DHL Intl Aviation ME_BDSF Official Logistics Partner
 texture=DHX-DHL Intl Aviation ME_BDSF Official Logistics Partner
@@ -537,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.26]
+[fltsim.21]
 title=AIGAIM_EAT Leipzig Boeing 767-200 - BDSF opb Star Air
 model=BCS-EAT Leipzig_BDSF opb Star Air
 texture=BCS-EAT Leipzig_BDSF opb Star Air
@@ -556,7 +461,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.27]
+[fltsim.22]
 title=AIGAIM_EAT Leipzig Boeing 767-200 - BDSF opb Star Air White SE-Reg
 model=BCS-EAT Leipzig_BDSF opb Star Air White SE-Reg
 texture=BCS-EAT Leipzig_BDSF opb Star Air White SE-Reg
@@ -574,3 +479,98 @@ description=FAIB_B767-200_GE-GEA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
+
+[fltsim.23]
+title=AIGAIM_Raya Airways Boeing 767-200 - BDSF
+model=RMY-Raya Airways_BDSF
+texture=RMY-Raya Airways_BDSF
+atc_id=9M-RXA
+atc_airline=RAYA EXPRESS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RMY
+ui_manufacturer=Boeing
+ui_type=Boeing 767-200
+ui_variation=Raya Airways 9M-RXA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: Raya_Airways_B767-200F_Fleet.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RMY
+
+[fltsim.24]
+title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF
+model=IGA-SkyTaxi_BDSF
+texture=IGA-SkyTaxi_BDSF
+atc_id=SP-MRF
+atc_airline=IGUANA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=IGA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=SkyTaxi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_B762_IGA.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IGA
+
+[fltsim.25]
+title=AIGAIM_SkyTaxi Boeing 767-200 - BDSF DHL livery
+model=IGA-SkyTaxi_BDSF DHL livery
+texture=IGA-SkyTaxi_BDSF DHL livery
+atc_id=SP-MRE
+atc_airline=IGUANA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=IGA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=SkyTaxi
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_iga-dhl_b762_jkm.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IGA
+
+[fltsim.26]
+title=AIGAIM_Star Air Boeing 767-200 - GEA BDSF
+model=SRR-Star Air_GEA BDSF
+texture=SRR-Star Air_GEA BDSF
+atc_id=OY-SRL
+atc_airline=WHITESTAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRR
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=Star Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_srr_b762_p3d.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRR
+
+[fltsim.27]
+title=AIGAIM_Star Air Boeing 767-200 - GEC BDSF
+model=SRR-Star Air_GEC BDSF
+texture=SRR-Star Air_GEC BDSF
+atc_id=OY-SRJ
+atc_airline=WHITESTAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SRR
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=Star Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_srr_b762_p3d.zip
+description=FAIB_B767-200_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SRR

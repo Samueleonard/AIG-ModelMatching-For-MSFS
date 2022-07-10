@@ -115,6 +115,24 @@ isUserSelectable=0
 icao_airline=ANZ
 
 [fltsim.3]
+title=AIGAIM_Air New Zealand Boeing 787-9 - Black
+model=ANZ-Air New Zealand_Black
+texture=ANZ-Air New Zealand_Black
+atc_airline=NEW ZEALAND
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANZ
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Air New Zealand Black
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: UTT_B789_ANZ.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANZ
+
+[fltsim.4]
 title=AIGAIM_All Nippon Airways Boeing 787-9
 model=ANA-All Nippon Airways
 texture=ANA-All Nippon Airways
@@ -133,7 +151,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.4]
+[fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - Air Japan
 model=ANA-All Nippon Airways_Air Japan
 texture=ANA-All Nippon Airways_Air Japan
@@ -152,26 +170,64 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.5]
-title=AIGAIM_Virgin Atlantic Boeing 787-9
-model=VIR-Virgin Atlantic
-texture=VIR-Virgin Atlantic
-atc_id=G-VNEW
-atc_airline=VIRGIN
+[fltsim.6]
+title=AIGAIM_All Nippon Airways Boeing 787-9 - Star Alliance
+model=ANA-All Nippon Airways_Star Alliance
+texture=ANA-All Nippon Airways_Star Alliance
+atc_id=JA899A
+atc_airline=ALL NIPPON
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=VIR
+atc_parking_codes=ANA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Virgin Atlantic Airways Limited
+ui_variation=All Nippon Airways Co., Ltd.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Virgin Atlantic FSX.zip
+ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
 description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=VIR
+icao_airline=ANA
 
-[fltsim.6]
+[fltsim.7]
+title=AIGAIM_All Nippon Airways Boeing 787-9 - Star Wars R2-D2
+model=ANA-All Nippon Airways_Star Wars R2-D2
+texture=ANA-All Nippon Airways_Star Wars R2-D2
+atc_id=JA873A
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.8]
+title=AIGAIM_All Nippon Airways Boeing 787-9 - 50th B787
+model=ANA-All Nippon Airways_50th B787
+texture=ANA-All Nippon Airways_50th B787
+atc_id=JA882A
+atc_airline=ALL NIPPON
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=All Nippon Airways Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANA
+
+[fltsim.9]
 title=AIGAIM_British Airways Boeing 787-9
 model=BAW-British Airways
 texture=BAW-British Airways
@@ -190,7 +246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.7]
+[fltsim.10]
 title=AIGAIM_EgyptAir Boeing 787-9
 model=MSR-EgyptAir
 texture=MSR-EgyptAir
@@ -209,7 +265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.8]
+[fltsim.11]
 title=AIGAIM_EgyptAir Boeing 787-9 - 'Young Youth Forum sticker'
 model=MSR-EgyptAir_'Young Youth Forum sticker'
 texture=MSR-EgyptAir_'Young Youth Forum sticker'
@@ -228,7 +284,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.9]
+[fltsim.12]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - 70 years sticker
 model=ELY-El Al Israel Airlines_70 years sticker
 texture=ELY-El Al Israel Airlines_70 years sticker
@@ -247,7 +303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.10]
+[fltsim.13]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - Retro
 model=ELY-El Al Israel Airlines_Retro
 texture=ELY-El Al Israel Airlines_Retro
@@ -266,7 +322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.11]
+[fltsim.14]
 title=AIGAIM_El Al Israel Airlines Boeing 787-9 - San Francisco/Las Vegas
 model=ELY-El Al Israel Airlines_San Francisco_Las Vegas
 texture=ELY-El Al Israel Airlines_San Francisco_Las Vegas
@@ -285,7 +341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
 
-[fltsim.12]
+[fltsim.15]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUO Beijing
 model=ETH-Ethiopian Airlines_RR ET-AUO Beijing
 texture=ETH-Ethiopian Airlines_RR ET-AUO Beijing
@@ -304,7 +360,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.13]
+[fltsim.16]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUP London
 model=ETH-Ethiopian Airlines_RR ET-AUP London
 texture=ETH-Ethiopian Airlines_RR ET-AUP London
@@ -323,7 +379,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.14]
+[fltsim.17]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUQ Frankfurt 100th Aircraft
 model=ETH-Ethiopian Airlines_RR ET-AUQ Frankfurt 100th Aircraft
 texture=ETH-Ethiopian Airlines_RR ET-AUQ Frankfurt 100th Aircraft
@@ -342,7 +398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.15]
+[fltsim.18]
 title=AIGAIM_Ethiopian Airlines Boeing 787-9 - RR ET-AUR Tokyo
 model=ETH-Ethiopian Airlines_RR ET-AUR Tokyo
 texture=ETH-Ethiopian Airlines_RR ET-AUR Tokyo
@@ -361,86 +417,30 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.16]
-title=AIGAIM_Neos Boeing 787-9
-model=NOS-Neos
-texture=NOS-Neos
-atc_airline=MOONFLOWER
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NOS
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Neos
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_neos_789.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NOS
-
-[fltsim.17]
-title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Belly Titles
-model=LOT-LOT Polish Airlines_Wifi dome Belly Titles
-texture=LOT-LOT Polish Airlines_Wifi dome Belly Titles
-atc_id=SP-LSA
-atc_airline=LOT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Polskie Linie Lotnicze LOT S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 LOT.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-
-[fltsim.18]
-title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Polands Independence
-model=LOT-LOT Polish Airlines_Wifi dome Polands Independence
-texture=LOT-LOT Polish Airlines_Wifi dome Polands Independence
-atc_id=SP-LSC
-atc_airline=LOT
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LOT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Polskie Linie Lotnicze LOT S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 LOT.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOT
-
 [fltsim.19]
-title=AIGAIM_Scoot Boeing 787-9
-model=TGW-Scoot
-texture=TGW-Scoot
-atc_id=9V-OJA
-atc_airline=SCOOTER
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TGW
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Scoot Tigerair Pte. Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Scoot.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TGW
-
-[fltsim.20]
 title=AIGAIM_Gulf Air Boeing 787-9 - 70th Anniversary
 model=GFA-Gulf Air_70th Anniversary
 texture=GFA-Gulf Air_70th Anniversary
 atc_id=A9C-FE
+atc_airline=GULF AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=GFA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Tayaran al-Halig
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Gulf Air.zip
+description=UTT_B787-9_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GFA
+
+[fltsim.20]
+title=AIGAIM_Gulf Air Boeing 787-9 - 70th Anniversary Retro
+model=GFA-Gulf Air_70th Anniversary Retro
+texture=GFA-Gulf Air_70th Anniversary Retro
+atc_id=A9C-FG
 atc_airline=GULF AIR
 atc_heavy=1
 atc_parking_types=GATE,RAMP
@@ -494,95 +494,76 @@ isUserSelectable=0
 icao_airline=LPE
 
 [fltsim.23]
-title=AIGAIM_Gulf Air Boeing 787-9 - 70th Anniversary Retro
-model=GFA-Gulf Air_70th Anniversary Retro
-texture=GFA-Gulf Air_70th Anniversary Retro
-atc_id=A9C-FG
-atc_airline=GULF AIR
+title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Belly Titles
+model=LOT-LOT Polish Airlines_Wifi dome Belly Titles
+texture=LOT-LOT Polish Airlines_Wifi dome Belly Titles
+atc_id=SP-LSA
+atc_airline=LOT
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=GFA
+atc_parking_codes=LOT
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Tayaran al-Halig
+ui_variation=Polskie Linie Lotnicze LOT S.A.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Gulf Air.zip
+ui_createdby=Provided by: JB Filename: UTT B789 LOT.zip
 description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GFA
+icao_airline=LOT
 
 [fltsim.24]
-title=AIGAIM_Air New Zealand Boeing 787-9 - Black
-model=ANZ-Air New Zealand_Black
-texture=ANZ-Air New Zealand_Black
-atc_airline=NEW ZEALAND
+title=AIGAIM_LOT Polish Airlines Boeing 787-9 - Wifi dome Polands Independence
+model=LOT-LOT Polish Airlines_Wifi dome Polands Independence
+texture=LOT-LOT Polish Airlines_Wifi dome Polands Independence
+atc_id=SP-LSC
+atc_airline=LOT
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ANZ
+atc_parking_codes=LOT
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Air New Zealand Black
+ui_variation=Polskie Linie Lotnicze LOT S.A.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: UTT_B789_ANZ.zip
+ui_createdby=Provided by: JB Filename: UTT B789 LOT.zip
 description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ANZ
+icao_airline=LOT
 
 [fltsim.25]
-title=AIGAIM_All Nippon Airways Boeing 787-9 - Star Alliance
-model=ANA-All Nippon Airways_Star Alliance
-texture=ANA-All Nippon Airways_Star Alliance
-atc_id=JA899A
-atc_airline=ALL NIPPON
+title=AIGAIM_Neos Boeing 787-9
+model=NOS-Neos
+texture=NOS-Neos
+atc_airline=MOONFLOWER
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
+atc_parking_codes=NOS
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=All Nippon Airways Co., Ltd.
+ui_variation=Neos
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
+ui_createdby=Provided by: FC75 Filename: utt_neos_789.zip
 description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ANA
+icao_airline=NOS
 
 [fltsim.26]
-title=AIGAIM_All Nippon Airways Boeing 787-9 - Star Wars R2-D2
-model=ANA-All Nippon Airways_Star Wars R2-D2
-texture=ANA-All Nippon Airways_Star Wars R2-D2
-atc_id=JA873A
-atc_airline=ALL NIPPON
+title=AIGAIM_Scoot Boeing 787-9
+model=TGW-Scoot
+texture=TGW-Scoot
+atc_id=9V-OJA
+atc_airline=SCOOTER
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
+atc_parking_codes=TGW
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=All Nippon Airways Co., Ltd.
+ui_variation=Scoot Tigerair Pte. Ltd.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
+ui_createdby=Provided by: JB Filename: UTT B789 Scoot.zip
 description=UTT_B787-9_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ANA
-
-[fltsim.27]
-title=AIGAIM_All Nippon Airways Boeing 787-9 - 50th B787
-model=ANA-All Nippon Airways_50th B787
-texture=ANA-All Nippon Airways_50th B787
-atc_id=JA882A
-atc_airline=ALL NIPPON
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=All Nippon Airways Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B789_ANA_FSX.zip
-description=UTT_B787-9_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANA
+icao_airline=TGW

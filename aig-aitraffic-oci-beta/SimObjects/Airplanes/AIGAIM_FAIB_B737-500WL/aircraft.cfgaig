@@ -32,24 +32,6 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
-title=AIGAIM_UTair Boeing 737-500WL - OC
-model=UTA-UTair_OC
-texture=UTA-UTair_OC
-atc_id=VP-BFO
-atc_airline=UTAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UTA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-500WL
-ui_variation=UTair Aviation VP-BFO
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: UTT Filename: utt_FAIB_735w_Utair_FSX.zip
-description=FAIB_B737-500WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UTA
-
-[fltsim.1]
 title=AIGAIM_Air North Boeing 737-500WL
 model=ANT-Air North
 texture=ANT-Air North
@@ -65,6 +47,24 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANT
+
+[fltsim.1]
+title=AIGAIM_Kam Air Boeing 737-500WL
+model=KMF-Kam Air
+texture=KMF-Kam Air
+atc_id=UR-BAA
+atc_airline=KAMGAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KMF
+ui_manufacturer=Boeing
+ui_type=Boeing 737-500WL
+ui_variation=Kam Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB 737-500 Kam Air FSX.zip
+description=FAIB_B737-500WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KMF
 
 [fltsim.2]
 title=AIGAIM_NAM Air Boeing 737-500WL
@@ -103,6 +103,24 @@ isUserSelectable=0
 icao_airline=LKN
 
 [fltsim.4]
+title=AIGAIM_UTair Boeing 737-500WL - OC
+model=UTA-UTair_OC
+texture=UTA-UTair_OC
+atc_id=VP-BFO
+atc_airline=UTAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UTA
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500WL
+ui_variation=UTair Aviation VP-BFO
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: UTT Filename: utt_FAIB_735w_Utair_FSX.zip
+description=FAIB_B737-500WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UTA
+
+[fltsim.5]
 title=AIGAIM_Sriwijaya Air Boeing 737-500WL
 model=SJY-Sriwijaya Air
 texture=SJY-Sriwijaya Air
@@ -120,7 +138,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.5]
+[fltsim.6]
 title=AIGAIM_Sriwijaya Air Boeing 737-500WL - OC
 model=SJY-Sriwijaya Air_OC
 texture=SJY-Sriwijaya Air_OC
@@ -138,7 +156,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJY
 
-[fltsim.6]
+[fltsim.7]
 title=AIGAIM_Sierra Pacific Airlines Boeing 737-500WL
 model=SPA-Sierra Pacific Airlines
 texture=SPA-Sierra Pacific Airlines
@@ -155,21 +173,3 @@ description=FAIB_B737-500WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SPA
-
-[fltsim.7]
-title=AIGAIM_Kam Air Boeing 737-500WL
-model=KMF-Kam Air
-texture=KMF-Kam Air
-atc_id=UR-BAA
-atc_airline=KAMGAR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KMF
-ui_manufacturer=Boeing
-ui_type=Boeing 737-500WL
-ui_variation=Kam Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 737-500 Kam Air FSX.zip
-description=FAIB_B737-500WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KMF

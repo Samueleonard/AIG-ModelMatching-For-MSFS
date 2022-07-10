@@ -59,630 +59,6 @@ left_foot_target=""
 right_foot_target=""
 
 [fltsim.0]
-title=AIGAIM_Xiamen Airlines Boeing 787-9
-model=CXA-Xiamen Airlines
-texture=CXA-Xiamen Airlines
-atc_id=B-1567
-atc_airline=XIAMEN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CXA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=XiamenAir
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Xiamen FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CXA
-
-[fltsim.1]
-title=AIGAIM_Xiamen Airlines Boeing 787-9 - Welcome to Xiamen
-model=CXA-Xiamen Airlines_Welcome to Xiamen
-texture=CXA-Xiamen Airlines_Welcome to Xiamen
-atc_id=B-1566
-atc_airline=XIAMEN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CXA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=XiamenAir
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Xiamen FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CXA
-
-[fltsim.2]
-title=AIGAIM_Hainan Airlines Boeing 787-9
-model=CHH-Hainan Airlines
-texture=CHH-Hainan Airlines
-atc_id=B-7880
-atc_airline=HAINAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Hainan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-
-[fltsim.3]
-title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda
-model=CHH-Hainan Airlines_Kung Fu Panda
-texture=CHH-Hainan Airlines_Kung Fu Panda
-atc_id=B-1540
-atc_airline=HAINAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Hainan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-
-[fltsim.4]
-title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda Red
-model=CHH-Hainan Airlines_Kung Fu Panda Red
-texture=CHH-Hainan Airlines_Kung Fu Panda Red
-atc_id=B-6998
-atc_airline=HAINAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Hainan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-
-[fltsim.5]
-title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda Yellow
-model=CHH-Hainan Airlines_Kung Fu Panda Yellow
-texture=CHH-Hainan Airlines_Kung Fu Panda Yellow
-atc_id=B-7302
-atc_airline=HAINAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CHH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Hainan Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CHH
-
-[fltsim.6]
-title=AIGAIM_Oman Air Boeing 787-9
-model=OMA-Oman Air
-texture=OMA-Oman Air
-atc_id=A4O-SC
-atc_airline=OMAN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OMA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Oman Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Oman Air FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OMA
-
-[fltsim.7]
-title=AIGAIM_WestJet Boeing 787-9 - Clive Beddoe
-model=WJA-WestJet_Clive Beddoe
-texture=WJA-WestJet_Clive Beddoe
-atc_id=C-GUDH
-atc_airline=WESTJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=WestJet Airlines Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Westjet.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.8]
-title=AIGAIM_Air France Boeing 787-9 - OC
-model=AFR-Air France_OC
-texture=AFR-Air France_OC
-atc_id=F-HRBA
-atc_airline=AIRFRANS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFR
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Société Air France, S.A.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Air France FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AFR
-
-[fltsim.9]
-title=AIGAIM_Air Tahiti Nui Boeing 787-9
-model=THT-Air Tahiti Nui
-texture=THT-Air Tahiti Nui
-atc_id=F-OMUA
-atc_airline=TAHITI AIRLINES
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THT
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Air Tahiti Nui
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Air Tahiti Nui.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THT
-
-[fltsim.10]
-title=AIGAIM_American Airlines Boeing 787-9
-model=AAL-American Airlines
-texture=AAL-American Airlines
-atc_id=N838AA
-atc_airline=AMERICAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAL
-ui_manufacturer=UTT
-ui_type=Boeing 787-9
-ui_variation=American Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: utt_b789_aal_p3d.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAL
-
-[fltsim.11]
-title=AIGAIM_Air Canada Boeing 787-9 - Wifi dome
-model=ACA-Air Canada_Wifi dome
-texture=ACA-Air Canada_Wifi dome
-atc_id=C-FRSR
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Air Canada
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Air Canada.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACA
-
-[fltsim.12]
-title=AIGAIM_Air Canada Boeing 787-9 - OC Wifi dome
-model=ACA-Air Canada_OC Wifi dome
-texture=ACA-Air Canada_OC Wifi dome
-atc_id=C-FGDT
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Air Canada
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Air Canada.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACA
-
-[fltsim.13]
-title=AIGAIM_Vietnam Airlines Boeing 787-9
-model=HVN-Vietnam Airlines
-texture=HVN-Vietnam Airlines
-atc_id=VN-A863
-atc_airline=VIET NAM AIRLINES
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=HVN
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Vietnam Airlines Company Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B789 Vietnam UTT FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HVN
-
-[fltsim.14]
-title=AIGAIM_EVA Air Boeing 787-9
-model=EVA-EVA Air
-texture=EVA-EVA Air
-atc_id=B-17881
-atc_airline=EVA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=EVA Airways Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 EVA Air.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
-
-[fltsim.15]
-title=AIGAIM_Juneyao Airlines Boeing 787-9
-model=DKH-Juneyao Airlines
-texture=DKH-Juneyao Airlines
-atc_id=B-207N
-atc_airline=AIR JUNEYAO
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Juneyao Airlines Co. Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789  Juneyao Air.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-
-[fltsim.16]
-title=AIGAIM_Juneyao Airlines Boeing 787-9 - Chinese Peony
-model=DKH-Juneyao Airlines_Chinese Peony
-texture=DKH-Juneyao Airlines_Chinese Peony
-atc_id=B-1115
-atc_airline=AIR JUNEYAO
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DKH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Juneyao Airlines Co. Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789  Juneyao Air.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DKH
-
-[fltsim.17]
-title=AIGAIM_United Airlines Boeing 787-9
-model=UAL-United Airlines
-texture=UAL-United Airlines
-atc_id=N29975
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=UTT
-ui_type=Boeing 787-9
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: utt_b789_ual_p3d.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.18]
-title=AIGAIM_United Airlines Boeing 787-9 - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N26970
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=UTT
-ui_type=Boeing 787-9
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: utt_b789_ual_p3d.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL
-
-[fltsim.19]
-title=AIGAIM_El Al Israel Airlines Boeing 787-9
-model=ELY-El Al Israel Airlines
-texture=ELY-El Al Israel Airlines
-atc_id=4X-EDA
-atc_airline=ELAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ELY
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=El Al Israel Airlines Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 El Al.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ELY
-
-[fltsim.20]
-title=AIGAIM_Ethiopian Airlines Boeing 787-9 - GE ET-AXK Tel Aviv
-model=ETH-Ethiopian Airlines_GE ET-AXK Tel Aviv
-texture=ETH-Ethiopian Airlines_GE ET-AXK Tel Aviv
-atc_id=ET-AXK
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Ethiopian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B787-9 Ethiopian Airlines.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-
-[fltsim.21]
-title=AIGAIM_Ethiopian Airlines Boeing 787-9 - GE ET-AXL Toronto
-model=ETH-Ethiopian Airlines_GE ET-AXL Toronto
-texture=ETH-Ethiopian Airlines_GE ET-AXL Toronto
-atc_id=ET-AXL
-atc_airline=ETHIOPIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETH
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Ethiopian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B787-9 Ethiopian Airlines.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-
-[fltsim.22]
-title=AIGAIM_Korean Air Boeing 787-9
-model=KAL-Korean Air
-texture=KAL-Korean Air
-atc_id=HL8082
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Korean Air Lines Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Korean Air FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-
-[fltsim.23]
-title=AIGAIM_Korean Air Boeing 787-9 - 50 Years
-model=KAL-Korean Air_50 Years
-texture=KAL-Korean Air_50 Years
-atc_id=HL8081
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Korean Air Lines Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Korean Air FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-
-[fltsim.24]
-title=AIGAIM_Saudia Boeing 787-9
-model=SVA-Saudia
-texture=SVA-Saudia
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Saudia HZ-ARB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SVA
-
-[fltsim.25]
-title=AIGAIM_Qantas Boeing 787-9
-model=QFA-Qantas
-texture=QFA-Qantas
-atc_id=VH-ZNA
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Qantas Airways Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Qantas.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.26]
-title=AIGAIM_Qantas Boeing 787-9 - Yam Dreaming
-model=QFA-Qantas_Yam Dreaming
-texture=QFA-Qantas_Yam Dreaming
-atc_id=VH-ZND
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=UTT
-ui_type=Boeing 787-9
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: utt_b789_qfavh-znd_p3d.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.27]
-title=AIGAIM_KLM Boeing 787-9
-model=KLM-KLM
-texture=KLM-KLM
-atc_id=PH-BHP
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=KLM - PH-BHP
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789klm.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.28]
-title=AIGAIM_Royal Air Maroc Boeing 787-9
-model=RAM-Royal Air Maroc
-texture=RAM-Royal Air Maroc
-atc_id=CN-RAM
-atc_airline=ROYAL AIR MAROC
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=RAM
-ui_manufacturer=UTT
-ui_type=Boeing 787-9
-ui_variation=Royal Air Maroc
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: utt_ram_b789_jkm.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RAM
-
-[fltsim.29]
-title=AIGAIM_TUI Airways UK Boeing 787-9 - named
-model=TOM-TUI Airways UK_named
-texture=TOM-TUI Airways UK_named
-atc_airline=TOMJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=TUI Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TOM
-
-[fltsim.30]
-title=AIGAIM_TUIfly Nordic Boeing 787-9
-model=BLX-TUIfly Nordic
-texture=BLX-TUIfly Nordic
-atc_id=SE-RFF
-atc_airline=BLUESCAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BLX
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=TUI Sverige AB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 TUIfly Nordic.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BLX
-
-[fltsim.31]
-title=AIGAIM_Qatar Airways Boeing 787-9
-model=QTR-Qatar Airways
-texture=QTR-Qatar Airways
-atc_id=A7-BHA
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QTR
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Qatar Airways Company Q.C.S.C.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Qatar Airways.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QTR
-
-[fltsim.32]
-title=AIGAIM_DHL Air UK Boeing 787-9 - Preighter opb TUI Airways
-model=DHK-DHL Air UK_Preighter opb TUI Airways
-texture=DHK-DHL Air UK_Preighter opb TUI Airways
-atc_airline=WORLD EXPRESS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DHK
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=TUI Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DHK
-
-[fltsim.33]
 title=AIGAIM_Aeromexico Boeing 787-9
 model=AMX-Aeromexico
 texture=AMX-Aeromexico
@@ -701,7 +77,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.34]
+[fltsim.1]
 title=AIGAIM_Aeromexico Boeing 787-9 - Guadalupe
 model=AMX-Aeromexico_Guadalupe
 texture=AMX-Aeromexico_Guadalupe
@@ -720,7 +96,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.35]
+[fltsim.2]
 title=AIGAIM_Aeromexico Boeing 787-9 - Quetzalcoatl
 model=AMX-Aeromexico_Quetzalcoatl
 texture=AMX-Aeromexico_Quetzalcoatl
@@ -739,193 +115,83 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMX
 
-[fltsim.36]
-title=AIGAIM_Vistara Boeing 787-9
-model=VTI-Vistara
-texture=VTI-Vistara
-atc_airline=VISTARA
+[fltsim.3]
+title=AIGAIM_Air Canada Boeing 787-9 - Wifi dome
+model=ACA-Air Canada_Wifi dome
+texture=ACA-Air Canada_Wifi dome
+atc_id=C-FRSR
+atc_airline=AIR CANADA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=VTI
-ui_manufacturer=Boeing
-ui_type=Boeing 787-9
-ui_variation=Vistara (TATA SIA Airlines) Boeing 787-9
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT_Vistara_B789-FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VTI
-
-[fltsim.37]
-title=AIGAIM_Etihad Airways Boeing 787-9
-model=ETD-Etihad Airways
-texture=ETD-Etihad Airways
-atc_id=A6-BLH
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=Etihad - A6-BLH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789etd.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.38]
-title=AIGAIM_Etihad Airways Boeing 787-9 - Abu Dhabi Grand Prix
-model=ETD-Etihad Airways_Abu Dhabi Grand Prix
-texture=ETD-Etihad Airways_Abu Dhabi Grand Prix
-atc_id=A6-BLV
-atc_airline=ETIHAD
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ETD
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-9
-ui_variation=Etihad - A6-BLV
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai789etd.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETD
-
-[fltsim.39]
-title=AIGAIM_Saudia Boeing 787-9 - Arabic Calligraphy
-model=SVA-Saudia_Arabic Calligraphy
-texture=SVA-Saudia_Arabic Calligraphy
-atc_id=HZ-AR13
-atc_airline=SAUDIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
+atc_parking_codes=ACA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Saudi Arabian Airlines
+ui_variation=Air Canada
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+ui_createdby=Provided by: JB Filename: UTT B789 Air Canada.zip
 description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SVA
+icao_airline=ACA
 
-[fltsim.40]
-title=AIGAIM_Saudia Boeing 787-9 - Riyadh Season 2021
-model=SVA-Saudia_Riyadh Season 2021
-texture=SVA-Saudia_Riyadh Season 2021
-atc_id=HZ-ARB
-atc_airline=SAUDIA
+[fltsim.4]
+title=AIGAIM_Air Canada Boeing 787-9 - OC Wifi dome
+model=ACA-Air Canada_OC Wifi dome
+texture=ACA-Air Canada_OC Wifi dome
+atc_id=C-FGDT
+atc_airline=AIR CANADA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
+atc_parking_codes=ACA
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Saudi Arabian Airlines
+ui_variation=Air Canada
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+ui_createdby=Provided by: JB Filename: UTT B789 Air Canada.zip
 description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SVA
+icao_airline=ACA
 
-[fltsim.41]
-title=AIGAIM_Saudia Boeing 787-9 - 75 Years
-model=SVA-Saudia_75 Years
-texture=SVA-Saudia_75 Years
-atc_id=HZ-ARE
-atc_airline=SAUDIA
+[fltsim.5]
+title=AIGAIM_Air France Boeing 787-9 - OC
+model=AFR-Air France_OC
+texture=AFR-Air France_OC
+atc_id=F-HRBA
+atc_airline=AIRFRANS
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=SVA
+atc_parking_codes=AFR
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=Saudi Arabian Airlines
+ui_variation=Société Air France, S.A.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+ui_createdby=Provided by: JB Filename: UTT B789 Air France FSX.zip
 description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=SVA
+icao_airline=AFR
 
-[fltsim.42]
-title=AIGAIM_Shanghai Airlines Boeing 787-9
-model=CSH-Shanghai Airlines
-texture=CSH-Shanghai Airlines
-atc_airline=SHANGHAI AIR
+[fltsim.6]
+title=AIGAIM_Air Tahiti Nui Boeing 787-9
+model=THT-Air Tahiti Nui
+texture=THT-Air Tahiti Nui
+atc_id=F-OMUA
+atc_airline=TAHITI AIRLINES
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CSH
-ui_manufacturer=Boeing
-ui_type=Boeing 787-9
-ui_variation=Shanghai Airlines Boeing 787-9 B-208X
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSH
-
-[fltsim.43]
-title=AIGAIM_Shanghai Airlines Boeing 787-9 - 100th
-model=CSH-Shanghai Airlines_100th
-texture=CSH-Shanghai Airlines_100th
-atc_airline=SHANGHAI AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSH
-ui_manufacturer=Boeing
-ui_type=Boeing 787-9
-ui_variation=Shanghai Airlines Boeing 787-9 B-1111 100th CSH plane
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSH
-
-[fltsim.44]
-title=AIGAIM_TUI Airways UK Boeing 787-9
-model=TOM-TUI Airways UK
-texture=TOM-TUI Airways UK
-atc_airline=TOMJET
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TOM
+atc_parking_codes=THT
 ui_manufacturer=United Traffic Team
 ui_type=Boeing 787-9
-ui_variation=TUI Airways
+ui_variation=Air Tahiti Nui
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
+ui_createdby=Provided by: JB Filename: UTT B789 Air Tahiti Nui.zip
 description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=TOM
+icao_airline=THT
 
-[fltsim.45]
-title=AIGAIM_Oman Air Boeing 787-9 - fwd wifi
-model=OMA-Oman Air_fwd wifi
-texture=OMA-Oman Air_fwd wifi
-atc_id=A4O-SF
-atc_airline=OMAN AIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OMA
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-9
-ui_variation=Oman Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT B789 Oman Air FSX.zip
-description=UTT_B787-9_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OMA
-
-[fltsim.46]
+[fltsim.7]
 title=AIGAIM_All Nippon Airways Boeing 787-9 - No Dreamliner logo
 model=ANA-All Nippon Airways_No Dreamliner logo
 texture=ANA-All Nippon Airways_No Dreamliner logo
@@ -944,7 +210,234 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.47]
+[fltsim.8]
+title=AIGAIM_American Airlines Boeing 787-9
+model=AAL-American Airlines
+texture=AAL-American Airlines
+atc_id=N838AA
+atc_airline=AMERICAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AAL
+ui_manufacturer=UTT
+ui_type=Boeing 787-9
+ui_variation=American Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: utt_b789_aal_p3d.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAL
+
+[fltsim.9]
+title=AIGAIM_DHL Air UK Boeing 787-9 - Preighter opb TUI Airways
+model=DHK-DHL Air UK_Preighter opb TUI Airways
+texture=DHK-DHL Air UK_Preighter opb TUI Airways
+atc_airline=WORLD EXPRESS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DHK
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=TUI Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DHK
+
+[fltsim.10]
+title=AIGAIM_El Al Israel Airlines Boeing 787-9
+model=ELY-El Al Israel Airlines
+texture=ELY-El Al Israel Airlines
+atc_id=4X-EDA
+atc_airline=ELAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ELY
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=El Al Israel Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 El Al.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ELY
+
+[fltsim.11]
+title=AIGAIM_Ethiopian Airlines Boeing 787-9 - GE ET-AXK Tel Aviv
+model=ETH-Ethiopian Airlines_GE ET-AXK Tel Aviv
+texture=ETH-Ethiopian Airlines_GE ET-AXK Tel Aviv
+atc_id=ET-AXK
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B787-9 Ethiopian Airlines.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.12]
+title=AIGAIM_Ethiopian Airlines Boeing 787-9 - GE ET-AXL Toronto
+model=ETH-Ethiopian Airlines_GE ET-AXL Toronto
+texture=ETH-Ethiopian Airlines_GE ET-AXL Toronto
+atc_id=ET-AXL
+atc_airline=ETHIOPIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Ethiopian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B787-9 Ethiopian Airlines.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETH
+
+[fltsim.13]
+title=AIGAIM_Etihad Airways Boeing 787-9
+model=ETD-Etihad Airways
+texture=ETD-Etihad Airways
+atc_id=A6-BLH
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-9
+ui_variation=Etihad - A6-BLH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai789etd.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.14]
+title=AIGAIM_Etihad Airways Boeing 787-9 - Abu Dhabi Grand Prix
+model=ETD-Etihad Airways_Abu Dhabi Grand Prix
+texture=ETD-Etihad Airways_Abu Dhabi Grand Prix
+atc_id=A6-BLV
+atc_airline=ETIHAD
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ETD
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-9
+ui_variation=Etihad - A6-BLV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai789etd.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ETD
+
+[fltsim.15]
+title=AIGAIM_EVA Air Boeing 787-9
+model=EVA-EVA Air
+texture=EVA-EVA Air
+atc_id=B-17881
+atc_airline=EVA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 EVA Air.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EVA
+
+[fltsim.16]
+title=AIGAIM_Hainan Airlines Boeing 787-9
+model=CHH-Hainan Airlines
+texture=CHH-Hainan Airlines
+atc_id=B-7880
+atc_airline=HAINAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Hainan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.17]
+title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda
+model=CHH-Hainan Airlines_Kung Fu Panda
+texture=CHH-Hainan Airlines_Kung Fu Panda
+atc_id=B-1540
+atc_airline=HAINAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Hainan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.18]
+title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda Red
+model=CHH-Hainan Airlines_Kung Fu Panda Red
+texture=CHH-Hainan Airlines_Kung Fu Panda Red
+atc_id=B-6998
+atc_airline=HAINAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Hainan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.19]
+title=AIGAIM_Hainan Airlines Boeing 787-9 - Kung Fu Panda Yellow
+model=CHH-Hainan Airlines_Kung Fu Panda Yellow
+texture=CHH-Hainan Airlines_Kung Fu Panda Yellow
+atc_id=B-7302
+atc_airline=HAINAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CHH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Hainan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Hainan Airlines FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CHH
+
+[fltsim.20]
 title=AIGAIM_Japan Airlines Boeing 787-9
 model=JAL-Japan Airlines
 texture=JAL-Japan Airlines
@@ -963,7 +456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.48]
+[fltsim.21]
 title=AIGAIM_Japan Airlines Boeing 787-9 - Oneworld
 model=JAL-Japan Airlines_Oneworld
 texture=JAL-Japan Airlines_Oneworld
@@ -981,3 +474,511 @@ description=UTT_B787-9_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
+
+[fltsim.22]
+title=AIGAIM_Juneyao Airlines Boeing 787-9
+model=DKH-Juneyao Airlines
+texture=DKH-Juneyao Airlines
+atc_id=B-207N
+atc_airline=AIR JUNEYAO
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Juneyao Airlines Co. Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789  Juneyao Air.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.23]
+title=AIGAIM_Juneyao Airlines Boeing 787-9 - Chinese Peony
+model=DKH-Juneyao Airlines_Chinese Peony
+texture=DKH-Juneyao Airlines_Chinese Peony
+atc_id=B-1115
+atc_airline=AIR JUNEYAO
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DKH
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Juneyao Airlines Co. Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789  Juneyao Air.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DKH
+
+[fltsim.24]
+title=AIGAIM_KLM Boeing 787-9
+model=KLM-KLM
+texture=KLM-KLM
+atc_id=PH-BHP
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-9
+ui_variation=KLM - PH-BHP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai789klm.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.25]
+title=AIGAIM_Korean Air Boeing 787-9
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_id=HL8082
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Korean Air FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.26]
+title=AIGAIM_Korean Air Boeing 787-9 - 50 Years
+model=KAL-Korean Air_50 Years
+texture=KAL-Korean Air_50 Years
+atc_id=HL8081
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Korean Air FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.27]
+title=AIGAIM_Xiamen Airlines Boeing 787-9
+model=CXA-Xiamen Airlines
+texture=CXA-Xiamen Airlines
+atc_id=B-1567
+atc_airline=XIAMEN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CXA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=XiamenAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Xiamen FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CXA
+
+[fltsim.28]
+title=AIGAIM_Xiamen Airlines Boeing 787-9 - Welcome to Xiamen
+model=CXA-Xiamen Airlines_Welcome to Xiamen
+texture=CXA-Xiamen Airlines_Welcome to Xiamen
+atc_id=B-1566
+atc_airline=XIAMEN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CXA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=XiamenAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Xiamen FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CXA
+
+[fltsim.29]
+title=AIGAIM_Oman Air Boeing 787-9
+model=OMA-Oman Air
+texture=OMA-Oman Air
+atc_id=A4O-SC
+atc_airline=OMAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Oman Air FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA
+
+[fltsim.30]
+title=AIGAIM_Oman Air Boeing 787-9 - fwd wifi
+model=OMA-Oman Air_fwd wifi
+texture=OMA-Oman Air_fwd wifi
+atc_id=A4O-SF
+atc_airline=OMAN AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OMA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Oman Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Oman Air FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OMA
+
+[fltsim.31]
+title=AIGAIM_Qantas Boeing 787-9
+model=QFA-Qantas
+texture=QFA-Qantas
+atc_id=VH-ZNA
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Qantas Airways Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Qantas.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.32]
+title=AIGAIM_Qantas Boeing 787-9 - Yam Dreaming
+model=QFA-Qantas_Yam Dreaming
+texture=QFA-Qantas_Yam Dreaming
+atc_id=VH-ZND
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=UTT
+ui_type=Boeing 787-9
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: utt_b789_qfavh-znd_p3d.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.33]
+title=AIGAIM_Qatar Airways Boeing 787-9
+model=QTR-Qatar Airways
+texture=QTR-Qatar Airways
+atc_id=A7-BHA
+atc_airline=QATARI
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QTR
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Qatar Airways Company Q.C.S.C.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Qatar Airways.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QTR
+
+[fltsim.34]
+title=AIGAIM_Royal Air Maroc Boeing 787-9
+model=RAM-Royal Air Maroc
+texture=RAM-Royal Air Maroc
+atc_id=CN-RAM
+atc_airline=ROYAL AIR MAROC
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RAM
+ui_manufacturer=UTT
+ui_type=Boeing 787-9
+ui_variation=Royal Air Maroc
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: utt_ram_b789_jkm.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RAM
+
+[fltsim.35]
+title=AIGAIM_WestJet Boeing 787-9 - Clive Beddoe
+model=WJA-WestJet_Clive Beddoe
+texture=WJA-WestJet_Clive Beddoe
+atc_id=C-GUDH
+atc_airline=WESTJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=WJA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=WestJet Airlines Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 Westjet.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WJA
+
+[fltsim.36]
+title=AIGAIM_Vietnam Airlines Boeing 787-9
+model=HVN-Vietnam Airlines
+texture=HVN-Vietnam Airlines
+atc_id=VN-A863
+atc_airline=VIET NAM AIRLINES
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=HVN
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Vietnam Airlines Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B789 Vietnam UTT FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HVN
+
+[fltsim.37]
+title=AIGAIM_Vistara Boeing 787-9
+model=VTI-Vistara
+texture=VTI-Vistara
+atc_airline=VISTARA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VTI
+ui_manufacturer=Boeing
+ui_type=Boeing 787-9
+ui_variation=Vistara (TATA SIA Airlines) Boeing 787-9
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT_Vistara_B789-FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VTI
+
+[fltsim.38]
+title=AIGAIM_United Airlines Boeing 787-9
+model=UAL-United Airlines
+texture=UAL-United Airlines
+atc_id=N29975
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=UTT
+ui_type=Boeing 787-9
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: utt_b789_ual_p3d.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.39]
+title=AIGAIM_United Airlines Boeing 787-9 - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N26970
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=UTT
+ui_type=Boeing 787-9
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: utt_b789_ual_p3d.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.40]
+title=AIGAIM_TUIfly Nordic Boeing 787-9
+model=BLX-TUIfly Nordic
+texture=BLX-TUIfly Nordic
+atc_id=SE-RFF
+atc_airline=BLUESCAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BLX
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=TUI Sverige AB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT B789 TUIfly Nordic.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BLX
+
+[fltsim.41]
+title=AIGAIM_TUI Airways UK Boeing 787-9
+model=TOM-TUI Airways UK
+texture=TOM-TUI Airways UK
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=TUI Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
+
+[fltsim.42]
+title=AIGAIM_TUI Airways UK Boeing 787-9 - named
+model=TOM-TUI Airways UK_named
+texture=TOM-TUI Airways UK_named
+atc_airline=TOMJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TOM
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=TUI Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: utt_tuiairways_789.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TOM
+
+[fltsim.43]
+title=AIGAIM_Saudia Boeing 787-9
+model=SVA-Saudia
+texture=SVA-Saudia
+atc_id=HZ-ARA
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.44]
+title=AIGAIM_Saudia Boeing 787-9 - Arabic Calligraphy
+model=SVA-Saudia_Arabic Calligraphy
+texture=SVA-Saudia_Arabic Calligraphy
+atc_id=HZ-AR13
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.45]
+title=AIGAIM_Saudia Boeing 787-9 - Riyadh Season 2021
+model=SVA-Saudia_Riyadh Season 2021
+texture=SVA-Saudia_Riyadh Season 2021
+atc_id=HZ-ARB
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.46]
+title=AIGAIM_Saudia Boeing 787-9 - 75 Years
+model=SVA-Saudia_75 Years
+texture=SVA-Saudia_75 Years
+atc_id=HZ-ARE
+atc_airline=SAUDIA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVA
+ui_manufacturer=United Traffic Team
+ui_type=Boeing 787-9
+ui_variation=Saudi Arabian Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT_B787-9_Saudia.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVA
+
+[fltsim.47]
+title=AIGAIM_Shanghai Airlines Boeing 787-9
+model=CSH-Shanghai Airlines
+texture=CSH-Shanghai Airlines
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 787-9
+ui_variation=Shanghai Airlines Boeing 787-9 B-208X
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH
+
+[fltsim.48]
+title=AIGAIM_Shanghai Airlines Boeing 787-9 - 100th
+model=CSH-Shanghai Airlines_100th
+texture=CSH-Shanghai Airlines_100th
+atc_airline=SHANGHAI AIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSH
+ui_manufacturer=Boeing
+ui_type=Boeing 787-9
+ui_variation=Shanghai Airlines Boeing 787-9 B-1111 100th CSH plane
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Bruno Koppel on JCAI Filename: UTT-ShanghaiAL-B789-FSX.zip
+description=UTT_B787-9_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSH

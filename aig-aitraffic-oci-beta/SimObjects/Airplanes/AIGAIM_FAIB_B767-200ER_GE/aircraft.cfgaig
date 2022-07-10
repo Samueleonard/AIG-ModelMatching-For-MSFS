@@ -68,24 +68,6 @@ isUserSelectable=0
 icao_airline=TNO
 
 [fltsim.1]
-title=AIGAIM_UTair Boeing 767-200ER - OC named
-model=UTA-UTair_OC named
-texture=UTA-UTair_OC named
-atc_airline=UTAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UTA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-200ER
-ui_variation=UTAir - OC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_762_uta.zip
-description=FAIB_B767-200ER_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UTA
-
-[fltsim.2]
 title=AIGAIM_Air Canada Boeing 767-200ER - opb Omni
 model=ACA-Air Canada_opb Omni
 texture=ACA-Air Canada_opb Omni
@@ -104,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Cargojet Boeing 767-200ER - BDSF ex-UT Air black tail
 model=CJT-Cargojet_BDSF ex-UT Air black tail
 texture=CJT-Cargojet_BDSF ex-UT Air black tail
@@ -122,7 +104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Jordan Aviation Boeing 767-200ER - ex Silverjet
 model=JAV-Jordan Aviation_ex Silverjet
 texture=JAV-Jordan Aviation_ex Silverjet
@@ -141,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAV
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Omni Air International Boeing 767-200ER
 model=OAE-Omni Air International
 texture=OAE-Omni Air International
@@ -159,6 +141,24 @@ description=FAIB_B767-200ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OAE
+
+[fltsim.5]
+title=AIGAIM_UTair Boeing 767-200ER - OC named
+model=UTA-UTair_OC named
+texture=UTA-UTair_OC named
+atc_airline=UTAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UTA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200ER
+ui_variation=UTAir - OC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: ATCO Filename: faib_762_uta.zip
+description=FAIB_B767-200ER_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UTA
 
 [fltsim.6]
 title=AIGAIM_Star Air Boeing 767-200ER - GEA BDSF

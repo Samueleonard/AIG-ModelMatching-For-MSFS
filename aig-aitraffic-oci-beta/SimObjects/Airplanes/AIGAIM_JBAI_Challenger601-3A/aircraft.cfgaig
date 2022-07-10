@@ -53,22 +53,21 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Chartright Air Bombardier Challenger 601-3A - C-FNBM
-model=GA2J-Chartright Air_C-FNBM
-texture=GA2J-Chartright Air_C-FNBM
-atc_id=C-FNBM
-atc_airline=CHARTRIGHT
+title=AIGAIM_Joe Gibbs Racing Bombardier Challenger 601-3A - N400DH
+model=GA4J-Joe Gibbs Racing_N400DH
+texture=GA4J-Joe Gibbs Racing_N400DH
+atc_id=N400DH
 atc_parking_types=RAMP
-atc_parking_codes=GA2J,HRT
+atc_parking_codes=GA4J
 ui_manufacturer=Bombardier
 ui_type=Bombardier Challenger 601
-ui_variation=Bombardier Challenger 6013R JBAI Chartright Air HRT C-FNBM
+ui_variation=Bombardier Challenger 600 6013A JBAI Joe Gibbs Raciing JOGB N400DH
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: HRT_CL61R_HD.zip
+ui_createdby=Provided by: OCH Filename: JOGB_CL61_HD_P3D.zip
 description=JBAI_Challenger601-3A-601(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=HRT
+icao_airline=GA4J
 
 [fltsim.1]
 title=AIGAIM_Martinair Bombardier Challenger 601-1A - N824DH
@@ -88,21 +87,22 @@ isUserSelectable=0
 icao_airline=GA2J
 
 [fltsim.2]
-title=AIGAIM_Joe Gibbs Racing Bombardier Challenger 601-3A - N400DH
-model=GA4J-Joe Gibbs Racing_N400DH
-texture=GA4J-Joe Gibbs Racing_N400DH
-atc_id=N400DH
+title=AIGAIM_Chartright Air Bombardier Challenger 601-3A - C-FNBM
+model=GA2J-Chartright Air_C-FNBM
+texture=GA2J-Chartright Air_C-FNBM
+atc_id=C-FNBM
+atc_airline=CHARTRIGHT
 atc_parking_types=RAMP
-atc_parking_codes=GA4J
+atc_parking_codes=GA2J,HRT
 ui_manufacturer=Bombardier
 ui_type=Bombardier Challenger 601
-ui_variation=Bombardier Challenger 600 6013A JBAI Joe Gibbs Raciing JOGB N400DH
+ui_variation=Bombardier Challenger 6013R JBAI Chartright Air HRT C-FNBM
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: JOGB_CL61_HD_P3D.zip
+ui_createdby=Provided by: OCH Filename: HRT_CL61R_HD.zip
 description=JBAI_Challenger601-3A-601(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=GA4J
+icao_airline=HRT
 
 [fltsim.3]
 title=AIGAIM_Chartright Air Bombardier Challenger 601 - C-FTDA

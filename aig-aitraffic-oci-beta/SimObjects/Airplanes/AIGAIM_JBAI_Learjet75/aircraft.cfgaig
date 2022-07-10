@@ -53,119 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_QuikTrip Bombardier Learjet 75 - N24QT
-model=GA2J-QuikTrip_N24QT
-texture=GA2J-QuikTrip_N24QT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-547, QuikTrip, N24QT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.1]
-title=AIGAIM_QuikTrip Bombardier Learjet 75 - N25QT
-model=GA2J-QuikTrip_N25QT
-texture=GA2J-QuikTrip_N25QT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-546, QuikTrip, N25QT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.2]
-title=AIGAIM_QuikTrip Bombardier Learjet 75 - N26QT
-model=GA2J-QuikTrip_N26QT
-texture=GA2J-QuikTrip_N26QT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-481, QuikTrip, N26QT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.3]
-title=AIGAIM_QuikTrip Bombardier Learjet 75 - N28QT
-model=GA2J-QuikTrip_N28QT
-texture=GA2J-QuikTrip_N28QT
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-548, QuikTrip, N28QT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.4]
-title=AIGAIM_RJ Corman Bombardier Learjet 75 - N977RJ
-model=GA2J-RJ Corman_N977RJ
-texture=GA2J-RJ Corman_N977RJ
-atc_id=N977RJ
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=R.J. Corman Bombardier Learjet 75 N977RJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: RJCorman_LJ75.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.5]
-title=AIGAIM_Southern Company Bombardier Learjet 75 - N16PC
-model=GA2J-Southern Company_N16PC
-texture=GA2J-Southern Company_N16PC
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-495, Southern Company, N16PC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SouthernCompanyLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.6]
-title=AIGAIM_Southern Company Bombardier Learjet 75 - N40PC
-model=GA2J-Southern Company_N40PC
-texture=GA2J-Southern Company_N40PC
-atc_parking_types=RAMP
-atc_parking_codes=GA2J
-ui_manufacturer=JBAI
-ui_type=Learjet 75
-ui_variation=Learjet 75, c/n 45-259, Southern Company, N40PC
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SouthernCompanyLearjet75s.zip
-description=JBAI_Learjet75-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2J
-
-[fltsim.7]
 title=AIGAIM_Dillard's Bombardier Learjet 75 - N916BD
 model=GA2J-Dillard's_N916BD
 texture=GA2J-Dillard's_N916BD
@@ -183,7 +70,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DCM
 
-[fltsim.8]
+[fltsim.1]
 title=AIGAIM_Dillard's Bombardier Learjet 75 - N917BD
 model=GA2J-Dillard's_N917BD
 texture=GA2J-Dillard's_N917BD
@@ -201,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DCM
 
-[fltsim.9]
+[fltsim.2]
 title=AIGAIM_Helmerich & Payne Bombardier Learjet 75 - N2HP
 model=GA2J-Helmerich & Payne_N2HP
 texture=GA2J-Helmerich & Payne_N2HP
@@ -217,23 +104,39 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.10]
-title=AIGAIM_Metro Aviation Bombardier Learjet 75 - N75UM
-model=GA2J-Metro Aviation_N75UM
-texture=GA2J-Metro Aviation_N75UM
+[fltsim.3]
+title=AIGAIM_Southern Company Bombardier Learjet 75 - N16PC
+model=GA2J-Southern Company_N16PC
+texture=GA2J-Southern Company_N16PC
 atc_parking_types=RAMP
 atc_parking_codes=GA2J
-ui_manufacturer=Bombardier
+ui_manufacturer=JBAI
 ui_type=Learjet 75
-ui_variation=Regents of the University of Michigan Ann Arbor MI, S/N 45-560
+ui_variation=Learjet 75, c/n 45-495, Southern Company, N16PC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: JBAI_Metro-Aviation_Lear-75_N75UM_jondix.zip
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SouthernCompanyLearjet75s.zip
 description=JBAI_Learjet75-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
 
-[fltsim.11]
+[fltsim.4]
+title=AIGAIM_Southern Company Bombardier Learjet 75 - N40PC
+model=GA2J-Southern Company_N40PC
+texture=GA2J-Southern Company_N40PC
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=Learjet 75, c/n 45-259, Southern Company, N40PC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SouthernCompanyLearjet75s.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.5]
 title=AIGAIM_iXAir Learjet 75 - F-HGLG
 model=GA2J-iXAir_F-HGLG
 texture=GA2J-iXAir_F-HGLG
@@ -250,7 +153,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IXR
 
-[fltsim.12]
+[fltsim.6]
 title=AIGAIM_Kiewit Corporation Bombardier Learjet 75 - N341K
 model=GA2J-Kiewit Corporation_N341K
 texture=GA2J-Kiewit Corporation_N341K
@@ -268,7 +171,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DZR
 
-[fltsim.13]
+[fltsim.7]
 title=AIGAIM_Kiewit Corporation Bombardier Learjet 75 - N353K
 model=GA2J-Kiewit Corporation_N353K
 texture=GA2J-Kiewit Corporation_N353K
@@ -286,7 +189,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DZR
 
-[fltsim.14]
+[fltsim.8]
 title=AIGAIM_Kiewit Corporation Bombardier Learjet 75 - N354K
 model=GA2J-Kiewit Corporation_N354K
 texture=GA2J-Kiewit Corporation_N354K
@@ -304,7 +207,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DZR
 
-[fltsim.15]
+[fltsim.9]
 title=AIGAIM_Kiewit Corporation Bombardier Learjet 75 - N355K
 model=GA2J-Kiewit Corporation_N355K
 texture=GA2J-Kiewit Corporation_N355K
@@ -321,3 +224,100 @@ description=JBAI_Learjet75-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DZR
+
+[fltsim.10]
+title=AIGAIM_RJ Corman Bombardier Learjet 75 - N977RJ
+model=GA2J-RJ Corman_N977RJ
+texture=GA2J-RJ Corman_N977RJ
+atc_id=N977RJ
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=R.J. Corman Bombardier Learjet 75 N977RJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: RJCorman_LJ75.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.11]
+title=AIGAIM_QuikTrip Bombardier Learjet 75 - N24QT
+model=GA2J-QuikTrip_N24QT
+texture=GA2J-QuikTrip_N24QT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=Learjet 75, c/n 45-547, QuikTrip, N24QT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.12]
+title=AIGAIM_QuikTrip Bombardier Learjet 75 - N25QT
+model=GA2J-QuikTrip_N25QT
+texture=GA2J-QuikTrip_N25QT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=Learjet 75, c/n 45-546, QuikTrip, N25QT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.13]
+title=AIGAIM_QuikTrip Bombardier Learjet 75 - N26QT
+model=GA2J-QuikTrip_N26QT
+texture=GA2J-QuikTrip_N26QT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=Learjet 75, c/n 45-481, QuikTrip, N26QT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.14]
+title=AIGAIM_QuikTrip Bombardier Learjet 75 - N28QT
+model=GA2J-QuikTrip_N28QT
+texture=GA2J-QuikTrip_N28QT
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 75
+ui_variation=Learjet 75, c/n 45-548, QuikTrip, N28QT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: QuikTripLearjet75s.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.15]
+title=AIGAIM_Metro Aviation Bombardier Learjet 75 - N75UM
+model=GA2J-Metro Aviation_N75UM
+texture=GA2J-Metro Aviation_N75UM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Learjet 75
+ui_variation=Regents of the University of Michigan Ann Arbor MI, S/N 45-560
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBAI_Metro-Aviation_Lear-75_N75UM_jondix.zip
+description=JBAI_Learjet75-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J

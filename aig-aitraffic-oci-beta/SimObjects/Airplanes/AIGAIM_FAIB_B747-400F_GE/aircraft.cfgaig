@@ -41,44 +41,6 @@ isUserSelectable=0
 icao_airline=ABW
 
 [fltsim.1]
-title=AIGAIM_Turkish Airlines Cargo Boeing 747-400F - GE opb Kalitta Air
-model=THYC-Turkish Airlines Cargo_GE opb Kalitta Air
-texture=THYC-Turkish Airlines Cargo_GE opb Kalitta Air
-atc_id=N402KZ
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=THYC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air F GE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 747-400F Kalitta Air FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THYC
-
-[fltsim.2]
-title=AIGAIM_Turkish Airlines Cargo Boeing 747-400F - GE opb Kalitta Air Albino
-model=THYC-Turkish Airlines Cargo_GE opb Kalitta Air Albino
-texture=THYC-Turkish Airlines Cargo_GE opb Kalitta Air Albino
-atc_id=N700CK
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=THYC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air F GE Albino
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB 747-400F Kalitta Air FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THYC
-
-[fltsim.3]
 title=AIGAIM_Asiana Airlines Cargo Boeing 747-400F - Old Titles
 model=AARC-Asiana Airlines Cargo_Old Titles
 texture=AARC-Asiana Airlines Cargo_Old Titles
@@ -96,6 +58,44 @@ description=FAIB_B747-400F_GE-FGE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AARC
+
+[fltsim.2]
+title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - GE
+model=TAY-ASL Airlines Belgium_GE
+texture=TAY-ASL Airlines Belgium_GE
+atc_id=OE-ILC
+atc_airline=QUALITY
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 747-400F
+ui_variation=ASL Airlines Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 747-400F GE_ASL Airlines Belgium_FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAY
+
+[fltsim.3]
+title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - GE White
+model=TAY-ASL Airlines Belgium_GE White
+texture=TAY-ASL Airlines Belgium_GE White
+atc_id=OE-IFK
+atc_airline=QUALITY
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=TAY
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 747-400F
+ui_variation=ASL Airlines Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F GE_ASL Airlines Belgium_FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAY
 
 [fltsim.4]
 title=AIGAIM_Astral Aviation Boeing 747-400F - GE SCD
@@ -193,234 +193,6 @@ isUserSelectable=0
 icao_airline=GTI
 
 [fltsim.9]
-title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - GE
-model=TAY-ASL Airlines Belgium_GE
-texture=TAY-ASL Airlines Belgium_GE
-atc_id=OE-ILC
-atc_airline=QUALITY
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400F
-ui_variation=ASL Airlines Belgium
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F GE_ASL Airlines Belgium_FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAY
-
-[fltsim.10]
-title=AIGAIM_ASL Airlines Belgium Boeing 747-400F - GE White
-model=TAY-ASL Airlines Belgium_GE White
-texture=TAY-ASL Airlines Belgium_GE White
-atc_id=OE-IFK
-atc_airline=QUALITY
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=TAY
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 747-400F
-ui_variation=ASL Airlines Belgium
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_Boeing 747-400F GE_ASL Airlines Belgium_FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAY
-
-[fltsim.11]
-title=AIGAIM_Polar Air Cargo Boeing 747-400F - OC
-model=PAC-Polar Air Cargo_OC
-texture=PAC-Polar Air Cargo_OC
-atc_id=N450PA
-atc_airline=POLAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=PAC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Polar Air Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAC
-
-[fltsim.12]
-title=AIGAIM_Polar Air Cargo Boeing 747-400F - DHL Hybrid
-model=PAC-Polar Air Cargo_DHL Hybrid
-texture=PAC-Polar Air Cargo_DHL Hybrid
-atc_id=N454PA
-atc_airline=POLAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=PAC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Polar Air Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAC
-
-[fltsim.13]
-title=AIGAIM_Polar Air Cargo Boeing 747-400F - Atlas Air belly logo
-model=PAC-Polar Air Cargo_Atlas Air belly logo
-texture=PAC-Polar Air Cargo_Atlas Air belly logo
-atc_id=N498MC
-atc_airline=POLAR
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=PAC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Polar Air Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PAC
-
-[fltsim.14]
-title=AIGAIM_UPS Airlines Boeing 747-400F
-model=UPS-UPS Airlines
-texture=UPS-UPS Airlines
-atc_id=N572UP
-atc_airline=UPS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=UPS
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=UPS Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UPS
-
-[fltsim.15]
-title=AIGAIM_UPS Airlines Boeing 747-400F - Old Titles
-model=UPS-UPS Airlines_Old Titles
-texture=UPS-UPS Airlines_Old Titles
-atc_id=N573UP
-atc_airline=UPS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=UPS
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=UPS Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UPS
-
-[fltsim.16]
-title=AIGAIM_UPS Airlines Boeing 747-400F - Expo 2020
-model=UPS-UPS Airlines_Expo 2020
-texture=UPS-UPS Airlines_Expo 2020
-atc_id=N574UP
-atc_airline=UPS
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=UPS
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=UPS Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UPS
-
-[fltsim.17]
-title=AIGAIM_Kalitta Air Boeing 747-400F - GE
-model=CKS-Kalitta Air_GE
-texture=CKS-Kalitta Air_GE
-atc_id=N700CK
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.18]
-title=AIGAIM_Kalitta Air Boeing 747-400F - GE Albino
-model=CKS-Kalitta Air_GE Albino
-texture=CKS-Kalitta Air_GE Albino
-atc_id=N401KZ
-atc_airline=CONNIE
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CKS
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400F
-ui_variation=Kalitta Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CKS
-
-[fltsim.19]
-title=AIGAIM_China Airlines Cargo Boeing 747-400F
-model=CALC-China Airlines Cargo
-texture=CALC-China Airlines Cargo
-atc_id=B-18701
-atc_airline=DYNASTY
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CALC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=China Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400F China Airlines Cargo FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CALC
-
-[fltsim.20]
-title=AIGAIM_China Airlines Cargo Boeing 747-400F - OC
-model=CALC-China Airlines Cargo_OC
-texture=CALC-China Airlines Cargo_OC
-atc_id=B-18710
-atc_airline=DYNASTY
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=CALC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400F
-ui_variation=China Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400F China Airlines Cargo FSX.zip
-description=FAIB_B747-400F_GE-FGE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CALC
-
-[fltsim.21]
 title=AIGAIM_CargoLogicAir Boeing 747-400F
 model=CLU-CargoLogicAir
 texture=CLU-CargoLogicAir
@@ -439,7 +211,197 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CLU
 
-[fltsim.22]
+[fltsim.10]
+title=AIGAIM_China Airlines Cargo Boeing 747-400F
+model=CALC-China Airlines Cargo
+texture=CALC-China Airlines Cargo
+atc_id=B-18701
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CALC
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=China Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400F China Airlines Cargo FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CALC
+
+[fltsim.11]
+title=AIGAIM_China Airlines Cargo Boeing 747-400F - OC
+model=CALC-China Airlines Cargo_OC
+texture=CALC-China Airlines Cargo_OC
+atc_id=B-18710
+atc_airline=DYNASTY
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CALC
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=China Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400F China Airlines Cargo FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CALC
+
+[fltsim.12]
+title=AIGAIM_Kalitta Air Boeing 747-400F - GE
+model=CKS-Kalitta Air_GE
+texture=CKS-Kalitta Air_GE
+atc_id=N700CK
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.13]
+title=AIGAIM_Kalitta Air Boeing 747-400F - GE Albino
+model=CKS-Kalitta Air_GE Albino
+texture=CKS-Kalitta Air_GE Albino
+atc_id=N401KZ
+atc_airline=CONNIE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CKS
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Kalitta Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_b744f_cks_p3d.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CKS
+
+[fltsim.14]
+title=AIGAIM_Polar Air Cargo Boeing 747-400F - OC
+model=PAC-Polar Air Cargo_OC
+texture=PAC-Polar Air Cargo_OC
+atc_id=N450PA
+atc_airline=POLAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=PAC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Polar Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAC
+
+[fltsim.15]
+title=AIGAIM_Polar Air Cargo Boeing 747-400F - DHL Hybrid
+model=PAC-Polar Air Cargo_DHL Hybrid
+texture=PAC-Polar Air Cargo_DHL Hybrid
+atc_id=N454PA
+atc_airline=POLAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=PAC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Polar Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAC
+
+[fltsim.16]
+title=AIGAIM_Polar Air Cargo Boeing 747-400F - Atlas Air belly logo
+model=PAC-Polar Air Cargo_Atlas Air belly logo
+texture=PAC-Polar Air Cargo_Atlas Air belly logo
+atc_id=N498MC
+atc_airline=POLAR
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=PAC
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=Polar Air Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_pac_b744f_p3d_20-10.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAC
+
+[fltsim.17]
+title=AIGAIM_UPS Airlines Boeing 747-400F - Old Titles
+model=UPS-UPS Airlines_Old Titles
+texture=UPS-UPS Airlines_Old Titles
+atc_id=N573UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=UPS Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS
+
+[fltsim.18]
+title=AIGAIM_UPS Airlines Boeing 747-400F - Expo 2020
+model=UPS-UPS Airlines_Expo 2020
+texture=UPS-UPS Airlines_Expo 2020
+atc_id=N574UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=UPS Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS
+
+[fltsim.19]
+title=AIGAIM_UPS Airlines Boeing 747-400F
+model=UPS-UPS Airlines
+texture=UPS-UPS Airlines
+atc_id=N572UP
+atc_airline=UPS
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=UPS
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400F
+ui_variation=UPS Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400F UPS FSX.zip
+description=FAIB_B747-400F_GE-FGE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UPS
+
+[fltsim.20]
 title=AIGAIM_Saudia Cargo Boeing 747-400F - GE
 model=SVAC-Saudia Cargo_GE
 texture=SVAC-Saudia Cargo_GE

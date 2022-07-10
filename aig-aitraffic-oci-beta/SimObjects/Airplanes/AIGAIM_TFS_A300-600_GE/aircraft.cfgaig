@@ -108,25 +108,6 @@ isUserSelectable=0
 icao_airline=IRB
 
 [fltsim.3]
-title=AIGAIM_Qeshm Airlines Airbus A300-600 - Red titles
-model=QSM-Qeshm Air_Red titles
-texture=QSM-Qeshm Air_Red titles
-atc_id=EP-FQM
-atc_airline=QESHM AIR
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QSM
-ui_manufacturer=Airbus
-ui_type=Airbus A300-600
-ui_variation=Qeshm Air EP-FQM
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: TFS A300-600 Qeshm Air FSX.zip
-description=TFS_A300-600_GE-A306_GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QSM
-
-[fltsim.4]
 title=AIGAIM_Mahan Air Airbus A300-600
 model=IRM-Mahan Air
 texture=IRM-Mahan Air
@@ -144,3 +125,22 @@ description=TFS_A300-600_GE-A306_GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRM
+
+[fltsim.4]
+title=AIGAIM_Qeshm Airlines Airbus A300-600 - Red titles
+model=QSM-Qeshm Air_Red titles
+texture=QSM-Qeshm Air_Red titles
+atc_id=EP-FQM
+atc_airline=QESHM AIR
+atc_heavy=0
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QSM
+ui_manufacturer=Airbus
+ui_type=Airbus A300-600
+ui_variation=Qeshm Air EP-FQM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A300-600 Qeshm Air FSX.zip
+description=TFS_A300-600_GE-A306_GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QSM

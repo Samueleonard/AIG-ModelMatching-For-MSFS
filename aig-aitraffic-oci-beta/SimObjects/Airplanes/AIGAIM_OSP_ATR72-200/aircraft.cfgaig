@@ -71,6 +71,145 @@ isUserSelectable=0
 icao_airline=AEA
 
 [fltsim.1]
+title=AIGAIM_Air Serbia ATR 72-200
+model=ASL-Air Serbia
+texture=ASL-Air Serbia
+atc_id=YU-ALN
+atc_airline=AIR SERBIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ASL
+ui_manufacturer=OSP ATR
+ui_type=ATR 72-200
+ui_variation=Air Serbia
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATR72 Air Serbia FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ASL
+
+[fltsim.2]
+title=AIGAIM_Danish Air Transport ATR 72-200 - OY-LHB
+model=DTR-Danish Air Transport_OY-LHB
+texture=DTR-Danish Air Transport_OY-LHB
+atc_id=OY-LHB
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR 72-200_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR
+
+[fltsim.3]
+title=AIGAIM_Danish Air Transport ATR 72-200 - OY-RUR
+model=DTR-Danish Air Transport_OY-RUR
+texture=DTR-Danish Air Transport_OY-RUR
+atc_id=OY-RUR
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR 72-200_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR
+
+[fltsim.4]
+title=AIGAIM_Danish Air Transport ATR 72-200 - OY-RUB (TEMP)
+model=DTR-Danish Air Transport_OY-RUB_temp
+texture=DTR-Danish Air Transport_OY-RUB_temp
+atc_id=OY-RUB
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR 72-200_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR
+
+[fltsim.5]
+title=AIGAIM_Danish Air Transport ATR 72-210 - OY-LHC (TEMP)
+model=DTR-Danish Air Transport_OY-LHC_temp
+texture=DTR-Danish Air Transport_OY-LHC_temp
+atc_id=OY-RUD
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-210
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OSP_ATR 72-200_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR
+
+[fltsim.6]
+title=AIGAIM_FitsAir ATR 72-200
+model=EXV-FitsAir
+texture=EXV-FitsAir
+atc_airline=EXPOAVIA
+atc_parking_types=RAMP,GATE
+atc_parking_codes=EXV
+ui_manufacturer=OSP
+ui_type=ATR 72-200
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: osp_atr722_Fits Air.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EXV
+
+[fltsim.7]
+title=AIGAIM_MAP Linhas Aereas ATR 72-200 - Small Tail Design
+model=PAM-MAP Linhas Aereas_Small Tail Design
+texture=PAM-MAP Linhas Aereas_Small Tail Design
+atc_id=PR-MPY
+atc_airline=MAP AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PAM
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-200
+ui_variation=MAP Linhas Aereas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: MAP Linhas Aereas ATR 72 FSX v4.zip
+visual_damage=1
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PAM
+
+[fltsim.8]
+title=AIGAIM_Zimex Aviation Austria ATR 72-200 - opb IMX
+model=AZD-Zimex Aviation Austria_opb IMX
+texture=AZD-Zimex Aviation Austria_opb IMX
+atc_id=HB-ALL
+atc_airline=MAILMAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AZD
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-200
+ui_variation=Zimex Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR_72-202F_Zimex Aviation_FSX.zip
+description=OSP_ATR72-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZD
+
+[fltsim.9]
 title=AIGAIM_Summit Air ATR 72-200
 model=SUT-Summit Air
 texture=SUT-Summit Air
@@ -87,7 +226,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUT
 
-[fltsim.2]
+[fltsim.10]
 title=AIGAIM_Summit Air ATR 72-200 - F
 model=SUT-Summit Air_F
 texture=SUT-Summit Air_F
@@ -104,25 +243,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SUT
 
-[fltsim.3]
-title=AIGAIM_Zimex Aviation Austria ATR 72-200 - opb IMX
-model=AZD-Zimex Aviation Austria_opb IMX
-texture=AZD-Zimex Aviation Austria_opb IMX
-atc_id=HB-ALL
-atc_airline=MAILMAN
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=AZD
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-200
-ui_variation=Zimex Aviation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ATR_72-202F_Zimex Aviation_FSX.zip
-description=OSP_ATR72-200(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AZD
-
-[fltsim.4]
+[fltsim.11]
 title=AIGAIM_Swiftair ATR 72-200 - opf Uep Fly
 model=SWT-Swiftair_opf Uep Fly
 texture=SWT-Swiftair_opf Uep Fly
@@ -134,7 +255,7 @@ ui_manufacturer=Aerospatiale
 ui_type=ATR 72-200
 ui_variation=uepfly opb Swiftair
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ATR 72-200_uepfly_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR 72-200_uepfly_FSX.zip
 prop_anim_ratio=-0.2
 description=OSP_ATR72-200(fs20)
 isAirTraffic=1

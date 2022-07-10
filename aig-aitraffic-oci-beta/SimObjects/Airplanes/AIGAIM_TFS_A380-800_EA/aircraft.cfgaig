@@ -80,44 +80,6 @@ isUserSelectable=0
 icao_airline=AFR
 
 [fltsim.1]
-title=AIGAIM_Korean Air Airbus A380-800
-model=KAL-Korean Air
-texture=KAL-Korean Air
-atc_id=HL7628
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Korean Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_a380_kal_fsx.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-
-[fltsim.2]
-title=AIGAIM_Korean Air Airbus A380-800 - 50 Years
-model=KAL-Korean Air_50 Years
-texture=KAL-Korean Air_50 Years
-atc_id=HL7614
-atc_airline=KOREANAIR
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KAL
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A380-800
-ui_variation=Korean Air Lines Co., Ltd.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: TFS A380-800 Korean Air.zip
-description=TFS_A380-800_EA-EA(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KAL
-
-[fltsim.3]
 title=AIGAIM_Emirates Airbus A380-800 - EA
 model=UAE-Emirates_EA
 texture=UAE-Emirates_EA
@@ -136,7 +98,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_Emirates Airbus A380-800 - EA Wifi
 model=UAE-Emirates_EA Wifi
 texture=UAE-Emirates_EA Wifi
@@ -155,7 +117,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_Emirates Airbus A380-800 - EA Expo logo
 model=UAE-Emirates_EA Expo logo
 texture=UAE-Emirates_EA Expo logo
@@ -174,7 +136,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Emirates Airbus A380-800 - EA Expo logo Wifi
 model=UAE-Emirates_EA Expo logo Wifi
 texture=UAE-Emirates_EA Expo logo Wifi
@@ -193,7 +155,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Emirates Airbus A380-800 - EA Dubai Expo
 model=UAE-Emirates_EA Dubai Expo
 texture=UAE-Emirates_EA Dubai Expo
@@ -212,7 +174,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Emirates Airbus A380-800 - EA Dubai Expo Wifi
 model=UAE-Emirates_EA Dubai Expo Wifi
 texture=UAE-Emirates_EA Dubai Expo Wifi
@@ -231,7 +193,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Emirates Airbus A380-800 - EA Year of the Fiftieth Wifi
 model=UAE-Emirates_EA Year of the Fiftieth Wifi
 texture=UAE-Emirates_EA Year of the Fiftieth Wifi
@@ -250,7 +212,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_Emirates Airbus A380-800 - EA Expo Orange
 model=UAE-Emirates_EA Expo Orange
 texture=UAE-Emirates_EA Expo Orange
@@ -269,7 +231,7 @@ isUserSelectable=0
 icao_airline=UAE
 atc_heavy=1
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_Emirates Airbus A380-800 - EA Expo Green
 model=UAE-Emirates_EA Expo Green
 texture=UAE-Emirates_EA Expo Green
@@ -286,4 +248,42 @@ description=TFS_A380-800_EA-EA(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAE
+atc_heavy=1
+
+[fltsim.10]
+title=AIGAIM_Korean Air Airbus A380-800
+model=KAL-Korean Air
+texture=KAL-Korean Air
+atc_id=HL7628
+atc_airline=KOREANAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Korean Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_a380_kal_fsx.zip
+description=TFS_A380-800_EA-EA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
+
+[fltsim.11]
+title=AIGAIM_Korean Air Airbus A380-800 - 50 Years
+model=KAL-Korean Air_50 Years
+texture=KAL-Korean Air_50 Years
+atc_id=HL7614
+atc_airline=KOREANAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAL
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A380-800
+ui_variation=Korean Air Lines Co., Ltd.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: TFS A380-800 Korean Air.zip
+description=TFS_A380-800_EA-EA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAL
 atc_heavy=1

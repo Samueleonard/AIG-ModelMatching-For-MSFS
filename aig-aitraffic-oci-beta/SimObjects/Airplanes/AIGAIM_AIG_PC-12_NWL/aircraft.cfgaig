@@ -49,6 +49,25 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Aero-Tech Services Pilatus PC-12 - N644SD
+model=GA2T-Aero-Tech Services_N644SD
+texture=GA2T-Aero-Tech Services_N644SD
+atc_id=N644SD
+atc_airline=ATECH
+atc_parking_types=RAMP
+atc_parking_codes=GA2T,TEK
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Aero-Tech Services Pilatus PC-12 N644SD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: AIG_Aero-Tech-Services_PC-12_N644SD_jondix.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TEK
+
+[fltsim.1]
 title=AIGAIM_Seminole Tribe of Florida Pilatus PC-12 - N957ST
 model=GA2T-Seminole Tribe of Florida_N957ST
 texture=GA2T-Seminole Tribe of Florida_N957ST
@@ -66,7 +85,24 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
 
-[fltsim.1]
+[fltsim.2]
+title=AIGAIM_U-Haul Pilatus PC-12 - N605TQ
+model=GA2T-U-Haul_N605TQ
+texture=GA2T-U-Haul_N605TQ
+atc_id=N605TQ
+atc_parking_types=RAMP
+atc_parking_codes=GA2T
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Pilatus PC-12 Normal Winglet AIG U-Haul UHUL N605TQ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: n605tq_hd.zip
+description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2T
+
+[fltsim.3]
 title=AIGAIM_Quest Diagnostics Pilatus PC-12 - N338QD
 model=LBQ-Quest Diagnostics_N338QD
 texture=LBQ-Quest Diagnostics_N338QD
@@ -85,7 +121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LBQ
 
-[fltsim.2]
+[fltsim.4]
 title=AIGAIM_Quest Diagnostics Pilatus PC-12 - N567FH
 model=LBQ-Quest Diagnostics_N567FH
 texture=LBQ-Quest Diagnostics_N567FH
@@ -104,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LBQ
 
-[fltsim.3]
+[fltsim.5]
 title=AIGAIM_Quest Diagnostics Pilatus PC-12 - N589AC
 model=LBQ-Quest Diagnostics_N589AC
 texture=LBQ-Quest Diagnostics_N589AC
@@ -123,7 +159,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LBQ
 
-[fltsim.4]
+[fltsim.6]
 title=AIGAIM_Metro Aviation Pilatus PC-12 - N325MW
 model=GA2T-Metro Aviation_N325MW
 texture=GA2T-Metro Aviation_N325MW
@@ -141,7 +177,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
 
-[fltsim.5]
+[fltsim.7]
 title=AIGAIM_Metro Aviation Pilatus PC-12 - N399AM
 model=GA2T-Metro Aviation_N399AM
 texture=GA2T-Metro Aviation_N399AM
@@ -159,7 +195,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
 
-[fltsim.6]
+[fltsim.8]
 title=AIGAIM_Metro Aviation Pilatus PC-12 - N515TW
 model=GA2T-Metro Aviation_N515TW
 texture=GA2T-Metro Aviation_N515TW
@@ -177,7 +213,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
 
-[fltsim.7]
+[fltsim.9]
 title=AIGAIM_Metro Aviation Pilatus PC-12 - N852AL
 model=GA2T-Metro Aviation_N852AL
 texture=GA2T-Metro Aviation_N852AL
@@ -194,42 +230,6 @@ description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
-
-[fltsim.8]
-title=AIGAIM_U-Haul Pilatus PC-12 - N605TQ
-model=GA2T-U-Haul_N605TQ
-texture=GA2T-U-Haul_N605TQ
-atc_id=N605TQ
-atc_parking_types=RAMP
-atc_parking_codes=GA2T
-ui_manufacturer=Pilatus
-ui_type=Pilatus PC-12
-ui_variation=Pilatus PC-12 Normal Winglet AIG U-Haul UHUL N605TQ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: n605tq_hd.zip
-description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA2T
-
-[fltsim.9]
-title=AIGAIM_Aero-Tech Services Pilatus PC-12 - N644SD
-model=GA2T-Aero-Tech Services_N644SD
-texture=GA2T-Aero-Tech Services_N644SD
-atc_id=N644SD
-atc_airline=ATECH
-atc_parking_types=RAMP
-atc_parking_codes=GA2T,TEK
-ui_manufacturer=Pilatus
-ui_type=Pilatus PC-12
-ui_variation=Aero-Tech Services Pilatus PC-12 N644SD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: AIG_Aero-Tech-Services_PC-12_N644SD_jondix.zip
-prop_anim_ratio=-0.4
-description=AIG_PC-12_NWL-Morten_normal_winglet(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TEK
 
 [fltsim.10]
 title=AIGAIM_Sounds Air Pilatus PC-12 - ZK-PLS

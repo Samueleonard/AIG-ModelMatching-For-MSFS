@@ -68,5 +68,4 @@ def start(): #main function
 
 #######################################
 
-#start()
-handlePaywareModels()
+start()

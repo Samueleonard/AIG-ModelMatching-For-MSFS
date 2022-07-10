@@ -53,60 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Eastern Airways Saab 2000
-model=EZE-Eastern Airways
-texture=EZE-Eastern Airways
-atc_airline=EASTFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=EZE
-ui_manufacturer=Saab
-ui_type=Saab 2000
-ui_variation=Eastern Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
-prop_anim_ratio=-0.2
-description=TFS_S2000(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EZE
-
-[fltsim.1]
-title=AIGAIM_Eastern Airways Saab 2000 - lower Eastern sticker
-model=EZE-Eastern Airways_lower Eastern sticker
-texture=EZE-Eastern Airways_lower Eastern sticker
-atc_airline=EASTFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=EZE
-ui_manufacturer=Saab
-ui_type=Saab 2000
-ui_variation=Eastern Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
-prop_anim_ratio=-0.2
-description=TFS_S2000(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EZE
-
-[fltsim.2]
-title=AIGAIM_Eastern Airways Saab 2000 - White
-model=EZE-Eastern Airways_White
-texture=EZE-Eastern Airways_White
-atc_airline=EASTFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=EZE
-ui_manufacturer=Saab
-ui_type=Saab 2000
-ui_variation=Eastern Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
-prop_anim_ratio=-0.2
-description=TFS_S2000(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EZE
-
-[fltsim.3]
 title=AIGAIM_Air Leap Saab 2000 - SE-LOM
 model=LPA-Air Leap_SE-LOM
 texture=LPA-Air Leap_SE-LOM
@@ -118,14 +64,14 @@ ui_manufacturer=Bombardier Saab
 ui_type=Saab 2000
 ui_variation=Air Leap opby Sveaflyg
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: TFS_Air Leap_SAAB_2000_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: TFS_Air Leap_SAAB_2000_FSX.zip
 prop_anim_ratio=-0.2
 description=TFS_S2000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPA
 
-[fltsim.4]
+[fltsim.1]
 title=AIGAIM_Air Leap Saab 2000 - ES-NSE
 model=LPA-Air Leap_ES-NSE
 texture=LPA-Air Leap_ES-NSE
@@ -144,7 +90,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPA
 
-[fltsim.5]
+[fltsim.2]
 title=AIGAIM_BA CityFlyer Saab 2000 - Loganair colors (TEMP)
 model=CFE-BA CityFlyer_Loganair colors_temp
 texture=CFE-BA CityFlyer_Loganair colors_temp
@@ -160,6 +106,60 @@ description=TFS_S2000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFE
+
+[fltsim.3]
+title=AIGAIM_Eastern Airways Saab 2000
+model=EZE-Eastern Airways
+texture=EZE-Eastern Airways
+atc_airline=EASTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=EZE
+ui_manufacturer=Saab
+ui_type=Saab 2000
+ui_variation=Eastern Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
+prop_anim_ratio=-0.2
+description=TFS_S2000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZE
+
+[fltsim.4]
+title=AIGAIM_Eastern Airways Saab 2000 - lower Eastern sticker
+model=EZE-Eastern Airways_lower Eastern sticker
+texture=EZE-Eastern Airways_lower Eastern sticker
+atc_airline=EASTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=EZE
+ui_manufacturer=Saab
+ui_type=Saab 2000
+ui_variation=Eastern Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
+prop_anim_ratio=-0.2
+description=TFS_S2000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZE
+
+[fltsim.5]
+title=AIGAIM_Eastern Airways Saab 2000 - White
+model=EZE-Eastern Airways_White
+texture=EZE-Eastern Airways_White
+atc_airline=EASTFLIGHT
+atc_parking_types=RAMP
+atc_parking_codes=EZE
+ui_manufacturer=Saab
+ui_type=Saab 2000
+ui_variation=Eastern Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Kev Bell on JCAI Filename: Eastern Airways TFS Saab 2000.zip
+prop_anim_ratio=-0.2
+description=TFS_S2000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZE
 
 [fltsim.6]
 title=AIGAIM_Loganair Saab 2000 - Basic Titles

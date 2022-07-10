@@ -57,6 +57,24 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
+title=AIGAIM_Air Belgium Airbus A330-900neo - Wifi dome
+model=ABB-Air Belgium_Wifi dome
+texture=ABB-Air Belgium_Wifi dome
+atc_airline=AIR BELGIUM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ABB
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Air Belgium
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_abb_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ABB
+
+[fltsim.1]
 title=AIGAIM_Air Mauritius Airbus A330-900neo
 model=MAU-Air Mauritius
 texture=MAU-Air Mauritius
@@ -75,7 +93,79 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAU
 
-[fltsim.1]
+[fltsim.2]
+title=AIGAIM_Azul Airbus A330-900neo
+model=AZU-Azul
+texture=AZU-Azul
+atc_airline=AZUL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Azul Linhas Aéreas Brasileiras
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.3]
+title=AIGAIM_Azul Airbus A330-900neo - Blue U
+model=AZU-Azul_Blue U
+texture=AZU-Azul_Blue U
+atc_airline=AZUL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AZU
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Azul Linhas Aéreas Brasileiras
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AZU
+
+[fltsim.4]
+title=AIGAIM_Corsair International Airbus A330-900neo
+model=CRL-Corsair International
+texture=CRL-Corsair International
+atc_airline=CORSAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Corsair International
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL
+
+[fltsim.5]
+title=AIGAIM_Corsair International Airbus A330-900neo - No International Titles
+model=CRL-Corsair International_No International Titles
+texture=CRL-Corsair International_No International Titles
+atc_airline=CORSAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRL
+ui_manufacturer=AIG
+ui_type=Airbus A330-900neo
+ui_variation=Corsair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+description=AIG_A330-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRL
+
+[fltsim.6]
 title=AIGAIM_Delta Air Lines Airbus A330-900neo
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -93,96 +183,6 @@ description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
-
-[fltsim.2]
-title=AIGAIM_Royal Brunei Airlines Airbus A330-900neo - opb HiFly
-model=RBA-Royal Brunei_opb HiFly
-texture=RBA-Royal Brunei_opb HiFly
-atc_airline=BRUNEI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=RBA
-ui_manufacturer=AIG
-ui_type=Airbus A330-900neo
-ui_variation=HiFly
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_hfy_a339_p3d.zip
-description=AIG_A330-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=RBA
-
-[fltsim.3]
-title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC
-model=TAP-TAP Air Portugal_IC
-texture=TAP-TAP Air Portugal_IC
-atc_airline=AIR PORTUGAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAP
-ui_manufacturer=AIG
-ui_type=Airbus A330-900neo
-ui_variation=TAP Portugal CS-TUC 'Nuno Goncalves' (standard)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
-description=AIG_A330-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAP
-
-[fltsim.4]
-title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 1st to fly A330neo
-model=TAP-TAP Air Portugal_IC 1st to fly A330neo
-texture=TAP-TAP Air Portugal_IC 1st to fly A330neo
-atc_airline=AIR PORTUGAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAP
-ui_manufacturer=AIG
-ui_type=Airbus A330-900neo
-ui_variation=TAP Portugal CS-TUA 'D. Maria I' ('First to Fly' sticker)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
-description=AIG_A330-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAP
-
-[fltsim.5]
-title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 100th Aircraft
-model=TAP-TAP Air Portugal_IC 100th Aircraft
-texture=TAP-TAP Air Portugal_IC 100th Aircraft
-atc_airline=AIR PORTUGAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAP
-ui_manufacturer=AIG
-ui_type=Airbus A330-900neo
-ui_variation=TAP Portugal CS-TUI 'D. Alfonso Enriques' ('100th aircraft' sticker)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
-description=AIG_A330-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAP
-
-[fltsim.6]
-title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC Star Alliance
-model=TAP-TAP Air Portugal_IC Star Alliance
-texture=TAP-TAP Air Portugal_IC Star Alliance
-atc_airline=AIR PORTUGAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAP
-ui_manufacturer=AIG
-ui_type=Airbus A330-900neo
-ui_variation=TAP Portugal CS-TUK 'D. Francisco de Almeida' (Star Alliance colors)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
-description=AIG_A330-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAP
 
 [fltsim.7]
 title=AIGAIM_Iberojet Airbus A330-900neo - opb OBS
@@ -204,91 +204,92 @@ isUserSelectable=0
 icao_airline=EVE
 
 [fltsim.8]
-title=AIGAIM_Air Belgium Airbus A330-900neo - Wifi dome
-model=ABB-Air Belgium_Wifi dome
-texture=ABB-Air Belgium_Wifi dome
-atc_airline=AIR BELGIUM
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC
+model=TAP-TAP Air Portugal_IC
+texture=TAP-TAP Air Portugal_IC
+atc_airline=AIR PORTUGAL
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ABB
+atc_parking_codes=TAP
 ui_manufacturer=AIG
 ui_type=Airbus A330-900neo
-ui_variation=Air Belgium
+ui_variation=TAP Portugal CS-TUC 'Nuno Goncalves' (standard)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_abb_a339_p3d.zip
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
 description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ABB
+icao_airline=TAP
 
 [fltsim.9]
-title=AIGAIM_Corsair International Airbus A330-900neo
-model=CRL-Corsair International
-texture=CRL-Corsair International
-atc_airline=CORSAIR
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 1st to fly A330neo
+model=TAP-TAP Air Portugal_IC 1st to fly A330neo
+texture=TAP-TAP Air Portugal_IC 1st to fly A330neo
+atc_airline=AIR PORTUGAL
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CRL
+atc_parking_codes=TAP
 ui_manufacturer=AIG
 ui_type=Airbus A330-900neo
-ui_variation=Corsair International
+ui_variation=TAP Portugal CS-TUA 'D. Maria I' ('First to Fly' sticker)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
 description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CRL
+icao_airline=TAP
 
 [fltsim.10]
-title=AIGAIM_Corsair International Airbus A330-900neo - No International Titles
-model=CRL-Corsair International_No International Titles
-texture=CRL-Corsair International_No International Titles
-atc_airline=CORSAIR
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC 100th Aircraft
+model=TAP-TAP Air Portugal_IC 100th Aircraft
+texture=TAP-TAP Air Portugal_IC 100th Aircraft
+atc_airline=AIR PORTUGAL
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=CRL
+atc_parking_codes=TAP
 ui_manufacturer=AIG
 ui_type=Airbus A330-900neo
-ui_variation=Corsair
+ui_variation=TAP Portugal CS-TUI 'D. Alfonso Enriques' ('100th aircraft' sticker)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_crl_a339_p3d.zip
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
 description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=CRL
+icao_airline=TAP
 
 [fltsim.11]
-title=AIGAIM_Azul Airbus A330-900neo
-model=AZU-Azul
-texture=AZU-Azul
-atc_airline=AZUL
+title=AIGAIM_TAP Air Portugal Airbus A330-900neo - IC Star Alliance
+model=TAP-TAP Air Portugal_IC Star Alliance
+texture=TAP-TAP Air Portugal_IC Star Alliance
+atc_airline=AIR PORTUGAL
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
+atc_parking_codes=TAP
 ui_manufacturer=AIG
 ui_type=Airbus A330-900neo
-ui_variation=Azul Linhas Aéreas Brasileiras
+ui_variation=TAP Portugal CS-TUK 'D. Francisco de Almeida' (Star Alliance colors)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+ui_createdby=Provided by: FC75 Filename: aig_a339_tap.zip
 description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AZU
+icao_airline=TAP
 
 [fltsim.12]
-title=AIGAIM_Azul Airbus A330-900neo - Blue U
-model=AZU-Azul_Blue U
-texture=AZU-Azul_Blue U
-atc_airline=AZUL
+title=AIGAIM_Cebu Pacific Airbus A330-900neo
+model=CEB-Cebu Pacific
+texture=CEB-Cebu Pacific
+atc_id=RP-C3902
+atc_airline=CEBU
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AZU
-ui_manufacturer=AIG
+atc_parking_codes=CEB
+ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-900neo
-ui_variation=Azul Linhas Aéreas Brasileiras
+ui_variation=Cebu Pacific
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: aig_azu_a339_p3d.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-900 Cebu Pacific.zip
 description=AIG_A330-900(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AZU
+icao_airline=CEB

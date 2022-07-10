@@ -53,24 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Laser Airlines McDonnell Douglas MD-81 - OC
-model=LER-Laser Airlines_OC
-texture=LER-Laser Airlines_OC
-atc_id=YV1240
-atc_airline=LASER
-atc_parking_types=GATE,RAMP
-atc_parking_codes=LER
-ui_manufacturer=McDonnell Douglas
-ui_type=McDonnell Douglas MD-81
-ui_variation=LASER Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: LASER Ailines MD8X Fleet FSX.zip
-description=AIA_MD-81-SD_no_refl(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LER
-
-[fltsim.1]
 title=AIGAIM_Olympia Aviation McDonnell Douglas MD-81
 model=OLA-Olympia Aviation
 texture=OLA-Olympia Aviation
@@ -83,3 +65,21 @@ description=AIA_MD-81-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OLA
+
+[fltsim.1]
+title=AIGAIM_Laser Airlines McDonnell Douglas MD-81 - OC
+model=LER-Laser Airlines_OC
+texture=LER-Laser Airlines_OC
+atc_id=YV1243
+atc_airline=LASER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LER
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-81
+ui_variation=LASER Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: LASER Ailines MD8X Fleet FSX.zip
+description=AIA_MD-81-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LER

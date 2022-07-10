@@ -38,24 +38,6 @@ MARSHALLER=1
 JETWAY=1
 
 [fltsim.0]
-title=AIGAIM_Airbus Cooperation Airbus A321-200neo LR - Air Astana
-model=AIB-Airbus Cooperation_Air Astana
-texture=AIB-Airbus Cooperation_Air Astana
-atc_id=P4-KGA
-atc_airline=AIRBUS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AIB
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Air Astana P4-KGA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_a321lr_kzr.zip
-description=FAIB_A321-200neo_LR_PW-PW_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AIB
-
-[fltsim.1]
 title=AIGAIM_Air Astana Airbus A321-200neo LR
 model=KZR-Air Astana
 texture=KZR-Air Astana
@@ -73,7 +55,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZR
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Air Transat Airbus A321-200neo LR
 model=TSC-Air Transat
 texture=TSC-Air Transat

@@ -111,6 +111,63 @@ isUserSelectable=0
 icao_airline=EIN
 
 [fltsim.3]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE
+model=ARG-Aerolineas Argentinas_GE
+texture=ARG-Aerolineas Argentinas_GE
+atc_id=LV-FVI
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG
+
+[fltsim.4]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE Different Stencils
+model=ARG-Aerolineas Argentinas_GE Different Stencils
+texture=ARG-Aerolineas Argentinas_GE Different Stencils
+atc_id=LV-GHQ
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG
+
+[fltsim.5]
+title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE Different Windows
+model=ARG-Aerolineas Argentinas_GE Different Windows
+texture=ARG-Aerolineas Argentinas_GE Different Windows
+atc_id=LV-GKP
+atc_airline=ARGENTINA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ARG
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Aerolineas Argentinas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ARG
+
+[fltsim.6]
 title=AIGAIM_Air Algerie Airbus A330-200 - OC
 model=DAH-Air Algerie_OC
 texture=DAH-Air Algerie_OC
@@ -128,7 +185,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.4]
+[fltsim.7]
 title=AIGAIM_Air Algerie Airbus A330-200 - OC Unnamed
 model=DAH-Air Algerie_OC Unnamed
 texture=DAH-Air Algerie_OC Unnamed
@@ -146,45 +203,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAH
 
-[fltsim.5]
-title=AIGAIM_Level Airbus A330-200 - 242t opb Iberia
-model=IBE-Level_242t opb Iberia
-texture=IBE-Level_242t opb Iberia
-atc_id=EC-MOY
-atc_airline=IBERIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IBE
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=LEVEL / Iberia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_LEVEL.zip
-description=AIG_A330-200_GE-GE_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IBE
-
-[fltsim.6]
-title=AIGAIM_Iberia Airbus A330-200 - 242t
-model=IBE-Iberia_242t
-texture=IBE-Iberia_242t
-atc_id=EC-MNK
-atc_airline=IBERIA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IBE
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Iberia
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Iberia.zip
-description=AIG_A330-200_GE-GE_242t(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IBE
-
-[fltsim.7]
+[fltsim.8]
 title=AIGAIM_Air France Airbus A330-200 - OT OC
 model=AFR-Air France_OT OC
 texture=AFR-Air France_OT OC
@@ -203,7 +222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.8]
+[fltsim.9]
 title=AIGAIM_Air Mauritius Airbus A330-200
 model=MAU-Air Mauritius
 texture=MAU-Air Mauritius
@@ -221,24 +240,6 @@ description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAU
-
-[fltsim.9]
-title=AIGAIM_EVA Air Airbus A330-200
-model=EVA-EVA Air
-texture=EVA-EVA Air
-atc_airline=EVA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EVA
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=EVA Airways Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 EVA Air.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EVA
 
 [fltsim.10]
 title=AIGAIM_Eurowings Discover Airbus A330-200
@@ -277,138 +278,62 @@ isUserSelectable=0
 icao_airline=OCN
 
 [fltsim.12]
-title=AIGAIM_Lufthansa Airbus A330-200 - opb EWG (TEMP)
-model=DLH-Lufthansa_opb EWG_temp
-texture=DLH-Lufthansa_opb EWG_temp
-atc_airline=LUFTHANSA
+title=AIGAIM_EVA Air Airbus A330-200
+model=EVA-EVA Air
+texture=EVA-EVA Air
+atc_airline=EVA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
+atc_parking_codes=EVA
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=EW Discover GmbH
+ui_variation=EVA Airways Corporation
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Eurowings Discover.zip
+ui_createdby=Provided by: JB Filename: AIG A332 EVA Air.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DLH
+icao_airline=EVA
 
 [fltsim.13]
-title=AIGAIM_Qantas Airbus A330-200
-model=QFA-Qantas
-texture=QFA-Qantas
-atc_id=VH-EBN
-atc_airline=QANTAS
+title=AIGAIM_Iberia Airbus A330-200 - 242t
+model=IBE-Iberia_242t
+texture=IBE-Iberia_242t
+atc_id=EC-MNK
+atc_airline=IBERIA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
+atc_parking_codes=IBE
+ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Qantas
+ui_variation=Iberia
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
-description=AIG_A330-200_GE-GE(fs20)
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Iberia.zip
+description=AIG_A330-200_GE-GE_242t(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=QFA
+icao_airline=IBE
 
 [fltsim.14]
-title=AIGAIM_Qantas Airbus A330-200 - OC
-model=QFA-Qantas_OC
-texture=QFA-Qantas_OC
-atc_id=VH-EBS
-atc_airline=QANTAS
+title=AIGAIM_Iraqi Airways Airbus A330-200
+model=IAW-Iraqi Airways
+texture=IAW-Iraqi Airways
+atc_id=YI-AQY
+atc_airline=IRAQI
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
+atc_parking_codes=IAW
+ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Qantas
+ui_variation=Iraqi Airways
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Iraqi Airways.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=QFA
+icao_airline=IAW
 
 [fltsim.15]
-title=AIGAIM_Qantas Airbus A330-200 - OC No Engine Logo
-model=QFA-Qantas_OC No Engine Logo
-texture=QFA-Qantas_OC No Engine Logo
-atc_id=VH-EBK
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.16]
-title=AIGAIM_Qantas Airbus A330-200 - OC One World
-model=QFA-Qantas_OC One World
-texture=QFA-Qantas_OC One World
-atc_id=VH-EBV
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.17]
-title=AIGAIM_Qantas Airbus A330-200 - OC Wifi Dome
-model=QFA-Qantas_OC Wifi Dome
-texture=QFA-Qantas_OC Wifi Dome
-atc_id=VH-EBL
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.18]
-title=AIGAIM_Qantas Airbus A330-200 - OT OC Wifi Dome
-model=QFA-Qantas_OT OC Wifi Dome
-texture=QFA-Qantas_OT OC Wifi Dome
-atc_id=VH-EBA
-atc_airline=QANTAS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=QFA
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Qantas
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
-description=AIG_A330-200_GE-GE_OT(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=QFA
-
-[fltsim.19]
 title=AIGAIM_KLM Airbus A330-200 - aft Sat
 model=KLM-KLM_aft Sat
 texture=KLM-KLM_aft Sat
@@ -427,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.20]
+[fltsim.16]
 title=AIGAIM_KLM Airbus A330-200 - OC aft Sat
 model=KLM-KLM_OC aft Sat
 texture=KLM-KLM_OC aft Sat
@@ -446,78 +371,156 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.21]
-title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Belly Logo
-model=THY-Turkish Airlines_GE Belly Logo
-texture=THY-Turkish Airlines_GE Belly Logo
-atc_airline=TURKISH
+[fltsim.17]
+title=AIGAIM_Level Airbus A330-200 - 242t opb Iberia
+model=IBE-Level_242t opb Iberia
+texture=IBE-Level_242t opb Iberia
+atc_id=EC-MOY
+atc_airline=IBERIA
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Turkish Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_GE.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.22]
-title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Retrojet
-model=THY-Turkish Airlines_GE Retrojet
-texture=THY-Turkish Airlines_GE Retrojet
-atc_airline=TURKISH
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=THY
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Turkish Airlines - Retro
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_GE.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=THY
-
-[fltsim.23]
-title=AIGAIM_TAP Air Portugal Airbus A330-200 - GE IC
-model=TAP-TAP Air Portugal_GE IC
-texture=TAP-TAP Air Portugal_GE IC
-atc_id=CS-TOO
-atc_airline=AIR PORTUGAL
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TAP
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=TAP Air Portugal CS-TOO 'Fernão de Magalhães'
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a332_tap.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TAP
-
-[fltsim.24]
-title=AIGAIM_Qatar Cargo Airbus A330-200 - Pax
-model=QTRC-Qatar Airways Cargo_Pax
-texture=QTRC-Qatar Airways Cargo_Pax
-atc_airline=QATARI
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=QTRC
+atc_parking_codes=IBE
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Qatar Airways Company Q.C.S.C.
+ui_variation=LEVEL / Iberia
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Qatar Airways.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_LEVEL.zip
+description=AIG_A330-200_GE-GE_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=IBE
+
+[fltsim.18]
+title=AIGAIM_Lufthansa Airbus A330-200 - opb EWG (TEMP)
+model=DLH-Lufthansa_opb EWG_temp
+texture=DLH-Lufthansa_opb EWG_temp
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=EW Discover GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A332 Eurowings Discover.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=QTRC
+icao_airline=DLH
+
+[fltsim.19]
+title=AIGAIM_Qantas Airbus A330-200
+model=QFA-Qantas
+texture=QFA-Qantas
+atc_id=VH-EBN
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.20]
+title=AIGAIM_Qantas Airbus A330-200 - OC
+model=QFA-Qantas_OC
+texture=QFA-Qantas_OC
+atc_id=VH-EBS
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.21]
+title=AIGAIM_Qantas Airbus A330-200 - OC No Engine Logo
+model=QFA-Qantas_OC No Engine Logo
+texture=QFA-Qantas_OC No Engine Logo
+atc_id=VH-EBK
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.22]
+title=AIGAIM_Qantas Airbus A330-200 - OC One World
+model=QFA-Qantas_OC One World
+texture=QFA-Qantas_OC One World
+atc_id=VH-EBV
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.23]
+title=AIGAIM_Qantas Airbus A330-200 - OC Wifi Dome
+model=QFA-Qantas_OC Wifi Dome
+texture=QFA-Qantas_OC Wifi Dome
+atc_id=VH-EBL
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
+
+[fltsim.24]
+title=AIGAIM_Qantas Airbus A330-200 - OT OC Wifi Dome
+model=QFA-Qantas_OT OC Wifi Dome
+texture=QFA-Qantas_OT OC Wifi Dome
+atc_id=VH-EBA
+atc_airline=QANTAS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=QFA
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Qantas
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_qfa_a332_geccles.zip
+description=AIG_A330-200_GE-GE_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=QFA
 
 [fltsim.25]
 title=AIGAIM_Qatar Airways Airbus A330-200
@@ -538,63 +541,79 @@ isUserSelectable=0
 icao_airline=QTR
 
 [fltsim.26]
-title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE
-model=ARG-Aerolineas Argentinas_GE
-texture=ARG-Aerolineas Argentinas_GE
-atc_id=LV-FVI
-atc_airline=ARGENTINA
+title=AIGAIM_Qatar Cargo Airbus A330-200 - Pax
+model=QTRC-Qatar Airways Cargo_Pax
+texture=QTRC-Qatar Airways Cargo_Pax
+atc_airline=QATARI
 atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ARG
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=QTRC
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
-ui_variation=Aerolineas Argentinas
+ui_variation=Qatar Airways Company Q.C.S.C.
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+ui_createdby=Provided by: JB Filename: AIG A332 Qatar Airways.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ARG
+icao_airline=QTRC
 
 [fltsim.27]
-title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE Different Stencils
-model=ARG-Aerolineas Argentinas_GE Different Stencils
-texture=ARG-Aerolineas Argentinas_GE Different Stencils
-atc_id=LV-GHQ
-atc_airline=ARGENTINA
+title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Belly Logo
+model=THY-Turkish Airlines_GE Belly Logo
+texture=THY-Turkish Airlines_GE Belly Logo
+atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ARG
-ui_manufacturer="Alpha India Group (AIG)"
+atc_parking_codes=THY
+ui_manufacturer=AIG
 ui_type=Airbus A330-200
-ui_variation=Aerolineas Argentinas
+ui_variation=Turkish Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_GE.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ARG
+icao_airline=THY
 
 [fltsim.28]
-title=AIGAIM_Aerolineas Argentinas Airbus A330-200 - GE Different Windows
-model=ARG-Aerolineas Argentinas_GE Different Windows
-texture=ARG-Aerolineas Argentinas_GE Different Windows
-atc_id=LV-GKP
-atc_airline=ARGENTINA
+title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Retrojet
+model=THY-Turkish Airlines_GE Retrojet
+texture=THY-Turkish Airlines_GE Retrojet
+atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=GATE,RAMP
-atc_parking_codes=ARG
-ui_manufacturer="Alpha India Group (AIG)"
+atc_parking_codes=THY
+ui_manufacturer=AIG
 ui_type=Airbus A330-200
-ui_variation=Aerolineas Argentinas
+ui_variation=Turkish Airlines - Retro
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: AIG_Airbus A330-200 GE_Aerolineas Argentinas.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_A332_THY_GE.zip
 description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ARG
+icao_airline=THY
 
 [fltsim.29]
+title=AIGAIM_TAP Air Portugal Airbus A330-200 - GE IC
+model=TAP-TAP Air Portugal_GE IC
+texture=TAP-TAP Air Portugal_GE IC
+atc_id=CS-TOO
+atc_airline=AIR PORTUGAL
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TAP
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=TAP Air Portugal CS-TOO 'Fernão de Magalhães'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_tap.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TAP
+
+[fltsim.30]
 title=AIGAIM_Serene Air Airbus A330-200
 model=SEP-Serene Air
 texture=SEP-Serene Air
@@ -612,22 +631,3 @@ description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEP
-
-[fltsim.30]
-title=AIGAIM_Iraqi Airways Airbus A330-200
-model=IAW-Iraqi Airways
-texture=IAW-Iraqi Airways
-atc_id=YI-AQY
-atc_airline=IRAQI
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=IAW
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=Iraqi Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Iraqi Airways.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=IAW

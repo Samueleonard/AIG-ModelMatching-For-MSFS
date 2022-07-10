@@ -64,7 +64,7 @@ ui_manufacturer=Aerospatiale
 ui_type=ATR 72-500F
 ui_variation=ASL Airlines Ireland
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: OSP_ASL_Airlines_Ireland_ATR_72_500_FSX.zip
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ASL_Airlines_Ireland_ATR_72_500_FSX.zip
 description=OSP_ATR72-500F(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -89,6 +89,23 @@ isUserSelectable=0
 icao_airline=ABR
 
 [fltsim.2]
+title=AIGAIM_Loganair Cargo ATR 72-500F
+model=LOGC-Loganair Cargo
+texture=LOGC-Loganair Cargo
+atc_airline=LOGAN
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=LOGC,LOG
+ui_manufacturer=OSP
+ui_type=ATR 72-500F
+ui_variation=Loganair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: osp_loganair_at7.zip
+description=OSP_ATR72-500F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LOG
+
+[fltsim.3]
 title=AIGAIM_SprintAir ATR 72-500F
 model=SRN-SprintAir
 texture=SRN-SprintAir
@@ -107,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_SprintAir ATR 72-500F - Red
 model=SRN-SprintAir_Red
 texture=SRN-SprintAir_Red
@@ -126,7 +143,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.4]
+[fltsim.5]
 title=AIGAIM_SprintAir ATR 72-500F - light pink
 model=SRN-SprintAir_light pink
 texture=SRN-SprintAir_light pink
@@ -144,20 +161,3 @@ description=OSP_ATR72-500F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
-
-[fltsim.5]
-title=AIGAIM_Loganair Cargo ATR 72-500F
-model=LOGC-Loganair Cargo
-texture=LOGC-Loganair Cargo
-atc_airline=LOGAN
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=LOGC,LOG
-ui_manufacturer=OSP
-ui_type=ATR 72-500F
-ui_variation=Loganair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: osp_loganair_at7.zip
-description=OSP_ATR72-500F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=LOG

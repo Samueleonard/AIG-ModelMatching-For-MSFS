@@ -74,64 +74,10 @@ isUserSelectable=0
 icao_airline=DLH
 
 [fltsim.2]
-title=AIGAIM_Lufthansa Airbus A321-100 - IC
-model=DLH-Lufthansa_IC
-texture=DLH-Lufthansa_IC
-atc_id=D-AISP
-atc_airline=LUFTHANSA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-100
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
-description=FAIB_A321-100_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.3]
 title=AIGAIM_Lufthansa Airbus A321-100 - OC
 model=DLH-Lufthansa_OC
 texture=DLH-Lufthansa_OC
-atc_id=D-AISJ
-atc_airline=LUFTHANSA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-100
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
-description=FAIB_A321-100_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.4]
-title=AIGAIM_Lufthansa Airbus A321-100 - OC Webtitles
-model=DLH-Lufthansa_OC Webtitles
-texture=DLH-Lufthansa_OC Webtitles
-atc_id=D-AIDH
-atc_airline=LUFTHANSA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=Airbus
-ui_type=Airbus A321-100
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
-description=FAIB_A321-100_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.5]
-title=AIGAIM_Lufthansa Airbus A321-100 - OC Star Alliance
-model=DLH-Lufthansa_OC Star Alliance
-texture=DLH-Lufthansa_OC Star Alliance
-atc_id=D-AIRW
+atc_id=D-AISP
 atc_airline=LUFTHANSA
 atc_parking_types=GATE,RAMP
 atc_parking_codes=DLH
