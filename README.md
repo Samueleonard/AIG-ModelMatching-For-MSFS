@@ -8,6 +8,8 @@ Included is the latest AIG install for MSFS ONLY.
 **AI Sounds now work as of 02/01/2022** - *issue fixed by AIG*
 
 **Offline AI traffic plans are included** - *described below*
+
+**AIG IS CURRENTLY NOT WORKING IN SU10 BETA - ASOBO ISSUE**
   
 
 ## <b>INSTALL</b>
