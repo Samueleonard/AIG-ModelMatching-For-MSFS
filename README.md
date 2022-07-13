@@ -9,7 +9,7 @@ Included is the latest AIG install for MSFS ONLY.
 
 **Offline AI traffic plans are included** - *described below*
 
-**AIG IS CURRENTLY NOT WORKING IN SU10 BETA - ASOBO ISSUE**
+**SIM UPDATE 10 BETA 'Crash to Desktop' FIX - https://forums.flightsimulator.com/t/aig-live-traffic-and-traffic-controller-ctds-due-to-legacy-file-change-in-su10/529010/135
   
 
 ## <b>INSTALL</b>
