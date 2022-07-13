@@ -1981,3 +1981,20 @@ description=HTAI_Gulfstream_G550(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBJ
+
+[fltsim.115]
+title=AIGAIM_Elite Jets Gulfstream G550 - N505D
+model=GA4J-Elite Jets_N505D
+texture=GA4J-Elite Jets_N505D
+atc_id=N505D
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream G550
+ui_variation=Dow Chemical Gulfstream G550 N505D
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: DowChemical_G550.zip
+description=HTAI_Gulfstream_G550-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J

@@ -1,0 +1,151 @@
+[VERSION]
+major=1
+minor=0
+
+[GENERAL]
+atc_type="TT:ATCCOM.ATC_NAME EMBRAER.0.text"
+atc_model="TT:ATCCOM.AC_MODEL E55P.0.text"
+Category="airplane"
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Uniform"
+performance=""
+icao_type_designator=E55P
+icao_manufacturer=CESSNA
+icao_model=Phenom 300
+icao_engine_type=Jet
+icao_engine_count=2
+icao_WTC="M"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Casual"
+copilot="Pilot_Male_Casual"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PosePropeller"
+copilot_default_animation="Idle2_PosePropeller"
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=0
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=0
+PUSHBACK=0
+SMALL_PUSHBACK=1
+MARSHALLER=1
+JETWAY=0
+
+[EFFECTS]
+effect.0=attpt_effect00#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_BIG
+effect.1=attpt_effect01#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_BIG
+
+[VR]
+yoke_anim_x="HANDLING_YOKE_Lever_StickLR"
+yoke_anim_y="HANDLING_YOKE_Lever_StickForeAft"
+yoke_node="HANDLING_Yoke_1"
+yoke_collision_mesh="HANDLING_YOKE_Hider_1_Add_1"
+
+[fltsim.0]
+title=AIGAIM_Star Wings Dortmund Embraer Phenom 300 - D-CCGM
+model=GA2J-Star Wings Dortmund_D-CCGM
+texture=GA2J-Star Wings Dortmund_D-CCGM
+atc_airline=STARTREK
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,STQ
+ui_manufacturer=Embraer
+ui_type=Embraer Phenom 300
+ui_variation=Star Wings Dortmund D-CCMG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: Star Wings Dortmund.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=STQ
+
+[fltsim.1]
+title=AIGAIM_Vermeer Embraer Phenom 300 - N48VM
+model=GA2J-Vermeer_N48VM
+texture=GA2J-Vermeer_N48VM
+atc_id=N48VM
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=DFAI
+ui_type=Embraer Phenom 300
+ui_variation=Vermeer Embraer Phenom 300 N48VM
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: Vermeer_E55P.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.2]
+title=AIGAIM_Elite Jets Embraer Phenom 300 - N4B
+model=GA2J-Elite Jets_N4B
+texture=GA2J-Elite Jets_N4B
+atc_id=N4B
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=DFAI
+ui_type=Embraer Phenom 300
+ui_variation=Elite Jets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: dfai_elitejets_e55p_p3d.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.3]
+title=AIGAIM_Elite Jets Embraer Phenom 300 - N5A
+model=GA2J-Elite Jets_N5A
+texture=GA2J-Elite Jets_N5A
+atc_id=N5A
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=DFAI
+ui_type=Embraer Phenom 300
+ui_variation=Elite Jets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: dfai_elitejets_e55p_p3d.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.4]
+title=AIGAIM_Elite Jets Embraer Phenom 300 - N6A
+model=GA2J-Elite Jets_N6A
+texture=GA2J-Elite Jets_N6A
+atc_id=N6A
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=DFAI
+ui_type=Embraer Phenom 300
+ui_variation=Elite Jets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: dfai_elitejets_e55p_p3d.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.5]
+title=AIGAIM_Elite Jets Embraer Phenom 300 - N7DR
+model=GA2J-Elite Jets_N7DR
+texture=GA2J-Elite Jets_N7DR
+atc_id=N7DR
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=DFAI
+ui_type=Embraer Phenom 300
+ui_variation=Elite Jets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: dfai_elitejets_e55p_p3d.zip
+description=DFAI_Phenom300-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
