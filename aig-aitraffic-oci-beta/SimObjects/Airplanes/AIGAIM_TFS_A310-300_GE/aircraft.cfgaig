@@ -53,42 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Air Transat Airbus A310-300 - OC
-model=TSC-Air Transat_OC
-texture=TSC-Air Transat_OC
-atc_airline=TRANSAT
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A310-300
-ui_variation=Air Transat - C-GLAT
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: tfs_a310_tsc.zip
-description=TFS_A310-300_GE-GE_300(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.1]
-title=AIGAIM_Air Transat Airbus A310-300 - OC No Aft Window
-model=TSC-Air Transat_OC No Aft Window
-texture=TSC-Air Transat_OC No Aft Window
-atc_airline=TRANSAT
-atc_heavy=0
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TSC
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A310-300
-ui_variation=Air Transat - C-GTSF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: tfs_a310_tsc.zip
-description=TFS_A310-300_GE-GE_300(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TSC
-
-[fltsim.2]
 title=AIGAIM_Ariana Afghan Airlines Airbus A310-300
 model=AFG-Ariana Afghan Airlines
 texture=AFG-Ariana Afghan Airlines
@@ -107,7 +71,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFG
 
-[fltsim.3]
+[fltsim.1]
 title=AIGAIM_Iran Air Airbus A310-300
 model=IRA-Iran Air
 texture=IRA-Iran Air
@@ -126,7 +90,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRA
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_Mahan Air Airbus A310-300
 model=IRM-Mahan Air
 texture=IRM-Mahan Air

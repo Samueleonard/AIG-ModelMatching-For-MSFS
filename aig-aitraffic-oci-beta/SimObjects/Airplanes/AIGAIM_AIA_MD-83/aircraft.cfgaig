@@ -81,7 +81,7 @@ ui_manufacturer=McDonnell Douglas
 ui_type=McDonnell Douglas MD-83
 ui_variation=ATA Airlines EP-TAN (standard livery, red hatches)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2020.zip
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
 description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -352,3 +352,93 @@ description=AIA_MD-83-SD_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TEZ
+
+[fltsim.17]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83
+model=TBZ-ATA Airlines
+texture=TBZ-ATA Airlines
+atc_id=EP-TAO
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAO (new livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.18]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - Named
+model=TBZ-ATA Airlines_Named
+texture=TBZ-ATA Airlines_Named
+atc_id=EP-TAQ
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAQ (new livery, named)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.19]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - OC Boeing Titles
+model=TBZ-ATA Airlines_OC Boeing Titles
+texture=TBZ-ATA Airlines_OC Boeing Titles
+atc_id=EP-TAM
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAM (old livery, Boeing titles)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.20]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - OC RH Eng Logo
+model=TBZ-ATA Airlines_OC RH Eng Logo
+texture=TBZ-ATA Airlines_OC RH Eng Logo
+atc_id=EP-TAN
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAN (old livery, RH engine logo)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ
+
+[fltsim.21]
+title=AIGAIM_ATA Airlines McDonnell Douglas MD-83 - OC LH Eng Logo
+model=TBZ-ATA Airlines_OC LH Eng Logo
+texture=TBZ-ATA Airlines_OC LH Eng Logo
+atc_id=EP-TAP
+atc_airline=ATALAR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TBZ
+ui_manufacturer=McDonnell Douglas
+ui_type=McDonnell Douglas MD-83
+ui_variation=ATA Airlines EP-TAP (old livery, LH engine logo)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aia_md83_tbz_fleet_2022.zip
+description=AIA_MD-83-SD_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TBZ

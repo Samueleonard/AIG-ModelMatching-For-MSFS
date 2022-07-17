@@ -999,3 +999,21 @@ description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
+
+[fltsim.52]
+title=AIGAIM_EZ Air Saab 340
+model=EZR-EZ Air
+texture=EZR-EZ Air
+atc_id=N304AG
+atc_airline=EASYWAY
+atc_parking_types=RAMP,GATE
+atc_parking_codes=EZR
+ui_manufacturer=Saab
+ui_type=Saab 340
+ui_variation=EZAir
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: EZAir Saab 340 FSX.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZR

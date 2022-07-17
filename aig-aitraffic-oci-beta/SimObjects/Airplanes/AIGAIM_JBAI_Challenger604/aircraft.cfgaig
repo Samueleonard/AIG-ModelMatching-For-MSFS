@@ -68,7 +68,6 @@ description=JBAI_Challenger604-601-SD(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
-atc_airline=
 
 [fltsim.1]
 title=AIGAIM_Executive Jet Management Bombardier Challenger 604 - N832SC
