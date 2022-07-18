@@ -582,60 +582,6 @@ isUserSelectable=0
 icao_airline=AUA
 
 [fltsim.31]
-title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons
-model=BAV-Bamboo Airways_Chevrons
-texture=BAV-Bamboo Airways_Chevrons
-atc_id=VN-A597
-atc_airline=BAMBOO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BAV
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Bamboo Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BAV
-
-[fltsim.32]
-title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons Airbus Titles
-model=BAV-Bamboo Airways_Chevrons Airbus Titles
-texture=BAV-Bamboo Airways_Chevrons Airbus Titles
-atc_id=VN-A594
-atc_airline=BAMBOO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BAV
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Bamboo Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BAV
-
-[fltsim.33]
-title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons Airbus Titles Large Blue Belly
-model=BAV-Bamboo Airways_Chevrons Airbus Titles Large Blue Belly
-texture=BAV-Bamboo Airways_Chevrons Airbus Titles Large Blue Belly
-atc_id=VN-A585
-atc_airline=BAMBOO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BAV
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200
-ui_variation=Bamboo Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_bav_a321_p3d.zip
-description=FAIB_A321-200_CFM-CFMC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BAV
-
-[fltsim.34]
 title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM
 model=CES-China Eastern Airlines_CFM
 texture=CES-China Eastern Airlines_CFM
@@ -653,7 +599,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.35]
+[fltsim.32]
 title=AIGAIM_China Eastern Airlines Airbus A321-200 - CFM - OC
 model=CES-China Eastern Airlines_CFM - OC
 texture=CES-China Eastern Airlines_CFM - OC
@@ -670,7 +616,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.36]
+[fltsim.33]
 title=AIGAIM_China Southern Airlines Airbus A321-200 - CFM
 model=CSN-China Southern Airlines_CFM
 texture=CSN-China Southern Airlines_CFM
@@ -687,7 +633,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.37]
+[fltsim.34]
 title=AIGAIM_Condor Airbus A321-200
 model=CFG-Condor
 texture=CFG-Condor
@@ -705,7 +651,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.38]
+[fltsim.35]
 title=AIGAIM_Corendon Airlines Airbus A321-200 - CFM opb MLH basic Thomas Cook
 model=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
 texture=CAI-Corendon Airlines_CFM opb MLH basic Thomas Cook
@@ -723,7 +669,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
 
-[fltsim.39]
+[fltsim.36]
 title=AIGAIM_EAT Leipzig Airbus A321-200 - PCF opb SmartLynx Malta DHL Hybrid
 model=BCS-EAT Leipzig_PCF opb SmartLynx Malta DHL Hybrid
 texture=BCS-EAT Leipzig_PCF opb SmartLynx Malta DHL Hybrid
@@ -741,7 +687,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BCS
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_ETF Airways Airbus A321-200 - CFM opb Galistair Malta
 model=EZZ-ETF Airways_CFM opb Galistair Malta
 texture=EZZ-ETF Airways_CFM opb Galistair Malta
@@ -759,7 +705,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZZ
 
-[fltsim.41]
+[fltsim.38]
 title=AIGAIM_Eurowings Airbus A321-200 - Chevrons all white
 model=EWG-Eurowings_Chevrons all white
 texture=EWG-Eurowings_Chevrons all white
@@ -777,7 +723,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.42]
+[fltsim.39]
 title=AIGAIM_EVA Air Airbus A321-200 - Chevrons OC Old Titles
 model=EVA-EVA Air_Chevrons OC Old Titles
 texture=EVA-EVA Air_Chevrons OC Old Titles
@@ -795,7 +741,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVA
 
-[fltsim.43]
+[fltsim.40]
 title=AIGAIM_Iberia Airbus A321-200
 model=IBE-Iberia
 texture=IBE-Iberia
@@ -813,7 +759,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.44]
+[fltsim.41]
 title=AIGAIM_Iberia Airbus A321-200 - Grey THS Base
 model=IBE-Iberia_Grey THS Base
 texture=IBE-Iberia_Grey THS Base
@@ -831,7 +777,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.45]
+[fltsim.42]
 title=AIGAIM_Iberia Express Airbus A321-200
 model=IBS-Iberia Express
 texture=IBS-Iberia Express
@@ -849,7 +795,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBS
 
-[fltsim.46]
+[fltsim.43]
 title=AIGAIM_Jet2com Airbus A321-200 - CFM Chevron opb Titan Airways
 model=EXS-Jet2com_CFM Chevron opb Titan Airways
 texture=EXS-Jet2com_CFM Chevron opb Titan Airways
@@ -866,7 +812,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.47]
+[fltsim.44]
 title=AIGAIM_Level Airbus A321-200 - opb Anisec
 model=FOO-Level_opb Anisec
 texture=FOO-Level_opb Anisec
@@ -884,7 +830,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FOO
 
-[fltsim.48]
+[fltsim.45]
 title=AIGAIM_Longjiang Airlines Airbus A321-200 - Chevrons
 model=SNG-Longjiang Airlines_Chevrons
 texture=SNG-Longjiang Airlines_Chevrons
@@ -901,7 +847,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNG
 
-[fltsim.49]
+[fltsim.46]
 title=AIGAIM_Red Wings Airlines Airbus A321-200 - CFM
 model=RWZ-Red Wings Airlines_CFM
 texture=RWZ-Red Wings Airlines_CFM
@@ -919,7 +865,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWZ
 
-[fltsim.50]
+[fltsim.47]
 title=AIGAIM_Windrose Airlines Airbus A321-200 - CFM new Albino
 model=WRC-Windrose Airlines_CFM new Albino
 texture=WRC-Windrose Airlines_CFM new Albino
@@ -937,7 +883,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WRC
 
-[fltsim.51]
+[fltsim.48]
 title=AIGAIM_VietJet Air Airbus A321-200 - CFM Chevron opb NVD White
 model=VJC-VietJet Air_CFM Chevron opb NVD White
 texture=VJC-VietJet Air_CFM Chevron opb NVD White
@@ -955,7 +901,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.52]
+[fltsim.49]
 title=AIGAIM_VietJet Air Airbus A321-200 - CFM opb NVD Thomas Cook Basic
 model=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
 texture=VJC-VietJet Air_CFM opb NVD Thomas Cook Basic
@@ -973,7 +919,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.53]
+[fltsim.50]
 title=AIGAIM_Ural Airlines Airbus A321-200 - CFM
 model=SVR-Ural Airlines_CFM
 texture=SVR-Ural Airlines_CFM
@@ -991,7 +937,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.54]
+[fltsim.51]
 title=AIGAIM_Ural Airlines Airbus A321-200 - CFM Chevrons
 model=SVR-Ural Airlines_CFM Chevrons
 texture=SVR-Ural Airlines_CFM Chevrons
@@ -1009,7 +955,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.55]
+[fltsim.52]
 title=AIGAIM_Titan Airways Airbus A321-200 - CFM Chevron All White
 model=AWC-Titan Airways_CFM Chevron All White
 texture=AWC-Titan Airways_CFM Chevron All White
@@ -1026,7 +972,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
 
-[fltsim.56]
+[fltsim.53]
 title=AIGAIM_TAP Air Portugal Airbus A321-200
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -1044,7 +990,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.57]
+[fltsim.54]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -1062,7 +1008,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.58]
+[fltsim.55]
 title=AIGAIM_TAP Air Portugal Airbus A321-200 - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -1080,7 +1026,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.59]
+[fltsim.56]
 title=AIGAIM_Sunclass Airlines Airbus A321-200
 model=VKG-Sunclass Airlines
 texture=VKG-Sunclass Airlines
@@ -1098,7 +1044,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.60]
+[fltsim.57]
 title=AIGAIM_Swiss Airbus A321-200 - Chevrons
 model=SWR-Swiss_Chevrons
 texture=SWR-Swiss_Chevrons
@@ -1116,7 +1062,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.61]
+[fltsim.58]
 title=AIGAIM_S7 Airlines Airbus A321-200 - Chevrons
 model=SBI-S7 Airlines_Chevrons
 texture=SBI-S7 Airlines_Chevrons
@@ -1133,7 +1079,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.62]
+[fltsim.59]
 title=AIGAIM_Saudia Airbus A321-200
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -1151,7 +1097,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.63]
+[fltsim.60]
 title=AIGAIM_Saudia Airbus A321-200 - Wifi
 model=SVA-Saudia_Wifi
 texture=SVA-Saudia_Wifi
@@ -1169,7 +1115,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.64]
+[fltsim.61]
 title=AIGAIM_Saudia Airbus A321-200 - Vision 2030 Engine Logo
 model=SVA-Saudia_Vision 2030 Engine Logo
 texture=SVA-Saudia_Vision 2030 Engine Logo
@@ -1187,7 +1133,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.65]
+[fltsim.62]
 title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons VN-A585
 model=BAV-Bamboo Airways_Chevrons VN-A585
 texture=BAV-Bamboo Airways_Chevrons VN-A585
@@ -1205,7 +1151,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
 
-[fltsim.66]
+[fltsim.63]
 title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons VN-A594
 model=BAV-Bamboo Airways_Chevrons VN-A594
 texture=BAV-Bamboo Airways_Chevrons VN-A594
@@ -1223,7 +1169,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
 
-[fltsim.67]
+[fltsim.64]
 title=AIGAIM_Bamboo Airways Airbus A321-200 - Chevrons VN-A597
 model=BAV-Bamboo Airways_Chevrons VN-A597
 texture=BAV-Bamboo Airways_Chevrons VN-A597

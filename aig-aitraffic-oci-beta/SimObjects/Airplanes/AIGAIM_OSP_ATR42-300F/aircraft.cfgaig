@@ -243,21 +243,3 @@ description=OSP_ATR42-300F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
-
-[fltsim.11]
-title=AIGAIM_Jetcraft Aviation ATR 42-300F - opf Toll Aviaion
-model=TFX-Jetcraft Aviation_opf Toll Aviaion
-texture=TFX-Jetcraft Aviation_opf Toll Aviaion
-atc_id=VH-TOX
-atc_airline=TOLL EXPRESS
-atc_parking_types=RAMP
-atc_parking_codes=TFX
-ui_manufacturer=Aerospatiale
-ui_type=ATR 42-300F
-ui_variation=Toll Priority
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FLTSIM Filename: ai_toll_atr42.zip
-description=OSP_ATR42-300F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TFX
