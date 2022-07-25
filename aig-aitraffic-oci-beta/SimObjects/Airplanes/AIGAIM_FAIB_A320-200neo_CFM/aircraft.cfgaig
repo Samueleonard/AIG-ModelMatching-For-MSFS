@@ -2584,3 +2584,37 @@ description=FAIB_A320-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEH
+
+[fltsim.142]
+title=AIGAIM_Air Seychelles Airbus A320-200neo - Pti Merl Dezil S7-PTI
+model=SEY-Air Seychelles_Pti Merl Dezil S7-PTI
+texture=SEY-Air Seychelles_Pti Merl Dezil S7-PTI
+atc_airline=SEYCHELLES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEY
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200neo
+ui_variation=Air Seychelles - S7-PTI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_A20N_SEY.zip
+description=FAIB_A320-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEY
+
+[fltsim.143]
+title=AIGAIM_Air Seychelles Airbus A320-200neo - Veuve S7-VEV
+model=SEY-Air Seychelles_Veuve S7-VEV
+texture=SEY-Air Seychelles_Veuve S7-VEV
+atc_airline=SEYCHELLES
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEY
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200neo
+ui_variation=Air Seychelles - S7-VEV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_A20N_SEY.zip
+description=FAIB_A320-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEY

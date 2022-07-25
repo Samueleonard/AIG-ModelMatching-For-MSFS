@@ -167,3 +167,21 @@ description=UTT_A350-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
+
+[fltsim.6]
+title=AIGAIM_Virgin Atlantic Airbus A350-1000
+model=VIR-Virgin Atlantic
+texture=VIR-Virgin Atlantic
+atc_airline=VIRGIN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VIR
+ui_manufacturer=UTT
+ui_type=Airbus A350-1000
+ui_variation=Virgin Atlantic - G-VDOT Mei
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: UTT_A35K_VIR.zip
+description=UTT_A350-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VIR

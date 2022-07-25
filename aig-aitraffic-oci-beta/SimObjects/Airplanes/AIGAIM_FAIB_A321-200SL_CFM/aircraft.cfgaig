@@ -1336,6 +1336,42 @@ isUserSelectable=0
 icao_airline=CSH
 
 [fltsim.73]
+title=AIGAIM_Vietravel Airlines Airbus A321-200SL
+model=VAG-Vietravel Airlines
+texture=VAG-Vietravel Airlines
+atc_id=VN-A278
+atc_airline=VIETRAVEL AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VAG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Vietravel Airlines VN-A278
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: D12 Filename: vietravel-a321.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VAG
+
+[fltsim.74]
+title=AIGAIM_Vietravel Airlines Airbus A321-200SL - Wifi Dome
+model=VAG-Vietravel Airlines_Wifi Dome
+texture=VAG-Vietravel Airlines_Wifi Dome
+atc_id=VN-A289
+atc_airline=VIETRAVEL AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=VAG
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Vietravel Airlines VN-A289
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: D12 Filename: vietravel-a321.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=VAG
+
+[fltsim.75]
 title=AIGAIM_Condor Airbus A321-200SL - Grey SL Root
 model=CFG-Condor_Grey SL Root
 texture=CFG-Condor_Grey SL Root

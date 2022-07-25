@@ -1401,3 +1401,75 @@ description=AIA_EMB-195(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGA
+
+[fltsim.75]
+title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC
+model=AUA-Austrian Airlines_IC
+texture=AUA-Austrian Airlines_IC
+atc_id=OE-LWL
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ195 Austrian FSX.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.76]
+title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC unnamed
+model=AUA-Austrian Airlines_IC unnamed
+texture=AUA-Austrian Airlines_IC unnamed
+atc_id=OE-LWA
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ195 Austrian FSX.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.77]
+title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC Star Alliance
+model=AUA-Austrian Airlines_IC Star Alliance
+texture=AUA-Austrian Airlines_IC Star Alliance
+atc_id=OE-LWH
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ195 Austrian FSX.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA
+
+[fltsim.78]
+title=AIGAIM_Austrian Airlines Embraer EMB-195 - IC Johann Strauss Orchestra
+model=AUA-Austrian Airlines_IC Johann Strauss Orchestra
+texture=AUA-Austrian Airlines_IC Johann Strauss Orchestra
+atc_id=OE-LWO
+atc_airline=AUSTRIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AUA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195
+ui_variation=Austrian Airlines AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ195 Austrian FSX.zip
+description=AIA_EMB-195(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AUA

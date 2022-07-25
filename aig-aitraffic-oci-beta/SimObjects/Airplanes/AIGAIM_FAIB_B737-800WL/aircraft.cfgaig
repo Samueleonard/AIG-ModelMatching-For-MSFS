@@ -11248,3 +11248,57 @@ description=FAIB_B737-800WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
+
+[fltsim.629]
+title=AIGAIM_Solaseed Air Boeing 737-800WL
+model=SNJ-Solaseed Air
+texture=SNJ-Solaseed Air
+atc_id=A67AN
+atc_airline=NEWSKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SNJ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Solaseed Air Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Solaseed.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SNJ
+
+[fltsim.630]
+title=AIGAIM_Solaseed Air Boeing 737-800WL - SN Kamito Takachiho Tajikarao
+model=SNJ-Solaseed Air_SN Kamito Takachiho Tajikarao
+texture=SNJ-Solaseed Air_SN Kamito Takachiho Tajikarao
+atc_id=JA810X
+atc_airline=NEWSKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SNJ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Solaseed Air Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Solaseed.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SNJ
+
+[fltsim.631]
+title=AIGAIM_Solaseed Air Boeing 737-800WL - SN Exeggutor resort in Miyazaki
+model=SNJ-Solaseed Air_SN Exeggutor resort in Miyazaki
+texture=SNJ-Solaseed Air_SN Exeggutor resort in Miyazaki
+atc_id=JA812X
+atc_airline=NEWSKY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SNJ
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Solaseed Air Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Solaseed.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SNJ

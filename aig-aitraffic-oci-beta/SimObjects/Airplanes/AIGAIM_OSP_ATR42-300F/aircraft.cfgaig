@@ -70,23 +70,6 @@ isUserSelectable=0
 icao_airline=ANG
 
 [fltsim.1]
-title=AIGAIM_Air North ATR 42-300F (TEMP)
-model=ANT-Air North_temp
-texture=ANT-Air North_temp
-atc_airline=AIR NORTH
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ANT
-ui_manufacturer=OSP
-ui_type=ATR 42-300F
-ui_variation=Air North
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: osp_at43_ant.zip
-description=OSP_ATR42-300F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ANT
-
-[fltsim.2]
 title=AIGAIM_Canadian North ATR 42-300F
 model=MPE-Canadian North
 texture=MPE-Canadian North
@@ -103,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MPE
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_DHL de Guatemala ATR 42-300F
 model=JOS-DHL de Guatemala
 texture=JOS-DHL de Guatemala
@@ -121,7 +104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JOS
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Empire Airlines ATR 42-300F
 model=CFS-Empire Airlines
 texture=CFS-Empire Airlines
@@ -136,7 +119,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFS
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Mountain Air Cargo ATR 42-300F
 model=MTN-Mountain Air Cargo
 texture=MTN-Mountain Air Cargo
@@ -151,7 +134,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MTN
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Vensecar Internacional ATR 42-300F
 model=VEC-Vensecar Internacional
 texture=VEC-Vensecar Internacional
@@ -169,7 +152,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VEC
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Trans Am Aero Express Del Ecuador ATR 42-300F
 model=RTM-Trans Am Aero Express Del Ecuador
 texture=RTM-Trans Am Aero Express Del Ecuador
@@ -187,7 +170,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RTM
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Swiftair ATR 42-300F
 model=SWT-Swiftair
 texture=SWT-Swiftair
@@ -206,7 +189,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_Swiftair ATR 42-300F - forward title
 model=SWT-Swiftair_forward title
 texture=SWT-Swiftair_forward title
@@ -225,7 +208,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_Swiftair ATR 42-300F - Fedex colours
 model=SWT-Swiftair_Fedex colours
 texture=SWT-Swiftair_Fedex colours
@@ -243,3 +226,20 @@ description=OSP_ATR42-300F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
+
+[fltsim.10]
+title=AIGAIM_Air North ATR 42-300F
+model=ANT-Air North
+texture=ANT-Air North
+atc_airline=AIR NORTH
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ANT
+ui_manufacturer=OSP
+ui_type=ATR 42-300F
+ui_variation=Air North Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: OSP_AT43_ANT_CFVGY.zip
+description=OSP_ATR42-300F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANT
