@@ -293,3 +293,21 @@ description=HTAI_Learjet35(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DCM
+
+[fltsim.14]
+title=AIGAIM_ATI Jet Bombardier Learjet 35A - N882SC
+model=GA2J-ATI Jet_N882SC
+texture=GA2J-ATI Jet_N882SC
+atc_id=N882SC
+atc_airline=COYOTE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,CYO
+ui_manufacturer=Bombardier
+ui_type=Learjet 35
+ui_variation=ATI Jet Bombardier Learjet 35A N882SC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: htai_ATI-Jet_LJ35_N882SC_jondix.zip
+description=HTAI_Learjet35(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CYO

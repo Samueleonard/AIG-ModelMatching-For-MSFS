@@ -244,7 +244,7 @@ model=BJO-Jet Edge_N188ES
 texture=BJO-Jet Edge_N188ES
 atc_airline=JET EDGE
 atc_parking_types=RAMP
-atc_parking_codes=BJO,EDG
+atc_parking_codes=GA4J,EDG
 ui_manufacturer=HTAI
 ui_type=Gulfstream V
 ui_variation=Gulfstream G-V, c/n 629, Silver Air, N188ES
@@ -253,7 +253,7 @@ ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SilverAirG-Vs.zip
 description=HTAI_Gulfstream_V(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=BJO
+icao_airline=EDG
 
 [fltsim.12]
 title=AIGAIM_Jet Edge International Gulfstream V - N55BM

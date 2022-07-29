@@ -806,3 +806,38 @@ description=JBAI_Learjet45(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.45]
+title=AIGAIM_GEICO Bombardier Learjet 45XR - N425M
+model=GA2J-GEICO_N425M
+texture=GA2J-GEICO_N425M
+atc_id=N425M
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=JBAI
+ui_type=Learjet 45
+ui_variation=GEICO Bombardier Learjet 45XR N425M
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: GEICO_LJ45.zip
+description=JBAI_Learjet45-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.46]
+title=AIGAIM_Jet Linx Bombardier Learjet 45 - N100KZ
+model=GA2J-Jet Linx_N100KZ
+texture=GA2J-Jet Linx_N100KZ
+atc_id=N100KZ
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=Learjet
+ui_type=Learjet 45
+ui_variation=Learjet 45 JBAI N100KZ Best Jets
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: jbai_bestjets_lj45.zip
+description=JBAI_Learjet45(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL

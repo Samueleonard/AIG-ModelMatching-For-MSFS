@@ -401,3 +401,71 @@ description=JBAI_Challenger605-Marco_605_NoSat(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.21]
+title=AIGAIM_JetSelect Aviation Bombardier Challenger 605 - N213GS
+model=GA2J-JetSelect Aviation_N213GS
+texture=GA2J-JetSelect Aviation_N213GS
+atc_id=N213GS
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger 605 JBAI Gamestop GMST N213GS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: GMST_CL65S_HD.zip
+description=JBAI_Challenger605-605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.22]
+title=AIGAIM_JetSelect Aviation Bombardier Challenger 605 - N3FE
+model=GA2J-JetSelect Aviation_N3FE
+texture=GA2J-JetSelect Aviation_N3FE
+atc_id=N3FE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 605
+ui_variation=Bombardier Challenger 605 JBAI Fedex Corporate FDXC N3FE
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: FDXC_CL65S_HD.zip
+description=JBAI_Challenger605-605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.23]
+title=AIGAIM_SPX Corporation Bombardier Challenger 605 - N65PX
+model=GA2J-SPX Corporation_N65PX
+texture=GA2J-SPX Corporation_N65PX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 605
+ui_variation=SPX Enterprises LLC, S/N 5804
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBAI_SPX-Corporation_C605_N65PX_jondix.zip
+description=JBAI_Challenger605-Marco_605_NoSat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA2J
+
+[fltsim.24]
+title=AIGAIM_Jet Linx Bombardier Challenger 605 - N624MY
+model=GA2J-Jet Linx_N624MY
+texture=GA2J-Jet Linx_N624MY
+atc_id=N624MY
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=JBAI
+ui_type=Bombardier Challenger 605
+ui_variation=Mylan Pharmaceuticals Bombardier Challenger 605 N624MY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: Mylan_CL65.zip
+description=JBAI_Challenger605-Marco_605_Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL

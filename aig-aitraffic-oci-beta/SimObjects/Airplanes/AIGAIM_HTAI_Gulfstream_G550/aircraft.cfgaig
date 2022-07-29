@@ -258,22 +258,6 @@ isUserSelectable=0
 icao_airline=GA4J
 
 [fltsim.12]
-title=AIGAIM_Sandals Resorts Gulfstream G550 - N991JS
-model=GA4J-Sandals Resorts_N991JS
-texture=GA4J-Sandals Resorts_N991JS
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=HTAI
-ui_type=Gulfstream G550
-ui_variation=Gulfstream G550, c/n 5581, Sandals Resorts, N991JS
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: SandalsResortsG550.zip
-description=HTAI_Gulfstream_G550-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.13]
 title=AIGAIM_Fiserv Gulfstream G550 - N451GV
 model=GA4J-Fiserv_N451GV
 texture=GA4J-Fiserv_N451GV
@@ -290,7 +274,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_ExxonMobil Gulfstream G550 - N200A
 model=GA4J-ExxonMobil_N200A
 texture=GA4J-ExxonMobil_N200A
@@ -307,7 +291,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_ExxonMobil Gulfstream G550 - N300A
 model=GA4J-ExxonMobil_N300A
 texture=GA4J-ExxonMobil_N300A
@@ -324,7 +308,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Executive Jet Management Gulfstream G550 - N165TH
 model=GA4J-Executive Jet Management_N165TH
 texture=GA4J-Executive Jet Management_N165TH
@@ -342,7 +326,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Executive Jet Management Gulfstream G550 - N236MJ
 model=GA4J-Executive Jet Management_N236MJ
 texture=GA4J-Executive Jet Management_N236MJ
@@ -360,7 +344,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Executive Jet Management Gulfstream G550 - N550RP
 model=GA4J-Executive Jet Management_N550RP
 texture=GA4J-Executive Jet Management_N550RP
@@ -378,7 +362,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Executive Jet Management Gulfstream G550 - N94LF
 model=GA4J-Executive Jet Management_N94LF
 texture=GA4J-Executive Jet Management_N94LF
@@ -396,7 +380,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_ExecuJet Europe Gulfstream G550 - HB-JKI
 model=GA4J-ExecuJet Europe_HB-JKI
 texture=GA4J-ExecuJet Europe_HB-JKI
@@ -412,7 +396,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VCN
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_ExecuJet Europe Gulfstream G550 - HB-JOE
 model=GA4J-ExecuJet Europe_HB-JOE
 texture=GA4J-ExecuJet Europe_HB-JOE
@@ -428,7 +412,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VCN
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_ExecuJet Europe Gulfstream G550 - HB-JQQ
 model=GA4J-ExecuJet Europe_HB-JQQ
 texture=GA4J-ExecuJet Europe_HB-JQQ
@@ -444,7 +428,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VCN
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Halliburton Gulfstream G550 - N5569
 model=GA4J-Halliburton_N5569
 texture=GA4J-Halliburton_N5569
@@ -461,7 +445,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Halliburton Gulfstream G550 - N5585
 model=GA4J-Halliburton_N5585
 texture=GA4J-Halliburton_N5585
@@ -478,7 +462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Guggenheim Partners Gulfstream G550 - N1LA
 model=GA4J-Guggenheim Partners_N1LA
 texture=GA4J-Guggenheim Partners_N1LA
@@ -495,7 +479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Guggenheim Partners Gulfstream G550 - N3LA
 model=GA4J-Guggenheim Partners_N3LA
 texture=GA4J-Guggenheim Partners_N3LA
@@ -512,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_GoPro Gulfstream G550 - N74VW
 model=GA4J-GoPro_N74VW
 texture=GA4J-GoPro_N74VW
@@ -529,7 +513,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJM
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Google Gulfstream G550 - N10XG
 model=GA4J-Google_N10XG
 texture=GA4J-Google_N10XG
@@ -546,7 +530,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Google Gulfstream G550 - N785QS
 model=GA4J-Google_N785QS
 texture=GA4J-Google_N785QS
@@ -563,7 +547,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Google Gulfstream G550 - N813QS
 model=GA4J-Google_N813QS
 texture=GA4J-Google_N813QS
@@ -580,7 +564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Google Gulfstream G550 - N904G
 model=GA4J-Google_N904G
 texture=GA4J-Google_N904G
@@ -597,7 +581,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Alsco Gulfstream G550 - N550KR
 model=GA4J-Alsco_N550KR
 texture=GA4J-Alsco_N550KR
@@ -613,7 +597,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Honeywell Gulfstream G550 - N599H
 model=GA4J-Honeywell_N599H
 texture=GA4J-Honeywell_N599H
@@ -629,7 +613,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Honeywell Gulfstream G550 - N933H
 model=GA4J-Honeywell_N933H
 texture=GA4J-Honeywell_N933H
@@ -645,7 +629,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Hewlett Packard Enterprise Gulfstream G550 - N441GC
 model=GA4J-Hewlett Packard Enterprise_N441GC
 texture=GA4J-Hewlett Packard Enterprise_N441GC
@@ -662,7 +646,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_Hewlett Packard Enterprise Gulfstream G550 - N456GA
 model=GA4J-Hewlett Packard Enterprise_N456GA
 texture=GA4J-Hewlett Packard Enterprise_N456GA
@@ -679,7 +663,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Huntsman Corporation Gulfstream G550 - N620JH
 model=GA4J-Huntsman Corporation_N620JH
 texture=GA4J-Huntsman Corporation_N620JH
@@ -696,7 +680,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Solairus Aviation Gulfstream G550 - N138GL
 model=GA4J-Solairus Aviation_N138GL
 texture=GA4J-Solairus Aviation_N138GL
@@ -714,7 +698,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Solairus Aviation Gulfstream G550 - N1878E
 model=GA4J-Solairus Aviation_N1878E
 texture=GA4J-Solairus Aviation_N1878E
@@ -732,7 +716,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Solairus Aviation Gulfstream G550 - N415B
 model=GA4J-Solairus Aviation_N415B
 texture=GA4J-Solairus Aviation_N415B
@@ -750,7 +734,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Solairus Aviation Gulfstream G550 - N808TC
 model=GA4J-Solairus Aviation_N808TC
 texture=GA4J-Solairus Aviation_N808TC
@@ -768,7 +752,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWY
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Dow Chemical Gulfstream G550 - N505D
 model=GA4J-Dow Chemical_N505D
 texture=GA4J-Dow Chemical_N505D
@@ -785,7 +769,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Phillips 66 Gulfstream G550 - N662P
 model=GA4J-Philipps 66_N662P
 texture=GA4J-Philipps 66_N662P
@@ -801,7 +785,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Phillips 66 Gulfstream G550 - N667P
 model=GA4J-Philipps 66_N667P
 texture=GA4J-Philipps 66_N667P
@@ -817,7 +801,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Phillips 66 Gulfstream G550 - N668P
 model=GA4J-Philipps 66_N668P
 texture=GA4J-Philipps 66_N668P
@@ -833,7 +817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_Avcon Jet Gulfstream G550 - OE-LCZ
 model=GA4J-Avcon Jet_OE-LCZ
 texture=GA4J-Avcon Jet_OE-LCZ
@@ -851,7 +835,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AOJ
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_Avcon Jet Gulfstream G550 - OE-LIM
 model=GA4J-Avcon Jet_OE-LIM
 texture=GA4J-Avcon Jet_OE-LIM
@@ -869,7 +853,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AOJ
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_Jackson National Life Insurance Gulfstream G550 - N665JN
 model=GA4J-Jackson National Life Insurance_N665JN
 texture=GA4J-Jackson National Life Insurance_N665JN
@@ -885,7 +869,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_INEOS Gulfstream G550 - M-USIC
 model=GA4J-INEOS_M-USIC
 texture=GA4J-INEOS_M-USIC
@@ -902,7 +886,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_IBM Gulfstream G550 - N780E
 model=GA4J-IBM_N780E
 texture=GA4J-IBM_N780E
@@ -919,7 +903,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_John Deere Gulfstream G550 - N550JD
 model=GA4J-John Deer_N550JD
 texture=GA4J-John Deer_N550JD
@@ -935,7 +919,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_John Deere Gulfstream G550 - N600JD
 model=GA4J-John Deer_N600JD
 texture=GA4J-John Deer_N600JD
@@ -951,7 +935,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Starbucks Gulfstream G550 - N721L
 model=GA4J-Starbucks_N721L
 texture=GA4J-Starbucks_N721L
@@ -967,7 +951,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_Starbucks Gulfstream G550 - N721V
 model=GA4J-Starbucks_N721V
 texture=GA4J-Starbucks_N721V
@@ -983,7 +967,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_Johnson & Johnson Gulfstream G550 - N500J
 model=GA4J-Johnson & Johnson_N500J
 texture=GA4J-Johnson & Johnson_N500J
@@ -999,7 +983,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_Johnson & Johnson Gulfstream G550 - N600J
 model=GA4J-Johnson & Johnson_N600J
 texture=GA4J-Johnson & Johnson_N600J
@@ -1015,7 +999,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Lear Corporation Gulfstream G550 - N119LE
 model=GA4J-Lear Corporation_N119LE
 texture=GA4J-Lear Corporation_N119LE
@@ -1031,7 +1015,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Las Vegas Sands Gulfstream G550 - N336LS
 model=GA4J-Las Vegas Sands_N336LS
 texture=GA4J-Las Vegas Sands_N336LS
@@ -1047,7 +1031,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Las Vegas Sands Gulfstream G550 - N337LS
 model=GA4J-Las Vegas Sands_N337LS
 texture=GA4J-Las Vegas Sands_N337LS
@@ -1063,7 +1047,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Las Vegas Sands Gulfstream G550 - N339LS
 model=GA4J-Las Vegas Sands_N339LS
 texture=GA4J-Las Vegas Sands_N339LS
@@ -1079,7 +1063,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_Swagelok Gulfstream G550 - N589K
 model=GA4J-Swagelok_N589K
 texture=GA4J-Swagelok_N589K
@@ -1095,7 +1079,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Edison Chouest Offshore Gulfstream G550 - N728EC
 model=GA4J-Edison Chouest Offshore_N728EC
 texture=GA4J-Edison Chouest Offshore_N728EC
@@ -1112,7 +1096,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Target Gulfstream G550 - N383T
 model=GA4J-Target_N383T
 texture=GA4J-Target_N383T
@@ -1129,7 +1113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_Thermo Fisher Scientific Gulfstream G550 - N688CB
 model=GA4J-Thermo Fisher Scientific_N688CB
 texture=GA4J-Thermo Fisher Scientific_N688CB
@@ -1146,7 +1130,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.65]
+[fltsim.64]
 title=AIGAIM_Toyota Gulfstream G550 - N803TM
 model=GA4J-Toyota_N803TM
 texture=GA4J-Toyota_N803TM
@@ -1162,7 +1146,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.66]
+[fltsim.65]
 title=AIGAIM_Toyota Gulfstream G550 - N875TM
 model=GA4J-Toyota_N875TM
 texture=GA4J-Toyota_N875TM
@@ -1179,7 +1163,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.67]
+[fltsim.66]
 title=AIGAIM_Toyota Gulfstream G550 - N887TM
 model=GA4J-Toyota_N887TM
 texture=GA4J-Toyota_N887TM
@@ -1195,7 +1179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.68]
+[fltsim.67]
 title=AIGAIM_Travelers Gulfstream G550 - N407TR
 model=GA4J-Travelers_N407TR
 texture=GA4J-Travelers_N407TR
@@ -1212,7 +1196,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.69]
+[fltsim.68]
 title=AIGAIM_Travelers Gulfstream G550 - N447TR
 model=GA4J-Travelers_N447TR
 texture=GA4J-Travelers_N447TR
@@ -1229,7 +1213,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.70]
+[fltsim.69]
 title=AIGAIM_New Balance Gulfstream G550 - N990NB
 model=GA4J-New Balance_N990NB
 texture=GA4J-New Balance_N990NB
@@ -1246,7 +1230,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.71]
+[fltsim.70]
 title=AIGAIM_Netflix Gulfstream G550 - N533GV
 model=GA4J-Netflix_N533GV
 texture=GA4J-Netflix_N533GV
@@ -1262,7 +1246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.72]
+[fltsim.71]
 title=AIGAIM_Netflix Gulfstream G550 - N535GV
 model=GA4J-Netflix_N535GV
 texture=GA4J-Netflix_N535GV
@@ -1278,7 +1262,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.73]
+[fltsim.72]
 title=AIGAIM_Niagara Bottling Gulfstream G550 - N550WW
 model=GA4J-Niagara Bottling_N550WW
 texture=GA4J-Niagara Bottling_N550WW
@@ -1294,7 +1278,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.74]
+[fltsim.73]
 title=AIGAIM_Orange County Sunbird Aviation Gulfstream G550 - N237GA
 model=GA4J-Orange County Sunbird Aviation_N237GA
 texture=GA4J-Orange County Sunbird Aviation_N237GA
@@ -1310,7 +1294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.75]
+[fltsim.74]
 title=AIGAIM_Polish Government Gulfstream G550 - 0001
 model=GOVS-Polish Government_0001
 texture=GOVS-Polish Government_0001
@@ -1328,7 +1312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PLF
 
-[fltsim.76]
+[fltsim.75]
 title=AIGAIM_Polish Government Gulfstream G550 - 0002
 model=GOVS-Polish Government_0002
 texture=GOVS-Polish Government_0002
@@ -1346,7 +1330,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PLF
 
-[fltsim.77]
+[fltsim.76]
 title=AIGAIM_Coca-Cola Gulfstream G550 - N386RW
 model=GA4J-Coca Cola_N386RW
 texture=GA4J-Coca Cola_N386RW
@@ -1363,7 +1347,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.78]
+[fltsim.77]
 title=AIGAIM_Coca-Cola Gulfstream G550 - N486RW
 model=GA4J-Coca Cola_N486RW
 texture=GA4J-Coca Cola_N486RW
@@ -1380,7 +1364,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.79]
+[fltsim.78]
 title=AIGAIM_Coca-Cola Gulfstream G550 - N586RW
 model=GA4J-Coca Cola_N586RW
 texture=GA4J-Coca Cola_N586RW
@@ -1397,7 +1381,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.80]
+[fltsim.79]
 title=AIGAIM_Occidental Petroleum Gulfstream G550 - N223A
 model=GA4J-Occidental Petroleum_N223A
 texture=GA4J-Occidental Petroleum_N223A
@@ -1414,7 +1398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.81]
+[fltsim.80]
 title=AIGAIM_Occidental Petroleum Gulfstream G550 - N257A
 model=GA4J-Occidental Petroleum_N257A
 texture=GA4J-Occidental Petroleum_N257A
@@ -1431,7 +1415,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.82]
+[fltsim.81]
 title=AIGAIM_Chipotle Gulfstream G550 - N793MG
 model=GA4J-Chipotle_N793MG
 texture=GA4J-Chipotle_N793MG
@@ -1448,7 +1432,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.83]
+[fltsim.82]
 title=AIGAIM_McDonald's Gulfstream G550 - N1967M
 model=GA4J-McDonald's_N1967M
 texture=GA4J-McDonald's_N1967M
@@ -1464,7 +1448,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.84]
+[fltsim.83]
 title=AIGAIM_Chevron Gulfstream G550 - N5092
 model=GA4J-Chevron_N5092
 texture=GA4J-Chevron_N5092
@@ -1480,7 +1464,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.85]
+[fltsim.84]
 title=AIGAIM_Penske Corporation Gulfstream G550 - N1RP
 model=GA4J-Penske Corporation_N1RP
 texture=GA4J-Penske Corporation_N1RP
@@ -1497,7 +1481,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.86]
+[fltsim.85]
 title=AIGAIM_Penske Corporation Gulfstream G550 - N6JP
 model=GA4J-Penske Corporation_N6JP
 texture=GA4J-Penske Corporation_N6JP
@@ -1514,7 +1498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.87]
+[fltsim.86]
 title=AIGAIM_Presidential Aviation Gulfstream G550 - N513MA
 model=GA4J-Presidential Aviation_N513MA
 texture=GA4J-Presidential Aviation_N513MA
@@ -1532,7 +1516,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PRD
 
-[fltsim.88]
+[fltsim.87]
 title=AIGAIM_Prime Jet Gulfstream G550 - N279SH
 model=GA4J-Prime Jet_N279SH
 texture=GA4J-Prime Jet_N279SH
@@ -1549,7 +1533,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.89]
+[fltsim.88]
 title=AIGAIM_Regeneron Pharmaceuticals Gulfstream G550 - N974SZ
 model=GA4J-Regeneron Pharmaceuticals_N974SZ
 texture=GA4J-Regeneron Pharmaceuticals_N974SZ
@@ -1566,7 +1550,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.90]
+[fltsim.89]
 title=AIGAIM_Lockheed Martin Gulfstream G550 - N344RS
 model=GA4J-Lockheed Martin_N344RS
 texture=GA4J-Lockheed Martin_N344RS
@@ -1582,7 +1566,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.91]
+[fltsim.90]
 title=AIGAIM_Panda Restaurant Group Gulfstream G550 - N888PX
 model=GA4J-Panda Restaurant Group_N888PX
 texture=GA4J-Panda Restaurant Group_N888PX
@@ -1599,7 +1583,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.92]
+[fltsim.91]
 title=AIGAIM_Valero Gulfstream G550 - N524VE
 model=GA4J-Valero_N524VE
 texture=GA4J-Valero_N524VE
@@ -1616,7 +1600,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.93]
+[fltsim.92]
 title=AIGAIM_Valero Gulfstream G550 - N550VE
 model=GA4J-Valero_N550VE
 texture=GA4J-Valero_N550VE
@@ -1633,7 +1617,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.94]
+[fltsim.93]
 title=AIGAIM_Valero Gulfstream G550 - N755VE
 model=GA4J-Valero_N755VE
 texture=GA4J-Valero_N755VE
@@ -1650,7 +1634,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.95]
+[fltsim.94]
 title=AIGAIM_Constellation Brands Gulfstream G550 - N559G
 model=GA4J-Constellation Brands_N559G
 texture=GA4J-Constellation Brands_N559G
@@ -1667,7 +1651,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.96]
+[fltsim.95]
 title=AIGAIM_Constellation Brands Gulfstream G550 - N870CM
 model=GA4J-Constellation Brands_N870CM
 texture=GA4J-Constellation Brands_N870CM
@@ -1684,7 +1668,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.97]
+[fltsim.96]
 title=AIGAIM_MacAndrews & Forbes Gulfstream G550 - N636MF
 model=GA4J-MacAndrews & Forbes_N636MF
 texture=GA4J-MacAndrews & Forbes_N636MF
@@ -1700,7 +1684,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.98]
+[fltsim.97]
 title=AIGAIM_Crown Holdings Gulfstream G550 - N892CH
 model=GA4J-Crown Holdings_N892CH
 texture=GA4J-Crown Holdings_N892CH
@@ -1716,7 +1700,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.99]
+[fltsim.98]
 title=AIGAIM_Morgan Stanley Gulfstream G550 - N128GV
 model=GA4J-Morgan Stanley_N128GV
 texture=GA4J-Morgan Stanley_N128GV
@@ -1732,23 +1716,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.100]
-title=AIGAIM_Morgan Stanley Gulfstream G550 - N168NJ
-model=GA4J-Morgan Stanley_N168NJ
-texture=GA4J-Morgan Stanley_N168NJ
-atc_parking_types=RAMP
-atc_parking_codes=GA4J
-ui_manufacturer=HTAI
-ui_type=Gulfstream G550
-ui_variation=Gulfstream G550, c/n 5359, Morgan Stanley, N168NJ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Marco Kosterman on JCAI Filename: MorganStanleyGulfstreamG550s.zip
-description=HTAI_Gulfstream_G550-Marco(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GA4J
-
-[fltsim.101]
+[fltsim.99]
 title=AIGAIM_BAE Systems Gulfstream G550 - N772BE
 model=GA4J-BAE Systems_N772BE
 texture=GA4J-BAE Systems_N772BE
@@ -1765,7 +1733,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.102]
+[fltsim.100]
 title=AIGAIM_Zimmer Biomet Gulfstream G550 - N550ZB
 model=GA4J-Zimmer Biomet_N550ZB
 texture=GA4J-Zimmer Biomet_N550ZB
@@ -1782,7 +1750,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.103]
+[fltsim.101]
 title=AIGAIM_Zeeco Gulfstream G550 - N588DZ
 model=GA4J-Zeeco_N588DZ
 texture=GA4J-Zeeco_N588DZ
@@ -1798,7 +1766,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.104]
+[fltsim.102]
 title=AIGAIM_Baxter International Gulfstream G550 - N1BX
 model=GA4J-Baxter International_N1BX
 texture=GA4J-Baxter International_N1BX
@@ -1815,7 +1783,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.105]
+[fltsim.103]
 title=AIGAIM_Wells Fargo Gulfstream G550 - N1852B
 model=GA4J-Wells Fargo_N1852B
 texture=GA4J-Wells Fargo_N1852B
@@ -1833,7 +1801,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAI
 
-[fltsim.106]
+[fltsim.104]
 title=AIGAIM_WarnerMedia Gulfstream G550 - N73RP
 model=GA4J-WarnerMedia_N73RP
 texture=GA4J-WarnerMedia_N73RP
@@ -1849,7 +1817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.107]
+[fltsim.105]
 title=AIGAIM_WarnerMedia Gulfstream G550 - N75RP
 model=GA4J-WarnerMedia_N75RP
 texture=GA4J-WarnerMedia_N75RP
@@ -1865,7 +1833,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.108]
+[fltsim.106]
 title=AIGAIM_WarnerMedia Gulfstream G550 - N76RP
 model=GA4J-WarnerMedia_N76RP
 texture=GA4J-WarnerMedia_N76RP
@@ -1881,7 +1849,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.109]
+[fltsim.107]
 title=AIGAIM_WarnerMedia Gulfstream G550 - N79RP
 model=GA4J-WarnerMedia_N79RP
 texture=GA4J-WarnerMedia_N79RP
@@ -1897,7 +1865,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.110]
+[fltsim.108]
 title=AIGAIM_White Cloud Charter Gulfstream G550 - N999LR
 model=GA4J-White Cloud Charter_N999LR
 texture=GA4J-White Cloud Charter_N999LR
@@ -1913,7 +1881,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.111]
+[fltsim.109]
 title=AIGAIM_Calvin Klein Gulfstream G550 - N550CK
 model=GA4J-Calvin Klein_N550CK
 texture=GA4J-Calvin Klein_N550CK
@@ -1930,7 +1898,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.112]
+[fltsim.110]
 title=AIGAIM_Whirlpool Gulfstream G550 - N1905W
 model=GA4J-Whirlpool_N1905W
 texture=GA4J-Whirlpool_N1905W
@@ -1947,7 +1915,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.113]
+[fltsim.111]
 title=AIGAIM_Whirlpool Gulfstream G550 - N1911W
 model=GA4J-Whirlpool_N1911W
 texture=GA4J-Whirlpool_N1911W
@@ -1964,7 +1932,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA4J
 
-[fltsim.114]
+[fltsim.112]
 title=AIGAIM_Capital Airlines VIP Gulfstream G550 - B-8135
 model=BBJ-Capital Airlines VIP_B-8135
 texture=BBJ-Capital Airlines VIP_B-8135
@@ -1982,7 +1950,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BBJ
 
-[fltsim.115]
+[fltsim.113]
 title=AIGAIM_Elite Jets Gulfstream G550 - N505D
 model=GA4J-Elite Jets_N505D
 texture=GA4J-Elite Jets_N505D
@@ -1994,6 +1962,104 @@ ui_type=Gulfstream G550
 ui_variation=Dow Chemical Gulfstream G550 N505D
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: JCAI Filename: DowChemical_G550.zip
+description=HTAI_Gulfstream_G550-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.114]
+title=AIGAIM_ConocoPhillips Gulfstream G550 - N795CP
+model=GA4J-ConocoPhillips_N795CP
+texture=GA4J-ConocoPhillips_N795CP
+atc_id=N795CP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream G550
+ui_variation=Gulfstream V HTAI ConocoPhillips CON N795CP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: CON_GLF5_HD.zip
+description=HTAI_Gulfstream_G550-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.115]
+title=AIGAIM_ConocoPhillips Gulfstream G550 - N797CP
+model=GA4J-ConocoPhillips_N797CP
+texture=GA4J-ConocoPhillips_N797CP
+atc_id=N797CP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=Gulfstream
+ui_type=Gulfstream G550
+ui_variation=Gulfstream V HTAI ConocoPhillips CON N797CP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: CON_GLF5_HD.zip
+description=HTAI_Gulfstream_G550-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.116]
+title=AIGAIM_AT&T Gulfstream G550 - N73RP
+model=GA4J-AT&T_N73RP
+texture=GA4J-AT&T_N73RP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream G550
+ui_variation=Gulfstream G550, c/n 5528, WarnerMedia, N73RP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: WarnerMediaG550fleet.zip
+description=HTAI_Gulfstream_G550-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.117]
+title=AIGAIM_AT&T Gulfstream G550 - N75RP
+model=GA4J-AT&T_N75RP
+texture=GA4J-AT&T_N75RP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream G550
+ui_variation=Gulfstream G550, c/n 5460, WarnerMedia, N75RP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: WarnerMediaG550fleet.zip
+description=HTAI_Gulfstream_G550-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.118]
+title=AIGAIM_AT&T Gulfstream G550 - N76RP
+model=GA4J-AT&T_N76RP
+texture=GA4J-AT&T_N76RP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream G550
+ui_variation=Gulfstream G550, c/n 5334, WarnerMedia, N76RP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: WarnerMediaG550fleet.zip
+description=HTAI_Gulfstream_G550-Marco(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GA4J
+
+[fltsim.119]
+title=AIGAIM_AT&T Gulfstream G550 - N79RP
+model=GA4J-AT&T_N79RP
+texture=GA4J-AT&T_N79RP
+atc_parking_types=RAMP
+atc_parking_codes=GA4J
+ui_manufacturer=HTAI
+ui_type=Gulfstream G550
+ui_variation=Gulfstream G550, c/n 5347, WarnerMedia, N79RP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Marco Kosterman on JCAI Filename: WarnerMediaG550fleet.zip
 description=HTAI_Gulfstream_G550-Marco(fs20)
 isAirTraffic=1
 isUserSelectable=0

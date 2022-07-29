@@ -137,3 +137,183 @@ description=JBAI_Learjet60-Morten(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2J
+
+[fltsim.5]
+title=AIGAIM_American Jet International Bombardier Learjet 60XR - N74HT
+model=GA2J-American Jet International_N74HT
+texture=GA2J-American Jet International_N74HT
+atc_id=N74HT
+atc_airline=SCREAMER
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,SCM
+ui_manufacturer=JBAI
+ui_type=Learjet 60
+ui_variation=Jet Linx Bombardier Learjet 60XR N74HT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: JTL_LJ60_Fleet.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SCM
+
+[fltsim.6]
+title=AIGAIM_ATI Jet Bombardier Learjet 60 - N198HB
+model=GA2J-ATI Jet_N198HB
+texture=GA2J-ATI Jet_N198HB
+atc_id=N198HB
+atc_airline=COYOTE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,CYO
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_JetSelect-Aviation_Bombardier-L60_Fleet_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CYO
+
+[fltsim.7]
+title=AIGAIM_ATI Jet Bombardier Learjet 60 - N461MC
+model=GA2J-ATI Jet_N461MC
+texture=GA2J-ATI Jet_N461MC
+atc_id=N461MC
+atc_airline=COYOTE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,CYO
+ui_manufacturer=JBAI
+ui_type=Learjet 60
+ui_variation=McLane Bombardier Learjet 60 N461MC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: McLane_LR60_Fleet.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CYO
+
+[fltsim.8]
+title=AIGAIM_ATI Jet Bombardier Learjet 60 - N924PS
+model=GA2J-ATI Jet_N924PS
+texture=GA2J-ATI Jet_N924PS
+atc_id=N924PS
+atc_airline=COYOTE
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,CYO
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_ATI-Jet-Bombardier_L60_N924PS_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CYO
+
+[fltsim.9]
+title=AIGAIM_Jet Linx Bombardier Learjet 60XR - N372SC
+model=GA2J-Jet Linx_N372SC
+texture=GA2J-Jet Linx_N372SC
+atc_id=N372SC
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=JBAI
+ui_type=Learjet 60
+ui_variation=Jet Linx Bombardier Learjet 60XR N372SC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: JTL_LJ60_Fleet.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.10]
+title=AIGAIM_Jet Linx Bombardier Learjet 60 - N24GU
+model=GA2J-Jet Linx_N24GU
+texture=GA2J-Jet Linx_N24GU
+atc_id=N24GU
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_JetSelect-Aviation_Bombardier-L60_Fleet_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.11]
+title=AIGAIM_Jet Linx Bombardier Learjet 60 - N358F
+model=GA2J-Jet Linx_N358F
+texture=GA2J-Jet Linx_N358F
+atc_id=N358F
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_Southern-Jet-Bombardier_L60_Fleet_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.12]
+title=AIGAIM_Jet Linx Bombardier Learjet 60 - N603GR
+model=GA2J-Jet Linx_N603GR
+texture=GA2J-Jet Linx_N603GR
+atc_id=N603GR
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_Southern-Jet-Bombardier_L60_Fleet_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.13]
+title=AIGAIM_Jet Linx Bombardier Learjet 60 - N61WF
+model=GA2J-Jet Linx_N61WF
+texture=GA2J-Jet Linx_N61WF
+atc_id=N61WF
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=Bombardier
+ui_type=Learjet 60
+ui_variation=Learjet 60 JBAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: JBS_Southern-Jet-Bombardier_L60_Fleet_jondix.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
+
+[fltsim.14]
+title=AIGAIM_Jet Linx Bombardier Learjet 60 - N821DF
+model=GA2J-Jet Linx_N821DF
+texture=GA2J-Jet Linx_N821DF
+atc_id=N821DF
+atc_airline=JET LINX
+atc_parking_types=RAMP
+atc_parking_codes=GA2J,JTL
+ui_manufacturer=JBAI
+ui_type=Learjet 60
+ui_variation=Jet Linx Bombardier Learjet 60 N821DF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: JTL_LJ60_Fleet.zip
+description=JBAI_Learjet60-Morten(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=JTL
