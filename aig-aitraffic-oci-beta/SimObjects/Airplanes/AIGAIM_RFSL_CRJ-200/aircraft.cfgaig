@@ -555,3 +555,21 @@ description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SSF
+
+[fltsim.29]
+title=AIGAIM_Air Century Bombardier CRJ-200
+model=CEY-Air Century
+texture=CEY-Air Century
+atc_id=HI1034
+atc_airline=CENTURYFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CEY
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-200
+ui_variation=Air Century
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Air Century CRJ200 P3D.zip
+description=RFSL_CRJ-200-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CEY

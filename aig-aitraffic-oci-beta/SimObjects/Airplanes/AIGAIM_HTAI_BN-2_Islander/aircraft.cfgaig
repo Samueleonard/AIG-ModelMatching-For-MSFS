@@ -332,3 +332,21 @@ description=HTAI_BN-2_Islander-longnose(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
+
+[fltsim.16]
+title=AIGAIM_Cape Air Britten-Norman BN-2 Islander
+model=KAP-Cape Air
+texture=KAP-Cape Air
+atc_id=N510BN
+atc_airline=CAIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KAP
+ui_manufacturer=Britten-Norman
+ui_type=Britten-Norman BN-2 Islander
+ui_variation=Cape Air, S/N 2239
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Cape-Air_BN-2-Islander_Fleet_jondix-1.zip
+description=HTAI_BN-2_Islander-Marco_longnose(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KAP

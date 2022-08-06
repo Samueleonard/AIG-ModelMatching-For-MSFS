@@ -240,3 +240,22 @@ description=AIG_A330-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
+
+[fltsim.10]
+title=AIGAIM_Air Caraibes Airbus A330-200 - OT OC small 3rd door
+model=FWI-Air Caraibes_OT OC small 3rd door
+texture=FWI-Air Caraibes_OT OC small 3rd door
+atc_id=F-OFDF
+atc_airline=FRENCH WEST
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FWI
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Air Caraibes
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Air Caraibes.zip
+description=AIG_A330-200_PW-PW_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FWI

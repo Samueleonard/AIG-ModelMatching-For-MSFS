@@ -1186,3 +1186,21 @@ description=FAIB_A321-200_CFM-CFMC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
+
+[fltsim.65]
+title=AIGAIM_Air Century Airbus A321-200 - Sky Cana 9H-AME opb Avion
+model=CEY-Air Century_Sky Cana 9H-AME opb Avion
+texture=CEY-Air Century_Sky Cana 9H-AME opb Avion
+atc_id=9H-AMG
+atc_airline=CENTURYFLIGHT
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CEY,SNA
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200
+ui_variation=Sky Cana
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Sky Cana A321 Fleet FSX.zip
+description=FAIB_A321-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CEY

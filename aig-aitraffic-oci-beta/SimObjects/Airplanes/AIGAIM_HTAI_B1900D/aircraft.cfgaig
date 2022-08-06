@@ -492,3 +492,201 @@ description=HTAI_B1900D(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRC
+
+[fltsim.25]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - NC N132KC
+model=AIP-Alpine Air Express_NC N132KC
+texture=AIP-Alpine Air Express_NC N132KC
+atc_id=N132KC
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-132
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.26]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - Great Lakes N169GL
+model=AIP-Alpine Air Express_Great Lakes N169GL
+texture=AIP-Alpine Air Express_Great Lakes N169GL
+atc_id=N169GL
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-169
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.27]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - Great Lakes N170GL
+model=AIP-Alpine Air Express_Great Lakes N170GL
+texture=AIP-Alpine Air Express_Great Lakes N170GL
+atc_id=N170GL
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-170
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.28]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - Great Lakes N195GL
+model=AIP-Alpine Air Express_Great Lakes N195GL
+texture=AIP-Alpine Air Express_Great Lakes N195GL
+atc_id=N195GL
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-195
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.29]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - Gulfstream Intl N231YV
+model=AIP-Alpine Air Express_Gulfstream Intl N231YV
+texture=AIP-Alpine Air Express_Gulfstream Intl N231YV
+atc_id=N231YV
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-231
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.30]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - NC N247GL
+model=AIP-Alpine Air Express_NC N247GL
+texture=AIP-Alpine Air Express_NC N247GL
+atc_id=N247GL
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-247
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.31]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - Great Lakes N257GL
+model=AIP-Alpine Air Express_Great Lakes N257GL
+texture=AIP-Alpine Air Express_Great Lakes N257GL
+atc_id=N257GL
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-257
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.32]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - OC N418LC
+model=AIP-Alpine Air Express_OC N418LC
+texture=AIP-Alpine Air Express_OC N418LC
+atc_id=N418LC
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-118
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.33]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - NC N474LC
+model=AIP-Alpine Air Express_NC N474LC
+texture=AIP-Alpine Air Express_NC N474LC
+atc_id=N474LC
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-74
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.34]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - OC N60MJ
+model=AIP-Alpine Air Express_OC N60MJ
+texture=AIP-Alpine Air Express_OC N60MJ
+atc_id=N60MJ
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=Alpine Air Express, S/N UE-60
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.35]
+title=AIGAIM_Alpine Air Express Beechcraft 1900D - OC N716MJ
+model=AIP-Alpine Air Express_OC N716MJ
+texture=AIP-Alpine Air Express_OC N716MJ
+atc_id=N716MJ
+atc_airline=ALPINE AIR
+atc_parking_types=RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft 1900D
+ui_variation=K&L Aircraft Holding, S/N UE-16	
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_B1900D_Fleet_jondix.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP

@@ -1,0 +1,287 @@
+[VERSION]
+major=1
+minor=0
+
+[General]
+atc_type="TT:ATCCOM.ATC_NAME BEECHCRAFT.0.text"
+atc_model="TT:ATCCOM.AC_MODEL BE99.0.text"
+Category="airplane"
+performance=""
+editable=1
+wip_indicator=2
+icao_type_designator=BE99
+icao_manufacturer=BEECH
+icao_model=99 Airliner
+icao_engine_type=Turboprop/Turboshaft
+icao_engine_count=2
+icao_WTC="L"
+icao_generic=0
+
+[PILOT]
+pilot="Pilot_Female_Uniform"
+copilot="Pilot_Male_Uniform"
+instructor="Pilot_Male_Casual"
+pilot_default_animation="Idle1_PoseAirliner","","","","","","","","","","","","","","",""
+copilot_default_animation="Idle2_PoseAirliner","","","","","","","","","","","","","","",""
+pilot_attach_node="PILOT_0"
+copilot_attach_node="PILOT_1"
+
+[SERVICES]
+FUELTRUCK=1
+BAGGAGE_LOADER=1
+CATERING_TRUCK=0
+BOARDING_RAMP=0
+GROUND_POWER_UNIT=1
+PUSHBACK=0
+SMALL_PUSHBACK=1
+MARSHALLER=0
+JETWAY=0
+
+[EFFECTS]
+effect.0=contrail1#(A:GENERAL ENG COMBUSTION:1, boolean)#FX_ASOBO_HEAT_SMALL
+effect.1=contrail2#(A:GENERAL ENG COMBUSTION:2, boolean)#FX_ASOBO_HEAT_SMALL
+
+[LOADING]
+ImageName=LOADING_FREEFLIGHT
+
+[STALL PROTECTION]
+stall_protection=1 ; Alpha Protection
+off_limit=9 ; Alpha below which the Alpha Protection can be disabled (If also below off_yoke_limit)
+off_yoke_limit=1 ; Yoke position (in Pct) below which the Alpha Protection can be disabled (If also below off_limit)
+on_limit=12 ; Alpha above which the Alpha Protection timer starts
+on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when triggered
+timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
+
+[fltsim.0]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N118MD
+model=AIP-Alpine Air Express_Cargo Pod OC N118MD
+texture=AIP-Alpine Air Express_Cargo Pod OC N118MD
+atc_id=N118MD
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Air Express, U-118
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.1]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N14MV
+model=AIP-Alpine Air Express_Cargo Pod OC N14MV
+texture=AIP-Alpine Air Express_Cargo Pod OC N14MV
+atc_id=N14MV
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc, U-59
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.2]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N216CS
+model=AIP-Alpine Air Express_Cargo Pod OC N216CS
+texture=AIP-Alpine Air Express_Cargo Pod OC N216CS
+atc_id=N216CS
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=U-216
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.3]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N236AL
+model=AIP-Alpine Air Express_Cargo Pod OC N236AL
+texture=AIP-Alpine Air Express_Cargo Pod OC N236AL
+atc_id=N236AL
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc., U-236
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.4]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N237SL
+model=AIP-Alpine Air Express_Cargo Pod OC N237SL
+texture=AIP-Alpine Air Express_Cargo Pod OC N237SL
+atc_id=N237SL
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc., U-237
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.5]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N238AL
+model=AIP-Alpine Air Express_Cargo Pod OC N238AL
+texture=AIP-Alpine Air Express_Cargo Pod OC N238AL
+atc_id=N238AL
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc, U-238
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.6]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N239AL
+model=AIP-Alpine Air Express_Cargo Pod OC N239AL
+texture=AIP-Alpine Air Express_Cargo Pod OC N239AL
+atc_id=N239AL
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc, U-239
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.7]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N24BH
+model=AIP-Alpine Air Express_Cargo Pod OC N24BH
+texture=AIP-Alpine Air Express_Cargo Pod OC N24BH
+atc_id=N24BH
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc, U-67
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.8]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N326CA
+model=AIP-Alpine Air Express_Cargo Pod OC N326CA
+texture=AIP-Alpine Air Express_Cargo Pod OC N326CA
+atc_id=N326CA
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc, U-135
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.9]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod NC N390RH
+model=AIP-Alpine Air Express_Cargo Pod NC N390RH
+texture=AIP-Alpine Air Express_Cargo Pod NC N390RH
+atc_id=N390RH
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Express Llc, U-39
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.10]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N899CA
+model=AIP-Alpine Air Express_Cargo Pod OC N899CA
+texture=AIP-Alpine Air Express_Cargo Pod OC N899CA
+atc_id=N899CA
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=U-104
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.11]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N950AA
+model=AIP-Alpine Air Express_Cargo Pod OC N950AA
+texture=AIP-Alpine Air Express_Cargo Pod OC N950AA
+atc_id=N950AA
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Marquette Equipment Finance Llc, U-159
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP
+
+[fltsim.12]
+title=AIGAIM_Alpine Air Express Beechcraft C99 Airliner - Cargo Pod OC N99GH
+model=AIP-Alpine Air Express_Cargo Pod OC N99GH
+texture=AIP-Alpine Air Express_Cargo Pod OC N99GH
+atc_id=N99GH
+atc_airline=ALPINE AIR
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AIP
+ui_manufacturer=Beechcraft
+ui_type=Beechcraft C99 Airliner
+ui_variation=Alpine Aviation Inc., U-112
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: HTAI_Alpine-Air-Express_C99_fleet_jondix.zip
+description=HTAI_BeechC99-cp(fs20
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AIP

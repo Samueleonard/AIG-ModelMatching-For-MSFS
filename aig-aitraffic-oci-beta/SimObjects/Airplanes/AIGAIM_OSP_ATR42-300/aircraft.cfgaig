@@ -108,9 +108,9 @@ icao_airline=TCV
 title=AIGAIM_Canadian North ATR 42-300
 model=MPE-Canadian North
 texture=MPE-Canadian North
-atc_airline=EMPRESS
+atc_airline=ARCTIC
 atc_parking_types=GATE,RAMP
-atc_parking_codes=MPE
+atc_parking_codes=AKT
 ui_manufacturer=OSP
 ui_type=ATR 42-300
 ui_variation=Canadian North
@@ -119,7 +119,7 @@ ui_createdby=Provided by: ATCO Filename: osp_at42_mpe.zip
 description=OSP_ATR42-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=MPE
+icao_airline=AKT
 
 [fltsim.4]
 title=AIGAIM_Danish Air Transport ATR 42-300 - OY-CIU

@@ -32,24 +32,6 @@ marshaller=1
 jetway=1
 
 [fltsim.0]
-title=AIGAIM_Canadian North Boeing 737-200 - OC
-model=MPE-Canadian North_OC
-texture=MPE-Canadian North_OC
-atc_id=C-GDPA
-atc_airline=EMPRESS
-atc_parking_types=RAMP
-atc_parking_codes=MPE
-ui_manufacturer=Boeing
-ui_type=Boeing 737-200
-ui_variation=Canadian North
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_mpe_b732_p3d.zip
-description=FAIB_B737-200-gravellogolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MPE
-
-[fltsim.1]
 title=AIGAIM_Nolinor Aviation Boeing 737-200
 model=NRL-Nolinor Aviation
 texture=NRL-Nolinor Aviation
@@ -67,7 +49,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Nolinor Aviation Boeing 737-200C
 model=NRL-Nolinor Aviation
 texture=NRL-Nolinor Aviation
@@ -85,7 +67,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Nolinor Aviation Boeing 737-200C - Grey Belly
 model=NRL-Nolinor Aviation_Grey Belly
 texture=NRL-Nolinor Aviation_Grey Belly
@@ -103,7 +85,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NRL
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Venezolana Boeing 737-200
 model=VNE-Venezolana
 texture=VNE-Venezolana
@@ -119,3 +101,21 @@ description=FAIB_B737-200-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VNE
+
+[fltsim.4]
+title=AIGAIM_Canadian North Boeing 737-200C - OC
+model=AKT-Canadian North_OC
+texture=AKT-Canadian North_OC
+atc_id=C-GDPA
+atc_airline=ARCTIC
+atc_parking_types=RAMP
+atc_parking_codes=AKT
+ui_manufacturer=Boeing
+ui_type=Boeing 737-200C
+ui_variation=Canadian North
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FSAI Filename: faib_mpe_b732_p3d.zip
+description=FAIB_B737-200-gravellogolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AKT

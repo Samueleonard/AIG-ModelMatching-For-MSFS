@@ -329,6 +329,25 @@ isUserSelectable=0
 icao_airline=SRN
 
 [fltsim.15]
+title=AIGAIM_Air Century ATR 72-200F - Logic Paq (TEMP)
+model=CEYC-Air Century_Logic Paq_temp
+texture=CEYC-Air Century_Logic Paq_temp
+atc_id=HI1000
+atc_airline=CENTURYFLIGHT
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CEYC
+ui_manufacturer=Avions de Transport
+ui_type=ATR 72-200F
+ui_variation=Airbox Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: AirBox Cargo ATR 72-200 FSX.zip
+visual_damage=1
+description=OSP_ATR72-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CEYC
+
+[fltsim.16]
 title=AIGAIM_West Atlantic UK ATR 72-200F - LFD no windows
 model=NPT-West Atlantic UK_LFD no windows
 texture=NPT-West Atlantic UK_LFD no windows
