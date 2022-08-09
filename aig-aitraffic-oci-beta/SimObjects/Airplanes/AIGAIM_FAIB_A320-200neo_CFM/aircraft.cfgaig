@@ -2618,3 +2618,21 @@ description=FAIB_A320-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEY
+
+[fltsim.144]
+title=AIGAIM_Ural Airlines Airbus A320-200neo
+model=SVR-Ural Airlines
+texture=SVR-Ural Airlines
+atc_id=RA-73822
+atc_airline=SVERDLOVSK AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SVR
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200neo
+ui_variation=Ural Airlines A320N RA-73822
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SVR-Ural Airlines FAIB A320S CFML.zip
+description=FAIB_A320-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SVR

@@ -606,3 +606,21 @@ description=OSP_ATR42-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEH
+
+[fltsim.31]
+title=AIGAIM_Air Corsica ATR 42-500
+model=CCM-Air Corsica
+texture=CCM-Air Corsica
+atc_id=F-HAIB
+atc_airline=CORSICA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CCM
+ui_manufacturer=OSP
+ui_type=ATR 42-500
+ui_variation=Air Corsica F-HAIB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: CCM-Air Corsica OSP ATR42.zip
+description=OSP_ATR42-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CCM
