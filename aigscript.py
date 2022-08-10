@@ -48,9 +48,8 @@ def copyFiles(toGithub):
             print("copied " + comFolderPath + name + " to " + githubFolderPath)
 
         #very weird random bug where the sound folder would not be fully moved over - only the AI folder inside - fix that
-        print((githubFolderPath + "Sound\AI"))
-        if not exists(githubFolderPath + "Sound\AI"): #if this folder doesnt exist then the sound folder was not copied properly
-            os.mkdir(githubFolderPath + "Sound\\AI")
+        if not exists(githubFolderPath + "Sound"): #if this folder doesnt exist then the sound folder was not copied properly
+            os.mkdir(githubFolderPath + "Sound")
         
         os.startfile(os.getenv('LOCALAPPDATA') + "\\GitHubDesktop\\GitHubDesktop.exe")
     
