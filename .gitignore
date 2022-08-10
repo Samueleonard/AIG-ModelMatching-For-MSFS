@@ -10,4 +10,6 @@ texture.cfg
 .pln
 oci.alpha\
 oci.lmfromalpha\
-FPDatabase.xml
+\FPDatabase.xml
+aigscript.py
+\oci.xml

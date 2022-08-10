@@ -134,37 +134,37 @@
 			</UseTemplate>
 		</Component>
 	
-		<Component ID="prop0_still_vis" Node="node47_anim_prop0_still">
+		<Component ID="prop0_still_vis" Node="node46_anim_prop0_still">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 		
-		<Component ID="prop1_still_vis" Node="node45_anim_prop1_still">
+		<Component ID="prop1_still_vis" Node="node44_anim_prop1_still">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 		
-		<Component ID="prop0_slow_vis" Node="node40_anim_prop0_slow">
+		<Component ID="prop0_slow_vis" Node="node39_anim_prop0_slow">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 6.25 &gt; (A:PROP RPM:1, percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 		
-		<Component ID="prop1_slow_vis" Node="node43_anim_prop1_slow">
+		<Component ID="prop1_slow_vis" Node="node42_anim_prop1_slow">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 6.25 &gt; (A:PROP RPM:1, percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 		
-		<Component ID="prop0_blurred_vis" Node="node39_anim_prop0_blurred">
+		<Component ID="prop0_blurred_vis" Node="node38_anim_prop0_blurred">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 		
-		<Component ID="prop1_blurred_vis" Node="node42_anim_prop1_blurred">
+		<Component ID="prop1_blurred_vis" Node="node41_anim_prop1_blurred">
 			<UseTemplate Name="ASOBO_GT_Visibility">
 				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
 			</UseTemplate>
