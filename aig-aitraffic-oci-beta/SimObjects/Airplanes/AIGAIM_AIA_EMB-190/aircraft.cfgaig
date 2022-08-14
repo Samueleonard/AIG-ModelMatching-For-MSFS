@@ -1248,3 +1248,21 @@ description=AIA_EMB-190(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAV
+
+[fltsim.67]
+title=AIGAIM_ITA Airways Embraer EMB-190 - opb German Airways
+model=ITY-ITA Airways_opb German Airways
+texture=ITY-ITA Airways_opb German Airways
+atc_id=D-AJHW
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-190
+ui_variation=WDL Aviation GmbH & Co. KG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ERJ190 German Airways.zip
+description=AIA_EMB-190(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY

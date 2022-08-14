@@ -6181,7 +6181,7 @@ ui_manufacturer=FAIB
 ui_type=Boeing 737-800WL
 ui_variation=Malaysia Airlines 9M-FFF (old colours standard)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KPK Filename: faib_738_mas_oc_fsx.zip
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_oc_fsx.zip
 description=FAIB_B737-800WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -11285,3 +11285,219 @@ description=FAIB_B737-800WL-winglets_SN(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNJ
+
+[fltsim.631]
+title=AIGAIM_AirExplore Corendon Airlines Boeing 737-800WL - 'tour operators' (TEMP)
+model=AXE-AirExplore_'tour operators'_temp
+texture=AXE-AirExplore_'tour operators'_temp
+atc_id=OM-FEX
+atc_airline=GALILEO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AXE
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Corendon opb AirExplore 'OM-FEX'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Boeing 737-800WL_Corendon opb AirExplore_FSX.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AXE
+
+[fltsim.632]
+title=AIGAIM_Firefly Boeing 737-800WL
+model=FFM-Firefly
+texture=FFM-Firefly
+atc_id=9M-MLH
+atc_airline=FIREFLY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FFM
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=FlyFirefly Sdn Bhd,
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B738 Firefly.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FFM
+
+[fltsim.633]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - 100th Sticker
+model=MAS-Malaysia Airlines_100th Sticker
+texture=MAS-Malaysia Airlines_100th Sticker
+atc_id=9M-MXY
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXY (Revised new colors/Short Nozzle/'100th Boeing 737' sticker)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_2018_update_fsx.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.634]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - Negaraku Oneworld
+model=MAS-Malaysia Airlines_Negaraku Oneworld
+texture=MAS-Malaysia Airlines_Negaraku Oneworld
+atc_id=9M-MXC
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXH (LN, Wi-Fi dome, Negaraku livery, One world logojet)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_b738_mas_negaraku.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.635]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - Negaraku Wifi Dome
+model=MAS-Malaysia Airlines_Negaraku Wifi Dome
+texture=MAS-Malaysia Airlines_Negaraku Wifi Dome
+atc_id=9M-MXD
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXD (LN, WiFi dome, Negaraku livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_b738_mas_negaraku.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.636]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - Old Titles
+model=MAS-Malaysia Airlines_Old Titles
+texture=MAS-Malaysia Airlines_Old Titles
+atc_id=9M-MLJ
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MLJ (new colours)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_nc_fsx.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.637]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN Negaraku No Wifi Dome
+model=MAS-Malaysia Airlines_SN Negaraku No Wifi Dome
+texture=MAS-Malaysia Airlines_SN Negaraku No Wifi Dome
+atc_id=9M-MXS
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXS (SN, Negaraku livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_b738_mas_negaraku.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.638]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN Negaraku Wifi Dome
+model=MAS-Malaysia Airlines_SN Negaraku Wifi Dome
+texture=MAS-Malaysia Airlines_SN Negaraku Wifi Dome
+atc_id=9M-MXH
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=Boeing
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXH (SN, Wi-Fi dome, Negaraku livery)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_b738_mas_negaraku.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.639]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN No Wifi Dome
+model=MAS-Malaysia Airlines_SN No Wifi Dome
+texture=MAS-Malaysia Airlines_SN No Wifi Dome
+atc_id=9M-MXP
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXP (Revised new colors/Short Nozzle)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_2018_update_fsx.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.640]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN Old Titles No Wifi Dome
+model=MAS-Malaysia Airlines_SN Old Titles No Wifi Dome
+texture=MAS-Malaysia Airlines_SN Old Titles No Wifi Dome
+atc_id=9M-MLP
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MLP (new colours/Short nozzle)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_nc_fsx.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.641]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - SN Old Titles Wifi Dome
+model=MAS-Malaysia Airlines_SN Old Titles Wifi Dome
+texture=MAS-Malaysia Airlines_SN Old Titles Wifi Dome
+atc_id=9M-MXF
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXF (new colours/WiFi antenna/Short Nozzle)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_nc_fsx.zip
+description=FAIB_B737-800WL-winglets_SN(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.642]
+title=AIGAIM_Malaysia Airlines Boeing 737-800WL - Wifi Dome
+model=MAS-Malaysia Airlines_Wifi Dome
+texture=MAS-Malaysia Airlines_Wifi Dome
+atc_id=9M-MXE
+atc_airline=MALAYSIAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=FAIB
+ui_type=Boeing 737-800WL
+ui_variation=Malaysia Airlines 9M-MXE (Revised new colors/Wi-Fi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_738_mas_2018_update_fsx.zip
+description=FAIB_B737-800WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS

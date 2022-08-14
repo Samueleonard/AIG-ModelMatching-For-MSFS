@@ -73,3 +73,22 @@ description=AIG_A330-200F_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
+
+[fltsim.1]
+title=AIGAIM_MASkargo Airbus A330-200F
+model=MASC-MASkargo
+texture=MASC-MASkargo
+atc_id=9M-MUB
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=MASC,MAS
+ui_manufacturer=AIG
+ui_type=Airbus A330-200F
+ui_variation=MASKargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332f_masc.zip
+description=AIG_A330-200F_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS

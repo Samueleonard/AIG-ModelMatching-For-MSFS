@@ -259,3 +259,79 @@ description=AIG_A330-200_PW-PW_OT(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FWI
+
+[fltsim.11]
+title=AIGAIM_Malaysia Airlines Airbus A330-200 - Large #3 Door Wifi Dome
+model=MAS-Malaysia Airlines_Large #3 Door Wifi Dome
+texture=MAS-Malaysia Airlines_Large #3 Door Wifi Dome
+atc_id=9M-MTW
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Malaysia Airlines 9M-MTW (standard livery, large door #3, WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_mas.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.12]
+title=AIGAIM_Malaysia Airlines Airbus A330-200 - Small #3 Door Wifi Dome
+model=MAS-Malaysia Airlines_Small #3 Door Wifi Dome
+texture=MAS-Malaysia Airlines_Small #3 Door Wifi Dome
+atc_id=9M-MTV
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Malaysia Airlines 9M-MTV (standard livery, small door #3, WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_mas.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.13]
+title=AIGAIM_Malaysia Airlines Airbus A330-200 - Negaraku No Wifi Dome
+model=MAS-Malaysia Airlines_Negaraku No Wifi Dome
+texture=MAS-Malaysia Airlines_Negaraku No Wifi Dome
+atc_id=9M-MTX
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Malaysia Airlines 9M-MTX (Negaraku livery, large door #3, no WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_mas.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS
+
+[fltsim.14]
+title=AIGAIM_Malaysia Airlines Airbus A330-200 - Negaraku Wifi Dome
+model=MAS-Malaysia Airlines_Negaraku Wifi Dome
+texture=MAS-Malaysia Airlines_Negaraku Wifi Dome
+atc_id=9M-MTZ
+atc_airline=MALAYSIAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=MAS
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Malaysia Airlines 9M-MTZ (Negaraku livery, small #3 door, WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_mas.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=MAS

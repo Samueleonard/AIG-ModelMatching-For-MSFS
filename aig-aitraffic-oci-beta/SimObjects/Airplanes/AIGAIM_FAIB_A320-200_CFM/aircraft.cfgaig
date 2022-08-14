@@ -5584,3 +5584,129 @@ description=FAIB_A320-200_CFM-CFM(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCM
+
+[fltsim.311]
+title=AIGAIM_ITA Airways Airbus A320-200
+model=ITY-ITA Airways
+texture=ITY-ITA Airways
+atc_id=EI-DTE
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200
+ui_variation=ITA Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_ity_a320_kjm.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.312]
+title=AIGAIM_ITA Airways Airbus A320-200 - Alitalia colors
+model=ITY-ITA Airways_Alitalia colors
+texture=ITY-ITA Airways_Alitalia colors
+atc_id=EI-DSV
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Alitalia EI-DSV 'Primo Levi' (2015 colors)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a320_aza_nc2015_fsx.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.313]
+title=AIGAIM_ITA Airways Airbus A320-200 - Alitalia OC
+model=ITY-ITA Airways_Alitalia OC
+texture=ITY-ITA Airways_Alitalia OC
+atc_id=I-BIKO
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Alitalia I-BIKO 'Georges Bizet'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a320_aza_fsx.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.314]
+title=AIGAIM_ITA Airways Airbus A320-200 - Air One colors
+model=ITY-ITA Airways_Air One colors
+texture=ITY-ITA Airways_Air One colors
+atc_id=EI-DSS
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Air One EI-DSS
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a320_adh_fsx.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.315]
+title=AIGAIM_ITA Airways Airbus A320-200 - Born in 2021
+model=ITY-ITA Airways_Born in 2021
+texture=ITY-ITA Airways_Born in 2021
+atc_id=EI-EIB
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A320-200
+ui_variation=ITA Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A320-200_ITA Airways - Born In 2021_FSX.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.316]
+title=AIGAIM_ITA Airways Airbus A320-200 - Alitalia colors Signatures
+model=ITY-ITA Airways_Alitalia colors Signatures
+texture=ITY-ITA Airways_Alitalia colors Signatures
+atc_id=EI-DTJ
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Alitalia EI-DTJ 'Giovanni Pascoli' (employees signatures)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: faib_a320_aza_nc2015_fsx.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.317]
+title=AIGAIM_Tailwind Airlines Airbus A320-200 - opb Jordan Aviation
+model=TWI-Tailwind Airlines_opb Jordan Aviation
+texture=TWI-Tailwind Airlines_opb Jordan Aviation
+atc_id=JY-JAT
+atc_airline=TAILWIND
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TWI
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A320-200
+ui_variation=Jordan Aviation JY-JAT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai320jav.zip
+description=FAIB_A320-200_CFM-CFM(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TWI

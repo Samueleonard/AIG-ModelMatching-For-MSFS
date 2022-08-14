@@ -389,3 +389,39 @@ description=RFSL_CRJ-1000(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
+
+[fltsim.19]
+title=AIGAIM_ITA Airways Bombardier CRJ-1000 - opb Hibernian Airlines
+model=ITY-ITA Airways_opb Hibernian Airlines
+texture=ITY-ITA Airways_opb Hibernian Airlines
+atc_id=EI-HBA
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,ITYX
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-1000
+ui_variation=Bombardier CRJ1000 RAIL Hibernian Airlines HBN EI-HBA - White
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: HBN_CRJX_HD_P3D.zip
+description=RFSL_CRJ-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
+
+[fltsim.20]
+title=AIGAIM_ITA Airways Bombardier CRJ-1000 - opb Air Nostrum
+model=ITY-ITA Airways_opb Air Nostrum
+texture=ITY-ITA Airways_opb Air Nostrum
+atc_id=EC-MTO
+atc_airline=ITARROW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,ITYX
+ui_manufacturer=Bombardier
+ui_type=Bombardier CRJ-1000
+ui_variation=Bombardier CRJ1000 RAIL Air Nostrum ANE EC-MTO - White - Air Nostrum and Iberia Regional Logos
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: ANE_CRJX_Part 6_HD_P3D.zip
+description=RFSL_CRJ-1000(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY

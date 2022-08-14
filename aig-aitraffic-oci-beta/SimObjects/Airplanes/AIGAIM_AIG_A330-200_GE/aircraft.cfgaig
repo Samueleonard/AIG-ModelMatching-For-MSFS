@@ -649,3 +649,22 @@ description=AIG_A330-200_GE-GE_OT(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
+
+[fltsim.32]
+title=AIGAIM_ITA Airways Airbus A330-200
+model=ITY-ITA Airways
+texture=ITY-ITA Airways
+atc_id=EI-EJO
+atc_airline=ITARROW
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ITY,AZA
+ui_manufacturer=Airbus
+ui_type=Airbus A330-200
+ui_variation=ITA Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_ity_a332_kjm.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ITY
