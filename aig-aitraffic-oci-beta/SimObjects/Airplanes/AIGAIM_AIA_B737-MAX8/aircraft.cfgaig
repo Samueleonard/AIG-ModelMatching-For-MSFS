@@ -192,7 +192,7 @@ ui_manufacturer=Caribbean Airlines
 ui_type=Boeing 737 MAX 8
 ui_variation=Caribbean Airlines
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: aia737max8_caribbean_airlines.zip
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Caribbean Airlines B737-8MAX FSX.zip
 description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -815,3 +815,57 @@ description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
+
+[fltsim.42]
+title=AIGAIM_Neos Boeing 737 MAX 8
+model=NOS-Neos
+texture=NOS-Neos
+atc_id=EI-RZA
+atc_airline=MOONFLOWER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NOS
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Neos S.p.A.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Neos.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NOS
+
+[fltsim.43]
+title=AIGAIM_Norwegian Air Sweden AOC Boeing 737 MAX 8 - SE-RTB 'Elsa Beskow'
+model=NSZ-Norwegian_SE-RTB 'Elsa Beskow'
+texture=NSZ-Norwegian_SE-RTB 'Elsa Beskow'
+atc_id=SE-RTB
+atc_airline=REDNOSE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NSZ,NOZ
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Norwegian Air Shuttle ASA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Norwegian.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NSZ
+
+[fltsim.44]
+title=AIGAIM_Norwegian Air Sweden AOC Boeing 737 MAX 8 - SE-RTC 'Felix Rodriguez de la Fuente'
+model=NSZ-Norwegian_SE-RTC 'Felix Rodriguez de la Fuente'
+texture=NSZ-Norwegian_SE-RTC 'Felix Rodriguez de la Fuente'
+atc_id=SE-RTC
+atc_airline=REDNOSE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NSZ,NOZ
+ui_manufacturer=AI Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=Norwegian Air Shuttle ASA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIA B738 MAX Norwegian.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NSZ

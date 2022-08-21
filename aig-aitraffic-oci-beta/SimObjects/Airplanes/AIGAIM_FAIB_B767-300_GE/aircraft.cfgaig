@@ -123,22 +123,3 @@ description=FAIB_B767-300_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
-
-[fltsim.4]
-title=AIGAIM_Asiana Airlines Boeing 767-300 - Star Alliance
-model=AAR-Asiana Airlines_Star Alliance
-texture=AAR-Asiana Airlines_Star Alliance
-atc_id=HL7516
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=FSX-AI Bureau (FAIB)
-ui_type=Boeing 767-300
-ui_variation=Asiana Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B763_Asiana.zip
-description=FAIB_B767-300_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR

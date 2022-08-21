@@ -95,44 +95,6 @@ isAirTraffic=1
 isUserSelectable=0
 
 [fltsim.4]
-title=AIGAIM_Asiana Airlines Boeing 747-400 - Old Titles
-model=AAR-Asiana Airlines_Old Titles
-texture=AAR-Asiana Airlines_Old Titles
-atc_id=HL7418
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=Asiana Airlines Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 Asiana FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR
-
-[fltsim.5]
-title=AIGAIM_Asiana Airlines Cargo Boeing 747-400 - BDSF Old Titles
-model=AARC-Asiana Airlines Cargo_BDSF Old Titles
-texture=AARC-Asiana Airlines Cargo_BDSF Old Titles
-atc_id=HL7417
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=AARC
-ui_manufacturer=Boeing
-ui_type=Boeing 747-400
-ui_variation=EVA Airways Corporation
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-400 SF Asiana Cargo FSX.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AARC
-
-[fltsim.6]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE
 model=GTI-Atlas Air_GE
 texture=GTI-Atlas Air_GE
@@ -151,7 +113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE Belly logo
 model=GTI-Atlas Air_GE Belly logo
 texture=GTI-Atlas Air_GE Belly logo
@@ -170,7 +132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Atlas Air Boeing 747-400 - GE BCF Belly logo
 model=GTI-Atlas Air_GE BCF Belly logo
 texture=GTI-Atlas Air_GE BCF Belly logo
@@ -189,7 +151,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_China Airlines Boeing 747-400
 model=CAL-China Airlines
 texture=CAL-China Airlines
@@ -208,7 +170,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_China Airlines Boeing 747-400 - Skyteam
 model=CAL-China Airlines_Skyteam
 texture=CAL-China Airlines_Skyteam
@@ -227,7 +189,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAL
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_EVA Air Cargo Boeing 747-400 - BDSF OC Old Titles
 model=EVAC-EVA Air Cargo_BDSF OC Old Titles
 texture=EVAC-EVA Air Cargo_BDSF OC Old Titles
@@ -246,7 +208,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVAC
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Iraqi Airways Boeing 747-400
 model=IAW-Iraqi Airways
 texture=IAW-Iraqi Airways
@@ -265,7 +227,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IAW
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF
 model=CKS-Kalitta Air_GE BCF
 texture=CKS-Kalitta Air_GE BCF
@@ -284,7 +246,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.14]
+[fltsim.12]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF DHL Hybrid black titles
 model=CKS-Kalitta Air_GE BCF DHL Hybrid black titles
 texture=CKS-Kalitta Air_GE BCF DHL Hybrid black titles
@@ -303,7 +265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.15]
+[fltsim.13]
 title=AIGAIM_Kalitta Air Boeing 747-400 - GE BCF White
 model=CKS-Kalitta Air_GE BCF White
 texture=CKS-Kalitta Air_GE BCF White
@@ -322,7 +284,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.16]
+[fltsim.14]
 title=AIGAIM_Suparna Airlines Cargo Boeing 747-400 - BDSF OC (TEMP)
 model=YZRC-Suparna Airlines Cargo_BDSF OC_temp
 texture=YZRC-Suparna Airlines Cargo_BDSF OC_temp
@@ -341,7 +303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=YZRC
 
-[fltsim.17]
+[fltsim.15]
 title=AIGAIM_National Airlines Boeing 747-400 - BCF (TEMP)
 model=NCR-National Airlines_BCF_temp
 texture=NCR-National Airlines_BCF_temp
@@ -360,7 +322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NCR
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
 model=QFA-Qantas_GE OC
 texture=QFA-Qantas_GE OC
@@ -379,7 +341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Rossiya Airlines Boeing 747-400
 model=SDM-Rossiya Airlines
 texture=SDM-Rossiya Airlines
@@ -398,7 +360,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Rossiya Airlines Boeing 747-400 - Tigers together
 model=SDM-Rossiya Airlines_Tigers together
 texture=SDM-Rossiya Airlines_Tigers together
@@ -417,7 +379,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Western Global Airlines Boeing 747-400 - BCF
 model=WGN-Western Global_BCF
 texture=WGN-Western Global_BCF
@@ -436,7 +398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WGN
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_UPS Airlines Boeing 747-400 - BCF
 model=UPS-UPS Airlines_BCF
 texture=UPS-UPS Airlines_BCF
@@ -455,7 +417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF
 model=SVAC-Saudia Cargo_GE BDSF
 texture=SVAC-Saudia Cargo_GE BDSF
@@ -473,3 +435,22 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+
+[fltsim.22]
+title=AIGAIM_Asiana Airlines Cargo Boeing 747-400 - BDSF
+model=AARC-Asiana Airlines Cargo_BDSF
+texture=AARC-Asiana Airlines Cargo_BDSF
+atc_id=HL7417
+atc_airline=ASIANA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=AARC,AAR
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=EVA Airways Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 SF Asiana Cargo FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AAR

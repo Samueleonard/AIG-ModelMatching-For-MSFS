@@ -78,44 +78,6 @@ isUserSelectable=0
 icao_airline=AAR
 
 [fltsim.1]
-title=AIGAIM_Asiana Airlines Boeing 777-200ER - Old Titles
-model=AAR-Asiana Airlines_Old Titles
-texture=AAR-Asiana Airlines_Old Titles
-atc_id=HL7739
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Asiana Airlines Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
-description=TFS_B777-200ER_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR
-
-[fltsim.2]
-title=AIGAIM_Asiana Airlines Boeing 777-200ER - Old Large Titles
-model=AAR-Asiana Airlines_Old Large Titles
-texture=AAR-Asiana Airlines_Old Large Titles
-atc_id=HL7775
-atc_airline=ASIANA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AAR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Asiana Airlines Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777-200ER Asiana FSX.zip
-description=TFS_B777-200ER_PW-pw(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AAR
-
-[fltsim.3]
 title=AIGAIM_Asiana Airlines Boeing 777-200ER - Star Alliance
 model=AAR-Asiana Airlines_Star Alliance
 texture=AAR-Asiana Airlines_Star Alliance
@@ -134,7 +96,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.4]
+[fltsim.2]
 title=AIGAIM_Jin Air Boeing 777-200ER
 model=JNA-Jin Air
 texture=JNA-Jin Air
@@ -153,7 +115,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_Korean Air Boeing 777-200ER
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -172,7 +134,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Omni Air International Boeing 777-200ER (TEMP)
 model=OAE-Omni Air International_temp
 texture=OAE-Omni Air International_temp

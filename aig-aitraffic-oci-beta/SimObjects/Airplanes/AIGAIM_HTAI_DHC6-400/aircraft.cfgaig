@@ -162,25 +162,6 @@ isUserSelectable=0
 icao_airline=MWG
 
 [fltsim.6]
-title=AIGAIM_MASwings Viking Air DHC 6-400 Twin Otter - 50 years
-model=MWG-MASwings_50 years
-texture=MWG-MASwings_50 years
-atc_id=9M-SSA
-atc_airline=MASWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MWG
-ui_manufacturer=HTAI - deHavilland Canada
-ui_type=Viking Air DHC 6-400 Twin Otter
-ui_variation=MASwings Sdn. Berhad
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: DHC6 MASWings FSX.zip
-prop_anim_ratio=-0.2
-description=HTAI_DHC6-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MWG
-
-[fltsim.7]
 title=AIGAIM_Zimex Aviation Viking Air DHC 6-400 Twin Otter - White
 model=IMX-Zimex Aviation_White
 texture=IMX-Zimex Aviation_White

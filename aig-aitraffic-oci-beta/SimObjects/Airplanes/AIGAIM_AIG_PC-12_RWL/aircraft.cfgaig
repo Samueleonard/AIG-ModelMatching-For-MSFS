@@ -834,3 +834,59 @@ description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=GA2T
+
+[fltsim.42]
+title=AIGAIM_Tradewind Aviation Pilatus PC-12 - N816TW
+model=GPD-Tradewind Aviation_N816TW
+texture=GPD-Tradewind Aviation_N816TW
+atc_id=N816TW
+atc_airline=GOODSPEED
+atc_parking_types=RAMP
+atc_parking_codes=GPD
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Tradewind Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Tradewind Aviation PC12 Fleet P3D.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_RWL-raked_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GPD
+
+[fltsim.43]
+title=AIGAIM_Tradewind Aviation Pilatus PC-12 - N82SB
+model=GPD-Tradewind Aviation_N82SB
+texture=GPD-Tradewind Aviation_N82SB
+atc_id=N82SB
+atc_airline=GOODSPEED
+atc_parking_types=RAMP
+atc_parking_codes=GPD
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Tradewind Aviation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Tradewind Aviation PC12 Fleet P3D.zip
+prop_anim_ratio=-0.4
+description=AIG_PC-12_RWL-raked_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GPD
+
+[fltsim.44]
+title=AIGAIM_Tradewind Aviation Pilatus PC-12 - N95GJ
+model=GPD-Tradewind Aviation_N95GJ
+texture=GPD-Tradewind Aviation_N95GJ
+atc_id=N95GJ
+atc_airline=GOODSPEED
+atc_parking_types=RAMP
+atc_parking_codes=GPD
+ui_manufacturer=Pilatus
+ui_type=Pilatus PC-12
+ui_variation=Pilatus PC-12 Raked Winglet AIG Tradewind Aviation GPD N95GJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: GPD_PC12_HD.zip
+description=AIG_PC-12_RWL-Morten_raked_winglet(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GPD
