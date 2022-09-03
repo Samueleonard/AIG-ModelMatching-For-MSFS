@@ -68,3 +68,20 @@ description=OSP_ATR72-210(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AYG
+
+[fltsim.1]
+title=AIGAIM_Danish Air Transport ATR 72-210 - OY-LHC
+model=DTR-Danish Air Transport_OY-LHC
+texture=DTR-Danish Air Transport_OY-LHC
+atc_id=OY-LHC
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-210
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR 72-210_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-210(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR

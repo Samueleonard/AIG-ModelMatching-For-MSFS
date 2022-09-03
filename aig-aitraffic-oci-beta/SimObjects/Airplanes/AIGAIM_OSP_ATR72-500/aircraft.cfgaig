@@ -497,23 +497,6 @@ isUserSelectable=0
 icao_airline=CUB
 
 [fltsim.25]
-title=AIGAIM_Danish Air Transport ATR 72-500 - White
-model=DTR-Danish Air Transport_White
-texture=DTR-Danish Air Transport_White
-atc_id=SE-MDC
-atc_airline=DANISH
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DTR
-ui_manufacturer=Aerospatiale
-ui_type=ATR 72-500
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR 72-500_Danish Air Transport_2021_FSX.zip
-description=OSP_ATR72-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DTR
-
-[fltsim.26]
 title=AIGAIM_Finnair ATR 72-500 - opb NORRA
 model=FIN-Finnair_opb NORRA
 texture=FIN-Finnair_opb NORRA
@@ -532,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FIN
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Firefly ATR 72-500
 model=FFM-Firefly
 texture=FFM-Firefly
@@ -550,7 +533,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFM
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_FlyCAA ATR 72-500
 model=REB-FlyCAA
 texture=REB-FlyCAA
@@ -567,7 +550,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=REB
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Hi Air ATR 72-500 - blue
 model=HGG-Hi Air_blue
 texture=HGG-Hi Air_blue
@@ -585,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HGG
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Hi Air ATR 72-500 - pink
 model=HGG-Hi Air_pink
 texture=HGG-Hi Air_pink
@@ -603,7 +586,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HGG
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Iberia Regional ATR 72-500 - opb DAT Albino
 model=IBEX-Iberia Regional_opb DAT Albino
 texture=IBEX-Iberia Regional_opb DAT Albino
@@ -621,7 +604,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Iberia Regional ATR 72-500 - opb CNF
 model=IBEX-Iberia Regional_opb CNF
 texture=IBEX-Iberia Regional_opb CNF
@@ -638,7 +621,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBEX
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Iran Aseman Airlines ATR 72-500
 model=IRC-Iran Aseman Airlines
 texture=IRC-Iran Aseman Airlines
@@ -656,7 +639,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRC
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Israir Airlines ATR 72-500
 model=ISR-Israir Airlines
 texture=ISR-Israir Airlines
@@ -674,7 +657,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ISR
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Lao Airlines ATR 72-500 - white belly (TEMP)
 model=LAO-Lao Airlines_white belly_temp
 texture=LAO-Lao Airlines_white belly_temp
@@ -692,7 +675,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAO
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_MAP Linhas Aereas ATR 72-500
 model=PAM-MAP Linhas Aereas
 texture=PAM-MAP Linhas Aereas
@@ -711,7 +694,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAM
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_MASwings ATR 72-500 - Negaraku
 model=MWG-MASwings_Negaraku
 texture=MWG-MASwings_Negaraku
@@ -729,7 +712,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_MASwings ATR 72-500 - OC
 model=MWG-MASwings_OC
 texture=MWG-MASwings_OC
@@ -747,7 +730,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.39]
+[fltsim.38]
 title=AIGAIM_Nok Air ATR 72-500 - HS-DRC
 model=NOK-Nok Air_HS-DRC
 texture=NOK-Nok Air_HS-DRC
@@ -765,7 +748,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.40]
+[fltsim.39]
 title=AIGAIM_Nok Air ATR 72-500 - HS-DRD
 model=NOK-Nok Air_HS-DRD
 texture=NOK-Nok Air_HS-DRD
@@ -783,7 +766,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.41]
+[fltsim.40]
 title=AIGAIM_Wings Air ATR 72-500 - Lion Parcel
 model=WON-Wings Air_Lion Parcel
 texture=WON-Wings Air_Lion Parcel
@@ -801,7 +784,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WON
 
-[fltsim.42]
+[fltsim.41]
 title=AIGAIM_Wings Air ATR 72-500 - Lion Parcel Wamena
 model=WON-Wings Air_Lion Parcel Wamena
 texture=WON-Wings Air_Lion Parcel Wamena
@@ -819,7 +802,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WON
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_Wings Air ATR 72-500 - OC
 model=WON-Wings Air_OC
 texture=WON-Wings Air_OC
@@ -837,7 +820,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WON
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_Wings Air ATR 72-500 - OC Lion Parcel
 model=WON-Wings Air_OC Lion Parcel
 texture=WON-Wings Air_OC Lion Parcel
@@ -855,7 +838,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WON
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_Tsaradia ATR 72-500
 model=TDS-Tsaradia
 texture=TDS-Tsaradia
@@ -873,7 +856,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TDS
 
-[fltsim.46]
+[fltsim.45]
 title=AIGAIM_Zimex Aviation Austria ATR 72-500 - opb IMX
 model=AZD-Zimex Aviation Austria_opb IMX
 texture=AZD-Zimex Aviation Austria_opb IMX
@@ -891,7 +874,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZD
 
-[fltsim.47]
+[fltsim.46]
 title=AIGAIM_Pakistan International Airlines ATR 72-500
 model=PIA-Pakistan International Airlines
 texture=PIA-Pakistan International Airlines
@@ -909,7 +892,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
 
-[fltsim.48]
+[fltsim.47]
 title=AIGAIM_Passaredo ATR 72-500
 model=PTB-Passaredo
 texture=PTB-Passaredo
@@ -928,7 +911,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PTB
 
-[fltsim.49]
+[fltsim.48]
 title=AIGAIM_Passaredo ATR 72-500 - White Nose
 model=PTB-Passaredo_White Nose
 texture=PTB-Passaredo_White Nose
@@ -947,7 +930,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PTB
 
-[fltsim.50]
+[fltsim.49]
 title=AIGAIM_Passaredo ATR 72-500 - OC
 model=PTB-Passaredo_OC
 texture=PTB-Passaredo_OC
@@ -966,7 +949,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PTB
 
-[fltsim.51]
+[fltsim.50]
 title=AIGAIM_Poste Air Cargo ATR 72-500
 model=MSA-Poste Air Cargo
 texture=MSA-Poste Air Cargo
@@ -984,7 +967,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSA
 
-[fltsim.52]
+[fltsim.51]
 title=AIGAIM_Poste Air Cargo ATR 72-500 - Poste Italiane Titles
 model=MSA-Poste Air Cargo_Poste Italiane Titles
 texture=MSA-Poste Air Cargo_Poste Italiane Titles
@@ -1002,7 +985,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSA
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Precision Air ATR 72-500
 model=PRF-Precision Air
 texture=PRF-Precision Air
@@ -1020,7 +1003,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PRF
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_Yangon Airways ATR 72-500
 model=AYG-Yangon Airways
 texture=AYG-Yangon Airways
@@ -1037,7 +1020,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AYG
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_VASCO ATR 72-500
 model=VFC-VASCO
 texture=VFC-VASCO
@@ -1056,7 +1039,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VFC
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_VASCO ATR 72-500 - Vietnam Airlines OC
 model=VFC-VASCO_Vietnam Airlines OC
 texture=VFC-VASCO_Vietnam Airlines OC
@@ -1074,7 +1057,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VFC
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Uep Fly ATR 72-500
 model=SWT-Uep Fly
 texture=SWT-Uep Fly
@@ -1093,7 +1076,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_UTair ATR 72-500 - OC
 model=UTA-UTair_OC
 texture=UTA-UTair_OC
@@ -1110,7 +1093,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UTA
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Trujet ATR 72-500
 model=TRJ-Trujet
 texture=TRJ-Trujet
@@ -1128,7 +1111,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRJ
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Trujet ATR 72-500 - No ATR Titles
 model=TRJ-Trujet_No ATR Titles
 texture=TRJ-Trujet_No ATR Titles
@@ -1146,7 +1129,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRJ
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_TAROM ATR 72-500
 model=ROT-TAROM
 texture=ROT-TAROM
@@ -1164,7 +1147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Swiftair ATR 72-500 - Freighter
 model=SWT-Swiftair_Freighter
 texture=SWT-Swiftair_Freighter
@@ -1183,7 +1166,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Swiftair ATR 72-500
 model=SWT-Swiftair
 texture=SWT-Swiftair
@@ -1202,7 +1185,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_Swiftair ATR 72-500 - no titles
 model=SWT-Swiftair_no titles
 texture=SWT-Swiftair_no titles
@@ -1221,7 +1204,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWT
 
-[fltsim.65]
+[fltsim.64]
 title=AIGAIM_Sky Express ATR 72-500 - OC SX-FIV (TEMP)
 model=SEH-Sky Express_OC SX-FIV_temp
 texture=SEH-Sky Express_OC SX-FIV_temp
@@ -1239,7 +1222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEH
 
-[fltsim.66]
+[fltsim.65]
 title=AIGAIM_Sky Express ATR 72-500 - OC SX-ONE (TEMP)
 model=SEH-Sky Express_OC SX-ONE_temp
 texture=SEH-Sky Express_OC SX-ONE_temp
@@ -1257,7 +1240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEH
 
-[fltsim.67]
+[fltsim.66]
 title=AIGAIM_Sky Express ATR 72-500 - OC SX-THR (TEMP)
 model=SEH-Sky Express_OC SX-THR_temp
 texture=SEH-Sky Express_OC SX-THR_temp
@@ -1275,7 +1258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEH
 
-[fltsim.68]
+[fltsim.67]
 title=AIGAIM_Firefly ATR 72-500 - Cuti Cuti Malaysia
 model=FFM-Firefly_Cuti Cuti Malaysia
 texture=FFM-Firefly_Cuti Cuti Malaysia
@@ -1293,7 +1276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFM
 
-[fltsim.69]
+[fltsim.68]
 title=AIGAIM_Firefly ATR 72-500 - Jom Jalan
 model=FFM-Firefly_Jom Jalan
 texture=FFM-Firefly_Jom Jalan
@@ -1311,7 +1294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFM
 
-[fltsim.70]
+[fltsim.69]
 title=AIGAIM_MASwings ATR 72-500 - Cuti Cuti Malaysia
 model=MWG-MASwings_Cuti Cuti Malaysia
 texture=MWG-MASwings_Cuti Cuti Malaysia
@@ -1329,7 +1312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.71]
+[fltsim.70]
 title=AIGAIM_MASwings ATR 72-500 - Negaraku Sarawak
 model=MWG-MASwings_Negaraku Sarawak
 texture=MWG-MASwings_Negaraku Sarawak
@@ -1347,7 +1330,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.72]
+[fltsim.71]
 title=AIGAIM_MASwings ATR 72-500 - Sarawak
 model=MWG-MASwings_Sarawak
 texture=MWG-MASwings_Sarawak
@@ -1364,3 +1347,20 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
+
+[fltsim.72]
+title=AIGAIM_Danish Air Transport ATR 72-500 - SE-MDC 'All White'
+model=DTR-Danish Air Transport_SE-MDC 'All White'
+texture=DTR-Danish Air Transport_SE-MDC 'All White'
+atc_id=SE-MDC
+atc_airline=DANISH
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DTR
+ui_manufacturer=Aerospatiale
+ui_type=ATR 72-500
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: OSP_ATR 72-500_Danish Air Transport_2021_FSX.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DTR

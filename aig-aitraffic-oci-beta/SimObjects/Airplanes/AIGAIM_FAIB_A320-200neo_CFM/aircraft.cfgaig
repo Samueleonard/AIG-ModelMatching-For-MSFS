@@ -2636,3 +2636,21 @@ description=FAIB_A320-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
+
+[fltsim.145]
+title=AIGAIM_PLAY Airbus A320-200neo
+model=FPY-PLAY
+texture=FPY-PLAY
+atc_id=TF-PPA
+atc_airline=PLAYER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FPY
+ui_manufacturer=FAIB - Airbus
+ui_type=Airbus A320-200neo
+ui_variation=PLAY
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Airbus A320-200neo PLAY_FSX.zip
+description=FAIB_A320-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FPY
