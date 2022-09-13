@@ -7,9 +7,10 @@ aig-aitraffic-oci-beta.7z
 *.png.json
 model.cfg
 texture.cfg
-.pln
+*.pln
 oci.alpha\
 oci.lmfromalpha\
-\FPDatabase.xml
+FPDatabase.xml
 aigscript.py
 \oci.xml
+*.AIGFP

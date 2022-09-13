@@ -169,7 +169,7 @@ atc_airline=CHINA SOUTHERN
 atc_parking_types=GATE,RAMP
 atc_parking_codes=CSN
 ui_manufacturer=Boeing
-ui_type=B737-800
+ui_type=Boeing 737-800
 ui_variation=China Southern
 ui_typerole=Commercial Airliner
 ui_createdby=Provided by: AVSIM Filename: faib_b738w_csn_skyteam.zip
@@ -341,42 +341,6 @@ isUserSelectable=0
 icao_airline=CHH
 
 [fltsim.17]
-title=AIGAIM_Jeju Air Boeing 737-800 - Stones Eyebrows
-model=JJA-Jeju Air_Stones Eyebrows
-texture=JJA-Jeju Air_Stones Eyebrows
-atc_id=HL7780
-atc_airline=JEJU AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JJA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800
-ui_variation=Jeju Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
-description=FAIB_B737-800(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JJA
-
-[fltsim.18]
-title=AIGAIM_Jeju Air Boeing 737-800 - OC
-model=JJA-Jeju Air_OC
-texture=JJA-Jeju Air_OC
-atc_id=HL8239
-atc_airline=JEJU AIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=JJA
-ui_manufacturer=Boeing
-ui_type=Boeing 737-800
-ui_variation=Jeju Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FSAI Filename: faib_jja_boeing_738.zip
-description=FAIB_B737-800(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JJA
-
-[fltsim.19]
 title=AIGAIM_Jet2com Boeing 737-800 - Jet2 Holidays
 model=EXS-Jet2com_Jet2 Holidays
 texture=EXS-Jet2com_Jet2 Holidays
@@ -393,7 +357,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Jet2com Boeing 737-800 - Jet2 Holidays no tail logo
 model=EXS-Jet2com_Jet2 Holidays no tail logo
 texture=EXS-Jet2com_Jet2 Holidays no tail logo
@@ -410,7 +374,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EXS
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Jin Air Boeing 737-800 - Eyebrows
 model=JNA-Jin Air_Eyebrows
 texture=JNA-Jin Air_Eyebrows
@@ -428,7 +392,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Jin Air Boeing 737-800 - OC Eyebrows
 model=JNA-Jin Air_OC Eyebrows
 texture=JNA-Jin Air_OC Eyebrows
@@ -446,7 +410,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Jin Air Boeing 737-800 - OC Eyebrows Niniz
 model=JNA-Jin Air_OC Eyebrows Niniz
 texture=JNA-Jin Air_OC Eyebrows Niniz
@@ -464,7 +428,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JNA
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_MyWay Airlines Boeing 737-800
 model=MYW-MyWay Airlines
 texture=MYW-MyWay Airlines
@@ -482,7 +446,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MYW
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Sun Country Airlines Boeing 737-800 - OC
 model=SCX-Sun Country Airlines_OC
 texture=SCX-Sun Country Airlines_OC
@@ -500,7 +464,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SCX
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-800 - Star Alliance
 model=SAS-SAS Scandinavian Airlines_Star Alliance
 texture=SAS-SAS Scandinavian Airlines_Star Alliance
@@ -518,7 +482,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Shanghai Airlines Boeing 737-800
 model=CSH-Shanghai Airlines
 texture=CSH-Shanghai Airlines
@@ -535,7 +499,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_SpiceXpress Boeing 737-800 - BCF
 model=SEJC-SpiceXpress_BCF
 texture=SEJC-SpiceXpress_BCF

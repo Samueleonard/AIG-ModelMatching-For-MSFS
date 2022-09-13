@@ -3476,42 +3476,6 @@ isUserSelectable=0
 icao_airline=SAA
 
 [fltsim.193]
-title=AIGAIM_Spirit Airlines Airbus A320-200 - OC Yellow
-model=NKS-Spirit Airlines_OC Yellow
-texture=NKS-Spirit Airlines_OC Yellow
-atc_id=N606NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
-description=FAIB_A320-200_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.194]
-title=AIGAIM_Spirit Airlines Airbus A320-200 - OC Yellow new Engine Titles
-model=NKS-Spirit Airlines_OC Yellow new Engine Titles
-texture=NKS-Spirit Airlines_OC Yellow new Engine Titles
-atc_id=N602NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
-description=FAIB_A320-200_IAE-IAE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.195]
 title=AIGAIM_ATA Airlines Airbus A320-200 - Iranian Football Team
 model=TBZ-ATA Airlines_Iranian Football Team
 texture=TBZ-ATA Airlines_Iranian Football Team
@@ -3529,7 +3493,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBZ
 
-[fltsim.196]
+[fltsim.194]
 title=AIGAIM_Pacific Airlines Airbus A320-200
 model=PIC-Pacific Airlines
 texture=PIC-Pacific Airlines
@@ -3547,7 +3511,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIC
 
-[fltsim.197]
+[fltsim.195]
 title=AIGAIM_Corendon Airlines Europe Airbus A320-200 - IAE opb DAT mainly white
 model=CXI-Corendon Airlines Europe_IAE opb DAT mainly white
 texture=CXI-Corendon Airlines Europe_IAE opb DAT mainly white
@@ -3565,7 +3529,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.198]
+[fltsim.196]
 title=AIGAIM_Corendon Airlines Europe Airbus A320-200 - IAE opb Global Airways all white (TEMP)
 model=CXI-Corendon Airlines Europe_IAE opb Global Airways all white_temp
 texture=CXI-Corendon Airlines Europe_IAE opb Global Airways all white_temp
@@ -3583,7 +3547,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXI
 
-[fltsim.199]
+[fltsim.197]
 title=AIGAIM_Corendon Airlines Airbus A320-200 - IAE opb GetJet Airlines (TEMP)
 model=CAI-Corendon Airlines_IAE opb GetJet Airlines_temp
 texture=CAI-Corendon Airlines_IAE opb GetJet Airlines_temp
@@ -3600,3 +3564,75 @@ description=FAIB_A320-200_IAE-IAE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAI
+
+[fltsim.198]
+title=AIGAIM_Spirit Airlines Airbus A320-200 - OC
+model=NKS-Spirit Airlines_OC
+texture=NKS-Spirit Airlines_OC
+atc_id=N607NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.199]
+title=AIGAIM_Spirit Airlines Airbus A320-200 - Wifi
+model=NKS-Spirit Airlines_Wifi
+texture=NKS-Spirit Airlines_Wifi
+atc_id=N698NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.200]
+title=AIGAIM_Spirit Airlines Airbus A320-200 - OC Wifi
+model=NKS-Spirit Airlines_OC Wifi
+texture=NKS-Spirit Airlines_OC Wifi
+atc_id=N605NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.201]
+title=AIGAIM_Spirit Airlines Airbus A320-200 - OC Wifi new engine titles
+model=NKS-Spirit Airlines_OC Wifi new engine titles
+texture=NKS-Spirit Airlines_OC Wifi new engine titles
+atc_id=N615NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320_jkm.zip
+description=FAIB_A320-200_IAE-IAE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS

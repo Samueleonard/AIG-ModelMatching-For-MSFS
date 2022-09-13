@@ -1717,78 +1717,6 @@ isUserSelectable=0
 icao_airline=SGQ
 
 [fltsim.94]
-title=AIGAIM_Spirit Airlines Airbus A320-200SL
-model=NKS-Spirit Airlines
-texture=NKS-Spirit Airlines
-atc_id=N618NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.95]
-title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow
-model=NKS-Spirit Airlines_OC Yellow
-texture=NKS-Spirit Airlines_OC Yellow
-atc_id=N690NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.96]
-title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Yellow new Engine Titles
-model=NKS-Spirit Airlines_OC Yellow new Engine Titles
-texture=NKS-Spirit Airlines_OC Yellow new Engine Titles
-atc_id=N622NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.97]
-title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Blue
-model=NKS-Spirit Airlines_OC Blue
-texture=NKS-Spirit Airlines_OC Blue
-atc_id=N630NK
-atc_airline=SPIRIT WINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NKS
-ui_manufacturer=FAIB
-ui_type=Airbus A320-200SL
-ui_variation=Spirit Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
-description=FAIB_A320-200SL_IAE-IAE_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NKS
-
-[fltsim.98]
 title=AIGAIM_Pacific Airlines Airbus A320-200SL
 model=PIC-Pacific Airlines
 texture=PIC-Pacific Airlines
@@ -1806,7 +1734,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIC
 
-[fltsim.99]
+[fltsim.95]
 title=AIGAIM_Pacific Airlines Airbus A320-200SL - VN-A573
 model=PIC-Pacific Airlines_VN-A573
 texture=PIC-Pacific Airlines_VN-A573
@@ -1823,3 +1751,75 @@ description=FAIB_A320-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIC
+
+[fltsim.96]
+title=AIGAIM_Spirit Airlines Airbus A320-200SL - Wifi
+model=NKS-Spirit Airlines_Wifi
+texture=NKS-Spirit Airlines_Wifi
+atc_id=N626NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.97]
+title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Wifi
+model=NKS-Spirit Airlines_OC Wifi
+texture=NKS-Spirit Airlines_OC Wifi
+atc_id=N655NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.98]
+title=AIGAIM_Spirit Airlines Airbus A320-200SL - OC Wifi new engine titles
+model=NKS-Spirit Airlines_OC Wifi new engine titles
+texture=NKS-Spirit Airlines_OC Wifi new engine titles
+atc_id=N642NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
+
+[fltsim.99]
+title=AIGAIM_Spirit Airlines Airbus A320-200SL - OOC Wifi
+model=NKS-Spirit Airlines_OOC Wifi
+texture=NKS-Spirit Airlines_OOC Wifi
+atc_id=N630NK
+atc_airline=SPIRIT WINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NKS
+ui_manufacturer=FAIB
+ui_type=Airbus A320-200SL
+ui_variation=Spirit Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_nks_a320sl_jkm.zip
+description=FAIB_A320-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NKS
