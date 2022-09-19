@@ -100,22 +100,3 @@ description=FAIB_B747-8I(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
-
-[fltsim.4]
-title=AIGAIM_Lufthansa Boeing 747-8I - OC 1500th 747
-model=DLH-Lufthansa_OC 1500th 747
-texture=DLH-Lufthansa_OC 1500th 747
-atc_id=D-ABYO
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=Boeing
-ui_type=Boeing 747-8I
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B747-8I Lufthansa FSX.zip
-description=FAIB_B747-8I(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH

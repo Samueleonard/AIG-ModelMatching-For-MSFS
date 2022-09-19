@@ -349,24 +349,6 @@ isUserSelectable=0
 icao_airline=SJY
 
 [fltsim.18]
-title=AIGAIM_iAero Airways Boeing 737-300 - Swiftair Hybrid
-model=SWQ-iAero Airways_Swiftair Hybrid
-texture=SWQ-iAero Airways_Swiftair Hybrid
-atc_id=N529AU
-atc_airline=SWIFTFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=SWQ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-300
-ui_variation=iAero Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_swqhybrid_b733_kjm.zip
-description=FAIB_B737-300-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWQ
-
-[fltsim.19]
 title=AIGAIM_Asia Cargo Airlines Boeing 737-300 - SF Albino
 model=TMG-Asia Cargo Airlines_SF Albino
 texture=TMG-Asia Cargo Airlines_SF Albino
@@ -381,7 +363,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TMG
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Asia Cargo Airlines Boeing 737-300 - SF eyebrows CKB Logistics
 model=TMG-Asia Cargo Airlines_SF eyebrows CKB Logistics
 texture=TMG-Asia Cargo Airlines_SF eyebrows CKB Logistics
