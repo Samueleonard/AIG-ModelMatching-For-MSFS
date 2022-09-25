@@ -284,3 +284,41 @@ description=FAIB_B747-400_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=PLM
+
+[fltsim.14]
+title=AIGAIM_Aerotranscargo Boeing 747-400 - BDSF
+model=ATG-Aerotranscargo_BDSF
+texture=ATG-Aerotranscargo_BDSF
+atc_id=ER-JAI
+atc_airline=MOLDCARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ATG
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=ATG-Aerotranscargo ER-BBB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATG-Aerotranscargo FAIB B744PW.zip
+description=FAIB_B747-400_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATG
+
+[fltsim.15]
+title=AIGAIM_Aerotranscargo Boeing 747-400 - BDSF ER-JAI
+model=ATG-Aerotranscargo_BDSF ER-JAI
+texture=ATG-Aerotranscargo_BDSF ER-JAI
+atc_id=ER-JAI
+atc_airline=MOLDCARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ATG
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=ATG-Aerotranscargo ER-JAI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ATG-Aerotranscargo FAIB B744PW.zip
+description=FAIB_B747-400_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ATG

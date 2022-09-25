@@ -322,42 +322,6 @@ isUserSelectable=0
 icao_airline=BAW
 
 [fltsim.16]
-title=AIGAIM_easyJet Airbus A321-200neo - ACF No Flag
-model=EZY-easyJet_ACF No Flag
-texture=EZY-easyJet_ACF No Flag
-atc_id=G-EZUMB
-atc_airline=EASY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EZY
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=EasyJet Airline Company Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
-description=FAIB_A321-200neo_CFM-CFML_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EZY
-
-[fltsim.17]
-title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion No Flag
-model=EZY-easyJet_ACF NEO Promotion No Flag
-texture=EZY-easyJet_ACF NEO Promotion No Flag
-atc_id=G-EZUMA
-atc_airline=EASY
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EZY
-ui_manufacturer=Airbus
-ui_type=Airbus A321-200neo
-ui_variation=EasyJet Airline Company Limited
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
-description=FAIB_A321-200neo_CFM-CFML_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EZY
-
-[fltsim.18]
 title=AIGAIM_Gulf Air Airbus A321-200neo - 70th Anniversary
 model=GFA-Gulf Air_70th Anniversary
 texture=GFA-Gulf Air_70th Anniversary
@@ -374,7 +338,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Gulf Air Airbus A321-200neo - 70th Anniversary Retro 1976
 model=GFA-Gulf Air_70th Anniversary Retro 1976
 texture=GFA-Gulf Air_70th Anniversary Retro 1976
@@ -391,7 +355,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GFA
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_IndiGo Airbus A321-200neo - CFM
 model=IGO-IndiGo_CFM
 texture=IGO-IndiGo_CFM
@@ -409,7 +373,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGO
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Peach Aviation Airbus A321-200neo
 model=APJ-Peach Aviation
 texture=APJ-Peach Aviation
@@ -427,7 +391,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APJ
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_SriLankan Airlines Airbus A321-200neo
 model=ALK-SriLankan Airlines
 texture=ALK-SriLankan Airlines
@@ -444,7 +408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKA
 model=NVR-Novair_SE-RKA
 texture=NVR-Novair_SE-RKA
@@ -462,7 +426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Novair Airbus A321-200neo - SE-RKB
 model=NVR-Novair_SE-RKB
 texture=NVR-Novair_SE-RKB
@@ -480,7 +444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NVR
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Pegasus Airlines Airbus A321-200neo
 model=PGT-Pegasus Airlines
 texture=PGT-Pegasus Airlines
@@ -498,7 +462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_Vistara Airbus A321-200neo
 model=VTI-Vistara
 texture=VTI-Vistara
@@ -515,7 +479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Thai AirAsia Airbus A321-200neo - ACF A321neo
 model=AIQ-Thai AirAsia_ACF A321neo
 texture=AIQ-Thai AirAsia_ACF A321neo
@@ -533,7 +497,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -551,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.29]
+[fltsim.27]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -569,7 +533,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.30]
+[fltsim.28]
 title=AIGAIM_SalamAir Airbus A321-200neo
 model=OMS-SalamAir
 texture=OMS-SalamAir
@@ -587,7 +551,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMS
 
-[fltsim.31]
+[fltsim.29]
 title=AIGAIM_Starlux Airlines Airbus A321-200neo - ACF
 model=SJX-Starlux Airlines_ACF
 texture=SJX-Starlux Airlines_ACF
@@ -605,7 +569,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJX
 
-[fltsim.32]
+[fltsim.30]
 title=AIGAIM_Ural Airlines Airbus A321-200neo
 model=SVR-Ural Airlines
 texture=SVR-Ural Airlines
@@ -623,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.33]
+[fltsim.31]
 title=AIGAIM_Air Busan Airbus A321-200neo
 model=ABL-Air Busan
 texture=ABL-Air Busan
@@ -641,7 +605,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABL
 
-[fltsim.34]
+[fltsim.32]
 title=AIGAIM_Asiana Airlines Airbus A321-200neo
 model=AAR-Asiana Airlines
 texture=AAR-Asiana Airlines
@@ -659,7 +623,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.35]
+[fltsim.33]
 title=AIGAIM_PLAY Airbus A321-200neo
 model=FPY-PLAY
 texture=FPY-PLAY
@@ -676,3 +640,75 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPY
+
+[fltsim.34]
+title=AIGAIM_easyJet Europe Airbus A321-200neo - ACF
+model=EJU-easyJet Europe_ACF
+texture=EJU-easyJet Europe_ACF
+atc_id=OE-ISE
+atc_airline=ALPINE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EJU
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=easyJet Europe Airline GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet Europe.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EJU
+
+[fltsim.35]
+title=AIGAIM_easyJet Airbus A321-200neo - ACF
+model=EZY-easyJet_ACF
+texture=EZY-easyJet_ACF
+atc_id=G-EZUMB
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=EasyJet Airline Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.36]
+title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion
+model=EZY-easyJet_ACF NEO Promotion
+texture=EZY-easyJet_ACF NEO Promotion
+atc_id=G-EZUMA
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=EasyJet Airline Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY
+
+[fltsim.37]
+title=AIGAIM_easyJet Airbus A321-200neo - ACF Paul Green
+model=EZY-easyJet_ACF Paul Green
+texture=EZY-easyJet_ACF Paul Green
+atc_id=G-EZUMG
+atc_airline=EASY
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EZY
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=EasyJet Airline Company Limited
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321NEO Easyjet.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EZY

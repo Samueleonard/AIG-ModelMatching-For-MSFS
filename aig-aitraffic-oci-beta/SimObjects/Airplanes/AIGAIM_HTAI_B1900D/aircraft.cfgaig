@@ -690,3 +690,21 @@ description=HTAI_B1900D(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIP
+
+[fltsim.36]
+title=AIGAIM_Twin Jet Raytheon Beechcraft 1900D
+model=TJT-Twin Jet
+texture=TJT-Twin Jet
+atc_id=F-GLND
+atc_airline=TWINJET
+atc_parking_types=RAMP
+atc_parking_codes=TJT
+ui_manufacturer=BEECHCRAFT
+ui_type=Beechcraft 1900D
+ui_variation=Twin Jet F-GLND
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: htai_b190_tjt.zip
+description=HTAI_B1900D(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TJT

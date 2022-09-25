@@ -1370,3 +1370,39 @@ description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VAG
+
+[fltsim.75]
+title=AIGAIM_Condor Airbus A321-200SL - Grey SL Root
+model=CFG-Condor_Grey SL Root
+texture=CFG-Condor_Grey SL Root
+atc_id=D-ATCE
+atc_airline=CONDOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Condor Flugdienst GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Condor FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
+
+[fltsim.76]
+title=AIGAIM_Condor Airbus A321-200SL - Wifi dome
+model=CFG-Condor_Wifi dome
+texture=CFG-Condor_Wifi dome
+atc_id=D-ATCB
+atc_airline=CONDOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CFG
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200SL
+ui_variation=Condor Flugdienst GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Condor FSX.zip
+description=FAIB_A321-200SL_CFM-CFMC_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CFG
