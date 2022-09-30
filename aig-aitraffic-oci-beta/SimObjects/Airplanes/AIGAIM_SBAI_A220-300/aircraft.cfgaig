@@ -345,3 +345,38 @@ description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MXY
+
+[fltsim.17]
+title=AIGAIM_Air France Airbus A220-300
+model=AFR-Air France
+texture=AFR-Air France
+atc_id=F-HZUF
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=AIRBUS
+ui_type=Airbus A220-300
+ui_variation=Air France F-HZUF 'Saint-Tropez'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: sbai_a220_afr.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.18]
+title=AIGAIM_Delta Air Lines Airbus A220-300
+model=DAL-Delta Air Lines
+texture=DAL-Delta Air Lines
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Delta Air Lines, Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-300 Delta Air Lines.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

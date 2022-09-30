@@ -78,25 +78,6 @@ isUserSelectable=0
 icao_airline=ETD
 
 [fltsim.1]
-title=AIGAIM_KLM Boeing 787-10 - 100th Anniversary
-model=KLM-KLM_100th Anniversary
-texture=KLM-KLM_100th Anniversary
-atc_id=PH-BKA
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=UTT - Boeing
-ui_type=Boeing 787-10
-ui_variation=KLM - PH-BKA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai78xklm.zip
-description=UTT_B787-10_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.2]
 title=AIGAIM_KLM Boeing 787-10
 model=KLM-KLM
 texture=KLM-KLM
@@ -115,7 +96,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Vietnam Airlines Boeing 787-10
 model=HVN-Vietnam Airlines
 texture=HVN-Vietnam Airlines
@@ -134,7 +115,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Vietnam Airlines Boeing 787-10 - 100th Aircraft
 model=HVN-Vietnam Airlines_100th Aircraft
 texture=HVN-Vietnam Airlines_100th Aircraft
@@ -153,7 +134,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_United Airlines Boeing 787-10
 model=UAL-United Airlines
 texture=UAL-United Airlines
@@ -172,7 +153,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_United Airlines Boeing 787-10 - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -191,7 +172,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Saudia Boeing 787-10
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -209,3 +190,22 @@ description=UTT_B787-10_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
+
+[fltsim.7]
+title=AIGAIM_KLM Boeing 787-10 - 100 Years
+model=KLM-KLM_100 Years
+texture=KLM-KLM_100 Years
+atc_id=PH-BKA
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=UTT - Boeing
+ui_type=Boeing 787-10
+ui_variation=KLM - PH-BKA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai78xklm.zip
+description=UTT_B787-10_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

@@ -216,7 +216,7 @@ ui_manufacturer=AIG
 ui_type=Airbus A330-200
 ui_variation=Air France OC
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: aig_a332_afr.zip
+ui_createdby=Provided by: FC75 Filename: aig_a332_afr_2022.zip
 description=AIG_A330-200_GE-GE_OT(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -334,44 +334,6 @@ isUserSelectable=0
 icao_airline=IAW
 
 [fltsim.15]
-title=AIGAIM_KLM Airbus A330-200 - aft Sat
-model=KLM-KLM_aft Sat
-texture=KLM-KLM_aft Sat
-atc_id=PH-AOA
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-200
-ui_variation=KLM - PH-AOA
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.16]
-title=AIGAIM_KLM Airbus A330-200 - OC aft Sat
-model=KLM-KLM_OC aft Sat
-texture=KLM-KLM_OC aft Sat
-atc_id=PH-AOB
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=AIG - Airbus
-ui_type=Airbus A330-200
-ui_variation=KLM - PH-AOB
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.17]
 title=AIGAIM_Level Airbus A330-200 - 242t opb Iberia
 model=IBE-Level_242t opb Iberia
 texture=IBE-Level_242t opb Iberia
@@ -390,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Lufthansa Airbus A330-200 - opb EWG (TEMP)
 model=DLH-Lufthansa_opb EWG_temp
 texture=DLH-Lufthansa_opb EWG_temp
@@ -408,7 +370,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Qantas Airbus A330-200
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -427,7 +389,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Qantas Airbus A330-200 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
@@ -446,7 +408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Qantas Airbus A330-200 - OC No Engine Logo
 model=QFA-Qantas_OC No Engine Logo
 texture=QFA-Qantas_OC No Engine Logo
@@ -465,7 +427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Qantas Airbus A330-200 - OC One World
 model=QFA-Qantas_OC One World
 texture=QFA-Qantas_OC One World
@@ -484,7 +446,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Qantas Airbus A330-200 - OC Wifi Dome
 model=QFA-Qantas_OC Wifi Dome
 texture=QFA-Qantas_OC Wifi Dome
@@ -503,7 +465,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Qantas Airbus A330-200 - OT OC Wifi Dome
 model=QFA-Qantas_OT OC Wifi Dome
 texture=QFA-Qantas_OT OC Wifi Dome
@@ -522,7 +484,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Qatar Airways Airbus A330-200
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -540,7 +502,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_Qatar Cargo Airbus A330-200 - Pax
 model=QTRC-Qatar Airways Cargo_Pax
 texture=QTRC-Qatar Airways Cargo_Pax
@@ -558,7 +520,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Belly Logo
 model=THY-Turkish Airlines_GE Belly Logo
 texture=THY-Turkish Airlines_GE Belly Logo
@@ -576,7 +538,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Retrojet
 model=THY-Turkish Airlines_GE Retrojet
 texture=THY-Turkish Airlines_GE Retrojet
@@ -594,7 +556,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.29]
+[fltsim.27]
 title=AIGAIM_TAP Air Portugal Airbus A330-200 - GE IC
 model=TAP-TAP Air Portugal_GE IC
 texture=TAP-TAP Air Portugal_GE IC
@@ -613,7 +575,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.30]
+[fltsim.28]
 title=AIGAIM_Serene Air Airbus A330-200
 model=SEP-Serene Air
 texture=SEP-Serene Air
@@ -632,7 +594,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEP
 
-[fltsim.31]
+[fltsim.29]
 title=AIGAIM_Air Transat Airbus A330-200 - OT White opb HFM
 model=TSC-Air Transat_OT White opb HFM
 texture=TSC-Air Transat_OT White opb HFM
@@ -650,7 +612,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.32]
+[fltsim.30]
 title=AIGAIM_ITA Airways Airbus A330-200
 model=ITY-ITA Airways
 texture=ITY-ITA Airways
@@ -668,3 +630,98 @@ description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ITY
+
+[fltsim.31]
+title=AIGAIM_Air France Airbus A330-200 - OT NCv2
+model=AFR-Air France_OT NCv2
+texture=AFR-Air France_OT NCv2
+atc_id=F-GZCG
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air France F-GZCG 'Saint-Nazaire' (NC V2)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_afr_2022.zip
+description=AIG_A330-200_GE-GE_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.32]
+title=AIGAIM_Air France Airbus A330-200 - OT NCv1
+model=AFR-Air France_OT NCv1
+texture=AFR-Air France_OT NCv1
+atc_id=F-GZCB
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air France F-GZCB 'Chantilly' (NC V1)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_afr_2022.zip
+description=AIG_A330-200_GE-GE_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.33]
+title=AIGAIM_Air France Airbus A330-200 - OT OC Revised
+model=AFR-Air France_OT OC Revised
+texture=AFR-Air France_OT OC Revised
+atc_id=F-GZCF
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Air France F-GZCF 'Avignon' (Revised OC)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_afr_2022.zip
+description=AIG_A330-200_GE-GE_OT(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.34]
+title=AIGAIM_KLM Airbus A330-200
+model=KLM-KLM
+texture=KLM-KLM
+atc_id=PH-AOA
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-200
+ui_variation=KLM - PH-AOA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.35]
+title=AIGAIM_KLM Airbus A330-200 - OC
+model=KLM-KLM_OC
+texture=KLM-KLM_OC
+atc_id=PH-AOB
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=AIG - Airbus
+ui_type=Airbus A330-200
+ui_variation=KLM - PH-AOB
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai332klm_aig.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

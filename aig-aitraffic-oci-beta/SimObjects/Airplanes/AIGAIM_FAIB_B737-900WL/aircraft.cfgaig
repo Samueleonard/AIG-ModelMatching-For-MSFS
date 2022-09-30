@@ -56,24 +56,6 @@ isUserSelectable=0
 icao_airline=KLM
 
 [fltsim.1]
-title=AIGAIM_KLM Boeing 737-900WL - Skyteam
-model=KLM-KLM_Skyteam
-texture=KLM-KLM_Skyteam
-atc_id=PH-BXO
-atc_airline=KLM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-900WL
-ui_variation=KLM - PH-BXO
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai739klm_fsx.zip
-description=FAIB_B737-900WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.2]
 title=AIGAIM_Okay Airways Boeing 737-900WL - SN
 model=OKA-Okay Airways_SN
 texture=OKA-Okay Airways_SN
@@ -91,7 +73,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OKA
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Oman Air Boeing 737-900WL
 model=OMA-Oman Air
 texture=OMA-Oman Air
@@ -109,7 +91,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Fly Baghdad Boeing 737-900WL
 model=FBA-FlyBaghdad
 texture=FBA-FlyBaghdad
@@ -127,7 +109,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FBA
 
-[fltsim.5]
+[fltsim.4]
 title=AIGAIM_Turkish Airlines Boeing 737-900WL
 model=THY-Turkish Airlines
 texture=THY-Turkish Airlines
@@ -145,7 +127,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_SpiceJet Boeing 737-900WL
 model=SEJ-SpiceJet
 texture=SEJ-SpiceJet
@@ -163,7 +145,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_SpiceJet Boeing 737-900WL - Albino
 model=SEJ-SpiceJet_Albino
 texture=SEJ-SpiceJet_Albino
@@ -181,7 +163,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Somon Air Boeing 737-900WL
 model=SMR-Somon Air
 texture=SMR-Somon Air

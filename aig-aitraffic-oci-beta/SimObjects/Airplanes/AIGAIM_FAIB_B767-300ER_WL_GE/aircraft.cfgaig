@@ -442,63 +442,6 @@ isUserSelectable=0
 icao_airline=CFG
 
 [fltsim.21]
-title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE
-model=DAL-Delta Air Lines_GE
-texture=DAL-Delta Air Lines_GE
-atc_id=N1610D
-atc_airline=DELTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.22]
-title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE No Belly Titles
-model=DAL-Delta Air Lines_GE No Belly Titles
-texture=DAL-Delta Air Lines_GE No Belly Titles
-atc_id=N171DZ
-atc_airline=DELTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.23]
-title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE Andrew Young
-model=DAL-Delta Air Lines_GE Andrew Young
-texture=DAL-Delta Air Lines_GE Andrew Young
-atc_id=N16065
-atc_airline=DELTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER WL
-ui_variation=DAL Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
-description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.24]
 title=AIGAIM_DHL Aero Expreso Boeing 767-300ER WL - BCF
 model=DAE-DHL Aero Expreso_BCF
 texture=DAE-DHL Aero Expreso_BCF
@@ -517,7 +460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_DHL Aero Expreso Boeing 767-300ER WL - BCF Americas Cup 2020
 model=DAE-DHL Aero Expreso_BCF Americas Cup 2020
 texture=DAE-DHL Aero Expreso_BCF Americas Cup 2020
@@ -536,7 +479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAE
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_DHL Air UK Boeing 767-300ER WL - GE BDSF No1 Best Workplace
 model=DHK-DHL Air UK_GE BDSF No1 Best Workplace
 texture=DHK-DHL Air UK_GE BDSF No1 Best Workplace
@@ -555,7 +498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHK
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF
 model=DHX-DHL Intl Aviation ME_BCF
 texture=DHX-DHL Intl Aviation ME_BCF
@@ -574,7 +517,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BCF No1 Best Workplace
 model=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
 texture=DHX-DHL Intl Aviation ME_BCF No1 Best Workplace
@@ -593,7 +536,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_DHL Intl Aviation ME Boeing 767-300ER WL - BDSF
 model=DHX-DHL Intl Aviation ME_BDSF
 texture=DHX-DHL Intl Aviation ME_BDSF
@@ -612,7 +555,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DHX
 
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_Icelandair Boeing 767-300ER WL
 model=ICE-Icelandair
 texture=ICE-Icelandair
@@ -631,7 +574,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_Japan Airlines Boeing 767-300ER WL
 model=JAL-Japan Airlines
 texture=JAL-Japan Airlines
@@ -649,7 +592,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.32]
+[fltsim.29]
 title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BDSF DHL Colors
 model=CKS-Kalitta Air_GE BDSF DHL Colors
 texture=CKS-Kalitta Air_GE BDSF DHL Colors
@@ -668,7 +611,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.33]
+[fltsim.30]
 title=AIGAIM_Kalitta Air Boeing 767-300ER WL - GE BCF DHL Colors
 model=CKS-Kalitta Air_GE BCF DHL Colors
 texture=CKS-Kalitta Air_GE BCF DHL Colors
@@ -687,7 +630,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.34]
+[fltsim.31]
 title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL
 model=TAM-LATAM Airlines Brasil
 texture=TAM-LATAM Airlines Brasil
@@ -705,7 +648,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.35]
+[fltsim.32]
 title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - Brazil Flag
 model=TAM-LATAM Airlines Brasil_Brazil Flag
 texture=TAM-LATAM Airlines Brasil_Brazil Flag
@@ -723,7 +666,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.36]
+[fltsim.33]
 title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC
 model=TAM-LATAM Airlines Brasil_OC
 texture=TAM-LATAM Airlines Brasil_OC
@@ -741,7 +684,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.37]
+[fltsim.34]
 title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Red Carpet
 model=TAM-LATAM Airlines Brasil_OC Red Carpet
 texture=TAM-LATAM Airlines Brasil_OC Red Carpet
@@ -759,7 +702,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.38]
+[fltsim.35]
 title=AIGAIM_LATAM Airlines Brasil Boeing 767-300ER WL - OC Oneworld Red Carpet
 model=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
 texture=TAM-LATAM Airlines Brasil_OC Oneworld Red Carpet
@@ -777,7 +720,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.39]
+[fltsim.36]
 title=AIGAIM_LATAM Airlines Chile Boeing 767-300ER WL
 model=LAN-LATAM Airlines Chile
 texture=LAN-LATAM Airlines Chile
@@ -795,7 +738,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_LATAM Airlines Ecuador Boeing 767-300ER WL - opb LAN OC
 model=LNE-LATAM Airlines Ecuador_opb LAN OC
 texture=LNE-LATAM Airlines Ecuador_opb LAN OC
@@ -813,7 +756,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNE
 
-[fltsim.41]
+[fltsim.38]
 title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL
 model=LPE-LATAM Airlines Peru
 texture=LPE-LATAM Airlines Peru
@@ -831,7 +774,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.42]
+[fltsim.39]
 title=AIGAIM_LATAM Airlines Peru Boeing 767-300ER WL - OC
 model=LPE-LATAM Airlines Peru_OC
 texture=LPE-LATAM Airlines Peru_OC
@@ -849,7 +792,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.43]
+[fltsim.40]
 title=AIGAIM_LATAM Cargo Colombia Boeing 767-300ER WL - BCF Colombia Flag
 model=LAE-LATAM Cargo Colombia_BCF Colombia Flag
 texture=LAE-LATAM Cargo Colombia_BCF Colombia Flag
@@ -867,7 +810,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAE
 
-[fltsim.44]
+[fltsim.41]
 title=AIGAIM_MIAT Mongolian Airlines Boeing 767-300ER WL
 model=MGL-MIAT Mongolian Airlines
 texture=MGL-MIAT Mongolian Airlines
@@ -886,7 +829,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MGL
 
-[fltsim.45]
+[fltsim.42]
 title=AIGAIM_Northern Air Cargo Boeing 767-300ER WL - BDSF
 model=NAC-Northern Air Cargo_BDSF
 texture=NAC-Northern Air Cargo_BDSF
@@ -905,7 +848,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAC
 
-[fltsim.46]
+[fltsim.43]
 title=AIGAIM_Omni Air International Boeing 767-300ER WL
 model=OAE-Omni Air International
 texture=OAE-Omni Air International
@@ -924,7 +867,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OAE
 
-[fltsim.47]
+[fltsim.44]
 title=AIGAIM_WestJet Boeing 767-300ER WL - OC
 model=WJA-WestJet_OC
 texture=WJA-WestJet_OC
@@ -942,7 +885,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.48]
+[fltsim.45]
 title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL
 model=TFL-TUI fly Netherlands
 texture=TFL-TUI fly Netherlands
@@ -960,7 +903,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.49]
+[fltsim.46]
 title=AIGAIM_TUI fly Netherlands Boeing 767-300ER WL - opb JAF
 model=TFL-TUI fly Netherlands_opb JAF
 texture=TFL-TUI fly Netherlands_opb JAF
@@ -978,7 +921,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.50]
+[fltsim.47]
 title=AIGAIM_TUI Airways UK Boeing 767-300ER WL
 model=TOM-TUI Airways UK
 texture=TOM-TUI Airways UK
@@ -995,3 +938,78 @@ description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TOM
+
+[fltsim.48]
+title=AIGAIM_Cargojet Boeing 767-300ER WL - BDSF DHL
+model=CJT-Cargojet_BDSF DHL
+texture=CJT-Cargojet_BDSF DHL
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=Cargojet - opf DHL
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_CJT_DHL.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT
+
+[fltsim.49]
+title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE
+model=DAL-Delta Air Lines_GE
+texture=DAL-Delta Air Lines_GE
+atc_id=N1610D
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.50]
+title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE No Belly Titles
+model=DAL-Delta Air Lines_GE No Belly Titles
+texture=DAL-Delta Air Lines_GE No Belly Titles
+atc_id=N171DZ
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.51]
+title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - GE Andrew Young
+model=DAL-Delta Air Lines_GE Andrew Young
+texture=DAL-Delta Air Lines_GE Andrew Young
+atc_id=N16065
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER WL
+ui_variation=DAL Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_dal_b763_p3d1.zip
+description=FAIB_B767-300ER_WL_GE-WGEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

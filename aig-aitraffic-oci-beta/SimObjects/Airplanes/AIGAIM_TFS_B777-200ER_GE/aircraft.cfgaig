@@ -59,25 +59,6 @@ left_foot_target=""
 right_foot_target=""
 
 [fltsim.0]
-title=AIGAIM_Air France Boeing 777-200ER - no WiFi
-model=AFR-Air France_no WiFi
-texture=AFR-Air France_no WiFi
-atc_id=F-GSPL
-atc_airline=AIRFRANS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Air France F-GSPL (2019 livery)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_772_afr.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AFR
-
-[fltsim.1]
 title=AIGAIM_Air France Boeing 777-200ER - OC
 model=AFR-Air France_OC
 texture=AFR-Air France_OC
@@ -90,51 +71,13 @@ ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200ER
 ui_variation=Air France F-GSPD (2009 livery, 2KU Wi-Fi dome)
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_772_afr.zip
+ui_createdby=Provided by: FC75 Filename: tfs_772_afr_2022.zip
 description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.2]
-title=AIGAIM_Air France Boeing 777-200ER - OC no WiFi
-model=AFR-Air France_OC no WiFi
-texture=AFR-Air France_OC no WiFi
-atc_id=F-GSPT
-atc_airline=AIRFRANS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Air France F-GSPT (2009 livery)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_772_afr.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AFR
-
-[fltsim.3]
-title=AIGAIM_Air France Boeing 777-200ER - OOC no WiFi
-model=AFR-Air France_OOC no WiFi
-texture=AFR-Air France_OOC no WiFi
-atc_id=F-GSPP
-atc_airline=AIRFRANS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFR
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Air France F-GSPP (2004 livery)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_772_afr.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AFR
-
-[fltsim.4]
+[fltsim.1]
 title=AIGAIM_Alitalia Boeing 777-200ER
 model=AZA-Alitalia
 texture=AZA-Alitalia
@@ -153,7 +96,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.5]
+[fltsim.2]
 title=AIGAIM_Alitalia Boeing 777-200ER - WiFi Dome
 model=AZA-Alitalia_WiFi Dome
 texture=AZA-Alitalia_WiFi Dome
@@ -171,7 +114,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.6]
+[fltsim.3]
 title=AIGAIM_Alitalia Boeing 777-200ER - Skyteam WiFi Dome
 model=AZA-Alitalia_Skyteam WiFi Dome
 texture=AZA-Alitalia_Skyteam WiFi Dome
@@ -189,7 +132,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.7]
+[fltsim.4]
 title=AIGAIM_Alitalia Boeing 777-200ER - OC
 model=AZA-Alitalia_OC
 texture=AZA-Alitalia_OC
@@ -207,7 +150,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AZA
 
-[fltsim.8]
+[fltsim.5]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER
 model=AUA-Austrian Airlines
 texture=AUA-Austrian Airlines
@@ -226,7 +169,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.9]
+[fltsim.6]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - 60th Anniversary
 model=AUA-Austrian Airlines_60th Anniversary
 texture=AUA-Austrian Airlines_60th Anniversary
@@ -245,7 +188,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.10]
+[fltsim.7]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - IC my Sound of Austria
 model=AUA-Austrian Airlines_IC my Sound of Austria
 texture=AUA-Austrian Airlines_IC my Sound of Austria
@@ -264,7 +207,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.11]
+[fltsim.8]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - OC
 model=AUA-Austrian Airlines_OC
 texture=AUA-Austrian Airlines_OC
@@ -283,7 +226,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.12]
+[fltsim.9]
 title=AIGAIM_Austrian Airlines Boeing 777-200ER - OC Signatures
 model=AUA-Austrian Airlines_OC Signatures
 texture=AUA-Austrian Airlines_OC Signatures
@@ -302,7 +245,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.13]
+[fltsim.10]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL WiFi Dome (TEMP)
 model=BAW-British Airways_GE 4CL WiFi Dome_temp
 texture=BAW-British Airways_GE 4CL WiFi Dome_temp
@@ -320,7 +263,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.14]
+[fltsim.11]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL OC WiFi Dome (TEMP)
 model=BAW-British Airways_GE 4CL OC WiFi Dome_temp
 texture=BAW-British Airways_GE 4CL OC WiFi Dome_temp
@@ -338,7 +281,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.15]
+[fltsim.12]
 title=AIGAIM_British Airways Boeing 777-200ER - GE 4CL OC Crest WiFi Dome (TEMP)
 model=BAW-British Airways_GE 4CL OC Crest WiFi Dome_temp
 texture=BAW-British Airways_GE 4CL OC Crest WiFi Dome_temp
@@ -356,83 +299,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BAW
 
-[fltsim.16]
-title=AIGAIM_KLM Boeing 777-200ER - fwd Sat
-model=KLM-KLM_fwd Sat
-texture=KLM-KLM_fwd Sat
-atc_id=PH-BQD
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-200ER
-ui_variation=KLM - PH-BQD
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.17]
-title=AIGAIM_KLM Boeing 777-200ER - KLM ASIA
-model=KLM-KLM_KLM ASIA
-texture=KLM-KLM_KLM ASIA
-atc_id=PH-BQL
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-200ER
-ui_variation=KLM - PH-BQL
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.18]
-title=AIGAIM_KLM Boeing 777-200ER - KLM ASIA fwd Sat
-model=KLM-KLM_KLM ASIA fwd Sat
-texture=KLM-KLM_KLM ASIA fwd Sat
-atc_id=PH-BQF
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-200ER
-ui_variation=KLM - PH-BQF
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.19]
-title=AIGAIM_KLM Boeing 777-200ER - OC fwd Sat
-model=KLM-KLM_OC fwd Sat
-texture=KLM-KLM_OC fwd Sat
-atc_id=PH-BQE
-atc_airline=KLM
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=The Fruit Stand - Boeing
-ui_type=Boeing 777-200ER
-ui_variation=KLM - PH-BQE
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
-description=TFS_B777-200ER_GE-ge(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.20]
+[fltsim.13]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE
 model=UAL-United Airlines_GE
 texture=UAL-United Airlines_GE
@@ -451,7 +318,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.21]
+[fltsim.14]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC
 model=UAL-United Airlines_GE OC
 texture=UAL-United Airlines_GE OC
@@ -470,7 +337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.22]
+[fltsim.15]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC Larry Kellner
 model=UAL-United Airlines_GE OC Larry Kellner
 texture=UAL-United Airlines_GE OC Larry Kellner
@@ -489,7 +356,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.23]
+[fltsim.16]
 title=AIGAIM_United Airlines Boeing 777-200ER - GE OC Star Alliance
 model=UAL-United Airlines_GE OC Star Alliance
 texture=UAL-United Airlines_GE OC Star Alliance
@@ -508,7 +375,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.24]
+[fltsim.17]
 title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 777-200ER
 model=DTA-TAAG Linhas Aereas de Angola
 texture=DTA-TAAG Linhas Aereas de Angola
@@ -526,3 +393,98 @@ description=TFS_B777-200ER_GE-ge(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTA
+
+[fltsim.18]
+title=AIGAIM_Air France Boeing 777-200ER - NCv1
+model=AFR-Air France_NCv1
+texture=AFR-Air France_NCv1
+atc_id=F-GSPO
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200ER
+ui_variation=Air France F-GSPO 'Saint-Germain-en-Laye' (NC V1, 2KU WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_772_afr_2022.zip
+description=TFS_B777-200ER_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.19]
+title=AIGAIM_Air France Boeing 777-200ER - NCv2 No Wifi
+model=AFR-Air France_NCv2 No Wifi
+texture=AFR-Air France_NCv2 No Wifi
+atc_id=F-GSPZ
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200ER
+ui_variation=Air France F-GSPZ 'Villandry' (NC V2, No WiFi)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_772_afr_2022.zip
+description=TFS_B777-200ER_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.20]
+title=AIGAIM_Air France Boeing 777-200ER - OC Revised
+model=AFR-Air France_OC Revised
+texture=AFR-Air France_OC Revised
+atc_id=F-GSPL
+atc_airline=AIRFRANS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFR
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200ER
+ui_variation=Air France F-GSPL 'Biarritz' (Revised OC, 2KU WiFi dome)
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_772_afr_2022.zip
+description=TFS_B777-200ER_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AFR
+
+[fltsim.21]
+title=AIGAIM_KLM Boeing 777-200ER
+model=KLM-KLM
+texture=KLM-KLM
+atc_id=PH-BQD
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=The Fruit Stand - Boeing
+ui_type=Boeing 777-200ER
+ui_variation=KLM - PH-BQD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
+description=TFS_B777-200ER_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
+
+[fltsim.22]
+title=AIGAIM_KLM Boeing 777-200ER - Asia
+model=KLM-KLM_Asia
+texture=KLM-KLM_Asia
+atc_id=PH-BQF
+atc_airline=KLM
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLM
+ui_manufacturer=The Fruit Stand - Boeing
+ui_type=Boeing 777-200ER
+ui_variation=KLM - PH-BQF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai772klm_fsx.zip
+description=TFS_B777-200ER_GE-ge(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM

@@ -947,24 +947,6 @@ isUserSelectable=0
 icao_airline=KLM
 
 [fltsim.51]
-title=AIGAIM_KLM Boeing 737-700WL - SN
-model=KLM-KLM_SN
-texture=KLM-KLM_SN
-atc_id=PH-BGU
-atc_airline=KLM
-atc_parking_types=GATE,RAMP
-atc_parking_codes=KLM
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-700WL
-ui_variation=KLM - PH-BGU
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai737klm_fsx.zip
-description=FAIB_B737-700WL-winglets_SN(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=KLM
-
-[fltsim.52]
 title=AIGAIM_KLM Boeing 737-700WL - SN OC
 model=KLM-KLM_SN OC
 texture=KLM-KLM_SN OC
@@ -982,7 +964,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.53]
+[fltsim.52]
 title=AIGAIM_Kunming Airlines Boeing 737-700WL - SN
 model=KNA-Kunming Airlines_SN
 texture=KNA-Kunming Airlines_SN
@@ -1000,7 +982,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.54]
+[fltsim.53]
 title=AIGAIM_Kunming Airlines Boeing 737-700WL - SN Tengchong
 model=KNA-Kunming Airlines_SN Tengchong
 texture=KNA-Kunming Airlines_SN Tengchong
@@ -1018,7 +1000,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KNA
 
-[fltsim.55]
+[fltsim.54]
 title=AIGAIM_LAM Linhas Aereas de Mocambique Boeing 737-700WL
 model=LAM-LAM Linhas Aereas de Mocambique
 texture=LAM-LAM Linhas Aereas de Mocambique
@@ -1036,7 +1018,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAM
 
-[fltsim.56]
+[fltsim.55]
 title=AIGAIM_LOT Polish Airlines Boeing 737-700WL - lsf Blue Air
 model=LOT-LOT Polish Airlines_lsf Blue Air
 texture=LOT-LOT Polish Airlines_lsf Blue Air
@@ -1053,7 +1035,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.57]
+[fltsim.56]
 title=AIGAIM_Lucky Air Boeing 737-700WL
 model=LKE-Lucky Air
 texture=LKE-Lucky Air
@@ -1071,7 +1053,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.58]
+[fltsim.57]
 title=AIGAIM_Lucky Air Boeing 737-700WL - OC Old HNA Logo
 model=LKE-Lucky Air_OC Old HNA Logo
 texture=LKE-Lucky Air_OC Old HNA Logo
@@ -1089,7 +1071,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.59]
+[fltsim.58]
 title=AIGAIM_Lucky Air Boeing 737-700WL - OOC Old HNA Logo
 model=LKE-Lucky Air_OOC Old HNA Logo
 texture=LKE-Lucky Air_OOC Old HNA Logo
@@ -1107,7 +1089,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.60]
+[fltsim.59]
 title=AIGAIM_Lucky Air Boeing 737-700WL - Oriental Sea
 model=LKE-Lucky Air_Oriental Sea
 texture=LKE-Lucky Air_Oriental Sea
@@ -1125,7 +1107,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.61]
+[fltsim.60]
 title=AIGAIM_Lucky Air Boeing 737-700WL - SN OC Old HNA Logo
 model=LKE-Lucky Air_SN OC Old HNA Logo
 texture=LKE-Lucky Air_SN OC Old HNA Logo
@@ -1143,7 +1125,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.62]
+[fltsim.61]
 title=AIGAIM_Lumiwings Boeing 737-700WL
 model=LWI-Lumiwings
 texture=LWI-Lumiwings
@@ -1161,7 +1143,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LWI
 
-[fltsim.63]
+[fltsim.62]
 title=AIGAIM_Luxair Boeing 737-700WL
 model=LGL-Luxair
 texture=LGL-Luxair
@@ -1179,7 +1161,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LGL
 
-[fltsim.64]
+[fltsim.63]
 title=AIGAIM_Malawian Airlines Boeing 737-700WL
 model=MWI-Malawian Airlines
 texture=MWI-Malawian Airlines
@@ -1197,7 +1179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWI
 
-[fltsim.65]
+[fltsim.64]
 title=AIGAIM_Xiamen Airlines Boeing 737-700WL
 model=CXA-Xiamen Airlines
 texture=CXA-Xiamen Airlines
@@ -1215,7 +1197,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CXA
 
-[fltsim.66]
+[fltsim.65]
 title=AIGAIM_Nordavia Boeing 737-700WL
 model=AUL-Nordavia
 texture=AUL-Nordavia
@@ -1233,7 +1215,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUL
 
-[fltsim.67]
+[fltsim.66]
 title=AIGAIM_Regent Airways Boeing 737-700WL (TEMP)
 model=RGE-Regent Airways_temp
 texture=RGE-Regent Airways_temp
@@ -1251,7 +1233,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RGE
 
-[fltsim.68]
+[fltsim.67]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL
 model=RLH-Ruili Airlines
 texture=RLH-Ruili Airlines
@@ -1269,7 +1251,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.69]
+[fltsim.68]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL - SN
 model=RLH-Ruili Airlines_SN
 texture=RLH-Ruili Airlines_SN
@@ -1287,7 +1269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.70]
+[fltsim.69]
 title=AIGAIM_Ruili Airlines Boeing 737-700WL - SN Albino
 model=RLH-Ruili Airlines_SN Albino
 texture=RLH-Ruili Airlines_SN Albino
@@ -1305,7 +1287,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLH
 
-[fltsim.71]
+[fltsim.70]
 title=AIGAIM_Rwandair Boeing 737-700WL
 model=RWD-Rwandair
 texture=RWD-Rwandair
@@ -1323,7 +1305,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RWD
 
-[fltsim.72]
+[fltsim.71]
 title=AIGAIM_Ryanair Boeing 737-700WL
 model=RYRT-Ryanair
 texture=RYRT-Ryanair
@@ -1341,7 +1323,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RYRT
 
-[fltsim.73]
+[fltsim.72]
 title=AIGAIM_WestJet Boeing 737-700WL - OC
 model=WJA-WestJet_OC
 texture=WJA-WestJet_OC
@@ -1358,7 +1340,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.74]
+[fltsim.73]
 title=AIGAIM_WestJet Boeing 737-700WL - OC Old Logo
 model=WJA-WestJet_OC Old Logo
 texture=WJA-WestJet_OC Old Logo
@@ -1375,7 +1357,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.75]
+[fltsim.74]
 title=AIGAIM_WestJet Boeing 737-700WL - OC Old Logo 007 Nose Wheel Doors
 model=WJA-WestJet_OC Old Logo 007 Nose Wheel Doors
 texture=WJA-WestJet_OC Old Logo 007 Nose Wheel Doors
@@ -1392,7 +1374,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
 
-[fltsim.76]
+[fltsim.75]
 title=AIGAIM_Virgin Australia Boeing 737-700WL
 model=VOZ-Virgin Australia
 texture=VOZ-Virgin Australia
@@ -1410,7 +1392,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZ
 
-[fltsim.77]
+[fltsim.76]
 title=AIGAIM_Turkmenistan Airlines Boeing 737-700WL
 model=TUA-Turkmenistan Airlines
 texture=TUA-Turkmenistan Airlines
@@ -1428,7 +1410,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TUA
 
-[fltsim.78]
+[fltsim.77]
 title=AIGAIM_TUI fly Belgium Boeing 737-700WL
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -1445,7 +1427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.79]
+[fltsim.78]
 title=AIGAIM_Transavia Boeing 737-700WL
 model=TRA-Transavia
 texture=TRA-Transavia
@@ -1463,7 +1445,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.80]
+[fltsim.79]
 title=AIGAIM_Transavia Boeing 737-700WL - OC
 model=TRA-Transavia_OC
 texture=TRA-Transavia_OC
@@ -1481,25 +1463,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TRA
 
-[fltsim.81]
-title=AIGAIM_Transavia Boeing 737-700WL - KLM OC 100 years
-model=TRA-Transavia_KLM OC 100 years
-texture=TRA-Transavia_KLM OC 100 years
-atc_id=PH-BGN
-atc_airline=TRANSAVIA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=TRA
-ui_manufacturer=FAIB - Boeing
-ui_type=Boeing 737-700WL
-ui_variation=KLM - PH-BGN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: ai737klm_100years_fsx.zip
-description=FAIB_B737-700WL-winglets(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=TRA
-
-[fltsim.82]
+[fltsim.80]
 title=AIGAIM_TAROM Boeing 737-700WL
 model=ROT-TAROM
 texture=ROT-TAROM
@@ -1517,7 +1481,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.83]
+[fltsim.81]
 title=AIGAIM_TAROM Boeing 737-700WL - Skyteam
 model=ROT-TAROM_Skyteam
 texture=ROT-TAROM_Skyteam
@@ -1535,7 +1499,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.84]
+[fltsim.82]
 title=AIGAIM_TAROM Boeing 737-700WL - 60 Years
 model=ROT-TAROM_60 Years
 texture=ROT-TAROM_60 Years
@@ -1553,7 +1517,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ROT
 
-[fltsim.85]
+[fltsim.83]
 title=AIGAIM_TAAG Linhas Aereas de Angola Boeing 737-700WL - small webtitles
 model=DTA-TAAG Linhas Aereas de Angola_small webtitles
 texture=DTA-TAAG Linhas Aereas de Angola_small webtitles
@@ -1570,7 +1534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTA
 
-[fltsim.86]
+[fltsim.84]
 title=AIGAIM_Shandong Airlines Boeing 737-700WL
 model=CDG-Shandong Airlines
 texture=CDG-Shandong Airlines
@@ -1588,7 +1552,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDG
 
-[fltsim.87]
+[fltsim.85]
 title=AIGAIM_SCAT Airlines Boeing 737-700WL - OC
 model=VSV-SCAT Airlines_OC
 texture=VSV-SCAT Airlines_OC
@@ -1606,7 +1570,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.88]
+[fltsim.86]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700WL
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -1624,7 +1588,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.89]
+[fltsim.87]
 title=AIGAIM_SAS Scandinavian Airlines Boeing 737-700WL - no Dome
 model=SAS-SAS Scandinavian Airlines_no Dome
 texture=SAS-SAS Scandinavian Airlines_no Dome
@@ -1642,7 +1606,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.90]
+[fltsim.88]
 title=AIGAIM_Shanghai Airlines Boeing 737-700WL - SN
 model=CSH-Shanghai Airlines_SN
 texture=CSH-Shanghai Airlines_SN
@@ -1659,7 +1623,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.91]
+[fltsim.89]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL
 model=SWA-Southwest Airlines
 texture=SWA-Southwest Airlines
@@ -1677,7 +1641,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.92]
+[fltsim.90]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Misc Dome
 model=SWA-Southwest Airlines_Misc Dome
 texture=SWA-Southwest Airlines_Misc Dome
@@ -1695,7 +1659,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.93]
+[fltsim.91]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Arizona One
 model=SWA-Southwest Airlines_Arizona One
 texture=SWA-Southwest Airlines_Arizona One
@@ -1713,7 +1677,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.94]
+[fltsim.92]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - California One
 model=SWA-Southwest Airlines_California One
 texture=SWA-Southwest Airlines_California One
@@ -1731,7 +1695,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.95]
+[fltsim.93]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Florida One
 model=SWA-Southwest Airlines_Florida One
 texture=SWA-Southwest Airlines_Florida One
@@ -1749,7 +1713,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.96]
+[fltsim.94]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Heroes of the Heart
 model=SWA-Southwest Airlines_Heroes of the Heart
 texture=SWA-Southwest Airlines_Heroes of the Heart
@@ -1767,7 +1731,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.97]
+[fltsim.95]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Lone Star One
 model=SWA-Southwest Airlines_Lone Star One
 texture=SWA-Southwest Airlines_Lone Star One
@@ -1785,7 +1749,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.98]
+[fltsim.96]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Louisiana One
 model=SWA-Southwest Airlines_Louisiana One
 texture=SWA-Southwest Airlines_Louisiana One
@@ -1803,7 +1767,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.99]
+[fltsim.97]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - New Mexico One
 model=SWA-Southwest Airlines_New Mexico One
 texture=SWA-Southwest Airlines_New Mexico One
@@ -1821,7 +1785,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.100]
+[fltsim.98]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Silver One
 model=SWA-Southwest Airlines_Silver One
 texture=SWA-Southwest Airlines_Silver One
@@ -1839,7 +1803,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.101]
+[fltsim.99]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - The Donald G. Ogden
 model=SWA-Southwest Airlines_The Donald G. Ogden
 texture=SWA-Southwest Airlines_The Donald G. Ogden
@@ -1857,7 +1821,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.102]
+[fltsim.100]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - The Jack Vital
 model=SWA-Southwest Airlines_The Jack Vital
 texture=SWA-Southwest Airlines_The Jack Vital
@@ -1875,7 +1839,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.103]
+[fltsim.101]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - The Rollin W. King
 model=SWA-Southwest Airlines_The Rollin W. King
 texture=SWA-Southwest Airlines_The Rollin W. King
@@ -1893,7 +1857,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.104]
+[fltsim.102]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - The Spirit of Hope
 model=SWA-Southwest Airlines_The Spirit of Hope
 texture=SWA-Southwest Airlines_The Spirit of Hope
@@ -1911,7 +1875,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.105]
+[fltsim.103]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - Triple Crown
 model=SWA-Southwest Airlines_Triple Crown
 texture=SWA-Southwest Airlines_Triple Crown
@@ -1929,7 +1893,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.106]
+[fltsim.104]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC
 model=SWA-Southwest Airlines_OC
 texture=SWA-Southwest Airlines_OC
@@ -1947,7 +1911,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.107]
+[fltsim.105]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC Misc Dome
 model=SWA-Southwest Airlines_OC Misc Dome
 texture=SWA-Southwest Airlines_OC Misc Dome
@@ -1965,7 +1929,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.108]
+[fltsim.106]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC 2000th 737NG
 model=SWA-Southwest Airlines_OC 2000th 737NG
 texture=SWA-Southwest Airlines_OC 2000th 737NG
@@ -1983,7 +1947,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.109]
+[fltsim.107]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC Colorado One
 model=SWA-Southwest Airlines_OC Colorado One
 texture=SWA-Southwest Airlines_OC Colorado One
@@ -2001,7 +1965,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.110]
+[fltsim.108]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC Maryland One
 model=SWA-Southwest Airlines_OC Maryland One
 texture=SWA-Southwest Airlines_OC Maryland One
@@ -2019,7 +1983,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.111]
+[fltsim.109]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OC Nevada One
 model=SWA-Southwest Airlines_OC Nevada One
 texture=SWA-Southwest Airlines_OC Nevada One
@@ -2037,7 +2001,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.112]
+[fltsim.110]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OOC Classic
 model=SWA-Southwest Airlines_OOC Classic
 texture=SWA-Southwest Airlines_OOC Classic
@@ -2055,7 +2019,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.113]
+[fltsim.111]
 title=AIGAIM_Southwest Airlines Boeing 737-700WL - OOC The Herbert D. Kelleher
 model=SWA-Southwest Airlines_OOC The Herbert D. Kelleher
 texture=SWA-Southwest Airlines_OOC The Herbert D. Kelleher
@@ -2073,7 +2037,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWA
 
-[fltsim.114]
+[fltsim.112]
 title=AIGAIM_SpiceJet Boeing 737-700WL - Albino
 model=SEJ-SpiceJet_Albino
 texture=SEJ-SpiceJet_Albino
@@ -2091,7 +2055,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.115]
+[fltsim.113]
 title=AIGAIM_SpiceJet Boeing 737-700WL - Albino Red WL
 model=SEJ-SpiceJet_Albino Red WL
 texture=SEJ-SpiceJet_Albino Red WL
@@ -2109,7 +2073,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.116]
+[fltsim.114]
 title=AIGAIM_SpiceXpress Boeing 737-700WL - BDSF
 model=SEJC-SpiceXpress_BDSF
 texture=SEJC-SpiceXpress_BDSF
@@ -2124,7 +2088,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEJ
 
-[fltsim.117]
+[fltsim.115]
 title=AIGAIM_Canadian North Boeing 737-700WL
 model=AKT-Canadian North
 texture=AKT-Canadian North
@@ -2141,7 +2105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AKT
 
-[fltsim.118]
+[fltsim.116]
 title=AIGAIM_Jettime Boeing 737-700WL - OY-JTP
 model=JTD-Jettime_OY-JTP
 texture=JTD-Jettime_OY-JTP
@@ -2159,7 +2123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JTD
 
-[fltsim.119]
+[fltsim.117]
 title=AIGAIM_Avelo Airlines Boeing 737-700WL
 model=VXP-Avelo Airlines
 texture=VXP-Avelo Airlines
@@ -2174,3 +2138,21 @@ description=FAIB_B737-700WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VXP
+
+[fltsim.118]
+title=AIGAIM_Transavia Boeing 737-700WL - opb KLM
+model=TRA-Transavia_opb KLM
+texture=TRA-Transavia_opb KLM
+atc_id=PH-BGG
+atc_airline=TRANSAVIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=TRA
+ui_manufacturer=FAIB - Boeing
+ui_type=Boeing 737-700WL
+ui_variation=KLM - PH-BGG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: ai737klm_fsx.zip
+description=FAIB_B737-700WL-winglets(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=TRA

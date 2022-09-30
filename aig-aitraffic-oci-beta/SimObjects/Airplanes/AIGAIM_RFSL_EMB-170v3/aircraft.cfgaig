@@ -71,67 +71,13 @@ isUserSelectable=0
 icao_airline=BOT
 
 [fltsim.1]
-title=AIGAIM_Air France Hop Embraer EMB-170 - OC
-model=AFRX-Air France Hop_OC
-texture=AFRX-Air France Hop_OC
-atc_id=F-HBXK
-atc_airline=AIRFRANS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFRX,HOP
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-170
-ui_variation=Hop! F-HBXK
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rai_e170_hop_fsx.zip
-description=RFSL_EMB-170v3(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HOP
-
-[fltsim.2]
-title=AIGAIM_Air France Hop Embraer EMB-170 - OC Revised Titles
-model=AFRX-Air France Hop_OC Revised Titles
-texture=AFRX-Air France Hop_OC Revised Titles
-atc_id=F-HBXH
-atc_airline=AIRFRANS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFRX,HOP
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-170
-ui_variation=Hop! F-HBXH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rai_e170_hop_fsx.zip
-description=RFSL_EMB-170v3(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HOP
-
-[fltsim.3]
-title=AIGAIM_Air France Hop Embraer EMB-170 - OC Extended Blue Stripe
-model=AFRX-Air France Hop_OC Extended Blue Stripe
-texture=AFRX-Air France Hop_OC Extended Blue Stripe
-atc_id=F-HBXG
-atc_airline=AIRFRANS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AFRX,HOP
-ui_manufacturer=Embraer
-ui_type=Embraer EMB-170
-ui_variation=Hop! F-HBXG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: rai_e170_hop_fsx.zip
-description=RFSL_EMB-170v3(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=HOP
-
-[fltsim.4]
 title=AIGAIM_American Eagle Embraer EMB-170 - opb Republic
 model=AALX-American Eagle_opb Republic
 texture=AALX-American Eagle_opb Republic
 atc_id=N821MD
 atc_airline=BRICKYARD
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AALX
+atc_parking_codes=AALX,RPA
 ui_manufacturer=Embraer
 ui_type=Embraer EMB-170
 ui_variation=American Eagle Republic
@@ -142,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AALX
 
-[fltsim.5]
+[fltsim.2]
 title=AIGAIM_BA CityFlyer Embraer EMB-170 - OC
 model=CFE-BA CityFlyer_OC
 texture=CFE-BA CityFlyer_OC
@@ -159,7 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFE
 
-[fltsim.6]
+[fltsim.3]
 title=AIGAIM_Delta Connection Embraer EMB-170 - opb Republic Airlines
 model=DALX-Delta Connection_opb Republic Airlines
 texture=DALX-Delta Connection_opb Republic Airlines
@@ -177,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DALX
 
-[fltsim.7]
+[fltsim.4]
 title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA01FJ
 model=FDA-Fuji Dream Airlines_JA01FJ
 texture=FDA-Fuji Dream Airlines_JA01FJ
@@ -195,7 +141,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDA
 
-[fltsim.8]
+[fltsim.5]
 title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA02FJ
 model=FDA-Fuji Dream Airlines_JA02FJ
 texture=FDA-Fuji Dream Airlines_JA02FJ
@@ -213,7 +159,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDA
 
-[fltsim.9]
+[fltsim.6]
 title=AIGAIM_Fuji Dream Airlines Embraer EMB-170 - JA04FJ
 model=FDA-Fuji Dream Airlines_JA04FJ
 texture=FDA-Fuji Dream Airlines_JA04FJ
@@ -231,7 +177,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FDA
 
-[fltsim.10]
+[fltsim.7]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-170
 model=LOT-LOT Polish Airlines
 texture=LOT-LOT Polish Airlines
@@ -249,7 +195,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.11]
+[fltsim.8]
 title=AIGAIM_LOT Polish Airlines Embraer EMB-170 - Star Alliance
 model=LOT-LOT Polish Airlines_Star Alliance
 texture=LOT-LOT Polish Airlines_Star Alliance
@@ -267,7 +213,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.12]
+[fltsim.9]
 title=AIGAIM_People's Viennaline Embraer EMB-170
 model=PEV-People's Viennaline
 texture=PEV-People's Viennaline
@@ -285,7 +231,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PEV
 
-[fltsim.13]
+[fltsim.10]
 title=AIGAIM_United Express Embraer EMB-170 - OC opb Republic Airlines
 model=UALX-United Express_OC opb Republic Airlines
 texture=UALX-United Express_OC opb Republic Airlines
@@ -303,7 +249,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UALX
 
-[fltsim.14]
+[fltsim.11]
 title=AIGAIM_Satena Embraer EMB-170
 model=NSE-Satena
 texture=NSE-Satena
@@ -322,7 +268,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NSE
 
-[fltsim.15]
+[fltsim.12]
 title=AIGAIM_S7 Airlines Embraer EMB-170
 model=SBI-S7 Airlines
 texture=SBI-S7 Airlines
@@ -340,7 +286,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.16]
+[fltsim.13]
 title=AIGAIM_Airlink Embraer EMB-170 - OC
 model=LNK-Airlink_OC
 texture=LNK-Airlink_OC
@@ -356,3 +302,21 @@ description=RFSL_EMB-170v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=LNK
+
+[fltsim.14]
+title=AIGAIM_Air France Hop Embraer EMB-170
+model=AFRX-Air France Hop
+texture=AFRX-Air France Hop
+atc_id=F-HBXK
+atc_airline=AIRFRANS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AFRX,HOP
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-170
+ui_variation=Hop! F-HBXK
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: rai_e170_hop_fsx.zip
+description=RFSL_EMB-170v3(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=HOP

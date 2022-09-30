@@ -225,22 +225,3 @@ description=TFS_B777-200ER_RR-rr(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ELY
-
-[fltsim.9]
-title=AIGAIM_Singapore Airlines Boeing 777-200ER
-model=SIA-Singapore Airlines
-texture=SIA-Singapore Airlines
-atc_id=9V-SQN
-atc_airline=SINGAPORE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SIA
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200ER
-ui_variation=Singapore Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_sia_b772_fsx.zip
-description=TFS_B777-200ER_RR-rr(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SIA

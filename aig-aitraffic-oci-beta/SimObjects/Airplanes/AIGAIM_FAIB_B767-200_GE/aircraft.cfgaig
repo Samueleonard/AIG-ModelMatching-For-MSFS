@@ -574,3 +574,21 @@ description=FAIB_B767-200_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRR
+
+[fltsim.28]
+title=AIGAIM_Cargojet Boeing 767-200 - BDSF
+model=CJT-Cargojet_BDSF
+texture=CJT-Cargojet_BDSF
+atc_airline=CARGOJET
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CJT
+ui_manufacturer=FAIB
+ui_type=Boeing 767-200
+ui_variation=Cargojet
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B762_CJT.zip
+description=FAIB_B767-200_GE-GEA(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CJT

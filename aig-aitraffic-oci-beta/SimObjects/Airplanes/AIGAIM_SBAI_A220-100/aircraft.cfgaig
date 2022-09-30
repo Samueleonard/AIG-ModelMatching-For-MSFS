@@ -53,23 +53,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Delta Air Lines Airbus A220-100
-model=DAL-Delta Air Lines
-texture=DAL-Delta Air Lines
-atc_airline=DELTA
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=SBAI
-ui_type=Airbus A220-100
-ui_variation=Delta Air Lines, Inc.
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: SBAI A220-100 Delta Air Lines.zip
-description=SBAI_A220-100(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.1]
 title=AIGAIM_Swiss Airbus A220-100
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -87,7 +70,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Swiss Airbus A220-100 - fwd Titles (rhs)
 model=SWR-Swiss_fwd Titles (rhs)
 texture=SWR-Swiss_fwd Titles (rhs)
@@ -105,7 +88,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_Swiss Airbus A220-100 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -122,3 +105,20 @@ description=SBAI_A220-100(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
+
+[fltsim.3]
+title=AIGAIM_Delta Air Lines Airbus A220-100
+model=DAL-Delta Air Lines
+texture=DAL-Delta Air Lines
+atc_airline=DELTA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=SBAI
+ui_type=Airbus A220-100
+ui_variation=Delta Air Lines, Inc.
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI A220-100 Delta Air Lines.zip
+description=SBAI_A220-100(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

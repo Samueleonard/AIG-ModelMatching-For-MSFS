@@ -49,6 +49,25 @@ concrete=fx_sparks ;
 touchdown=fx_tchdwn, 1 ; 
 
 [fltsim.0]
+title=AIGAIM_United Airlines Boeing 767-400ER - OC
+model=UAL-United Airlines_OC
+texture=UAL-United Airlines_OC
+atc_id=N77066
+atc_airline=UNITED
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=UAL
+ui_manufacturer=FAIB
+ui_type=Boeing 767-400ER
+ui_variation=United Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW Filename: faib_ual_b764_p3d1.zip
+description=FAIB_B767-400ER_GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=UAL
+
+[fltsim.1]
 title=AIGAIM_Delta Air Lines Boeing 767-400ER
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -67,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.1]
+[fltsim.2]
 title=AIGAIM_Delta Air Lines Boeing 767-400ER - No Belly Titles
 model=DAL-Delta Air Lines_No Belly Titles
 texture=DAL-Delta Air Lines_No Belly Titles
@@ -86,7 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.2]
+[fltsim.3]
 title=AIGAIM_Delta Air Lines Boeing 767-400ER - Skyteam
 model=DAL-Delta Air Lines_Skyteam
 texture=DAL-Delta Air Lines_Skyteam
@@ -105,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.3]
+[fltsim.4]
 title=AIGAIM_Delta Air Lines Boeing 767-400ER - Breast Cancer Awareness
 model=DAL-Delta Air Lines_Breast Cancer Awareness
 texture=DAL-Delta Air Lines_Breast Cancer Awareness
@@ -123,22 +142,3 @@ description=FAIB_B767-400ER_GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
-
-[fltsim.4]
-title=AIGAIM_United Airlines Boeing 767-400ER - OC
-model=UAL-United Airlines_OC
-texture=UAL-United Airlines_OC
-atc_id=N77066
-atc_airline=UNITED
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=UAL
-ui_manufacturer=FAIB
-ui_type=Boeing 767-400ER
-ui_variation=United Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW Filename: faib_ual_b764_p3d1.zip
-description=FAIB_B767-400ER_GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=UAL

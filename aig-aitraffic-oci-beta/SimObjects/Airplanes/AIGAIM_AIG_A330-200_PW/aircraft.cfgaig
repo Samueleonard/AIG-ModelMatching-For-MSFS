@@ -114,44 +114,6 @@ isUserSelectable=0
 icao_airline=CSN
 
 [fltsim.3]
-title=AIGAIM_Delta Air Lines Airbus A330-200 - PW
-model=DAL-Delta Air Lines_PW
-texture=DAL-Delta Air Lines_PW
-atc_id=N860NW
-atc_airline=DELTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
-description=AIG_A330-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.4]
-title=AIGAIM_Delta Air Lines Airbus A330-200 - PW No Belly Titles
-model=DAL-Delta Air Lines_PW No Belly Titles
-texture=DAL-Delta Air Lines_PW No Belly Titles
-atc_id=N858NW
-atc_airline=DELTA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DAL
-ui_manufacturer=AIG
-ui_type=Airbus A330-200
-ui_variation=Delta Air Lines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
-description=AIG_A330-200_PW-PW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DAL
-
-[fltsim.5]
 title=AIGAIM_Korean Air Airbus A330-200
 model=KAL-Korean Air
 texture=KAL-Korean Air
@@ -169,7 +131,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Korean Air Airbus A330-200 - Skyteam
 model=KAL-Korean Air_Skyteam
 texture=KAL-Korean Air_Skyteam
@@ -187,7 +149,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Korean Air Airbus A330-200 - OT
 model=KAL-Korean Air_OT
 texture=KAL-Korean Air_OT
@@ -205,7 +167,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAL
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - PW Belly Logo
 model=THY-Turkish Airlines_PW Belly Logo
 texture=THY-Turkish Airlines_PW Belly Logo
@@ -223,7 +185,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - PW Invest in Turkey
 model=THY-Turkish Airlines_PW Invest in Turkey
 texture=THY-Turkish Airlines_PW Invest in Turkey
@@ -241,7 +203,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_Air Caraibes Airbus A330-200 - OT OC small 3rd door
 model=FWI-Air Caraibes_OT OC small 3rd door
 texture=FWI-Air Caraibes_OT OC small 3rd door
@@ -260,7 +222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FWI
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_Malaysia Airlines Airbus A330-200 - Large #3 Door Wifi Dome
 model=MAS-Malaysia Airlines_Large #3 Door Wifi Dome
 texture=MAS-Malaysia Airlines_Large #3 Door Wifi Dome
@@ -279,7 +241,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_Malaysia Airlines Airbus A330-200 - Small #3 Door Wifi Dome
 model=MAS-Malaysia Airlines_Small #3 Door Wifi Dome
 texture=MAS-Malaysia Airlines_Small #3 Door Wifi Dome
@@ -298,7 +260,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Malaysia Airlines Airbus A330-200 - Negaraku No Wifi Dome
 model=MAS-Malaysia Airlines_Negaraku No Wifi Dome
 texture=MAS-Malaysia Airlines_Negaraku No Wifi Dome
@@ -317,7 +279,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.14]
+[fltsim.12]
 title=AIGAIM_Malaysia Airlines Airbus A330-200 - Negaraku Wifi Dome
 model=MAS-Malaysia Airlines_Negaraku Wifi Dome
 texture=MAS-Malaysia Airlines_Negaraku Wifi Dome
@@ -335,3 +297,41 @@ description=AIG_A330-200_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
+
+[fltsim.13]
+title=AIGAIM_Delta Air Lines Airbus A330-200 - PW
+model=DAL-Delta Air Lines_PW
+texture=DAL-Delta Air Lines_PW
+atc_id=N860NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL
+
+[fltsim.14]
+title=AIGAIM_Delta Air Lines Airbus A330-200 - PW No Belly Titles
+model=DAL-Delta Air Lines_PW No Belly Titles
+texture=DAL-Delta Air Lines_PW No Belly Titles
+atc_id=N858NW
+atc_airline=DELTA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DAL
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Delta Air Lines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dal_a332_jkm.zip
+description=AIG_A330-200_PW-PW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DAL

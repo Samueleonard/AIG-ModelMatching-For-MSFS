@@ -66,3 +66,21 @@ description=AIA_EMB-195E2_fake(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBB
+
+[fltsim.1]
+title=AIGAIM_KLM Cityhopper Embraer EMB-195E2
+model=KLMX-KLM Cityhopper
+texture=KLMX-KLM Cityhopper
+atc_id=PA-NXA
+atc_airline=KLM
+atc_parking_types=GATE,RAMP
+atc_parking_codes=KLMX,KLM
+ui_manufacturer=Embraer
+ui_type=Embraer EMB-195E2
+ui_variation=KLM Cityhopper PA-NXA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: KLC-KLM Cityhopper AIA EMB-190.zip
+description=AIA_EMB-195E2_fake(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=KLM
