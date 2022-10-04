@@ -4,6 +4,8 @@
 This is the latest version of AlphaIndiaGroup (AIG) Model Matching for MSFS
 
 Below is the latest AIG install for MSFS ONLY including offline AI flight plans - *described below*
+
+**FOR THOSE WANTING TO USE THIS WITH VATSIM ------ [FSLTL](https://www.fslivetrafficliveries.com/ "FSLTL") has now released and provides higher quality models and liveries, purposefully designed for online use (more details below)**
   
 
 ## <b>INSTALL</b>
@@ -23,6 +25,18 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 I try to update this pack every time there is a significant update to AIG, so there could be weeks between updates.
 
 However, if you want to update your install early, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+
+## USAGE WITH FSLiveTrafficLiveries (FSLTL)
+
+FSLTL is released and is available for free through the [FlyByWire Installer](https://flybywiresim.com/ "FlyByWire Installer")
+
+FSLTL is a similar project to AIG, aiming to provide a solution to modelmatching for online networks along with providing a tool to inject live traffic to your simulator, directly from [Flightradar24](https://www.flightradar24.com/ "flightradar24")
+
+This is a completely seperate project to AIG and is NOT INCLUDED IN THIS PACK (and will never be)
+
+Currently FSLTL is in its infancy so is very limited on model and livery variety. This means that it will not cover every situation on VATSIM, but will be good enough most of the time.
+
+If you choose, you can use both FSLTL AND AIG together, as long as you place both VMRs in vPilot (make sure FSLTL is at the top so it has priority for models) ![image](https://cdn.discordapp.com/attachments/636979141421301760/1026857624681074801/unknown.png)
 
 ## USAGE WITH ONLINE NETWORKS (VATSIM)
 
