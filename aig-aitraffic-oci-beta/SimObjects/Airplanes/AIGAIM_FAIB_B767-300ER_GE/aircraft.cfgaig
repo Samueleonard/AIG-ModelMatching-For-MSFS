@@ -106,60 +106,6 @@ isUserSelectable=0
 icao_airline=ABX
 
 [fltsim.3]
-title=AIGAIM_Air Canada Boeing 767-300ER - OC
-model=ACA-Air Canada_OC
-texture=ACA-Air Canada_OC
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ACA
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER
-ui_variation=Air Canada
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_aca.zip
-description=FAIB_B767-300ER_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACA
-
-[fltsim.4]
-title=AIGAIM_Air Canada Rouge Boeing 767-300ER - GE large AC titles
-model=ROU-Air Canada Rouge_GE large AC titles
-texture=ROU-Air Canada Rouge_GE large AC titles
-atc_airline=ROUGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ROU
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER
-ui_variation=Air Canada Rouge - Large Air Canada Titles No Wifi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
-description=FAIB_B767-300ER_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ROU
-
-[fltsim.5]
-title=AIGAIM_Air Canada Rouge Boeing 767-300ER - GE small AC titles
-model=ROU-Air Canada Rouge_GE small AC titles
-texture=ROU-Air Canada Rouge_GE small AC titles
-atc_airline=ROUGE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=ROU
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ER
-ui_variation=Air Canada Rouge - Small Air Canada Titles Wifi
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_763_rou_2020.zip
-description=FAIB_B767-300ER_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ROU
-
-[fltsim.6]
 title=AIGAIM_Air Niugini Boeing 767-300ER - GE
 model=ANG-Air Niugini_GE
 texture=ANG-Air Niugini_GE
@@ -177,7 +123,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANG
 
-[fltsim.7]
+[fltsim.4]
 title=AIGAIM_Air Transport International Boeing 767-300ER - BDSF White ATI titles
 model=ATN-Air Transport International_BDSF White ATI titles
 texture=ATN-Air Transport International_BDSF White ATI titles
@@ -196,7 +142,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATN
 
-[fltsim.8]
+[fltsim.5]
 title=AIGAIM_All Nippon Airways Boeing 767-300ER
 model=ANA-All Nippon Airways
 texture=ANA-All Nippon Airways
@@ -214,7 +160,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ANA
 
-[fltsim.9]
+[fltsim.6]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BCF opb Atlas Air
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air
@@ -233,7 +179,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.10]
+[fltsim.7]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air
 model=AMZ-Amazon Prime Air_BDSF opb Atlas Air
 texture=AMZ-Amazon Prime Air_BDSF opb Atlas Air
@@ -252,7 +198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.11]
+[fltsim.8]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air White GE
 model=AMZ-Amazon Prime Air_BDSF opb Atlas Air White GE
 texture=AMZ-Amazon Prime Air_BDSF opb Atlas Air White GE
@@ -271,7 +217,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.12]
+[fltsim.9]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air Amazon One
 model=AMZ-Amazon Prime Air_BDSF opb Atlas Air Amazon One
 texture=AMZ-Amazon Prime Air_BDSF opb Atlas Air Amazon One
@@ -290,7 +236,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.13]
+[fltsim.10]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BCF opb Atlas Air Excelsior
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air Excelsior
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air Excelsior
@@ -309,7 +255,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.14]
+[fltsim.11]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BCF opb Atlas Air Air Wright A Lot
 model=AMZ-Amazon Prime Air_BCF opb Atlas Air Air Wright A Lot
 texture=AMZ-Amazon Prime Air_BCF opb Atlas Air Air Wright A Lot
@@ -328,7 +274,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.15]
+[fltsim.12]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI
 model=AMZ-Amazon Prime Air_BDSF opb ATI
 texture=AMZ-Amazon Prime Air_BDSF opb ATI
@@ -347,7 +293,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.16]
+[fltsim.13]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI Relentless
 model=AMZ-Amazon Prime Air_BDSF opb ATI Relentless
 texture=AMZ-Amazon Prime Air_BDSF opb ATI Relentless
@@ -366,7 +312,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.17]
+[fltsim.14]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI Peculi'Air
 model=AMZ-Amazon Prime Air_BDSF opb ATI Peculi'Air
 texture=AMZ-Amazon Prime Air_BDSF opb ATI Peculi'Air
@@ -385,7 +331,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMZ
 
-[fltsim.18]
+[fltsim.15]
 title=AIGAIM_Amerijet International Boeing 767-300ER - BDSF
 model=AJT-Amerijet International_BDSF
 texture=AJT-Amerijet International_BDSF
@@ -404,7 +350,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJT
 
-[fltsim.19]
+[fltsim.16]
 title=AIGAIM_Amerijet International Boeing 767-300ER - BDSF White
 model=AJT-Amerijet International_BDSF White
 texture=AJT-Amerijet International_BDSF White
@@ -423,7 +369,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AJT
 
-[fltsim.20]
+[fltsim.17]
 title=AIGAIM_Atlas Air Boeing 767-300ER - GE
 model=GTI-Atlas Air_GE
 texture=GTI-Atlas Air_GE
@@ -442,7 +388,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.21]
+[fltsim.18]
 title=AIGAIM_Atlas Air Boeing 767-300ER - GE BDSF Polar Air Cargo
 model=GTI-Atlas Air_GE BDSF Polar Air Cargo
 texture=GTI-Atlas Air_GE BDSF Polar Air Cargo
@@ -461,7 +407,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GTI
 
-[fltsim.22]
+[fltsim.19]
 title=AIGAIM_Las Vegas Sands Boeing 767-300ER - N804MS
 model=BJO-Las Vegas Sands_N804MS
 texture=BJO-Las Vegas Sands_N804MS
@@ -479,7 +425,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.23]
+[fltsim.20]
 title=AIGAIM_AZAL Azerbaijan Airlines Boeing 767-300ER
 model=AHY-AZAL Azerbaijan Airlines
 texture=AHY-AZAL Azerbaijan Airlines
@@ -498,7 +444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AHY
 
-[fltsim.24]
+[fltsim.21]
 title=AIGAIM_Blue Panorama Airlines Boeing 767-300ER - GE Citta di Havana
 model=BPA-Blue Panorama Airlines_GE Citta di Havana
 texture=BPA-Blue Panorama Airlines_GE Citta di Havana
@@ -517,7 +463,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.25]
+[fltsim.22]
 title=AIGAIM_Blue Panorama Airlines Boeing 767-300ER - GE unnamed
 model=BPA-Blue Panorama Airlines_GE unnamed
 texture=BPA-Blue Panorama Airlines_GE unnamed
@@ -536,7 +482,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BPA
 
-[fltsim.26]
+[fltsim.23]
 title=AIGAIM_Boliviana de Aviacion Boeing 767-300ER
 model=BOV-Boliviana de Aviacion
 texture=BOV-Boliviana de Aviacion
@@ -555,7 +501,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BOV
 
-[fltsim.27]
+[fltsim.24]
 title=AIGAIM_Cargojet Boeing 767-300ER - BCF
 model=CJT-Cargojet_BCF
 texture=CJT-Cargojet_BCF
@@ -573,7 +519,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.28]
+[fltsim.25]
 title=AIGAIM_Cargojet Boeing 767-300ER - BDSF
 model=CJT-Cargojet_BDSF
 texture=CJT-Cargojet_BDSF
@@ -591,7 +537,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.29]
+[fltsim.26]
 title=AIGAIM_Cargojet Boeing 767-300ER - BDSF aft door
 model=CJT-Cargojet_BDSF aft door
 texture=CJT-Cargojet_BDSF aft door
@@ -609,7 +555,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_Cargojet Boeing 767-300ER - BDSF ex-Air Canada black tail
 model=CJT-Cargojet_BDSF ex-Air Canada black tail
 texture=CJT-Cargojet_BDSF ex-Air Canada black tail
@@ -627,7 +573,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
 
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_Japan Airlines Boeing 767-300ER - Center Dome Fwd Wifi
 model=JAL-Japan Airlines_Center Dome Fwd Wifi
 texture=JAL-Japan Airlines_Center Dome Fwd Wifi
@@ -645,7 +591,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.32]
+[fltsim.29]
 title=AIGAIM_Japan Airlines Boeing 767-300ER - Center Dome
 model=JAL-Japan Airlines_Center Dome
 texture=JAL-Japan Airlines_Center Dome
@@ -663,7 +609,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.33]
+[fltsim.30]
 title=AIGAIM_Japan Airlines Boeing 767-300ER - Fwd Wifi
 model=JAL-Japan Airlines_Fwd Wifi
 texture=JAL-Japan Airlines_Fwd Wifi
@@ -681,7 +627,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.34]
+[fltsim.31]
 title=AIGAIM_Japan Airlines Boeing 767-300ER - Visit Kyushu
 model=JAL-Japan Airlines_Visit Kyushu
 texture=JAL-Japan Airlines_Visit Kyushu
@@ -699,7 +645,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.35]
+[fltsim.32]
 title=AIGAIM_Japan Airlines Boeing 767-300ER - JAL Amabie
 model=JAL-Japan Airlines_JAL Amabie
 texture=JAL-Japan Airlines_JAL Amabie
@@ -718,7 +664,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAL
 
-[fltsim.36]
+[fltsim.33]
 title=AIGAIM_Kalitta Air Boeing 767-300ER - GE BDSF DHL Colors
 model=CKS-Kalitta Air_GE BDSF DHL Colors
 texture=CKS-Kalitta Air_GE BDSF DHL Colors
@@ -737,7 +683,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.37]
+[fltsim.34]
 title=AIGAIM_Kalitta Air Boeing 767-300ER - GE BDSF DHL Hybrid black titles
 model=CKS-Kalitta Air_GE BDSF DHL Hybrid black titles
 texture=CKS-Kalitta Air_GE BDSF DHL Hybrid black titles
@@ -756,7 +702,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.38]
+[fltsim.35]
 title=AIGAIM_Kalitta Air Boeing 767-300ER - GE BDSF DHL Hybrid red titles
 model=CKS-Kalitta Air_GE BDSF DHL Hybrid red titles
 texture=CKS-Kalitta Air_GE BDSF DHL Hybrid red titles
@@ -775,7 +721,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.39]
+[fltsim.36]
 title=AIGAIM_Kalitta Air Boeing 767-300ER - GE BDSF Albino
 model=CKS-Kalitta Air_GE BDSF Albino
 texture=CKS-Kalitta Air_GE BDSF Albino
@@ -794,7 +740,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CKS
 
-[fltsim.40]
+[fltsim.37]
 title=AIGAIM_Mas Air Cargo Boeing 767-300ER - BDSF N363CM
 model=MAA-Mas Air Cargo_BDSF N363CM
 texture=MAA-Mas Air Cargo_BDSF N363CM
@@ -813,7 +759,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAA
 
-[fltsim.41]
+[fltsim.38]
 title=AIGAIM_New England Patriots Boeing 767-300ER
 model=-New England Patriots
 texture=-New England Patriots
@@ -829,7 +775,7 @@ description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 
-[fltsim.42]
+[fltsim.39]
 title=AIGAIM_Northern Air Cargo Boeing 767-300ER - BDSF Strat Air
 model=NAC-Northern Air Cargo_BDSF Strat Air
 texture=NAC-Northern Air Cargo_BDSF Strat Air
@@ -848,7 +794,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NAC
 
-[fltsim.43]
+[fltsim.40]
 title=AIGAIM_Omni Air International Boeing 767-300ER
 model=OAE-Omni Air International
 texture=OAE-Omni Air International
@@ -867,7 +813,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OAE
 
-[fltsim.44]
+[fltsim.41]
 title=AIGAIM_Royal Air Maroc Cargo Boeing 767-300ER - GE BCF
 model=RAMC-Royal Air Maroc Cargo_GE BCF
 texture=RAMC-Royal Air Maroc Cargo_GE BCF
@@ -886,7 +832,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RAMC
 
-[fltsim.45]
+[fltsim.42]
 title=AIGAIM_UPS Airlines Boeing 767-300ER - BCF
 model=UPS-UPS Airlines_BCF
 texture=UPS-UPS Airlines_BCF
@@ -902,7 +848,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.46]
+[fltsim.43]
 title=AIGAIM_UPS Airlines Boeing 767-300ER - BDSF
 model=UPS-UPS Airlines_BDSF
 texture=UPS-UPS Airlines_BDSF
@@ -918,7 +864,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.47]
+[fltsim.44]
 title=AIGAIM_Titan Airways Boeing 767-300ER - GE
 model=AWC-Titan Airways_GE
 texture=AWC-Titan Airways_GE
@@ -936,7 +882,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWC
 
-[fltsim.48]
+[fltsim.45]
 title=AIGAIM_SCAT Airlines Boeing 767-300ER - Sunday Airlines OC
 model=VSV-SCAT Airlines_Sunday Airlines OC
 texture=VSV-SCAT Airlines_Sunday Airlines OC
@@ -955,7 +901,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
 
-[fltsim.49]
+[fltsim.46]
 title=AIGAIM_Star Air Boeing 767-300ER - BDSF
 model=SRR-Star Air_BDSF
 texture=SRR-Star Air_BDSF
@@ -974,7 +920,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRR
 
-[fltsim.50]
+[fltsim.47]
 title=AIGAIM_Cargojet Boeing 767-300ER - BDSF DHL
 model=CJT-Cargojet_BDSF DHL
 texture=CJT-Cargojet_BDSF DHL
@@ -991,3 +937,21 @@ description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CJT
+
+[fltsim.48]
+title=AIGAIM_Air Canada Cargo Boeing 767-300ER - BDSF OC
+model=ACAC-Air Canada Cargo_BDSF OC
+texture=ACAC-Air Canada Cargo_BDSF OC
+atc_airline=AIR CANADA
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=ACAC,ACA
+ui_manufacturer=FAIB
+ui_type=Boeing 767-300ER
+ui_variation=Air Canada Cargo
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_ACAC.zip
+description=FAIB_B767-300ER_GE-GEC(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA

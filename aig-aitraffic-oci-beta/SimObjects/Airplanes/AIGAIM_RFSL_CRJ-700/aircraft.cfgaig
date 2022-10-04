@@ -68,7 +68,7 @@ ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
 description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AALX
+icao_airline=JIA
 
 [fltsim.1]
 title=AIGAIM_American Eagle Bombardier CRJ-700 - opb Skywest House Colors
@@ -86,7 +86,7 @@ ui_createdby=Provided by: KAIW Filename: rai_aalx_crj7_p3d-5.zip
 description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AALX
+icao_airline=SKW
 
 [fltsim.2]
 title=AIGAIM_Joe Gibbs Racing Bombardier CRJ-700 - N519JG

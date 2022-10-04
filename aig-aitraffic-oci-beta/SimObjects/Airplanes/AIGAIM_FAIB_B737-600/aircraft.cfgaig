@@ -87,40 +87,6 @@ isUserSelectable=0
 icao_airline=WWW
 
 [fltsim.3]
-title=AIGAIM_WestJet Boeing 737-600 - OC
-model=WJA-WestJet_OC
-texture=WJA-WestJet_OC
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-600
-ui_variation=Westjet - OC Leaf Logo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_736_wja_2020-1.zip
-description=FAIB_B737-600(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.4]
-title=AIGAIM_WestJet Boeing 737-600 - OC Old Logo
-model=WJA-WestJet_OC Old Logo
-texture=WJA-WestJet_OC Old Logo
-atc_airline=WESTJET
-atc_parking_types=GATE,RAMP
-atc_parking_codes=WJA
-ui_manufacturer=FAIB
-ui_type=Boeing 737-600
-ui_variation=Westjet - OC Old Logo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: faib_736_wja_2020-1.zip
-description=FAIB_B737-600(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=WJA
-
-[fltsim.5]
 title=AIGAIM_Tunisair Boeing 737-600
 model=TAR-Tunisair
 texture=TAR-Tunisair
@@ -138,7 +104,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Tunisair Boeing 737-600 - Small 737 titles
 model=TAR-Tunisair_Small 737 titles
 texture=TAR-Tunisair_Small 737 titles
@@ -156,7 +122,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Tunisair Boeing 737-600 - Large 737 titles
 model=TAR-Tunisair_Large 737 titles
 texture=TAR-Tunisair_Large 737 titles
@@ -174,7 +140,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Tunisair Boeing 737-600 - Retro
 model=TAR-Tunisair_Retro
 texture=TAR-Tunisair_Retro

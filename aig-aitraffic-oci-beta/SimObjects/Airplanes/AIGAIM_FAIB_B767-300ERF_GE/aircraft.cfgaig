@@ -49,24 +49,6 @@ concrete=fx_sparks ;
 touchdown=fx_tchdwn, 1 ; 
 
 [fltsim.0]
-title=AIGAIM_Air Canada Cargo Boeing 767-300ERF - GE
-model=ACAC-Air Canada Cargo_GE
-texture=ACAC-Air Canada Cargo_GE
-atc_airline=AIR CANADA
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=ACAC
-ui_manufacturer=FAIB
-ui_type=Boeing 767-300ERF
-ui_variation=Air Canada Cargo
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Garry Lewis on JCAI Filename: FAIB_B763_ACAC.zip
-description=FAIB_B767-300ERF_GE-GEC(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ACAC
-
-[fltsim.1]
 title=AIGAIM_Asiana Airlines Cargo Boeing 767-300ERF - Old Titles
 model=AARC-Asiana Airlines Cargo_Old Titles
 texture=AARC-Asiana Airlines Cargo_Old Titles
@@ -85,7 +67,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Qantas Freight Boeing 767-300ERF - OC opb EFA
 model=QFAC-Qantas Freight_OC opb EFA
 texture=QFAC-Qantas Freight_OC opb EFA
@@ -104,7 +86,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFAC
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_UPS Airlines Boeing 767-300ERF
 model=UPS-UPS Airlines
 texture=UPS-UPS Airlines

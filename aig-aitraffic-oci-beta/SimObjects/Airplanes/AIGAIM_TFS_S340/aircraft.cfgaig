@@ -402,78 +402,6 @@ isUserSelectable=0
 icao_airline=STP
 
 [fltsim.19]
-title=AIGAIM_Pacific Coastal Airlines Saab 340 - C-FPCU Miners
-model=PCO-Pacific Coastal Airlines_C-FPCU Miners
-texture=PCO-Pacific Coastal Airlines_C-FPCU Miners
-atc_id=C-FPCU
-atc_airline=PASCO
-atc_parking_types=RAMP
-atc_parking_codes=PCO
-ui_manufacturer=SAAB
-ui_type=Saab 340
-ui_variation=Pacific Coastal Airlines C-FPCU
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_sf34_pco_fsx.zip
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PCO
-
-[fltsim.20]
-title=AIGAIM_Pacific Coastal Airlines Saab 340 - C-FPCZ Snowboader
-model=PCO-Pacific Coastal Airlines_C-FPCZ Snowboader
-texture=PCO-Pacific Coastal Airlines_C-FPCZ Snowboader
-atc_id=C-FPCZ
-atc_airline=PASCO
-atc_parking_types=RAMP
-atc_parking_codes=PCO
-ui_manufacturer=SAAB
-ui_type=Saab 340
-ui_variation=Pacific Coastal Airlines C-FPCZ
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_sf34_pco_fsx.zip
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PCO
-
-[fltsim.21]
-title=AIGAIM_Pacific Coastal Airlines Saab 340 - C-GPCG OC Lighthouse
-model=PCO-Pacific Coastal Airlines_C-GPCG OC Lighthouse
-texture=PCO-Pacific Coastal Airlines_C-GPCG OC Lighthouse
-atc_id=C-GPCG
-atc_airline=PASCO
-atc_parking_types=RAMP
-atc_parking_codes=PCO
-ui_manufacturer=SAAB
-ui_type=Saab 340
-ui_variation=Pacific Coastal Airlines C-GPCG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_sf34_pco_fsx.zip
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PCO
-
-[fltsim.22]
-title=AIGAIM_Pacific Coastal Airlines Saab 340 - C-GPCN OC Miners with Cart
-model=PCO-Pacific Coastal Airlines_C-GPCN OC Miners with Cart
-texture=PCO-Pacific Coastal Airlines_C-GPCN OC Miners with Cart
-atc_id=C-GPCN
-atc_airline=PASCO
-atc_parking_types=RAMP
-atc_parking_codes=PCO
-ui_manufacturer=SAAB
-ui_type=Saab 340
-ui_variation=Pacific Coastal Airlines C-GPCN
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_sf34_pco_fsx.zip
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PCO
-
-[fltsim.23]
 title=AIGAIM_NyxAir Saab 340F - 340B Cargo Titles
 model=NYX-NyxAir_340B Cargo Titles
 texture=NYX-NyxAir_340B Cargo Titles
@@ -492,7 +420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NYX
 
-[fltsim.24]
+[fltsim.20]
 title=AIGAIM_Real Tonga Airline Saab 340B - old logo
 model=RLT-Real Tonga Airline_old logo
 texture=RLT-Real Tonga Airline_old logo
@@ -510,7 +438,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RLT
 
-[fltsim.25]
+[fltsim.21]
 title=AIGAIM_Regional Express Saab 340
 model=RXA-Regional Express
 texture=RXA-Regional Express
@@ -528,7 +456,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.26]
+[fltsim.22]
 title=AIGAIM_Regional Express Saab 340 - addl Window
 model=RXA-Regional Express_addl Window
 texture=RXA-Regional Express_addl Window
@@ -546,7 +474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.27]
+[fltsim.23]
 title=AIGAIM_Regional Express Saab 340 - addl covered Window
 model=RXA-Regional Express_addl covered Window
 texture=RXA-Regional Express_addl covered Window
@@ -564,7 +492,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.28]
+[fltsim.24]
 title=AIGAIM_Regional Express Saab 340 - Pen Air Livery
 model=RXA-Regional Express_Pen Air Livery
 texture=RXA-Regional Express_Pen Air Livery
@@ -582,7 +510,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.29]
+[fltsim.25]
 title=AIGAIM_Regional Express Saab 340 - Grey Door Tape addl covered Window
 model=RXA-Regional Express_Grey Door Tape addl covered Window
 texture=RXA-Regional Express_Grey Door Tape addl covered Window
@@ -600,7 +528,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.30]
+[fltsim.26]
 title=AIGAIM_Regional Express Saab 340 - Blue Engines
 model=RXA-Regional Express_Blue Engines
 texture=RXA-Regional Express_Blue Engines
@@ -618,7 +546,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.31]
+[fltsim.27]
 title=AIGAIM_Regional Express Saab 340 - US Airways Hybrid
 model=RXA-Regional Express_US Airways Hybrid
 texture=RXA-Regional Express_US Airways Hybrid
@@ -636,7 +564,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.32]
+[fltsim.28]
 title=AIGAIM_Regional Express Saab 340 - Shark Cage
 model=RXA-Regional Express_Shark Cage
 texture=RXA-Regional Express_Shark Cage
@@ -653,7 +581,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.33]
+[fltsim.29]
 title=AIGAIM_Regional Express Saab 340 - No Titles
 model=RXA-Regional Express_No Titles
 texture=RXA-Regional Express_No Titles
@@ -671,24 +599,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=RXA
 
-[fltsim.34]
-title=AIGAIM_WestJet Link Saab 340
-model=PCO-WestJet Link
-texture=PCO-WestJet Link
-atc_airline=PASCO
-atc_parking_types=GATE,RAMP
-atc_parking_codes=PCO
-ui_manufacturer=The Fruit Stand
-ui_type=Saab 340
-ui_variation=Westjet Link - opb Pacific Coastal
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: ATCO Filename: tfs_sf340_pco.zip
-description=TFS_S340(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=PCO
-
-[fltsim.35]
+[fltsim.30]
 title=AIGAIM_Seaborne Airlines Saab 340B - Lobster
 model=SBS-Seaborne Airlines_Lobster
 texture=SBS-Seaborne Airlines_Lobster
@@ -706,7 +617,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.36]
+[fltsim.31]
 title=AIGAIM_Seaborne Airlines Saab 340B - Ray
 model=SBS-Seaborne Airlines_Ray
 texture=SBS-Seaborne Airlines_Ray
@@ -724,7 +635,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.37]
+[fltsim.32]
 title=AIGAIM_Seaborne Airlines Saab 340B - Turtle
 model=SBS-Seaborne Airlines_Turtle
 texture=SBS-Seaborne Airlines_Turtle
@@ -742,7 +653,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.38]
+[fltsim.33]
 title=AIGAIM_Seaborne Airlines Saab 340B - Shark
 model=SBS-Seaborne Airlines_Shark
 texture=SBS-Seaborne Airlines_Shark
@@ -760,7 +671,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.39]
+[fltsim.34]
 title=AIGAIM_Seaborne Airlines Saab 340B - Silver Airways livery
 model=SBS-Seaborne Airlines_Silver Airways livery
 texture=SBS-Seaborne Airlines_Silver Airways livery
@@ -778,7 +689,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBS
 
-[fltsim.40]
+[fltsim.35]
 title=AIGAIM_Silver Airways Saab 340B
 model=SIL-Silver Airways
 texture=SIL-Silver Airways
@@ -796,7 +707,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.41]
+[fltsim.36]
 title=AIGAIM_Silver Airways Saab 340B - Black Reg
 model=SIL-Silver Airways_Black Reg
 texture=SIL-Silver Airways_Black Reg
@@ -814,7 +725,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.42]
+[fltsim.37]
 title=AIGAIM_Silver Airways Saab 340B - Pensacola Blue Wahoos
 model=SIL-Silver Airways_Pensacola Blue Wahoos
 texture=SIL-Silver Airways_Pensacola Blue Wahoos
@@ -832,7 +743,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.43]
+[fltsim.38]
 title=AIGAIM_Silver Airways Saab 340B - Saluting Service Members
 model=SIL-Silver Airways_Saluting Service Members
 texture=SIL-Silver Airways_Saluting Service Members
@@ -850,7 +761,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.44]
+[fltsim.39]
 title=AIGAIM_Silver Airways Saab 340B - Daytona Tortugas
 model=SIL-Silver Airways_Daytona Tortugas
 texture=SIL-Silver Airways_Daytona Tortugas
@@ -868,7 +779,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIL
 
-[fltsim.45]
+[fltsim.40]
 title=AIGAIM_SkyTaxi Saab 340A - QC
 model=IGA-SkyTaxi_QC
 texture=IGA-SkyTaxi_QC
@@ -887,7 +798,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IGA
 
-[fltsim.46]
+[fltsim.41]
 title=AIGAIM_SprintAir Saab 340F
 model=SRN-SprintAir
 texture=SRN-SprintAir
@@ -906,7 +817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.47]
+[fltsim.42]
 title=AIGAIM_SprintAir Saab 340
 model=SRN-SprintAir
 texture=SRN-SprintAir
@@ -925,7 +836,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.48]
+[fltsim.43]
 title=AIGAIM_SprintAir Saab 340 - White
 model=SRN-SprintAir_White
 texture=SRN-SprintAir_White
@@ -944,7 +855,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.49]
+[fltsim.44]
 title=AIGAIM_SprintAir Saab 340 - QC
 model=SRN-SprintAir_QC
 texture=SRN-SprintAir_QC
@@ -963,7 +874,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.50]
+[fltsim.45]
 title=AIGAIM_SprintAir Saab 340 - QC opf SprintAir Cargo
 model=SRN-SprintAir_QC opf SprintAir Cargo
 texture=SRN-SprintAir_QC opf SprintAir Cargo
@@ -982,7 +893,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SRN
 
-[fltsim.51]
+[fltsim.46]
 title=AIGAIM_EZ Air Saab 340
 model=EZR-EZ Air
 texture=EZR-EZ Air
@@ -999,3 +910,88 @@ description=TFS_S340(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZR
+
+[fltsim.47]
+title=AIGAIM_Pacific Coastal Airlines Saab 340 - OC Miners with Cart
+model=PCO-Pacific Coastal Airlines_OC Miners with Cart
+texture=PCO-Pacific Coastal Airlines_OC Miners with Cart
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340
+ui_variation=Pacific Coastal Airlines - OC Miners with Cart
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_SF34_PCO_Fleet.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.48]
+title=AIGAIM_Pacific Coastal Airlines Saab 340 - Orca
+model=PCO-Pacific Coastal Airlines_Orca
+texture=PCO-Pacific Coastal Airlines_Orca
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340
+ui_variation=Pacific Coastal Airlines - Orca
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_SF34_PCO_Fleet.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.49]
+title=AIGAIM_Pacific Coastal Airlines Saab 340B - Skier and Snowboarder
+model=PCO-Pacific Coastal Airlines_Skier and Snowboarder
+texture=PCO-Pacific Coastal Airlines_Skier and Snowboarder
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340B
+ui_variation=Pacific Coastal Airlines - Snowboarder_Skier
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_SF34_PCO_Fleet.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.50]
+title=AIGAIM_Westjet Link Saab 340B - opb PCO
+model=PCO-Westjet Link_opb PCO
+texture=PCO-Westjet Link_opb PCO
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340B
+ui_variation=Westjet Link - opb Pacific Coastal
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_SF34_PCO.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO
+
+[fltsim.51]
+title=AIGAIM_Westjet Link Saab 340B - opb PCO No Link Title
+model=PCO-Westjet Link_opb PCO No Link Title
+texture=PCO-Westjet Link_opb PCO No Link Title
+atc_airline=PASCO
+atc_parking_types=GATE,RAMP
+atc_parking_codes=PCO
+ui_manufacturer=The Fruit Stand
+ui_type=Saab 340B
+ui_variation=Westjet Link - opb Pacific Coastal No Link Titles
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: TFS_SF34_PCO.zip
+description=TFS_S340(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=PCO

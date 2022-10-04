@@ -201,7 +201,7 @@ ui_manufacturer=SBAI
 ui_type=Airbus A220-300
 ui_variation=Air Canada
 ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: SBAI A220-300 Air Canada.zip
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: SBAI_BCS3_ACA.zip
 description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
@@ -380,3 +380,54 @@ description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
+
+[fltsim.19]
+title=AIGAIM_Air Canada Airbus A220-300 - Calin Rovinescu Wifi dome
+model=ACA-Air Canada_Calin Rovinescu Wifi dome
+texture=ACA-Air Canada_Calin Rovinescu Wifi dome
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Air Canada - Calin Rovenescu
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: SBAI_BCS3_ACA.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.20]
+title=AIGAIM_Air Canada Airbus A220-300 - Retro Wifi dome
+model=ACA-Air Canada_Retro Wifi dome
+texture=ACA-Air Canada_Retro Wifi dome
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Air Canada - Retro
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: SBAI_BCS3_ACA.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
+
+[fltsim.21]
+title=AIGAIM_Air Canada Airbus A220-300 - Turning Red Wifi dome
+model=ACA-Air Canada_Turning Red Wifi dome
+texture=ACA-Air Canada_Turning Red Wifi dome
+atc_airline=AIR CANADA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ACA
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=Air Canada - Turning Red
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: SBAI_BCS3_ACA_CGDVP.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ACA
