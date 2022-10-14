@@ -1193,3 +1193,21 @@ description=FAIB_A321-200SL_IAE-IAE_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=NKS
+
+[fltsim.65]
+title=AIGAIM_Eurowings Discover Airbus A321-200SL - Finnair
+model=OCN-Eurowings Discover_Finnair
+texture=OCN-Eurowings Discover_Finnair
+atc_id=OH-LZP
+atc_airline=OCEAN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OCN
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200SL
+ui_variation=Finnair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: FAIB_Finnair_Airbus_A321_200_FSX.zip
+description=FAIB_A321-200SL_IAE-IAE_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OCN

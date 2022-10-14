@@ -130,24 +130,6 @@ isUserSelectable=0
 icao_airline=AHK
 
 [fltsim.4]
-title=AIGAIM_Brussels Airlines Airbus A330-300
-model=BEL-Brussels Airlines
-texture=BEL-Brussels Airlines
-atc_airline=BEE-LINE
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BEL
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Brussels Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BEL
-
-[fltsim.5]
 title=AIGAIM_Capital Airlines Airbus A330-300 - 242t
 model=CBJ-Capital Airlines_242t
 texture=CBJ-Capital Airlines_242t
@@ -165,7 +147,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBJ
 
-[fltsim.6]
+[fltsim.5]
 title=AIGAIM_Cathay Pacific Airbus A330-300
 model=CPA-Cathay Pacific
 texture=CPA-Cathay Pacific
@@ -183,7 +165,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Cathay Pacific Airbus A330-300 - WiFi Dome
 model=CPA-Cathay Pacific_WiFi Dome
 texture=CPA-Cathay Pacific_WiFi Dome
@@ -201,7 +183,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CPA
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_China Eastern Airlines Airbus A330-300 - WiFi dome
 model=CES-China Eastern Airlines_WiFi dome
 texture=CES-China Eastern Airlines_WiFi dome
@@ -219,7 +201,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_China Eastern Airlines Airbus A330-300 - Disney Resort Minnie and Mickey Mouse
 model=CES-China Eastern Airlines_Disney Resort Minnie and Mickey Mouse
 texture=CES-China Eastern Airlines_Disney Resort Minnie and Mickey Mouse
@@ -237,7 +219,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_China Eastern Airlines Airbus A330-300 - Disney Resort Toy Story
 model=CES-China Eastern Airlines_Disney Resort Toy Story
 texture=CES-China Eastern Airlines_Disney Resort Toy Story
@@ -255,7 +237,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CES
 
-[fltsim.11]
+[fltsim.10]
 title=AIGAIM_China Southern Airlines Airbus A330-300 - RR
 model=CSN-China Southern Airlines_RR
 texture=CSN-China Southern Airlines_RR
@@ -274,7 +256,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSN
 
-[fltsim.12]
+[fltsim.11]
 title=AIGAIM_Corsair International Airbus A330-300
 model=CRL-Corsair International
 texture=CRL-Corsair International
@@ -291,7 +273,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRL
 
-[fltsim.13]
+[fltsim.12]
 title=AIGAIM_Corsair International Airbus A330-300 - Old Titles
 model=CRL-Corsair International_Old Titles
 texture=CRL-Corsair International_Old Titles
@@ -308,7 +290,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRL
 
-[fltsim.14]
+[fltsim.13]
 title=AIGAIM_EgyptAir Airbus A330-300
 model=MSR-EgyptAir
 texture=MSR-EgyptAir
@@ -326,7 +308,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.15]
+[fltsim.14]
 title=AIGAIM_EgyptAir Airbus A330-300 - 'Egypt Flag Tailfin'
 model=MSR-EgyptAir_'Egypt Flag Tailfin'
 texture=MSR-EgyptAir_'Egypt Flag Tailfin'
@@ -344,25 +326,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MSR
 
-[fltsim.16]
-title=AIGAIM_Eurowings Discover Airbus A330-300
-model=OCN-Eurowings Discover
-texture=OCN-Eurowings Discover
-atc_airline=OCEAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=OCN
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=EW Discover GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Eurowings Discover.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OCN
-
-[fltsim.17]
+[fltsim.15]
 title=AIGAIM_Garuda Indonesia Airbus A330-300
 model=GIA-Garuda Indonesia
 texture=GIA-Garuda Indonesia
@@ -380,7 +344,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.18]
+[fltsim.16]
 title=AIGAIM_Garuda Indonesia Airbus A330-300 - 242t Retro 1969-1985
 model=GIA-Garuda Indonesia_242t Retro 1969-1985
 texture=GIA-Garuda Indonesia_242t Retro 1969-1985
@@ -398,7 +362,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GIA
 
-[fltsim.19]
+[fltsim.17]
 title=AIGAIM_Hainan Airlines Airbus A330-300
 model=CHH-Hainan Airlines
 texture=CHH-Hainan Airlines
@@ -416,7 +380,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.20]
+[fltsim.18]
 title=AIGAIM_Hainan Airlines Airbus A330-300 - 242t Large 3rd Door
 model=CHH-Hainan Airlines_242t Large 3rd Door
 texture=CHH-Hainan Airlines_242t Large 3rd Door
@@ -434,7 +398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.21]
+[fltsim.19]
 title=AIGAIM_Hainan Airlines Airbus A330-300 - 242t Old HNA Logo
 model=CHH-Hainan Airlines_242t Old HNA Logo
 texture=CHH-Hainan Airlines_242t Old HNA Logo
@@ -452,7 +416,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.22]
+[fltsim.20]
 title=AIGAIM_Hainan Airlines Airbus A330-300 - 242t Britain China Film Festival
 model=CHH-Hainan Airlines_242t Britain China Film Festival
 texture=CHH-Hainan Airlines_242t Britain China Film Festival
@@ -470,7 +434,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.23]
+[fltsim.21]
 title=AIGAIM_Hainan Airlines Airbus A330-300 - 242t Hai! Manchester
 model=CHH-Hainan Airlines_242t Hai! Manchester
 texture=CHH-Hainan Airlines_242t Hai! Manchester
@@ -488,7 +452,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHH
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Hong Kong Airlines Airbus A330-300
 model=CRK-Hong Kong Airlines
 texture=CRK-Hong Kong Airlines
@@ -506,7 +470,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRK
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Iberojet Airbus A330-300
 model=EVE-Iberojet
 texture=EVE-Iberojet
@@ -524,7 +488,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_Iberojet Airbus A330-300 - 242t
 model=EVE-Iberojet_242t
 texture=EVE-Iberojet_242t
@@ -543,7 +507,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_Lucky Air Airbus A330-300 - OC
 model=LKE-Lucky Air_OC
 texture=LKE-Lucky Air_OC
@@ -561,7 +525,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_Lucky Air Airbus A330-300 - 242t Large 3rd Door
 model=LKE-Lucky Air_242t Large 3rd Door
 texture=LKE-Lucky Air_242t Large 3rd Door
@@ -579,25 +543,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.29]
-title=AIGAIM_Lufthansa Airbus A330-300 - fwd Dome
-model=DLH-Lufthansa_fwd Dome
-texture=DLH-Lufthansa_fwd Dome
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_Lufthansa Airbus A330-300 - EU-Flag rear Dome
 model=DLH-Lufthansa_EU-Flag rear Dome
 texture=DLH-Lufthansa_EU-Flag rear Dome
@@ -615,25 +561,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.31]
-title=AIGAIM_Lufthansa Airbus A330-300 - OC fwd Dome
-model=DLH-Lufthansa_OC fwd Dome
-texture=DLH-Lufthansa_OC fwd Dome
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-300
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
-description=AIG_A330-300_RR-RR(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.32]
+[fltsim.28]
 title=AIGAIM_Lufthansa Airbus A330-300 - OC unnamed Webtitles fwd Dome
 model=DLH-Lufthansa_OC unnamed Webtitles fwd Dome
 texture=DLH-Lufthansa_OC unnamed Webtitles fwd Dome
@@ -651,7 +579,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.33]
+[fltsim.29]
 title=AIGAIM_MNG Airlines Airbus A330-300 - Albino
 model=MNB-MNG Airlines_Albino
 texture=MNB-MNG Airlines_Albino
@@ -670,7 +598,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MNB
 
-[fltsim.34]
+[fltsim.30]
 title=AIGAIM_Philippine Airlines Airbus A330-300
 model=PAL-Philippine Airlines
 texture=PAL-Philippine Airlines
@@ -689,7 +617,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PAL
 
-[fltsim.35]
+[fltsim.31]
 title=AIGAIM_SriLankan Airlines Airbus A330-300
 model=ALK-SriLankan Airlines
 texture=ALK-SriLankan Airlines
@@ -708,7 +636,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.36]
+[fltsim.32]
 title=AIGAIM_SriLankan Airlines Airbus A330-300 - 242t
 model=ALK-SriLankan Airlines_242t
 texture=ALK-SriLankan Airlines_242t
@@ -727,7 +655,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ALK
 
-[fltsim.37]
+[fltsim.33]
 title=AIGAIM_Oman Air Airbus A330-300 - fwd wifi
 model=OMA-Oman Air_fwd wifi
 texture=OMA-Oman Air_fwd wifi
@@ -745,7 +673,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMA
 
-[fltsim.38]
+[fltsim.34]
 title=AIGAIM_ULS Airlines Cargo Airbus A330-300 - opb SMF
 model=KZU-ULS Airlines Cargo_opb SMF
 texture=KZU-ULS Airlines Cargo_opb SMF
@@ -764,7 +692,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KZU
 
-[fltsim.39]
+[fltsim.35]
 title=AIGAIM_Turkish Airlines Airbus A330-300 - RR Belly Logo
 model=THY-Turkish Airlines_RR Belly Logo
 texture=THY-Turkish Airlines_RR Belly Logo
@@ -782,7 +710,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.40]
+[fltsim.36]
 title=AIGAIM_Sunclass Airlines Airbus A330-300
 model=VKG-Sunclass Airlines
 texture=VKG-Sunclass Airlines
@@ -801,7 +729,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VKG
 
-[fltsim.41]
+[fltsim.37]
 title=AIGAIM_Swiss Airbus A330-300
 model=SWR-Swiss
 texture=SWR-Swiss
@@ -820,7 +748,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.42]
+[fltsim.38]
 title=AIGAIM_Swiss Airbus A330-300 - unnamed
 model=SWR-Swiss_unnamed
 texture=SWR-Swiss_unnamed
@@ -839,7 +767,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.43]
+[fltsim.39]
 title=AIGAIM_Shenzhen Airlines Airbus A330-300 - 242t
 model=CSZ-Shenzhen Airlines_242t
 texture=CSZ-Shenzhen Airlines_242t
@@ -857,7 +785,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.44]
+[fltsim.40]
 title=AIGAIM_Sichuan Airlines Airbus A330-300 - Engine Titles
 model=CSC-Sichuan Airlines_Engine Titles
 texture=CSC-Sichuan Airlines_Engine Titles
@@ -876,7 +804,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.45]
+[fltsim.41]
 title=AIGAIM_Sichuan Airlines Airbus A330-300 - 242t
 model=CSC-Sichuan Airlines_242t
 texture=CSC-Sichuan Airlines_242t
@@ -895,7 +823,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.46]
+[fltsim.42]
 title=AIGAIM_Cebu Pacific Airbus A330-300 - 242t
 model=CEB-Cebu Pacific_242t
 texture=CEB-Cebu Pacific_242t
@@ -914,7 +842,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEB
 
-[fltsim.47]
+[fltsim.43]
 title=AIGAIM_Cebu Pacific Airbus A330-300 - OC
 model=CEB-Cebu Pacific_OC
 texture=CEB-Cebu Pacific_OC
@@ -933,7 +861,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CEB
 
-[fltsim.48]
+[fltsim.44]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300
 model=SAS-SAS Scandinavian Airlines
 texture=SAS-SAS Scandinavian Airlines
@@ -952,7 +880,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.49]
+[fltsim.45]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300 - 242t Enhanced
 model=SAS-SAS Scandinavian Airlines_242t Enhanced
 texture=SAS-SAS Scandinavian Airlines_242t Enhanced
@@ -971,7 +899,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.50]
+[fltsim.46]
 title=AIGAIM_SAS Scandinavian Airlines Airbus A330-300 - 242t Enhanced - SE-REH
 model=SAS-SAS Scandinavian Airlines_242t Enhanced - SE-REH
 texture=SAS-SAS Scandinavian Airlines_242t Enhanced - SE-REH
@@ -990,7 +918,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAS
 
-[fltsim.51]
+[fltsim.47]
 title=AIGAIM_Saudia Airbus A330-300
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -1008,7 +936,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.52]
+[fltsim.48]
 title=AIGAIM_Saudia Airbus A330-300 - 242t
 model=SVA-Saudia_242t
 texture=SVA-Saudia_242t
@@ -1026,7 +954,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.53]
+[fltsim.49]
 title=AIGAIM_Saudia Airbus A330-300 - Skyteam
 model=SVA-Saudia_Skyteam
 texture=SVA-Saudia_Skyteam
@@ -1044,7 +972,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.54]
+[fltsim.50]
 title=AIGAIM_Saudia Airbus A330-300 - Saudi National Day
 model=SVA-Saudia_Saudi National Day
 texture=SVA-Saudia_Saudi National Day
@@ -1062,7 +990,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.55]
+[fltsim.51]
 title=AIGAIM_Shanghai Airlines Airbus A330-300
 model=CSH-Shanghai Airlines
 texture=CSH-Shanghai Airlines
@@ -1080,7 +1008,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.56]
+[fltsim.52]
 title=AIGAIM_Shanghai Airlines Airbus A330-300 - opb CES
 model=CSH-Shanghai Airlines_opb CES
 texture=CSH-Shanghai Airlines_opb CES
@@ -1098,7 +1026,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSH
 
-[fltsim.57]
+[fltsim.53]
 title=AIGAIM_T'Way Air Airbus A330-300
 model=TWB-T'Way Air
 texture=TWB-T'Way Air
@@ -1116,7 +1044,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TWB
 
-[fltsim.58]
+[fltsim.54]
 title=AIGAIM_Air Canada Airbus A330-300 - Cfg1 Wifi dome
 model=ACA-Air Canada_Cfg1 Wifi dome
 texture=ACA-Air Canada_Cfg1 Wifi dome
@@ -1134,7 +1062,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.59]
+[fltsim.55]
 title=AIGAIM_Air Canada Airbus A330-300 - Cfg1 OC Wifi dome
 model=ACA-Air Canada_Cfg1 OC Wifi dome
 texture=ACA-Air Canada_Cfg1 OC Wifi dome
@@ -1152,7 +1080,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.60]
+[fltsim.56]
 title=AIGAIM_Air Canada Airbus A330-300 - Cfg1 Star Alliance Wifi dome
 model=ACA-Air Canada_Cfg1 Star Alliance Wifi dome
 texture=ACA-Air Canada_Cfg1 Star Alliance Wifi dome
@@ -1170,7 +1098,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.61]
+[fltsim.57]
 title=AIGAIM_Air Canada Airbus A330-300 - Cfg2 Wifi dome
 model=ACA-Air Canada_Cfg2 Wifi dome
 texture=ACA-Air Canada_Cfg2 Wifi dome
@@ -1188,7 +1116,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
 
-[fltsim.62]
+[fltsim.58]
 title=AIGAIM_Air Canada Airbus A330-300 - Cfg2 OC Star Alliance Wifi dome
 model=ACA-Air Canada_Cfg2 OC Star Alliance Wifi dome
 texture=ACA-Air Canada_Cfg2 OC Star Alliance Wifi dome
@@ -1205,3 +1133,310 @@ description=AIG_A330-300_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
+
+[fltsim.59]
+title=AIGAIM_Rwandair Airbus A330-300 - 242t
+model=RWD-Rwandair_242t
+texture=RWD-Rwandair_242t
+atc_airline=RWANDAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RWD
+ui_manufacturer=AIG
+ui_type=Airbus A330-300
+ui_variation=Rwandair 9XR-WP 'Umurage'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a333_rwd.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RWD
+
+[fltsim.60]
+title=AIGAIM_Brussels Airlines Airbus A330-300
+model=BEL-Brussels Airlines
+texture=BEL-Brussels Airlines
+atc_airline=BEELINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.61]
+title=AIGAIM_Brussels Airlines Airbus A330-300 - OC
+model=BEL-Brussels Airlines_OC
+texture=BEL-Brussels Airlines_OC
+atc_airline=BEELINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.62]
+title=AIGAIM_Brussels Airlines Airbus A330-300 - OC Albino
+model=BEL-Brussels Airlines_OC Albino
+texture=BEL-Brussels Airlines_OC Albino
+atc_airline=BEELINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.63]
+title=AIGAIM_Brussels Airlines Airbus A330-300 - ex CPA
+model=BEL-Brussels Airlines_ex CPA
+texture=BEL-Brussels Airlines_ex CPA
+atc_airline=BEELINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.64]
+title=AIGAIM_Brussels Airlines Airbus A330-300 - Eurowings
+model=BEL-Brussels Airlines_Eurowings
+texture=BEL-Brussels Airlines_Eurowings
+atc_airline=BEELINE
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BEL
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Brussels Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Brussels Airlines.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BEL
+
+[fltsim.65]
+title=AIGAIM_Eurowings Discover Airbus A330-300 - Wifi dome
+model=OCN-Eurowings Discover_Wifi dome
+texture=OCN-Eurowings Discover_Wifi dome
+atc_airline=OCEAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OCN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EW Discover GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Eurowings Discover.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OCN
+
+[fltsim.66]
+title=AIGAIM_Eurowings Discover Airbus A330-300 - large 3rd door
+model=OCN-Eurowings Discover_large 3rd door
+texture=OCN-Eurowings Discover_large 3rd door
+atc_airline=OCEAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OCN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EW Discover GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Eurowings Discover.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OCN
+
+[fltsim.67]
+title=AIGAIM_Eurowings Discover Airbus A330-300 - 242t large 3rd door
+model=OCN-Eurowings Discover_242t large 3rd door
+texture=OCN-Eurowings Discover_242t large 3rd door
+atc_airline=OCEAN
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OCN
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=EW Discover GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Eurowings Discover.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OCN
+
+[fltsim.68]
+title=AIGAIM_Lufthansa Airbus A330-300 - fwd Dome
+model=DLH-Lufthansa_fwd Dome
+texture=DLH-Lufthansa_fwd Dome
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.69]
+title=AIGAIM_Lufthansa Airbus A330-300 - fwd Dome no EU Flag
+model=DLH-Lufthansa_fwd Dome no EU Flag
+texture=DLH-Lufthansa_fwd Dome no EU Flag
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.70]
+title=AIGAIM_Lufthansa Airbus A330-300 - rear Dome
+model=DLH-Lufthansa_rear Dome
+texture=DLH-Lufthansa_rear Dome
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.71]
+title=AIGAIM_Lufthansa Airbus A330-300 - rear Dome no EU Flag
+model=DLH-Lufthansa_rear Dome no EU Flag
+texture=DLH-Lufthansa_rear Dome no EU Flag
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.72]
+title=AIGAIM_Lufthansa Airbus A330-300 - OC fwd Dome
+model=DLH-Lufthansa_OC fwd Dome
+texture=DLH-Lufthansa_OC fwd Dome
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.73]
+title=AIGAIM_Lufthansa Airbus A330-300 - OC rear Dome
+model=DLH-Lufthansa_OC rear Dome
+texture=DLH-Lufthansa_OC rear Dome
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.74]
+title=AIGAIM_Lufthansa Airbus A330-300 - OC unnamed rear Dome
+model=DLH-Lufthansa_OC unnamed rear Dome
+texture=DLH-Lufthansa_OC unnamed rear Dome
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: AIG A333 Lufthansa.zip
+description=AIG_A330-300_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.75]
+title=AIGAIM_South African Airways Airbus A330-300 - 242t
+model=SAA-South African Airways_242t
+texture=SAA-South African Airways_242t
+atc_id=ZS-SXM
+atc_airline=SPRINGBOK
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SAA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-300
+ui_variation=South African Airways
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-300_South African Airways.zip
+description=AIG_A330-300_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SAA

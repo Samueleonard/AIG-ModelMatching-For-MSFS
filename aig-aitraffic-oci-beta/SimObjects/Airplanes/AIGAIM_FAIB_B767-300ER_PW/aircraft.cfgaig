@@ -112,7 +112,7 @@ atc_id=N1511A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Atlas Air
@@ -121,7 +121,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_PW-PW(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.4]
 title=AIGAIM_Atlas Air Boeing 767-300ER - PW

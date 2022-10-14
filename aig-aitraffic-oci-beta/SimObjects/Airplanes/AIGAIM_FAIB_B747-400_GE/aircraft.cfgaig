@@ -454,3 +454,79 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
+
+[fltsim.23]
+title=AIGAIM_Lufthansa Boeing 747-400 - no EU flag
+model=DLH-Lufthansa_no EU flag
+texture=DLH-Lufthansa_no EU flag
+atc_id=D-ABVM
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Lufthansa FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.24]
+title=AIGAIM_Lufthansa Boeing 747-400 - OC Webtitles
+model=DLH-Lufthansa_OC Webtitles
+texture=DLH-Lufthansa_OC Webtitles
+atc_id=D-ABVW
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Lufthansa FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.25]
+title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed
+model=DLH-Lufthansa_OC unnamed
+texture=DLH-Lufthansa_OC unnamed
+atc_id=D-ABTK
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Lufthansa FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.26]
+title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed Webtitles
+model=DLH-Lufthansa_OC unnamed Webtitles
+texture=DLH-Lufthansa_OC unnamed Webtitles
+atc_id=D-ABVK
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Boeing
+ui_type=Boeing 747-400
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB B747-400 Lufthansa FSX.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH

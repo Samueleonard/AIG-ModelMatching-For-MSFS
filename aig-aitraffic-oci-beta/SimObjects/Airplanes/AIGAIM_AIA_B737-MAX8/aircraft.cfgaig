@@ -972,3 +972,21 @@ description=AIA_B737-MAX8-Sat_no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=WJA
+
+[fltsim.51]
+title=AIGAIM_Akasa Air Boeing 737 MAX 8
+model=AKJ-Akasa Air
+texture=AKJ-Akasa Air
+atc_id=VT-YAC
+atc_airline=AKASA AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=AKJ
+ui_manufacturer=Boeing
+ui_type=Boeing 737 MAX 8
+ui_variation=Akasa Air
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Akasa Air B737-8MAX FSX.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=AKJ

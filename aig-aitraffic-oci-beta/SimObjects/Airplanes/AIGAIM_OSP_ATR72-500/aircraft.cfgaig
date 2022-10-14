@@ -1364,3 +1364,21 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTR
+
+[fltsim.73]
+title=AIGAIM_Calm Air ATR 72-500 - C-FMKJ
+model=CAV-Calm Air_C-FMKJ
+texture=CAV-Calm Air_C-FMKJ
+atc_id=C-FMKJ
+atc_airline=CALM AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAV
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Calm Air C-FMKJ
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: CAV-Calm Air osp_atr_72_500.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAV

@@ -105,3 +105,56 @@ description=AIG_Dash8-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=SAT
+
+[fltsim.3]
+title=AIGAIM_Maldivian Bombardier Dash 8-200
+model=DQA-Maldivian
+texture=DQA-Maldivian
+atc_id=8Q-AMD
+atc_airline=SKYSURFER
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DQA
+ui_manufacturer=AIG
+ui_type=Bombardier Dash 8-200
+ui_variation=Maldivian 8Q-AMD
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_dh82_dqa.zip
+description=AIG_Dash8-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DQA
+
+[fltsim.4]
+title=AIGAIM_Aurora Airlines Bombardier Dash 8-200
+model=SHU-Aurora Airlines
+texture=SHU-Aurora Airlines
+atc_id=RA-67259
+atc_airline=AURORA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SHU
+ui_manufacturer=Alpha India Group
+ui_type=Bombardier Dash 8-200
+ui_variation=Aurora RA-67259
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SHU-Aurora AIG Dash 8-200.zip
+description=AIG_Dash8-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SHU
+
+[fltsim.5]
+title=AIGAIM_Link PNG Bombardier Dash 8-200 - Black Belly (TEMP)
+model=ANG-Link PNG_Black Belly_temp
+texture=ANG-Link PNG_Black Belly_temp
+atc_airline=NIUGINI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=ANG
+ui_manufacturer=AIG
+ui_type=Bombardier Dash 8-200
+ui_variation=Air Niugini
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: aig_dh8b_ang_geccles.zip
+description=AIG_Dash8-200(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=ANG

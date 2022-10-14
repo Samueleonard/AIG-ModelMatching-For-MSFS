@@ -431,3 +431,20 @@ description=SBAI_A220-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACA
+
+[fltsim.22]
+title=AIGAIM_AirBaltic Airbus A220-300 - Latvian Flag (TEMP)
+model=BTI-AirBaltic_Latvian Flag_temp
+texture=BTI-AirBaltic_Latvian Flag_temp
+atc_airline=AIRBALTIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=BTI
+ui_manufacturer=SBAI
+ui_type=Airbus A220-300
+ui_variation=AS Air Baltic Corporation
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SBAI CS300 AirBaltic.zip
+description=SBAI_A220-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=BTI

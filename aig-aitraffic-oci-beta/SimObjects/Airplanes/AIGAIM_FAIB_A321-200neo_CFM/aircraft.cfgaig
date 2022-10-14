@@ -409,42 +409,6 @@ isUserSelectable=0
 icao_airline=ALK
 
 [fltsim.21]
-title=AIGAIM_Novair Airbus A321-200neo - SE-RKA
-model=NVR-Novair_SE-RKA
-texture=NVR-Novair_SE-RKA
-atc_id=SE-RKA
-atc_airline=NOVAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NVR
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Novair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
-description=FAIB_A321-200neo_CFM-CFML_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NVR
-
-[fltsim.22]
-title=AIGAIM_Novair Airbus A321-200neo - SE-RKB
-model=NVR-Novair_SE-RKB
-texture=NVR-Novair_SE-RKB
-atc_id=SE-RKB
-atc_airline=NOVAIR
-atc_parking_types=GATE,RAMP
-atc_parking_codes=NVR
-ui_manufacturer=FAIB
-ui_type=Airbus A321-200neo
-ui_variation=Novair
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JCAI Filename: FAIB_A321N_NVR.zip
-description=FAIB_A321-200neo_CFM-CFML_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=NVR
-
-[fltsim.23]
 title=AIGAIM_Pegasus Airlines Airbus A321-200neo
 model=PGT-Pegasus Airlines
 texture=PGT-Pegasus Airlines
@@ -462,7 +426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.24]
+[fltsim.22]
 title=AIGAIM_Vistara Airbus A321-200neo
 model=VTI-Vistara
 texture=VTI-Vistara
@@ -479,7 +443,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VTI
 
-[fltsim.25]
+[fltsim.23]
 title=AIGAIM_Thai AirAsia Airbus A321-200neo - ACF A321neo
 model=AIQ-Thai AirAsia_ACF A321neo
 texture=AIQ-Thai AirAsia_ACF A321neo
@@ -497,7 +461,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.26]
+[fltsim.24]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo
 model=TAP-TAP Air Portugal
 texture=TAP-TAP Air Portugal
@@ -515,7 +479,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.27]
+[fltsim.25]
 title=AIGAIM_TAP Air Portugal Airbus A321-200neo - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -533,7 +497,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.28]
+[fltsim.26]
 title=AIGAIM_SalamAir Airbus A321-200neo
 model=OMS-SalamAir
 texture=OMS-SalamAir
@@ -551,7 +515,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OMS
 
-[fltsim.29]
+[fltsim.27]
 title=AIGAIM_Starlux Airlines Airbus A321-200neo - ACF
 model=SJX-Starlux Airlines_ACF
 texture=SJX-Starlux Airlines_ACF
@@ -569,7 +533,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SJX
 
-[fltsim.30]
+[fltsim.28]
 title=AIGAIM_Ural Airlines Airbus A321-200neo
 model=SVR-Ural Airlines
 texture=SVR-Ural Airlines
@@ -587,7 +551,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVR
 
-[fltsim.31]
+[fltsim.29]
 title=AIGAIM_Air Busan Airbus A321-200neo
 model=ABL-Air Busan
 texture=ABL-Air Busan
@@ -605,7 +569,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ABL
 
-[fltsim.32]
+[fltsim.30]
 title=AIGAIM_Asiana Airlines Airbus A321-200neo
 model=AAR-Asiana Airlines
 texture=AAR-Asiana Airlines
@@ -623,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.33]
+[fltsim.31]
 title=AIGAIM_PLAY Airbus A321-200neo
 model=FPY-PLAY
 texture=FPY-PLAY
@@ -641,7 +605,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FPY
 
-[fltsim.34]
+[fltsim.32]
 title=AIGAIM_easyJet Europe Airbus A321-200neo - ACF
 model=EJU-easyJet Europe_ACF
 texture=EJU-easyJet Europe_ACF
@@ -659,7 +623,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.35]
+[fltsim.33]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF
 model=EZY-easyJet_ACF
 texture=EZY-easyJet_ACF
@@ -677,7 +641,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.36]
+[fltsim.34]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF NEO Promotion
 model=EZY-easyJet_ACF NEO Promotion
 texture=EZY-easyJet_ACF NEO Promotion
@@ -695,7 +659,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.37]
+[fltsim.35]
 title=AIGAIM_easyJet Airbus A321-200neo - ACF Paul Green
 model=EZY-easyJet_ACF Paul Green
 texture=EZY-easyJet_ACF Paul Green
@@ -712,3 +676,21 @@ description=FAIB_A321-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+
+[fltsim.36]
+title=AIGAIM_Novair Airbus A321-200neo
+model=NVR-Novair
+texture=NVR-Novair
+atc_id=SE-RKA
+atc_airline=NAVIGATOR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NVR
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Novair
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FAIB_A321_NVR_NC.zip
+description=FAIB_A321-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NVR

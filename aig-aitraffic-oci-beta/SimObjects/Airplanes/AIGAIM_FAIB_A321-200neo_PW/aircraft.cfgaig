@@ -640,3 +640,57 @@ description=FAIB_A321-200neo_PW-PW_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=TGW
+
+[fltsim.34]
+title=AIGAIM_Lufthansa Airbus A321-200neo - ACF
+model=DLH-Lufthansa_ACF
+texture=DLH-Lufthansa_ACF
+atc_id=D-AIEN
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.35]
+title=AIGAIM_Lufthansa Airbus A321-200neo - ACF no EU Flag no Raccoon
+model=DLH-Lufthansa_ACF no EU Flag no Raccoon
+texture=DLH-Lufthansa_ACF no EU Flag no Raccoon
+atc_id=D-AIEA
+atc_airline=LUFTHANSA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=Airbus
+ui_type=Airbus A321-200neo
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A321 Lufthansa FSX.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.36]
+title=AIGAIM_Swiss Airbus A321-200neo
+model=SWR-Swiss
+texture=SWR-Swiss
+atc_id=HB-JBP
+atc_airline=SWISS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=FAIB
+ui_type=Airbus A321-200neo
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: faib_swr_a321neo_p3d.zip
+description=FAIB_A321-200neo_PW-PW_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR

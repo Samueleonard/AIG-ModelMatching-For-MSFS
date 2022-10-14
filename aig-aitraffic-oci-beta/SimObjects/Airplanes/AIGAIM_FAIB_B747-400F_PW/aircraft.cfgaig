@@ -286,3 +286,22 @@ description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATG
+
+[fltsim.14]
+title=AIGAIM_SF Airlines Boeing 747-400F - White
+model=CSS-SF Airlines_White
+texture=CSS-SF Airlines_White
+atc_id=B-2473
+atc_airline=SHUN FENG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSS
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=SF Airlines B-2473 White
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: CSS-SF Airlines FAIB 744FPW.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSS

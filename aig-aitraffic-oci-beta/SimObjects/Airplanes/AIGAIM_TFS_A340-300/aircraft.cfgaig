@@ -150,25 +150,6 @@ isUserSelectable=0
 icao_airline=EDW
 
 [fltsim.5]
-title=AIGAIM_Eurowings Airbus A340-300 - opb BEL
-model=EWG-Eurowings_opb BEL
-texture=EWG-Eurowings_opb BEL
-atc_id=OO-ABA
-atc_airline=EUROWINGS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A340-300
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A343 Eurowings.zip
-description=TFS_A340-300-Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.6]
 title=AIGAIM_Iran Aseman Airlines Airbus A340-300
 model=IRC-Iran Aseman Airlines
 texture=IRC-Iran Aseman Airlines
@@ -187,7 +168,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRC
 
-[fltsim.7]
+[fltsim.6]
 title=AIGAIM_Kam Air Airbus A340-300
 model=KMF-Kam Air
 texture=KMF-Kam Air
@@ -206,7 +187,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMF
 
-[fltsim.8]
+[fltsim.7]
 title=AIGAIM_Kam Air Airbus A340-300 - White fuselage
 model=KMF-Kam Air_White fuselage
 texture=KMF-Kam Air_White fuselage
@@ -225,7 +206,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KMF
 
-[fltsim.9]
+[fltsim.8]
 title=AIGAIM_LOT Polish Airlines Airbus A340-300 - opb Air Belgium (TEMP)
 model=LOT-LOT Polish Airlines_opb Air Belgium_temp
 texture=LOT-LOT Polish Airlines_opb Air Belgium_temp
@@ -244,7 +225,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.10]
+[fltsim.9]
 title=AIGAIM_LOT Polish Airlines Airbus A340-300 - White opb Air Belgium
 model=LOT-LOT Polish Airlines_White opb Air Belgium
 texture=LOT-LOT Polish Airlines_White opb Air Belgium
@@ -263,45 +244,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LOT
 
-[fltsim.11]
-title=AIGAIM_Lufthansa Airbus A340-300 - OC
-model=DLH-Lufthansa_OC
-texture=DLH-Lufthansa_OC
-atc_id=D-AIFD
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A340-300
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
-description=TFS_A340-300-Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.12]
-title=AIGAIM_Lufthansa Airbus A340-300 - OC Star Alliance
-model=DLH-Lufthansa_OC Star Alliance
-texture=DLH-Lufthansa_OC Star Alliance
-atc_id=D-AIGN
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A340-300
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
-description=TFS_A340-300-Sat(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.13]
+[fltsim.10]
 title=AIGAIM_Mahan Air Airbus A340-300
 model=IRM-Mahan Air
 texture=IRM-Mahan Air
@@ -320,7 +263,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IRM
 
-[fltsim.14]
+[fltsim.11]
 title=AIGAIM_Plus Ultra Airbus A340-300 - OC Virgen de la Guia - Portugalete
 model=PUE-Plus Ultra_OC Virgen de la Guia - Portugalete
 texture=PUE-Plus Ultra_OC Virgen de la Guia - Portugalete
@@ -339,7 +282,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PUE
 
-[fltsim.15]
+[fltsim.12]
 title=AIGAIM_Tunisair Airbus A340-300 - OT White opb HFM
 model=TAR-Tunisair_OT White opb HFM
 texture=TAR-Tunisair_OT White opb HFM
@@ -358,7 +301,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.16]
+[fltsim.13]
 title=AIGAIM_TAP Air Portugal Airbus A340-300 - OT IC old webtitles
 model=TAP-TAP Air Portugal_OT IC old webtitles
 texture=TAP-TAP Air Portugal_OT IC old webtitles
@@ -377,7 +320,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.17]
+[fltsim.14]
 title=AIGAIM_Swiss Airbus A340-300 - No Dome
 model=SWR-Swiss_No Dome
 texture=SWR-Swiss_No Dome
@@ -396,7 +339,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SWR
 
-[fltsim.18]
+[fltsim.15]
 title=AIGAIM_SyrianAir Airbus A340-300
 model=SYR-SyrianAir
 texture=SYR-SyrianAir
@@ -415,7 +358,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SYR
 
-[fltsim.19]
+[fltsim.16]
 title=AIGAIM_Safrans du Monde Airbus A340-300 - opb Air Belgium (TEMP)
 model=BJO-Safrans du Monde_opb Air Belgium_temp
 texture=BJO-Safrans du Monde_opb Air Belgium_temp
@@ -433,3 +376,117 @@ description=TFS_A340-300-Normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
+
+[fltsim.17]
+title=AIGAIM_Lufthansa Airbus A340-300
+model=DLH-Lufthansa
+texture=DLH-Lufthansa
+atc_id=D-AIFD
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
+description=TFS_A340-300-Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.18]
+title=AIGAIM_Lufthansa Airbus A340-300 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_id=D-AIGZ
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
+description=TFS_A340-300-Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.19]
+title=AIGAIM_Lufthansa Airbus A340-300 - OC unnamed
+model=DLH-Lufthansa_OC unnamed
+texture=DLH-Lufthansa_OC unnamed
+atc_id=D-AIGO
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
+description=TFS_A340-300-Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.20]
+title=AIGAIM_Lufthansa Airbus A340-300 - OC Star Alliance
+model=DLH-Lufthansa_OC Star Alliance
+texture=DLH-Lufthansa_OC Star Alliance
+atc_id=D-AIGN
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
+description=TFS_A340-300-Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.21]
+title=AIGAIM_Lufthansa Airbus A340-300 - OC Star Alliance unnamed
+model=DLH-Lufthansa_OC Star Alliance unnamed
+texture=DLH-Lufthansa_OC Star Alliance unnamed
+atc_id=D-AIGP
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: A343 Lufthansa FSX.zip
+description=TFS_A340-300-Sat(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.22]
+title=AIGAIM_Swiss Airbus A340-300
+model=SWR-Swiss
+texture=SWR-Swiss
+atc_id=HB-JMO
+atc_airline=SWISS
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SWR
+ui_manufacturer=The Fruit Stand
+ui_type=Airbus A340-300
+ui_variation=Swiss
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: tfs_swr_a343_fsx.zip
+description=TFS_A340-300-Normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SWR

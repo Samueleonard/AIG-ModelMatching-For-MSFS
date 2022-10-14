@@ -274,7 +274,7 @@ texture=ASAC-Alaska Airlines_BDSF Eyebrows
 atc_id=N627AS
 atc_airline=ALASKA
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ASAC
+atc_parking_codes=ASAC,ASA
 ui_manufacturer=FAIB
 ui_type=Boeing 737-700WL - BDSF
 ui_variation=Alaska Air Cargo
@@ -283,7 +283,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_asa_b737_jkm.zip
 description=FAIB_B737-700WL-winglets(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ASAC
+icao_airline=ASA
 
 [fltsim.14]
 title=AIGAIM_Arik Air Boeing 737-700WL
@@ -1312,7 +1312,7 @@ texture=RYRT-Ryanair
 atc_id=EI-SEV
 atc_airline=RYANAIR
 atc_parking_types=GATE,RAMP
-atc_parking_codes=RYRT
+atc_parking_codes=RYRT,RYR
 ui_manufacturer=FAIB
 ui_type=Boeing 737-700WL
 ui_variation=Ryanair

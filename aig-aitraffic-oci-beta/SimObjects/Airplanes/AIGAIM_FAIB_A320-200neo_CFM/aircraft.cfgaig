@@ -2762,3 +2762,21 @@ description=FAIB_A320-200neo_CFM-CFML_S(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
+
+[fltsim.152]
+title=AIGAIM_Eurowings Airbus A320-200neo - makechangefly
+model=EWG-Eurowings_makechangefly
+texture=EWG-Eurowings_makechangefly
+atc_id=D-AENA
+atc_airline=EUROWINGS
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EWG
+ui_manufacturer=Airbus
+ui_type=Airbus A320-200neo
+ui_variation=Eurowings GmbH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
+description=FAIB_A320-200neo_CFM-CFML_S(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EWG

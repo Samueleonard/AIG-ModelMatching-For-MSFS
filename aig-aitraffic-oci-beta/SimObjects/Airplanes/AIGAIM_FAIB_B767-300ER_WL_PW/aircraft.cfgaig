@@ -87,25 +87,6 @@ isUserSelectable=0
 icao_airline=AUA
 
 [fltsim.2]
-title=AIGAIM_Austrian Airlines Boeing 767-300ER WL - 1-1-1-1
-model=AUA-Austrian Airlines_1-1-1-1
-texture=AUA-Austrian Airlines_1-1-1-1
-atc_id=OE-LAX
-atc_airline=AUSTRIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AUA
-ui_manufacturer=FSX-AI Bureau (FAIB)
-ui_type=Boeing 767-300ER WL
-ui_variation=Austrian Airlines AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B767-300_Austrian.zip
-description=FAIB_B767-300ER_WL_PW-WPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AUA
-
-[fltsim.3]
 title=AIGAIM_Austrian Airlines Boeing 767-300ER WL - IC
 model=AUA-Austrian Airlines_IC
 texture=AUA-Austrian Airlines_IC
@@ -124,26 +105,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.4]
-title=AIGAIM_Austrian Airlines Boeing 767-300ER WL - IC my Austrian
-model=AUA-Austrian Airlines_IC my Austrian
-texture=AUA-Austrian Airlines_IC my Austrian
-atc_id=OE-LAT
-atc_airline=AUSTRIAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=AUA
-ui_manufacturer=FSX-AI Bureau (FAIB)
-ui_type=Boeing 767-300ER WL
-ui_variation=Austrian Airlines AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB B767-300_Austrian.zip
-description=FAIB_B767-300ER_WL_PW-WPW(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=AUA
-
-[fltsim.5]
+[fltsim.3]
 title=AIGAIM_Condor Boeing 767-300ER WL - PW
 model=CFG-Condor_PW
 texture=CFG-Condor_PW
@@ -162,7 +124,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Condor Boeing 767-300ER WL - PW MC
 model=CFG-Condor_PW MC
 texture=CFG-Condor_PW MC
@@ -181,7 +143,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CFG
 
-[fltsim.7]
+[fltsim.5]
 title=AIGAIM_Ethiopian Airlines Boeing 767-300ER WL - 4x4
 model=ETH-Ethiopian Airlines_4x4
 texture=ETH-Ethiopian Airlines_4x4
@@ -200,7 +162,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.8]
+[fltsim.6]
 title=AIGAIM_Ethiopian Airlines Boeing 767-300ER WL - 4x4 Star Alliance
 model=ETH-Ethiopian Airlines_4x4 Star Alliance
 texture=ETH-Ethiopian Airlines_4x4 Star Alliance
@@ -219,7 +181,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.9]
+[fltsim.7]
 title=AIGAIM_Ukraine International Airlines Boeing 767-300ER WL - PW
 model=AUI-Ukraine International Airlines_PW
 texture=AUI-Ukraine International Airlines_PW
@@ -238,7 +200,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUI
 
-[fltsim.10]
+[fltsim.8]
 title=AIGAIM_United Airlines Boeing 767-300ER WL
 model=UAL-United Airlines
 texture=UAL-United Airlines
@@ -257,7 +219,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.11]
+[fltsim.9]
 title=AIGAIM_United Airlines Boeing 767-300ER WL - OC
 model=UAL-United Airlines_OC
 texture=UAL-United Airlines_OC
@@ -276,7 +238,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.12]
+[fltsim.10]
 title=AIGAIM_United Airlines Boeing 767-300ER WL - OC Star Alliance
 model=UAL-United Airlines_OC Star Alliance
 texture=UAL-United Airlines_OC Star Alliance
@@ -295,7 +257,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UAL
 
-[fltsim.13]
+[fltsim.11]
 title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - PW
 model=DAL-Delta Air Lines_PW
 texture=DAL-Delta Air Lines_PW
@@ -314,7 +276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.14]
+[fltsim.12]
 title=AIGAIM_Delta Air Lines Boeing 767-300ER WL - PW No Belly Titles
 model=DAL-Delta Air Lines_PW No Belly Titles
 texture=DAL-Delta Air Lines_PW No Belly Titles

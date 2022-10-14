@@ -168,7 +168,7 @@ atc_id=N1499A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -177,7 +177,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.7]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air
@@ -187,7 +187,7 @@ atc_id=N1093A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -196,7 +196,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.8]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air White GE
@@ -206,7 +206,7 @@ atc_id=N1709A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -215,7 +215,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.9]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb Atlas Air Amazon One
@@ -225,7 +225,7 @@ atc_id=N1997A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -234,7 +234,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.10]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BCF opb Atlas Air Excelsior
@@ -244,7 +244,7 @@ atc_id=N1321A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -253,7 +253,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.11]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BCF opb Atlas Air Air Wright A Lot
@@ -263,7 +263,7 @@ atc_id=N1181A
 atc_airline=GIANT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=GTI,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -272,7 +272,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_gti_b763f_jkm.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=GTI
 
 [fltsim.12]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI
@@ -282,7 +282,7 @@ atc_id=N307AZ
 atc_airline=AIR TRANSPORT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=ATN,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -291,7 +291,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_atn_b763f_p3d20-10.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=ATN
 
 [fltsim.13]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI Relentless
@@ -301,7 +301,7 @@ atc_id=N443AZ
 atc_airline=AIR TRANSPORT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=ATN,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -310,7 +310,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_atn_b763f_p3d20-10.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=ATN
 
 [fltsim.14]
 title=AIGAIM_Amazon Prime Air Boeing 767-300ER - BDSF opb ATI Peculi'Air
@@ -320,7 +320,7 @@ atc_id=N311AZ
 atc_airline=AIR TRANSPORT
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=AMZ
+atc_parking_codes=ATN,AMZ
 ui_manufacturer=FAIB
 ui_type=Boeing 767-300ER
 ui_variation=Amazon Prime Air
@@ -329,7 +329,7 @@ ui_createdby=Provided by: KAIW2 Filename: faib_atn_b763f_p3d20-10.zip
 description=FAIB_B767-300ER_GE-GEC(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=AMZ
+icao_airline=ATN
 
 [fltsim.15]
 title=AIGAIM_Amerijet International Boeing 767-300ER - BDSF

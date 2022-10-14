@@ -758,3 +758,80 @@ description=AIG_B757-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
+
+[fltsim.37]
+title=AIGAIM_SF Airlines Boeing 757-200 - RR PCF B-2828
+model=CSS-SF Airlines_RR PCF B-2828
+texture=CSS-SF Airlines_RR PCF B-2828
+atc_id=B-2828
+atc_airline=SHUN FENG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=Boeing B757-200 AIG SF Airlines CSS B-2828
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: CSS_B752_Part 1_HD.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSS
+
+[fltsim.38]
+title=AIGAIM_SF Airlines Boeing 757-200 - RR PCF B-2829
+model=CSS-SF Airlines_RR PCF B-2829
+texture=CSS-SF Airlines_RR PCF B-2829
+atc_id=B-2829
+atc_airline=SHUN FENG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=Boeing B757-200 AIG SF Airlines CSS B-2829
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: CSS_B752_Part 1_HD.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSS
+
+[fltsim.39]
+title=AIGAIM_SF Airlines Boeing 757-200 - RR PCF B-2845
+model=CSS-SF Airlines_RR PCF B-2845
+texture=CSS-SF Airlines_RR PCF B-2845
+atc_id=B-2845
+atc_airline=SHUN FENG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSS
+ui_manufacturer=Boeing
+ui_type=Boeing 757-200
+ui_variation=Boeing B757-200 AIG SF Airlines CSS B-2845
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: OCH Filename: CSS_B752_Part 1_HD.zip
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSS
+
+[fltsim.40]
+title=AIGAIM_SF Airlines Boeing 757-200 - RR PCF B-7342
+model=CSS-SF Airlines_RR PCF B-7342
+texture=CSS-SF Airlines_RR PCF B-7342
+atc_id=B-7342
+atc_airline=SHUN FENG
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=CSS
+ui_manufacturer=Alpha India
+ui_type=Boeing 757-200
+ui_variation=SF Airlines B-7342
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: CSS-SF Airlines AIG B752 P3D.zip
+prop_anim_ratio=1.59
+description=AIG_B757-200_RR-RR(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSS

@@ -230,3 +230,20 @@ description=OSP_ATR42-300(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTR
+
+[fltsim.10]
+title=AIGAIM_Calm Air ATR 42-300
+model=CAV-Calm Air
+texture=CAV-Calm Air
+atc_airline=CALM AIR
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CAV
+ui_manufacturer=OSP
+ui_type=ATR 42-300
+ui_variation=Calm Air C-FECI
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: CAV-Calm Air osp_atr_42_300.zip
+description=OSP_ATR42-300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CAV

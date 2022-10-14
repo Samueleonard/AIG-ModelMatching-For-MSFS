@@ -1046,3 +1046,21 @@ description=AIG_A330-200_RR-RR(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OYA
+
+[fltsim.54]
+title=AIGAIM_Rwandair Airbus A330-200 - 242t
+model=RWD-Rwandair_242t
+texture=RWD-Rwandair_242t
+atc_airline=RWANDAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=RWD
+ui_manufacturer=AIG
+ui_type=Airbus A330-200
+ui_variation=Rwandair 9XR-WN 'Ubumwe'
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: FC75 Filename: aig_a332_rwd.zip
+description=AIG_A330-200_RR-RR_242t(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RWD

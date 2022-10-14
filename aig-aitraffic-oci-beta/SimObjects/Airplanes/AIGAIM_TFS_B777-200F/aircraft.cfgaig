@@ -738,3 +738,60 @@ description=TFS_B777-200F(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
+
+[fltsim.36]
+title=AIGAIM_Singapore Airlines Cargo Boeing 777-200F - opf DHL
+model=SIAC-Singapore Airlines Cargo_opf DHL
+texture=SIAC-Singapore Airlines Cargo_opf DHL
+atc_id=9V-DAH
+atc_airline=SINGAPORE
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=SIAC,SIA
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200F
+ui_variation=Singapore Airlines 9V-DAH
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: SIA-Singapore Airlines TFS B772F.zip
+description=TFS_B777-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SIA
+
+[fltsim.37]
+title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Sustainable Fuel DB Schenker
+model=GEC-Lufthansa Cargo_Sustainable Fuel DB Schenker
+texture=GEC-Lufthansa Cargo_Sustainable Fuel DB Schenker
+atc_id=D-ALFG
+atc_airline=LUFTHANSA CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=GEC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200F
+ui_variation=LLufthansa Cargo AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777F Lufthansa Cargo FSX.zip
+description=TFS_B777-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GEC
+
+[fltsim.38]
+title=AIGAIM_Lufthansa Cargo Boeing 777-200F - CO2 neutral future Kuehne Nagel
+model=GEC-Lufthansa Cargo_CO2 neutral future Kuehne Nagel
+texture=GEC-Lufthansa Cargo_CO2 neutral future Kuehne Nagel
+atc_id=D-ALFK
+atc_airline=LUFTHANSA CARGO
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=GEC
+ui_manufacturer=The Fruit Stand
+ui_type=Boeing 777-200F
+ui_variation=LLufthansa Cargo AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: B777F Lufthansa Cargo FSX.zip
+description=TFS_B777-200F(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=GEC
