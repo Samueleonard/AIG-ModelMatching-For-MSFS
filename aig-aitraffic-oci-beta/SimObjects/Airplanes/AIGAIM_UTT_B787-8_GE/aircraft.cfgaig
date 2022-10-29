@@ -837,24 +837,6 @@ isUserSelectable=0
 icao_airline=UZB
 
 [fltsim.41]
-title=AIGAIM_TUIfly Nordic Boeing 787-8 - opb TUI Airways UK named
-model=BLX-TUIfly Nordic_opb TUI Airways UK named
-texture=BLX-TUIfly Nordic_opb TUI Airways UK named
-atc_airline=BLUESCAN
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=BLX
-ui_manufacturer=United Traffic Team
-ui_type=Boeing 787-8
-ui_variation=TUI Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: utt_tuiairways_788.zip
-description=UTT_B787-8_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=BLX
-
-[fltsim.42]
 title=AIGAIM_TUI fly Netherlands Boeing 787-8
 model=TFL-TUI fly Netherlands
 texture=TFL-TUI fly Netherlands
@@ -872,7 +854,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.43]
+[fltsim.42]
 title=AIGAIM_TUI fly Netherlands Boeing 787-8 - belly logo
 model=TFL-TUI fly Netherlands_belly logo
 texture=TFL-TUI fly Netherlands_belly logo
@@ -890,7 +872,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TFL
 
-[fltsim.44]
+[fltsim.43]
 title=AIGAIM_TUI fly Belgium Boeing 787-8
 model=JAF-TUI fly Belgium
 texture=JAF-TUI fly Belgium
@@ -908,7 +890,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JAF
 
-[fltsim.45]
+[fltsim.44]
 title=AIGAIM_TUI Airways UK Boeing 787-8 - named
 model=TOM-TUI Airways UK_named
 texture=TOM-TUI Airways UK_named

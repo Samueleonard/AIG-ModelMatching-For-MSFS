@@ -118,3 +118,21 @@ description=FAIB_B737-500-normal(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VSV
+
+[fltsim.5]
+title=AIGAIM_Armenia Airlines Boeing 737-500
+model=NGT-Armenia Airlines
+texture=NGT-Armenia Airlines
+atc_id=EK73736
+atc_airline=ARMENIA
+atc_parking_types=GATE,RAMP
+atc_parking_codes=NGT
+ui_manufacturer=FAIB
+ui_type=Boeing 737-500
+ui_variation=Armenia Aircompany
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: NGT-Armenia_Aircompany_FAIB_B735.zip
+description=FAIB_B737-500-normal(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=NGT

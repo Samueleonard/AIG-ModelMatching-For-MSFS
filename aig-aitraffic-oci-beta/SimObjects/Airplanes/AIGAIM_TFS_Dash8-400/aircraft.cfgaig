@@ -79,23 +79,6 @@ on_goal=10 ; The alpha that the Alpha Protection will attempt to reach when trig
 timer_trigger=1.0 ; Duration (in Sec) the alpha must be above on_limit before the Alpha Protection is triggered
 
 [fltsim.0]
-title=AIGAIM_Air Cote d'Ivoire Bombardier Dash 8-Q400 (TEMP)
-model=VRE-Air Cote d'Ivoire_temp
-texture=VRE-Air Cote d'Ivoire_temp
-atc_airline=COTE D IVOIRE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=VRE
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Air Cote d'Ivoire
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_aircotedivoire_dh4.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=VRE
-
-[fltsim.1]
 title=AIGAIM_Air Tanzania Bombardier Dash 8-Q400 - Diff Giraffe on Tail
 model=ATC-Air Tanzania_Diff Giraffe on Tail
 texture=ATC-Air Tanzania_Diff Giraffe on Tail
@@ -112,7 +95,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ATC
 
-[fltsim.2]
+[fltsim.1]
 title=AIGAIM_Arik Air Bombardier Dash 8-Q400
 model=ARA-Arik Air
 texture=ARA-Arik Air
@@ -130,7 +113,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ARA
 
-[fltsim.3]
+[fltsim.2]
 title=AIGAIM_ATSA Airlines Bombardier Dash 8-Q400
 model=AMP-ATSA Airlines
 texture=AMP-ATSA Airlines
@@ -148,7 +131,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AMP
 
-[fltsim.4]
+[fltsim.3]
 title=AIGAIM_Camair-Co Bombardier Dash 8-Q400
 model=CRC-Camair-Co
 texture=CRC-Camair-Co
@@ -165,25 +148,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRC
 
-[fltsim.5]
-title=AIGAIM_Ethiopian Airlines Bombardier Dash 8-Q400
-model=ETH-Ethiopian Airlines
-texture=ETH-Ethiopian Airlines
-atc_airline=ETHIOPIAN
-atc_parking_types=RAMP
-atc_parking_codes=ETH
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Air Nippon Network
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: dash8-400_ethiopian.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=ETH
-
-[fltsim.6]
+[fltsim.4]
 title=AIGAIM_Ethiopian Mocambique Airlines Bombardier Dash 8-Q400
 model=ETH-Ethiopian Mocambique Airlines
 texture=ETH-Ethiopian Mocambique Airlines
@@ -201,25 +166,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.7]
-title=AIGAIM_Eurowings Bombardier Dash 8-Q400 - Albino (TEMP)
-model=EWG-Eurowings_Albino_temp
-texture=EWG-Eurowings_Albino_temp
-atc_airline=EUROWINGS
-atc_parking_types=RAMP
-atc_parking_codes=EWG
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: Dash8-Q400 Eurowings.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.8]
+[fltsim.5]
 title=AIGAIM_Icelandair Bombardier Dash 8-Q400 - TF-FXI
 model=ICE-Icelandair_TF-FXI
 texture=ICE-Icelandair_TF-FXI
@@ -237,7 +184,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.9]
+[fltsim.6]
 title=AIGAIM_Icelandair Bombardier Dash 8-Q400 - TF-FXA
 model=ICE-Icelandair_TF-FXA
 texture=ICE-Icelandair_TF-FXA
@@ -255,57 +202,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ICE
 
-[fltsim.10]
-title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Giraffe
-model=JMA-Jambojet_Giraffe
-texture=JMA-Jambojet_Giraffe
-atc_id=5Y-JXB
-atc_airline=CHUI
-atc_parking_types=RAMP,GATE
-atc_parking_codes=JMA
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JMA
-
-[fltsim.11]
-title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Leopard
-model=JMA-Jambojet_Leopard
-texture=JMA-Jambojet_Leopard
-atc_id=5Y-JXC
-atc_airline=CHUI
-atc_parking_types=RAMP,GATE
-atc_parking_codes=JMA
-ui_type=Bombardier Dash 8-Q400
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JMA
-
-[fltsim.12]
-title=AIGAIM_Jambojet Bombardier Dash 8-Q400 - Zebra
-model=JMA-Jambojet_Zebra
-texture=JMA-Jambojet_Zebra
-atc_id=5Y-JXD
-atc_airline=CHUI
-atc_parking_types=RAMP,GATE
-atc_parking_codes=JMA
-ui_manufacturer=The Fruit Stand
-ui_type=Bombardier Dash 8-Q400
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: tfs_bombardier_dash_8_q400_jambojet.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=JMA
-
-[fltsim.13]
+[fltsim.7]
 title=AIGAIM_Kenya Airways Bombardier Dash 8-Q400 - opb Jambojet Giraffe
 model=KQA-Kenya Airways_opb Jambojet Giraffe
 texture=KQA-Kenya Airways_opb Jambojet Giraffe
@@ -322,26 +219,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KQA
 
-[fltsim.14]
-title=AIGAIM_Malawian Airlines Bombardier Dash 8-Q400
-model=MWI-Malawian Airlines
-texture=MWI-Malawian Airlines
-atc_id=ET-AQB
-atc_airline=MALAWIAN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=MWI
-ui_manufacturer=de Havilland
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Malawian Airlines
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: brw_dh8d_malawianairlines.zip
-prop_anim_ratio=-0.2
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=MWI
-
-[fltsim.15]
+[fltsim.8]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQA
 model=NOK-Nok Air_HS-DQA
 texture=NOK-Nok Air_HS-DQA
@@ -360,7 +238,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.16]
+[fltsim.9]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQB
 model=NOK-Nok Air_HS-DQB
 texture=NOK-Nok Air_HS-DQB
@@ -379,7 +257,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.17]
+[fltsim.10]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQC
 model=NOK-Nok Air_HS-DQC
 texture=NOK-Nok Air_HS-DQC
@@ -398,7 +276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.18]
+[fltsim.11]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQD
 model=NOK-Nok Air_HS-DQD
 texture=NOK-Nok Air_HS-DQD
@@ -417,7 +295,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.19]
+[fltsim.12]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQE
 model=NOK-Nok Air_HS-DQE
 texture=NOK-Nok Air_HS-DQE
@@ -436,7 +314,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.20]
+[fltsim.13]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQF
 model=NOK-Nok Air_HS-DQF
 texture=NOK-Nok Air_HS-DQF
@@ -455,7 +333,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.21]
+[fltsim.14]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQG
 model=NOK-Nok Air_HS-DQG
 texture=NOK-Nok Air_HS-DQG
@@ -474,7 +352,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.22]
+[fltsim.15]
 title=AIGAIM_Nok Air Bombardier Dash 8-Q400 - HS-DQH
 model=NOK-Nok Air_HS-DQH
 texture=NOK-Nok Air_HS-DQH
@@ -493,23 +371,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NOK
 
-[fltsim.23]
-title=AIGAIM_Olympic Air Bombardier Dash 8-Q400
-model=OAL-Olympic Air
-texture=OAL-Olympic Air
-atc_airline=OLYMPIC
-atc_parking_types=RAMP,GATE
-atc_parking_codes=OAL
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Olympic Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OAL
-
-[fltsim.24]
+[fltsim.16]
 title=AIGAIM_Olympic Air Bombardier Dash 8-Q400 - thin Cheatline
 model=OAL-Olympic Air_thin Cheatline
 texture=OAL-Olympic Air_thin Cheatline
@@ -525,23 +387,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OAL
 
-[fltsim.25]
-title=AIGAIM_Olympic Air Bombardier Dash 8-Q400 - 4321
-model=OAL-Olympic Air_4321
-texture=OAL-Olympic Air_4321
-atc_airline=OLYMPIC
-atc_parking_types=RAMP,GATE
-atc_parking_codes=OAL
-ui_type=Bombardier Dash 8-Q400
-ui_variation=Olympic Air
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: TFS_Dash8Q400_Olympic.zip
-description=TFS_Dash8-400(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=OAL
-
-[fltsim.26]
+[fltsim.17]
 title=AIGAIM_Passion Air Bombardier Dash 8-Q400
 model=DIG-Passion Air
 texture=DIG-Passion Air
@@ -560,7 +406,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DIG
 
-[fltsim.27]
+[fltsim.18]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDV
 model=WIF-Wideroe_LN-RDV
 texture=WIF-Wideroe_LN-RDV
@@ -578,7 +424,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.28]
+[fltsim.19]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDY
 model=WIF-Wideroe_LN-RDY
 texture=WIF-Wideroe_LN-RDY
@@ -596,7 +442,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.29]
+[fltsim.20]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-RDZ
 model=WIF-Wideroe_LN-RDZ
 texture=WIF-Wideroe_LN-RDZ
@@ -614,7 +460,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.30]
+[fltsim.21]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDF
 model=WIF-Wideroe_LN-WDF
 texture=WIF-Wideroe_LN-WDF
@@ -632,7 +478,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.31]
+[fltsim.22]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDG
 model=WIF-Wideroe_LN-WDG
 texture=WIF-Wideroe_LN-WDG
@@ -650,7 +496,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.32]
+[fltsim.23]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDH
 model=WIF-Wideroe_LN-WDH
 texture=WIF-Wideroe_LN-WDH
@@ -668,7 +514,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.33]
+[fltsim.24]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDI
 model=WIF-Wideroe_LN-WDI
 texture=WIF-Wideroe_LN-WDI
@@ -686,7 +532,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.34]
+[fltsim.25]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDJ
 model=WIF-Wideroe_LN-WDJ
 texture=WIF-Wideroe_LN-WDJ
@@ -704,7 +550,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.35]
+[fltsim.26]
 title=AIGAIM_Wideroe Bombardier Dash 8-Q400 - LN-WDK
 model=WIF-Wideroe_LN-WDK
 texture=WIF-Wideroe_LN-WDK
@@ -722,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WIF
 
-[fltsim.36]
+[fltsim.27]
 title=AIGAIM_SpiceXpress Bombardier Dash 8-Q400 - Pax
 model=SEJC-SpiceXpress_Pax
 texture=SEJC-SpiceXpress_Pax

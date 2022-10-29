@@ -359,7 +359,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e175_jkm.zip
 description=RFSL_EMB-175v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=SKW
 
 [fltsim.18]
 title=AIGAIM_Delta Connection Embraer EMB-175 - opb Republic Airlines
@@ -377,4 +377,4 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e175_jkm.zip
 description=RFSL_EMB-175v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=RPA

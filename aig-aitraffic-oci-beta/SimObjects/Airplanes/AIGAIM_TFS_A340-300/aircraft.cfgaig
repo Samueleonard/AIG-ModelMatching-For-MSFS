@@ -321,25 +321,6 @@ isUserSelectable=0
 icao_airline=TAP
 
 [fltsim.14]
-title=AIGAIM_Swiss Airbus A340-300 - No Dome
-model=SWR-Swiss_No Dome
-texture=SWR-Swiss_No Dome
-atc_id=HB-JMO
-atc_airline=SWISS
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SWR
-ui_manufacturer=The Fruit Stand
-ui_type=Airbus A340-300
-ui_variation=Swiss
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: tfs_swr_a343_fsx.zip
-description=TFS_A340-300-Normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWR
-
-[fltsim.15]
 title=AIGAIM_SyrianAir Airbus A340-300
 model=SYR-SyrianAir
 texture=SYR-SyrianAir
@@ -358,7 +339,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SYR
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Safrans du Monde Airbus A340-300 - opb Air Belgium (TEMP)
 model=BJO-Safrans du Monde_opb Air Belgium_temp
 texture=BJO-Safrans du Monde_opb Air Belgium_temp
@@ -377,7 +358,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=BJO
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Lufthansa Airbus A340-300
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -396,7 +377,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Lufthansa Airbus A340-300 - OC
 model=DLH-Lufthansa_OC
 texture=DLH-Lufthansa_OC
@@ -415,7 +396,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Lufthansa Airbus A340-300 - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -434,7 +415,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Lufthansa Airbus A340-300 - OC Star Alliance
 model=DLH-Lufthansa_OC Star Alliance
 texture=DLH-Lufthansa_OC Star Alliance
@@ -453,7 +434,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Lufthansa Airbus A340-300 - OC Star Alliance unnamed
 model=DLH-Lufthansa_OC Star Alliance unnamed
 texture=DLH-Lufthansa_OC Star Alliance unnamed
@@ -472,7 +453,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Swiss Airbus A340-300
 model=SWR-Swiss
 texture=SWR-Swiss

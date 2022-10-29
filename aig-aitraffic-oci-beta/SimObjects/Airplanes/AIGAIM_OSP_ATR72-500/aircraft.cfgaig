@@ -148,7 +148,7 @@ texture=AEA-Air Europa
 atc_id=EC-LYJ
 atc_airline=EUROPA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AEA
+atc_parking_codes=OVA,AEA
 ui_manufacturer=ATR
 ui_type=ATR 72-500
 ui_variation=Air Europa Express EC-LYJ
@@ -166,7 +166,7 @@ texture=AEA-Air Europa_Express
 atc_id=EC-MMZ
 atc_airline=EUROPA
 atc_parking_types=GATE,RAMP
-atc_parking_codes=AEA
+atc_parking_codes=OVA,AEA
 ui_manufacturer=ATR
 ui_type=ATR 72-500
 ui_variation=Air Europa Express NC
@@ -1205,60 +1205,6 @@ isUserSelectable=0
 icao_airline=SWT
 
 [fltsim.64]
-title=AIGAIM_Sky Express ATR 72-500 - OC SX-FIV (TEMP)
-model=SEH-Sky Express_OC SX-FIV_temp
-texture=SEH-Sky Express_OC SX-FIV_temp
-atc_id=SX-FIV
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 72-500
-ui_variation=ATR 72-500 OSP Sky Express SEH SX-FIV - Revised Tail
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT75_HD_P3D.zip
-description=OSP_ATR72-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.65]
-title=AIGAIM_Sky Express ATR 72-500 - OC SX-ONE (TEMP)
-model=SEH-Sky Express_OC SX-ONE_temp
-texture=SEH-Sky Express_OC SX-ONE_temp
-atc_id=SX-ONE
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 72-500
-ui_variation=ATR 72-500 OSP Sky Express SEH SX-ONE - Standard
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT75_HD_P3D.zip
-description=OSP_ATR72-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.66]
-title=AIGAIM_Sky Express ATR 72-500 - OC SX-THR (TEMP)
-model=SEH-Sky Express_OC SX-THR_temp
-texture=SEH-Sky Express_OC SX-THR_temp
-atc_id=SX-THR
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 72-500
-ui_variation=ATR 72-500 OSP Sky Express SEH SX-THR - No Greek flag
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT75_HD_P3D.zip
-description=OSP_ATR72-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.67]
 title=AIGAIM_Firefly ATR 72-500 - Cuti Cuti Malaysia
 model=FFM-Firefly_Cuti Cuti Malaysia
 texture=FFM-Firefly_Cuti Cuti Malaysia
@@ -1276,7 +1222,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFM
 
-[fltsim.68]
+[fltsim.65]
 title=AIGAIM_Firefly ATR 72-500 - Jom Jalan
 model=FFM-Firefly_Jom Jalan
 texture=FFM-Firefly_Jom Jalan
@@ -1294,7 +1240,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFM
 
-[fltsim.69]
+[fltsim.66]
 title=AIGAIM_MASwings ATR 72-500 - Cuti Cuti Malaysia
 model=MWG-MASwings_Cuti Cuti Malaysia
 texture=MWG-MASwings_Cuti Cuti Malaysia
@@ -1312,7 +1258,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.70]
+[fltsim.67]
 title=AIGAIM_MASwings ATR 72-500 - Negaraku Sarawak
 model=MWG-MASwings_Negaraku Sarawak
 texture=MWG-MASwings_Negaraku Sarawak
@@ -1330,7 +1276,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.71]
+[fltsim.68]
 title=AIGAIM_MASwings ATR 72-500 - Sarawak
 model=MWG-MASwings_Sarawak
 texture=MWG-MASwings_Sarawak
@@ -1348,7 +1294,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MWG
 
-[fltsim.72]
+[fltsim.69]
 title=AIGAIM_Danish Air Transport ATR 72-500 - SE-MDC 'All White'
 model=DTR-Danish Air Transport_SE-MDC 'All White'
 texture=DTR-Danish Air Transport_SE-MDC 'All White'
@@ -1365,7 +1311,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTR
 
-[fltsim.73]
+[fltsim.70]
 title=AIGAIM_Calm Air ATR 72-500 - C-FMKJ
 model=CAV-Calm Air_C-FMKJ
 texture=CAV-Calm Air_C-FMKJ
@@ -1382,3 +1328,39 @@ description=OSP_ATR72-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAV
+
+[fltsim.71]
+title=AIGAIM_Sky Express ATR 72-500 - OC SX-NIV
+model=SEH-Sky Express_OC SX-NIV
+texture=SEH-Sky Express_OC SX-NIV
+atc_id=SX-NIV
+atc_airline=AIR CRETE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEH
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Sky Express SX-NIV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: SEH-Sky_Express_OSPATR725.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEH
+
+[fltsim.72]
+title=AIGAIM_Sky Express ATR 72-500 - OC SX-SEV
+model=SEH-Sky Express_OC SX-SEV
+texture=SEH-Sky Express_OC SX-SEV
+atc_id=SX-SEV
+atc_airline=AIR CRETE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEH
+ui_manufacturer=OSP
+ui_type=ATR 72-500
+ui_variation=Sky Express SX-SEV
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: SEH-Sky_Express_OSPATR725.zip
+description=OSP_ATR72-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEH

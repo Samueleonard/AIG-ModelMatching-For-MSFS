@@ -1164,114 +1164,6 @@ isUserSelectable=0
 icao_airline=EZS
 
 [fltsim.63]
-title=AIGAIM_Eurowings Airbus A320-200SL
-model=EWG-Eurowings
-texture=EWG-Eurowings
-atc_id=D-AIZQ
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.64]
-title=AIGAIM_Eurowings Airbus A320-200SL - Kvarner Bay
-model=EWG-Eurowings_Kvarner Bay
-texture=EWG-Eurowings_Kvarner Bay
-atc_id=D-AEWK
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.65]
-title=AIGAIM_Eurowings Airbus A320-200SL - Boomerang Club
-model=EWG-Eurowings_Boomerang Club
-texture=EWG-Eurowings_Boomerang Club
-atc_id=D-AEWM
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.66]
-title=AIGAIM_Eurowings Airbus A320-200SL - AVIS Car Hire
-model=EWG-Eurowings_AVIS Car Hire
-texture=EWG-Eurowings_AVIS Car Hire
-atc_id=D-AEWM
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.67]
-title=AIGAIM_Eurowings Airbus A320-200SL - opb EWE
-model=EWG-Eurowings_opb EWE
-texture=EWG-Eurowings_opb EWE
-atc_id=OE-IEW
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.68]
-title=AIGAIM_Eurowings Airbus A320-200SL - opb EWE Eurowings Holidays
-model=EWG-Eurowings_opb EWE Eurowings Holidays
-texture=EWG-Eurowings_opb EWE Eurowings Holidays
-atc_id=OE-IQD
-atc_airline=EUROWINGS
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EWG
-ui_manufacturer=Airbus
-ui_type=Airbus A320-200SL
-ui_variation=Eurowings
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: FAIB A320 Eurowings FSX.zip
-description=FAIB_A320-200SL_CFM-CFM_S(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EWG
-
-[fltsim.69]
 title=AIGAIM_Evelop Airlines Airbus A320-200SL
 model=EVE-Evelop Airlines
 texture=EVE-Evelop Airlines
@@ -1289,7 +1181,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
 
-[fltsim.70]
+[fltsim.64]
 title=AIGAIM_Flyadeal Airbus A320-200SL
 model=FAD-Flyadeal
 texture=FAD-Flyadeal
@@ -1306,7 +1198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FAD
 
-[fltsim.71]
+[fltsim.65]
 title=AIGAIM_Freebird Airlines Airbus A320-200SL - CFM TC-FHN red
 model=FHY-Freebird Airlines_CFM TC-FHN red
 texture=FHY-Freebird Airlines_CFM TC-FHN red
@@ -1323,7 +1215,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FHY
 
-[fltsim.72]
+[fltsim.66]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N227FR Grizwald the Bear
 model=FFT-Frontier Airlines_N227FR Grizwald the Bear
 texture=FFT-Frontier Airlines_N227FR Grizwald the Bear
@@ -1341,7 +1233,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.73]
+[fltsim.67]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N228FR Orville the Red Cardinal
 model=FFT-Frontier Airlines_N228FR Orville the Red Cardinal
 texture=FFT-Frontier Airlines_N228FR Orville the Red Cardinal
@@ -1359,7 +1251,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.74]
+[fltsim.68]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N229FR Peachy the Fox
 model=FFT-Frontier Airlines_N229FR Peachy the Fox
 texture=FFT-Frontier Airlines_N229FR Peachy the Fox
@@ -1377,7 +1269,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.75]
+[fltsim.69]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N230FR Betty the Bluebird
 model=FFT-Frontier Airlines_N230FR Betty the Bluebird
 texture=FFT-Frontier Airlines_N230FR Betty the Bluebird
@@ -1395,7 +1287,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.76]
+[fltsim.70]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N232FR Sammy the Squirrel
 model=FFT-Frontier Airlines_N232FR Sammy the Squirrel
 texture=FFT-Frontier Airlines_N232FR Sammy the Squirrel
@@ -1413,7 +1305,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.77]
+[fltsim.71]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N233FR Buck the Pronghorn
 model=FFT-Frontier Airlines_N233FR Buck the Pronghorn
 texture=FFT-Frontier Airlines_N233FR Buck the Pronghorn
@@ -1431,7 +1323,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.78]
+[fltsim.72]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N235FR Pike the Otter
 model=FFT-Frontier Airlines_N235FR Pike the Otter
 texture=FFT-Frontier Airlines_N235FR Pike the Otter
@@ -1449,7 +1341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.79]
+[fltsim.73]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N236FR Marty the Marmot
 model=FFT-Frontier Airlines_N236FR Marty the Marmot
 texture=FFT-Frontier Airlines_N236FR Marty the Marmot
@@ -1467,7 +1359,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.80]
+[fltsim.74]
 title=AIGAIM_Frontier Airlines Airbus A320-200SL - N238FR Hugh the Manatee
 model=FFT-Frontier Airlines_N238FR Hugh the Manatee
 texture=FFT-Frontier Airlines_N238FR Hugh the Manatee
@@ -1485,7 +1377,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=FFT
 
-[fltsim.81]
+[fltsim.75]
 title=AIGAIM_Go First Airbus A320-200SL - OC
 model=GOW-Go First_OC
 texture=GOW-Go First_OC
@@ -1503,7 +1395,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GOW
 
-[fltsim.82]
+[fltsim.76]
 title=AIGAIM_GX Airlines Airbus A320-200SL
 model=CBG-GX Airlines
 texture=CBG-GX Airlines
@@ -1521,7 +1413,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBG
 
-[fltsim.83]
+[fltsim.77]
 title=AIGAIM_GX Airlines Airbus A320-200SL - Green City NanNing
 model=CBG-GX Airlines_Green City NanNing
 texture=CBG-GX Airlines_Green City NanNing
@@ -1539,7 +1431,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBG
 
-[fltsim.84]
+[fltsim.78]
 title=AIGAIM_GX Airlines Airbus A320-200SL - Transformers
 model=CBG-GX Airlines_Transformers
 texture=CBG-GX Airlines_Transformers
@@ -1557,7 +1449,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CBG
 
-[fltsim.85]
+[fltsim.79]
 title=AIGAIM_Himalaya Airlines Airbus A320-200SL
 model=HIM-Himalaya Airlines
 texture=HIM-Himalaya Airlines
@@ -1575,7 +1467,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HIM
 
-[fltsim.86]
+[fltsim.80]
 title=AIGAIM_Hong Kong Airlines Airbus A320-200SL - Grey Engines (TEMP)
 model=CRK-Hong Kong Airlines_Grey Engines_temp
 texture=CRK-Hong Kong Airlines_Grey Engines_temp
@@ -1593,7 +1485,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CRK
 
-[fltsim.87]
+[fltsim.81]
 title=AIGAIM_Iberia Airbus A320-200SL
 model=IBE-Iberia
 texture=IBE-Iberia
@@ -1611,7 +1503,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.88]
+[fltsim.82]
 title=AIGAIM_Iberia Airbus A320-200SL - Grey THS Base
 model=IBE-Iberia_Grey THS Base
 texture=IBE-Iberia_Grey THS Base
@@ -1629,7 +1521,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBE
 
-[fltsim.89]
+[fltsim.83]
 title=AIGAIM_Iberia Express Airbus A320-200SL
 model=IBS-Iberia Express
 texture=IBS-Iberia Express
@@ -1647,7 +1539,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBS
 
-[fltsim.90]
+[fltsim.84]
 title=AIGAIM_Iberia Express Airbus A320-200SL - Old Engine Titles No Oneworld Sticker
 model=IBS-Iberia Express_Old Engine Titles No Oneworld Sticker
 texture=IBS-Iberia Express_Old Engine Titles No Oneworld Sticker
@@ -1665,7 +1557,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=IBS
 
-[fltsim.91]
+[fltsim.85]
 title=AIGAIM_Iberojet Airbus A320-200SL
 model=EVE-Iberojet
 texture=EVE-Iberojet
@@ -1683,7 +1575,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EVE
 
-[fltsim.92]
+[fltsim.86]
 title=AIGAIM_Indonesia AirAsia Airbus A320-200SL
 model=AWQ-Indonesia AirAsia
 texture=AWQ-Indonesia AirAsia
@@ -1701,7 +1593,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AWQ
 
-[fltsim.93]
+[fltsim.87]
 title=AIGAIM_JC International Airlines Airbus A320-200SL - old titles
 model=JCC-JC International Airlines_old titles
 texture=JCC-JC International Airlines_old titles
@@ -1718,7 +1610,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=JCC
 
-[fltsim.94]
+[fltsim.88]
 title=AIGAIM_Juneyao Airlines Airbus A320-200SL
 model=DKH-Juneyao Airlines
 texture=DKH-Juneyao Airlines
@@ -1735,7 +1627,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DKH
 
-[fltsim.95]
+[fltsim.89]
 title=AIGAIM_Kuwait Airways Airbus A320-200SL - OC
 model=KAC-Kuwait Airways_OC
 texture=KAC-Kuwait Airways_OC
@@ -1753,7 +1645,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KAC
 
-[fltsim.96]
+[fltsim.90]
 title=AIGAIM_LATAM Airlines Brasil Airbus A320-200SL - CFM
 model=TAM-LATAM Airlines Brasil_CFM
 texture=TAM-LATAM Airlines Brasil_CFM
@@ -1770,7 +1662,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.97]
+[fltsim.91]
 title=AIGAIM_LATAM Airlines Brasil Airbus A320-200SL - CFM WiFi Dome
 model=TAM-LATAM Airlines Brasil_CFM WiFi Dome
 texture=TAM-LATAM Airlines Brasil_CFM WiFi Dome
@@ -1787,7 +1679,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.98]
+[fltsim.92]
 title=AIGAIM_LATAM Airlines Brasil Airbus A320-200SL - CFM OC
 model=TAM-LATAM Airlines Brasil_CFM OC
 texture=TAM-LATAM Airlines Brasil_CFM OC
@@ -1805,7 +1697,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAM
 
-[fltsim.99]
+[fltsim.93]
 title=AIGAIM_LATAM Airlines Chile Airbus A320-200SL - opb TAM
 model=LAN-LATAM Airlines Chile_opb TAM
 texture=LAN-LATAM Airlines Chile_opb TAM
@@ -1822,7 +1714,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
 
-[fltsim.100]
+[fltsim.94]
 title=AIGAIM_LATAM Airlines Chile Airbus A320-200SL - opb TAM large WiFi Dome
 model=LAN-LATAM Airlines Chile_opb TAM large WiFi Dome
 texture=LAN-LATAM Airlines Chile_opb TAM large WiFi Dome
@@ -1839,7 +1731,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LAN
 
-[fltsim.101]
+[fltsim.95]
 title=AIGAIM_LATAM Airlines Peru Airbus A320-200SL - CFM
 model=LPE-LATAM Airlines Peru_CFM
 texture=LPE-LATAM Airlines Peru_CFM
@@ -1856,7 +1748,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.102]
+[fltsim.96]
 title=AIGAIM_LATAM Airlines Peru Airbus A320-200SL - CFM OC
 model=LPE-LATAM Airlines Peru_CFM OC
 texture=LPE-LATAM Airlines Peru_CFM OC
@@ -1873,7 +1765,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LPE
 
-[fltsim.103]
+[fltsim.97]
 title=AIGAIM_Longjiang Airlines Airbus A320-200SL
 model=SNG-Longjiang Airlines
 texture=SNG-Longjiang Airlines
@@ -1889,7 +1781,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SNG
 
-[fltsim.104]
+[fltsim.98]
 title=AIGAIM_Loong Air Airbus A320-200SL
 model=CDC-Loong Air
 texture=CDC-Loong Air
@@ -1907,7 +1799,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.105]
+[fltsim.99]
 title=AIGAIM_Loong Air Airbus A320-200SL - Shuangliu
 model=CDC-Loong Air_Shuangliu
 texture=CDC-Loong Air_Shuangliu
@@ -1925,7 +1817,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.106]
+[fltsim.100]
 title=AIGAIM_Loong Air Airbus A320-200SL - Festival in Xian
 model=CDC-Loong Air_Festival in Xian
 texture=CDC-Loong Air_Festival in Xian
@@ -1943,7 +1835,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.107]
+[fltsim.101]
 title=AIGAIM_Loong Air Airbus A320-200SL - Picturesque Zhejiang
 model=CDC-Loong Air_Picturesque Zhejiang
 texture=CDC-Loong Air_Picturesque Zhejiang
@@ -1961,7 +1853,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CDC
 
-[fltsim.108]
+[fltsim.102]
 title=AIGAIM_Lucky Air Airbus A320-200SL
 model=LKE-Lucky Air
 texture=LKE-Lucky Air
@@ -1979,7 +1871,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=LKE
 
-[fltsim.109]
+[fltsim.103]
 title=AIGAIM_West Air Airbus A320-200SL - CFM
 model=CHB-West Air_CFM
 texture=CHB-West Air_CFM
@@ -1996,7 +1888,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
 
-[fltsim.110]
+[fltsim.104]
 title=AIGAIM_West Air Airbus A320-200SL - CFM Happy Valley
 model=CHB-West Air_CFM Happy Valley
 texture=CHB-West Air_CFM Happy Valley
@@ -2014,7 +1906,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
 
-[fltsim.111]
+[fltsim.105]
 title=AIGAIM_West Air Airbus A320-200SL - CFM Pand-Auto
 model=CHB-West Air_CFM Pand-Auto
 texture=CHB-West Air_CFM Pand-Auto
@@ -2031,7 +1923,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
 
-[fltsim.112]
+[fltsim.106]
 title=AIGAIM_West Air Airbus A320-200SL - CFM OC
 model=CHB-West Air_CFM OC
 texture=CHB-West Air_CFM OC
@@ -2049,7 +1941,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CHB
 
-[fltsim.113]
+[fltsim.107]
 title=AIGAIM_Tianjin Airlines Airbus A320-200SL - CFM Old HNA Logo No Engine Titles
 model=GCR-Tianjin Airlines_CFM Old HNA Logo No Engine Titles
 texture=GCR-Tianjin Airlines_CFM Old HNA Logo No Engine Titles
@@ -2067,7 +1959,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
 
-[fltsim.114]
+[fltsim.108]
 title=AIGAIM_Tianjin Airlines Airbus A320-200SL - CFM Haitao Travel
 model=GCR-Tianjin Airlines_CFM Haitao Travel
 texture=GCR-Tianjin Airlines_CFM Haitao Travel
@@ -2085,7 +1977,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GCR
 
-[fltsim.115]
+[fltsim.109]
 title=AIGAIM_Peach Aviation Airbus A320-200SL
 model=APJ-Peach Aviation
 texture=APJ-Peach Aviation
@@ -2103,7 +1995,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APJ
 
-[fltsim.116]
+[fltsim.110]
 title=AIGAIM_Peach Aviation Airbus A320-200SL - Amami
 model=APJ-Peach Aviation_Amami
 texture=APJ-Peach Aviation_Amami
@@ -2121,7 +2013,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APJ
 
-[fltsim.117]
+[fltsim.111]
 title=AIGAIM_StarFlyer Airbus A320-200SL
 model=SFJ-StarFlyer
 texture=SFJ-StarFlyer
@@ -2139,7 +2031,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SFJ
 
-[fltsim.118]
+[fltsim.112]
 title=AIGAIM_Pakistan International Airlines Airbus A320-200SL - Interjet
 model=PIA-Pakistan International Airlines_Interjet
 texture=PIA-Pakistan International Airlines_Interjet
@@ -2157,7 +2049,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PIA
 
-[fltsim.119]
+[fltsim.113]
 title=AIGAIM_Pegasus Airlines Airbus A320-200SL
 model=PGT-Pegasus Airlines
 texture=PGT-Pegasus Airlines
@@ -2175,7 +2067,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=PGT
 
-[fltsim.120]
+[fltsim.114]
 title=AIGAIM_Philippines AirAsia Airbus A320-200SL
 model=APG-Philippines AirAsia
 texture=APG-Philippines AirAsia
@@ -2193,7 +2085,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APG
 
-[fltsim.121]
+[fltsim.115]
 title=AIGAIM_Philippines AirAsia Airbus A320-200SL - Engine Logo
 model=APG-Philippines AirAsia_Engine Logo
 texture=APG-Philippines AirAsia_Engine Logo
@@ -2211,7 +2103,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APG
 
-[fltsim.122]
+[fltsim.116]
 title=AIGAIM_Philippines AirAsia Airbus A320-200SL - OC
 model=APG-Philippines AirAsia_OC
 texture=APG-Philippines AirAsia_OC
@@ -2229,7 +2121,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=APG
 
-[fltsim.123]
+[fltsim.117]
 title=AIGAIM_Qatar Airways Airbus A320-200SL - CFM
 model=QTR-Qatar Airways_CFM
 texture=QTR-Qatar Airways_CFM
@@ -2247,7 +2139,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.124]
+[fltsim.118]
 title=AIGAIM_Qingdao Airlines Airbus A320-200SL
 model=QDA-Qingdao Airlines
 texture=QDA-Qingdao Airlines
@@ -2265,7 +2157,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QDA
 
-[fltsim.125]
+[fltsim.119]
 title=AIGAIM_VietJet Air Airbus A320-200SL
 model=VJC-VietJet Air
 texture=VJC-VietJet Air
@@ -2283,7 +2175,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.126]
+[fltsim.120]
 title=AIGAIM_VietJet Air Airbus A320-200SL - Coca Cola
 model=VJC-VietJet Air_Coca Cola
 texture=VJC-VietJet Air_Coca Cola
@@ -2301,7 +2193,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.127]
+[fltsim.121]
 title=AIGAIM_VietJet Air Airbus A320-200SL - HD Bank
 model=VJC-VietJet Air_HD Bank
 texture=VJC-VietJet Air_HD Bank
@@ -2319,7 +2211,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.128]
+[fltsim.122]
 title=AIGAIM_VietJet Air Airbus A320-200SL - Lotteria
 model=VJC-VietJet Air_Lotteria
 texture=VJC-VietJet Air_Lotteria
@@ -2337,7 +2229,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.129]
+[fltsim.123]
 title=AIGAIM_VietJet Air Airbus A320-200SL - MB
 model=VJC-VietJet Air_MB
 texture=VJC-VietJet Air_MB
@@ -2355,7 +2247,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.130]
+[fltsim.124]
 title=AIGAIM_VietJet Air Airbus A320-200SL - Minions
 model=VJC-VietJet Air_Minions
 texture=VJC-VietJet Air_Minions
@@ -2373,7 +2265,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.131]
+[fltsim.125]
 title=AIGAIM_VietJet Air Airbus A320-200SL - Vietcombank
 model=VJC-VietJet Air_Vietcombank
 texture=VJC-VietJet Air_Vietcombank
@@ -2391,7 +2283,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.132]
+[fltsim.126]
 title=AIGAIM_VietJet Air Airbus A320-200SL - Vietnam VN-A696
 model=VJC-VietJet Air_Vietnam VN-A696
 texture=VJC-VietJet Air_Vietnam VN-A696
@@ -2409,7 +2301,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VJC
 
-[fltsim.133]
+[fltsim.127]
 title=AIGAIM_Viva Air Colombia Airbus A320-200SL - OC
 model=VVC-Viva Air Colombia_OC
 texture=VVC-Viva Air Colombia_OC
@@ -2427,7 +2319,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VVC
 
-[fltsim.134]
+[fltsim.128]
 title=AIGAIM_Viva Air Colombia Airbus A320-200SL - OC Kiltormer 92
 model=VVC-Viva Air Colombia_OC Kiltormer 92
 texture=VVC-Viva Air Colombia_OC Kiltormer 92
@@ -2445,7 +2337,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VVC
 
-[fltsim.135]
+[fltsim.129]
 title=AIGAIM_Viva Air Peru Airbus A320-200SL - OC
 model=VPE-Viva Air Peru_OC
 texture=VPE-Viva Air Peru_OC
@@ -2463,7 +2355,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VPE
 
-[fltsim.136]
+[fltsim.130]
 title=AIGAIM_Vueling Airbus A320-200SL - CFM
 model=VLG-Vueling_CFM
 texture=VLG-Vueling_CFM
@@ -2481,7 +2373,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.137]
+[fltsim.131]
 title=AIGAIM_Vueling Airbus A320-200SL - CFM grey SL
 model=VLG-Vueling_CFM grey SL
 texture=VLG-Vueling_CFM grey SL
@@ -2499,7 +2391,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.138]
+[fltsim.132]
 title=AIGAIM_Vueling Airbus A320-200SL - CFM unnamed
 model=VLG-Vueling_CFM unnamed
 texture=VLG-Vueling_CFM unnamed
@@ -2517,7 +2409,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.139]
+[fltsim.133]
 title=AIGAIM_Vueling Airbus A320-200SL - CFM unnamed Live TV Dome
 model=VLG-Vueling_CFM unnamed Live TV Dome
 texture=VLG-Vueling_CFM unnamed Live TV Dome
@@ -2535,7 +2427,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VLG
 
-[fltsim.140]
+[fltsim.134]
 title=AIGAIM_Tunisair Airbus A320-200SL - full tail stripes
 model=TAR-Tunisair_full tail stripes
 texture=TAR-Tunisair_full tail stripes
@@ -2553,7 +2445,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAR
 
-[fltsim.141]
+[fltsim.135]
 title=AIGAIM_Tibet Airlines Airbus A320-200SL
 model=TBA-Tibet Airlines
 texture=TBA-Tibet Airlines
@@ -2570,7 +2462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TBA
 
-[fltsim.142]
+[fltsim.136]
 title=AIGAIM_Thai VietJet Air Airbus A320-200SL - Amazing Thailand VS-VKB
 model=TVJ-Thai VietJet Air_Amazing Thailand VS-VKB
 texture=TVJ-Thai VietJet Air_Amazing Thailand VS-VKB
@@ -2588,7 +2480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVJ
 
-[fltsim.143]
+[fltsim.137]
 title=AIGAIM_Thai VietJet Air Airbus A320-200SL - Amazing Thailand VS-VKC
 model=TVJ-Thai VietJet Air_Amazing Thailand VS-VKC
 texture=TVJ-Thai VietJet Air_Amazing Thailand VS-VKC
@@ -2606,7 +2498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TVJ
 
-[fltsim.144]
+[fltsim.138]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL
 model=AIQ-Thai AirAsia
 texture=AIQ-Thai AirAsia
@@ -2624,7 +2516,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.145]
+[fltsim.139]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - Airbus Titles
 model=AIQ-Thai AirAsia_Airbus Titles
 texture=AIQ-Thai AirAsia_Airbus Titles
@@ -2642,7 +2534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.146]
+[fltsim.140]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - Engine Logo
 model=AIQ-Thai AirAsia_Engine Logo
 texture=AIQ-Thai AirAsia_Engine Logo
@@ -2660,7 +2552,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.147]
+[fltsim.141]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - Engine Logo Airbus Titles
 model=AIQ-Thai AirAsia_Engine Logo Airbus Titles
 texture=AIQ-Thai AirAsia_Engine Logo Airbus Titles
@@ -2678,7 +2570,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.148]
+[fltsim.142]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - ETOPS Engine Logo Airbus Titles
 model=AIQ-Thai AirAsia_ETOPS Engine Logo Airbus Titles
 texture=AIQ-Thai AirAsia_ETOPS Engine Logo Airbus Titles
@@ -2696,7 +2588,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.149]
+[fltsim.143]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - OC
 model=AIQ-Thai AirAsia_OC
 texture=AIQ-Thai AirAsia_OC
@@ -2714,7 +2606,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.150]
+[fltsim.144]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - OC ETOPS
 model=AIQ-Thai AirAsia_OC ETOPS
 texture=AIQ-Thai AirAsia_OC ETOPS
@@ -2732,7 +2624,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.151]
+[fltsim.145]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - Now Everyone Can Fly Responsibly
 model=AIQ-Thai AirAsia_Now Everyone Can Fly Responsibly
 texture=AIQ-Thai AirAsia_Now Everyone Can Fly Responsibly
@@ -2750,7 +2642,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.152]
+[fltsim.146]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - Sustainable Asean Tourism
 model=AIQ-Thai AirAsia_Sustainable Asean Tourism
 texture=AIQ-Thai AirAsia_Sustainable Asean Tourism
@@ -2768,7 +2660,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.153]
+[fltsim.147]
 title=AIGAIM_Thai AirAsia Airbus A320-200SL - WiFi Dome
 model=AIQ-Thai AirAsia_WiFi Dome
 texture=AIQ-Thai AirAsia_WiFi Dome
@@ -2786,7 +2678,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIQ
 
-[fltsim.154]
+[fltsim.148]
 title=AIGAIM_TAP Air Portugal Airbus A320-200SL - IC
 model=TAP-TAP Air Portugal_IC
 texture=TAP-TAP Air Portugal_IC
@@ -2804,7 +2696,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.155]
+[fltsim.149]
 title=AIGAIM_TAP Air Portugal Airbus A320-200SL - IC Sharklet Retrofit
 model=TAP-TAP Air Portugal_IC Sharklet Retrofit
 texture=TAP-TAP Air Portugal_IC Sharklet Retrofit
@@ -2822,7 +2714,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.156]
+[fltsim.150]
 title=AIGAIM_TAP Air Portugal Airbus A320-200SL - IC old webtitles
 model=TAP-TAP Air Portugal_IC old webtitles
 texture=TAP-TAP Air Portugal_IC old webtitles
@@ -2840,7 +2732,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.157]
+[fltsim.151]
 title=AIGAIM_TAP Air Portugal Airbus A320-200SL - IC Star Alliance
 model=TAP-TAP Air Portugal_IC Star Alliance
 texture=TAP-TAP Air Portugal_IC Star Alliance
@@ -2858,7 +2750,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.158]
+[fltsim.152]
 title=AIGAIM_Shenzhen Airlines Airbus A320-200SL - CFM
 model=CSZ-Shenzhen Airlines_CFM
 texture=CSZ-Shenzhen Airlines_CFM
@@ -2876,7 +2768,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSZ
 
-[fltsim.159]
+[fltsim.153]
 title=AIGAIM_Spring Airlines Airbus A320-200SL
 model=CQH-Spring Airlines
 texture=CQH-Spring Airlines
@@ -2894,7 +2786,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CQH
 
-[fltsim.160]
+[fltsim.154]
 title=AIGAIM_Spring Airlines Airbus A320-200SL - OC
 model=CQH-Spring Airlines_OC
 texture=CQH-Spring Airlines_OC
@@ -2912,7 +2804,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CQH
 
-[fltsim.161]
+[fltsim.155]
 title=AIGAIM_Spring Airlines Airbus A320-200SL - Booking.com
 model=CQH-Spring Airlines_Booking.com
 texture=CQH-Spring Airlines_Booking.com
@@ -2930,7 +2822,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CQH
 
-[fltsim.162]
+[fltsim.156]
 title=AIGAIM_Sichuan Airlines Airbus A320-200SL - CFM
 model=CSC-Sichuan Airlines_CFM
 texture=CSC-Sichuan Airlines_CFM
@@ -2948,7 +2840,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSC
 
-[fltsim.163]
+[fltsim.157]
 title=AIGAIM_S7 Airlines Airbus A320-200SL
 model=SBI-S7 Airlines
 texture=SBI-S7 Airlines
@@ -2965,7 +2857,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.164]
+[fltsim.158]
 title=AIGAIM_S7 Airlines Airbus A320-200SL - OC
 model=SBI-S7 Airlines_OC
 texture=SBI-S7 Airlines_OC
@@ -2983,7 +2875,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SBI
 
-[fltsim.165]
+[fltsim.159]
 title=AIGAIM_Saudia Airbus A320-200SL
 model=SVA-Saudia
 texture=SVA-Saudia
@@ -3000,7 +2892,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.166]
+[fltsim.160]
 title=AIGAIM_Saudia Airbus A320-200SL - Skyteam
 model=SVA-Saudia_Skyteam
 texture=SVA-Saudia_Skyteam
@@ -3018,7 +2910,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.167]
+[fltsim.161]
 title=AIGAIM_Volotea Airbus A320-200SL - 10 Years
 model=VOE-Volotea_10 Years
 texture=VOE-Volotea_10 Years
@@ -3036,7 +2928,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOE
 
-[fltsim.168]
+[fltsim.162]
 title=AIGAIM_easyJet Europe Airbus A320-200SL - David Hughes
 model=EJU-easyJet Europe_David Hughes
 texture=EJU-easyJet Europe_David Hughes
@@ -3054,7 +2946,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.169]
+[fltsim.163]
 title=AIGAIM_easyJet Europe Airbus A320-200SL - Malaga
 model=EJU-easyJet Europe_Malaga
 texture=EJU-easyJet Europe_Malaga
@@ -3072,7 +2964,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.170]
+[fltsim.164]
 title=AIGAIM_easyJet Europe Airbus A320-200SL - Faro
 model=EJU-easyJet Europe_Faro
 texture=EJU-easyJet Europe_Faro
@@ -3090,7 +2982,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EJU
 
-[fltsim.171]
+[fltsim.165]
 title=AIGAIM_easyJet Airbus A320-200SL - EU flag
 model=EZY-easyJet_EU flag
 texture=EZY-easyJet_EU flag
@@ -3108,7 +3000,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.172]
+[fltsim.166]
 title=AIGAIM_easyJet Airbus A320-200SL - EasyJet Holidays
 model=EZY-easyJet_EasyJet Holidays
 texture=EZY-easyJet_EasyJet Holidays
@@ -3126,7 +3018,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EZY
 
-[fltsim.173]
+[fltsim.167]
 title=AIGAIM_FlyArna Airbus A320-200SL
 model=ACY-Fly Arna
 texture=ACY-Fly Arna
@@ -3144,7 +3036,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ACY
 
-[fltsim.174]
+[fltsim.168]
 title=AIGAIM_Air France Airbus A320-200SL - NCv2
 model=AFR-Air France_NCv2
 texture=AFR-Air France_NCv2
@@ -3162,7 +3054,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.175]
+[fltsim.169]
 title=AIGAIM_Air France Airbus A320-200SL - NCv1
 model=AFR-Air France_NCv1
 texture=AFR-Air France_NCv1
@@ -3180,7 +3072,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.176]
+[fltsim.170]
 title=AIGAIM_Air France Airbus A320-200SL - Skyteam
 model=AFR-Air France_Skyteam
 texture=AFR-Air France_Skyteam
@@ -3198,7 +3090,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.177]
+[fltsim.171]
 title=AIGAIM_Austrian Airlines Airbus A320-200SL - unnamed no WiFi Dome
 model=AUA-Austrian Airlines_unnamed no WiFi Dome
 texture=AUA-Austrian Airlines_unnamed no WiFi Dome
@@ -3216,7 +3108,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AUA
 
-[fltsim.178]
+[fltsim.172]
 title=AIGAIM_Edelweiss Air Airbus A320-200SL - Help Alliance
 model=EDW-Edelweiss Air_Help Alliance
 texture=EDW-Edelweiss Air_Help Alliance
@@ -3234,7 +3126,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EDW
 
-[fltsim.179]
+[fltsim.173]
 title=AIGAIM_Eurowings Discover Airbus A320-200SL
 model=OCN-Eurowings Discover
 texture=OCN-Eurowings Discover
@@ -3252,7 +3144,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.180]
+[fltsim.174]
 title=AIGAIM_Eurowings Discover Airbus A320-200SL - Albino
 model=OCN-Eurowings Discover_Albino
 texture=OCN-Eurowings Discover_Albino
@@ -3270,7 +3162,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.181]
+[fltsim.175]
 title=AIGAIM_Eurowings Airbus A320-200SL - Wifi dome
 model=EWG-Eurowings_Wifi dome
 texture=EWG-Eurowings_Wifi dome
@@ -3288,7 +3180,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.182]
+[fltsim.176]
 title=AIGAIM_Eurowings Airbus A320-200SL - Grey Engines Wifi dome
 model=EWG-Eurowings_Grey Engines Wifi dome
 texture=EWG-Eurowings_Grey Engines Wifi dome
@@ -3306,7 +3198,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.183]
+[fltsim.177]
 title=AIGAIM_Eurowings Airbus A320-200SL - Fanairbus
 model=EWG-Eurowings_Fanairbus
 texture=EWG-Eurowings_Fanairbus
@@ -3324,7 +3216,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.184]
+[fltsim.178]
 title=AIGAIM_Eurowings Airbus A320-200SL - Mannschaftsairbus
 model=EWG-Eurowings_Mannschaftsairbus
 texture=EWG-Eurowings_Mannschaftsairbus
@@ -3342,7 +3234,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.185]
+[fltsim.179]
 title=AIGAIM_Eurowings Airbus A320-200SL - Worlds Best Team
 model=EWG-Eurowings_Worlds Best Team
 texture=EWG-Eurowings_Worlds Best Team
@@ -3360,7 +3252,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWG
 
-[fltsim.186]
+[fltsim.180]
 title=AIGAIM_Eurowings Airbus A320-200SL - opb EWE Grey Engines
 model=EWE-Eurowings_opb EWE Grey Engines
 texture=EWE-Eurowings_opb EWE Grey Engines
@@ -3378,7 +3270,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=EWE
 
-[fltsim.187]
+[fltsim.181]
 title=AIGAIM_Lufthansa Airbus A320-200SL
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -3396,7 +3288,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.188]
+[fltsim.182]
 title=AIGAIM_Lufthansa Airbus A320-200SL - no WiFi Dome no EU Flag
 model=DLH-Lufthansa_no WiFi Dome no EU Flag
 texture=DLH-Lufthansa_no WiFi Dome no EU Flag
@@ -3414,7 +3306,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.189]
+[fltsim.183]
 title=AIGAIM_Lufthansa Airbus A320-200SL - Star Alliance
 model=DLH-Lufthansa_Star Alliance
 texture=DLH-Lufthansa_Star Alliance
@@ -3432,7 +3324,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.190]
+[fltsim.184]
 title=AIGAIM_Lufthansa Airbus A320-200SL - Star Alliance unnamed
 model=DLH-Lufthansa_Star Alliance unnamed
 texture=DLH-Lufthansa_Star Alliance unnamed
@@ -3450,7 +3342,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.191]
+[fltsim.185]
 title=AIGAIM_Lufthansa Airbus A320-200SL - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -3468,7 +3360,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.192]
+[fltsim.186]
 title=AIGAIM_Lufthansa Airbus A320-200SL - OC unnamed no WiFi Dome
 model=DLH-Lufthansa_OC unnamed no WiFi Dome
 texture=DLH-Lufthansa_OC unnamed no WiFi Dome

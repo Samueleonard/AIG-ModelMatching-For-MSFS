@@ -194,7 +194,7 @@ texture=YZRC-Suparna Airlines Cargo_SF Hainan OC Hybrid
 atc_id=B-2119
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -379,24 +379,6 @@ isUserSelectable=0
 icao_airline=TMG
 
 [fltsim.20]
-title=AIGAIM_iAero Airways Boeing 737-300 - Swiftair Hybrid
-model=SWQ-iAero Airways_Swiftair Hybrid
-texture=SWQ-iAero Airways_Swiftair Hybrid
-atc_id=N529AU
-atc_airline=SWIFTFLIGHT
-atc_parking_types=RAMP
-atc_parking_codes=SWQ
-ui_manufacturer=FAIB
-ui_type=Boeing 737-300
-ui_variation=iAero Airways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: KAIW2 Filename: faib_swqhybrid_b733_kjm.zip
-description=FAIB_B737-300-normal(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SWQ
-
-[fltsim.21]
 title=AIGAIM_Cardig Air Boeing 737-300 - BDSF
 model=CAD-Cardig Air_BDSF
 texture=CAD-Cardig Air_BDSF
@@ -412,7 +394,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CAD
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2924
 model=CSS-SF Airlines_SF B-2924
 texture=CSS-SF Airlines_SF B-2924
@@ -430,7 +412,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2941
 model=CSS-SF Airlines_SF B-2941
 texture=CSS-SF Airlines_SF B-2941

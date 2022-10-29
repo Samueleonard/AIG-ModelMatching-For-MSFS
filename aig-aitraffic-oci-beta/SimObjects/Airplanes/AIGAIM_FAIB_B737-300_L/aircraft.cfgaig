@@ -829,7 +829,7 @@ texture=YZRC-Suparna Airlines Cargo_SF
 atc_id=B-2945
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -847,7 +847,7 @@ texture=YZRC-Suparna Airlines Cargo_SF Old HNA Logo
 atc_id=B-2112
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -865,7 +865,7 @@ texture=YZRC-Suparna Airlines Cargo_SF OC
 atc_id=B-2908
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -883,7 +883,7 @@ texture=YZRC-Suparna Airlines Cargo_SF OC No rear Door Tape
 atc_id=B-2885
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -901,7 +901,7 @@ texture=YZRC-Suparna Airlines Cargo_SF OC Old Titles No rear Door Tape
 atc_id=B-2115
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -919,7 +919,7 @@ texture=YZRC-Suparna Airlines Cargo_SF Yangtze River OC
 atc_id=B-2578
 atc_airline=YANGTZE RIVER
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
+atc_parking_codes=YZRC,YZR
 ui_manufacturer=Boeing
 ui_type=Boeing 737-300 - SF
 ui_variation=Hainan Airlines Holding Co., Ltd.
@@ -1338,23 +1338,6 @@ isUserSelectable=0
 icao_airline=AKT
 
 [fltsim.74]
-title=AIGAIM_China Southern Airlines Boeing 737-300
-model=CSN-China Southern Airlines
-texture=CSN-China Southern Airlines
-atc_airline=CHINA SOUTHERN
-atc_parking_types=GATE,RAMP
-atc_parking_codes=CSN
-ui_manufacturer=Boeing
-ui_type=Boeing 737-300
-ui_variation=China Southern
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
-description=FAIB_B737-300-logolight(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=CSN
-
-[fltsim.75]
 title=AIGAIM_Air Inuit Boeing 737-300C
 model=AIE-Air Inuit
 texture=AIE-Air Inuit
@@ -1371,7 +1354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AIE
 
-[fltsim.76]
+[fltsim.75]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2598
 model=CSS-SF Airlines_SF B-2598
 texture=CSS-SF Airlines_SF B-2598
@@ -1389,7 +1372,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.77]
+[fltsim.76]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2630
 model=CSS-SF Airlines_SF B-2630
 texture=CSS-SF Airlines_SF B-2630
@@ -1407,7 +1390,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.78]
+[fltsim.77]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2877
 model=CSS-SF Airlines_SF B-2877
 texture=CSS-SF Airlines_SF B-2877
@@ -1425,7 +1408,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.79]
+[fltsim.78]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2951
 model=CSS-SF Airlines_SF B-2951
 texture=CSS-SF Airlines_SF B-2951
@@ -1443,7 +1426,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.80]
+[fltsim.79]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2956
 model=CSS-SF Airlines_SF B-2956
 texture=CSS-SF Airlines_SF B-2956
@@ -1461,7 +1444,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.81]
+[fltsim.80]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2958
 model=CSS-SF Airlines_SF B-2958
 texture=CSS-SF Airlines_SF B-2958
@@ -1479,7 +1462,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.82]
+[fltsim.81]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2966
 model=CSS-SF Airlines_SF B-2966
 texture=CSS-SF Airlines_SF B-2966
@@ -1497,7 +1480,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.83]
+[fltsim.82]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2969
 model=CSS-SF Airlines_SF B-2969
 texture=CSS-SF Airlines_SF B-2969
@@ -1515,7 +1498,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.84]
+[fltsim.83]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2981
 model=CSS-SF Airlines_SF B-2981
 texture=CSS-SF Airlines_SF B-2981
@@ -1533,7 +1516,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.85]
+[fltsim.84]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2983
 model=CSS-SF Airlines_SF B-2983
 texture=CSS-SF Airlines_SF B-2983
@@ -1551,7 +1534,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.86]
+[fltsim.85]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2985
 model=CSS-SF Airlines_SF B-2985
 texture=CSS-SF Airlines_SF B-2985
@@ -1569,7 +1552,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
 
-[fltsim.87]
+[fltsim.86]
 title=AIGAIM_SF Airlines Boeing 737-300 - SF B-2988
 model=CSS-SF Airlines_SF B-2988
 texture=CSS-SF Airlines_SF B-2988
@@ -1586,3 +1569,20 @@ description=FAIB_B737-300-logolight(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
+
+[fltsim.87]
+title=AIGAIM_China Southern Airlines Boeing 737-300
+model=CSN-China Southern Airlines
+texture=CSN-China Southern Airlines
+atc_airline=CHINA SOUTHERN
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CSN
+ui_manufacturer=Boeing
+ui_type=Boeing 737-300
+ui_variation=China Southern
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: AVSIM Filename: faib_b733ll_csn_fsx.zip
+description=FAIB_B737-300-logolight(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CSN

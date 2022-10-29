@@ -160,31 +160,13 @@ isUserSelectable=0
 icao_airline=JRC
 
 [fltsim.6]
-title=AIGAIM_Fly Allways Fokker 70 - PZ-TFC (TEMP)
-model=EDR-Fly All Ways_PZ-TFC_temp
-texture=EDR-Fly All Ways_PZ-TFC_temp
-atc_id=PZ-TFA
-atc_airline=BIRDVIEW
-atc_parking_types=GATE,RAMP
-atc_parking_codes=EDR
-ui_manufacturer=Fokker
-ui_type=Fokker 70
-ui_variation=Fly All Ways
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: Gideon N. Williams on JCAI Filename: Fly All Ways F70 FSX.zip
-description=AIA_F-70(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=EDR
-
-[fltsim.7]
 title=AIGAIM_Virgin Australia Regional Fokker 70 - Alliance colors
 model=VOZX-Virgin Australia Regional_Alliance colors
 texture=VOZX-Virgin Australia Regional_Alliance colors
 atc_id=VH-NKU
 atc_airline=VELOCITY
 atc_parking_types=GATE,RAMP
-atc_parking_codes=VOZX
+atc_parking_codes=VOZX,VOZ
 ui_manufacturer=AI Aardvark
 ui_type=Fokker 70
 ui_variation=Alliance Airlines VH-NKU
@@ -194,3 +176,21 @@ description=AIA_F-70(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VOZX
+
+[fltsim.7]
+title=AIGAIM_Fly Allways Fokker 70 - PZ-TFC
+model=EDR-Fly All Ways_PZ-TFC
+texture=EDR-Fly All Ways_PZ-TFC
+atc_id=PZ-TFC
+atc_airline=BIRDVIEW
+atc_parking_types=GATE,RAMP
+atc_parking_codes=EDR
+ui_manufacturer=Fokker
+ui_type=Fokker 70
+ui_variation=Fly AllWays PZ-TFC
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: EDR-Fly AllWays AIA Fokker 70.zip
+description=AIA_F-70(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=EDR

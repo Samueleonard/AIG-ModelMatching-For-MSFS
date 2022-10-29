@@ -138,7 +138,7 @@ ui_createdby=Provided by: KAIW Filename: rai_dalx_crj7_p3d-2.zip
 description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=EDV
 
 [fltsim.5]
 title=AIGAIM_Delta Connection Bombardier CRJ-700 - opb Skywest Airlines
@@ -156,7 +156,7 @@ ui_createdby=Provided by: KAIW Filename: rai_dalx_crj7_p3d-2.zip
 description=RFSL_CRJ-700(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=SKW
 
 [fltsim.6]
 title=AIGAIM_Ibex Airlines Bombardier CRJ-700 - NextGen
@@ -280,7 +280,7 @@ ui_createdby=Provided by: KAIW2 Filename: rai_ualx_crj7_kjm.zip
 description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW
 
 [fltsim.13]
 title=AIGAIM_United Express Bombardier CRJ-700 - NextGen OC opb Skywest Airlines
@@ -298,4 +298,4 @@ ui_createdby=Provided by: KAIW2 Filename: rai_ualx_crj7_kjm.zip
 description=RFSL_CRJ-700-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW

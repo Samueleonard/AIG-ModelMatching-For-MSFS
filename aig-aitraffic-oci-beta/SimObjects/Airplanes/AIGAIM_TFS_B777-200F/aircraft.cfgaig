@@ -272,7 +272,7 @@ atc_id=ET-APU
 atc_airline=ETHIOPIAN
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ETHC
+atc_parking_codes=ETHC,ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Ethiopian Airlines
@@ -291,7 +291,7 @@ atc_id=ET-APS
 atc_airline=ETHIOPIAN
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ETHC
+atc_parking_codes=ETHC,ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Ethiopian Airlines
@@ -310,7 +310,7 @@ atc_id=ET-ARJ
 atc_airline=ETHIOPIAN
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ETHC
+atc_parking_codes=ETHC,ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Ethiopian Airlines
@@ -329,7 +329,7 @@ atc_id=ET-ARK
 atc_airline=ETHIOPIAN
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=ETHC
+atc_parking_codes=ETHC,ETH
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Ethiopian Airlines
@@ -405,7 +405,7 @@ atc_id=B-16781
 atc_airline=EVA
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=EVAC
+atc_parking_codes=EVAC,EVA
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=EVA Airways Corporation
@@ -512,25 +512,6 @@ isUserSelectable=0
 icao_airline=GEC
 
 [fltsim.24]
-title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Sustainable Fuel
-model=GEC-Lufthansa Cargo_Sustainable Fuel
-texture=GEC-Lufthansa Cargo_Sustainable Fuel
-atc_id=D-ALFG
-atc_airline=LUFTHANSA CARGO
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=GEC
-ui_manufacturer=The Fruit Stand
-ui_type=Boeing 777-200F
-ui_variation=LLufthansa Cargo AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: B777F Lufthansa Cargo FSX.zip
-description=TFS_B777-200F(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=GEC
-
-[fltsim.25]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Cargo Human Care
 model=GEC-Lufthansa Cargo_Cargo Human Care
 texture=GEC-Lufthansa Cargo_Cargo Human Care
@@ -549,7 +530,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - OC
 model=GEC-Lufthansa Cargo_OC
 texture=GEC-Lufthansa Cargo_OC
@@ -568,7 +549,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Natural Beauty
 model=GEC-Lufthansa Cargo_Natural Beauty
 texture=GEC-Lufthansa Cargo_Natural Beauty
@@ -587,7 +568,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Qatar Cargo Boeing 777-200F
 model=QTRC-Qatar Airways Cargo
 texture=QTRC-Qatar Airways Cargo
@@ -595,7 +576,7 @@ atc_id=A7-BFD
 atc_airline=QATARI
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=QTRC
+atc_parking_codes=QTRC,QTR
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Qatar Airways Company Q.C.S.C.
@@ -606,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Turkish Cargo Boeing 777-200F
 model=THYC-Turkish Cargo
 texture=THYC-Turkish Cargo
@@ -614,7 +595,7 @@ atc_id=TC-LJL
 atc_airline=TURKISH
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=THYC
+atc_parking_codes=THYC,THY
 ui_manufacturer=The Fruit Stand
 ui_type=Boeing 777-200F
 ui_variation=Türk Hava Yollari
@@ -625,7 +606,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THYC
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Saudia Cargo Boeing 777-200F
 model=SVAC-Saudia Cargo
 texture=SVAC-Saudia Cargo
@@ -644,7 +625,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Southern Air Boeing 777-200F - DHL
 model=SOO-Southern Air_DHL
 texture=SOO-Southern Air_DHL
@@ -663,7 +644,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Southern Air Boeing 777-200F - DHL Hybrid
 model=SOO-Southern Air_DHL Hybrid
 texture=SOO-Southern Air_DHL Hybrid
@@ -682,7 +663,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_Southern Air Boeing 777-200F - ex-LAN Cargo
 model=SOO-Southern Air_ex-LAN Cargo
 texture=SOO-Southern Air_ex-LAN Cargo
@@ -701,7 +682,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Southern Air Boeing 777-200F - white
 model=SOO-Southern Air_white
 texture=SOO-Southern Air_white
@@ -720,7 +701,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SOO
 
-[fltsim.35]
+[fltsim.34]
 title=AIGAIM_Air France Cargo Boeing 777-200F
 model=AFRC-Air France Cargo
 texture=AFRC-Air France Cargo
@@ -739,7 +720,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.36]
+[fltsim.35]
 title=AIGAIM_Singapore Airlines Cargo Boeing 777-200F - opf DHL
 model=SIAC-Singapore Airlines Cargo_opf DHL
 texture=SIAC-Singapore Airlines Cargo_opf DHL
@@ -758,7 +739,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.37]
+[fltsim.36]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - Sustainable Fuel DB Schenker
 model=GEC-Lufthansa Cargo_Sustainable Fuel DB Schenker
 texture=GEC-Lufthansa Cargo_Sustainable Fuel DB Schenker
@@ -777,7 +758,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=GEC
 
-[fltsim.38]
+[fltsim.37]
 title=AIGAIM_Lufthansa Cargo Boeing 777-200F - CO2 neutral future Kuehne Nagel
 model=GEC-Lufthansa Cargo_CO2 neutral future Kuehne Nagel
 texture=GEC-Lufthansa Cargo_CO2 neutral future Kuehne Nagel

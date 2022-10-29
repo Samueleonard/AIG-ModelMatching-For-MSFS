@@ -367,24 +367,6 @@ isUserSelectable=0
 icao_airline=TAM
 
 [fltsim.17]
-title=AIGAIM_Lufthansa Airbus A350-900 - OC
-model=DLH-Lufthansa_OC
-texture=DLH-Lufthansa_OC
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="United Traffic Team (UTT)"
-ui_type=Airbus A350-900
-ui_variation=Deutsche Lufthansa AG
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
-description=UTT_A350-900(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.18]
 title=AIGAIM_Qatar Airways Airbus A350-900
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -402,7 +384,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Vietnam Airlines Airbus A350-900
 model=HVN-Vietnam Airlines
 texture=HVN-Vietnam Airlines
@@ -420,7 +402,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Vietnam Airlines Airbus A350-900 - Skyteam
 model=HVN-Vietnam Airlines_Skyteam
 texture=HVN-Vietnam Airlines_Skyteam
@@ -438,7 +420,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Singapore Airlines Airbus A350-900
 model=SIA-Singapore Airlines
 texture=SIA-Singapore Airlines
@@ -457,7 +439,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Singapore Airlines Airbus A350-900 - 10000th Airbus Aircraft
 model=SIA-Singapore Airlines_10000th Airbus Aircraft
 texture=SIA-Singapore Airlines_10000th Airbus Aircraft
@@ -476,7 +458,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SIA
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Vietnam Airlines Airbus A350-900 - no Dome
 model=HVN-Vietnam Airlines_no Dome
 texture=HVN-Vietnam Airlines_no Dome
@@ -494,7 +476,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=HVN
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Thai Airways Airbus A350-900
 model=THA-Thai Airways
 texture=THA-Thai Airways
@@ -512,7 +494,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THA
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Malaysia Airlines Airbus A350-900
 model=MAS-Malaysia Airlines
 texture=MAS-Malaysia Airlines
@@ -531,7 +513,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=MAS
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Delta Air Lines Airbus A350-900
 model=DAL-Delta Air Lines
 texture=DAL-Delta Air Lines
@@ -550,7 +532,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Delta Air Lines Airbus A350-900 - The Delta Spirit
 model=DAL-Delta Air Lines_The Delta Spirit
 texture=DAL-Delta Air Lines_The Delta Spirit
@@ -569,7 +551,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DAL
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_Ethiopian Airlines Airbus A350-900 - ET-ATQ Simien Mountains
 model=ETH-Ethiopian Airlines_ET-ATQ Simien Mountains
 texture=ETH-Ethiopian Airlines_ET-ATQ Simien Mountains
@@ -587,7 +569,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ETH
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Eurowings Discover Airbus A350-900 - Finnair
 model=OCN-Eurowings Discover_Finnair
 texture=OCN-Eurowings Discover_Finnair
@@ -605,7 +587,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Eurowings Discover Airbus A350-900 - Finnair Oneworld
 model=OCN-Eurowings Discover_Finnair Oneworld
 texture=OCN-Eurowings Discover_Finnair Oneworld
@@ -623,7 +605,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Lufthansa Airbus A350-900
 model=DLH-Lufthansa
 texture=DLH-Lufthansa
@@ -642,11 +624,30 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_Lufthansa Airbus A350-900 - IC
 model=DLH-Lufthansa_IC
 texture=DLH-Lufthansa_IC
 atc_id=D-AIXI
+atc_airline=LUFTHANSA
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=DLH
+ui_manufacturer="United Traffic Team (UTT)"
+ui_type=Airbus A350-900
+ui_variation=Deutsche Lufthansa AG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: UTT A359 Lufthansa FSX.zip
+description=UTT_A350-900(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=DLH
+
+[fltsim.32]
+title=AIGAIM_Lufthansa Airbus A350-900 - OC
+model=DLH-Lufthansa_OC
+texture=DLH-Lufthansa_OC
+atc_id=D-AIXD
 atc_airline=LUFTHANSA
 atc_heavy=1
 atc_parking_types=GATE,RAMP

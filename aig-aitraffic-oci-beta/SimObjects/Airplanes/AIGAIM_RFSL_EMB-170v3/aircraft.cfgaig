@@ -301,7 +301,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e170_jkm.zip
 description=RFSL_EMB-170v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=RPA
 
 [fltsim.14]
 title=AIGAIM_United Express Embraer EMB-170 - OC opb Republic Airlines
@@ -319,4 +319,4 @@ ui_createdby=Provided by: KAIW Filename: rfsl_ualx_e170_p3d.zip
 description=RFSL_EMB-170v3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=RPA

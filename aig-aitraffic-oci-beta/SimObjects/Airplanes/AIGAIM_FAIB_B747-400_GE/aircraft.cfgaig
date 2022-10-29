@@ -197,7 +197,7 @@ atc_id=B-16462
 atc_airline=EVA
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=EVAC
+atc_parking_codes=EVAC,EVA
 ui_manufacturer=Boeing
 ui_type=Boeing 747-400
 ui_variation=EVA Airways Corporation
@@ -285,25 +285,6 @@ isUserSelectable=0
 icao_airline=CKS
 
 [fltsim.14]
-title=AIGAIM_Suparna Airlines Cargo Boeing 747-400 - BDSF OC (TEMP)
-model=YZRC-Suparna Airlines Cargo_BDSF OC_temp
-texture=YZRC-Suparna Airlines Cargo_BDSF OC_temp
-atc_id=B-2432
-atc_airline=YANGTZE RIVER
-atc_heavy=1
-atc_parking_types=CARGO,RAMP
-atc_parking_codes=YZRC
-ui_manufacturer=FAIB
-ui_type=Boeing 747-400
-ui_variation=Yangtze River Express B-2432 (NC)
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: FC75 Filename: faib_744_yzr_fleet_fsx.zip
-description=FAIB_B747-400_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=YZRC
-
-[fltsim.15]
 title=AIGAIM_National Airlines Boeing 747-400 - BCF (TEMP)
 model=NCR-National Airlines_BCF_temp
 texture=NCR-National Airlines_BCF_temp
@@ -322,7 +303,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=NCR
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Qantas Boeing 747-400 - GE OC
 model=QFA-Qantas_GE OC
 texture=QFA-Qantas_GE OC
@@ -341,7 +322,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Rossiya Airlines Boeing 747-400
 model=SDM-Rossiya Airlines
 texture=SDM-Rossiya Airlines
@@ -360,7 +341,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Rossiya Airlines Boeing 747-400 - Tigers together
 model=SDM-Rossiya Airlines_Tigers together
 texture=SDM-Rossiya Airlines_Tigers together
@@ -379,7 +360,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SDM
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Western Global Airlines Boeing 747-400 - BCF
 model=WGN-Western Global_BCF
 texture=WGN-Western Global_BCF
@@ -398,7 +379,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=WGN
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_UPS Airlines Boeing 747-400 - BCF
 model=UPS-UPS Airlines_BCF
 texture=UPS-UPS Airlines_BCF
@@ -417,7 +398,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=UPS
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Saudia Cargo Boeing 747-400 - GE BDSF
 model=SVAC-Saudia Cargo_GE BDSF
 texture=SVAC-Saudia Cargo_GE BDSF
@@ -436,7 +417,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SVA
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Asiana Airlines Cargo Boeing 747-400 - BDSF
 model=AARC-Asiana Airlines Cargo_BDSF
 texture=AARC-Asiana Airlines Cargo_BDSF
@@ -455,7 +436,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AAR
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Lufthansa Boeing 747-400 - no EU flag
 model=DLH-Lufthansa_no EU flag
 texture=DLH-Lufthansa_no EU flag
@@ -474,7 +455,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC Webtitles
 model=DLH-Lufthansa_OC Webtitles
 texture=DLH-Lufthansa_OC Webtitles
@@ -493,7 +474,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed
 model=DLH-Lufthansa_OC unnamed
 texture=DLH-Lufthansa_OC unnamed
@@ -512,7 +493,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Lufthansa Boeing 747-400 - OC unnamed Webtitles
 model=DLH-Lufthansa_OC unnamed Webtitles
 texture=DLH-Lufthansa_OC unnamed Webtitles
@@ -530,3 +511,41 @@ description=FAIB_B747-400_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=DLH
+
+[fltsim.26]
+title=AIGAIM_ACT Airlines Boeing 747-400 - BDSF
+model=RUN-ACT Airlines_BDSF
+texture=RUN-ACT Airlines_BDSF
+atc_id=TC-ACG
+atc_airline=CARGO TURK
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RUN
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=ACT Airlines TC-ACG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: RUN-ACT Airlines FAIB B744 GE.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RUN
+
+[fltsim.27]
+title=AIGAIM_ACT Airlines Boeing 747-400 - BDSF DSV
+model=RUN-ACT Airlines_BDSF DSV
+texture=RUN-ACT Airlines_BDSF DSV
+atc_id=TC-ACF
+atc_airline=CARGO TURK
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RUN
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400
+ui_variation=ACT Airlines TC-ACF
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: RUN-ACT Airlines FAIB B744 GE.zip
+description=FAIB_B747-400_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RUN

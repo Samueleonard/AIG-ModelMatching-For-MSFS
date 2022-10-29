@@ -231,7 +231,7 @@ ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=EDV
 
 [fltsim.11]
 title=AIGAIM_Delta Connection Bombardier CRJ-200 - opb Skywest Airlines
@@ -249,7 +249,7 @@ ui_createdby=Provided by: KAIW Filename: rfsl_dalx_crj2_p3d.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=SKW
 
 [fltsim.12]
 title=AIGAIM_Fly540 Bombardier CRJ-200
@@ -536,7 +536,7 @@ ui_createdby=Provided by: KAIW Filename: rfsl_ualx_crj2_p3d.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW
 
 [fltsim.28]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Skywest Airlines
@@ -554,7 +554,7 @@ ui_createdby=Provided by: KAIW Filename: rfsl_ualx_crj2_p3d.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW
 
 [fltsim.29]
 title=AIGAIM_United Express Bombardier CRJ-200 - OC opb Air Wisconsin
@@ -572,4 +572,4 @@ ui_createdby=Provided by: KAIW Filename: rfsl_ualx_crj2_p3d.zip
 description=RFSL_CRJ-200-200(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=AWI

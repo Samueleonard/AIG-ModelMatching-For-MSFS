@@ -2065,6 +2065,42 @@ isUserSelectable=0
 icao_airline=GA2J
 
 [fltsim.120]
+title=AIGAIM_Advanced Air Bombardier Challenger 300 - N286JR
+model=WSN-Advanced Air_N286JR
+texture=WSN-Advanced Air_N286JR
+atc_id=N286JR
+atc_airline=WINGSPAN
+atc_parking_types=RAMP
+atc_parking_codes=WSN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 300
+ui_variation=TF 286 LLC, S/N 20014
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: KCAI_Advanced-Air_C300_FLEET_jondix.zip
+description=KCAI_Challenger300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WSN
+
+[fltsim.121]
+title=AIGAIM_Advanced Air Bombardier Challenger 300 - N332AR
+model=WSN-Advanced Air_N332AR
+texture=WSN-Advanced Air_N332AR
+atc_id=N332AR
+atc_airline=WINGSPAN
+atc_parking_types=RAMP
+atc_parking_codes=WSN
+ui_manufacturer=Bombardier
+ui_type=Bombardier Challenger 300
+ui_variation=McSully Air LLC, S/N 20332
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: KAIW2 Filename: KCAI_Advanced-Air_C300_FLEET_jondix.zip
+description=KCAI_Challenger300(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=WSN
+
+[fltsim.122]
 title=AIGAIM_FlightWorks Bombardier Challenger 300 - N3337J
 model=GA2J-FlightWorks_N3337J
 texture=GA2J-FlightWorks_N3337J

@@ -68,7 +68,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_asax_e175_jkm.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ASAX
+icao_airline=QXE
 
 [fltsim.1]
 title=AIGAIM_Alaska Airlines Embraer EMB-175 New WL - opb Horizon Air Honoring Those Who Serve
@@ -86,7 +86,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_asax_e175_jkm.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ASA
+icao_airline=QXE
 
 [fltsim.2]
 title=AIGAIM_Alaska Airlines Embraer EMB-175 New WL - opb Skywest Airlines
@@ -104,7 +104,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_asax_e175_jkm.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=ASAX
+icao_airline=QXE
 
 [fltsim.3]
 title=AIGAIM_Belavia Embraer EMB-175 New WL
@@ -353,7 +353,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_dalx_e175_jkm.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=DALX
+icao_airline=SKW
 
 [fltsim.17]
 title=AIGAIM_United Express Embraer EMB-175 New WL - opb Mesa Airlines
@@ -371,7 +371,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_e175_p3d.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=ASH
 
 [fltsim.18]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Mesa Airlines
@@ -389,7 +389,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_e175_p3d.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=ASH
 
 [fltsim.19]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Republic Airlines
@@ -407,7 +407,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_e175_p3d.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=RPA
 
 [fltsim.20]
 title=AIGAIM_United Express Embraer EMB-175 New WL - opb Skywest Airlines
@@ -425,7 +425,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_e175_p3d.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW
 
 [fltsim.21]
 title=AIGAIM_United Express Embraer EMB-175 New WL - OC opb Skywest Airlines
@@ -443,4 +443,4 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_e175_p3d.zip
 description=RFSL_EMB-175_NWv3(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=SKW

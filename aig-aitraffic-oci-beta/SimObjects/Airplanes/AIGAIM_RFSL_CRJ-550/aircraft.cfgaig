@@ -68,7 +68,7 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_crj550_p3d.zip
 description=RFSL_CRJ-550-NG(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=GJT
 
 [fltsim.1]
 title=AIGAIM_United Express Bombardier CRJ-550 - opb GoJet Airlines
@@ -86,4 +86,4 @@ ui_createdby=Provided by: KAIW2 Filename: rfsl_ualx_crj550_p3d.zip
 description=RFSL_CRJ-550(fs20)
 isAirTraffic=1
 isUserSelectable=0
-icao_airline=UALX
+icao_airline=GJT

@@ -192,3 +192,38 @@ description=AIG_Dash8-100-NL(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=VAL
+
+[fltsim.8]
+title=AIGAIM_Air Creebec Bombardier Dash 8-100
+model=CRQ-Air Creebec
+texture=CRQ-Air Creebec
+atc_airline=CREE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=CRQ
+ui_manufacturer=AIG
+ui_type=Bombardier Dash 8-100
+ui_variation=Air Creebec
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Garry Lewis on JCAI Filename: AIG_DH8A_CRQ.zip
+description=AIG_Dash8-100-NL(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=CRQ
+
+[fltsim.9]
+title=AIGAIM_Olympic Air Bombardier Dash 8-100 - SX-BIP
+model=OAL-Olympic Air_SX-BIP
+texture=OAL-Olympic Air_SX-BIP
+atc_id=SX-BIP
+atc_airline=OLYMPIC
+atc_parking_types=GATE,RAMP
+atc_parking_codes=OAL
+ui_manufacturer=Alpha India Group
+ui_type=Bombardier Dash 8-100
+ui_variation=Olympic Air SX-BIP
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: OAL-Olympic_Air_AIG_Dash_8-100.zip
+description=AIG_Dash8-100(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=OAL

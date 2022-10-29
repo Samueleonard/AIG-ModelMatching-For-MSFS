@@ -990,3 +990,39 @@ description=AIA_B737-MAX8-no_refl(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=AKJ
+
+[fltsim.52]
+title=AIGAIM_Flydubai Boeing 737 MAX 8
+model=FDB-Flydubai
+texture=FDB-Flydubai
+atc_id=A6-FMA
+atc_airline=SKY DUBAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDB
+ui_manufacturer=Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=FlyDubai A6-FMA
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FDB-FlyDubai_AIA_B737_MAX_8.zip
+description=AIA_B737-MAX8-no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDB
+
+[fltsim.53]
+title=AIGAIM_Flydubai Boeing 737 MAX 8 - WiFi dome
+model=FDB-Flydubai_WiFi dome
+texture=FDB-Flydubai_WiFi dome
+atc_id=A6-FMG
+atc_airline=SKY DUBAI
+atc_parking_types=GATE,RAMP
+atc_parking_codes=FDB
+ui_manufacturer=Aardvark
+ui_type=Boeing 737 MAX 8
+ui_variation=FlyDubai A6-FMG
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: FDB-FlyDubai_AIA_B737_MAX_8.zip
+description=AIA_B737-MAX8-Sat_no_refl(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=FDB

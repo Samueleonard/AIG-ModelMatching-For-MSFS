@@ -305,3 +305,22 @@ description=FAIB_B747-400F_PW-FPW(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=CSS
+
+[fltsim.15]
+title=AIGAIM_ACT Airlines Boeing 747-400F - PW
+model=RUN-ACT Airlines_PW
+texture=RUN-ACT Airlines_PW
+atc_id=TC-MCT
+atc_airline=CARGO TURK
+atc_heavy=1
+atc_parking_types=CARGO,RAMP
+atc_parking_codes=RUN
+ui_manufacturer=FAIB
+ui_type=Boeing 747-400F
+ui_variation=ACT Airlines TC-MCT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JB Filename: RUN-ACT Airlines FAIB B744F PW.zip
+description=FAIB_B747-400F_PW-FPW(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=RUN

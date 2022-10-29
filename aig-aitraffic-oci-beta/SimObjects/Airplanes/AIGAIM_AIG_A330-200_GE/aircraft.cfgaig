@@ -317,24 +317,6 @@ isUserSelectable=0
 icao_airline=IBE
 
 [fltsim.14]
-title=AIGAIM_Lufthansa Airbus A330-200 - opb EWG (TEMP)
-model=DLH-Lufthansa_opb EWG_temp
-texture=DLH-Lufthansa_opb EWG_temp
-atc_airline=LUFTHANSA
-atc_heavy=1
-atc_parking_types=GATE,RAMP
-atc_parking_codes=DLH
-ui_manufacturer="Alpha India Group (AIG)"
-ui_type=Airbus A330-200
-ui_variation=EW Discover GmbH
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: JB Filename: AIG A332 Eurowings Discover.zip
-description=AIG_A330-200_GE-GE(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=DLH
-
-[fltsim.15]
 title=AIGAIM_Qantas Airbus A330-200
 model=QFA-Qantas
 texture=QFA-Qantas
@@ -353,7 +335,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.16]
+[fltsim.15]
 title=AIGAIM_Qantas Airbus A330-200 - OC
 model=QFA-Qantas_OC
 texture=QFA-Qantas_OC
@@ -372,7 +354,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.17]
+[fltsim.16]
 title=AIGAIM_Qantas Airbus A330-200 - OC No Engine Logo
 model=QFA-Qantas_OC No Engine Logo
 texture=QFA-Qantas_OC No Engine Logo
@@ -391,7 +373,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.18]
+[fltsim.17]
 title=AIGAIM_Qantas Airbus A330-200 - OC One World
 model=QFA-Qantas_OC One World
 texture=QFA-Qantas_OC One World
@@ -410,7 +392,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.19]
+[fltsim.18]
 title=AIGAIM_Qantas Airbus A330-200 - OC Wifi Dome
 model=QFA-Qantas_OC Wifi Dome
 texture=QFA-Qantas_OC Wifi Dome
@@ -429,7 +411,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.20]
+[fltsim.19]
 title=AIGAIM_Qantas Airbus A330-200 - OT OC Wifi Dome
 model=QFA-Qantas_OT OC Wifi Dome
 texture=QFA-Qantas_OT OC Wifi Dome
@@ -448,7 +430,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QFA
 
-[fltsim.21]
+[fltsim.20]
 title=AIGAIM_Qatar Airways Airbus A330-200
 model=QTR-Qatar Airways
 texture=QTR-Qatar Airways
@@ -466,14 +448,14 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTR
 
-[fltsim.22]
+[fltsim.21]
 title=AIGAIM_Qatar Cargo Airbus A330-200 - Pax
 model=QTRC-Qatar Airways Cargo_Pax
 texture=QTRC-Qatar Airways Cargo_Pax
 atc_airline=QATARI
 atc_heavy=1
 atc_parking_types=CARGO,RAMP
-atc_parking_codes=QTRC
+atc_parking_codes=QTRC,QTR
 ui_manufacturer="Alpha India Group (AIG)"
 ui_type=Airbus A330-200
 ui_variation=Qatar Airways Company Q.C.S.C.
@@ -484,7 +466,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=QTRC
 
-[fltsim.23]
+[fltsim.22]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Belly Logo
 model=THY-Turkish Airlines_GE Belly Logo
 texture=THY-Turkish Airlines_GE Belly Logo
@@ -502,7 +484,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.24]
+[fltsim.23]
 title=AIGAIM_Turkish Airlines Airbus A330-200 - GE Retrojet
 model=THY-Turkish Airlines_GE Retrojet
 texture=THY-Turkish Airlines_GE Retrojet
@@ -520,7 +502,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=THY
 
-[fltsim.25]
+[fltsim.24]
 title=AIGAIM_TAP Air Portugal Airbus A330-200 - GE IC
 model=TAP-TAP Air Portugal_GE IC
 texture=TAP-TAP Air Portugal_GE IC
@@ -539,7 +521,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TAP
 
-[fltsim.26]
+[fltsim.25]
 title=AIGAIM_Serene Air Airbus A330-200
 model=SEP-Serene Air
 texture=SEP-Serene Air
@@ -558,7 +540,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=SEP
 
-[fltsim.27]
+[fltsim.26]
 title=AIGAIM_Air Transat Airbus A330-200 - OT White opb HFM
 model=TSC-Air Transat_OT White opb HFM
 texture=TSC-Air Transat_OT White opb HFM
@@ -576,7 +558,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=TSC
 
-[fltsim.28]
+[fltsim.27]
 title=AIGAIM_ITA Airways Airbus A330-200
 model=ITY-ITA Airways
 texture=ITY-ITA Airways
@@ -595,7 +577,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=ITY
 
-[fltsim.29]
+[fltsim.28]
 title=AIGAIM_Air France Airbus A330-200 - OT NCv2
 model=AFR-Air France_OT NCv2
 texture=AFR-Air France_OT NCv2
@@ -614,7 +596,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.30]
+[fltsim.29]
 title=AIGAIM_Air France Airbus A330-200 - OT NCv1
 model=AFR-Air France_OT NCv1
 texture=AFR-Air France_OT NCv1
@@ -633,7 +615,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.31]
+[fltsim.30]
 title=AIGAIM_Air France Airbus A330-200 - OT OC Revised
 model=AFR-Air France_OT OC Revised
 texture=AFR-Air France_OT OC Revised
@@ -652,7 +634,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=AFR
 
-[fltsim.32]
+[fltsim.31]
 title=AIGAIM_KLM Airbus A330-200
 model=KLM-KLM
 texture=KLM-KLM
@@ -671,7 +653,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.33]
+[fltsim.32]
 title=AIGAIM_KLM Airbus A330-200 - OC
 model=KLM-KLM_OC
 texture=KLM-KLM_OC
@@ -690,7 +672,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=KLM
 
-[fltsim.34]
+[fltsim.33]
 title=AIGAIM_Eurowings Discover Airbus A330-200 - Wifi dome
 model=OCN-Eurowings Discover_Wifi dome
 texture=OCN-Eurowings Discover_Wifi dome
@@ -707,3 +689,22 @@ description=AIG_A330-200_GE-GE(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=OCN
+
+[fltsim.34]
+title=AIGAIM_Libyan Airlines Airbus A330-200
+model=LAA-Libyan Airlines
+texture=LAA-Libyan Airlines
+atc_id=5A-LAT
+atc_airline=LIBAIR
+atc_heavy=1
+atc_parking_types=GATE,RAMP
+atc_parking_codes=LAA
+ui_manufacturer="Alpha India Group (AIG)"
+ui_type=Airbus A330-200
+ui_variation=Libyan Airlines
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: Dennis Lyng Desezar on JCAI Filename: AIG_Airbus A330-200_Libyan Airlines.zip
+description=AIG_A330-200_GE-GE(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=LAA

@@ -519,60 +519,6 @@ isUserSelectable=0
 icao_airline=NSE
 
 [fltsim.26]
-title=AIGAIM_Sky Express ATR 42-500 - OC (TEMP)
-model=SEH-Sky Express_OC_temp
-texture=SEH-Sky Express_OC_temp
-atc_id=SX-SIX
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 42-500
-ui_variation=ATR 42-500 OSP Sky Express SEH SX-SIX - No webtitles
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT45_Part 2_HD_P3D.zip
-description=OSP_ATR42-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.27]
-title=AIGAIM_Sky Express ATR 42-500 - OC no webtitles (TEMP)
-model=SEH-Sky Express_OC no webtitles_temp
-texture=SEH-Sky Express_OC no webtitles_temp
-atc_id=SX-FOR
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 42-500
-ui_variation=ATR 42-500 OSP Sky Express SEH SX-FOR - Revised tail
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT45_Part 2_HD_P3D.zip
-description=OSP_ATR42-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.28]
-title=AIGAIM_Sky Express ATR 42-500 - OC old tail logo (TEMP)
-model=SEH-Sky Express_OC old tail logo_temp
-texture=SEH-Sky Express_OC old tail logo_temp
-atc_id=SX-TWO
-atc_airline=AIR CRETE
-atc_parking_types=GATE,RAMP
-atc_parking_codes=SEH
-ui_manufacturer=ATR
-ui_type=ATR 42-500
-ui_variation=ATR 42-500 OSP Sky Express SEH SX-TWO - Alternative Reg position
-ui_typerole=Commercial Airliner
-ui_createdby=Provided by: OCH Filename: SEH_AT45_Part 1_HD_P3D.zip
-description=OSP_ATR42-500(fs20)
-isAirTraffic=1
-isUserSelectable=0
-icao_airline=SEH
-
-[fltsim.29]
 title=AIGAIM_Air Corsica ATR 42-500
 model=CCM-Air Corsica
 texture=CCM-Air Corsica
@@ -590,7 +536,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=CCM
 
-[fltsim.30]
+[fltsim.27]
 title=AIGAIM_Danish Air Transport ATR 42-500 - OY-RUO 'All white'
 model=DTR-Danish Air Transport_OY-RUO 'All white'
 texture=DTR-Danish Air Transport_OY-RUO 'All white'
@@ -607,7 +553,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTR
 
-[fltsim.31]
+[fltsim.28]
 title=AIGAIM_Danish Air Transport ATR 42-500 - LY-DAT opb DOT LT
 model=DTR-Danish Air Transport_LY-DAT opb DOT LT
 texture=DTR-Danish Air Transport_LY-DAT opb DOT LT
@@ -625,7 +571,7 @@ isAirTraffic=1
 isUserSelectable=0
 icao_airline=DTR
 
-[fltsim.32]
+[fltsim.29]
 title=AIGAIM_Air France Hop ATR 42-500 - opb Amelia
 model=AFRX-Air France Hop_opb Amelia
 texture=AFRX-Air France Hop_opb Amelia
@@ -642,3 +588,57 @@ description=OSP_ATR42-500(fs20)
 isAirTraffic=1
 isUserSelectable=0
 icao_airline=HOP
+
+[fltsim.30]
+title=AIGAIM_Sky Express ATR 42-500 - OC
+model=SEH-Sky Express_OC
+texture=SEH-Sky Express_OC
+atc_id=SX-TEN
+atc_airline=AIR CRETE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEH
+ui_manufacturer=OSP
+ui_type=ATR 42-500
+ui_variation=Sky Express SX-TEN
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: SEH-Sky_Express_OSPATR425.zip
+description=OSP_ATR42-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEH
+
+[fltsim.31]
+title=AIGAIM_Sky Express ATR 42-500 - OC no webtitles
+model=SEH-Sky Express_OC no webtitles
+texture=SEH-Sky Express_OC no webtitles
+atc_id=SX-EIT
+atc_airline=AIR CRETE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEH
+ui_manufacturer=OSP
+ui_type=ATR 42-500
+ui_variation=Sky Express SX-EIT
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: SEH-Sky_Express_OSPATR425.zip
+description=OSP_ATR42-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEH
+
+[fltsim.32]
+title=AIGAIM_Sky Express ATR 42-500 - OC old tail logo
+model=SEH-Sky Express_OC old tail logo
+texture=SEH-Sky Express_OC old tail logo
+atc_id=SX-TWO
+atc_airline=AIR CRETE
+atc_parking_types=GATE,RAMP
+atc_parking_codes=SEH
+ui_manufacturer=OSP
+ui_type=ATR 42-500
+ui_variation=Sky Express SX-TWO
+ui_typerole=Commercial Airliner
+ui_createdby=Provided by: JCAI Filename: SEH-Sky_Express_OSPATR425.zip
+description=OSP_ATR42-500(fs20)
+isAirTraffic=1
+isUserSelectable=0
+icao_airline=SEH
