@@ -1,9 +1,10 @@
 # AIG-Model Matching-For-MSFS
 ## Introduction
 
-This is the latest version of AlphaIndiaGroup (AIG) Model Matching for MSFS
+**THIS PACK IS NO LONGER UPDATED AS OF NOVEMBER 2022**
+However by this time, AIG is more than capable of being used for VATSIM and offline flying so this repo is still relevant
 
-Below is the latest AIG install for MSFS ONLY including offline AI flight plans - *described below*
+Below is an AIG install for MSFS ONLY including offline AI flight plans - *described below*
 
 **FOR THOSE WANTING TO USE THIS WITH VATSIM ------ [FSLTL](https://www.fslivetrafficliveries.com/ "FSLTL") has now released and provides higher quality models and liveries, purposefully designed for online use (more details below)**
   
@@ -22,13 +23,11 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 
 ## MANUAL UPDATES
 
-I try to update this pack every time there is a significant update to AIG, so there could be weeks between updates.
-
-However, if you want to update your install early, you can use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+As I will no longer be updating this pack as of 04/11/22 you will have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
 
 ## USAGE WITH FSLiveTrafficLiveries (FSLTL)
 
-FSLTL is released and is available for free through the [FlyByWire Installer](https://flybywiresim.com/ "FlyByWire Installer")
+FSLTL is released and is available for free through the [FlyByWire Installer](https://api.flybywiresim.com/installer)
 
 FSLTL is a similar project to AIG, aiming to provide a solution to modelmatching for online networks along with providing a tool to inject live traffic to your simulator, directly from [Flightradar24](https://www.flightradar24.com/ "flightradar24")
 
