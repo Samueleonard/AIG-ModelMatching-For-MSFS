@@ -1,0 +1,1488 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="DWAI_Beechcraft_KingAirA100_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>46</STILL_NODE_ID>
+				<SLOW_NODE_ID>69</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>70</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>47</STILL_NODE_ID>
+				<SLOW_NODE_ID>71</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>72</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>48</STILL_NODE_ID>
+				<SLOW_NODE_ID>73</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>74</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>49</STILL_NODE_ID>
+				<SLOW_NODE_ID>75</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>76</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>5</ID>
+				<STILL_NODE_ID>50</STILL_NODE_ID>
+				<SLOW_NODE_ID>77</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>78</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>6</ID>
+				<STILL_NODE_ID>51</STILL_NODE_ID>
+				<SLOW_NODE_ID>79</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>80</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>7</ID>
+				<STILL_NODE_ID>52</STILL_NODE_ID>
+				<SLOW_NODE_ID>81</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>82</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>38</STILL_NODE_ID>
+				<SLOW_NODE_ID>54</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>55</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>39</STILL_NODE_ID>
+				<SLOW_NODE_ID>56</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>57</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>40</STILL_NODE_ID>
+				<SLOW_NODE_ID>58</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>59</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>41</STILL_NODE_ID>
+				<SLOW_NODE_ID>60</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>61</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>5</ID>
+				<STILL_NODE_ID>42</STILL_NODE_ID>
+				<SLOW_NODE_ID>62</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>63</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>6</ID>
+				<STILL_NODE_ID>43</STILL_NODE_ID>
+				<SLOW_NODE_ID>64</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>65</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>7</ID>
+				<STILL_NODE_ID>44</STILL_NODE_ID>
+				<SLOW_NODE_ID>66</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>67</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>140</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>155</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>170</FLAP3_SPEED>
+			<FLAP3_DEGREES>30</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_gear</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_r</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Cessna_Citation2_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>140</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>160</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>170</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Convair_CV580_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>47</STILL_NODE_ID>
+				<SLOW_NODE_ID>30</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>29</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>48</STILL_NODE_ID>
+				<SLOW_NODE_ID>32</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>31</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>49</STILL_NODE_ID>
+				<SLOW_NODE_ID>34</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>33</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>117</STILL_NODE_ID>
+				<SLOW_NODE_ID>36</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>35</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>51</STILL_NODE_ID>
+				<SLOW_NODE_ID>39</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>38</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>52</STILL_NODE_ID>
+				<SLOW_NODE_ID>41</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>40</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>53</STILL_NODE_ID>
+				<SLOW_NODE_ID>43</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>42</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>119</STILL_NODE_ID>
+				<SLOW_NODE_ID>45</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>160</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>185</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>200</FLAP3_SPEED>
+			<FLAP3_DEGREES>30</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>Nose_landing_light</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_deHavilland_DHC7_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine2</ANIM_NAME>
+			<ENGINE_ID>3</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine3</ANIM_NAME>
+			<ENGINE_ID>4</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>121</STILL_NODE_ID>
+				<SLOW_NODE_ID>168</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>167</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>123</STILL_NODE_ID>
+				<SLOW_NODE_ID>170</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>169</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>124</STILL_NODE_ID>
+				<SLOW_NODE_ID>172</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>171</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>115</STILL_NODE_ID>
+				<SLOW_NODE_ID>161</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>160</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>117</STILL_NODE_ID>
+				<SLOW_NODE_ID>163</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>162</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>118</STILL_NODE_ID>
+				<SLOW_NODE_ID>165</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>164</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<Parameters Type="Override">
+				<ENGINE_ID>3</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>109</STILL_NODE_ID>
+				<SLOW_NODE_ID>154</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>153</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>111</STILL_NODE_ID>
+				<SLOW_NODE_ID>156</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>155</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>112</STILL_NODE_ID>
+				<SLOW_NODE_ID>158</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>157</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<Parameters Type="Override">
+				<ENGINE_ID>4</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>103</STILL_NODE_ID>
+				<SLOW_NODE_ID>147</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>146</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>105</STILL_NODE_ID>
+				<SLOW_NODE_ID>149</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>148</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>106</STILL_NODE_ID>
+				<SLOW_NODE_ID>151</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>150</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>taxi_nose</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_QuadEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Embraer_EMB110_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>88</STILL_NODE_ID>
+				<SLOW_NODE_ID>85</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>91</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>89</STILL_NODE_ID>
+				<SLOW_NODE_ID>86</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>92</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>90</STILL_NODE_ID>
+				<SLOW_NODE_ID>87</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>93</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>78</STILL_NODE_ID>
+				<SLOW_NODE_ID>75</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>81</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>79</STILL_NODE_ID>
+				<SLOW_NODE_ID>76</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>82</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>80</STILL_NODE_ID>
+				<SLOW_NODE_ID>77</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>83</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>taxi</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Fokker_F27_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>130</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>145</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>160</FLAP3_SPEED>
+			<FLAP3_DEGREES>30</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>126</STILL_NODE_ID>
+				<SLOW_NODE_ID>171</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>172</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>127</STILL_NODE_ID>
+				<SLOW_NODE_ID>173</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>174</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>128</STILL_NODE_ID>
+				<SLOW_NODE_ID>175</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>176</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>129</STILL_NODE_ID>
+				<SLOW_NODE_ID>177</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>178</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>120</STILL_NODE_ID>
+				<SLOW_NODE_ID>180</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>181</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>121</STILL_NODE_ID>
+				<SLOW_NODE_ID>182</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>183</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>122</STILL_NODE_ID>
+				<SLOW_NODE_ID>184</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>185</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>123</STILL_NODE_ID>
+				<SLOW_NODE_ID>186</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>187</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_nose</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_HawkerSiddeley_HS748_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>84</STILL_NODE_ID>
+				<SLOW_NODE_ID>103</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>100</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>85</STILL_NODE_ID>
+				<SLOW_NODE_ID>104</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>101</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>86</STILL_NODE_ID>
+				<SLOW_NODE_ID>105</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>102</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>73</STILL_NODE_ID>
+				<SLOW_NODE_ID>79</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>76</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>74</STILL_NODE_ID>
+				<SLOW_NODE_ID>80</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>77</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>75</STILL_NODE_ID>
+				<SLOW_NODE_ID>81</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>78</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_gear</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Piper_PA31-325_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>100</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>120</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>140</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>86</STILL_NODE_ID>
+				<SLOW_NODE_ID>28</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>27</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>87</STILL_NODE_ID>
+				<SLOW_NODE_ID>30</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>29</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>88</STILL_NODE_ID>
+				<SLOW_NODE_ID>32</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>31</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Prop1_Still">
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node89</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node90</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node91</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>94</STILL_NODE_ID>
+				<SLOW_NODE_ID>21</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>20</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>95</STILL_NODE_ID>
+				<SLOW_NODE_ID>23</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>22</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>96</STILL_NODE_ID>
+				<SLOW_NODE_ID>25</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>24</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Prop1_Still">
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_ID>node97</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_ID>node98</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Still">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_ID>node99</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>Nose_Landing_Left</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>Nose_Landing_Right</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Piper_PA32R-300_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>90</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>100</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>110</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>65</STILL_NODE_ID>
+				<SLOW_NODE_ID>41</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>39</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>66</STILL_NODE_ID>
+				<SLOW_NODE_ID>42</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>40</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>67</STILL_NODE_ID>
+				<SLOW_NODE_ID>45</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>43</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>68</STILL_NODE_ID>
+				<SLOW_NODE_ID>46</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>5</ID>
+				<STILL_NODE_ID>69</STILL_NODE_ID>
+				<SLOW_NODE_ID>49</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>47</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>6</ID>
+				<STILL_NODE_ID>70</STILL_NODE_ID>
+				<SLOW_NODE_ID>50</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>48</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Prop0_Slow">
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node53</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node54</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node57</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node58</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node61</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Slow">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node62</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Prop0_Blurred">
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node51</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node52</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node55</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node56</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node59</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Blurred">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_ID>node60</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_SingleEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Short_SD3_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>30</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>100</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>115</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>130</FLAP3_SPEED>
+			<FLAP3_DEGREES>30</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Short-SD3-30_EngineVisibility">
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>63</STILL_NODE_ID>
+				<SLOW_NODE_ID>132</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>133</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>64</STILL_NODE_ID>
+				<SLOW_NODE_ID>134</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>135</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>65</STILL_NODE_ID>
+				<SLOW_NODE_ID>136</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>137</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>66</STILL_NODE_ID>
+				<SLOW_NODE_ID>138</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>139</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>57</STILL_NODE_ID>
+				<SLOW_NODE_ID>141</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>142</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>58</STILL_NODE_ID>
+				<SLOW_NODE_ID>143</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>144</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>59</STILL_NODE_ID>
+				<SLOW_NODE_ID>145</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>146</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>60</STILL_NODE_ID>
+				<SLOW_NODE_ID>147</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>148</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+</Template>
+
+<Template Name="DWAI_Short-SD3-60_EngineVisibility">
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>59</STILL_NODE_ID>
+				<SLOW_NODE_ID>139</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>140</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>60</STILL_NODE_ID>
+				<SLOW_NODE_ID>141</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>142</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>61</STILL_NODE_ID>
+				<SLOW_NODE_ID>143</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>144</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>62</STILL_NODE_ID>
+				<SLOW_NODE_ID>145</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>146</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>54</STILL_NODE_ID>
+				<SLOW_NODE_ID>130</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>131</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>55</STILL_NODE_ID>
+				<SLOW_NODE_ID>132</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>133</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>56</STILL_NODE_ID>
+				<SLOW_NODE_ID>134</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>135</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>57</STILL_NODE_ID>
+				<SLOW_NODE_ID>136</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>137</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

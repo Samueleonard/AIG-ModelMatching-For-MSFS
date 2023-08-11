@@ -1,0 +1,133 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="AIA_Boeing_727_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>30</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Spoilers">
+		<UseTemplate Name="AIG_Spoiler_L_key"/>
+		<UseTemplate Name="AIG_Spoiler_R_key"/>
+	</Component>
+	
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>38</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>158</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>185</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>195</FLAP3_SPEED>
+			<FLAP3_DEGREES>63</FLAP3_DEGREES>
+			<FLAP4_SPEED>205</FLAP4_SPEED>
+			<FLAP4_DEGREES>38</FLAP4_DEGREES>
+			<FLAP5_SPEED>215</FLAP5_SPEED>
+			<FLAP5_DEGREES>13</FLAP5_DEGREES>
+			<FLAP6_SPEED>230</FLAP6_SPEED>
+			<FLAP6_DEGREES>5</FLAP6_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<SLAT_TO_DEGREES>100</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>195</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<ANIM_NAME>AIA_727_custom_anim_SLATS_AIRLINER</ANIM_NAME>
+			<SLAT_TO_DEGREES>100</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>195</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+		</UseTemplate>
+		<Component ID="Inner_Slats">
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>AIA_727_custom_anim_SLATS_AIRLINER</ANIM_NAME>
+				<ANIM_CODE>(A:LIGHT BEACON, bool) 0 == if{ 50 }
+		   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 100 }
+		   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+		   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 180 &lt; and if{ 100 }
+		   els{ 0 } } } }
+				</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+				<ANIM_LAG>5</ANIM_LAG>
+			</UseTemplate>
+		</Component>
+    </Component>
+		
+	<Component ID="Light_Visibility">
+		<Component ID="Logo_Lights">
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_r</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_nose</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="landing_l2_vis" Node="landing_l2">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:LIGHT LANDING, bool) 1 == (A:AIRSPEED INDICATED, knots) 230 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		<Component ID="landing_r2_vis" Node="landing_r2">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:LIGHT LANDING, bool) 1 == (A:AIRSPEED INDICATED, knots) 230 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TriEngineJet_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+	
+</Template>
+
+<Template Name="AIA_Boeing_727_Stairs">
+	<Component ID="AIA_727_stairs">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>AIA_727_stairs</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT NAV, bool) 0 == if{ 100 } els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>3</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+</Template>
+
+</ModelBehaviors>

@@ -1,0 +1,608 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="UTT_Boeing_787_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>tire_anim</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>tire_anim</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>tire_anim</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust"/>
+	</Component>
+
+	<Component ID="Rudder">
+		<UseTemplate Name="AIG_Rudder_Deflection"/>
+	</Component>
+
+	<Component ID="Wingflex">
+		<UseTemplate Name="AIG_Wingflex">
+			<ANIM_NAME>AI_Wingflex_v2</ANIM_NAME>
+			<WING_ID>1</WING_ID>
+			<INTERVAL1>1.7</INTERVAL1>
+			<INTERVAL2>2.1</INTERVAL2>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="ControlSurfaceDroop">
+		<UseTemplate Name="AIG_ControlSurfacesDroop">
+			<ANIM_NAME>elevator_TFS</ANIM_NAME>
+			<LIGHT_STATE>0</LIGHT_STATE>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Aileron_L">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT787_l_out_aileron_flap_new_Jay_custom</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 
+    if{ 
+    (A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+    (A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+    or 
+    (A:SPOILERS HANDLE POSITION, percent) 0 > 
+    and 
+        if{ 0 } 
+        els{ 
+        (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+        (A:AILERON LEFT DEFLECTION PCT, percent) 2 * + 
+        0 max 100 min 
+        } } els{ 100 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Aileron_R">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT787_r_out_aileron_flap_new_Jay_custom</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 
+    if{ 
+    (A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+    (A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+    or 
+    (A:SPOILERS HANDLE POSITION, percent) 0 > 
+    and 
+        if{ 0 } 
+        els{ 
+        (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+        (A:AILERON RIGHT DEFLECTION PCT, percent) -1 * 2 * + 
+        0 max 100 min 
+        } } els{ 100 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Flaperon_L">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT787_l_inner_aileron_flap_new_Jay_custom</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 
+    if{ 
+    (A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+    (A:SPOILERS HANDLE POSITION, percent) 0 == 
+    (A:ENG N1 RPM:1, percent) 50 > 
+    and and 
+        if{ 
+        (A:ELEVATOR DEFLECTION, radians) abs 0 > 
+            if{ 
+            (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+            50 max 100 min 
+            } 
+            els{ 
+            100 (A:GROUND VELOCITY, knots) abs - 50 max 
+            } 
+           } 
+        els{ 
+        (A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+        (A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+        or 
+        (A:SPOILERS HANDLE POSITION, percent) 0 > 
+        and 
+            if{ 0 } 
+            els{ 
+            (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+            (A:AILERON LEFT DEFLECTION PCT, percent) 2 * + 
+            0 max 100 min 
+            } } } els{ 100 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Flaperon_R">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT787_r_inner_aileron_flap_new_Jay_custom</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 
+    if{ 
+    (A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+    (A:SPOILERS HANDLE POSITION, percent) 0 == 
+    (A:ENG N1 RPM:1, percent) 50 > 
+    and and 
+        if{ 
+        (A:ELEVATOR DEFLECTION, radians) abs 0 >     
+            if{ 
+            (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+            0 max 100 min 
+            } 
+                  els{ 
+            100 (A:GROUND VELOCITY, knots) abs - 50 max 
+            }
+        } 
+        els{ 
+        (A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+        (A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+        or 
+        (A:SPOILERS HANDLE POSITION, percent) 0 > 
+        and 
+            if{ 0 } 
+            els{ 
+            (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } 2 / 50 + 
+            (A:AILERON RIGHT DEFLECTION PCT, percent) -1 * 2 * + 
+            0 max 100 min 
+            } } } els{ 100 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="spoiler_UTT787_aileron">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>spoiler_UTT787_aileron</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+    or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+    and 
+    if{ 100 } els{ 0 } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_r_in">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_r_in</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 25 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+									} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_l_in">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_l_in</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 (A:SPOILERS HANDLE POSITION, percent) max } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 25 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+		} } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_r_out1">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_r_out1</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 0 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+										} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="UTT_787_spoiler_r_out2">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_r_out2</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 50 > 
+		and 
+		if{ 100 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+										} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_r_out3">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_r_out3</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 0 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON LEFT DEFLECTION PCT, percent) -50 max 50 min 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+										} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_r_out4">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_r_out4</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 100 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 0 } els{ 									
+										(A:SPOILERS HANDLE POSITION, percent)
+										} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_l_out1">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_l_out1</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 0 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+									} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_l_out2">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_l_out2</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 50 > 
+		and 
+		if{ 100 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+									} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_l_out3">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_l_out3</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 0 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+									
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * 
+									} els{ 
+									(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 200 / 
+									(A:GEAR ANIMATION POSITION:0, keyframe) 99 min 198 / + 
+										
+									(A:AILERON RIGHT DEFLECTION PCT, percent) -50 max 50 min -1 * 0 max 100 min * (A:SPOILERS HANDLE POSITION, percent) max 
+									} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="UTT_787_spoiler_l_out4">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>UTT_787_spoiler_l_out4</ANIM_NAME>
+			<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 > 
+if{ (A:SPOILERS HANDLE POSITION, percent) } els{ 
+
+(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+	or 
+(A:SPOILERS HANDLE POSITION, percent) 99 > 
+	and 
+	if{ 100 } els{ 
+	(A:GEAR ANIMATION POSITION:1, keyframe) 100 > 
+	(A:GEAR ANIMATION POSITION:2, keyframe) 100 > 
+		or 
+	(A:SPOILERS HANDLE POSITION, percent) 0 > 
+		and 
+		if{ 100 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ 0 } els{ 
+										(A:SPOILERS HANDLE POSITION, percent) 
+										} } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>200</FLAP2_SPEED>
+			<FLAP2_DEGREES>71</FLAP2_DEGREES>
+			<FLAP3_SPEED>215</FLAP3_SPEED>
+			<FLAP3_DEGREES>43</FLAP3_DEGREES>
+			<FLAP4_SPEED>230</FLAP4_SPEED>
+			<FLAP4_DEGREES>14</FLAP4_DEGREES>
+			<FLAP5_SPEED>250</FLAP5_SPEED>
+			<FLAP5_DEGREES>3</FLAP5_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<SLAT_TO_DEGREES>83</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>180</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+			<SLAT2_SPEED>200</SLAT2_SPEED>
+			<SLAT2_DEGREES>71</SLAT2_DEGREES>
+			<SLAT3_SPEED>215</SLAT3_SPEED>
+			<SLAT3_DEGREES>50</SLAT3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>Engine_Blade</ANIM_NAME>
+			<ANIM_CODE>0.01 6 3500 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>prop0_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine_blade_0</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>prop1_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine_blade_1</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="Logo_Lights">
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>LIGHT_Logolight_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>LIGHT_Logolight_right</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>LIGHT_landing_nose_left</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>LIGHT_landing_nose_right</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+	
+</Template>
+
+</ModelBehaviors>

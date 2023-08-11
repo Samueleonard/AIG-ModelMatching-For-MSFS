@@ -1,0 +1,213 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="AIG_Airbus_A340_Common">
+		
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>70</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="ControlSurfaceDroop">
+		<UseTemplate Name="AIG_ControlSurfacesDroop">
+			<ANIM_NAME>elevator</ANIM_NAME>
+			<LIGHT_STATE>0</LIGHT_STATE>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Rudder">
+		<UseTemplate Name="AIG_Rudder_Deflection"/>
+	</Component>
+
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust">
+			<ANIM_NAME>reverse_thrust</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Ailerons">
+		<UseTemplate Name="AIG_A340_aileron_L_inner"/>
+		<UseTemplate Name="AIG_A340_aileron_R_inner"/>
+		<UseTemplate Name="AIG_A340_aileron_L_outer"/>
+		<UseTemplate Name="AIG_A340_aileron_R_outer"/>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine2</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine3</ANIM_NAME>
+			<ENGINE_ID>3</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine4</ANIM_NAME>
+			<ENGINE_ID>4</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>spinner_still_E1</STILL_NODE_ID>
+				<BLURRED_NODE_ID>spinner_rotate_E1</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>spinner_still_E2</STILL_NODE_ID>
+				<BLURRED_NODE_ID>spinner_rotate_E2</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<Parameters Type="Override">
+				<ENGINE_ID>3</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>spinner_still_E3</STILL_NODE_ID>
+				<BLURRED_NODE_ID>spinner_rotate_E3</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<Parameters Type="Override">
+				<ENGINE_ID>4</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>spinner_still_E4</STILL_NODE_ID>
+				<BLURRED_NODE_ID>spinner_rotate_E4</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+	
+	<Component ID="Spoilers">
+		<UseTemplate Name="AIG_Spoiler_L_key">
+			<ANIM_NAME>AIG_A340_Spoiler_L</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Spoiler_R_key">
+			<ANIM_NAME>AIG_A340_Spoiler_R</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wingflex">
+		<Component ID="Wing_L">
+			<UseTemplate Name="AIG_Wingflex">
+				<ANIM_NAME>Wingflex_L</ANIM_NAME>
+				<WING_ID>1</WING_ID>
+				<INTERVAL1>1.83</INTERVAL1>
+				<INTERVAL2>2.42</INTERVAL2>
+			</UseTemplate>
+		</Component>
+		<Component ID="Wing_R">
+			<UseTemplate Name="AIG_Wingflex">
+				<ANIM_NAME>Wingflex_R</ANIM_NAME>
+				<WING_ID>2</WING_ID>
+				<INTERVAL1>1.79</INTERVAL1>
+				<INTERVAL2>2.45</INTERVAL2>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>Flaps</ANIM_NAME>
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>186</FLAP2_SPEED>
+			<FLAP2_DEGREES>73</FLAP2_DEGREES>
+			<FLAP3_SPEED>196</FLAP3_SPEED>
+			<FLAP3_DEGREES>65</FLAP3_DEGREES>
+			<FLAP4_SPEED>215</FLAP4_SPEED>
+			<FLAP4_DEGREES>50</FLAP4_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<ANIM_NAME>Slats</ANIM_NAME>
+			<SLAT_TO_DEGREES>70</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>186</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+			<SLAT2_SPEED>196</SLAT2_SPEED>
+			<SLAT2_DEGREES>87</SLAT2_DEGREES>
+			<SLAT3_SPEED>215</SLAT3_SPEED>
+			<SLAT3_DEGREES>70</SLAT3_DEGREES>
+		</UseTemplate>
+    </Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="Logo_Lights">
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>LIGHT_Logo_left</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>LIGHT_Logo_right</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>LIGHT_landing_gear_left</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>LIGHT_landing_gear_right</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+	
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_QuadEngineJet_Effects"/>
+		<UseTemplate Name="AIG_APU_Heat"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+		<UseTemplate Name="AIG_LandingFX_1main"/>
+	</Component>
+	
+</Template>
+
+</ModelBehaviors>

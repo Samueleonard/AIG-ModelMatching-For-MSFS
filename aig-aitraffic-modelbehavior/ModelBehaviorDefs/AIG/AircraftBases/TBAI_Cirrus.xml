@@ -1,0 +1,45 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="TBAI_Cirrus_Common">
+		
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>11</STILL_NODE_ID>
+				<SLOW_NODE_ID>13</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>15</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>12</STILL_NODE_ID>
+				<SLOW_NODE_ID>14</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>16</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_SingleEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

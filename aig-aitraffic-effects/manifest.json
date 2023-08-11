@@ -1,0 +1,15 @@
+{
+  "dependencies": [],
+  "content_type": "MISC",
+  "title": "Effect Library",
+  "manufacturer": "",
+  "creator": "Alpha India Group",
+  "package_version": "0.3.2",
+  "minimum_game_version": "1.30.12",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  }
+}

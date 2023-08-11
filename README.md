@@ -1,11 +1,8 @@
 # AIG-Model Matching-For-MSFS
 ## Introduction
 
-**THIS PACK IS NO LONGER UPDATED AS OF NOVEMBER 2022**
+**THIS PACK IS NO LONGER UPDATED AS OF OCTOBER 2023**
 
-
-
-However by this time, AIG is more than capable of being used for VATSIM and offline flying so this repo is still relevant
 
 Below is an AIG install for MSFS ONLY including offline AI flight plans - *described below*
 
@@ -18,9 +15,9 @@ Download from -
 
 [Google Drive](https://drive.google.com/file/d/1DBX7hqsbZ-9rOPT3XwugNYT5al6-QZQt/view?usp=sharing)  (~2.5gb zipped download, ~44gb unzipped)
 
-Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) to extract and just drag into the community folder. 
+Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) to extract and drag all 3 included folders into your community folder. 
 
-If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot.
+If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot. More info is shown below.
 
 **NEVER  DOWNLOAD ANYTHING FROM THE GITHUB REPO DIRECTLY - ONLY DOWNLOAD FROM THE LINK ABOVE**
 
@@ -35,8 +32,6 @@ FSLTL is released and is available for free through the [FlyByWire Installer](ht
 FSLTL is a similar project to AIG, aiming to provide a solution to modelmatching for online networks along with providing a tool to inject live traffic to your simulator, directly from [Flightradar24](https://www.flightradar24.com/ "flightradar24")
 
 This is a completely seperate project to AIG and is NOT INCLUDED IN THIS PACK (and will never be)
-
-Currently FSLTL is in its infancy so is very limited on model and livery variety. This means that it will not cover every situation on VATSIM, but will be good enough most of the time.
 
 If you choose, you can use both FSLTL AND AIG together, as long as you place both VMRs in vPilot (make sure FSLTL is at the top so it has priority for models) ![image](https://cdn.discordapp.com/attachments/636979141421301760/1026857624681074801/unknown.png)
 

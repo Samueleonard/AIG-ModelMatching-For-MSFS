@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/aig-aircraft-effects/Thumbnail.jpg",
+      "size": 9653,
+      "date": 132709676755157047
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/apu-exhaust-heat.spb",
+      "size": 3025,
+      "date": 133229557682566450
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/contrail-ribbon.spb",
+      "size": 2864,
+      "date": 133229557682566450
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/contrail.spb",
+      "size": 2815,
+      "date": 133229557682566450
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/engine-smoke_cold-start.spb",
+      "size": 3030,
+      "date": 133229557682566450
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/jetheat.spb",
+      "size": 3210,
+      "date": 133229557682467468
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/reverser-spray.spb",
+      "size": 2702,
+      "date": 133229557682566450
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/VisualEffectLibrary.xml",
+      "size": 295,
+      "date": 133229557682566450
+    }
+  ]
+}

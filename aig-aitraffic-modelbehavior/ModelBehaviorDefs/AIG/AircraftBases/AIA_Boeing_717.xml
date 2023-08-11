@@ -1,0 +1,190 @@
+<ModelBehaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>
+	
+<Template Name="AIA_Boeing_717_Common">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>30</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Spoilers">
+		<UseTemplate Name="AIG_Spoiler_L_key"/>
+		<UseTemplate Name="AIG_Spoiler_R_key"/>
+	</Component>
+	
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust"/>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>391</STILL_NODE_ID>
+				<SLOW_NODE_ID>392</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>393</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>394</STILL_NODE_ID>
+				<SLOW_NODE_ID>395</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>396</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>397</STILL_NODE_ID>
+				<SLOW_NODE_ID>398</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>399</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>400</STILL_NODE_ID>
+				<SLOW_NODE_ID>401</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>402</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>378</STILL_NODE_ID>
+				<SLOW_NODE_ID>379</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>380</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>381</STILL_NODE_ID>
+				<SLOW_NODE_ID>382</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>383</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>384</STILL_NODE_ID>
+				<SLOW_NODE_ID>385</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>386</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>387</STILL_NODE_ID>
+				<SLOW_NODE_ID>388</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>389</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<FLAP_TO_DEGREES>38</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>160</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>186</FLAP2_SPEED>
+			<FLAP2_DEGREES>70</FLAP2_DEGREES>
+			<FLAP3_SPEED>196</FLAP3_SPEED>
+			<FLAP3_DEGREES>38</FLAP3_DEGREES>
+			<FLAP4_SPEED>215</FLAP4_SPEED>
+			<FLAP4_DEGREES>28</FLAP4_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<SLAT_TO_DEGREES>38</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>160</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+			<SLAT2_SPEED>190</SLAT2_SPEED>
+			<SLAT2_DEGREES>70</SLAT2_DEGREES>
+			<SLAT3_SPEED>200</SLAT3_SPEED>
+			<SLAT3_DEGREES>38</SLAT3_DEGREES>
+			<SLAT4_SPEED>215</SLAT4_SPEED>
+			<SLAT4_DEGREES>28</SLAT4_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="Logo_Lights">
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_r</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_nose</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="landing_l_vis" Node="landing_l">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:LIGHT BEACON, bool) 1 == (A:GEAR POSITION,percent) 100 == and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		<Component ID="landing_r_vis" Node="landing_r">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:LIGHT BEACON, bool) 1 == (A:GEAR POSITION,percent) 100 == and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+	</Component>
+	
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
+		<UseTemplate Name="AIG_APU_Heat"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node13</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

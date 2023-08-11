@@ -4,8 +4,14 @@ import shutil
 import time
 import webbrowser
 
-comFolderPath = "E:\\MSFS\\Community\\Traffic\\aig-aitraffic-oci-beta\\"
-githubFolderPath = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
+comFolderPathMain = "D:\\MSFS Addons\\AI Traffic\\aig-aitraffic-oci-beta\\"
+githubFolderPathMain = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-oci-beta\\"
+
+comFolderPathEffects = "D:\\MSFS Addons\\AI Traffic\\aig-aitraffic-effects\\"
+githubFolderPathEffects = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-effects\\"
+
+comFolderPathModBeh = "D:\\MSFS Addons\\AI Traffic\\aig-aitraffic-modelbehavior\\"
+githubFolderPathModBeh = "E:\\AIG-ModelMatching-For-MSFS\\aig-aitraffic-modelbehavior\\"
 
 names = ["Sound", "Texture", "Traffic Files", "layout.json", "manifest.json", "Effects", 'SimObjects', 'BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr']
 
