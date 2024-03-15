@@ -1,0 +1,146 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+	<Include ModelBehaviorFile="AIG\FX_Base.xml"/>
+	
+
+<!-- Smoke FX conditions based on aircraft size -->
+
+	<Template Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+		<Switch>
+			<Case Valid="Large">
+				<UseTemplate Name="AIG_SMOKE_LANDING_FX">
+					<FX_GUID>{C9747EAE-5970-477A-81D7-2FC96CE0C3EA}</FX_GUID>
+				</UseTemplate>
+			</Case>
+			<Case Valid="Medium">
+				<UseTemplate Name="AIG_SMOKE_LANDING_FX">
+					<FX_GUID>{38428600-D14A-41A8-9FED-A7C815F89AEE}</FX_GUID>
+				</UseTemplate>
+			</Case>
+			<Case Valid="Small">
+				<UseTemplate Name="AIG_SMOKE_LANDING_FX">
+					<FX_GUID>{7E68323C-E75D-4F5B-988E-65DD4956F6BA}</FX_GUID>
+				</UseTemplate>
+			</Case>
+			<Default>
+				<UseTemplate Name="AIG_SMOKE_LANDING_FX"/>
+			</Default>
+		</Switch>
+	</Template>
+	
+<!-- Landing FX 3 contact points -->
+
+	<Template Name="AIG_LandingFX">
+		<Component ID="LANDING_FX">
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>c_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>c_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>c_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>c_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire1</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire1</FX_NODE>
+			</UseTemplate>	
+		</Component>
+	</Template>
+
+<!-- Landing FX additional main gear contact points -->
+
+	<Template Name="AIG_LandingFX_1main">
+		<Component ID="LANDING_FX_1main">
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name="AIG_LandingFX_2main">
+		<Component ID="LANDING_FX_2main">
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SMOKE_LANDING_FX_Subtemplate">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_WET_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_DUST_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>l_tire2</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="AIG_SNOW_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>r_tire2</FX_NODE>
+			</UseTemplate>	
+		</Component>
+	</Template>
+
+</ModelBehaviors>

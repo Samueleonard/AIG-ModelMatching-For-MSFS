@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="20" ModelFile="AIG_Airbus_A330-300_242t_RR_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="10" ModelFile="AIG_Airbus_A330-300_242t_RR_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="1" ModelFile="AIG_Airbus_A330-300_RR_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Airbus_A330-300_RR_LOD3.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>AIG_Airbus_A330-300_RR_cargo.xml</Model>
+		</ModelAttachment>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Airbus_A330.xml"/>
+	
+	<Component ID="AIG_Airbus_A330_Templates">
+		<UseTemplate Name="AIG_Airbus_A330_Common"/>
+		<UseTemplate Name="AIG_Airbus_A330_RR_Engine_Visibility"/>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>fuselage-300</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</Behaviors>
+</ModelInfo>

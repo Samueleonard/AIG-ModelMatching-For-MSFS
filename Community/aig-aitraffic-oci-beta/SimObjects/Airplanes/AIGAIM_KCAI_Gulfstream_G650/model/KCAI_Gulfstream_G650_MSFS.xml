@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="KCAI_Gulfstream_G650_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="KCAI_Gulfstream_G650_MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="KCAI_Gulfstream_G650_MSFS_LOD2.gltf"/>
+		<LOD minSize="1" ModelFile="KCAI_Gulfstream_G650_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="KCAI_Gulfstream_G650_MSFS_LOD4.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\KCAI_Gulfstream_G650.xml"/>
+	
+	<Component ID="KCAI_Gulfstream_G650_Templates">
+		<UseTemplate Name="KCAI_Gulfstream_G650_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>
+ 

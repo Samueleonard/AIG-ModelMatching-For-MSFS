@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="HTAI Gulfstream G-V MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="HTAI Gulfstream G-V MSFS_LOD1.gltf"/>
+		<LOD minSize="25" ModelFile="HTAI Gulfstream G-V MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="HTAI Gulfstream G-V MSFS_LOD3.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI Gulfstream G-V MSFS_LOD4.gltf"/>
+		<LOD minSize="10" ModelFile="HTAI Gulfstream G-V MSFS_LOD5.gltf"/>
+		<LOD minSize="5" ModelFile="HTAI Gulfstream G-V MSFS_LOD6.gltf"/>
+		<LOD minSize="1" ModelFile="HTAI Gulfstream G-V MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Gulfstream G-V MSFS_LOD8.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\HTAI_Gulfstream.xml"/>
+	
+	<Component ID="HTAI_Gulfstream_Templates">
+		<UseTemplate Name="HTAI_Gulfstream_Common"/>
+		<UseTemplate Name="HTAI_Gulfstream_V_Gear"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>5</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>5</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>64</STILL_NODE_ID>
+				<STILL_2_NODE_ID>65</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>66</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>67</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>68</STILL_5_NODE_ID>
+				<BLURRED_NODE_ID>69</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>70</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>71</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>72</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>73</BLURRED_5_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>5</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>5</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>52</STILL_NODE_ID>
+				<STILL_2_NODE_ID>53</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>54</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>55</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>56</STILL_5_NODE_ID>
+				<BLURRED_NODE_ID>57</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>58</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>59</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>60</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>61</BLURRED_5_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>GroundParts</PART>
+			<NODE_ID>2</NODE_ID>
+			<NODE_ID_2>3</NODE_ID_2>
+			<NODE_ID_3>4</NODE_ID_3>
+			<NODE_ID_4>5</NODE_ID_4>
+			<NODE_ID_5>6</NODE_ID_5>
+			<NODE_ID_6>7</NODE_ID_6>
+			<NODE_ID_7>8</NODE_ID_7>
+			<NODE_ID_8>9</NODE_ID_8>
+			<NODE_ID_9>10</NODE_ID_9>
+			<NODE_ID_10>11</NODE_ID_10>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node12</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

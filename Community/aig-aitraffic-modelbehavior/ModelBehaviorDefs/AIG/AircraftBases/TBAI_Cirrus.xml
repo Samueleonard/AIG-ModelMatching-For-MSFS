@@ -1,0 +1,53 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+
+<Template Name="TBAI_Cirrus_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>	
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>14</STILL_NODE_ID>
+				<STILL_2_NODE_ID>15</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>16</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>17</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>18</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>19</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+		
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_SingleEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

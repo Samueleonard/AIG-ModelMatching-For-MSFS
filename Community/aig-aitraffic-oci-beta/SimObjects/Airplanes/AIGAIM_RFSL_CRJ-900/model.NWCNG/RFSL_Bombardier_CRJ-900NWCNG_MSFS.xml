@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="20" ModelFile="RFSL_Bombardier_CRJ-900NWCNG_MSFS_LOD0.gltf"/>
+		<LOD minSize="10" ModelFile="RFSL_Bombardier_CRJ-900NWCNG_MSFS_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="RFSL_Bombardier_CRJ-900NWCNG_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="RFSL_Bombardier_CRJ-900NWCNG_MSFS_LOD1.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
+	
+	<Component ID="RFSL_Bombardier_CRJ_Templates">
+		<UseTemplate Name="RFSL_Bombardier_CRJ_Common"/>
+		<UseTemplate Name="RFSL_Bombardier_CRJ_Slats"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>107</STILL_NODE_ID>
+				<SLOW_NODE_ID>103</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>57</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>108</STILL_NODE_ID>
+				<SLOW_NODE_ID>104</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>58</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>109</STILL_NODE_ID>
+				<SLOW_NODE_ID>105</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>101</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>110</STILL_NODE_ID>
+				<SLOW_NODE_ID>106</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>102</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node2</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

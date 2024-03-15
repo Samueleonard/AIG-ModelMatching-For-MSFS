@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="10" ModelFile="TBAI_Piper-PA31-350-Chieftain_MSFS.gltf"/>
+		<LOD minSize="5" ModelFile="TBAI_Piper-PA31-350-Chieftain_MSFS.gltf"/>
+		<LOD minSize="1" ModelFile="TBAI_Piper-PA31-350-Chieftain_MSFS.gltf"/>
+		<LOD minSize="0.5" ModelFile="TBAI_Piper-PA31-350-Chieftain_MSFS.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_Piper.xml"/>
+	
+	<Component ID="TBAI_Piper_PA31_Templates">
+		<UseTemplate Name="TBAI_Piper_PA31_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

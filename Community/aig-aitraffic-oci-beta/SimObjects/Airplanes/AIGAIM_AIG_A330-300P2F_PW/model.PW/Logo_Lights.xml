@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+	<LODS>
+		<LOD minSize="1" ModelFile="Logo_Lights.gltf"/>
+	</LODS>
+	
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\Animations.xml"/>
+
+	<Component ID="Logo_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>Left_Logo_Port</NODE_ID>
+			<NODE_ID_2>Right_Logo_Star</NODE_ID_2>
+		</UseTemplate>
+	</Component>
+		
+</Behaviors>
+</ModelInfo>

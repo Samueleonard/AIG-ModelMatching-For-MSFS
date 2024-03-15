@@ -1,0 +1,308 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+
+<Template Name="HTAI_Cessna_SE_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>15</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>15</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>15</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_SingleEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_Steering">
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>90</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_Elevator">
+	<Parameters Type="Default">
+		<ANIM_NAME>elevator</ANIM_NAME>
+	</Parameters>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:LIGHT LANDING, bool) 0 == and (A:GROUND VELOCITY, knots) 5 &lt; and if{ 0 } 
+			els{ (A:LIGHT BEACON, bool) 1 == (A:LIGHT LANDING, bool) 0 == and (A:GROUND VELOCITY, knots) 5 &gt; and (A:SIM ON GROUND, bool) 1 == and if{ 100 }
+			els{ (A:LIGHT BEACON, bool) 1 == (A:LIGHT LANDING, bool) 1 == and if{ 50 }
+			els{ (A:LIGHT BEACON, bool) 1 == (A:SIM ON GROUND, bool) 0 == and if{ 50 }
+			els{ 0 } } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
+		</UseTemplate>
+</Template>
+
+<Template Name="HTAI_Cessna_LandingGear">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_FloatpaneLandingGear">
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_140_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>50</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>60</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>68</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP3_SPEED>75</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_152_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>65</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>73</FLAP2_SPEED>
+			<FLAP2_DEGREES>66</FLAP2_DEGREES>
+			<FLAP3_SPEED>80</FLAP3_SPEED>
+			<FLAP3_DEGREES>33</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_170_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>50</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>60</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>68</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP3_SPEED>75</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_172_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>76</FLAP2_SPEED>
+			<FLAP2_DEGREES>66</FLAP2_DEGREES>
+			<FLAP3_SPEED>82</FLAP3_SPEED>
+			<FLAP3_DEGREES>33</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_177_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>75</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>83</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP4_SPEED>90</FLAP4_SPEED>
+			<FLAP4_DEGREES>25</FLAP4_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_182_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>77</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>85</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_185_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>75</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>80</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP3_SPEED>85</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_195_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>60</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>70</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>78</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP3_SPEED>85</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_206_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>0</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>77</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>85</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_208_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_MED_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>85</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>100</FLAP2_SPEED>
+			<FLAP2_DEGREES>50</FLAP2_DEGREES>
+			<FLAP3_SPEED>115</FLAP3_SPEED>
+			<FLAP3_DEGREES>30</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="HTAI_Cessna_210_Flaps">
+
+	<Component ID="Flaps">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_FLAPS_SML_GA</ANIM_NAME>
+			<FLAP_TO_DEGREES>25</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>70</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>75</FLAP2_SPEED>
+			<FLAP2_DEGREES>75</FLAP2_DEGREES>
+			<FLAP3_SPEED>80</FLAP3_SPEED>
+			<FLAP3_DEGREES>50</FLAP3_DEGREES>
+			<FLAP3_SPEED>85</FLAP3_SPEED>
+			<FLAP3_DEGREES>25</FLAP3_DEGREES>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

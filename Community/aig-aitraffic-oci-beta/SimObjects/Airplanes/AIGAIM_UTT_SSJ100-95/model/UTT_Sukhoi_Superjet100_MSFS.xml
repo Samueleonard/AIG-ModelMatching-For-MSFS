@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD2.gltf"/>
+		<LOD minSize="5" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="UTT_Sukhoi_Superjet100_MSFS_LOD5.gltf"/>
+	</LODS>
+  
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\UTT_Sukhoi_Superjet.xml"/>
+	
+	<Component ID="UTT_Sukhoi_Superjet_Templates">
+		<UseTemplate Name="UTT_Sukhoi_Superjet_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

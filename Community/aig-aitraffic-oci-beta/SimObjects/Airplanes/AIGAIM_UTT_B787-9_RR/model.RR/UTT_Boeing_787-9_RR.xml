@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="10" ModelFile="UTT_Boeing_787-9_RR_LOD0.gltf"/>
+		<LOD minSize="5" ModelFile="UTT_Boeing_787-9_RR_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="UTT_Boeing_787-9_RR_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="UTT_Boeing_787-9_RR_LOD1.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\UTT_Boeing_787.xml"/>
+	
+	<Component ID="UTT_Boeing_787_Templates">
+		<UseTemplate Name="UTT_Boeing_787_Common"/>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>fuze</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</Behaviors>
+</ModelInfo>

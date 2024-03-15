@@ -1,0 +1,410 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+
+<Template Name="TBAI_Piper_PA23_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>18</STILL_NODE_ID>
+				<STILL_2_NODE_ID>19</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>20</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>21</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>22</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>23</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>11</STILL_NODE_ID>
+				<STILL_2_NODE_ID>12</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>13</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>14</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>15</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>16</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>landing</NODE_ID>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engine_Effects">
+		<UseTemplate Name="AIG_TwinEnginePiston_Effects"/>
+	</Component>
+
+	<Component ID="Landing_Effects">
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="TBAI_Piper_PA24_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>13</STILL_NODE_ID>
+				<STILL_2_NODE_ID>14</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>15</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>16</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>17</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>18</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_SingleEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="TBAI_Piper_PA31_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>1</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>40</STILL_NODE_ID>
+				<SLOW_NODE_ID>41</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>42</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>43</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>1</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>35</STILL_NODE_ID>
+				<SLOW_NODE_ID>36</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>37</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>38</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>landing_nose_l</NODE_ID>
+			<NODE_ID_2>landing_nose_r</NODE_ID_2>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="TBAI_Piper_PA34_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>landing</NODE_ID>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="TBAI_Piper_PA44_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEnginePiston_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+<Template Name="TBAI_Piper_PA46_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>landing</NODE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Landing_Effects">
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

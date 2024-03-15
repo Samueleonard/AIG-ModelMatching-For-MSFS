@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="70" ModelFile="TFS_Airbus_A380_EA_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="40" ModelFile="TFS_Airbus_A380_EA_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="20" ModelFile="TFS_Airbus_A380_EA_LOD2.gltf"/>
+		<LOD minSize="10" ModelFile="TFS_Airbus_A380_EA_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="TFS_Airbus_A380_EA_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A380_EA_LOD5.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>TFS_Airbus_A380_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A380.xml"/>
+	
+	<Component ID="TFS_Airbus_A380_Templates">
+		<UseTemplate Name="TFS_Airbus_A380_Common"/>
+	</Component>
+	
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>				
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine1_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>node62</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine1_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>node61</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine2_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>node65</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine2_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>node64</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<Parameters Type="Override">
+				<ENGINE_ID>3</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine3_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>node68</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine3_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>node67</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<Parameters Type="Override">
+				<ENGINE_ID>4</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine4_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>node71</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine4_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>node70</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

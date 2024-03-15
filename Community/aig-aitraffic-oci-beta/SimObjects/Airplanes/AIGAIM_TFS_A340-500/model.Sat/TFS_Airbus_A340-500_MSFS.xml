@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="70" ModelFile="TFS_Airbus_A340-500_MSFS_LOD0.gltf"/>
+		<LOD minSize="55" ModelFile="TFS_Airbus_A340-500_MSFS_LOD1.gltf"/>
+		<LOD minSize="40" ModelFile="TFS_Airbus_A340-500_MSFS_LOD2.gltf"/>
+		<LOD minSize="35" ModelFile="TFS_Airbus_A340-500_MSFS_LOD3.gltf"/>
+		<LOD minSize="30" ModelFile="TFS_Airbus_A340-500_MSFS_LOD4.gltf"/>
+		<LOD minSize="25" ModelFile="TFS_Airbus_A340-500_MSFS_LOD5.gltf"/>
+		<LOD minSize="20" ModelFile="TFS_Airbus_A340-500_MSFS_LOD6.gltf"/>
+		<LOD minSize="15" ModelFile="TFS_Airbus_A340-500_MSFS_LOD7.gltf"/>
+		<LOD minSize="10" ModelFile="TFS_Airbus_A340-500_MSFS_LOD8.gltf"/>
+		<LOD minSize="5" ModelFile="TFS_Airbus_A340-500_MSFS_LOD9.gltf"/>
+		<LOD minSize="1" ModelFile="TFS_Airbus_A340-500_MSFS_LOD10.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A340-500_MSFS_LOD11.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A340.xml"/>
+	
+	<Component ID="TFS_Airbus_A340_Templates">
+		<UseTemplate Name="TFS_Airbus_A340_Common"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>3</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>3</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>97</STILL_NODE_ID>
+				<STILL_2_NODE_ID>99</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>102</STILL_3_NODE_ID>
+				<BLURRED_NODE_ID>98</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>100</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>101</BLURRED_3_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>3</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>3</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>93</STILL_NODE_ID>
+				<STILL_2_NODE_ID>105</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>108</STILL_3_NODE_ID>
+				<BLURRED_NODE_ID>106</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>109</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>111</BLURRED_3_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<Parameters Type="Override">
+				<ENGINE_ID>3</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>3</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>3</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>90</STILL_NODE_ID>
+				<STILL_2_NODE_ID>114</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>117</STILL_3_NODE_ID>
+				<BLURRED_NODE_ID>89</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>115</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>118</BLURRED_3_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<Parameters Type="Override">
+				<ENGINE_ID>4</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>3</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>3</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>122</STILL_NODE_ID>
+				<STILL_2_NODE_ID>124</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>127</STILL_3_NODE_ID>
+				<BLURRED_NODE_ID>123</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>125</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>126</BLURRED_3_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node13</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</Behaviors>
+</ModelInfo>

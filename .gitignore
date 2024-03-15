@@ -1,3 +1,10 @@
-.dds.json
-.gltf
-.bin
+*.DDS.Json
+*.dds
+*.gltf
+*.bin
+model.cfg
+*.cfgaig
+*.bmp
+oci_soundinfo.xml
+texture.cfg
+oci.xml

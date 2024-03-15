@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD0.gltf"/>
+		<LOD minSize="25" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD1.gltf"/>
+		<LOD minSize="20" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD2.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD3.gltf"/>
+		<LOD minSize="10" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD4.gltf"/>
+		<LOD minSize="5" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD5.gltf"/>
+		<LOD minSize="1" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Beechcraft King Air C90 3Blade21Fin MSFS_LOD7.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\HTAI_Beechcraft_KingAir90.xml"/>
+	
+	<Component ID="HTAI_Beechcraft_KingAir90_Templates">
+		<UseTemplate Name="HTAI_Beechcraft_KingAir90_Common"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>42</STILL_NODE_ID>
+				<BLURRED_NODE_ID>50</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>43</STILL_NODE_ID>
+				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>44</STILL_NODE_ID>
+				<BLURRED_NODE_ID>52</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>45</STILL_NODE_ID>
+				<BLURRED_NODE_ID>53</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>5</ID>
+				<STILL_NODE_ID>46</STILL_NODE_ID>
+				<BLURRED_NODE_ID>54</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>6</ID>
+				<STILL_NODE_ID>47</STILL_NODE_ID>
+				<BLURRED_NODE_ID>55</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>7</ID>
+				<STILL_NODE_ID>48</STILL_NODE_ID>
+				<BLURRED_NODE_ID>56</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>34</STILL_NODE_ID>
+				<BLURRED_NODE_ID>58</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>35</STILL_NODE_ID>
+				<BLURRED_NODE_ID>59</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>3</ID>
+				<STILL_NODE_ID>36</STILL_NODE_ID>
+				<BLURRED_NODE_ID>60</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>4</ID>
+				<STILL_NODE_ID>37</STILL_NODE_ID>
+				<BLURRED_NODE_ID>61</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>5</ID>
+				<STILL_NODE_ID>38</STILL_NODE_ID>
+				<BLURRED_NODE_ID>62</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>6</ID>
+				<STILL_NODE_ID>39</STILL_NODE_ID>
+				<BLURRED_NODE_ID>63</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
+				<ID>7</ID>
+				<STILL_NODE_ID>40</STILL_NODE_ID>
+				<BLURRED_NODE_ID>64</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="45" ModelFile="TFS_B772F_cargo.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Boeing_777.xml"/>
+
+	<Component ID="Cargo_Doors">
+		<UseTemplate Name="TFS_Boeing_777F_Cargo_Doors"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

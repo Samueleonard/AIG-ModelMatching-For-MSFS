@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD2.gltf"/>
+		<LOD minSize="5" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="HTAI Beechcraft C99 Cargo Pod MSFS_LOD5.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\HTAI_Beechcraft_C99.xml"/>
+	
+	<Component ID="HTAI_Beechcraft_C99_Templates">
+		<UseTemplate Name="HTAI_Beechcraft_C99_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

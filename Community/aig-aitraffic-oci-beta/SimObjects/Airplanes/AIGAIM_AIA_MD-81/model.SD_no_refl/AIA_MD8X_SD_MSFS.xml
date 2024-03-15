@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="AIA_MD8x_SD_MSFS_LOD0.gltf"/>
+		<LOD minSize="25" ModelFile="AIA_MD8x_SD_MSFS_LOD1.gltf"/>
+		<LOD minSize="20" ModelFile="AIA_MD8x_SD_MSFS_LOD2.gltf"/>
+		<LOD minSize="15" ModelFile="AIA_MD8x_SD_MSFS_LOD3.gltf"/>
+		<LOD minSize="10" ModelFile="AIA_MD8x_SD_MSFS_LOD4.gltf"/>
+		<LOD minSize="5" ModelFile="AIA_MD8x_SD_MSFS_LOD5.gltf"/>
+		<LOD minSize="1" ModelFile="AIA_MD8x_SD_MSFS_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_MD8x_SD_MSFS_LOD7.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIA_McDonnellDouglas_MD8X.xml"/>
+	
+	<Component ID="AIA_McDonnellDouglas_MD8X_Templates">
+		<UseTemplate Name="AIA_McDonnellDouglas_MD8X_Common"/>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node8</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

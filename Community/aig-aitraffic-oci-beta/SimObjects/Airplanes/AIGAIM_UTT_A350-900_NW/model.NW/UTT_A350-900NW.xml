@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="UTT_A350-900NW_LOD0.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="20" ModelFile="UTT_A350-900NW_LOD1.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="1" ModelFile="UTT_A350-900NW_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="UTT_A350-900NW_LOD3.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\UTT_Airbus_A350.xml"/>
+	
+	<Component ID="UTT_Airbus_A350_Templates">
+		<UseTemplate Name="UTT_Airbus_A350_Common"/>
+	</Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>A359</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

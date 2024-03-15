@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  AiTRSP For MSFS 2020 , "FTSiM+Sounds" , https://www.ftsimplus.com -->
+
+<SoundInfo Version="0.1">
+
+	<WwisePackages>
+	<MainPackage Name="B747PW_Ai"/>
+	</WwisePackages>
+
+     <!--===================================================================================================== --> 
+     <!-- Engines =============================================================================================== -->    
+	<!--===================================================================================================== --> 
+
+		
+   	 <EngineSoundStates>
+	<Sound WwiseData="true" WwiseEvent="IntakeLX" EngineIndex="1" RPMMin="2" StateOff="false" StateStart="true" StateOn="true" ConeHeading="0.0" > 
+	<WwiseRTPC SimVar="TURB ENG N1" Units="PERCENT" Index="1" RTPCName="SIMVAR_TURB_ENG_N1"/>
+	<WwiseRTPC SimVar="TURB ENG REVERSE NOZZLE PERCENT" Units="PERCENT" Index="1" RTPCName="SIMVAR_TURB_ENG_REVERSE_NOZZLE_PERCENT"/>	
+	<WwiseRTPC SimVar="AIRSPEED TRUE" Units="KNOTS" Index="1" RTPCName="SIMVAR_AIRSPEED_TRUE"/> 
+    </Sound>
+	
+	<Sound WwiseData="true" WwiseEvent="IntakeRX" EngineIndex="2" RPMMin="2" StateOff="false" StateStart="true" StateOn="true" ConeHeading="0.0"  > 
+	<WwiseRTPC SimVar="TURB ENG N1" Units="PERCENT" Index="2" RTPCName="SIMVAR_TURB_ENG_N1"/> 
+	<WwiseRTPC SimVar="TURB ENG REVERSE NOZZLE PERCENT" Units="PERCENT" Index="2" RTPCName="SIMVAR_TURB_ENG_REVERSE_NOZZLE_PERCENT"/>
+	<WwiseRTPC SimVar="AIRSPEED TRUE" Units="KNOTS" Index="1" RTPCName="SIMVAR_AIRSPEED_TRUE"/> 
+    </Sound>
+	
+    <Sound WwiseData="true" WwiseEvent="ExhaustLX" EngineIndex="1" RPMMin="2" StateOff="false" StateStart="true" StateOn="true" ConeHeading="180.0" > 
+	<WwiseRTPC SimVar="TURB ENG N1" Units="PERCENT" Index="1" RTPCName="SIMVAR_TURB_ENG_N1"/> 
+	<WwiseRTPC SimVar="AIRSPEED TRUE" Units="KNOTS" Index="1" RTPCName="SIMVAR_AIRSPEED_TRUE"/> 
+    </Sound>
+	
+	<Sound WwiseData="true" WwiseEvent="ExhaustRX" EngineIndex="2" RPMMin="2" StateOff="false" StateStart="true" StateOn="true" ConeHeading="180.0" > 
+	<WwiseRTPC SimVar="TURB ENG N1" Units="PERCENT" Index="2" RTPCName="SIMVAR_TURB_ENG_N1"/> 
+	<WwiseRTPC SimVar="AIRSPEED TRUE" Units="KNOTS" Index="1" RTPCName="SIMVAR_AIRSPEED_TRUE"/> 
+    </Sound>
+	
+	</EngineSoundStates>	
+	
+  
+</SoundInfo>

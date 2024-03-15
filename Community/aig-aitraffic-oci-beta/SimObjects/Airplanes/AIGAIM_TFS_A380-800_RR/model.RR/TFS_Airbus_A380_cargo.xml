@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="TFS_Airbus_A380_cargo.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A380.xml"/>
+
+	<Component ID="Cargo_Doors">
+		<UseTemplate Name="TFS_Airbus_A380_Cargo_Doors"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

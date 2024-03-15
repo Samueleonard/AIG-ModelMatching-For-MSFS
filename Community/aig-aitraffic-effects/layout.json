@@ -1,0 +1,4879 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/aig-aircraft-effects/Thumbnail.jpg",
+      "size": 9653,
+      "date": 133346869022660492
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638057081959
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638057122530
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Landing.fx",
+      "size": 1280,
+      "date": 133527638057152526
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638057172538
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Navred.fx",
+      "size": 1227,
+      "date": 133527638057202555
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638057232556
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Strobe.fx",
+      "size": 1230,
+      "date": 133527638057262548
+    },
+    {
+      "path": "Effects/LIGHT_ACAI_CessnaCJ3_Taxi.fx",
+      "size": 1280,
+      "date": 133527638057282554
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638057312561
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638057332564
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Landing.fx",
+      "size": 1281,
+      "date": 133527638057362573
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Logo.fx",
+      "size": 1278,
+      "date": 133527638057392578
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638057422588
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Navred.fx",
+      "size": 1229,
+      "date": 133527638057452593
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Navwhi.fx",
+      "size": 1348,
+      "date": 133527638057482600
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Strobe.fx",
+      "size": 1231,
+      "date": 133527638057502601
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Taxi.fx",
+      "size": 1280,
+      "date": 133527638057542616
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B717_Wing.fx",
+      "size": 1293,
+      "date": 133527638057572629
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638057602632
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638057632636
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Landing.fx",
+      "size": 1281,
+      "date": 133527638057663114
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Logo.fx",
+      "size": 1280,
+      "date": 133527638057703127
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638057733133
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Navred.fx",
+      "size": 1225,
+      "date": 133527638057773150
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638057803150
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Strobe.fx",
+      "size": 1229,
+      "date": 133527638057833153
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Taxi.fx",
+      "size": 1283,
+      "date": 133527638057867359
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B727_Wing.fx",
+      "size": 1293,
+      "date": 133527638057897368
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638057927372
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_BeaconTop.fx",
+      "size": 1227,
+      "date": 133527638057967381
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Landing.fx",
+      "size": 1281,
+      "date": 133527638057997394
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Logo.fx",
+      "size": 1285,
+      "date": 133527638058027395
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638058067404
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Navred.fx",
+      "size": 1227,
+      "date": 133527638058097415
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638058137422
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Strobe.fx",
+      "size": 1233,
+      "date": 133527638058164511
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Taxi.fx",
+      "size": 1281,
+      "date": 133527638058192823
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B737MAX_Wing.fx",
+      "size": 1293,
+      "date": 133527638058232834
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638058262838
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638058290086
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Landing.fx",
+      "size": 1280,
+      "date": 133527638058340098
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Logo.fx",
+      "size": 1279,
+      "date": 133527638058370103
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638058400109
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Navred.fx",
+      "size": 1227,
+      "date": 133527638058440118
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638058470127
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Strobe.fx",
+      "size": 1229,
+      "date": 133527638058510134
+    },
+    {
+      "path": "Effects/LIGHT_AIA_B747_Taxi.fx",
+      "size": 1287,
+      "date": 133527638058545274
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638058582455
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638058622464
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_Landing.fx",
+      "size": 1281,
+      "date": 133527638058662466
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638058702486
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_Navred.fx",
+      "size": 1227,
+      "date": 133527638058742489
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638058772496
+    },
+    {
+      "path": "Effects/LIGHT_AIA_CL215_Taxi.fx",
+      "size": 1281,
+      "date": 133527638058812503
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638058842512
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638058892526
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Landing.fx",
+      "size": 1280,
+      "date": 133527638058922531
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Logo.fx",
+      "size": 1280,
+      "date": 133527638058962549
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638059002549
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Navred.fx",
+      "size": 1227,
+      "date": 133527638059042979
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638059089408
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Strobe.fx",
+      "size": 1231,
+      "date": 133527638059119399
+    },
+    {
+      "path": "Effects/LIGHT_AIA_DC-8_Taxi.fx",
+      "size": 1285,
+      "date": 133527638059169410
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_BeaconBelly.fx",
+      "size": 1279,
+      "date": 133527638059209433
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638059259437
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Landing.fx",
+      "size": 1281,
+      "date": 133527638059299440
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Logo.fx",
+      "size": 1278,
+      "date": 133527638059339452
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638059379463
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Navred.fx",
+      "size": 1227,
+      "date": 133527638059419469
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638059459477
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Strobe.fx",
+      "size": 1232,
+      "date": 133527638059499748
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Taxi.fx",
+      "size": 1280,
+      "date": 133527638059538865
+    },
+    {
+      "path": "Effects/LIGHT_AIA_EMB120_Wing.fx",
+      "size": 1293,
+      "date": 133527638059578878
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638059628882
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638059668897
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Landing.fx",
+      "size": 1281,
+      "date": 133527638059708896
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Logo.fx",
+      "size": 1275,
+      "date": 133527638059748905
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638059805200
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Navred.fx",
+      "size": 1227,
+      "date": 133527638059846068
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638059891467
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Strobe.fx",
+      "size": 1232,
+      "date": 133527638059936102
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Strobe2.fx",
+      "size": 1236,
+      "date": 133527638059976114
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Taxi.fx",
+      "size": 1280,
+      "date": 133527638060022631
+    },
+    {
+      "path": "Effects/LIGHT_AIA_ERJ_Wing.fx",
+      "size": 1293,
+      "date": 133527638060062639
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker100_Logo.fx",
+      "size": 1277,
+      "date": 133527638060617056
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker70_Logo.fx",
+      "size": 1277,
+      "date": 133527638060567041
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638060112649
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638060162662
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Landing.fx",
+      "size": 1281,
+      "date": 133527638060212674
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Navgreen.fx",
+      "size": 1236,
+      "date": 133527638060252681
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Navred.fx",
+      "size": 1231,
+      "date": 133527638060302696
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638060372715
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Strobe.fx",
+      "size": 1229,
+      "date": 133527638060412717
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Taxi.fx",
+      "size": 1280,
+      "date": 133527638060457014
+    },
+    {
+      "path": "Effects/LIGHT_AIA_Fokker_Wing.fx",
+      "size": 1293,
+      "date": 133527638060507027
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638060657061
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638060707065
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Landing.fx",
+      "size": 1281,
+      "date": 133527638060757077
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Logo.fx",
+      "size": 1278,
+      "date": 133527638060797084
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Navgreen.fx",
+      "size": 1236,
+      "date": 133527638060857106
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Navred.fx",
+      "size": 1229,
+      "date": 133527638060907117
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638060951564
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Strobe.fx",
+      "size": 1231,
+      "date": 133527638061001577
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Strobe2.fx",
+      "size": 1233,
+      "date": 133527638061041581
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Taxi.fx",
+      "size": 1280,
+      "date": 133527638061091596
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD80_Wing.fx",
+      "size": 1293,
+      "date": 133527638061159100
+    },
+    {
+      "path": "Effects/LIGHT_AIA_MD87_Logo.fx",
+      "size": 1279,
+      "date": 133527638061199108
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_BeaconBelly.fx",
+      "size": 1281,
+      "date": 133527638061249121
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638061309131
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Landing.fx",
+      "size": 1281,
+      "date": 133527638061364947
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Logo.fx",
+      "size": 1279,
+      "date": 133527638061404955
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Navgreen.fx",
+      "size": 1228,
+      "date": 133527638061464968
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Navred.fx",
+      "size": 1225,
+      "date": 133527638061514979
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Navwhi.fx",
+      "size": 1352,
+      "date": 133527638061564994
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Strobe1.fx",
+      "size": 2380,
+      "date": 133527638061615001
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Strobe2.fx",
+      "size": 1230,
+      "date": 133527638061675020
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Taxi.fx",
+      "size": 1280,
+      "date": 133527638061725027
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A330_Wing.fx",
+      "size": 1293,
+      "date": 133527638061774497
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_BeaconBelly.fx",
+      "size": 1281,
+      "date": 133527638061824508
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638061874523
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Landing.fx",
+      "size": 1281,
+      "date": 133527638061924550
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Logo.fx",
+      "size": 1279,
+      "date": 133527638061974547
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Navgreen.fx",
+      "size": 1224,
+      "date": 133527638062034555
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Navred.fx",
+      "size": 1223,
+      "date": 133527638062084070
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Navwhi.fx",
+      "size": 1352,
+      "date": 133527638062144090
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Strobe1.fx",
+      "size": 2380,
+      "date": 133527638062198340
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Strobe2.fx",
+      "size": 1230,
+      "date": 133527638062258350
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Taxi.fx",
+      "size": 1280,
+      "date": 133527638062307667
+    },
+    {
+      "path": "Effects/LIGHT_AIG_A340_Wing.fx",
+      "size": 1293,
+      "date": 133527638062357679
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Engine.fx",
+      "size": 1294,
+      "date": 133527638062427710
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Interior.fx",
+      "size": 1271,
+      "date": 133527638062484053
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Landing.fx",
+      "size": 1281,
+      "date": 133527638062534074
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Logo.fx",
+      "size": 1278,
+      "date": 133527638062604084
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638062654104
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Navred.fx",
+      "size": 1227,
+      "date": 133527638062718193
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Navwhi.fx",
+      "size": 1355,
+      "date": 133527638062778207
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Strobe1.fx",
+      "size": 1230,
+      "date": 133527638062831043
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Strobe2.fx",
+      "size": 1232,
+      "date": 133527638062891062
+    },
+    {
+      "path": "Effects/LIGHT_AIG_An124_Taxi.fx",
+      "size": 1284,
+      "date": 133527638062951073
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638063017255
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638063077269
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Landing.fx",
+      "size": 1281,
+      "date": 133527638063127281
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Logo.fx",
+      "size": 1278,
+      "date": 133527638063187292
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638063238279
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Navred.fx",
+      "size": 1226,
+      "date": 133527638063301126
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638063361130
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Strobe.fx",
+      "size": 1230,
+      "date": 133527638063412215
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Taxi.fx",
+      "size": 1280,
+      "date": 133527638063472221
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B752_Wing.fx",
+      "size": 1294,
+      "date": 133527638063542244
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638063592255
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638063658727
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Landing.fx",
+      "size": 1281,
+      "date": 133527638063728740
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Logo.fx",
+      "size": 1278,
+      "date": 133527638063777357
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638063837364
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Navred.fx",
+      "size": 1226,
+      "date": 133527638063898821
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638063964069
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Strobe.fx",
+      "size": 1230,
+      "date": 133527638064024081
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Taxi.fx",
+      "size": 1280,
+      "date": 133527638064087263
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B753_Wing.fx",
+      "size": 1294,
+      "date": 133527638064147273
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638064197281
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_BeaconTop.fx",
+      "size": 1223,
+      "date": 133527638064267297
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Landing.fx",
+      "size": 1281,
+      "date": 133527638064327311
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Logo.fx",
+      "size": 1278,
+      "date": 133527638064387316
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638064474023
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Navred.fx",
+      "size": 1226,
+      "date": 133527638064534033
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Navwhi.fx",
+      "size": 1357,
+      "date": 133527638064602983
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Strobe.fx",
+      "size": 1231,
+      "date": 133527638064672999
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_StrobeTail.fx",
+      "size": 1231,
+      "date": 133527638064733015
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638064803034
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Taxi2.fx",
+      "size": 1280,
+      "date": 133527638064869908
+    },
+    {
+      "path": "Effects/LIGHT_AIG_B787_Wing.fx",
+      "size": 1293,
+      "date": 133527638064929925
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_BeaconBelly.fx",
+      "size": 1280,
+      "date": 133527638065003377
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638065073393
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Landing.fx",
+      "size": 1281,
+      "date": 133527638065133412
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Logo.fx",
+      "size": 1279,
+      "date": 133527638065193440
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638065263435
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Navred.fx",
+      "size": 1227,
+      "date": 133527638065323452
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638065383458
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Strobe.fx",
+      "size": 1235,
+      "date": 133527638065453481
+    },
+    {
+      "path": "Effects/LIGHT_AIG_D328J_Taxi.fx",
+      "size": 1281,
+      "date": 133527638065512665
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638065572681
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Engine.fx",
+      "size": 1291,
+      "date": 133527638065642693
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Landing.fx",
+      "size": 1283,
+      "date": 133527638065703784
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Logo.fx",
+      "size": 1279,
+      "date": 133527638065770176
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638065850193
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Navred.fx",
+      "size": 1225,
+      "date": 133527638065908086
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638065970438
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Strobe1.fx",
+      "size": 1235,
+      "date": 133527638066050455
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Strobe2.fx",
+      "size": 1237,
+      "date": 133527638066104765
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Taxi.fx",
+      "size": 1280,
+      "date": 133527638066179688
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-100_Wing.fx",
+      "size": 1292,
+      "date": 133527638066249709
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638066310692
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Engine.fx",
+      "size": 1291,
+      "date": 133527638066372004
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Landing.fx",
+      "size": 1283,
+      "date": 133527638066442024
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Logo.fx",
+      "size": 1279,
+      "date": 133527638066512039
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638066575497
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Navred.fx",
+      "size": 1225,
+      "date": 133527638066655513
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638066713266
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Strobe1.fx",
+      "size": 1235,
+      "date": 133527638066785860
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Strobe2.fx",
+      "size": 1237,
+      "date": 133527638066854632
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Taxi.fx",
+      "size": 1280,
+      "date": 133527638066924658
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-200_Wing.fx",
+      "size": 1292,
+      "date": 133527638066987200
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638067067216
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Engine.fx",
+      "size": 1291,
+      "date": 133527638067137232
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Landing.fx",
+      "size": 1283,
+      "date": 133527638067217257
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Logo.fx",
+      "size": 1279,
+      "date": 133527638067307270
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638067377291
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Navred.fx",
+      "size": 1225,
+      "date": 133527638067447306
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638067527324
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Strobe1.fx",
+      "size": 1235,
+      "date": 133527638067627346
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Strobe2.fx",
+      "size": 1237,
+      "date": 133527638067717367
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Taxi.fx",
+      "size": 1280,
+      "date": 133527638067789179
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-300_Wing.fx",
+      "size": 1292,
+      "date": 133527638067859112
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638067939135
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Engine.fx",
+      "size": 1291,
+      "date": 133527638068019137
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Landing.fx",
+      "size": 1279,
+      "date": 133527638068089162
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Logo.fx",
+      "size": 1279,
+      "date": 133527638068179188
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638068589272
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Navred.fx",
+      "size": 1225,
+      "date": 133527638068659298
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638068739319
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Strobe1.fx",
+      "size": 1235,
+      "date": 133527638068957171
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Strobe2.fx",
+      "size": 1237,
+      "date": 133527638069097203
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Taxi.fx",
+      "size": 1280,
+      "date": 133527638069173356
+    },
+    {
+      "path": "Effects/LIGHT_AIG_Dash8-400_Wing.fx",
+      "size": 1293,
+      "date": 133527638069243370
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_BeaconBelly.fx",
+      "size": 1285,
+      "date": 133527638069323386
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638069393412
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Landing.fx",
+      "size": 1281,
+      "date": 133527638069463419
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Logo.fx",
+      "size": 1278,
+      "date": 133527638069553440
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638069653463
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Navred.fx",
+      "size": 1227,
+      "date": 133527638069763490
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638069863509
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Strobe.fx",
+      "size": 1231,
+      "date": 133527638069963532
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Strobe2.fx",
+      "size": 1233,
+      "date": 133527638070053550
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Taxi.fx",
+      "size": 1284,
+      "date": 133527638070153572
+    },
+    {
+      "path": "Effects/LIGHT_AIG_DC9_Wing.fx",
+      "size": 1293,
+      "date": 133527638070243591
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_BeaconBelly.fx",
+      "size": 1231,
+      "date": 133527638070333622
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_BeaconTop.fx",
+      "size": 1229,
+      "date": 133527638070443642
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Landing.fx",
+      "size": 1285,
+      "date": 133527638070543666
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_LandingNose.fx",
+      "size": 1281,
+      "date": 133527638070633685
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Logo.fx",
+      "size": 1280,
+      "date": 133527638070733707
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638070823730
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Navred.fx",
+      "size": 1226,
+      "date": 133527638070923750
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Navwhi.fx",
+      "size": 1347,
+      "date": 133527638071013772
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Strobe.fx",
+      "size": 1232,
+      "date": 133527638071123793
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Taxi.fx",
+      "size": 1283,
+      "date": 133527638071203814
+    },
+    {
+      "path": "Effects/LIGHT_AIG_ERJ_Wing.fx",
+      "size": 1293,
+      "date": 133527638071283835
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_BeaconBelly.fx",
+      "size": 1281,
+      "date": 133527638071373856
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638071453872
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Landing.fx",
+      "size": 1281,
+      "date": 133527638071543888
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638071623909
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Navred.fx",
+      "size": 1227,
+      "date": 133527638071733939
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638071813954
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Pulse1.fx",
+      "size": 1343,
+      "date": 133527638071893965
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Pulse2.fx",
+      "size": 1339,
+      "date": 133527638071983984
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Strobe.fx",
+      "size": 1230,
+      "date": 133527638072064011
+    },
+    {
+      "path": "Effects/LIGHT_AIG_PC-12_Taxi.fx",
+      "size": 1281,
+      "date": 133527638072144032
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638072224048
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638072314063
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Landing.fx",
+      "size": 1281,
+      "date": 133527638072524116
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638072644139
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Navred.fx",
+      "size": 1225,
+      "date": 133527638072734159
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638072814172
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Strobe.fx",
+      "size": 1230,
+      "date": 133527638072904199
+    },
+    {
+      "path": "Effects/LIGHT_ANAI_Piper_Taxi.fx",
+      "size": 1281,
+      "date": 133527638072994217
+    },
+    {
+      "path": "Effects/LIGHT_DFAI_Cessna_Citation_CJ4_landing.fx",
+      "size": 1280,
+      "date": 133527638073094237
+    },
+    {
+      "path": "Effects/LIGHT_DFAI_Cessna_Citation_CJ4_taxi.fx",
+      "size": 1280,
+      "date": 133527638073174255
+    },
+    {
+      "path": "Effects/LIGHT_DFAI_Phenom_300_landing.fx",
+      "size": 1280,
+      "date": 133527638073274284
+    },
+    {
+      "path": "Effects/LIGHT_DFAI_Phenom_300_taxi.fx",
+      "size": 1280,
+      "date": 133527638073354307
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_BeaconBelly.fx",
+      "size": 1278,
+      "date": 133527638073444325
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638073574361
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Landing.fx",
+      "size": 1281,
+      "date": 133527638073664376
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Logo.fx",
+      "size": 1276,
+      "date": 133527638073754386
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638073844408
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Navred.fx",
+      "size": 1227,
+      "date": 133527638073944439
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638074024456
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Strobe.fx",
+      "size": 1232,
+      "date": 133527638074114476
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Taxi.fx",
+      "size": 1281,
+      "date": 133527638074487386
+    },
+    {
+      "path": "Effects/LIGHT_DJC_BombardierGlobalExpress_Wing.fx",
+      "size": 1293,
+      "date": 133527638074607416
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_BeaconBelly.fx",
+      "size": 1280,
+      "date": 133527638075047514
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638075227558
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Landing.fx",
+      "size": 1281,
+      "date": 133527638075357587
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Logo.fx",
+      "size": 1278,
+      "date": 133527638075517620
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638075667656
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Navred.fx",
+      "size": 1227,
+      "date": 133527638075797682
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638075937714
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Strobe.fx",
+      "size": 1235,
+      "date": 133527638076097754
+    },
+    {
+      "path": "Effects/LIGHT_DJC_JS41_Taxi.fx",
+      "size": 1281,
+      "date": 133527638076247785
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_BeaconBelly.fx",
+      "size": 1281,
+      "date": 133527638076397822
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638076587868
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Landing.fx",
+      "size": 1281,
+      "date": 133527638076777910
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638076917937
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Navred.fx",
+      "size": 1227,
+      "date": 133527638077077972
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638077218006
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Strobe.fx",
+      "size": 1232,
+      "date": 133527638077378040
+    },
+    {
+      "path": "Effects/LIGHT_DJC_Metroliner_Taxi.fx",
+      "size": 1281,
+      "date": 133527638077522695
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638077672727
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Landing.fx",
+      "size": 1284,
+      "date": 133527638077852769
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638078032816
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Navred.fx",
+      "size": 1227,
+      "date": 133527638078192841
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638078342886
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Strobe.fx",
+      "size": 1232,
+      "date": 133527638078492919
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Citation2_Taxi.fx",
+      "size": 1281,
+      "date": 133527638078662951
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638078792981
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Landing.fx",
+      "size": 1285,
+      "date": 133527638078963024
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638079103052
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Navred.fx",
+      "size": 1227,
+      "date": 133527638079283097
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638079453136
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Strobe.fx",
+      "size": 1232,
+      "date": 133527638079743192
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_CV580_Taxi.fx",
+      "size": 1281,
+      "date": 133527638080053270
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_BeaconBelly.fx",
+      "size": 1274,
+      "date": 133527638080273318
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638080846325
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_Landing.fx",
+      "size": 1281,
+      "date": 133527638081256418
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638081406446
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_Navred.fx",
+      "size": 1227,
+      "date": 133527638081506466
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_Strobe.fx",
+      "size": 1232,
+      "date": 133527638081626495
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_DHC7_Taxi.fx",
+      "size": 1285,
+      "date": 133527638081746524
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_BeaconBelly.fx",
+      "size": 2476,
+      "date": 133527638081846581
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_BeaconTop.fx",
+      "size": 2492,
+      "date": 133527638081976605
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Landing.fx",
+      "size": 1281,
+      "date": 133527638082276672
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638082366694
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Navred.fx",
+      "size": 1227,
+      "date": 133527638082496724
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638082586746
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Strobe.fx",
+      "size": 1232,
+      "date": 133527638082696781
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_Embraer110_Taxi.fx",
+      "size": 1285,
+      "date": 133527638082796784
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638082906813
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_Landing.fx",
+      "size": 1281,
+      "date": 133527638083006837
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638083106863
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_Navred.fx",
+      "size": 1227,
+      "date": 133527638083206904
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_Strobe.fx",
+      "size": 1232,
+      "date": 133527638083306983
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_F27_Taxi.fx",
+      "size": 1284,
+      "date": 133527638083417003
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638083527036
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Landing.fx",
+      "size": 1285,
+      "date": 133527638083618359
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638083718555
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Navred.fx",
+      "size": 1227,
+      "date": 133527638083845332
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638083955366
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Strobe.fx",
+      "size": 2382,
+      "date": 133527638084055385
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_HS748_Taxi.fx",
+      "size": 1281,
+      "date": 133527638084185414
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638084345968
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Landing.fx",
+      "size": 1281,
+      "date": 133527638084517662
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638084687693
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Navred.fx",
+      "size": 1227,
+      "date": 133527638084839834
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638084969848
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Strobe.fx",
+      "size": 1230,
+      "date": 133527638085079871
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_KingAirA100_Taxi.fx",
+      "size": 1281,
+      "date": 133527638085199910
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638085309929
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638085429952
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Landing.fx",
+      "size": 1281,
+      "date": 133527638085549976
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638085650006
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Navred.fx",
+      "size": 1227,
+      "date": 133527638085770034
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638085870094
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Strobe.fx",
+      "size": 1232,
+      "date": 133527638085970125
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA31_Taxi.fx",
+      "size": 1280,
+      "date": 133527638086090144
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638086200168
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Landing.fx",
+      "size": 1281,
+      "date": 133527638086440223
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638086680283
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Navred.fx",
+      "size": 1227,
+      "date": 133527638087050368
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638087150397
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Strobe.fx",
+      "size": 1232,
+      "date": 133527638087260415
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_PA32_Taxi.fx",
+      "size": 1280,
+      "date": 133527638087371847
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638087471868
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638087571885
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Landing.fx",
+      "size": 1281,
+      "date": 133527638087691918
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638087798833
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Navred.fx",
+      "size": 1227,
+      "date": 133527638087898791
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638088008804
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Strobe.fx",
+      "size": 1230,
+      "date": 133527638088118840
+    },
+    {
+      "path": "Effects/LIGHT_DWAI_SD3_Taxi.fx",
+      "size": 1281,
+      "date": 133527638088218864
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_BeaconBelly.fx",
+      "size": 1233,
+      "date": 133527638089645255
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638089752800
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Landing.fx",
+      "size": 1281,
+      "date": 133527638089873510
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Logo.fx",
+      "size": 1278,
+      "date": 133527638089973531
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Navgreen.fx",
+      "size": 2363,
+      "date": 133527638090093562
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Navred.fx",
+      "size": 2360,
+      "date": 133527638090213588
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638090333617
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_StrobeL.fx",
+      "size": 1230,
+      "date": 133527638090435405
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_StrobeR.fx",
+      "size": 1232,
+      "date": 133527638090553484
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_StrobeTail.fx",
+      "size": 1228,
+      "date": 133527638090668770
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Taxi.fx",
+      "size": 2428,
+      "date": 133527638090778793
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_7478_Wing.fx",
+      "size": 1293,
+      "date": 133527638090888819
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_BeaconBelly.fx",
+      "size": 1233,
+      "date": 133527638088328888
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638088432247
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Landing.fx",
+      "size": 1281,
+      "date": 133527638088542276
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Logo.fx",
+      "size": 1278,
+      "date": 133527638088652300
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Navgreen.fx",
+      "size": 2363,
+      "date": 133527638088772326
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Navred.fx",
+      "size": 2360,
+      "date": 133527638088872348
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638089002379
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_StrobeL.fx",
+      "size": 1230,
+      "date": 133527638089100938
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_StrobeR.fx",
+      "size": 1232,
+      "date": 133527638089210972
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_StrobeTail.fx",
+      "size": 1228,
+      "date": 133527638089311038
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Taxi.fx",
+      "size": 2428,
+      "date": 133527638089434892
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_747_Wing.fx",
+      "size": 1293,
+      "date": 133527638089534907
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_BeaconBelly.fx",
+      "size": 1227,
+      "date": 133527638092933942
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_BeaconTop.fx",
+      "size": 1227,
+      "date": 133527638093063968
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_LandingGear.fx",
+      "size": 1281,
+      "date": 133527638093193999
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_LandingL.fx",
+      "size": 1285,
+      "date": 133527638093404049
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_LandingR.fx",
+      "size": 1283,
+      "date": 133527638093594078
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Logo.fx",
+      "size": 1278,
+      "date": 133527638093794124
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638094224223
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Navred.fx",
+      "size": 2361,
+      "date": 133527638094483251
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638094763323
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_StrobeTail.fx",
+      "size": 1230,
+      "date": 133527638095233424
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Strobe_L.fx",
+      "size": 2384,
+      "date": 133527638094953365
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Strobe_R.fx",
+      "size": 2388,
+      "date": 133527638095083399
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Taxi.fx",
+      "size": 2428,
+      "date": 133527638095373462
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32XS_Wing.fx",
+      "size": 1292,
+      "date": 133527638095723538
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_BeaconBelly.fx",
+      "size": 1227,
+      "date": 133527638091018846
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_BeaconTop.fx",
+      "size": 1227,
+      "date": 133527638091128870
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_LandingGear.fx",
+      "size": 1281,
+      "date": 133527638091253557
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_LandingL.fx",
+      "size": 1285,
+      "date": 133527638091353583
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_LandingR.fx",
+      "size": 1283,
+      "date": 133527638091483606
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Logo.fx",
+      "size": 1277,
+      "date": 133527638091593633
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638091703659
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Navred.fx",
+      "size": 2361,
+      "date": 133527638091823686
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638091963720
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_StrobeTail.fx",
+      "size": 1230,
+      "date": 133527638092333803
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Strobe_L.fx",
+      "size": 2384,
+      "date": 133527638092093745
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Strobe_R.fx",
+      "size": 2388,
+      "date": 133527638092223770
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Taxi.fx",
+      "size": 2428,
+      "date": 133527638092473832
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_A32X_Wing.fx",
+      "size": 1292,
+      "date": 133527638092723890
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_BeaconBelly.fx",
+      "size": 1227,
+      "date": 133527638096023602
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_BeaconTop.fx",
+      "size": 1229,
+      "date": 133527638096203645
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Landing.fx",
+      "size": 1281,
+      "date": 133527638096323673
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Logo.fx",
+      "size": 1278,
+      "date": 133527638096463705
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638096573730
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Navred.fx",
+      "size": 2362,
+      "date": 133527638096713768
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638096833788
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_StrobeL.fx",
+      "size": 1230,
+      "date": 133527638096963819
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_StrobeR.fx",
+      "size": 1232,
+      "date": 133527638097083840
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_StrobeTail.fx",
+      "size": 1230,
+      "date": 133527638097223877
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Taxi.fx",
+      "size": 2427,
+      "date": 133527638097353906
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B732_Wing.fx",
+      "size": 1292,
+      "date": 133527638097471917
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_BeaconBelly.fx",
+      "size": 1229,
+      "date": 133527638097591945
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_BeaconTop.fx",
+      "size": 1229,
+      "date": 133527638097721970
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Landing.fx",
+      "size": 1281,
+      "date": 133527638097842006
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Logo.fx",
+      "size": 1279,
+      "date": 133527638097972030
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638098092060
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Navred.fx",
+      "size": 2362,
+      "date": 133527638098222092
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638098342117
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_StrobeL.fx",
+      "size": 1230,
+      "date": 133527638098502151
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_StrobeR.fx",
+      "size": 1232,
+      "date": 133527638098672190
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_StrobeTail.fx",
+      "size": 1230,
+      "date": 133527638098822223
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Taxi.fx",
+      "size": 2427,
+      "date": 133527638099002264
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737CL_Wing.fx",
+      "size": 1292,
+      "date": 133527638099162997
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_BeaconBelly.fx",
+      "size": 1229,
+      "date": 133527638099303027
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_BeaconTop.fx",
+      "size": 1229,
+      "date": 133527638099453054
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Landing.fx",
+      "size": 1280,
+      "date": 133527638099573083
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Logo.fx",
+      "size": 1279,
+      "date": 133527638099716034
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638099856072
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Navred.fx",
+      "size": 2362,
+      "date": 133527638099996099
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638100136130
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_StrobeL.fx",
+      "size": 1232,
+      "date": 133527638100586228
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_StrobeR.fx",
+      "size": 1234,
+      "date": 133527638100946311
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_StrobeTail.fx",
+      "size": 1230,
+      "date": 133527638101067121
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Taxi.fx",
+      "size": 2427,
+      "date": 133527638101197151
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B737NG_Wing.fx",
+      "size": 1292,
+      "date": 133527638101327188
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_BeaconBelly.fx",
+      "size": 1233,
+      "date": 133527638101467220
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_BeaconTop.fx",
+      "size": 1233,
+      "date": 133527638101597253
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Landing.fx",
+      "size": 1281,
+      "date": 133527638101747285
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_LandingL.fx",
+      "size": 1285,
+      "date": 133527638101870540
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_LandingR.fx",
+      "size": 1283,
+      "date": 133527638102010571
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Logo.fx",
+      "size": 1278,
+      "date": 133527638102130601
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Navgreen.fx",
+      "size": 2363,
+      "date": 133527638102270629
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Navred.fx",
+      "size": 2359,
+      "date": 133527638102380655
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638102520688
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_StrobeL.fx",
+      "size": 1230,
+      "date": 133527638102650717
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_StrobeR.fx",
+      "size": 1232,
+      "date": 133527638102780746
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Taxi.fx",
+      "size": 2428,
+      "date": 133527638102910777
+    },
+    {
+      "path": "Effects/LIGHT_FAIB_B767_Wing.fx",
+      "size": 1293,
+      "date": 133527638103050811
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638103180839
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638103310864
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Landing.fx",
+      "size": 1277,
+      "date": 133527638103430894
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638103570923
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Navred.fx",
+      "size": 1227,
+      "date": 133527638103690953
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638103830982
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Strobe.fx",
+      "size": 1230,
+      "date": 133527638103951007
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BAe125_Taxi.fx",
+      "size": 1277,
+      "date": 133527638104099596
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638105508222
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638105648259
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Landing.fx",
+      "size": 1285,
+      "date": 133527638105788288
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638105928326
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Navred.fx",
+      "size": 1227,
+      "date": 133527638106068344
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638106228382
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Strobe.fx",
+      "size": 1230,
+      "date": 133527638106588461
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft99_Taxi.fx",
+      "size": 1281,
+      "date": 133527638106958551
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_BeaconBelly.fx",
+      "size": 1289,
+      "date": 133527638104239624
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638104399664
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Landing.fx",
+      "size": 1281,
+      "date": 133527638104529690
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Logo.fx",
+      "size": 1274,
+      "date": 133527638104678030
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638104828069
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Navred.fx",
+      "size": 1227,
+      "date": 133527638104958099
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638105108132
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Strobe.fx",
+      "size": 1230,
+      "date": 133527638105238165
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechcraft_Taxi.fx",
+      "size": 1281,
+      "date": 133527638105378192
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638107098581
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638107268624
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Landing.fx",
+      "size": 1281,
+      "date": 133527638107418658
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Logo.fx",
+      "size": 1275,
+      "date": 133527638107568691
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638107708731
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Navred.fx",
+      "size": 1227,
+      "date": 133527638107858752
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638107988784
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Strobe.fx",
+      "size": 1232,
+      "date": 133527638108138818
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Taxi.fx",
+      "size": 1281,
+      "date": 133527638108258841
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Beechjet_Wing.fx",
+      "size": 1293,
+      "date": 133527638108408879
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638108542725
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Landing.fx",
+      "size": 1281,
+      "date": 133527638108682765
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638108812792
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Navred.fx",
+      "size": 1227,
+      "date": 133527638108962825
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638109112863
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Strobe.fx",
+      "size": 1232,
+      "date": 133527638109252893
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_BN2_Taxi.fx",
+      "size": 1281,
+      "date": 133527638109392917
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638109814784
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638109954807
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Landing.fx",
+      "size": 1281,
+      "date": 133527638110094844
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638110234876
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Navred.fx",
+      "size": 1227,
+      "date": 133527638110374908
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638110514932
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Strobe.fx",
+      "size": 1230,
+      "date": 133527638110654975
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C208B_Taxi.fx",
+      "size": 1281,
+      "date": 133527638110795002
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_BeaconBelly.fx",
+      "size": 1280,
+      "date": 133527638112295340
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638112715442
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Landing.fx",
+      "size": 1281,
+      "date": 133527638113025507
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638113185546
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Navred.fx",
+      "size": 1227,
+      "date": 133527638113355578
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638113525620
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Strobe.fx",
+      "size": 1232,
+      "date": 133527638113675655
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna400_Taxi.fx",
+      "size": 1281,
+      "date": 133527638113815688
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638110935033
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638111065062
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Landing.fx",
+      "size": 1281,
+      "date": 133527638111205094
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638111355137
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Navred.fx",
+      "size": 1226,
+      "date": 133527638111505167
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638111665210
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Strobe.fx",
+      "size": 1230,
+      "date": 133527638111795238
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Cessna_Taxi.fx",
+      "size": 1281,
+      "date": 133527638111955271
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638113965722
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638114105747
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Landing.fx",
+      "size": 1281,
+      "date": 133527638114245784
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638114385814
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Navred.fx",
+      "size": 1227,
+      "date": 133527638114535848
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638114695886
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Strobe.fx",
+      "size": 1230,
+      "date": 133527638114855928
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_DHC6_Taxi.fx",
+      "size": 1281,
+      "date": 133527638115025963
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638115175996
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638115346035
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_G-V_BeaconBelly.fx",
+      "size": 1273,
+      "date": 133527638115506062
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Landing.fx",
+      "size": 1281,
+      "date": 133527638115656102
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Logo.fx",
+      "size": 1275,
+      "date": 133527638115816138
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638115956172
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Navred.fx",
+      "size": 1227,
+      "date": 133527638116096204
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638116246232
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Strobe.fx",
+      "size": 1232,
+      "date": 133527638116386267
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Taxi.fx",
+      "size": 1281,
+      "date": 133527638116536302
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Gulfstream_Wing.fx",
+      "size": 1293,
+      "date": 133527638116686335
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638116836372
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638116986402
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Landing.fx",
+      "size": 1280,
+      "date": 133527638117126434
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Landing2.fx",
+      "size": 1281,
+      "date": 133527638117276470
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638117456513
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Navred.fx",
+      "size": 1227,
+      "date": 133527638117596535
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638117766581
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Strobe.fx",
+      "size": 1232,
+      "date": 133527638117906610
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Taxi.fx",
+      "size": 1280,
+      "date": 133527638118056642
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_IAI_Westwind_Wing.fx",
+      "size": 1293,
+      "date": 133527638118196685
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_BeaconBelly.fx",
+      "size": 1286,
+      "date": 133527638119998873
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638120148908
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Landing.fx",
+      "size": 1281,
+      "date": 133527638120289008
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638120435482
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Navred.fx",
+      "size": 1227,
+      "date": 133527638120585517
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638120725551
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Strobe.fx",
+      "size": 1230,
+      "date": 133527638120875583
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir200_Taxi.fx",
+      "size": 1281,
+      "date": 133527638121035616
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_BeaconBelly.fx",
+      "size": 1278,
+      "date": 133527638118586763
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638118846832
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Landing.fx",
+      "size": 1281,
+      "date": 133527638119096889
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638119240728
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Navred.fx",
+      "size": 1227,
+      "date": 133527638119410759
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638119549452
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Strobe.fx",
+      "size": 1230,
+      "date": 133527638119699490
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_KingAir90_Taxi.fx",
+      "size": 1281,
+      "date": 133527638119848838
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638121175650
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638121325685
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Landing.fx",
+      "size": 1280,
+      "date": 133527638121475716
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638121635756
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Navred.fx",
+      "size": 1227,
+      "date": 133527638121776611
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638121936647
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Strobe.fx",
+      "size": 1230,
+      "date": 133527638122076681
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_L100_Taxi.fx",
+      "size": 1280,
+      "date": 133527638122226714
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_BeaconBelly.fx",
+      "size": 1272,
+      "date": 133527638122386746
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638122536782
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Landing.fx",
+      "size": 1280,
+      "date": 133527638122696820
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Landing2.fx",
+      "size": 1281,
+      "date": 133527638122845769
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Logo.fx",
+      "size": 1275,
+      "date": 133527638122993756
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638123163800
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Navred.fx",
+      "size": 1227,
+      "date": 133527638123313834
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638123473867
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Strobe.fx",
+      "size": 1232,
+      "date": 133527638123633910
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Taxi.fx",
+      "size": 1280,
+      "date": 133527638123783939
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_Learjet_Wing.fx",
+      "size": 1293,
+      "date": 133527638123943972
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638124354068
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638124756325
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Landing.fx",
+      "size": 1281,
+      "date": 133527638124906364
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Logo.fx",
+      "size": 1283,
+      "date": 133527638125066394
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638125216427
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Navred.fx",
+      "size": 1227,
+      "date": 133527638125376470
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638125526491
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Strobe.fx",
+      "size": 1231,
+      "date": 133527638125706543
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Taxi.fx",
+      "size": 1281,
+      "date": 133527638125856575
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL60_Wing.fx",
+      "size": 1292,
+      "date": 133527638126016609
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638126176653
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638126326680
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Landing.fx",
+      "size": 1282,
+      "date": 133527638126486722
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Logo.fx",
+      "size": 1283,
+      "date": 133527638126636750
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638126806791
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Navred.fx",
+      "size": 1227,
+      "date": 133527638126956826
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638127126861
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Strobe.fx",
+      "size": 1231,
+      "date": 133527638127276896
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Taxi.fx",
+      "size": 1281,
+      "date": 133527638127426931
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_CL650_Wing.fx",
+      "size": 1293,
+      "date": 133527638127596970
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_BeaconBelly.fx",
+      "size": 1280,
+      "date": 133527638127767016
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638127917039
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Landing.fx",
+      "size": 1281,
+      "date": 133527638128087081
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Logo.fx",
+      "size": 1279,
+      "date": 133527638128236246
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638128396277
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Navred.fx",
+      "size": 1227,
+      "date": 133527638128546314
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638128706347
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Strobe.fx",
+      "size": 1235,
+      "date": 133527638128862876
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_D328_Taxi.fx",
+      "size": 1281,
+      "date": 133527638129022915
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638129172954
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638129342991
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Landing.fx",
+      "size": 1280,
+      "date": 133527638129513028
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Landing2.fx",
+      "size": 1281,
+      "date": 133527638129693076
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Logo.fx",
+      "size": 1277,
+      "date": 133527638129853111
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638130029234
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Navred.fx",
+      "size": 1227,
+      "date": 133527638130439338
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638130819415
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Strobe.fx",
+      "size": 1232,
+      "date": 133527638130979456
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Taxi.fx",
+      "size": 1280,
+      "date": 133527638131144708
+    },
+    {
+      "path": "Effects/LIGHT_JBAI_Learjet_Wing.fx",
+      "size": 1293,
+      "date": 133527638131304744
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638131465743
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638131645786
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Landing.fx",
+      "size": 1280,
+      "date": 133527638131869691
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Logo.fx",
+      "size": 1277,
+      "date": 133527638132139760
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638132399823
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Navred.fx",
+      "size": 1227,
+      "date": 133527638132669879
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638132939941
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Strobe.fx",
+      "size": 1232,
+      "date": 133527638133179999
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Taxi.fx",
+      "size": 1280,
+      "date": 133527638133380042
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_Challenger_Wing.fx",
+      "size": 1293,
+      "date": 133527638133570078
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_BeaconBelly.fx",
+      "size": 1286,
+      "date": 133527638133760126
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Landing.fx",
+      "size": 1280,
+      "date": 133527638133930169
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Logo.fx",
+      "size": 1277,
+      "date": 133527638134095064
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Navgreen.fx",
+      "size": 1232,
+      "date": 133527638134265113
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Navred.fx",
+      "size": 1226,
+      "date": 133527638134435147
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638134595179
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Strobe.fx",
+      "size": 1232,
+      "date": 133527638134775223
+    },
+    {
+      "path": "Effects/LIGHT_KCAI_GulfstreamG650_Taxi.fx",
+      "size": 1280,
+      "date": 133527638134968828
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638135178873
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638135388913
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Landing.fx",
+      "size": 1280,
+      "date": 133527638135598967
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638135809013
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Navred.fx",
+      "size": 1227,
+      "date": 133527638136069074
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638136489169
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Strobe.fx",
+      "size": 1232,
+      "date": 133527638136809241
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Taxi.fx",
+      "size": 1281,
+      "date": 133527638136989280
+    },
+    {
+      "path": "Effects/LIGHT_MRAI_A306ST_Wing.fx",
+      "size": 1293,
+      "date": 133527638137179323
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638137361166
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638137551213
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Landing.fx",
+      "size": 1281,
+      "date": 133527638137731247
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Logo.fx",
+      "size": 1276,
+      "date": 133527638137916321
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638138096358
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Navred.fx",
+      "size": 1227,
+      "date": 133527638138273223
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638138453270
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Strobe.fx",
+      "size": 1235,
+      "date": 133527638138633316
+    },
+    {
+      "path": "Effects/LIGHT_NAAI_Fokker50_Taxi.fx",
+      "size": 1281,
+      "date": 133527638138803348
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_BeaconBelly.fx",
+      "size": 1290,
+      "date": 133527638138983391
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638139153431
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Landing.fx",
+      "size": 1281,
+      "date": 133527638139329848
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Logo.fx",
+      "size": 1276,
+      "date": 133527638139519894
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638139706278
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Navred.fx",
+      "size": 1227,
+      "date": 133527638139903415
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638140085458
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Strobe.fx",
+      "size": 1235,
+      "date": 133527638140265496
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Taxi.fx",
+      "size": 1281,
+      "date": 133527638140445529
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR42_Wing.fx",
+      "size": 1291,
+      "date": 133527638140625570
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_BeaconBelly.fx",
+      "size": 1290,
+      "date": 133527638140800187
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_BeaconTop.fx",
+      "size": 1232,
+      "date": 133527638140981092
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Landing.fx",
+      "size": 1281,
+      "date": 133527638141171133
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Logo.fx",
+      "size": 1276,
+      "date": 133527638141351167
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638141541207
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Navred.fx",
+      "size": 1227,
+      "date": 133527638141751258
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638141941327
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Strobe.fx",
+      "size": 1235,
+      "date": 133527638142391433
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Taxi.fx",
+      "size": 1281,
+      "date": 133527638142751517
+    },
+    {
+      "path": "Effects/LIGHT_OSP_ATR72_Wing.fx",
+      "size": 1291,
+      "date": 133527638142931580
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638143141627
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638143331670
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Landing.fx",
+      "size": 1281,
+      "date": 133527638143507058
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Logo.fx",
+      "size": 1282,
+      "date": 133527638143752350
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638143948676
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Navred.fx",
+      "size": 1227,
+      "date": 133527638144124986
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638144302117
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Strobe.fx",
+      "size": 1231,
+      "date": 133527638144482166
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Strobe2.fx",
+      "size": 1233,
+      "date": 133527638144662206
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Taxi.fx",
+      "size": 1281,
+      "date": 133527638144852247
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ200_Wing.fx",
+      "size": 1292,
+      "date": 133527638145044270
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638145224311
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638145414361
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Landing.fx",
+      "size": 1282,
+      "date": 133527638145594402
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Logo.fx",
+      "size": 1282,
+      "date": 133527638145784444
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638145984488
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Navred.fx",
+      "size": 1227,
+      "date": 133527638146174525
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638146364575
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Strobe.fx",
+      "size": 1231,
+      "date": 133527638146554611
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Strobe2.fx",
+      "size": 1233,
+      "date": 133527638146734654
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Taxi.fx",
+      "size": 1281,
+      "date": 133527638146924698
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_CRJ700_Wing.fx",
+      "size": 1293,
+      "date": 133527638147154745
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638147364794
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638147574839
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Landing.fx",
+      "size": 1281,
+      "date": 133527638147784894
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_LandingNose.fx",
+      "size": 1281,
+      "date": 133527638148254994
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Logo.fx",
+      "size": 1283,
+      "date": 133527638148675089
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Navgreen.fx",
+      "size": 1234,
+      "date": 133527638148865143
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Navred.fx",
+      "size": 1227,
+      "date": 133527638149065180
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638149252996
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Strobe.fx",
+      "size": 1235,
+      "date": 133527638149443038
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Taxi.fx",
+      "size": 1285,
+      "date": 133527638149623081
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XNW_Wing.fx",
+      "size": 1293,
+      "date": 133527638149813121
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638150007468
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638150207516
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Landing.fx",
+      "size": 1281,
+      "date": 133527638150397554
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_LandingNose.fx",
+      "size": 1281,
+      "date": 133527638150577600
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Logo.fx",
+      "size": 1283,
+      "date": 133527638150777637
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638150957687
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Navred.fx",
+      "size": 1227,
+      "date": 133527638151157730
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638151342118
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Strobe.fx",
+      "size": 1233,
+      "date": 133527638151534183
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Taxi.fx",
+      "size": 1285,
+      "date": 133527638151727268
+    },
+    {
+      "path": "Effects/LIGHT_RFSL_ERJ17XOW_Wing.fx",
+      "size": 1293,
+      "date": 133527638151927313
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638152127360
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638152329716
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Landing.fx",
+      "size": 1281,
+      "date": 133527638152529766
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Logo.fx",
+      "size": 1277,
+      "date": 133527638152719810
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Navgreen.fx",
+      "size": 1234,
+      "date": 133527638152919862
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Navred.fx",
+      "size": 1227,
+      "date": 133527638153129900
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638153339956
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Strobe.fx",
+      "size": 1232,
+      "date": 133527638153540002
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Strobe2.fx",
+      "size": 1232,
+      "date": 133527638153730044
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Taxi.fx",
+      "size": 1281,
+      "date": 133527638154180141
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_A220_Wing.fx",
+      "size": 1293,
+      "date": 133527638154600229
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638154790280
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638154990321
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Landing.fx",
+      "size": 1280,
+      "date": 133527638155187322
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638155377364
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Navred.fx",
+      "size": 1227,
+      "date": 133527638155577416
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638155767456
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Strobe.fx",
+      "size": 1232,
+      "date": 133527638155963937
+    },
+    {
+      "path": "Effects/LIGHT_SBAI_Beechcraft-Premier1A_Taxi.fx",
+      "size": 1280,
+      "date": 133527638156153973
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638156354022
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638156554069
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Landing.fx",
+      "size": 1281,
+      "date": 133527638156744114
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638156944192
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Navred.fx",
+      "size": 1227,
+      "date": 133527638157134235
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638157327503
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Strobe.fx",
+      "size": 1232,
+      "date": 133527638157530354
+    },
+    {
+      "path": "Effects/LIGHT_SGAI_Dassault_Falcon20_Taxi.fx",
+      "size": 1281,
+      "date": 133527638157726670
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638159417637
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638159707704
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Landing.fx",
+      "size": 1285,
+      "date": 133527638160804980
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638161124200
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Navred.fx",
+      "size": 1227,
+      "date": 133527638161444273
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638161724342
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Strobe.fx",
+      "size": 1230,
+      "date": 133527638161974396
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft99_Taxi.fx",
+      "size": 1281,
+      "date": 133527638162254452
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638157922266
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Landing.fx",
+      "size": 1281,
+      "date": 133527638158127493
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638158317589
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Navred.fx",
+      "size": 1227,
+      "date": 133527638158517704
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638158707448
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Strobe.fx",
+      "size": 1232,
+      "date": 133527638158907523
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Beechcraft_Taxi.fx",
+      "size": 1281,
+      "date": 133527638159147573
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638162501024
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Landing.fx",
+      "size": 1281,
+      "date": 133527638162741076
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638162964178
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Navred.fx",
+      "size": 1227,
+      "date": 133527638163214237
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638163454289
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Strobe.fx",
+      "size": 1232,
+      "date": 133527638163688337
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cessna_Taxi.fx",
+      "size": 1281,
+      "date": 133527638163917864
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Landing.fx",
+      "size": 1281,
+      "date": 133527638164187922
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638164457985
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Navred.fx",
+      "size": 1227,
+      "date": 133527638164708043
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638164938100
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Strobe.fx",
+      "size": 1232,
+      "date": 133527638165145286
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Cirrus_Taxi.fx",
+      "size": 1281,
+      "date": 133527638165357725
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638165567774
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Landing.fx",
+      "size": 1280,
+      "date": 133527638165767820
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638166237926
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Navred.fx",
+      "size": 1227,
+      "date": 133527638166577997
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638166768044
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Strobe.fx",
+      "size": 2384,
+      "date": 133527638166978088
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_CitationXLS_Taxi.fx",
+      "size": 1281,
+      "date": 133527638167188136
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638167398067
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Landing.fx",
+      "size": 1281,
+      "date": 133527638167648127
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638167878181
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Navred.fx",
+      "size": 1227,
+      "date": 133527638168108935
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638168359004
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Strobe.fx",
+      "size": 1230,
+      "date": 133527638168632965
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Commander-690_Taxi.fx",
+      "size": 1281,
+      "date": 133527638168914192
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_BeaconBelly.fx",
+      "size": 1281,
+      "date": 133527638169184254
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638169444314
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Landing.fx",
+      "size": 1281,
+      "date": 133527638169696924
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638169931300
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Navred.fx",
+      "size": 1227,
+      "date": 133527638170181357
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638170421417
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Strobe.fx",
+      "size": 1232,
+      "date": 133527638170651467
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Metroliner_Taxi.fx",
+      "size": 1281,
+      "date": 133527638170871518
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638171081560
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638171291620
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Landing.fx",
+      "size": 1281,
+      "date": 133527638171501665
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638171981771
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Navred.fx",
+      "size": 1227,
+      "date": 133527638172441869
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638172731937
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Strobe.fx",
+      "size": 1232,
+      "date": 133527638172941985
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mitsubishi_Taxi.fx",
+      "size": 1281,
+      "date": 133527638173156016
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638173358803
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Landing.fx",
+      "size": 1281,
+      "date": 133527638173578852
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638173788900
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Navred.fx",
+      "size": 1227,
+      "date": 133527638173998949
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638174213187
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Strobe.fx",
+      "size": 1232,
+      "date": 133527638174437661
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Mooney-M20K_Taxi.fx",
+      "size": 1281,
+      "date": 133527638174657719
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638174857757
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Landing.fx",
+      "size": 1281,
+      "date": 133527638175077803
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638175286248
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Navred.fx",
+      "size": 1227,
+      "date": 133527638175506246
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638175726308
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Pulse1.fx",
+      "size": 1343,
+      "date": 133527638175936344
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Pulse2.fx",
+      "size": 1339,
+      "date": 133527638176146397
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Strobe.fx",
+      "size": 1232,
+      "date": 133527638176416453
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_Piper_Taxi.fx",
+      "size": 1281,
+      "date": 133527638176656518
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_BeaconBelly.fx",
+      "size": 1280,
+      "date": 133527638176876566
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638177106609
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Landing.fx",
+      "size": 1281,
+      "date": 133527638177326666
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638177826776
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Navred.fx",
+      "size": 1227,
+      "date": 133527638178326888
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638178606953
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Strobe.fx",
+      "size": 1232,
+      "date": 133527638178907017
+    },
+    {
+      "path": "Effects/LIGHT_TBAI_QueenAir_Taxi.fx",
+      "size": 1281,
+      "date": 133527638179197087
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638179457140
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638179757207
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Landing.fx",
+      "size": 1280,
+      "date": 133527638180077281
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Logo.fx",
+      "size": 1275,
+      "date": 133527638180312336
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638180564487
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Navred.fx",
+      "size": 1227,
+      "date": 133527638180784534
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638181034595
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Strobe.fx",
+      "size": 1232,
+      "date": 133527638181289152
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Taxi.fx",
+      "size": 1281,
+      "date": 133527638181519215
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A300_Wing.fx",
+      "size": 1293,
+      "date": 133527638181769260
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638181989310
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638182229363
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Landing.fx",
+      "size": 1280,
+      "date": 133527638182446632
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Landing2.fx",
+      "size": 1278,
+      "date": 133527638182676693
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Logo.fx",
+      "size": 1276,
+      "date": 133527638182906744
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Navgreen.fx",
+      "size": 1230,
+      "date": 133527638183136791
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Navred.fx",
+      "size": 1227,
+      "date": 133527638183646914
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638184107020
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Strobe.fx",
+      "size": 1232,
+      "date": 133527638184338926
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Taxi1.fx",
+      "size": 1281,
+      "date": 133527638184588975
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Taxi2.fx",
+      "size": 1278,
+      "date": 133527638184839042
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A310_Wing.fx",
+      "size": 1293,
+      "date": 133527638185079091
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638185309141
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638185556211
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Engine.fx",
+      "size": 1294,
+      "date": 133527638185796267
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Landing.fx",
+      "size": 1281,
+      "date": 133527638186036318
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Logo.fx",
+      "size": 1279,
+      "date": 133527638186276372
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638186526436
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Navred.fx",
+      "size": 1225,
+      "date": 133527638186756482
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Navwhi.fx",
+      "size": 1355,
+      "date": 133527638186996537
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Strobe1.fx",
+      "size": 1232,
+      "date": 133527638187236593
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Strobe2.fx",
+      "size": 2529,
+      "date": 133527638187496652
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Taxi1.fx",
+      "size": 1284,
+      "date": 133527638187737202
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Taxi2.fx",
+      "size": 1282,
+      "date": 133527638187980900
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A340_Wing.fx",
+      "size": 1294,
+      "date": 133527638188220961
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638188451010
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638188711067
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Engine.fx",
+      "size": 1292,
+      "date": 133527638188941120
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Landing.fx",
+      "size": 1281,
+      "date": 133527638189181173
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Logo.fx",
+      "size": 1279,
+      "date": 133527638189741309
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638190181399
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Navred.fx",
+      "size": 1226,
+      "date": 133527638190469959
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Navwhi.fx",
+      "size": 1351,
+      "date": 133527638190790035
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Strobe1.fx",
+      "size": 1229,
+      "date": 133527638191098350
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Strobe2.fx",
+      "size": 2518,
+      "date": 133527638191418420
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638191798508
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Taxi2.fx",
+      "size": 1277,
+      "date": 133527638192168584
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Taxi3.fx",
+      "size": 1280,
+      "date": 133527638192618692
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Taxi4.fx",
+      "size": 1278,
+      "date": 133527638193028777
+    },
+    {
+      "path": "Effects/LIGHT_TFS_A380_Wing.fx",
+      "size": 1293,
+      "date": 133527638193458882
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638193848971
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638194199841
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Landing.fx",
+      "size": 1281,
+      "date": 133527638194519920
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Logo.fx",
+      "size": 1279,
+      "date": 133527638194829992
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638195120053
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Navred.fx",
+      "size": 1226,
+      "date": 133527638195526228
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Navwhi.fx",
+      "size": 1352,
+      "date": 133527638196013327
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Strobe.fx",
+      "size": 1230,
+      "date": 133527638196243369
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638196483426
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Taxi2.fx",
+      "size": 1280,
+      "date": 133527638196713479
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B772_Wing.fx",
+      "size": 1293,
+      "date": 133527638196953530
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638197173606
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638197407412
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Landing.fx",
+      "size": 1281,
+      "date": 133527638197637464
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Logo.fx",
+      "size": 1279,
+      "date": 133527638197867094
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638198097172
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Navred.fx",
+      "size": 1226,
+      "date": 133527638198317224
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Navwhi.fx",
+      "size": 1352,
+      "date": 133527638198547279
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Strobe.fx",
+      "size": 1230,
+      "date": 133527638198787163
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638199015888
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Taxi2.fx",
+      "size": 1280,
+      "date": 133527638199255938
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Taxi4.fx",
+      "size": 1277,
+      "date": 133527638199505997
+    },
+    {
+      "path": "Effects/LIGHT_TFS_B773_Wing.fx",
+      "size": 1293,
+      "date": 133527638199736049
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab2000_Logo.fx",
+      "size": 1275,
+      "date": 133527638203226068
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab340_Logo.fx",
+      "size": 1275,
+      "date": 133527638202956023
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_BeaconBelly.fx",
+      "size": 1282,
+      "date": 133527638199976106
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_BeaconTop.fx",
+      "size": 1226,
+      "date": 133527638200207849
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Landing.fx",
+      "size": 1281,
+      "date": 133527638200467912
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Navgreen.fx",
+      "size": 2362,
+      "date": 133527638200840314
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Navred.fx",
+      "size": 2362,
+      "date": 133527638201155612
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638201825752
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Strobe.fx",
+      "size": 1229,
+      "date": 133527638202205843
+    },
+    {
+      "path": "Effects/LIGHT_TFS_Saab_Taxi.fx",
+      "size": 1281,
+      "date": 133527638202485905
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638203466125
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_BeaconTop.fx",
+      "size": 1224,
+      "date": 133527638203716185
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Landing.fx",
+      "size": 1281,
+      "date": 133527638203946237
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Logo.fx",
+      "size": 1279,
+      "date": 133527638204176286
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Navgreen.fx",
+      "size": 1224,
+      "date": 133527638204416345
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Navred.fx",
+      "size": 1224,
+      "date": 133527638204836435
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Navwhi.fx",
+      "size": 1352,
+      "date": 133527638205236527
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Strobe1.fx",
+      "size": 1230,
+      "date": 133527638205586609
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Strobe2.fx",
+      "size": 1230,
+      "date": 133527638205896676
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638206166737
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Taxi2.fx",
+      "size": 1280,
+      "date": 133527638206446803
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Taxi3.fx",
+      "size": 1279,
+      "date": 133527638206696870
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Taxi4.fx",
+      "size": 1276,
+      "date": 133527638206986932
+    },
+    {
+      "path": "Effects/LIGHT_UTT_A350_Wing.fx",
+      "size": 1293,
+      "date": 133527638207397012
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_BeaconBelly.fx",
+      "size": 1283,
+      "date": 133527638207857122
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_BeaconTop.fx",
+      "size": 1223,
+      "date": 133527638208100728
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Landing.fx",
+      "size": 1281,
+      "date": 133527638208340775
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Logo.fx",
+      "size": 1279,
+      "date": 133527638208590827
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Navgreen.fx",
+      "size": 1226,
+      "date": 133527638208870893
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Navred.fx",
+      "size": 1226,
+      "date": 133527638209110942
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Navwhi.fx",
+      "size": 1353,
+      "date": 133527638209350995
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Strobe.fx",
+      "size": 1231,
+      "date": 133527638209591045
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Taxi1.fx",
+      "size": 1280,
+      "date": 133527638209831156
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Taxi2.fx",
+      "size": 1280,
+      "date": 133527638210161231
+    },
+    {
+      "path": "Effects/LIGHT_UTT_B787_Wing.fx",
+      "size": 1293,
+      "date": 133527638210401272
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_BeaconBelly.fx",
+      "size": 1284,
+      "date": 133527638210711343
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_BeaconTop.fx",
+      "size": 1228,
+      "date": 133527638210971401
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Landing.fx",
+      "size": 1280,
+      "date": 133527638211211456
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Logo.fx",
+      "size": 1276,
+      "date": 133527638211451513
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Navgreen.fx",
+      "size": 1234,
+      "date": 133527638211721573
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Navred.fx",
+      "size": 1227,
+      "date": 133527638211981635
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Navwhi.fx",
+      "size": 1346,
+      "date": 133527638212241694
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Strobe.fx",
+      "size": 1232,
+      "date": 133527638212501748
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Strobe2.fx",
+      "size": 1232,
+      "date": 133527638212781810
+    },
+    {
+      "path": "Effects/LIGHT_UTT_SSJ100_Taxi.fx",
+      "size": 1281,
+      "date": 133527638213071877
+    },
+    {
+      "path": "Effects/texture/AIG_FX.PNG.DDS",
+      "size": 1398256,
+      "date": 133277314039950311
+    },
+    {
+      "path": "Effects/texture/AIG_FX.PNG.DDS.json",
+      "size": 119,
+      "date": 133277314039950311
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/apu-exhaust-heat.spb",
+      "size": 2342,
+      "date": 133534589339705129
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/contrail-ribbon.spb",
+      "size": 2870,
+      "date": 133534589339645121
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/contrail.spb",
+      "size": 2682,
+      "date": 133534589339785142
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/engine-smoke_cold-start.spb",
+      "size": 3058,
+      "date": 133534589339625110
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/jetheat.spb",
+      "size": 3210,
+      "date": 133534589339675125
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/reverser-spray.spb",
+      "size": 4019,
+      "date": 133534589339895167
+    },
+    {
+      "path": "VisualEffectLibs/aig/aircraft-effects/VisualEffectLibrary.xml",
+      "size": 295,
+      "date": 133534589339895167
+    }
+  ]
+}

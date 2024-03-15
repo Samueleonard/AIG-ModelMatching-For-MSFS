@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="65" ModelFile="AIG_Embraer_ERJ-135-SAPU_LOD0.gltf"/>
+		<LOD minSize="15" ModelFile="AIG_Embraer_ERJ-135_LOD1.gltf"/>
+		<LOD minSize="1" ModelFile="AIG_Embraer_ERJ-135_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Embraer_ERJ-135_LOD3.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Embraer_ERJ.xml"/>
+	
+	<Component ID="AIG_Embraer_ERJ_Templates">
+		<UseTemplate Name="AIG_Embraer_ERJ_Common"/>
+		<UseTemplate Name="AIG_Embraer_ERJ_Reverse_Thrust"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,324 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+
+<Template Name="AIG_Boeing_787_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template"/>
+		<UseTemplate Name="AIG_Gear_Right_Template"/>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>C_Tire</ANIM_NAME>
+			<WHEEL_ID>0</WHEEL_ID>
+			<RATE>10</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>L_Tire</ANIM_NAME>
+			<WHEEL_ID>1</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Wheel_Animation">
+			<ANIM_NAME>R_Tire</ANIM_NAME>
+			<WHEEL_ID>2</WHEEL_ID>
+			<RATE>7</RATE>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>50</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust">
+			<ANIM_NAME>Reverse_Thrust</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Rudder">
+		<UseTemplate Name="AIG_Rudder_Deflection">
+			<ANIM_NAME>Rudder</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Ducts">
+		<UseTemplate Name="B787_Ducts">
+			<ANIM_NAME>Ducts</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wingflex">
+		<Component ID="Wing_L">
+			<UseTemplate Name="AIG_Wingflex">
+				<ANIM_NAME>Wingflex_L</ANIM_NAME>
+				<WING_ID>1</WING_ID>
+				<INTERVAL1>1.2</INTERVAL1>
+				<INTERVAL2>1.8</INTERVAL2>
+			</UseTemplate>
+		</Component>
+		<Component ID="Wing_R">
+			<UseTemplate Name="AIG_Wingflex">
+				<ANIM_NAME>Wingflex_R</ANIM_NAME>
+				<WING_ID>2</WING_ID>
+				<INTERVAL1>1.22</INTERVAL1>
+				<INTERVAL2>1.77</INTERVAL2>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="ControlSurfaceDroop">
+		<UseTemplate Name="AIG_ControlSurfacesDroop">
+			<ANIM_NAME>elevator</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Aileron">
+		<Component ID="Aileron_L">
+			<UseTemplate Name="B787_Aileron">
+				<ANIM_NAME>Aileron_L</ANIM_NAME>
+				<SIDE>LEFT</SIDE>
+				<SIGN></SIGN>
+			</UseTemplate>
+		</Component>
+		<Component ID="Aileron_R">
+			<UseTemplate Name="B787_Aileron">
+				<ANIM_NAME>Aileron_R</ANIM_NAME>
+				<SIDE>RIGHT</SIDE>
+				<SIGN>-</SIGN>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Spoilers">
+		<Component ID="Spoiler_L4">
+			<UseTemplate Name="B787_Spoiler_4">
+				<ANIM_NAME>Spoiler_L4</ANIM_NAME>
+				<SIDE>LEFT</SIDE>
+				<SIGN></SIGN>
+				<GEAR>1</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_R4">
+			<UseTemplate Name="B787_Spoiler_4">
+				<ANIM_NAME>Spoiler_R4</ANIM_NAME>
+				<SIDE>RIGHT</SIDE>
+				<SIGN>-</SIGN>
+				<GEAR>2</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_L3L5">
+			<UseTemplate Name="B787_Spoiler_35">
+				<ANIM_NAME>Spoiler_L3L5</ANIM_NAME>
+				<SIDE>LEFT</SIDE>
+				<SIGN></SIGN>
+				<GEAR>1</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_R3R5">
+			<UseTemplate Name="B787_Spoiler_35">
+				<ANIM_NAME>Spoiler_R3R5</ANIM_NAME>
+				<SIDE>RIGHT</SIDE>
+				<SIGN>-</SIGN>
+				<GEAR>2</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_L2">
+			<UseTemplate Name="B787_Spoiler_2">
+				<ANIM_NAME>Spoiler_L2</ANIM_NAME>
+				<SIDE>LEFT</SIDE>
+				<SIGN></SIGN>
+				<GEAR>1</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_R2">
+			<UseTemplate Name="B787_Spoiler_2">
+				<ANIM_NAME>Spoiler_R2</ANIM_NAME>
+				<SIDE>RIGHT</SIDE>
+				<SIGN>-</SIGN>
+				<GEAR>2</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_L1">
+			<UseTemplate Name="B787_Spoiler_1">
+				<ANIM_NAME>Spoiler_L1</ANIM_NAME>
+				<GEAR>1</GEAR>
+			</UseTemplate>
+		</Component>
+		<Component ID="Spoiler_R1">
+			<UseTemplate Name="B787_Spoiler_1">
+				<ANIM_NAME>Spoiler_R1</ANIM_NAME>
+				<GEAR>2</GEAR>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>Flaps</ANIM_NAME>
+			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>200</FLAP2_SPEED>
+			<FLAP2_DEGREES>71</FLAP2_DEGREES>
+			<FLAP3_SPEED>215</FLAP3_SPEED>
+			<FLAP3_DEGREES>43</FLAP3_DEGREES>
+			<FLAP4_SPEED>230</FLAP4_SPEED>
+			<FLAP4_DEGREES>14</FLAP4_DEGREES>
+			<FLAP5_SPEED>250</FLAP5_SPEED>
+			<FLAP5_DEGREES>3</FLAP5_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<ANIM_NAME>Slats</ANIM_NAME>
+			<SLAT_TO_DEGREES>83</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>180</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+			<SLAT2_SPEED>200</SLAT2_SPEED>
+			<SLAT2_DEGREES>71</SLAT2_DEGREES>
+			<SLAT3_SPEED>215</SLAT3_SPEED>
+			<SLAT3_DEGREES>50</SLAT3_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="B787_Flaperon">
+			<ANIM_NAME>Flaperon_L</ANIM_NAME>
+			<SIDE>LEFT</SIDE>
+			<SIGN></SIGN>
+			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>200</FLAP2_SPEED>
+			<FLAP2_DEGREES>71</FLAP2_DEGREES>
+			<FLAP3_SPEED>215</FLAP3_SPEED>
+			<FLAP3_DEGREES>43</FLAP3_DEGREES>
+			<FLAP4_SPEED>230</FLAP4_SPEED>
+			<FLAP4_DEGREES>14</FLAP4_DEGREES>
+			<FLAP5_SPEED>250</FLAP5_SPEED>
+			<FLAP5_DEGREES>3</FLAP5_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="B787_Flaperon">
+			<ANIM_NAME>Flaperon_R</ANIM_NAME>
+			<SIDE>RIGHT</SIDE>
+			<SIGN>-</SIGN>
+			<FLAP_TO_DEGREES>43</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>200</FLAP2_SPEED>
+			<FLAP2_DEGREES>71</FLAP2_DEGREES>
+			<FLAP3_SPEED>215</FLAP3_SPEED>
+			<FLAP3_DEGREES>43</FLAP3_DEGREES>
+			<FLAP4_SPEED>230</FLAP4_SPEED>
+			<FLAP4_DEGREES>14</FLAP4_DEGREES>
+			<FLAP5_SPEED>250</FLAP5_SPEED>
+			<FLAP5_DEGREES>3</FLAP5_DEGREES>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Jet">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>LIGHT_Logolight_l</NODE_ID>
+			<NODE_ID_2>LIGHT_Logolight_r</NODE_ID_2>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>LIGHT_landing_nose_left</NODE_ID>
+			<NODE_ID_2>LIGHT_landing_nose_right</NODE_ID_2>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
+		<UseTemplate Name="AIG_APU_Heat"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+	</Component>
+	
+</Template>
+
+<Template Name="AIG_Boeing_787_Cargo_Doors">
+	<Component ID="Cargo_Door">
+		<UseTemplate Name="AIG_Door_Animation">
+			<ANIM_NAME>cargo_door_forward</ANIM_NAME>
+			<ID>6</ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Door_Animation">
+			<ANIM_NAME>cargo_door_aft</ANIM_NAME>
+			<ID>5</ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="AIG_Boeing_787_GE_Visibility">
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>engine1_GE_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine1_GE_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>engine2_GE_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine2_GE_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+</Template>
+
+<Template Name="AIG_Boeing_787_RR_Visibility">
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>engine1_RR_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine1_RR_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>engine2_RR_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine2_RR_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+</Template>
+
+</ModelBehaviors>

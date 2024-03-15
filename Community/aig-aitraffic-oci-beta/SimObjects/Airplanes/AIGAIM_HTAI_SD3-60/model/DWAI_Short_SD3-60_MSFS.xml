@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="10" ModelFile="DWAI_Short_SD3-60_MSFS_LOD0.gltf"/>
+		<LOD minSize="5" ModelFile="DWAI_Short_SD3-60_MSFS_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="DWAI_Short_SD3-60_MSFS_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="DWAI_Short_SD3-60_MSFS_LOD1.gltf"/>
+	</LODS>
+
+<Behaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+
+	<Component ID="c_gear">
+		<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="l_gear">
+		<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="r_gear">
+		<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="tire_anim">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:GEAR IS ON GROUND:0, Keyframe) 0 &gt; if{ 7 (A:VELOCITY BODY Z, feet per second) (A:ANIMATION DELTA TIME, seconds) * * } els{ 0 }</ANIM_CODE>
+			<ANIM_NAME>tire_anim</ANIM_NAME>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Nosewheel_steering">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ 150 } els{ (A:ROTATION VELOCITY BODY Y, Feet) 35 * 150 + }</ANIM_CODE>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop0_still">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop0_still</ANIM_NAME>
+			<ANIM_CODE>0.01 6 600 (A:PROP RPM:1, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop1_still">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop1_still</ANIM_NAME>
+			<ANIM_CODE>0.01 6 600 (A:PROP RPM:2, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop0_slow">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop0_slow</ANIM_NAME>
+			<ANIM_CODE>0.01 6 1200 (A:PROP RPM:1, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop1_slow">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop1_slow</ANIM_NAME>
+			<ANIM_CODE>0.01 6 1200 (A:PROP RPM:2, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop0_blurred">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop0_blurred</ANIM_NAME>
+			<ANIM_CODE>0.01 6 2400 (A:PROP RPM:1, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="prop1_blurred">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>prop1_blurred</ANIM_NAME>
+			<ANIM_CODE>0.01 6 2400 (A:PROP RPM:2, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_FLAPS_MED_GA</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 30 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 100 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 115 &lt; and if{ 50 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 130 &lt; and if{ 30 }
+	   els{ 0 } } } } } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+		<Component ID="prop0_still_vis" Node="node56_anim_prop0_still">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="prop1_still_vis" Node="node52_anim_prop1_still">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="prop0_slow_vis" Node="node54_anim_prop0_slow">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 6.25 &gt; (A:PROP RPM:1, percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="prop1_slow_vis" Node="node50_anim_prop1_slow">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 6.25 &gt; (A:PROP RPM:1, percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="prop0_blurred_vis" Node="node55_anim_prop0_blurred">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="prop1_blurred_vis" Node="node51_anim_prop1_blurred">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:PROP RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+
+ 		<Component ID="AIG_Contrail">
+			<OverrideTemplateParameters>
+					<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 448 &lt; (A:PLANE ALT ABOVE GROUND, feet) 2000 &gt; and</FX_CODE>
+					<FX_OFFSET_X>0</FX_OFFSET_X>
+					<FX_OFFSET_Y>0</FX_OFFSET_Y>
+					<FX_OFFSET_Z>0</FX_OFFSET_Z>
+					<FX_GUID>{F33E754E-8555-4728-9D14-6326E3665E69}</FX_GUID>
+					<FX_NAME>AIG-Contrail</FX_NAME>
+			</OverrideTemplateParameters>
+			<Component ID="Contrail_Engine1" Node="contrail1">
+				<UseTemplate Name="ASOBO_GT_FX">
+				</UseTemplate>
+			</Component>
+			<Component ID="Contrail_Engine2" Node="contrail2">
+				<UseTemplate Name="ASOBO_GT_FX">
+				</UseTemplate>
+			</Component>
+		</Component>
+		<Component ID="AIG_Contrail_Ribbon">
+			<OverrideTemplateParameters>
+					<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 448 &lt; (A:PLANE ALT ABOVE GROUND, feet) 2000 &gt; and</FX_CODE>
+					<FX_OFFSET_X>0</FX_OFFSET_X>
+					<FX_OFFSET_Y>0</FX_OFFSET_Y>
+					<FX_OFFSET_Z>0</FX_OFFSET_Z>
+					<FX_GUID>{3B5E0A0B-D049-49E9-86E4-8F183CF69E1D}</FX_GUID>
+					<FX_NAME>AIG-Contrail-Ribbon</FX_NAME>
+			</OverrideTemplateParameters>
+			<Component ID="Contrail_Ribbon_Engine1" Node="contrail1">
+				<UseTemplate Name="ASOBO_GT_FX">
+				</UseTemplate>
+			</Component>
+			<Component ID="Contrail_Ribbon_Engine2" Node="contrail2">
+				<UseTemplate Name="ASOBO_GT_FX">
+				</UseTemplate>
+			</Component>
+		</Component>
+		
+		<Component ID="AIG_Jet_Heat">
+			<Parameters Type="Override">
+				<FX_GUID>{7B94DF11-D389-47A0-9186-AE603D0B0AC9}</FX_GUID>
+				<FX_GRAPH_PARAM_0>Rotation, (E:ABSOLUTE TIME, seconds) (A:PROP RPM:1, rpm) 10 * * 100 % </FX_GRAPH_PARAM_0>
+			</Parameters>
+			<Component ID="JetHeat1" Node="contrail1">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="JetHeat2" Node="contrail2">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GENERAL ENG COMBUSTION:2, Bool) 0 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+		</Component>
+	
+		<Component ID="LANDING_FX">
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; (A:VERTICAL SPEED, feet per second) -7 &lt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>node40_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; (A:VERTICAL SPEED, feet per second) -7 &lt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>node60_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; (A:VERTICAL SPEED, feet per second) -7 &lt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 4 == (A:GROUND VELOCITY, knot) 1 &gt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>node40_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 4 == (A:GROUND VELOCITY, knot) 1 &gt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>node60_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 4 == (A:GROUND VELOCITY, knot) 1 &gt; and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:0, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>node40_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:1, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>node60_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:2, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:0, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+				<FX_NODE>node40_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:1, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>node60_anim_tire_anim</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:2, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>node66_anim_tire_anim</FX_NODE>
+			</UseTemplate>	
+		</Component>
+		
+		<Component ID="Fuselage-DimCabin" Node="node4">
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 8000 &lt; and if{ 0.1 }
+				els{ (A:LIGHT NAV, bool) 1 == if{ 0.2 }
+				els{ 0 } }</EMISSIVE_CODE>
+			</UseTemplate>
+		</Component>
+		
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="KCAI_Challenger_300_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="KCAI_Challenger_300_MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="KCAI_Challenger_300_MSFS_LOD2.gltf"/>
+		<LOD minSize="1" ModelFile="KCAI_Challenger_300_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="KCAI_Challenger_300_MSFS_LOD4.gltf"/>
+    </LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\KCAI_Bombardier_CL30.xml"/>
+	
+	<Component ID="KCAI_Bombardier_CL30_Templates">
+		<UseTemplate Name="KCAI_Bombardier_CL30_Common"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>3</STILL_NODE_ID>
+				<SLOW_NODE_ID>49</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>5</STILL_NODE_ID>
+				<SLOW_NODE_ID>74</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>76</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>2</STILL_NODE_ID>
+				<SLOW_NODE_ID>62</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>63</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID>4</STILL_NODE_ID>
+				<SLOW_NODE_ID>87</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>88</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="AIG_DHC-Dash-8-311_LOD0.gltf">
+			<AttachModel id="Antenna"/>
+		</LOD>
+		<LOD minSize="25" ModelFile="AIG_DHC-Dash-8-311_LOD1.gltf">
+			<AttachModel id="Antenna"/>
+		</LOD>
+		<LOD minSize="10" ModelFile="AIG_DHC-Dash-8-311_LOD2.gltf">
+			<AttachModel id="Antenna"/>
+		</LOD>
+		<LOD minSize="1" ModelFile="AIG_DHC-Dash-8-311_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_DHC-Dash-8-311_LOD4.gltf"/>
+	</LODS>
+
+	<ModelAttachments>
+		<ModelAttachment id="Antenna">
+			<Model>AIG_DHC-Dash-8-300-Antenna.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_DeHavilland_Dash8.xml"/>
+	
+	<Component ID="AIG_DeHavilland_Dash8_Templates">
+		<UseTemplate Name="AIG_DeHavilland_Dash8_Common"/>
+		<UseTemplate Name="AIG_DeHavilland_Dash8-200-300"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

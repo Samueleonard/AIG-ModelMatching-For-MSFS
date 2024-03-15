@@ -1,0 +1,85 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
+
+<Template Name="TBAI_Rockwell_AeroCommander690_Common">
+
+	<Component ID="Lights">
+		<UseTemplate Name="AIG_LightsOverride"/>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engines">
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine0</ANIM_NAME>
+			<ENGINE_ID>1</ENGINE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Engine_Propeller">
+			<ANIM_NAME>engine1</ANIM_NAME>
+			<ENGINE_ID>2</ENGINE_ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>40</STILL_NODE_ID>
+				<STILL_2_NODE_ID>41</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>42</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>43</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>45</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>47</STILL_NODE_ID>
+				<STILL_2_NODE_ID>48</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>49</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>50</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>52</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_TwinEngineTurboprop_Effects"/>
+		<UseTemplate Name="AIG_LandingFX">
+			<Small>True</Small>
+		</UseTemplate>
+	</Component>
+
+</Template>
+
+</ModelBehaviors>

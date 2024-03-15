@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="TFS_Airbus_A300-600F_cargo.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Airbus_A300.xml"/>
+
+	<Component ID="Cargo_Doors">
+		<UseTemplate Name="TFS_Airbus_A300F_Cargo_Doors"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

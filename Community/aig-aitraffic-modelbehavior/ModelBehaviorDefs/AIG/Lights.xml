@@ -1,0 +1,58 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+
+	<Template Name="AIG_LightsOverride">
+	
+		<!-- Logo Light -->
+
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				-500 10200 (A:PLANE ALT ABOVE GROUND, feet) rng (&gt;K:LOGO_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+
+		<!-- Nav Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(A:PLANE ALT ABOVE GROUND, feet) -500 &gt; (&gt;K:NAV_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+	
+		<!-- Landing Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				1 10000 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng (A:ON ANY RUNWAY, bool) or (&gt;K:2:LANDING_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+
+		<!-- Beacon Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(A:VELOCITY BODY Z, feet per second) 0.1 &gt; (A:TURB ENG N1:1, Percent) 1 &gt; or (&gt;K:2:BEACON_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+
+		<!-- Taxi Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(A:SIM ON GROUND, bool) 1 == (A:VELOCITY BODY Z, knots) 1 &gt; and (A:ON ANY RUNWAY, bool) 0 == and (&gt;K:2:TAXI_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+
+		<!-- Strobe Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &gt; (A:ON ANY RUNWAY, bool) or (&gt;K:2:STROBES_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+
+	</Template>
+
+</ModelBehaviors>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD0.gltf"/>
+		<LOD minSize="35" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD1.gltf"/>
+		<LOD minSize="30" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD2.gltf"/>
+		<LOD minSize="25" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD3.gltf"/>
+		<LOD minSize="20" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD4.gltf"/>
+		<LOD minSize="15" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD5.gltf"/>
+		<LOD minSize="10" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD6.gltf"/>
+		<LOD minSize="5" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD7.gltf"/>
+		<LOD minSize="1" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD8.gltf"/>
+		<LOD minSize="0.5" ModelFile="DJC_BritishAerospace_JS41_MSFS_LOD9.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\DJC_BritishAerospace_JS41.xml"/>
+	
+	<Component ID="DJC_BritishAerospace_JS41_Templates">
+		<UseTemplate Name="DJC_BritishAerospace_JS41_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="10" ModelFile="TFS_Airbus_A340-300_MSFS_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="TFS_Airbus_A340-300_MSFS_LOD1.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_Airbus_A340-300_MSFS_LOD1.gltf"/>
+	</LODS>
+
+<Behaviors>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="AIG\Animations.xml"/>
+		<Include ModelBehaviorFile="AIG\AnimationsComplex.xml"/>
+		<Include ModelBehaviorFile="AIG\EngineEffects.xml"/>
+		<Include ModelBehaviorFile="AIG\LandingFX.xml"/>	
+		
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_SIMVAR_SCALE>1.6667</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="tire_anim">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:GEAR IS ON GROUND:0, Keyframe) 0 &gt; if{ 7 (A:VELOCITY BODY Z, feet per second) (A:ANIMATION DELTA TIME, seconds) * * } els{ 0 }</ANIM_CODE>
+			<ANIM_NAME>tire_anim</ANIM_NAME>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>Engine_Blade</ANIM_NAME>
+			<ANIM_CODE>0.01 6 4000 (A:TURB ENG N1:1, Percent) (A:ANIMATION DELTA TIME, seconds) * * * *</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>Engine_Still_Windmill</ANIM_NAME>
+			<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:1, Percent) 6.55 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * }  
+						els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+            <ANIM_WRAP>1</ANIM_WRAP>
+            <ANIM_DELTA>1</ANIM_DELTA>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Reverse_Thrust">
+		<UseTemplate Name="AIG_Reverse_Thrust"/>
+	</Component>
+	
+	<Component ID="Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
+			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_SHARPNESS>70</ANIM_SHARPNESS>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="ControlSurfaceDroop">
+		<UseTemplate Name="AIG_ControlSurfacesDroop">
+			<ANIM_NAME>elevator_TFS</ANIM_NAME>
+			<LIGHT_STATE>0</LIGHT_STATE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Rudder">
+		<UseTemplate Name="AIG_Rudder_Deflection"/>
+	</Component>
+
+	<Component ID="aileron">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>TFS_A330_aileron</ANIM_NAME>
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
+						if{ 35 } els{ (A:LIGHT BEACON, bool) 0 == if{ 0 } els{ 100 } }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="FlapsSlats">
+		<UseTemplate Name="AIG_Flaps">
+			<ANIM_NAME>custom_anim_Airbus_FLAPS_AIRLINER</ANIM_NAME>
+			<FLAP_TO_DEGREES>50</FLAP_TO_DEGREES>
+			<FLAP1_SPEED>180</FLAP1_SPEED>
+			<FLAP1_DEGREES>100</FLAP1_DEGREES>
+			<FLAP2_SPEED>186</FLAP2_SPEED>
+			<FLAP2_DEGREES>73</FLAP2_DEGREES>
+			<FLAP3_SPEED>196</FLAP3_SPEED>
+			<FLAP3_DEGREES>65</FLAP3_DEGREES>
+			<FLAP4_SPEED>215</FLAP4_SPEED>
+			<FLAP4_DEGREES>50</FLAP4_DEGREES>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Slats">
+			<ANIM_NAME>custom_anim_Airbus_SLATS_AIRLINER</ANIM_NAME>
+			<SLAT_TO_DEGREES>70</SLAT_TO_DEGREES>
+			<SLAT1_SPEED>186</SLAT1_SPEED>
+			<SLAT1_DEGREES>100</SLAT1_DEGREES>
+			<SLAT2_SPEED>196</SLAT2_SPEED>
+			<SLAT2_DEGREES>87</SLAT2_DEGREES>
+			<SLAT3_SPEED>215</SLAT3_SPEED>
+			<SLAT3_DEGREES>70</SLAT3_DEGREES>
+		</UseTemplate>
+    </Component>
+
+	<Component ID="Spoilers">
+		<UseTemplate Name="AIG_Spoiler_L_key">
+			<ANIM_NAME>TFS_A330_Spoiler_L</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Spoiler_R_key">
+			<ANIM_NAME>TFS_A330_Spoiler_R</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine1_still" Node="node59_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine2_still1" Node="node78_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:2, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine2_still2" Node="node79_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:2, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine3_still1" Node="node151_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:3, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine3_still2" Node="node152_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:3, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine4_still1" Node="node131_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:4, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine4_still2" Node="node132_anim_Engine_Still_Windmill">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:4, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine1_blur" Node="node58_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:1, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine2_blur1" Node="node80_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:2, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine2_blur2" Node="node81_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:2, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine3_blur1" Node="node153_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:3, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine3_blur2" Node="node154_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:3, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine4_blur1" Node="node141_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:4, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="engine4_blur2" Node="node142_anim_Engine_Blade">
+		<UseTemplate Name="ASOBO_GT_Visibility">
+			<VISIBILITY_CODE>(A:TURB ENG N1:4, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Light_Visibility">
+		<Component ID="Logo_Lights">
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Logolight_Visibility">
+				<NODE_ID>logo_r</NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="NoseGear_Landing_Lights">
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_nose_l</NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Landinglight_NoseGear_Visibility">
+				<NODE_ID>landing_nose_r</NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>	
+		
+		<Component ID="main_gear_bay_vis" Node="node3">
+			<UseTemplate Name="ASOBO_GT_Visibility">
+				<VISIBILITY_CODE>(A:GEAR LEFT POSITION, percent) 1 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+			</UseTemplate>
+		</Component>
+
+	<Component ID="Effects">
+		<UseTemplate Name="AIG_QuadEngineJet_Effects"/>
+		<UseTemplate Name="AIG_LandingFX"/>
+		<UseTemplate Name="AIG_LandingFX_1main"/>
+	</Component>
+		
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node7</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+</Behaviors>
+</ModelInfo>

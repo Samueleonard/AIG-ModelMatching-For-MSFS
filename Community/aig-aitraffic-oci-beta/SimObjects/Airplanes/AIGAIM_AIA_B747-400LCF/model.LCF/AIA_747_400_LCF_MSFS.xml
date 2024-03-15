@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="60" ModelFile="AIA_747_400_LCF_MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="AIA_747_400_LCF_MSFS_LOD1.gltf"/>
+		<LOD minSize="15" ModelFile="AIA_747_400_LCF_MSFS_LOD2.gltf"/>
+		<LOD minSize="1" ModelFile="AIA_747_400_LCF_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_747_400_LCF_MSFS_LOD4.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIA_Boeing_747LCF.xml"/>
+	
+	<Component ID="AIA_Boeing_747LCF_Templates">
+		<UseTemplate Name="AIA_Boeing_747LCF_Common"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

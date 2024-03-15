@@ -1,0 +1,10 @@
+<ModelBehaviors>
+	<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include RelativeFile="Animations.xml"/>
+	<Include RelativeFile="AnimationsComplex.xml"/>
+	<Include RelativeFile="EngineEffects.xml"/>
+	<Include RelativeFile="FX_Base.xml"/>
+	<Include RelativeFile="LandingFX.xml"/>
+	<Include RelativeFile="Lights.xml"/>
+</ModelBehaviors>

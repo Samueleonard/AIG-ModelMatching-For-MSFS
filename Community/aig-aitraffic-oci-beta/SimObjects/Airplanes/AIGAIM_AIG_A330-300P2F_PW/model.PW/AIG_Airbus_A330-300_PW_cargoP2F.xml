@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="25" ModelFile="AIG_Airbus_A330-300_PW_cargoP2F.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Airbus_A330.xml"/>
+
+	<Component ID="Cargo_Doors">
+		<UseTemplate Name="AIG_Airbus_A330P2F_Cargo_Door"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="OSP_ATR_72-200_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="OSP_ATR_72-200_MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="OSP_ATR_72-200_MSFS_LOD2.gltf"/>
+		<LOD minSize="5" ModelFile="OSP_ATR_72-200_MSFS_LOD3.gltf"/>
+		<LOD minSize="1" ModelFile="OSP_ATR_72-200_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="OSP_ATR_72-200_MSFS_LOD5.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\OSP_ATR.xml"/>
+
+	<Component ID="OSP_ATR_Templates">
+		<UseTemplate Name="OSP_ATR_Common"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>4</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>4</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>4</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>22</STILL_NODE_ID>
+				<STILL_2_NODE_ID>26</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>30</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>34</STILL_4_NODE_ID>
+				<SLOW_NODE_ID>148</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>149</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>150</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>151</SLOW_4_NODE_ID>
+				<BLURRED_NODE_ID>144</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>145</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>146</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>147</BLURRED_4_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>4</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>4</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>4</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>24</STILL_NODE_ID>
+				<STILL_2_NODE_ID>28</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>32</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>36</STILL_4_NODE_ID>
+				<SLOW_NODE_ID>139</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>140</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>141</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>142</SLOW_4_NODE_ID>
+				<BLURRED_NODE_ID>135</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>136</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>137</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>138</BLURRED_4_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+	
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node7</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

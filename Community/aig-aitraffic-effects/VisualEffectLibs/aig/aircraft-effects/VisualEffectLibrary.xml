@@ -1,0 +1,9 @@
+<VisualEffectLibrary Version="1.0.0">
+	<VisualEffect File="engine-smoke_cold-start"/>
+	<VisualEffect File="contrail-ribbon"/>
+	<VisualEffect File="jetheat"/>
+	<VisualEffect File="apu-exhaust-heat"/>
+	<VisualEffect File="contrail"/>
+	<VisualEffect File="reverser-spray"/>
+</VisualEffectLibrary>
+

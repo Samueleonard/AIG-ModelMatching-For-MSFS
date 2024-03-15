@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="30" ModelFile="DJC_BD-700_Express_XRS_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="DJC_BD-700_Express_XRS_MSFS_LOD1.gltf"/>
+		<LOD minSize="10" ModelFile="DJC_BD-700_Express_XRS_MSFS_LOD2.gltf"/>
+		<LOD minSize="1" ModelFile="DJC_BD-700_Express_XRS_MSFS_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="DJC_BD-700_Express_XRS_MSFS_LOD4.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\DJC_Bombardier_GlobalExpress.xml"/>
+	
+	<Component ID="DJC_Bombardier_GlobalExpress_Templates">
+		<UseTemplate Name="DJC_Bombardier_GlobalExpress_Common"/>
+	</Component>
+	
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>38</STILL_NODE_ID>
+				<STILL_2_NODE_ID>41</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>39</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>42</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>40</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>43</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>31</STILL_NODE_ID>
+				<STILL_2_NODE_ID>32</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>30</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>34</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>29</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>33</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

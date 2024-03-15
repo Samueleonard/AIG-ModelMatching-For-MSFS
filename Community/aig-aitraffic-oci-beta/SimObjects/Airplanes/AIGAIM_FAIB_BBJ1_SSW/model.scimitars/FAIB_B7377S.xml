@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="FAIB_B7377S_LOD0.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="25" ModelFile="FAIB_B7377S_LOD1.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="10" ModelFile="FAIB_B7377S_LOD2.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="1" ModelFile="FAIB_B7377S_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_B7377S_LOD4.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\FAIB_Boeing_737.xml"/>
+
+	<Component ID="FAIB_Boeing_737_Templates">
+		<UseTemplate Name="FAIB_Boeing_737_Common"/>
+		<UseTemplate Name="FAIB_Boeing_737NG_FlapsSlats"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>314</STILL_NODE_ID>
+				<BLURRED_NODE_ID>315</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>317</STILL_NODE_ID>
+				<BLURRED_NODE_ID>318</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>attachpt_FAIB_7377S_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7377S_R_Logo</NODE_ID_2>
+			<NODE_ID_3>node2</NODE_ID_3>
+			<NODE_ID_4>node3</NODE_ID_4>
+			<NODE_ID_5>node4</NODE_ID_5>			
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>attachpt_FAIB_7377S_Taxi_Dyn</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>5</NODE_ID>
+			<NODE_ID_2>6</NODE_ID_2>
+			<NODE_ID_3>7</NODE_ID_3>
+			<NODE_ID_4>8</NODE_ID_4>
+			<NODE_ID_5>9</NODE_ID_5>
+			<NODE_ID_6>11</NODE_ID_6>
+			<NODE_ID_7>81</NODE_ID_7>
+			<NODE_ID_8>82</NODE_ID_8>
+			<NODE_ID_9>83</NODE_ID_9>
+			<NODE_ID_10>84</NODE_ID_10>
+			<NODE_ID_11>85</NODE_ID_11>
+		</UseTemplate>
+	</Component>
+
+    <Component ID="APU_Heat">
+        <UseTemplate Name="AIG_APU_Heat"/>
+    </Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node26</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

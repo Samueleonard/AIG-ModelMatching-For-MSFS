@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="20" ModelFile="OSP_ATR_72_cargo.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\OSP_ATR.xml"/>
+
+	<Component ID="Cargo_Doors">
+		<UseTemplate Name="OSP_ATR_Cargo_Doors"/>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

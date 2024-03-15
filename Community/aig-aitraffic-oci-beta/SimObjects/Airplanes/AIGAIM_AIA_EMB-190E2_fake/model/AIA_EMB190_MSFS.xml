@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="AIA_EMB190_MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="AIA_EMB190_MSFS_LOD1.gltf"/>
+		<LOD minSize="25" ModelFile="AIA_EMB190_MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="AIA_EMB190_MSFS_LOD3.gltf"/>
+		<LOD minSize="15" ModelFile="AIA_EMB190_MSFS_LOD4.gltf"/>
+		<LOD minSize="10" ModelFile="AIA_EMB190_MSFS_LOD5.gltf"/>
+		<LOD minSize="5" ModelFile="AIA_EMB190_MSFS_LOD6.gltf"/>
+		<LOD minSize="1" ModelFile="AIA_EMB190_MSFS_LOD7.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIA_EMB190_MSFS_LOD8.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIA_Embraer.xml"/>
+	
+	<Component ID="AIA_Embraer_EJet_Templates">
+		<UseTemplate Name="AIA_Embraer_EJet_Common"/>
+	</Component>
+	
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>5</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>5</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>363</STILL_NODE_ID>
+				<STILL_2_NODE_ID>364</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>365</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>366</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>367</STILL_5_NODE_ID>
+				<BLURRED_NODE_ID>368</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>369</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>370</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>371</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>372</BLURRED_5_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>5</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>5</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>374</STILL_NODE_ID>
+				<STILL_2_NODE_ID>375</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>376</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>377</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>378</STILL_5_NODE_ID>
+				<BLURRED_NODE_ID>379</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>380</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>381</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>382</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>383</BLURRED_5_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

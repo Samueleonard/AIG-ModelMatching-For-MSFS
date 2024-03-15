@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="40" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD0.gltf"/>
+		<LOD minSize="35" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD1.gltf"/>
+		<LOD minSize="30" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD2.gltf"/>
+		<LOD minSize="25" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD3.gltf"/>
+		<LOD minSize="20" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD4.gltf"/>
+		<LOD minSize="15" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD5.gltf"/>
+		<LOD minSize="10" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD6.gltf"/>
+		<LOD minSize="5" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD7.gltf"/>
+		<LOD minSize="1" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD8.gltf"/>
+		<LOD minSize="0.5" ModelFile="DJC_MetroIV_4Blade_MSFS_LOD9.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\DJC_FairchildSwearingen.xml"/>
+	
+	<Component ID="DJC_FairchildSwearingen_Templates">
+		<UseTemplate Name="DJC_FairchildSwearingen_Common"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>6</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>250</STILL_NODE_ID>
+				<STILL_2_NODE_ID>260</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>270</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>284</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>357</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>440</STILL_6_NODE_ID>
+				<SLOW_NODE_ID>277</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>364</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>444</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>451</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>453</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>455</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>457</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>459</SLOW_8_NODE_ID>
+				<BLURRED_NODE_ID>276</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>363</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>443</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>450</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>452</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>454</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>456</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>458</BLURRED_8_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>6</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>253</STILL_NODE_ID>
+				<STILL_2_NODE_ID>263</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>273</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>287</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>360</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>437</STILL_6_NODE_ID>
+				<SLOW_NODE_ID>207</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>208</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>257</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>267</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>281</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>291</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>368</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>448</SLOW_8_NODE_ID>
+				<BLURRED_NODE_ID>206</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>209</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>256</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>266</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>280</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>290</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>367</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>447</BLURRED_8_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

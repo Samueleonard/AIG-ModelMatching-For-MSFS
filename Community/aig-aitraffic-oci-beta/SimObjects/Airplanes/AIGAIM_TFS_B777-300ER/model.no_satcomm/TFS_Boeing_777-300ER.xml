@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="60" ModelFile="TFS_B773ER_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="45" ModelFile="TFS_B773ER_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="35" ModelFile="TFS_B773ER_LOD2.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="20" ModelFile="TFS_B773ER_LOD3.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="10" ModelFile="TFS_B773ER_LOD4.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="5" ModelFile="TFS_B773ER_LOD5.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="1" ModelFile="TFS_B773ER_LOD6.gltf"/>
+		<LOD minSize="0.5" ModelFile="TFS_B773ER_LOD7.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>TFS_B773_cargo.xml</Model>
+		</ModelAttachment>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\TFS_Boeing_777.xml"/>
+	
+	<Component ID="TFS_Boeing_777_Templates">
+		<UseTemplate Name="TFS_Boeing_777_Common"/>
+		<UseTemplate Name="TFS_Boeing_773_Gearlight"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine1_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine1_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+				<STILL_NODE_ID>292</STILL_NODE_ID>
+				<STILL_2_NODE_ID>306</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>290</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>303</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>293</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>305</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine2_still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>engine2_blur</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
+				<ID>2</ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+				<STILL_NODE_ID>299</STILL_NODE_ID>
+				<STILL_2_NODE_ID>301</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>295</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>296</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>298</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>300</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>

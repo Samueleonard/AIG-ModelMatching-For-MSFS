@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+  <LODS>
+    <LOD minSize="50" ModelFile="FAIB_B7373W_LOD0.gltf"/>
+    <LOD minSize="25" ModelFile="FAIB_B7373W_LOD1.gltf"/>
+    <LOD minSize="10" ModelFile="FAIB_B7373W_LOD2.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_B7373W_LOD3.gltf"/>
+    <LOD minSize="0.5" ModelFile="FAIB_B7373W_LOD4.gltf"/>
+  </LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\FAIB_Boeing_737.xml"/>
+
+	<Component ID="FAIB_Boeing_737_Templates">
+		<UseTemplate Name="FAIB_Boeing_737_Common"/>
+		<UseTemplate Name="FAIB_Boeing_737CL_FlapsSlats"/>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Component ID="Engine1">
+			<Parameters Type="Override">
+				<ENGINE_ID>1</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>339</STILL_NODE_ID>
+				<BLURRED_NODE_ID>340</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<Parameters Type="Override">
+				<ENGINE_ID>2</ENGINE_ID>
+			</Parameters>
+			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
+				<ID>1</ID>
+				<STILL_NODE_ID>344</STILL_NODE_ID>
+				<BLURRED_NODE_ID>345</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_PREFIX></NODE_PREFIX>
+			<NODE_ID>attachpt_FAIB_7373W_Taxi_Dyn_1</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>2</NODE_ID>
+			<NODE_ID_2>3</NODE_ID_2>
+			<NODE_ID_3>4</NODE_ID_3>
+			<NODE_ID_4>5</NODE_ID_4>
+			<NODE_ID_5>6</NODE_ID_5>
+			<NODE_ID_6>66</NODE_ID_6>
+			<NODE_ID_7>67</NODE_ID_7>
+			<NODE_ID_8>68</NODE_ID_8>
+			<NODE_ID_9>69</NODE_ID_9>
+			<NODE_ID_10>70</NODE_ID_10>
+			<NODE_ID_11>87</NODE_ID_11>
+			<NODE_ID_12>102</NODE_ID_12>
+			<NODE_ID_13>103</NODE_ID_13>
+			<NODE_ID_14>104</NODE_ID_14>
+			<NODE_ID_15>105</NODE_ID_15>
+			<NODE_ID_16>106</NODE_ID_16>
+			<NODE_ID_17>132</NODE_ID_17>
+			<NODE_ID_18>139</NODE_ID_18>
+			<NODE_ID_19>140</NODE_ID_19>
+			<NODE_ID_20>141</NODE_ID_20>
+			<NODE_ID_21>142</NODE_ID_21>
+			<NODE_ID_22>143</NODE_ID_22>
+		</UseTemplate>
+	</Component>
+
+    <Component ID="APU_Heat">
+        <UseTemplate Name="AIG_APU_Heat"/>
+    </Component>
+
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>node18</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+  </Behaviors>
+</ModelInfo>
