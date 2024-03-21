@@ -31,8 +31,7 @@ FSLTL is a similar project to AIG, aiming to provide a solution to modelmatching
 
 This is a completely seperate project to AIG and is NOT INCLUDED IN THIS PACK (and will never be)
 
-If you choose, you can use both FSLTL AND AIG together, as long as you place both VMRs in vPilot (make sure FSLTL is at the top so it has priority for models) ![image](https://cdn.discordapp.com/attachments/636979141421301760/1026857624681074801/unknown.png)
-
+If you choose, you can use both FSLTL AND AIG together, as long as you place both VMRs in vPilot (make sure AIG is at the top so it has priority for models)
 ## USAGE WITH ONLINE NETWORKS (VATSIM)
 
 This pack is mostly designed for use with online virtual traffic networks like [VATSIM](https://vatsim.net/)  however it will also work for offline traffic (described below)
@@ -41,9 +40,7 @@ A VMR File for [VATSIM](https://vatsim.net/) usage has been included in the fold
 
 If you want to manually download the latest version, it is available [here](https://flightsim.to/file/23365/full-vatsim-aig-beta-model-matching).
 
-To enable the VMR file, just select it through 'custom rules' in the vPilot menu like the image below. 
-
-![image](https://user-images.githubusercontent.com/34142670/172803394-104b65f9-48eb-49c0-b121-974a03fe4118.png)
+To enable the VMR file, just select it through 'custom rules' in the vPilot menu.
 
 
 ## USAGE WITH OFFLINE TRAFFIC 
