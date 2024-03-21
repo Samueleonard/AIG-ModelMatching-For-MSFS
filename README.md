@@ -1,12 +1,10 @@
 # AIG-Model Matching-For-MSFS
 ## Introduction
 
-**THIS PACK IS NO LONGER UPDATED AS OF OCTOBER 2023**
+**THIS PACK IS RARELY UPDATED AS OF MARCH 2024.** I may look at revisiting it from time to time to keep it up to date with any big AIG changes.
 
 
-Below is an AIG install for MSFS ONLY including offline AI flight plans - *described below*
-
-**FOR THOSE WANTING TO USE THIS WITH VATSIM ------ [FSLTL](https://www.fslivetrafficliveries.com/ "FSLTL") has now released and provides higher quality models and liveries, purposefully designed for online use (more details below)**
+Below is an AIG install for MSFS ONLY EXCLUDING offline AI flight plans.
   
 
 ## <b>INSTALL</b>
@@ -15,7 +13,7 @@ Download from -
 
 [Google Drive](https://drive.google.com/file/d/1DBX7hqsbZ-9rOPT3XwugNYT5al6-QZQt/view?usp=sharing)  (~2.5gb zipped download, ~44gb unzipped)
 
-Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) to extract and drag all 3 included folders into your community folder. 
+Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) to extract and drag **ALL** 3 included folders into your community folder. 
 
 If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot. More info is shown below.
 
@@ -23,7 +21,7 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 
 ## MANUAL UPDATES
 
-As I will no longer be updating this pack as of 04/11/22 you will have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+As I will rarely be updating this pack as of march 2024 you may have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
 
 ## USAGE WITH FSLiveTrafficLiveries (FSLTL)
 
@@ -49,10 +47,7 @@ To enable the VMR file, just select it through 'custom rules' in the vPilot menu
 
 
 ## USAGE WITH OFFLINE TRAFFIC 
-
-You can now use the pack as offline AI traffic, with the usage of the [AIG Traffic Controller](https://www.alpha-india.net/aigfiles/files/Software/AIG_TrafficController.zip)
-
-*No support is given for the usage of offline traffic however from limited testing, it seems to work*
+I have removed the offline flight plans from the download so they currently cannot be used for offline flying. If there is enough demand i can add them back.
 
 ## PAYWARE MODELS
 
