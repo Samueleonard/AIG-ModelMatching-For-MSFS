@@ -221,6 +221,11 @@
       "date": 133511202714163445
     },
     {
+      "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Lockheed_C130.xml",
+      "size": 2479,
+      "date": 133550050964926090
+    },
+    {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/HTAI_Lockheed_L100.xml",
       "size": 2479,
       "date": 133511202714193444
@@ -273,7 +278,7 @@
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/RFSL_Embraer_EJet.xml",
       "size": 3330,
-      "date": 133511202714483524
+      "date": 133550941989562171
     },
     {
       "path": "ModelBehaviorDefs/AIG/AircraftBases/SBAI_Airbus_A220.xml",
@@ -377,8 +382,8 @@
     },
     {
       "path": "ModelBehaviorDefs/AIG/Animations.xml",
-      "size": 33285,
-      "date": 133536347107922818
+      "size": 33325,
+      "date": 133549979511946766
     },
     {
       "path": "ModelBehaviorDefs/AIG/AnimationsComplex.xml",

@@ -2556,6 +2556,46 @@
       "date": 133527638109392917
     },
     {
+      "path": "Effects/LIGHT_HTAI_C130_BeaconBelly.fx",
+      "size": 1270,
+      "date": 133550085202544877
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_BeaconTop.fx",
+      "size": 1222,
+      "date": 133527638121325685
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Landing.fx",
+      "size": 1280,
+      "date": 133527638121475716
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Navgreen.fx",
+      "size": 1226,
+      "date": 133550085202584898
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Navred.fx",
+      "size": 1226,
+      "date": 133550085202614899
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Navwhi.fx",
+      "size": 1347,
+      "date": 133550085202644904
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Strobe.fx",
+      "size": 1230,
+      "date": 133527638122076681
+    },
+    {
+      "path": "Effects/LIGHT_HTAI_C130_Taxi.fx",
+      "size": 1280,
+      "date": 133527638122226714
+    },
+    {
       "path": "Effects/LIGHT_HTAI_C208B_BeaconBelly.fx",
       "size": 1272,
       "date": 133527638109814784
@@ -4843,37 +4883,37 @@
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/apu-exhaust-heat.spb",
       "size": 2342,
-      "date": 133534589339705129
+      "date": 133550941940078645
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/contrail-ribbon.spb",
       "size": 2870,
-      "date": 133534589339645121
+      "date": 133550941939988625
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/contrail.spb",
       "size": 2682,
-      "date": 133534589339785142
+      "date": 133550941940148662
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/engine-smoke_cold-start.spb",
       "size": 3058,
-      "date": 133534589339625110
+      "date": 133550941939908608
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/jetheat.spb",
-      "size": 3210,
-      "date": 133534589339675125
+      "size": 3494,
+      "date": 133550941940008629
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/reverser-spray.spb",
       "size": 4019,
-      "date": 133534589339895167
+      "date": 133550941940228680
     },
     {
       "path": "VisualEffectLibs/aig/aircraft-effects/VisualEffectLibrary.xml",
       "size": 295,
-      "date": 133534589339895167
+      "date": 133550941940238682
     }
   ]
 }

@@ -523,7 +523,7 @@
 			<ANIM_CENTER>500</ANIM_CENTER>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ #ANIM_CENTER# } els{ (A:ROTATION VELOCITY BODY Y, Feet) #ANIM_SHARPNESS# * #ANIM_CENTER# + 0 max 1000 min}</ANIM_CODE>
+				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ #ANIM_CENTER# } els{ (A:ROTATION VELOCITY BODY Y, Feet) #ANIM_SHARPNESS# * #ANIM_CENTER# + 0 max 1000 min }</ANIM_CODE>
 				<ANIM_LENGTH>1000</ANIM_LENGTH>
 				<ANIM_LAG>750</ANIM_LAG>
 			</UseTemplate>
@@ -689,7 +689,7 @@
 			<INTERVAL2>2.4</INTERVAL2>
 		</Parameters>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) #INTERVAL1# % (P:Local time,seconds) #INTERVAL2# % * (A:GROUND VELOCITY, knots) * } els{ (A:SIM ON GROUND, bool) 0 == if{ (A:WING FLEX PCT:#WING_ID#, percent) 0.5 * 75 + } els{ 0 } }</ANIM_CODE>
+				<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) #INTERVAL1# % (P:Local time,seconds) #INTERVAL2# % * 100 * (A:GROUND VELOCITY, knots) / (A:GROUND VELOCITY, knots) 2 / + } els{ (A:SIM ON GROUND, bool) 0 == if{ (A:WING FLEX PCT:#WING_ID#, percent) 0.5 * 75 + } els{ 0 } }</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_LAG>55</ANIM_LAG>
 			</UseTemplate>
