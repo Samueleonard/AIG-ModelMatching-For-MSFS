@@ -17,11 +17,11 @@ Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https:
 
 If using VATSIM, the VMR file is included, just select it through the 'custom rules' menu in vPilot. More info is shown below.
 
-**NEVER  DOWNLOAD ANYTHING FROM THE GITHUB REPO DIRECTLY - ONLY DOWNLOAD FROM THE LINK ABOVE**
+**NEVER  DOWNLOAD ANYTHING FROM THE GITHUB REPO DIRECTLY - THIS WILL NOT WORK - ONLY DOWNLOAD FROM THE LINK ABOVE**
 
 ## MANUAL UPDATES
 
-As I will rarely be updating this pack as of march 2024 you may have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/forums/index.php?board=247.0))
+As I will rarely be updating this pack as of march 2024 you may have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/software/))
 
 ## USAGE WITH FSLiveTrafficLiveries (FSLTL)
 
