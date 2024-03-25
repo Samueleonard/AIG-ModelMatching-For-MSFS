@@ -28,7 +28,7 @@ def copyFiles():
         print("moving " + comFolderPathMain + "aig-aitraffic-oci-beta\\" + name + " to " + githubFolderPath + "aig-aitraffic-oci-beta\\" + name )
         shutil.move(comFolderPathMain + "aig-aitraffic-oci-beta\\" + name, githubFolderPath + "aig-aitraffic-oci-beta")
         print("moved " + comFolderPathMain + "aig-aitraffic-oci-beta\\" + name + " to " + githubFolderPath + "aig-aitraffic-oci-beta\\" + name )
-        print("################")
+    print("################")
 
     os.startfile(os.getenv('LOCALAPPDATA') + "\\GitHubDesktop\\GitHubDesktop.exe")
     
@@ -46,9 +46,10 @@ def copyFiles():
 
     #copy back to commnunity
     print("moving files back to " + comFolderPathMain)
-    shutil.move(githubFolderPath + "aig-aitraffic-effects\\", comFolderPathMain) #copy aig-aitraffic-effects
-    shutil.move(githubFolderPath + "aig-aitraffic-modelbehavior\\", comFolderPathMain) #copy aig-aitraffic-modelbehavior
-    print("moving files back to " + comFolderPathMain)
+    shutil.move(githubFolderPath + "aig-aitraffic-effects\\", comFolderPathMain)
+    shutil.move(githubFolderPath + "aig-aitraffic-modelbehavior\\", comFolderPathMain)
+    shutil.move(githubFolderPath + "aig-aitraffic-oci-beta\\", comFolderPathMain)
+    print("moved files back to " + comFolderPathMain)
     print("#############################################################################")
 
 
