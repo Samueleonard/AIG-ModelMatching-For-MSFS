@@ -48,7 +48,7 @@ def copyFiles():
     print("moving files back to " + comFolderPathMain)
     shutil.move(githubFolderPath + "aig-aitraffic-effects\\", comFolderPathMain)
     shutil.move(githubFolderPath + "aig-aitraffic-modelbehavior\\", comFolderPathMain)
-    shutil.move(githubFolderPath + "aig-aitraffic-oci-beta\\", comFolderPathMain)
+    #shutil.move(githubFolderPath + "aig-aitraffic-oci-beta\\", comFolderPathMain)
     print("moved files back to " + comFolderPathMain)
     print("#############################################################################")
 
