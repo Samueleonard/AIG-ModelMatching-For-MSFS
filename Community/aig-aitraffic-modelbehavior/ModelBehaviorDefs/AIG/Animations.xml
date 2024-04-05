@@ -10,32 +10,52 @@
 		<Parameters Type="Default">
 			<ANIM_NAME>c_gear</ANIM_NAME>
 			<ANIM_LENGTH>200</ANIM_LENGTH>
+			<RETRACT_TIME>5</RETRACT_TIME>
+			<ID>0</ID>
 		</Parameters>
-		<UseTemplate Name="ASOBO_GT_Anim_Sim">
-			<ANIM_SIMVAR>GEAR ANIMATION POSITION:0</ANIM_SIMVAR>
-			<ANIM_SIMVAR_UNITS>keyframe</ANIM_SIMVAR_UNITS>
-		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Base_Template"/>
 	</Template>
 
 	<Template Name="AIG_Gear_Left_Template">
 		<Parameters Type="Default">
 			<ANIM_NAME>l_gear</ANIM_NAME>
 			<ANIM_LENGTH>200</ANIM_LENGTH>
+			<RETRACT_TIME>8</RETRACT_TIME>
+			<ID>1</ID>
 		</Parameters>
-		<UseTemplate Name="ASOBO_GT_Anim_Sim">
-			<ANIM_SIMVAR>GEAR ANIMATION POSITION:1</ANIM_SIMVAR>
-			<ANIM_SIMVAR_UNITS>keyframe</ANIM_SIMVAR_UNITS>
-		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Base_Template"/>
 	</Template>
 
 	<Template Name="AIG_Gear_Right_Template">
 		<Parameters Type="Default">
 			<ANIM_NAME>r_gear</ANIM_NAME>
 			<ANIM_LENGTH>200</ANIM_LENGTH>
+			<RETRACT_TIME>8</RETRACT_TIME>
+			<ID>2</ID>
+		</Parameters>
+		<UseTemplate Name="AIG_Gear_Base_Template"/>
+	</Template>
+
+	<Template Name="AIG_Gear_Base_Template">
+		<Parameters Type="Default">
+			<ANIM_LAG Process="Float">#ANIM_LENGTH# 2 / #RETRACT_TIME# /</ANIM_LAG>
+			<ID>0</ID>
+		</Parameters>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } 
+							els{ 1 225 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng (A:VERTICAL SPEED, feet per second) 3 &gt; and if{ 100 }
+							els{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } }
+				</ANIM_CODE>
+			</UseTemplate>
+	</Template>
+	
+	<Template Name="AIG_Gear_Base_TemplateOld">
+		<Parameters Type="Default">
+			<ID>0</ID>
 		</Parameters>
 		<UseTemplate Name="ASOBO_GT_Anim_Sim">
-			<ANIM_SIMVAR>GEAR ANIMATION POSITION:2</ANIM_SIMVAR>
-			<ANIM_SIMVAR_UNITS>keyframe</ANIM_SIMVAR_UNITS>
+			<ANIM_SIMVAR>GEAR ANIMATION POSITION:#ID#</ANIM_SIMVAR>
+			<ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 	</Template>
 
@@ -795,7 +815,7 @@
 
 	<Template Name="AIG_LogoLight_Visibility_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(E:TIME OF DAY, number) 1 != (A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; and if{ 0 } els{ 1 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Template>
 

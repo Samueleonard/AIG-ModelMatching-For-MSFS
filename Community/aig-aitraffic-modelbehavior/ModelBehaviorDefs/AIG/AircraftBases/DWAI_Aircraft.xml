@@ -9,17 +9,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -163,17 +166,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>9</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>10</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>10</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -229,17 +235,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -363,17 +372,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -527,17 +539,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -643,17 +658,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -777,6 +795,27 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.8</RETRACT_TIME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
+			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
+			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Landing_Gear">
+		<UseTemplate Name="AIG_Gear_Center_Template">
 			<ANIM_NAME>c_gear</ANIM_NAME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
@@ -893,17 +932,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>3.5</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.7</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -1028,17 +1070,20 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>3.5</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Left_Template">
-			<ANIM_NAME>l_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.7</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Gear_Right_Template">
-			<ANIM_NAME>r_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>5.2</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
@@ -1145,12 +1190,17 @@
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
-			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<RETRACT_TIME>4.8</RETRACT_TIME>
 			<ANIM_SIMVAR_SCALE>2</ANIM_SIMVAR_SCALE>
 			<ANIM_SIMVAR_UNITS>Keyframe</ANIM_SIMVAR_UNITS>
 		</UseTemplate>
-		<UseTemplate Name="AIG_Gear_Left_Template"/>
-		<UseTemplate Name="AIG_Gear_Right_Template"/>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<RETRACT_TIME>5.2</RETRACT_TIME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<RETRACT_TIME>4.8</RETRACT_TIME>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="Wheels">
@@ -1298,7 +1348,6 @@
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
 				<ID>1</ID>
-				
 				<STILL_NODE_ID>54</STILL_NODE_ID>
 				<STILL_2_NODE_ID>55</STILL_2_NODE_ID>
 				<STILL_3_NODE_ID>56</STILL_3_NODE_ID>

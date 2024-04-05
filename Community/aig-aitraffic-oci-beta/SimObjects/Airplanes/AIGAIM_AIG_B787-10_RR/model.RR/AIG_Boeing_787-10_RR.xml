@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="AIG_Boeing-787-10_RR_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="35" ModelFile="AIG_Boeing-787-10_RR_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+		</LOD>
+		<LOD minSize="20" ModelFile="AIG_Boeing-787-10_RR_LOD2.gltf"/>
+		<LOD minSize="10" ModelFile="AIG_Boeing-787-10_RR_LOD3.gltf"/>
+		<LOD minSize="5" ModelFile="AIG_Boeing-787-10_RR_LOD4.gltf"/>
+		<LOD minSize="1" ModelFile="AIG_Boeing-787-10_RR_LOD5.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Boeing-787-10_RR_LOD6.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>AIG_Boeing_787-10_cargo.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+<Behaviors>
+	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_787.xml"/>
+	
+	<Component ID="AIG_Boeing_787_Templates">
+		<UseTemplate Name="AIG_Boeing_787_Common"/>
+		<UseTemplate Name="B787_MainGearDoor_EarlyDeploy"/>
+		<UseTemplate Name="AIG_Boeing_787_RR_Visibility"/>
+	</Component>
+
+</Behaviors>
+</ModelInfo>

@@ -154,7 +154,7 @@
 		</Parameters>
 		<Component ID="AIG_MRTT_EngineCovers_#NODE_ID#" Node="#NODE_ID#">
 			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:FUEL TANK CENTER3 QUANTITY, Gallons) 1 == if{ 0 } els{ (A:GROUND VELOCITY, knots) -0.1 &lt; (A:GROUND VELOCITY, knots) 0.1 &gt; and (A:TURB ENG N1:1, Percent) 5 &gt; or if{ 0 } els{ 1 } }</VISIBILITY_CODE>
+				<VISIBILITY_CODE>(A:FUEL TANK CENTER3 QUANTITY, Gallons) 1 == if{ 0 } els{ (A:GROUND VELOCITY, knots) -0.1 &lt; (A:GROUND VELOCITY, knots) 0.1 &gt; or (A:TURB ENG N1:1, Percent) 5 &gt; or if{ 0 } els{ 1 } }</VISIBILITY_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="35" ModelFile="AIG_Boeing_787-10_cargo.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_787.xml"/>
+
+		<Component ID="Cargo_Doors">
+			<UseTemplate Name="AIG_Boeing_787_Cargo_Doors"/>
+		</Component>
+
+	</Behaviors>
+
+</ModelInfo>

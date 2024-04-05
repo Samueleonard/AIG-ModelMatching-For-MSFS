@@ -21,8 +21,8 @@ def clearGithubDir(): #clears the github folder of all files and remakes it empt
 
 def copyFiles():
     #copy to github
-    shutil.move(comFolderPathMain + "aig-aitraffic-effects\\", githubFolderPath) #copy aig-aitraffic-effects
-    shutil.move(comFolderPathMain + "aig-aitraffic-modelbehavior\\", githubFolderPath) #copy aig-aitraffic-modelbehavior
+    # NO LONGER NEEDED? shutil.move(comFolderPathMain + "aig-aitraffic-effects\\", githubFolderPath) #copy aig-aitraffic-effects
+    #NO LONGER NEEDED? shutil.move(comFolderPathMain + "aig-aitraffic-modelbehavior\\", githubFolderPath) #copy aig-aitraffic-modelbehavior
 
     for name in componentFolderNames:
         print("moving " + comFolderPathMain + "aig-aitraffic-oci-beta\\" + name + " to " + githubFolderPath + "aig-aitraffic-oci-beta\\" + name )
@@ -46,9 +46,9 @@ def copyFiles():
 
     #copy back to commnunity
     print("moving files back to " + comFolderPathMain)
-    shutil.move(githubFolderPath + "aig-aitraffic-effects\\", comFolderPathMain)
-    shutil.move(githubFolderPath + "aig-aitraffic-modelbehavior\\", comFolderPathMain)
-    #shutil.move(githubFolderPath + "aig-aitraffic-oci-beta\\", comFolderPathMain)
+    #NO LONGER NEEDED? shutil.move(githubFolderPath + "aig-aitraffic-effects\\", comFolderPathMain)
+    #NO LONGER NEEDED? shutil.move(githubFolderPath + "aig-aitraffic-modelbehavior\\", comFolderPathMain)
+    #DOESNT WORK FOR NOW - shutil.move(githubFolderPath + "aig-aitraffic-oci-beta\\", comFolderPathMain)
     print("moved files back to " + comFolderPathMain)
     print("#############################################################################")
 

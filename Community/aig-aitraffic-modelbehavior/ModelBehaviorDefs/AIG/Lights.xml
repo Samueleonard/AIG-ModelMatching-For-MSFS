@@ -5,11 +5,10 @@
 	<Template Name="AIG_LightsOverride">
 	
 		<!-- Logo Light -->
-
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>60</FREQUENCY>
             <UPDATE_CODE>
-				-500 10200 (A:PLANE ALT ABOVE GROUND, feet) rng (&gt;K:LOGO_LIGHTS_SET)
+				(E:TIME OF DAY, number) 1 != (A:PLANE ALTITUDE, feet) 10000 &lt; and (&gt;K:LOGO_LIGHTS_SET)
             </UPDATE_CODE>
         </UseTemplate>
 
@@ -25,7 +24,7 @@
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>60</FREQUENCY>
             <UPDATE_CODE>
-				1 10000 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng (A:ON ANY RUNWAY, bool) or (&gt;K:2:LANDING_LIGHTS_SET)
+				(A:PLANE ALTITUDE, feet) 10000 &lt; (A:GROUND VELOCITY, knots) 27 &gt; and (&gt;K:2:LANDING_LIGHTS_SET)
             </UPDATE_CODE>
         </UseTemplate>
 
@@ -33,7 +32,7 @@
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>60</FREQUENCY>
             <UPDATE_CODE>
-				(A:VELOCITY BODY Z, feet per second) 0.1 &gt; (A:TURB ENG N1:1, Percent) 1 &gt; or (&gt;K:2:BEACON_LIGHTS_SET)
+				(A:GROUND VELOCITY, knots) 0 != (A:ENG COMBUSTION:1, bool) or (&gt;K:2:BEACON_LIGHTS_SET)
             </UPDATE_CODE>
         </UseTemplate>
 
@@ -41,7 +40,15 @@
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>60</FREQUENCY>
             <UPDATE_CODE>
-				(A:SIM ON GROUND, bool) 1 == (A:VELOCITY BODY Z, knots) 1 &gt; and (A:ON ANY RUNWAY, bool) 0 == and (&gt;K:2:TAXI_LIGHTS_SET)
+				(A:SIM ON GROUND, bool) 1 == (A:GROUND VELOCITY, knots) 27 &lt; and (A:ENG COMBUSTION:1, bool) and (&gt;K:2:TAXI_LIGHTS_SET)
+            </UPDATE_CODE>
+        </UseTemplate>
+	
+		<!-- Runway Turnoff Lights -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(E:TIME OF DAY, number) 3 == (A:SIM ON GROUND, bool) 1 == and 10 27 (A:GROUND VELOCITY, knots) rng and (&gt;K:2:PEDESTRAL_LIGHTS_SET)
             </UPDATE_CODE>
         </UseTemplate>
 
@@ -49,7 +56,15 @@
         <UseTemplate Name="ASOBO_GT_Update">
             <FREQUENCY>60</FREQUENCY>
             <UPDATE_CODE>
-				(A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &gt; (A:ON ANY RUNWAY, bool) or (&gt;K:2:STROBES_SET)
+				(E:TIME OF DAY, number) 3 == if{ (A:AMBIENT IN CLOUD, bool) 0 == (A:GROUND VELOCITY, knots) 21 &gt; and (&gt;K:2:STROBES_SET) } els{ (A:GROUND VELOCITY, knots) 21 &gt; (&gt;K:2:STROBES_SET) }
+            </UPDATE_CODE>
+        </UseTemplate>
+
+		<!-- Wing Light -->
+        <UseTemplate Name="ASOBO_GT_Update">
+            <FREQUENCY>60</FREQUENCY>
+            <UPDATE_CODE>
+				(E:TIME OF DAY, number) 1 != if{ (A:PLANE ALTITUDE, feet) 7000 &lt; 24 200 (A:GROUND VELOCITY, knots) rng and (&gt;K:WING_LIGHTS_SET) } els{ (A:AMBIENT PRECIP STATE, enum) 4 == or (A:AMBIENT PRECIP STATE, enum) 8 == or (A:AMBIENT VISIBILITY, Meters) 2000 &lt; or (&gt;K:WING_LIGHTS_SET) }
             </UPDATE_CODE>
         </UseTemplate>
 

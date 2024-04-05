@@ -8,9 +8,15 @@
 	</Component>
 
 	<Component ID="Landing_Gear">
-		<UseTemplate Name="AIG_Gear_Center_Template"/>
-		<UseTemplate Name="AIG_Gear_Left_Template"/>
-		<UseTemplate Name="AIG_Gear_Right_Template"/>
+		<UseTemplate Name="AIG_Gear_Center_Template">
+			<RETRACT_TIME>11</RETRACT_TIME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Left_Template">
+			<RETRACT_TIME>7</RETRACT_TIME>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Gear_Right_Template">
+			<RETRACT_TIME>7</RETRACT_TIME>
+		</UseTemplate>
 	</Component>
 
 	<Component ID="Wheels">
