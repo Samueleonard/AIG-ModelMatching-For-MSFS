@@ -32,7 +32,7 @@ def copyFiles():
 
     os.startfile(os.getenv('LOCALAPPDATA') + "\\GitHubDesktop\\GitHubDesktop.exe")
     
-    input("push changes to github then press enter to continue")
+    input("push changes to github or ZIP then press enter to continue")
     print("################")
 
     #copy back to commnunity
