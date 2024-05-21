@@ -4,7 +4,7 @@
 **THIS PACK IS RARELY UPDATED AS OF MARCH 2024.** I may look at revisiting it from time to time to keep it up to date with any big AIG changes.
 
 
-Below is an AIG install for MSFS ONLY EXCLUDING offline AI flight plans.
+Below is an AIG install for MSFS ONLY - EXCLUDING offline AI flight plans.
   
 
 ## <b>INSTALL</b>
@@ -21,7 +21,7 @@ If using VATSIM, the VMR file is included, just select it through the 'custom ru
 
 ## MANUAL UPDATES
 
-As I will rarely be updating this pack as of march 2024 you may have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/software/))
+As I will rarely be updating this pack as of march 2024 you may have to use the AIG manager tool to manually update (available [here](https://www.alpha-india.net/software/)) - no support is provided for this and i cannot guarentee it will work
 
 ## USAGE WITH FSLiveTrafficLiveries (FSLTL)
 
