@@ -25,213 +25,141 @@
 		<Component ID="Engine1">
 			<Parameters Type="Override">
 				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>40</STILL_NODE_ID>
+				<STILL_2_NODE_ID>41</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>42</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>43</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>72</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>73</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>74</STILL_7_NODE_ID>
+				<STILL_8_NODE_ID>75</STILL_8_NODE_ID>
 				<SLOW_NODE_ID>77</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>78</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>79</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>80</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>81</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>82</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>83</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>84</SLOW_8_NODE_ID>
 				<BLURRED_NODE_ID>85</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>41</STILL_NODE_ID>
-				<SLOW_NODE_ID>78</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>86</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>42</STILL_NODE_ID>
-				<SLOW_NODE_ID>79</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>87</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>43</STILL_NODE_ID>
-				<SLOW_NODE_ID>80</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>88</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>72</STILL_NODE_ID>
-				<SLOW_NODE_ID>81</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>89</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>73</STILL_NODE_ID>
-				<SLOW_NODE_ID>82</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>90</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>74</STILL_NODE_ID>
-				<SLOW_NODE_ID>83</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>91</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>8</ID>
-				<STILL_NODE_ID>75</STILL_NODE_ID>
-				<SLOW_NODE_ID>84</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>92</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>86</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>87</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>88</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>89</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>90</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>91</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>92</BLURRED_8_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<Parameters Type="Override">
 				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>45</STILL_NODE_ID>
+				<STILL_2_NODE_ID>46</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>47</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>48</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>49</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>50</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>51</STILL_7_NODE_ID>
+				<STILL_8_NODE_ID>52</STILL_8_NODE_ID>
 				<SLOW_NODE_ID>94</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>95</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>96</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>97</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>98</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>99</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>100</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>101</SLOW_8_NODE_ID>
 				<BLURRED_NODE_ID>102</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>46</STILL_NODE_ID>
-				<SLOW_NODE_ID>95</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>103</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>47</STILL_NODE_ID>
-				<SLOW_NODE_ID>96</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>104</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>48</STILL_NODE_ID>
-				<SLOW_NODE_ID>97</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>105</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>49</STILL_NODE_ID>
-				<SLOW_NODE_ID>98</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>106</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>50</STILL_NODE_ID>
-				<SLOW_NODE_ID>99</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>107</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>51</STILL_NODE_ID>
-				<SLOW_NODE_ID>100</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>108</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>8</ID>
-				<STILL_NODE_ID>52</STILL_NODE_ID>
-				<SLOW_NODE_ID>101</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>109</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>103</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>104</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>105</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>106</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>107</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>108</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>109</BLURRED_8_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine3">
 			<Parameters Type="Override">
 				<ENGINE_ID>3</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>54</STILL_NODE_ID>
+				<STILL_2_NODE_ID>55</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>56</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>57</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>58</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>59</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>60</STILL_7_NODE_ID>
+				<STILL_8_NODE_ID>61</STILL_8_NODE_ID>
 				<SLOW_NODE_ID>111</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>112</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>113</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>114</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>115</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>116</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>117</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>118</SLOW_8_NODE_ID>
 				<BLURRED_NODE_ID>119</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>55</STILL_NODE_ID>
-				<SLOW_NODE_ID>112</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>120</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>56</STILL_NODE_ID>
-				<SLOW_NODE_ID>113</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>121</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>57</STILL_NODE_ID>
-				<SLOW_NODE_ID>114</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>122</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>58</STILL_NODE_ID>
-				<SLOW_NODE_ID>115</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>123</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>59</STILL_NODE_ID>
-				<SLOW_NODE_ID>116</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>124</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>60</STILL_NODE_ID>
-				<SLOW_NODE_ID>117</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>125</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>8</ID>
-				<STILL_NODE_ID>61</STILL_NODE_ID>
-				<SLOW_NODE_ID>118</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>126</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>120</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>121</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>122</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>123</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>124</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>125</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>126</BLURRED_8_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine4">
 			<Parameters Type="Override">
 				<ENGINE_ID>4</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>63</STILL_NODE_ID>
+				<STILL_2_NODE_ID>64</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>65</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>66</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>67</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>68</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>69</STILL_7_NODE_ID>
+				<STILL_8_NODE_ID>70</STILL_8_NODE_ID>
 				<SLOW_NODE_ID>128</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>129</SLOW_2_NODE_ID>
+				<SLOW_3_NODE_ID>130</SLOW_3_NODE_ID>
+				<SLOW_4_NODE_ID>131</SLOW_4_NODE_ID>
+				<SLOW_5_NODE_ID>132</SLOW_5_NODE_ID>
+				<SLOW_6_NODE_ID>133</SLOW_6_NODE_ID>
+				<SLOW_7_NODE_ID>134</SLOW_7_NODE_ID>
+				<SLOW_8_NODE_ID>135</SLOW_8_NODE_ID>
 				<BLURRED_NODE_ID>136</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>64</STILL_NODE_ID>
-				<SLOW_NODE_ID>129</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>137</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>65</STILL_NODE_ID>
-				<SLOW_NODE_ID>130</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>138</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>66</STILL_NODE_ID>
-				<SLOW_NODE_ID>131</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>139</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>67</STILL_NODE_ID>
-				<SLOW_NODE_ID>132</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>140</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>68</STILL_NODE_ID>
-				<SLOW_NODE_ID>133</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>141</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>69</STILL_NODE_ID>
-				<SLOW_NODE_ID>134</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>142</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>8</ID>
-				<STILL_NODE_ID>70</STILL_NODE_ID>
-				<SLOW_NODE_ID>135</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>143</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>137</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>138</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>139</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>140</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>141</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>142</BLURRED_7_NODE_ID>
+				<BLURRED_8_NODE_ID>143</BLURRED_8_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
