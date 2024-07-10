@@ -23,81 +23,49 @@
 		<Component ID="Engine1">
 			<Parameters Type="Override">
 				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>7</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>7</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>56</STILL_NODE_ID>
+				<STILL_2_NODE_ID>57</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>58</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>59</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>60</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>61</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>62</STILL_7_NODE_ID>
 				<BLURRED_NODE_ID>32</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>57</STILL_NODE_ID>
-				<BLURRED_NODE_ID>33</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>58</STILL_NODE_ID>
-				<BLURRED_NODE_ID>34</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>59</STILL_NODE_ID>
-				<BLURRED_NODE_ID>35</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>60</STILL_NODE_ID>
-				<BLURRED_NODE_ID>36</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>61</STILL_NODE_ID>
-				<BLURRED_NODE_ID>37</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>62</STILL_NODE_ID>
-				<BLURRED_NODE_ID>38</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>33</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>34</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>35</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>36</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>37</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>38</BLURRED_7_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<Parameters Type="Override">
 				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>7</STILL_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>7</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>48</STILL_NODE_ID>
+				<STILL_2_NODE_ID>49</STILL_2_NODE_ID>
+				<STILL_3_NODE_ID>50</STILL_3_NODE_ID>
+				<STILL_4_NODE_ID>51</STILL_4_NODE_ID>
+				<STILL_5_NODE_ID>52</STILL_5_NODE_ID>
+				<STILL_6_NODE_ID>53</STILL_6_NODE_ID>
+				<STILL_7_NODE_ID>54</STILL_7_NODE_ID>
 				<BLURRED_NODE_ID>40</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>49</STILL_NODE_ID>
-				<BLURRED_NODE_ID>41</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>3</ID>
-				<STILL_NODE_ID>50</STILL_NODE_ID>
-				<BLURRED_NODE_ID>42</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>4</ID>
-				<STILL_NODE_ID>51</STILL_NODE_ID>
-				<BLURRED_NODE_ID>43</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>5</ID>
-				<STILL_NODE_ID>52</STILL_NODE_ID>
-				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>6</ID>
-				<STILL_NODE_ID>53</STILL_NODE_ID>
-				<BLURRED_NODE_ID>45</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-				<ID>7</ID>
-				<STILL_NODE_ID>54</STILL_NODE_ID>
-				<BLURRED_NODE_ID>46</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>41</BLURRED_2_NODE_ID>
+				<BLURRED_3_NODE_ID>42</BLURRED_3_NODE_ID>
+				<BLURRED_4_NODE_ID>43</BLURRED_4_NODE_ID>
+				<BLURRED_5_NODE_ID>44</BLURRED_5_NODE_ID>
+				<BLURRED_6_NODE_ID>45</BLURRED_6_NODE_ID>
+				<BLURRED_7_NODE_ID>46</BLURRED_7_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

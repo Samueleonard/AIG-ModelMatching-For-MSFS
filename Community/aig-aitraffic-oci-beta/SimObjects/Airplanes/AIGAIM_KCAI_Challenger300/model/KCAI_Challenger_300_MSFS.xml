@@ -20,35 +20,35 @@
 		<Component ID="Engine1">
 			<Parameters Type="Override">
 				<ENGINE_ID>1</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>3</STILL_NODE_ID>
+				<STILL_2_NODE_ID>5</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>49</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>74</SLOW_2_NODE_ID>
 				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>5</STILL_NODE_ID>
-				<SLOW_NODE_ID>74</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>76</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>76</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
 			<Parameters Type="Override">
 				<ENGINE_ID>2</ENGINE_ID>
+				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
 			</Parameters>
 			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
 				<ID>1</ID>
 				<STILL_NODE_ID>2</STILL_NODE_ID>
+				<STILL_2_NODE_ID>4</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>62</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>87</SLOW_2_NODE_ID>
 				<BLURRED_NODE_ID>63</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>4</STILL_NODE_ID>
-				<SLOW_NODE_ID>87</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>88</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>88</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
