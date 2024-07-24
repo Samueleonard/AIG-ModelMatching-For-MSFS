@@ -2,6 +2,7 @@
 	<VisualEffect File="engine-smoke_cold-start"/>
 	<VisualEffect File="contrail-ribbon"/>
 	<VisualEffect File="jetheat"/>
+	<VisualEffect File="engine-smoke"/>
 	<VisualEffect File="apu-exhaust-heat"/>
 	<VisualEffect File="contrail"/>
 	<VisualEffect File="reverser-spray"/>

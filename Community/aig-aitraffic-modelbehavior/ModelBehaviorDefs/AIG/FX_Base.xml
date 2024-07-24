@@ -1,9 +1,9 @@
 <ModelBehaviors>
-	<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
 	
 <!-- Landing FX -->
 	
-	<Template Name = "AIG_WET_LANDING_FX">
+	<Template Name="AIG_WET_LANDING_FX">
 		<Parameters Type="Default">
 			<FX_GUID>{0915D0C5-F0B3-4EAD-8D96-08FF2F6F0057}</FX_GUID>
 			<FX_NAME>LANDING_GR_LG_WET</FX_NAME>
@@ -17,14 +17,14 @@
 			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
 			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
 		</Parameters>
-		<Component ID="FX_LANDING_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+		<Component ID="FX_LANDING_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 4 == (A:GROUND VELOCITY, knot) 8 &gt; and and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
 
-	<Template Name = "AIG_SMOKE_LANDING_FX">
+	<Template Name="AIG_SMOKE_LANDING_FX">
 		<Parameters Type="Default"> 
 			<FX_GUID>{C9747EAE-5970-477A-81D7-2FC96CE0C3EA}</FX_GUID>
 			<FX_NAME>LANDING_GR_LG_SMOKE</FX_NAME>
@@ -43,7 +43,7 @@
 		</Component>
 	</Template>
 
-	<Template Name = "AIG_DUST_LANDING_FX">
+	<Template Name="AIG_DUST_LANDING_FX">
 		<Parameters Type="Default">
 			<FX_GUID>{B563B75A-F2F0-4F09-8617-BE9F173BC8FB}</FX_GUID>
 			<FX_NAME>LANDING_GR_DUST</FX_NAME>
@@ -52,14 +52,14 @@
 			<ENABLE_SURFACE_TYPE_0>SAND</ENABLE_SURFACE_TYPE_0>
 			<ENABLE_SURFACE_TYPE_1>DIRT</ENABLE_SURFACE_TYPE_1>
 		</Parameters>
-		<Component ID="FX_LANDING_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+		<Component ID="FX_LANDING_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:GROUND VELOCITY, knot) 5 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
 	
-	<Template Name = "AIG_GRASS_LANDING_FX">
+	<Template Name="AIG_GRASS_LANDING_FX">
 		<Parameters Type="Default">
 			<FX_GUID>{F3BD2906-EF27-406B-BB55-02FF0BBCEF01}</FX_GUID>
 			<FX_NAME>LANDING_GR_GRASS</FX_NAME>
@@ -67,14 +67,14 @@
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<ENABLE_SURFACE_TYPE_0>GRASS</ENABLE_SURFACE_TYPE_0>
 		</Parameters>
-		<Component ID="FX_LANDING_GRASS_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+		<Component ID="FX_LANDING_GRASS_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:GROUND VELOCITY, knot) 0.1 &gt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
 
-	<Template Name = "AIG_SNOW_LANDING_FX">
+	<Template Name="AIG_SNOW_LANDING_FX">
 		<Parameters Type="Default">
 			<FX_GUID>{883A007E-4DEE-4D3D-8081-55CC462986CA}</FX_GUID>
 			<FX_NAME>LANDING_GR_LG_SNOW</FX_NAME>
@@ -82,14 +82,14 @@
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<ENABLE_SURFACE_TYPE_0>SNOW</ENABLE_SURFACE_TYPE_0>
 		</Parameters>
-		<Component ID="FX_LANDING_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+		<Component ID="FX_LANDING_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:GROUND VELOCITY, knot) 8 &gt; (A:SURFACE CONDITION, enum) 1 != and and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
 
-	<Template Name = "AIG_WATER_GR_LANDING_FX">
+	<Template Name="AIG_WATER_GR_LANDING_FX">
 		<Parameters Type="Default">
 			<FX_GUID>{BA223A84-9E83-4A58-B7D7-0C9CBA4E1627}</FX_GUID>
 			<FX_NAME>LANDING_GR_WATER</FX_NAME>
@@ -103,7 +103,7 @@
 			<ENABLE_SURFACE_TYPE_5>OCEAN</ENABLE_SURFACE_TYPE_5>
 			<ENABLE_SURFACE_TYPE_6>WATER_FSX</ENABLE_SURFACE_TYPE_6>
 		</Parameters>
-		<Component ID="FX_LANDING_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+		<Component ID="FX_LANDING_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:GEAR WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
 			</UseTemplate>
@@ -112,11 +112,11 @@
 
 <!-- APU Exhaust Heat -->
 
-	<Template Name = "AIG_APU_Heat">
+	<Template Name="AIG_APU_Heat">
 		<Parameters Type="Default">
 			<FX_GUID>{97DA78A5-FB16-407A-B267-E6723416C343}</FX_GUID>
 		</Parameters>
-		<Component ID="APU_FX"  Node="APU">
+		<Component ID="APU_FX" Node="APU">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:APU PCT RPM, rpm) 0 &gt;</FX_CODE>
 			</UseTemplate>
@@ -125,31 +125,33 @@
 
 <!-- Contrails -->
 
-	<Template Name = "AIG_Contrail">
+	<Template Name="AIG_Contrail">
 		<Parameters Type="Default">
 			<FX_GUID>{F33E754E-8555-4728-9D14-6326E3665E69}</FX_GUID>
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<FX_ENGINE_ID>0</FX_ENGINE_ID>
 			<TEMPERATURE>448</TEMPERATURE>
 			<ALTITUDE>2000</ALTITUDE>
+			<FX_GRAPH_PARAM_0>Blank, 0</FX_GRAPH_PARAM_0>
+			<FX_GRAPH_PARAM_1>RotationDirection, 5</FX_GRAPH_PARAM_1>
 		</Parameters>
-		<Component ID="Contrail_#FX_NODE#"  Node="#FX_NODE#">
+		<Component ID="Contrail_#FX_ENGINE_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) #TEMPERATURE# &lt; (A:PLANE ALT ABOVE GROUND, feet) #ALTITUDE# &gt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
 	
-	<Template Name = "AIG_ContrailRibbon">
+	<Template Name="AIG_Contrail_Ribbon">
 		<Parameters Type="Default">
 			<FX_GUID>{3B5E0A0B-D049-49E9-86E4-8F183CF69E1D}</FX_GUID>
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<FX_ENGINE_ID>0</FX_ENGINE_ID>
-			<FX_GRAPH_PARAM_0>FX_Duration, 150</FX_GRAPH_PARAM_0>
 			<TEMPERATURE>448</TEMPERATURE>
 			<ALTITUDE>2000</ALTITUDE>
+			<UseParametersFn Name="AIG_Contrail_Length_Parameters"/>
 		</Parameters>
-		<Component ID="ContrailRibbon_#FX_NODE#"  Node="#FX_NODE#">
+		<Component ID="Contrail_Ribbon_#FX_ENGINE_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) #TEMPERATURE# &lt; (A:PLANE ALT ABOVE GROUND, feet) #ALTITUDE# &gt; and</FX_CODE>
 			</UseTemplate>
@@ -158,13 +160,13 @@
 
 <!-- Jet Heat-->
 	
-	<Template Name = "AIG_Jet_Heat">
+	<Template Name="AIG_Jet_Heat">
 		<Parameters Type="Default">
 			<FX_GUID>{74D34C2A-60BF-44C3-A3EF-40DA206F44BA}</FX_GUID>
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<FX_ENGINE_ID>0</FX_ENGINE_ID>
 		</Parameters>
-		<Component ID="JetHeat_#FX_NODE#"  Node="#FX_NODE#">
+		<Component ID="JetHeat_#FX_ENGINE_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:GENERAL ENG COMBUSTION:#FX_ENGINE_ID#, Bool) 0 &gt;</FX_CODE>
 			</UseTemplate>
@@ -173,12 +175,13 @@
 
 <!-- Reverser Spray -->
 
-	<Template Name = "AIG_Reverse_Spray">
+	<Template Name="AIG_Reverse_Spray">
 		<Parameters Type="Default">
 			<FX_GUID>{4961C000-9901-44BF-8907-0198B5E4E3D5}</FX_GUID>
 			<FX_NODE>__NO_NODE__</FX_NODE>
+			<FX_ENGINE_ID>0</FX_ENGINE_ID>
 		</Parameters>
-		<Component ID="ReverseSpray_#FX_NODE#"  Node="#FX_NODE#">
+		<Component ID="ReverseSpray_#FX_ENGINE_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:SIM ON GROUND, bool) 1 == (A:GROUND VELOCITY, knots) 55 &gt; and (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and (A:SURFACE CONDITION, enum) 1 == and</FX_CODE>
 			</UseTemplate>
@@ -187,15 +190,33 @@
 
 <!-- Jet engine cold start smoke -->
 	
-	<Template Name = "AIG_EngineColdStart">
+	<Template Name="AIG_EngineColdStart">
 		<Parameters Type="Default">
 			<FX_GUID>{19E0C08B-26E7-4CA9-AF36-43A6BF368123}</FX_GUID>
 			<FX_NODE>__NO_NODE__</FX_NODE>
 			<FX_ENGINE_ID>0</FX_ENGINE_ID>
 		</Parameters>
-		<Component ID="ColdStart_#FX_NODE#"  Node="#FX_NODE#">
+		<Component ID="EngineColdStart_#FX_ENGINE_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="ASOBO_GT_FX">
 				<FX_CODE>(A:TURB ENG IGNITION SWITCH:#FX_ENGINE_ID#, bool) 1 == (A:TURB ENG N1:#FX_ENGINE_ID#, Percent) 2 &gt; and (A:TURB ENG N1:#FX_ENGINE_ID#, Percent) 12.5 &lt; and (A:TOTAL AIR TEMPERATURE:0, celsius) -20 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+<!-- Engine smoke -->
+	
+	<Template Name="AIG_EngineSmoke">
+		<Parameters Type="Default">
+			<FX_GUID>{A12676F6-74FA-4FB7-9B12-363EC026610A}</FX_GUID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<FX_ENGINE_ID>0</FX_ENGINE_ID>
+			<FX_GRAPH_PARAM_0>Blank, 0</FX_GRAPH_PARAM_0>
+			<FX_GRAPH_PARAM_1>RotationDirection, -1</FX_GRAPH_PARAM_1>
+			<AIRCRAFT_AGE>2000</AIRCRAFT_AGE>
+		</Parameters>
+		<Component ID="EngineSmoke_#FX_ENGINE_ID#" Node="#FX_NODE#">
+			<UseTemplate Name="ASOBO_GT_FX">
+				<FX_CODE>(A:PLANE ALT ABOVE GROUND, feet) 1000 &lt; (A:TURB ENG N1:#FX_ENGINE_ID#, percent) 75 &gt; and #AIRCRAFT_AGE# 1985 &lt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>

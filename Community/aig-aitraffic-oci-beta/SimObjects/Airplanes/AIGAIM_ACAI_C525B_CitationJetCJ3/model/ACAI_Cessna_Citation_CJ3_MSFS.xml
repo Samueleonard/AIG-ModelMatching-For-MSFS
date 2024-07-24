@@ -7,13 +7,9 @@
 		<LOD minSize="1" ModelFile="ACAI_Cessna_Citation_CJ3_MSFS.gltf"/>
 		<LOD minSize="0.5" ModelFile="ACAI_Cessna_Citation_CJ3_MSFS.gltf"/>
 	</LODS>
-	
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\ACAI_Cessna_CitationCJ3.xml"/>
-	
-	<Component ID="ACAI_CitationCJ3_Templates">
-		<UseTemplate Name="ACAI_CitationCJ3_Common"/>
-	</Component>
 
-  </Behaviors>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\ACAI_Cessna_CitationCJ3.xml"/>
+	</Behaviors>
+
 </ModelInfo>

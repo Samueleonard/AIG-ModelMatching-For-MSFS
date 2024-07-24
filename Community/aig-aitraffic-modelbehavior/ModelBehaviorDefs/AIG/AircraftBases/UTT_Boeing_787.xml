@@ -1,11 +1,8 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 <Template Name="UTT_Boeing_787_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,17 +20,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>tire_anim</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>3.333333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>tire_anim</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>tire_anim</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 
@@ -560,24 +557,21 @@ if{ (A:SPOILERS HANDLE POSITION, percent) } els{
 	</Component>
 
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
 				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
 				<STILL_NODE_ID>prop0_still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>engine_blade_0</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
 				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
 				<STILL_NODE_ID>prop1_still</STILL_NODE_ID>
 				<BLURRED_NODE_ID>engine_blade_1</BLURRED_NODE_ID>
 			</UseTemplate>
@@ -587,13 +581,11 @@ if{ (A:SPOILERS HANDLE POSITION, percent) } els{
 	<Component ID="Parts_Visibility">
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LogoLight</PART>
-			<NODE_PREFIX></NODE_PREFIX>
 			<NODE_ID>LIGHT_Logolight_l</NODE_ID>
 			<NODE_ID_2>LIGHT_Logolight_r</NODE_ID_2>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_PREFIX></NODE_PREFIX>
 			<NODE_ID>LIGHT_landing_nose_left</NODE_ID>
 			<NODE_ID_2>LIGHT_landing_nose_right</NODE_ID_2>
 		</UseTemplate>

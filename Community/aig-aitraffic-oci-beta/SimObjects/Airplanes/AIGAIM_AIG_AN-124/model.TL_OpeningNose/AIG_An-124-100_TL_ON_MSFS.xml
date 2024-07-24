@@ -2,132 +2,21 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="50" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD0.gltf"/>
-		<LOD minSize="40" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD1.gltf"/>
-		<LOD minSize="35" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD2.gltf"/>
-		<LOD minSize="30" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD3.gltf"/>
-		<LOD minSize="25" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD4.gltf"/>
-		<LOD minSize="20" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD5.gltf"/>
-		<LOD minSize="15" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD6.gltf"/>
-		<LOD minSize="10" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD7.gltf"/>
-		<LOD minSize="5" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD8.gltf"/>
-		<LOD minSize="1" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD9.gltf"/>
+		<LOD minSize="90" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD0.gltf"/>
+		<LOD minSize="80" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD1.gltf"/>
+		<LOD minSize="70" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD2.gltf"/>
+		<LOD minSize="60" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD3.gltf"/>
+		<LOD minSize="50" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD4.gltf"/>
+		<LOD minSize="40" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD5.gltf"/>
+		<LOD minSize="30" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD6.gltf"/>
+		<LOD minSize="20" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD7.gltf"/>
+		<LOD minSize="10" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD8.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD9.gltf"/>
 		<LOD minSize="0.5" ModelFile="AIG_An-124-100_TL_ON_MSFS_LOD10.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Antonov_An124.xml"/>
-	
-	<Component ID="AIG_Antonov_An124_Templates">
-		<UseTemplate Name="AIG_Antonov_An124_Common"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Antonov_An124.xml"/>
+	</Behaviors>
 
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>553</STILL_NODE_ID>
-				<STILL_2_NODE_ID>554</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>555</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>556</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>557</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>558</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>559</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>1399</STILL_8_NODE_ID>
-				<BLURRED_NODE_ID>560</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>561</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>562</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>563</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>564</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>565</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>566</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>567</BLURRED_8_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>537</STILL_NODE_ID>
-				<STILL_2_NODE_ID>538</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>539</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>540</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>541</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>542</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>543</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>1397</STILL_8_NODE_ID>
-				<BLURRED_NODE_ID>544</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>545</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>546</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>547</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>548</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>549</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>550</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>551</BLURRED_8_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine3">
-			<Parameters Type="Override">
-				<ENGINE_ID>3</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>521</STILL_NODE_ID>
-				<STILL_2_NODE_ID>522</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>523</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>524</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>525</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>526</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>527</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>1395</STILL_8_NODE_ID>
-				<BLURRED_NODE_ID>528</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>529</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>530</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>531</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>532</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>533</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>534</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>535</BLURRED_8_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine4">
-			<Parameters Type="Override">
-				<ENGINE_ID>4</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>8</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>505</STILL_NODE_ID>
-				<STILL_2_NODE_ID>506</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>507</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>508</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>509</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>510</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>511</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>1393</STILL_8_NODE_ID>
-				<BLURRED_NODE_ID>512</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>513</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>514</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>515</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>516</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>517</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>518</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>519</BLURRED_8_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
-
-  </Behaviors>
 </ModelInfo>

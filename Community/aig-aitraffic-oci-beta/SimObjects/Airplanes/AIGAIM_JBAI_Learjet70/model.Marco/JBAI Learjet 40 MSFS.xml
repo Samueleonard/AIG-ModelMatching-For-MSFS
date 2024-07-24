@@ -2,60 +2,17 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="30" ModelFile="JBAI Learjet 40 MSFS_LOD0.gltf"/>
-		<LOD minSize="20" ModelFile="JBAI Learjet 40 MSFS_LOD1.gltf"/>
-		<LOD minSize="15" ModelFile="JBAI Learjet 40 MSFS_LOD2.gltf"/>
-		<LOD minSize="10" ModelFile="JBAI Learjet 40 MSFS_LOD3.gltf"/>
-		<LOD minSize="5" ModelFile="JBAI Learjet 40 MSFS_LOD4.gltf"/>
-		<LOD minSize="1" ModelFile="JBAI Learjet 40 MSFS_LOD5.gltf"/>
+		<LOD minSize="35" ModelFile="JBAI Learjet 40 MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="JBAI Learjet 40 MSFS_LOD1.gltf"/>
+		<LOD minSize="25" ModelFile="JBAI Learjet 40 MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="JBAI Learjet 40 MSFS_LOD3.gltf"/>
+		<LOD minSize="15" ModelFile="JBAI Learjet 40 MSFS_LOD4.gltf"/>
+		<LOD minSize="3" ModelFile="JBAI Learjet 40 MSFS_LOD5.gltf"/>
 		<LOD minSize="0.5" ModelFile="JBAI Learjet 40 MSFS_LOD6.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\JBAI_Learjet.xml"/>
-	
-	<Component ID="JBAI_Learjet_Templates">
-		<UseTemplate Name="JBAI_Learjet_Common"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\JBAI_Learjet.xml"/>
+	</Behaviors>
 
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>55</STILL_NODE_ID>
-				<STILL_2_NODE_ID>56</STILL_2_NODE_ID>
-				<BLURRED_NODE_ID>52</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>53</BLURRED_2_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>61</STILL_NODE_ID>
-				<STILL_2_NODE_ID>62</STILL_2_NODE_ID>
-				<BLURRED_NODE_ID>58</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>59</BLURRED_2_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
-
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>node26</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
-
-  </Behaviors>
 </ModelInfo>

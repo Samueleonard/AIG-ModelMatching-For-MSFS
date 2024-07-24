@@ -3,6 +3,7 @@
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
 	<Include RelativeFile="Animations.xml"/>
 	<Include RelativeFile="AnimationsComplex.xml"/>
+	<Include RelativeFile="Customization.xml"/>
 	<Include RelativeFile="EngineEffects.xml"/>
 	<Include RelativeFile="FX_Base.xml"/>
 	<Include RelativeFile="LandingFX.xml"/>

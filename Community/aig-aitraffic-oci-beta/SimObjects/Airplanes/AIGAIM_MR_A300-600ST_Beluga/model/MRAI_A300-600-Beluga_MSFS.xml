@@ -2,17 +2,13 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="10" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD0.gltf"/>
-		<LOD minSize="1" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD1.gltf"/>
+		<LOD minSize="45" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD0.gltf"/>
+		<LOD minSize="3" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD1.gltf"/>
 		<LOD minSize="0.5" ModelFile="MRAI_A300-600-Beluga_MSFS_LOD2.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\MRAI_Airbus_A306ST.xml"/>
-	
-	<Component ID="MRAI_Airbus_A306ST_Templates">
-		<UseTemplate Name="MRAI_Airbus_A306ST_Common"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\MRAI_Airbus_A306ST.xml"/>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

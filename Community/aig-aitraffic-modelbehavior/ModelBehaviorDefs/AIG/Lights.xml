@@ -1,8 +1,8 @@
 <ModelBehaviors>
-	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
-	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
 
-	<Template Name="AIG_LightsOverride">
+	<Component ID="Lights_Override">
+		<UpdateFrequencyPreset>Asobo_RareWhenSmall</UpdateFrequencyPreset>
 	
 		<!-- Logo Light -->
         <UseTemplate Name="ASOBO_GT_Update">
@@ -68,6 +68,6 @@
             </UPDATE_CODE>
         </UseTemplate>
 
-	</Template>
+	</Component>
 
 </ModelBehaviors>

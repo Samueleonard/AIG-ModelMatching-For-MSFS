@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="FAIB_Airbus_A320_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,24 +18,28 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>2.525</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.958333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.958333</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Nosewheel_Steering">
-		<UseTemplate Name="FAIB_Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
 			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_LENGTH>1000</ANIM_LENGTH>
 			<ANIM_SHARPNESS>400</ANIM_SHARPNESS>
+			<ANIM_CENTER>500</ANIM_CENTER>
+			<ANIM_MIN>0</ANIM_MIN>
+			<ANIM_MAX>1000</ANIM_MAX>
 		</UseTemplate>
 	</Component>
 
@@ -58,14 +57,33 @@
 	</Component>
 
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>5130</MAX_RPM>
 		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
-		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
+		<Component ID="Engine1">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX>N1_0_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX>N1_1_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
 	</Component>
 
 	<Component ID="FlapsSlats">
@@ -105,6 +123,163 @@
 		</UseTemplate>
 	</Component>
 
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>cabin_lights_VC</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+<Template Name="FAIB_A318_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A318_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A318_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A318_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC_0</NODE_ID>
+			<NODE_ID_2>light_landing_splash_vis_VC_1</NODE_ID_2>
+			<NODE_ID_3>light_landing_splash_vis_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
 </Template>
+
+<Template Name="FAIB_A319_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A319_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A319_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A319_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC_0</NODE_ID>
+			<NODE_ID_2>light_landing_splash_vis_VC_1</NODE_ID_2>
+			<NODE_ID_3>light_landing_splash_vis_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_A319S_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A319S_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A319S_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A319S_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC_0</NODE_ID>
+			<NODE_ID_2>light_landing_splash_vis_VC_1</NODE_ID_2>
+			<NODE_ID_3>light_landing_splash_vis_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_A320_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A320_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A320_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A320_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>general_light_VC_0</NODE_ID>
+			<NODE_ID_2>general_light_VC_1</NODE_ID_2>
+			<NODE_ID_3>general_light_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>custom_vis_FUEL_TANK_LEFT_TIP_CAPACITY_01_mcx_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_A320S_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A320S_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A320S_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A320S_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>general_light_VC_0</NODE_ID>
+			<NODE_ID_2>general_light_VC_1</NODE_ID_2>
+			<NODE_ID_3>general_light_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>custom_vis_FUEL_TANK_LEFT_TIP_CAPACITY_01_mcx_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_A321_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_A321_L_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_A321_R_Logo</NODE_ID_2>
+			<NODE_ID_3>custom_vis_TIME_OF_DAY_06_mcx_VC</NODE_ID_3>		
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_A321_Taxi_24</NODE_ID>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>general_light_VC_0</NODE_ID>
+			<NODE_ID_2>general_light_VC_1</NODE_ID_2>
+			<NODE_ID_3>general_light_VC_2</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>custom_vis_FUEL_TANK_CENTER_CAPACITY_01_mcx_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
 
 </ModelBehaviors>

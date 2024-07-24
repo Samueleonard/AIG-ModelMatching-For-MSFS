@@ -8,49 +8,13 @@
 		<LOD minSize="0.5" ModelFile="TBAI_MetroIII_4Blade_MSFS.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_FairchildSwearingen.xml"/>
-	
-	<Component ID="TBAI_FairchildSwearingen_Templates">
-		<UseTemplate Name="TBAI_FairchildSwearingen_Common"/>
-	</Component>
-
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>40</STILL_NODE_ID>
-				<STILL_2_NODE_ID>41</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>42</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>43</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>45</BLURRED_2_NODE_ID>
-			</UseTemplate>
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_FairchildSwearingen.xml"/>
+		
+		<Component ID="TBAI_FairchildSwearingen_Templates">
+			<UseTemplate Name="TBAI_FairchildSwearingen_Common"/>
 		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>47</STILL_NODE_ID>
-				<STILL_2_NODE_ID>48</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>49</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>50</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>52</BLURRED_2_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
 
-  </Behaviors>
+	</Behaviors>
+
 </ModelInfo>

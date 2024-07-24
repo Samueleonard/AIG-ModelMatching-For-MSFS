@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="AIG_DeHavilland_Dash8_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,17 +18,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>1.833333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>2.833333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>2.833333</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 
@@ -49,49 +44,40 @@
 	</Component>
 
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Propeller">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Propeller">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<MAX_RPM>1020</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
+			<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+			<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-				<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>prop1_still</STILL_NODE_ID>
-				<SLOW_NODE_ID>prop1_slow</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>prop1_spinner_slow</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>prop1_blur</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>prop1_spinner_blur</BLURRED_2_NODE_ID>
+				<NODE_PREFIX>prop1_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>spinner_slow</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>spinner_blur</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-				<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>prop2_still</STILL_NODE_ID>
-				<SLOW_NODE_ID>prop2_slow</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>prop2_spinner_slow</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>prop2_blur</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>prop2_spinner_blur</BLURRED_2_NODE_ID>
+				<NODE_PREFIX>prop2_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>spinner_slow</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>spinner_blur</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -112,15 +98,15 @@
 	<Component ID="Parts_Visibility">
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LogoLight</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_Logo_left</NODE_ID>
-			<NODE_ID_2>LIGHT_Logo_right</NODE_ID_2>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>Logo_left</NODE_ID>
+			<NODE_ID_2>Logo_right</NODE_ID_2>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_TAXI</NODE_ID>
-			<NODE_ID_2>LIGHT_landing_nose_gear_r</NODE_ID_2>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>TAXI</NODE_ID>
+			<NODE_ID_2>landing_nose_gear_r</NODE_ID_2>
 		</UseTemplate>
 	</Component>
 
@@ -144,8 +130,6 @@
 			<Medium>True</Medium>
 		</UseTemplate>
 	</Component>
-
-</Template>
 
 <Template Name="AIG_DeHavilland_Dash8-100">
 	<Component ID="Spoilers">

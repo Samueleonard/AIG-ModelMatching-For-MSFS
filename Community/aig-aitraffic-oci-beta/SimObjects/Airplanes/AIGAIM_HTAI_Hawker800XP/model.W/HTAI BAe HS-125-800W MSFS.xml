@@ -3,53 +3,18 @@
 
 	<LODS>
 		<LOD minSize="40" ModelFile="HTAI BAe HS-125-800W MSFS_LOD0.gltf"/>
-		<LOD minSize="30" ModelFile="HTAI BAe HS-125-800W MSFS_LOD1.gltf"/>
-		<LOD minSize="25" ModelFile="HTAI BAe HS-125-800W MSFS_LOD2.gltf"/>
-		<LOD minSize="20" ModelFile="HTAI BAe HS-125-800W MSFS_LOD3.gltf"/>
-		<LOD minSize="15" ModelFile="HTAI BAe HS-125-800W MSFS_LOD4.gltf"/>
-		<LOD minSize="10" ModelFile="HTAI BAe HS-125-800W MSFS_LOD5.gltf"/>
-		<LOD minSize="5" ModelFile="HTAI BAe HS-125-800W MSFS_LOD6.gltf"/>
-		<LOD minSize="1" ModelFile="HTAI BAe HS-125-800W MSFS_LOD7.gltf"/>
+		<LOD minSize="35" ModelFile="HTAI BAe HS-125-800W MSFS_LOD1.gltf"/>
+		<LOD minSize="30" ModelFile="HTAI BAe HS-125-800W MSFS_LOD2.gltf"/>
+		<LOD minSize="25" ModelFile="HTAI BAe HS-125-800W MSFS_LOD3.gltf"/>
+		<LOD minSize="20" ModelFile="HTAI BAe HS-125-800W MSFS_LOD4.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI BAe HS-125-800W MSFS_LOD5.gltf"/>
+		<LOD minSize="12" ModelFile="HTAI BAe HS-125-800W MSFS_LOD6.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI BAe HS-125-800W MSFS_LOD7.gltf"/>
 		<LOD minSize="0.5" ModelFile="HTAI BAe HS-125-800W MSFS_LOD8.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\HTAI_BritishAerospace125.xml"/>
-	
-	<Component ID="HTAI_BAe125_Templates">
-		<UseTemplate Name="HTAI_BAe125_Common"/>
-	</Component>
-	
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>59</STILL_NODE_ID>
-				<STILL_2_NODE_ID>60</STILL_2_NODE_ID>
-				<BLURRED_NODE_ID>67</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>68</BLURRED_2_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>55</STILL_NODE_ID>
-				<STILL_2_NODE_ID>56</STILL_2_NODE_ID>
-				<BLURRED_NODE_ID>63</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>64</BLURRED_2_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_BritishAerospace125.xml"/>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

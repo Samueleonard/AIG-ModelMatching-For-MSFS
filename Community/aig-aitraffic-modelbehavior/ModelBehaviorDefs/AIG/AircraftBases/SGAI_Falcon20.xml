@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="SGAI_Falcon20_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,17 +18,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>1.208333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>2.145833</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>2.145833</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 	
@@ -50,13 +45,10 @@
 	</Component>
 	
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>20000</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
@@ -86,12 +78,13 @@
 	</Component>
 	
 	<Component ID="Effects">
+		<Parameters Type="Override">
+			<AIRCRAFT_AGE>1963</AIRCRAFT_AGE>
+		</Parameters>
 		<UseTemplate Name="AIG_TwinEngineJet_Effects"/>
 		<UseTemplate Name="AIG_LandingFX">
 			<Medium>True</Medium>
 		</UseTemplate>
 	</Component>
-
-</Template>
 
 </ModelBehaviors>

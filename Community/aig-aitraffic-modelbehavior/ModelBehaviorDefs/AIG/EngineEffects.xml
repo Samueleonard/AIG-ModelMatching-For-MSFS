@@ -1,366 +1,277 @@
 <ModelBehaviors>
 
 	<Template Name="AIG_TwinEngineJet_Effects">
-		<Component ID="TwinEngineEffects">
-			<UseTemplate Name="AIG_Contrail">
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, -10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail2</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, 10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
 		</Component>
 	</Template>
 
 	<Template Name="AIG_TriEngineJet_Effects">
-		<Component ID="TriEngineEffects">
-			<UseTemplate Name="AIG_Contrail">
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, -10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail2</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, 0</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine3Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail3</FX_NODE>
 				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, 10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
 		</Component>
 	</Template>
 
 	<Template Name="AIG_QuadEngineJet_Effects">
-		<Component ID="QuadEngineEffects">
-			<UseTemplate Name="AIG_Contrail">
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, -15</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail2</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, -10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine3Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail3</FX_NODE>
 				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
+				<FX_GRAPH_PARAM_1>RotationDirection, 10</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine4Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail4</FX_NODE>
 				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Reverse_Spray">
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_EngineColdStart">
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, 15</FX_GRAPH_PARAM_1>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
 		</Component>
 	</Template>
 
+	<ParametersFn Name="Turboprop_Parameters">
+		<ReturnParameters>
+			<TEMPERATURE>419</TEMPERATURE>
+			<ALTITUDE>24000</ALTITUDE>
+		</ReturnParameters>
+	</ParametersFn>
+
 	<Template Name="AIG_SingleEngineTurboprop_Effects">
-		<Component ID="SingleEngineTurbopropEffects">
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, -0.5</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
 		</Component>
 	</Template>
 
 	<Template Name="AIG_TwinEngineTurboprop_Effects">
-		<Component ID="TwinEngineTurbopropEffects">
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+				<FX_GRAPH_PARAM_1>RotationDirection, -5</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+		</Component>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail2</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, 5</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
 		</Component>
 	</Template>
 
 	<Template Name="AIG_QuadEngineTurboprop_Effects">
-		<Component ID="QuadEngineTurbopropEffects">
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail3</FX_NODE>
-				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Jet_Heat">
-				<FX_NODE>contrail4</FX_NODE>
-				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, -7</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
 		</Component>
-	</Template>
-
-	<Template Name="AIG_SingleEnginePiston_Effects">
-		<Component ID="SingleEnginePistonEffects">
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
+				<FX_NODE>contrail2</FX_NODE>
+				<FX_ENGINE_ID>2</FX_ENGINE_ID>
+				<FX_GRAPH_PARAM_1>RotationDirection, -4</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine3Effects">
+			<Parameters Type="Default">
+				<FX_NODE>contrail3</FX_NODE>
+				<FX_ENGINE_ID>3</FX_ENGINE_ID>
+				<FX_GRAPH_PARAM_1>RotationDirection, 4</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
+		</Component>
+		<Component ID="Engine4Effects">
+			<Parameters Type="Default">
+				<FX_NODE>contrail4</FX_NODE>
+				<FX_ENGINE_ID>4</FX_ENGINE_ID>
+				<FX_GRAPH_PARAM_1>RotationDirection, 7</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Turboprop_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+			<UseTemplate Name="AIG_EngineSmoke"/>
+			<UseTemplate Name="AIG_Jet_Heat"/>
+			<UseTemplate Name="AIG_Reverse_Spray"/>
+			<UseTemplate Name="AIG_EngineColdStart"/>
 		</Component>
 	</Template>
 	
+	<ParametersFn Name="Piston_Parameters">
+		<ReturnParameters>
+			<TEMPERATURE>419</TEMPERATURE>
+			<ALTITUDE>24000</ALTITUDE>
+		</ReturnParameters>
+	</ParametersFn>
+
+	<Template Name="AIG_SingleEnginePiston_Effects">
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
+				<FX_NODE>contrail1</FX_NODE>
+				<FX_ENGINE_ID>1</FX_ENGINE_ID>
+				<FX_GRAPH_PARAM_1>RotationDirection, 0</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Piston_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+		</Component>
+	</Template>
+
 	<Template Name="AIG_TwinEnginePiston_Effects">
-		<Component ID="TwinEnginePistonEffects">
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+		<Component ID="Engine1Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail1</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Contrail">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
+				<FX_GRAPH_PARAM_1>RotationDirection, -3</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Piston_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
+		</Component>
+		<Component ID="Engine2Effects">
+			<Parameters Type="Default">
 				<FX_NODE>contrail2</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail1</FX_NODE>
-				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_ContrailRibbon">
-				<TEMPERATURE>419</TEMPERATURE>
-				<ALTITUDE>24000</ALTITUDE>
-				<FX_NODE>contrail2</FX_NODE>
-				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-			</UseTemplate>
+				<FX_GRAPH_PARAM_1>RotationDirection, 3</FX_GRAPH_PARAM_1>
+				<UseParametersFn Name="Piston_Parameters"/>
+			</Parameters>
+			<UseTemplate Name="AIG_Contrail"/>
+			<UseTemplate Name="AIG_Contrail_Ribbon"/>
 		</Component>
 	</Template>
 

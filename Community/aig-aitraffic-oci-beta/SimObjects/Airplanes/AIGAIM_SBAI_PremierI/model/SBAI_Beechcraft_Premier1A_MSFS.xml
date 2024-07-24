@@ -2,21 +2,17 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="30" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD0.gltf"/>
-		<LOD minSize="20" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD1.gltf"/>
-		<LOD minSize="15" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD2.gltf"/>
-		<LOD minSize="10" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD3.gltf"/>
-		<LOD minSize="5" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD4.gltf"/>
-		<LOD minSize="1" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD5.gltf"/>
+		<LOD minSize="35" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD0.gltf"/>
+		<LOD minSize="30" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD1.gltf"/>
+		<LOD minSize="25" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD2.gltf"/>
+		<LOD minSize="20" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD3.gltf"/>
+		<LOD minSize="15" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD4.gltf"/>
+		<LOD minSize="3" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD5.gltf"/>
 		<LOD minSize="0.5" ModelFile="SBAI_Beechcraft_Premier1A_MSFS_LOD6.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\SBAI_Beechcraft_Premier1A.xml"/>
-	
-	<Component ID="SBAI_Beechcraft_Premier1A_Templates">
-		<UseTemplate Name="SBAI_Beechcraft_Premier1A_Common"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\SBAI_Beechcraft_Premier1A.xml"/>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

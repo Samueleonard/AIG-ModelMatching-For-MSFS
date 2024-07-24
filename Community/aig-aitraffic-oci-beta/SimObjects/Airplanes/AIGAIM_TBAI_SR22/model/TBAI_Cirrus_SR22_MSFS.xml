@@ -8,12 +8,13 @@
 		<LOD minSize="0.5" ModelFile="TBAI_Cirrus_SR22_MSFS.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_Cirrus.xml"/>
-	
-	<Component ID="TBAI_Cirrus_Templates">
-		<UseTemplate Name="TBAI_Cirrus_Common"/>
-	</Component>
+	<Behaviors>
+		<Include ModelBehaviorFile="AIG\AircraftBases\TBAI_Cirrus.xml"/>
+		
+		<Component ID="TBAI_Cirrus_Templates">
+			<UseTemplate Name="TBAI_Cirrus_Common"/>
+		</Component>
 
-  </Behaviors>
+	</Behaviors>
+
 </ModelInfo>

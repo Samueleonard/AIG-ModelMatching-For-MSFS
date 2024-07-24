@@ -8,37 +8,8 @@
 		<LOD minSize="0.5" ModelFile="RFSL_Embraer_E175OW_MSFS_LOD1.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\RFSL_Embraer_EJet.xml"/>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\RFSL_Embraer_EJet.xml"/>
+	</Behaviors>
 
-	<Component ID="RFSL_Embraer_EJet_Templates">
-		<UseTemplate Name="RFSL_Embraer_EJet_Common"/>
-	</Component>
-
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>84</STILL_NODE_ID>
-				<SLOW_NODE_ID>85</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>86</BLURRED_NODE_ID>
-			</UseTemplate>
-		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>104</STILL_NODE_ID>
-				<SLOW_NODE_ID>105</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>106</BLURRED_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
-
-  </Behaviors>
 </ModelInfo>

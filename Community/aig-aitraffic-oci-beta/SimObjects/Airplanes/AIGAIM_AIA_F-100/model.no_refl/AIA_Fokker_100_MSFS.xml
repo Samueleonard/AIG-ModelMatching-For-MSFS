@@ -2,27 +2,15 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="30" ModelFile="AIA_Fokker_100_MSFS_LOD0.gltf"/>
-		<LOD minSize="20" ModelFile="AIA_Fokker_100_MSFS_LOD1.gltf"/>
-		<LOD minSize="10" ModelFile="AIA_Fokker_100_MSFS_LOD2.gltf"/>
-		<LOD minSize="1" ModelFile="AIA_Fokker_100_MSFS_LOD3.gltf"/>
+		<LOD minSize="50" ModelFile="AIA_Fokker_100_MSFS_LOD0.gltf"/>
+		<LOD minSize="35" ModelFile="AIA_Fokker_100_MSFS_LOD1.gltf"/>
+		<LOD minSize="22" ModelFile="AIA_Fokker_100_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="AIA_Fokker_100_MSFS_LOD3.gltf"/>
 		<LOD minSize="0.5" ModelFile="AIA_Fokker_100_MSFS_LOD4.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\AIA_Fokker.xml"/>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIA_Fokker.xml"/>
+	</Behaviors>
 
-	<Component ID="AIA_Fokker_Templates">
-		<UseTemplate Name="AIA_Fokker_Common"/>
-	</Component>
-
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>node5</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
-
-  </Behaviors>
 </ModelInfo>

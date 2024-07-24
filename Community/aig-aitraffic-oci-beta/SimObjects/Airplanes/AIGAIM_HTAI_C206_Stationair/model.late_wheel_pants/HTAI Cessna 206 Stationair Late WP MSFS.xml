@@ -2,54 +2,22 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="20" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD0.gltf"/>
-		<LOD minSize="15" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD1.gltf"/>
-		<LOD minSize="10" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD2.gltf"/>
-		<LOD minSize="5" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD3.gltf"/>
-		<LOD minSize="1" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD4.gltf"/>
+		<LOD minSize="25" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD1.gltf"/>
+		<LOD minSize="15" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD2.gltf"/>
+		<LOD minSize="10" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD4.gltf"/>
 		<LOD minSize="0.5" ModelFile="HTAI Cessna 206 Stationair Late WP MSFS_LOD5.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\HTAI_Cessna_SE.xml"/>
-	
-	<Component ID="HTAI_Cessna_SE_Templates">
-		<UseTemplate Name="HTAI_Cessna_SE_Common"/>
-		<UseTemplate Name="HTAI_Cessna_206_Flaps"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\HTAI_Cessna_SE.xml"/>
 
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>3</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>3</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>3</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>54</STILL_NODE_ID>
-				<STILL_2_NODE_ID>55</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>56</STILL_3_NODE_ID>
-				<SLOW_NODE_ID>25</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>27</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>29</SLOW_3_NODE_ID>
-				<BLURRED_NODE_ID>26</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>28</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>30</BLURRED_3_NODE_ID>
-			</UseTemplate>
+		<Component ID="HTAI_Cessna_SE_Templates">
+			<UseTemplate Name="HTAI_Cessna_206_Flaps"/>
+			<UseTemplate Name="HTAI_Cessna_GroundParts"/>
 		</Component>
-	</Component>
 
-	<Component ID="Parts_Visibility">
-		<UseTemplate Name="AIG_Visibility_Template">
-			<PART>GroundParts</PART>
-			<NODE_ID>1</NODE_ID>
-			<NODE_ID_2>2</NODE_ID_2>
-			<NODE_ID_3>3</NODE_ID_3>
-			<NODE_ID_4>4</NODE_ID_4>
-		</UseTemplate>
-	</Component>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

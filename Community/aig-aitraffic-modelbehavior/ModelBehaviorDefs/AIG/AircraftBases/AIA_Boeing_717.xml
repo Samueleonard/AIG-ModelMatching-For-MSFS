@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="AIA_Boeing_717_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,17 +18,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>2.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.416667</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.416667</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 	
@@ -54,61 +49,33 @@
 	</Component>
 	
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>6096</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>4</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>4</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>4</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>391</STILL_NODE_ID>
-				<STILL_2_NODE_ID>394</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>397</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>400</STILL_4_NODE_ID>
-				<SLOW_NODE_ID>392</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>395</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>398</SLOW_3_NODE_ID>
-				<SLOW_4_NODE_ID>401</SLOW_4_NODE_ID>
-				<BLURRED_NODE_ID>393</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>396</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>399</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>402</BLURRED_4_NODE_ID>
+				<NODE_PREFIX>prop0_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>4</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>4</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>4</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>378</STILL_NODE_ID>
-				<STILL_2_NODE_ID>381</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>384</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>387</STILL_4_NODE_ID>
-				<SLOW_NODE_ID>379</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>382</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>385</SLOW_3_NODE_ID>
-				<SLOW_4_NODE_ID>388</SLOW_4_NODE_ID>
-				<BLURRED_NODE_ID>380</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>383</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>386</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>389</BLURRED_4_NODE_ID>
+				<NODE_PREFIX>prop1_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<SLOW_NODE_ID>slow_VC</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -141,13 +108,12 @@
 	<Component ID="Parts_Visibility">
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LogoLight</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>logo_l</NODE_ID>
-			<NODE_ID_2>logo_r</NODE_ID_2>
+			<NODE_PREFIX>logo_</NODE_PREFIX>
+			<NODE_ID>l</NODE_ID>
+			<NODE_ID_2>r</NODE_ID_2>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_PREFIX></NODE_PREFIX>
 			<NODE_ID>landing_nose</NODE_ID>
 		</UseTemplate>
 	</Component>
@@ -175,12 +141,10 @@
 
 	<Component ID="Fuselage_DimCabin">
 		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>node13</NODE_ID>
+			<NODE_ID>cabin_lights_VC</NODE_ID>
 			<TIME_START>26100</TIME_START>
 			<TIME_END>80100</TIME_END>
 		</UseTemplate>
 	</Component>
-
-</Template>
 
 </ModelBehaviors>

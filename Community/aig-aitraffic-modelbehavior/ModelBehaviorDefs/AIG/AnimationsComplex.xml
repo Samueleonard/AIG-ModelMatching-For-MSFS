@@ -1,6 +1,5 @@
 <ModelBehaviors>
-	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
-	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
 
 
 <!-- Airbus A330 -->
@@ -9,60 +8,60 @@
 	<Template Name="AIG_A330_aileron_L_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_A330NEO_aileron_L_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) -1 * 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ (A:AILERON POSITION, percent) -1 * 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ (A:AILERON POSITION, percent) -1 * 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A330_aileron_R_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_A330NEO_aileron_R_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ (A:AILERON POSITION, percent) 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ (A:AILERON POSITION, percent) 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A330_aileron_L_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_A330NEO_aileron_L_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) -1 * 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; (A:AIRSPEED INDICATED, knots) 190 &lt; and if{ (A:AILERON POSITION, percent) -1 * 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ 50 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A330_aileron_R_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_A330NEO_aileron_R_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; (A:AIRSPEED INDICATED, knots) 190 &lt; and if{ (A:AILERON POSITION, percent) 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ 50 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 	
@@ -75,7 +74,7 @@
 			<ANIM_NAME>AIG_A330MRTT_drogue</ANIM_NAME>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
-			<AIG_TC>True</AIG_TC>
+			<UseParametersFn Name="AIG_TC_MRTT_Check_Parameters"/>
 		</Parameters>
 			<Condition Check="AIG_TC" Match="True">
 				<True>
@@ -88,7 +87,7 @@
 	</Template>
 
 	<Template Name="AIG_A330MRTT_AIGTC_Drogue">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
+		<UseTemplate Name="ASOBO_GT_Anim">
 			<ANIM_CODE>(A:FUEL TANK CENTER2 QUANTITY, Gallons) 1 == if{ 100 }
 			els{ 0 }
 			</ANIM_CODE>
@@ -96,7 +95,7 @@
 	</Template>
 
 	<Template Name="AIG_A330MRTT_NonAIGTC_Drogue">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
+		<UseTemplate Name="ASOBO_GT_Anim">
 			<ANIM_CODE>17000 24000 (A:PLANE ALTITUDE, feet) rng if{ 100 }
 			els{ 0 }
 			</ANIM_CODE>
@@ -108,7 +107,7 @@
 			<ANIM_NAME>AIG_A330MRTT_fuelboom</ANIM_NAME>
 			<ANIM_LENGTH>200</ANIM_LENGTH>
 			<ANIM_LAG>3</ANIM_LAG>
-			<AIG_TC>True</AIG_TC>
+			<UseParametersFn Name="AIG_TC_MRTT_Check_Parameters"/>
 		</Parameters>
 			<Condition Check="AIG_TC" Match="True">
 				<True>
@@ -121,7 +120,7 @@
 	</Template>
 
 	<Template Name="AIG_A330MRTT_AIGTC_FuelBoom">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
+		<UseTemplate Name="ASOBO_GT_Anim">
 			<ANIM_CODE>(A:FUEL TANK CENTER2 QUANTITY, Gallons) 1 == if{ 200 }
 			els{ 0 }
 			</ANIM_CODE>
@@ -129,7 +128,7 @@
 	</Template>
 
 	<Template Name="AIG_A330MRTT_NonAIGTC_FuelBoom">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
+		<UseTemplate Name="ASOBO_GT_Anim">
 			<ANIM_CODE>17000 24000 (A:PLANE ALTITUDE, feet) rng if{ 200 }
 			els{ 0 }
 			</ANIM_CODE>
@@ -140,7 +139,7 @@
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_A330MRTT_spinner</ANIM_NAME>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GROUND VELOCITY, knots) 0 max 90 min</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_WRAP>1</ANIM_WRAP>
@@ -162,7 +161,7 @@
 	<Template Name="AIG_MRTT_formation_lights">
 		<Parameters Type="Default">
 			<NODE_ID>__NO_NODE__</NODE_ID>
-			<AIG_TC>True</AIG_TC>
+			<UseParametersFn Name="AIG_TC_MRTT_Check_Parameters"/>
 		</Parameters>
 			<Condition Check="AIG_TC" Match="True">
 				<True>
@@ -181,6 +180,11 @@
 				els{ 0 }
 				</VISIBILITY_CODE>
 			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>(E:TIME OF DAY, enum) 1 != (A:FUEL TANK CENTER2 QUANTITY, Gallons) 1 == and if{ 1 }
+				els{ 0 }
+				</EMISSIVE_CODE>
+			</UseTemplate>
 		</Component>
 	</Template>
 
@@ -190,6 +194,11 @@
 				<VISIBILITY_CODE>17000 24000 (A:PLANE ALTITUDE, feet) rng (E:TIME OF DAY, enum) 1 != and if{ 1 }
 				els{ 0 }
 				</VISIBILITY_CODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>17000 24000 (A:PLANE ALTITUDE, feet) rng (E:TIME OF DAY, enum) 1 != and if{ 1 }
+				els{ 0 }
+				</EMISSIVE_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -201,60 +210,60 @@
 	<Template Name="AIG_A340_aileron_L_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>aileron_L_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) -1 * 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ (A:AILERON POSITION, percent) -1 * 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ (A:AILERON POSITION, percent) -1 * 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A340_aileron_R_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>aileron_R_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ (A:AILERON POSITION, percent) 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ (A:AILERON POSITION, percent) 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A340_aileron_L_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>aileron_L_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) -1 * 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; (A:AIRSPEED INDICATED, knots) 190 &lt; and if{ (A:AILERON POSITION, percent) -1 * 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ 50 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_A340_aileron_R_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>aileron_R_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and
 				if{ (A:AILERON POSITION, percent) 25 + }
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; (A:AIRSPEED INDICATED, knots) 190 &lt; and if{ (A:AILERON POSITION, percent) 50 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 0 }
 				els{ 50 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -265,125 +274,125 @@
 	<Template Name="UTT_A350_aileron_L">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_aileron_L</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &gt; and (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 21 &lt; and 
 				if{ (A:AILERON POSITION, percent) 70 + }
 				els{ (A:LIGHT BEACON, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 == and (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and if{ (A:AILERON POSITION, percent) 70 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ (A:AILERON POSITION, percent) 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_aileron_R">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_aileron_R</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &gt; and (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 21 &lt; and 
 				if{ (A:AILERON POSITION, percent) -1 * 70 + }
 				els{ (A:LIGHT BEACON, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 == and (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and if{ (A:AILERON POSITION, percent) -1 * 70 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ (A:AILERON POSITION, percent) -1 * 50 + } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_aileron_L_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_aileron_L_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &gt; and (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 21 &lt; and 
 				if{ (A:AILERON POSITION, percent) 70 + }
 				els{ (A:LIGHT BEACON, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 == and (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and if{ (A:AILERON POSITION, percent) 70 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ (A:AIRSPEED INDICATED, knots) 190 &lt; if{ (A:AILERON POSITION, percent) 50 + }
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_aileron_R_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_aileron_R_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &gt; and (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 21 &lt; and 
 				if{ (A:AILERON POSITION, percent) -1 * 70 + }
 				els{ (A:LIGHT BEACON, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 == and (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; and if{ (A:AILERON POSITION, percent) -1 * 70 + }
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ (A:AIRSPEED INDICATED, knots) 190 &lt; if{ (A:AILERON POSITION, percent) -1 * 50 + }
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_Spoiler_R3">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_Spoiler_R3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and if{ 100 }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 20 + }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_Spoiler_R2">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_Spoiler_R2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and if{ 100 }
 				els{ (A:LIGHT LANDING, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 80 &gt; and if{ 0 (A:AILERON POSITION, percent) 0.5 * + }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 20 + } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_Spoiler_L3">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_Spoiler_L3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and if{ 100 }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 20 + }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_Spoiler_L2">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_Spoiler_L2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and if{ 100 }
 				els{ (A:LIGHT LANDING, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 80 &gt; and if{ 0 (A:AILERON POSITION, percent) -0.5 * + }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 20 + } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="UTT_A350_Spoiler_LR1">
 		<Parameters Type="Default">
 			<ANIM_NAME>UTT_A350_Spoiler_LR1</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>70</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:SIM ON GROUND, bool) 1 == and if{ 100 }
 				els{ (A:LIGHT LANDING, bool) 1 == (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 80 &gt; and if{ 0 }
 				els{ 20 } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>70</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -394,41 +403,43 @@
 	<Template Name="TFS_A380_spoiler_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_spoiler_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_spoiler_L_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_spoiler_L_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 0 &gt; if{ 100 } } els{ (A:AILERON POSITION, percent) -50 &lt; if{ (A:AILERON POSITION, percent) -0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_spoiler_R_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_spoiler_R_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 0 &gt; if{ 100 } } els{ (A:AILERON POSITION, percent) 50 &gt; if{ (A:AILERON POSITION, percent) 0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_L_middle">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_L_middle</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:ROTATION VELOCITY BODY Z, knots) 250 * -1 * 65 + } 
@@ -437,16 +448,16 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 } 
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_R_middle">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_R_middle</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:ROTATION VELOCITY BODY Z, knots) 250 * 65 + } 
@@ -455,16 +466,16 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 } 
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_L_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_L_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:AILERON POSITION, percent) 0.60 * 65 + } 
@@ -473,16 +484,16 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_R_outer">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_R_outer</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:AILERON POSITION, percent) 0.60 * -1 * 65 + } 
@@ -491,16 +502,16 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 } 
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_L_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_L_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:AILERON POSITION, percent) 65 + } 
@@ -509,16 +520,16 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 } 
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_aileron_R_inner">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_aileron_R_inner</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt;
 				if{ (A:AILERON POSITION, percent) -1 * 65 + } 
@@ -527,21 +538,19 @@
 				els{ (A:LIGHT LANDING, bool) 1 == if{ 65 }
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == if{ 100 } 
 				els{ 50 } } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="TFS_A380_bottom_Rudder_wind_deflect">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_A380_bottom_Rudder</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 8 &gt; (A:LIGHT BEACON, bool) 0 == and 
 				if{ (A:AMBIENT WIND DIRECTION, degree) (A:PLANE HEADING DEGREES TRUE, degree) - 0 max 100 min }
 				els{ 50 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -552,11 +561,11 @@
 	<Template Name="AIG_An124_OpeningNose">
 		<Parameters Type="Default">
 			<ANIM_NAME>AN124_nose</ANIM_NAME>
+			<ANIM_LENGTH>1024</ANIM_LENGTH>
+			<ANIM_LAG>10</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT NAV, bool) 0 == (A:TURB ENG N1:0, Percent) 0.1 &gt; and if{ 1024 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>1024</ANIM_LENGTH>
-				<ANIM_LAG>10</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -618,7 +627,7 @@
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_L1</ANIM_NAME>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent)</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_LAG>50</ANIM_LAG>
@@ -628,63 +637,63 @@
 	<Template Name="AIG_B757_Spoiler_L2">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_L2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } }
 				els{ (A:AILERON POSITION, percent) -30 &lt; if{ (A:AILERON POSITION, percent) -0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_B757_Spoiler_L3">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_L3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } }
 				els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_B757_Spoiler_R1">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_R1</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_B757_Spoiler_R2">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_R2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 } }
 				els{ (A:AILERON POSITION, percent) 30 &gt; if{ (A:AILERON POSITION, percent) 0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_B757_Spoiler_R3">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_B757_Spoiler_R3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 } }
 				els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -695,8 +704,10 @@
 	<Template Name="B777_Flaperon">
 		<Parameters Type="Default">
 			<ANIM_NAME>inner_aileron</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) if{ 
 				(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS HANDLE POSITION, percent) 0 == (A:TURB ENG N1:1, percent) 50 &gt; and and 
 				if{ (A:ELEVATOR DEFLECTION, radians) abs 0 &gt;
@@ -704,136 +715,134 @@
 				els{ 100 (A:GROUND VELOCITY, knots) abs - 0 max } } 
 				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 45 } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } } (A:SPOILERS HANDLE POSITION, percent) - 0 max } } 
 				els{ 100 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>5</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Inner_L">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Inner_L</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 				if{ (A:SPOILERS LEFT POSITION, percent) 0.8 * }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 120 &lt; and
 				if{ 50 }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and
 				if{ 100 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Inner_R">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Inner_R</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) 0.8 * }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 120 &lt; and
 				if{ 50 }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and
 				if{ 100 } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_L4">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_L4</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 0.75 *</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_R4">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_R4</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 0.75 *</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_L2">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_L2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 }
 				els{ 0 } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_R2">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_R2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == 
 				if{ (A:SPOILERS HANDLE POSITION, percent) }
 				els{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR RIGHT POSITION, keyframe) 100 &gt; and if{ 100 }
 				els{ 0 } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_L1-3">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_L1-3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_R1-3">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_R1-3</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Spoiler_Out_LR5">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Spoiler_Out_LR5</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SPOILERS HANDLE POSITION, percent) 1 &gt; (A:GEAR LEFT POSITION, keyframe) 100 &gt; and if{ 100 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B777_Stabilizer_Flex">
 		<Parameters Type="Default">
 			<ANIM_NAME>TFS_777_Stabilizer_Flex</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>220</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT STROBE, bool) 1 == 10 95 (A:VELOCITY BODY Z, knots) rng and
 				if{ (P:Local time,seconds) 1.03 % (P:Local time,seconds) 1.15 % * (P:Local time,seconds) 1.3 % * 60 * }
                 els{ 50 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>220</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -844,13 +853,13 @@
 	<Template Name="B787_Ducts">
 		<Parameters Type="Default">
 			<ANIM_NAME>Ducts</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == 2 35 (A:AMBIENT TEMPERATURE, celsius) rng and if{ 100 } 
 				els{ (A:LIGHT NAV, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 10000 &lt; and if{ 100 }
 				els{ 0 } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -882,7 +891,7 @@
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #FLAP_TO_DEGREES# 2 / #FLAPERON# + }</CLIMBING>
 			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>
 				#IN_AIR#
 				if{ #CLIMBING#
@@ -906,10 +915,12 @@
 	<Template Name="B787_Aileron">
 		<Parameters Type="Default">
 			<ANIM_NAME>Aileron</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
 			<SIDE>LEFT</SIDE>
 			<SIGN></SIGN>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == (A:LIGHT BEACON, bool) 1 == and
 				if{ (A:AIRSPEED INDICATED, knots) 220 &lt;
 					if{ 50 (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 5 / + (A:AILERON #SIDE# DEFLECTION PCT, percent) #SIGN#1.2 * + 0 max 100 min }
@@ -919,19 +930,19 @@
 				els{ (A:LIGHT BEACON, bool) 0 == if{ 100 }
 				els{ 50 } } } }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B787_Spoiler_4">
 		<Parameters Type="Default">
 			<ANIM_NAME>Spoiler_L4</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 			<SIDE>LEFT</SIDE>
 			<SIGN></SIGN>
 			<GEAR>1</GEAR>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:SPOILERS HANDLE POSITION, percent) 50 &gt; if{ 80 }
 				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 85 &gt;
@@ -941,19 +952,19 @@
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT LANDING, bool) 1 == if{ 35 }
 				els{ 50 } } }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B787_Spoiler_35">
 		<Parameters Type="Default">
 			<ANIM_NAME>Spoiler_L3L5</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 			<SIDE>LEFT</SIDE>
 			<SIGN></SIGN>
 			<GEAR>1</GEAR>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:SPOILERS HANDLE POSITION, percent) 50 &gt; if{ 80 }
 				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 85 &gt;
@@ -963,19 +974,19 @@
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT LANDING, bool) 1 == if{ 35 }
 				els{ 50 } } }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B787_Spoiler_2">
 		<Parameters Type="Default">
 			<ANIM_NAME>Spoiler_L2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 			<SIDE>LEFT</SIDE>
 			<SIGN></SIGN>
 			<GEAR>1</GEAR>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:SPOILERS HANDLE POSITION, percent) 50 &gt; if{ 75 }
 				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 85 &gt;
@@ -985,17 +996,17 @@
 				els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT LANDING, bool) 1 == if{ 35 }
 				els{ 50 } } }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B787_Spoiler_1">
 		<Parameters Type="Default">
 			<ANIM_NAME>Spoiler_L1</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>
 			<GEAR>1</GEAR>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 ==
 				if{ (A:SPOILERS HANDLE POSITION, percent) 50 &gt; if{ 65 }
 				els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 85 &gt; if{ 50 (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 2 / - 15 max 50 min }
@@ -1005,16 +1016,16 @@
 					els{ (A:SIM ON GROUND, bool) 1 == (A:LIGHT LANDING, bool) 1 == if{ 40 }
 				els{ 50 } } } }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="B787_MainGearDoor_EarlyDeploy">
 		<Parameters Type="Default">
 			<ANIM_NAME>MainGearDoor_EarlyDeploy</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>15</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GEAR ANIMATION POSITION:1, keyframe) 100 &gt; if{ 0 }
 				els{ 30 500 (A:PLANE ALT ABOVE GROUND, feet) rng (A:GEAR ANIMATION POSITION:1, keyframe) 1 &gt; and (A:VERTICAL SPEED, ft/min) 5 &gt; and (A:TURB ENG N1:1, percent) 50 &gt; and
 					if{ 20 }
@@ -1022,8 +1033,6 @@
 						if{ 20 } } }
 				els{ 0 }
 				</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>15</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -1034,8 +1043,10 @@
 	<Template Name="AIG_Dash8-100_Spoiler_L">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-100_Spoiler_L</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS LEFT POSITION, percent) 0 &gt; and 
 				if{ 100 } 
 				els{ (A:GEAR ANIMATION POSITION:1, keyframe) 100 &gt; (A:GEAR ANIMATION POSITION:2, keyframe) 100 &gt; or (A:SPOILERS LEFT POSITION, percent) 0 &gt; and 
@@ -1043,16 +1054,16 @@
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS LEFT POSITION, percent) 0 == (A:LIGHT STROBE, bool) (A:TURB ENG N1:1, percent) 75 &lt; and and and 
 				if{ 100 } els{ 0 } } 
 				els{ (A:SPOILERS LEFT POSITION, percent) } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8-100_Spoiler_R">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-100_Spoiler_R</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS RIGHT POSITION, percent) 0 &gt; and 
 				if{ 100 } 
 				els{ (A:GEAR ANIMATION POSITION:1, keyframe) 100 &gt; (A:GEAR ANIMATION POSITION:2, keyframe) 100 &gt; or (A:SPOILERS RIGHT POSITION, percent) 0 &gt; and 
@@ -1060,38 +1071,38 @@
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS RIGHT POSITION, percent) 0 == (A:LIGHT STROBE, bool) (A:TURB ENG N1:1, percent) 75 &lt; and and and 
 				if{ 100 } els{ 0 } } 
 				els{ (A:SPOILERS RIGHT POSITION, percent) } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8-200-300_Spoiler_L">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-200-300_Spoiler_L</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ (A:SPOILERS LEFT POSITION, percent) } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8-200-300_Spoiler_R">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-200-300_Spoiler_R</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ (A:SPOILERS RIGHT POSITION, percent) } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8-400_Spoiler_L">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-400_Spoiler_L</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS LEFT POSITION, percent) 0 &gt; and 
 				if{ 100 } 
 				els{ (A:GEAR ANIMATION POSITION:1, keyframe) 100 &gt; (A:GEAR ANIMATION POSITION:2, keyframe) 100 &gt; or (A:SPOILERS LEFT POSITION, percent) 0 &gt; and 
@@ -1099,16 +1110,16 @@
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS LEFT POSITION, percent) 0 == (A:LIGHT STROBE, bool) (A:TURB ENG N1:1, percent) 75 &lt; and and and 
 				if{ 100 } els{ 0 } } 
 				els{ (A:SPOILERS LEFT POSITION, percent) } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8-400_Spoiler_R">
 		<Parameters Type="Default">
 			<ANIM_NAME>Dash8-400_Spoiler_R</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>50</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS RIGHT POSITION, percent) 0 &gt; and 
 				if{ 100 } 
 				els{ (A:GEAR ANIMATION POSITION:1, keyframe) 100 &gt; (A:GEAR ANIMATION POSITION:2, keyframe) 100 &gt; or (A:SPOILERS RIGHT POSITION, percent) 0 &gt; and 
@@ -1116,45 +1127,43 @@
 				els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:GEAR ANIMATION POSITION:0, keyframe) 100 &gt; (A:SPOILERS RIGHT POSITION, percent) 0 == (A:LIGHT STROBE, bool) (A:TURB ENG N1:1, percent) 75 &lt; and and and 
 				if{ 100 } els{ 0 } } 
 				els{ (A:SPOILERS RIGHT POSITION, percent) } } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>50</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8_Elevator">
 		<Parameters Type="Default">
 			<ANIM_NAME>Elevator</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:GROUND VELOCITY, knots) 20 - 0 max 2 * 100 min</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>5</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8_SpecialMission_Camera1">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_Dash8_camera1</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:PLANE ALT ABOVE GROUND, feet) 3000 &gt;
 				if{ (E:local time, seconds) flr 50 % (A:PLANE HEADING DEGREES TRUE, degree) 90 / * }
 				els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>5</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Dash8_SpecialMission_Camera2">
 		<Parameters Type="Default">
 			<ANIM_NAME>AIG_Dash8_camera2</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:PLANE ALT ABOVE GROUND, feet) 3000 &gt;
 				if{ (E:Local time, seconds) flr 20 % (A:PLANE HEADING DEGREES TRUE, degree) 3.6 / * 25 max 75 min }
 				els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>5</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -1176,11 +1185,11 @@
 	<Template Name="AIG_ERJ_Spoilers">
 		<Parameters Type="Default">
 			<ANIM_NAME>name</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 0 &gt; if{ 100 } } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 

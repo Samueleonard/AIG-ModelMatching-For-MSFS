@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="TBAI_Rockwell_AeroCommander690_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -29,49 +24,42 @@
 	</Component>
 
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Propeller">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Propeller">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<MAX_RPM>1600</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Propeller</ENGINE_TYPE>
+			<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+			<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
+			<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>40</STILL_NODE_ID>
-				<STILL_2_NODE_ID>41</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>42</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>43</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>44</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>45</BLURRED_2_NODE_ID>
+				<NODE_PREFIX>prop0_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
+				<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>slow_VC_0</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>slow_VC_1</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC_0</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>blurred_VC_1</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>2</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>47</STILL_NODE_ID>
-				<STILL_2_NODE_ID>48</STILL_2_NODE_ID>
-				<SLOW_NODE_ID>49</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>50</SLOW_2_NODE_ID>
-				<BLURRED_NODE_ID>51</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>52</BLURRED_2_NODE_ID>
+				<NODE_PREFIX>prop1_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC_0</STILL_NODE_ID>
+				<STILL_2_NODE_ID>still_VC_1</STILL_2_NODE_ID>
+				<SLOW_NODE_ID>slow_VC_0</SLOW_NODE_ID>
+				<SLOW_2_NODE_ID>slow_VC_1</SLOW_2_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC_0</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>blurred_VC_1</BLURRED_2_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -83,6 +71,12 @@
 		</UseTemplate>
 	</Component>
 
-</Template>
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>cabin_lights_VC</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
 
 </ModelBehaviors>

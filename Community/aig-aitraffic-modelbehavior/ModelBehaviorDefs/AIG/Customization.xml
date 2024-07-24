@@ -1,0 +1,30 @@
+<ModelBehaviors>
+
+	<!-- Contrail Length -->
+	<!-- Edit the FX_Duration value to produce shorter or longer contrails. Default is 150 seconds. -->
+
+	<ParametersFn Name="AIG_Contrail_Length_Parameters">
+		<ReturnParameters>
+			<FX_GRAPH_PARAM_0>FX_Duration, 150</FX_GRAPH_PARAM_0>
+		</ReturnParameters>
+	</ParametersFn>
+
+	<!-- Cargo Door Animation -->
+	<!-- If you are using PSXT, edit the AIG_TC parameter from True to False. This will activate the animated cargo doors.  -->
+
+	<ParametersFn Name="AIG_TC_PSXT_Check_Parameters">
+		<ReturnParameters>
+			<AIG_TC>True</AIG_TC>
+		</ReturnParameters>
+	</ParametersFn>
+
+	<!-- MRTT Features -->
+	<!-- Set AIG_TC to False if you want the MRTT features to be triggered between set altitudes instead of triggered by AIG Traffic Controller. -->
+
+	<ParametersFn Name="AIG_TC_MRTT_Check_Parameters">
+		<ReturnParameters>
+			<AIG_TC>True</AIG_TC>
+		</ReturnParameters>
+	</ParametersFn>
+
+</ModelBehaviors>

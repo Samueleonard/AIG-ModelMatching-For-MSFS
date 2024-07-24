@@ -2,27 +2,15 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="30" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD0.gltf"/>
-		<LOD minSize="20" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD1.gltf"/>
-		<LOD minSize="10" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD2.gltf"/>
-		<LOD minSize="1" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD3.gltf"/>
+		<LOD minSize="50" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD0.gltf"/>
+		<LOD minSize="35" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD1.gltf"/>
+		<LOD minSize="20" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD3.gltf"/>
 		<LOD minSize="0.5" ModelFile="AIG_Douglas_DC-9-10_MSFS_LOD4.gltf"/>
 	</LODS>
-  
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Douglas_DC9.xml"/>
-	
-	<Component ID="AIG_Douglas_DC9_Templates">
-		<UseTemplate Name="AIG_Douglas_DC9_Common"/>
-	</Component>
 
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>node2</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Douglas_DC9.xml"/>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

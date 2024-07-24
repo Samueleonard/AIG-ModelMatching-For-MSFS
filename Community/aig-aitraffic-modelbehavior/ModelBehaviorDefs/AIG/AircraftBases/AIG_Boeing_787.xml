@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="AIG_Boeing_787_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,17 +18,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>C_Tire</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>3.333333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>L_Tire</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>R_Tire</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.166667</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 
@@ -227,28 +222,25 @@
 	</Component>
 
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>2560</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Parts_Visibility">
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LogoLight</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_Logolight_l</NODE_ID>
-			<NODE_ID_2>LIGHT_Logolight_r</NODE_ID_2>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>Logolight_l</NODE_ID>
+			<NODE_ID_2>Logolight_r</NODE_ID_2>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_landing_nose_left</NODE_ID>
-			<NODE_ID_2>LIGHT_landing_nose_right</NODE_ID_2>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>landing_nose_left</NODE_ID>
+			<NODE_ID_2>landing_nose_right</NODE_ID_2>
 		</UseTemplate>
 	</Component>
 
@@ -257,8 +249,6 @@
 		<UseTemplate Name="AIG_APU_Heat"/>
 		<UseTemplate Name="AIG_LandingFX"/>
 	</Component>
-	
-</Template>
 
 <Template Name="AIG_Boeing_787_Cargo_Doors">
 	<Component ID="Cargo_Door">
@@ -275,26 +265,23 @@
 
 <Template Name="AIG_Boeing_787_GE_Visibility">
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>engine1_GE_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine1_GE_blur</BLURRED_NODE_ID>
+				<NODE_PREFIX>engine1_GE_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>engine2_GE_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine2_GE_blur</BLURRED_NODE_ID>
+				<NODE_PREFIX>engine2_GE_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>
@@ -302,26 +289,23 @@
 
 <Template Name="AIG_Boeing_787_RR_Visibility">
 	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
 		<Component ID="Engine1">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>1</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>engine1_RR_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine1_RR_blur</BLURRED_NODE_ID>
+				<NODE_PREFIX>engine1_RR_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 		<Component ID="Engine2">
-			<Parameters Type="Override">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
 				<ENGINE_ID>2</ENGINE_ID>
-				<NODE_PREFIX></NODE_PREFIX>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>engine2_RR_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine2_RR_blur</BLURRED_NODE_ID>
+				<NODE_PREFIX>engine2_RR_</NODE_PREFIX>
+				<STILL_NODE_ID>still</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blur</BLURRED_NODE_ID>
 			</UseTemplate>
 		</Component>
 	</Component>

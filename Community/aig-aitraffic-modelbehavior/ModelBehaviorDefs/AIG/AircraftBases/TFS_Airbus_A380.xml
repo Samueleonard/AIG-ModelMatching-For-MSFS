@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="TFS_Airbus_A380_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -32,17 +27,17 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>4.3125</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.593176</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>4.593176</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 	
@@ -85,21 +80,10 @@
 	</Component>
 	
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine2</ANIM_NAME>
-			<ENGINE_ID>3</ENGINE_ID>
-		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine3</ANIM_NAME>
-			<ENGINE_ID>4</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>4</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>2900</MAX_RPM>
 		</UseTemplate>
 	</Component>
 
@@ -146,16 +130,16 @@
 	<Component ID="Parts_Visibility">
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LogoLight</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_Logo_left</NODE_ID>
-			<NODE_ID_2>LIGHT_Logo_right</NODE_ID_2>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>Logo_left</NODE_ID>
+			<NODE_ID_2>Logo_right</NODE_ID_2>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Visibility_Template">
 			<PART>LandingLight_NoseGear</PART>
-			<NODE_PREFIX></NODE_PREFIX>
-			<NODE_ID>LIGHT_Landing_nose_l1</NODE_ID>
-			<NODE_ID_2>LIGHT_Landing_nose_r1</NODE_ID_2>
-			<NODE_ID_3>LIGHT_Taxi1</NODE_ID_3>
+			<NODE_PREFIX>LIGHT_</NODE_PREFIX>
+			<NODE_ID>Landing_nose_l1</NODE_ID>
+			<NODE_ID_2>Landing_nose_r1</NODE_ID_2>
+			<NODE_ID_3>Taxi1</NODE_ID_3>
 		</UseTemplate>
 	</Component>
 	
@@ -173,8 +157,6 @@
 			<TIME_END>80100</TIME_END>
 		</UseTemplate>
 	</Component>
-	
-</Template>
 
 <Template Name="TFS_Airbus_A380_Cargo_Doors">
 
@@ -189,6 +171,114 @@
 		</UseTemplate>
 	</Component>
 
+</Template>
+
+<Template Name="TFS_Airbus_A380_EA_Engine_Visibility">
+	<Component ID="EA_Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+			<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>	
+		</Parameters>
+		<Component ID="Engine1">
+			<ENGINE_ID>1</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine1_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop0_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine1_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop0_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<ENGINE_ID>2</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine2_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop1_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine2_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop1_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<ENGINE_ID>3</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine3_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop2_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine3_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop2_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<ENGINE_ID>4</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine4_still_EA</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop3_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine4_blur_EA</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop3_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
+</Template>
+
+<Template Name="TFS_Airbus_A380_RR_Engine_Visibility">
+	<Component ID="RR_Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
+			<BLURRED_NODE_ID_COUNT>2</BLURRED_NODE_ID_COUNT>	
+		</Parameters>
+		<Component ID="Engine1">
+			<ENGINE_ID>1</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine1_still_RR</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop0_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine1_blur_RR</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop0_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<ENGINE_ID>2</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine2_still_RR</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop1_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine2_blur_RR</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop1_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine3">
+			<ENGINE_ID>3</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine3_still_RR</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop2_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine3_blur_RR</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop2_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine4">
+			<ENGINE_ID>4</ENGINE_ID>
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX></NODE_PREFIX>
+				<STILL_NODE_ID>engine4_still_RR</STILL_NODE_ID>
+				<STILL_2_NODE_ID>prop3_still_VC</STILL_2_NODE_ID>
+				<BLURRED_NODE_ID>engine4_blur_RR</BLURRED_NODE_ID>
+				<BLURRED_2_NODE_ID>prop3_blurred_VC</BLURRED_2_NODE_ID>
+			</UseTemplate>
+		</Component>
+	</Component>
 </Template>
 
 </ModelBehaviors>

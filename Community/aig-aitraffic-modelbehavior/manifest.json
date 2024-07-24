@@ -4,8 +4,8 @@
   "title": "Model Behavior Library",
   "manufacturer": "",
   "creator": "Alpha India Group",
-  "package_version": "0.4.5",
-  "minimum_game_version": "1.36.2",
+  "package_version": "0.5.0",
+  "minimum_game_version": "1.37.19",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",

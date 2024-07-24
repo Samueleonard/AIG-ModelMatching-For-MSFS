@@ -2,21 +2,21 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="60" ModelFile="AIG_B757-200_RR_SW_LOD0.gltf">
+		<LOD minSize="90" ModelFile="AIG_B757-200_RR_SW_LOD0.gltf">
 			<AttachModel id="CargoDoors"/>
 		</LOD>
-		<LOD minSize="45" ModelFile="AIG_B757-200_RR_W_LOD1.gltf">
+		<LOD minSize="80" ModelFile="AIG_B757-200_RR_W_LOD1.gltf">
 			<AttachModel id="CargoDoors"/>
 		</LOD>
-		<LOD minSize="30" ModelFile="AIG_B757-200_RR_W_LOD2.gltf">
+		<LOD minSize="70" ModelFile="AIG_B757-200_RR_W_LOD2.gltf">
 			<AttachModel id="CargoDoors"/>
 		</LOD>
-		<LOD minSize="25" ModelFile="AIG_B757-200_RR_W_LOD3.gltf"/>
-		<LOD minSize="20" ModelFile="AIG_B757-200_RR_W_LOD4.gltf"/>
-		<LOD minSize="15" ModelFile="AIG_B757-200_RR_W_LOD5.gltf"/>
-		<LOD minSize="10" ModelFile="AIG_B757-200_RR_W_LOD6.gltf"/>
-		<LOD minSize="5" ModelFile="AIG_B757-200_RR_W_LOD7.gltf"/>
-		<LOD minSize="1" ModelFile="AIG_B757-200_RR_W_LOD8.gltf"/>
+		<LOD minSize="60" ModelFile="AIG_B757-200_RR_W_LOD3.gltf"/>
+		<LOD minSize="50" ModelFile="AIG_B757-200_RR_W_LOD4.gltf"/>
+		<LOD minSize="40" ModelFile="AIG_B757-200_RR_W_LOD5.gltf"/>
+		<LOD minSize="30" ModelFile="AIG_B757-200_RR_W_LOD6.gltf"/>
+		<LOD minSize="18" ModelFile="AIG_B757-200_RR_W_LOD7.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_B757-200_RR_W_LOD8.gltf"/>
 		<LOD minSize="0.5" ModelFile="AIG_B757-200_RR_W_LOD9.gltf"/>
 	</LODS>
 	<ModelAttachments>
@@ -25,117 +25,13 @@
 		</ModelAttachment>
 	</ModelAttachments>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_757.xml"/>
-	
-	<Component ID="AIG_Boeing_757_Templates">
-		<UseTemplate Name="AIG_Boeing_757_Common"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Boeing_757.xml"/>
 
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<NODE_PREFIX></NODE_PREFIX>
-				<STILL_NODE_ID>engine1_RR_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine1_RR_blur</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID_COUNT>10</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>10</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>10</BLURRED_NODE_ID_COUNT>
-				<STILL_NODE_ID>112</STILL_NODE_ID>
-				<STILL_2_NODE_ID>114</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>116</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>123</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>125</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>126</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>129</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>132</STILL_8_NODE_ID>
-				<STILL_9_NODE_ID>134</STILL_9_NODE_ID>
-				<STILL_10_NODE_ID>137</STILL_10_NODE_ID>
-				<SLOW_NODE_ID>115</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>118</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>119</SLOW_3_NODE_ID>
-				<SLOW_4_NODE_ID>127</SLOW_4_NODE_ID>
-				<SLOW_5_NODE_ID>130</SLOW_5_NODE_ID>
-				<SLOW_6_NODE_ID>131</SLOW_6_NODE_ID>
-				<SLOW_7_NODE_ID>136</SLOW_7_NODE_ID>
-				<SLOW_8_NODE_ID>138</SLOW_8_NODE_ID>
-				<SLOW_9_NODE_ID>140</SLOW_9_NODE_ID>
-				<SLOW_10_NODE_ID>141</SLOW_10_NODE_ID>
-				<BLURRED_NODE_ID>111</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>113</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>117</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>121</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>122</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>124</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>128</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>133</BLURRED_8_NODE_ID>
-				<BLURRED_9_NODE_ID>135</BLURRED_9_NODE_ID>
-				<BLURRED_10_NODE_ID>139</BLURRED_10_NODE_ID>
-			</UseTemplate>
+		<Component ID="Engine_Visibility">
+			<UseTemplate Name="AIG_Boeing_757_RR_Engine_Visibility"/>
 		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_Template">
-				<ID>1</ID>
-				<NODE_PREFIX></NODE_PREFIX>
-				<STILL_NODE_ID>engine2_RR_still</STILL_NODE_ID>
-				<BLURRED_NODE_ID>engine2_RR_blur</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID_COUNT>10</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>10</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>10</BLURRED_NODE_ID_COUNT>
-				<STILL_NODE_ID>82</STILL_NODE_ID>
-				<STILL_2_NODE_ID>84</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>85</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>96</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>98</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>99</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>101</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>102</STILL_8_NODE_ID>
-				<STILL_9_NODE_ID>104</STILL_9_NODE_ID>
-				<STILL_10_NODE_ID>109</STILL_10_NODE_ID>
-				<SLOW_NODE_ID>79</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>80</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>83</SLOW_3_NODE_ID>
-				<SLOW_4_NODE_ID>89</SLOW_4_NODE_ID>
-				<SLOW_5_NODE_ID>90</SLOW_5_NODE_ID>
-				<SLOW_6_NODE_ID>91</SLOW_6_NODE_ID>
-				<SLOW_7_NODE_ID>92</SLOW_7_NODE_ID>
-				<SLOW_8_NODE_ID>93</SLOW_8_NODE_ID>
-				<SLOW_9_NODE_ID>94</SLOW_9_NODE_ID>
-				<SLOW_10_NODE_ID>97</SLOW_10_NODE_ID>
-				<BLURRED_NODE_ID>81</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>86</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>87</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>95</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>100</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>103</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>105</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>106</BLURRED_8_NODE_ID>
-				<BLURRED_9_NODE_ID>107</BLURRED_9_NODE_ID>
-				<BLURRED_10_NODE_ID>108</BLURRED_10_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
 
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>Fuselage</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

@@ -2,76 +2,22 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="20" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD0.gltf"/>
-		<LOD minSize="10" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD1.gltf"/>
-		<LOD minSize="5" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD2.gltf"/>
-		<LOD minSize="1" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD3.gltf"/>
+		<LOD minSize="30" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD0.gltf"/>
+		<LOD minSize="20" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD1.gltf"/>
+		<LOD minSize="15" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD2.gltf"/>
+		<LOD minSize="3" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD3.gltf"/>
 		<LOD minSize="0.5" ModelFile="ANAI_Piper_Archer_II_MF_MSFS_LOD4.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\ANAI_Piper.xml"/>
-	
-	<Component ID="ANAI_Piper_Templates">
-		<UseTemplate Name="ANAI_Piper_Common"/>
-		<UseTemplate Name="ANAI_Piper_Steering"/>
-		<UseTemplate Name="ANAI_Piper_Elevator"/>
-		<UseTemplate Name="ANAI_Piper_Archer_Flaps"/>
-	</Component>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\ANAI_Piper.xml"/>
 
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-				<STILL_NODE_ID_COUNT>16</STILL_NODE_ID_COUNT>
-				<SLOW_NODE_ID_COUNT>8</SLOW_NODE_ID_COUNT>
-				<BLURRED_NODE_ID_COUNT>8</BLURRED_NODE_ID_COUNT>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Propeller_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>51</STILL_NODE_ID>
-				<STILL_2_NODE_ID>53</STILL_2_NODE_ID>
-				<STILL_3_NODE_ID>55</STILL_3_NODE_ID>
-				<STILL_4_NODE_ID>57</STILL_4_NODE_ID>
-				<STILL_5_NODE_ID>59</STILL_5_NODE_ID>
-				<STILL_6_NODE_ID>61</STILL_6_NODE_ID>
-				<STILL_7_NODE_ID>63</STILL_7_NODE_ID>
-				<STILL_8_NODE_ID>65</STILL_8_NODE_ID>
-				<STILL_9_NODE_ID>67</STILL_9_NODE_ID>
-				<STILL_10_NODE_ID>69</STILL_10_NODE_ID>
-				<STILL_11_NODE_ID>71</STILL_11_NODE_ID>
-				<STILL_12_NODE_ID>73</STILL_12_NODE_ID>
-				<STILL_13_NODE_ID>75</STILL_13_NODE_ID>
-				<STILL_14_NODE_ID>77</STILL_14_NODE_ID>
-				<STILL_15_NODE_ID>79</STILL_15_NODE_ID>
-				<STILL_16_NODE_ID>81</STILL_16_NODE_ID>
-				<SLOW_NODE_ID>23</SLOW_NODE_ID>
-				<SLOW_2_NODE_ID>25</SLOW_2_NODE_ID>
-				<SLOW_3_NODE_ID>27</SLOW_3_NODE_ID>
-				<SLOW_4_NODE_ID>29</SLOW_4_NODE_ID>
-				<SLOW_5_NODE_ID>32</SLOW_5_NODE_ID>
-				<SLOW_6_NODE_ID>34</SLOW_6_NODE_ID>
-				<SLOW_7_NODE_ID>36</SLOW_7_NODE_ID>
-				<SLOW_8_NODE_ID>38</SLOW_8_NODE_ID>
-				<BLURRED_NODE_ID>24</BLURRED_NODE_ID>
-				<BLURRED_2_NODE_ID>26</BLURRED_2_NODE_ID>
-				<BLURRED_3_NODE_ID>28</BLURRED_3_NODE_ID>
-				<BLURRED_4_NODE_ID>30</BLURRED_4_NODE_ID>
-				<BLURRED_5_NODE_ID>33</BLURRED_5_NODE_ID>
-				<BLURRED_6_NODE_ID>35</BLURRED_6_NODE_ID>
-				<BLURRED_7_NODE_ID>37</BLURRED_7_NODE_ID>
-				<BLURRED_8_NODE_ID>39</BLURRED_8_NODE_ID>
-			</UseTemplate>
+		<Component ID="ANAI_Piper_Templates">
+			<UseTemplate Name="ANAI_Piper_Steering"/>
+			<UseTemplate Name="ANAI_Piper_Elevator"/>
+			<UseTemplate Name="ANAI_Piper_Archer_Flaps"/>
 		</Component>
-	</Component>
 
-	<Component ID="Parts_Visibility">
-		<UseTemplate Name="AIG_Visibility_Template">
-			<PART>GroundParts</PART>
-			<NODE_ID>1</NODE_ID>
-			<NODE_ID_2>2</NODE_ID_2>
-		</UseTemplate>
-	</Component>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

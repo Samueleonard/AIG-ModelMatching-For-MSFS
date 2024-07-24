@@ -1,11 +1,6 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="AIG\Common.xml"/>
-
-<Template Name="FAIB_Boeing_767_Common">
-
-	<Component ID="Lights">
-		<UseTemplate Name="AIG_LightsOverride"/>
-	</Component>
+	<IncludeBase ModelBehaviorFile="AIG\Lights.xml"/>
 
 	<Component ID="Landing_Gear">
 		<UseTemplate Name="AIG_Gear_Center_Template">
@@ -23,24 +18,28 @@
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>10</RATE>
+			<WHEEL_DIAMETER>3.083333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>1</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.833333</WHEEL_DIAMETER>
 		</UseTemplate>
 		<UseTemplate Name="AIG_Wheel_Animation">
 			<ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>2</WHEEL_ID>
-			<RATE>7</RATE>
+			<WHEEL_DIAMETER>3.833333</WHEEL_DIAMETER>
 		</UseTemplate>
 	</Component>
 
 	<Component ID="Nosewheel_Steering">
-		<UseTemplate Name="FAIB_Nosewheel_Steering">
+		<UseTemplate Name="AIG_Nosewheel_Steering">
 			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
+			<ANIM_LENGTH>1000</ANIM_LENGTH>
 			<ANIM_SHARPNESS>475</ANIM_SHARPNESS>
+			<ANIM_CENTER>500</ANIM_CENTER>
+			<ANIM_MIN>0</ANIM_MIN>
+			<ANIM_MAX>1000</ANIM_MAX>
 		</UseTemplate>
 	</Component>
 
@@ -58,14 +57,33 @@
 	</Component>
 	
 	<Component ID="Engines">
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>1</ENGINE_ID>
+		<UseTemplate Name="AIG_Engine_Base_Template">
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+			<MAX_RPM>4000</MAX_RPM>
 		</UseTemplate>
-		<UseTemplate Name="AIG_Engine_Jet">
-			<ANIM_NAME>engine1</ANIM_NAME>
-			<ENGINE_ID>2</ENGINE_ID>
-		</UseTemplate>
+	</Component>
+
+	<Component ID="Engine_Visibility">
+		<Parameters Type="Override">
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
+		</Parameters>
+		<Component ID="Engine1">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>1</ENGINE_ID>
+				<NODE_PREFIX>N1_0_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="Engine2">
+			<UseTemplate Name="AIG_Engine_Visibility_Template">
+				<ENGINE_ID>2</ENGINE_ID>
+				<NODE_PREFIX>N1_1_</NODE_PREFIX>
+				<STILL_NODE_ID>still_VC</STILL_NODE_ID>
+				<BLURRED_NODE_ID>blurred_VC</BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
 	</Component>
 
 	<Component ID="FlapsSlats">
@@ -105,6 +123,96 @@
 		<UseTemplate Name="AIG_LandingFX"/>
 	</Component>
 
+	<Component ID="Fuselage_DimCabin">
+		<UseTemplate Name="AIG_Fuselage_DimCabin">
+			<NODE_ID>cabin_lights_VC</NODE_ID>
+			<TIME_START>26100</TIME_START>
+			<TIME_END>80100</TIME_END>
+		</UseTemplate>
+	</Component>
+
+<Template Name="FAIB_B762_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_7672_L_Inner_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7672_L_Outer_Logo</NODE_ID_2>
+			<NODE_ID_3>attachpt_FAIB_7672_R_Inner_Logo</NODE_ID_3>
+			<NODE_ID_4>attachpt_FAIB_7672_R_Outer_Logo</NODE_ID_4>
+			<NODE_ID_5>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_5>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_7672_C_Gear_L_Landing_Dyn</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7672_C_Gear_R_Landing_Dyn</NODE_ID_2>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC</NODE_ID>
+			<NODE_ID_2>custom_vis_GEAR_CENTER_POSITION_03_mcx_VC</NODE_ID_2>
+			<NODE_ID_3>custom_vis_GEAR_CENTER_POSITION_03_mcx_VC_0</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_B763_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_7673_L_Inner_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7673_L_Outer_Logo</NODE_ID_2>
+			<NODE_ID_3>attachpt_FAIB_7673_R_Inner_Logo</NODE_ID_3>
+			<NODE_ID_4>attachpt_FAIB_7673_R_Outer_Logo</NODE_ID_4>
+			<NODE_ID_5>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_5>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_7673_C_Gear_L_Landing_Dyn</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7673_C_Gear_R_Landing_Dyn</NODE_ID_2>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC</NODE_ID>
+			<NODE_ID_2>custom_vis_GEAR_CENTER_POSITION_03_mcx_VC</NODE_ID_2>
+			<NODE_ID_3>custom_vis_GEAR_CENTER_POSITION_03_mcx_VC_0</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
+</Template>
+
+<Template Name="FAIB_B764_Parts_Visibility">
+	<Component ID="Parts_Visibility">
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LogoLight</PART>
+			<NODE_ID>attachpt_FAIB_7674_L_Inner_Logo</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7674_L_Outer_Logo</NODE_ID_2>
+			<NODE_ID_3>attachpt_FAIB_7674_R_Inner_Logo</NODE_ID_3>
+			<NODE_ID_4>attachpt_FAIB_7674_R_Outer_Logo</NODE_ID_4>
+			<NODE_ID_5>custom_vis_TIME_OF_DAY_00_mcx_VC</NODE_ID_5>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLight_NoseGear</PART>
+			<NODE_ID>attachpt_FAIB_7674_C_Gear_L_Landing_Dyn</NODE_ID>
+			<NODE_ID_2>attachpt_FAIB_7674_C_Gear_R_Landing_Dyn</NODE_ID_2>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>LandingLightSplash</PART>
+			<NODE_ID>light_landing_splash_vis_VC</NODE_ID>
+			<NODE_ID_2>custom_vis_GEAR_CENTER_POSITION_00_VC</NODE_ID_2>
+			<NODE_ID_3>custom_vis_GEAR_CENTER_POSITION_00_VC_0</NODE_ID_3>
+		</UseTemplate>
+		<UseTemplate Name="AIG_Visibility_Template">
+			<PART>TaxiLightSplash</PART>
+			<NODE_ID>light_taxi_vis_VC</NODE_ID>
+		</UseTemplate>
+	</Component>
 </Template>
 
 </ModelBehaviors>

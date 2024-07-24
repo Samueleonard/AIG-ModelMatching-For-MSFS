@@ -1,6 +1,5 @@
 <ModelBehaviors>
-	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
-	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="AIG\Common.xml"/>
 	
 
 <!-- Landing Gear -->
@@ -41,22 +40,12 @@
 			<ANIM_LAG Process="Float">#ANIM_LENGTH# 2 / #RETRACT_TIME# /</ANIM_LAG>
 			<ID>0</ID>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } 
 							els{ 1 225 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng (A:VERTICAL SPEED, feet per second) 3 &gt; and if{ 100 }
 							els{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } }
 				</ANIM_CODE>
 			</UseTemplate>
-	</Template>
-	
-	<Template Name="AIG_Gear_Base_TemplateOld">
-		<Parameters Type="Default">
-			<ID>0</ID>
-		</Parameters>
-		<UseTemplate Name="ASOBO_GT_Anim_Sim">
-			<ANIM_SIMVAR>GEAR ANIMATION POSITION:#ID#</ANIM_SIMVAR>
-			<ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
-		</UseTemplate>
 	</Template>
 
 
@@ -67,10 +56,14 @@
 		<Parameters Type="Default">
 			<ANIM_NAME>tire_blurred_key</ANIM_NAME>
 			<WHEEL_ID>0</WHEEL_ID>
-			<RATE>0</RATE>
+			<WHEEL_DIAMETER>0</WHEEL_DIAMETER>
+			<!-- Wheel diameter in feet -->
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; if{ #RATE# (A:VELOCITY BODY Z, feet per second) (A:ANIMATION DELTA TIME, seconds) * * } els{ 0 }</ANIM_CODE>
+		<Parameters Type="Default">
+			<WHEEL_CIRCUMFERENCE Process="Float">pi #WHEEL_DIAMETER# *</WHEEL_CIRCUMFERENCE>
+		</Parameters>
+			<UseTemplate Name="ASOBO_GT_Anim">
+				<ANIM_CODE>(A:PLANE ALT ABOVE GROUND MINUS CG, feet) 2 &lt; if{ (A:VELOCITY BODY Z, feet per second) #WHEEL_CIRCUMFERENCE# / 60 * (A:ANIMATION DELTA TIME, seconds) * } els{ 0 }</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_WRAP>1</ANIM_WRAP>
 				<ANIM_DELTA>1</ANIM_DELTA>
@@ -81,7 +74,7 @@
 		<Parameters Type="Default">
 			<ID>1</ID>
 			<WHEEL_ID>0</WHEEL_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
+			<NODE_PREFIX></NODE_PREFIX>
 		</Parameters>
 		<UseTemplate Name="AIG_Tire_Visibility_SubTemplate"/>
 	</Template>
@@ -143,14 +136,43 @@
 <!-- Engines -->
 
 
-	<Template Name="AIG_Engine_Jet">
+	<Template Name="AIG_Engine_Base_Template">
 		<Parameters Type="Default">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>0</ENGINE_ID>
+			<NUMBER_OF_ENGINES>2</NUMBER_OF_ENGINES>
+			<LOOP_START>0</LOOP_START>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:#ENGINE_ID#, Percent) 6.25 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } 
-						els{ (A:TURB ENG N1:#ENGINE_ID#, Percent) 6.25 &gt; if{ 0.01 6 3500 (A:TURB ENG N1:#ENGINE_ID#, Percent) (A:ANIMATION DELTA TIME, seconds) * * * * } 
+		<Parameters Type="Default">
+			<ENGINE_TOTAL Process="Int">#NUMBER_OF_ENGINES# 1 - #LOOP_START# +</ENGINE_TOTAL>
+		</Parameters>
+		<Loop>
+			<Setup>
+				<Param>ENGINE_ID</Param>
+				<From>#LOOP_START#</From>
+				<Inc>1</Inc>
+				<To>#ENGINE_TOTAL#</To>
+			</Setup>
+			<Do>
+				<Parameters Type="Override">
+					<ID>#ENGINE_ID#</ID>
+				</Parameters>
+				<Component ID="Engine#ID#">
+					<Parameters Type="Default">
+						<ENGINE_NUMBER Process="Int">#ID# 1 + #LOOP_START# -</ENGINE_NUMBER>
+					</Parameters>
+					<UseTemplate Name="AIG_Engine_#ENGINE_TYPE#_Template"/>
+				</Component>
+			</Do>
+		</Loop>
+	</Template>
+
+	<Template Name="AIG_Engine_Jet_Template">
+		<Parameters Type="Default">
+			<MAX_RPM>3500</MAX_RPM>
+		</Parameters>
+			<UseTemplate Name="ASOBO_GT_Anim">
+				<ANIM_NAME>engine#ID#</ANIM_NAME>
+				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 6 &gt; (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) 6.25 &lt; and if{ (A:AMBIENT WIND VELOCITY, knots) 0.02 * } 
+						els{ (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) 6.25 &gt; if{ 0.06 #MAX_RPM# (A:TURB ENG N1:#ENGINE_NUMBER#, Percent) (A:ANIMATION DELTA TIME, seconds) * * * 5 max 75 min } 
 						els{ 0 } }</ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_WRAP>1</ANIM_WRAP>
@@ -158,40 +180,48 @@
 			</UseTemplate>
 	</Template>
 	
-	<Template Name="AIG_Engine_Propeller">
+	<Template Name="AIG_Engine_Propeller_Template">
 		<Parameters Type="Default">
-			<ANIM_NAME>engine0</ANIM_NAME>
-			<ENGINE_ID>0</ENGINE_ID>
+			<MAX_RPM>1200</MAX_RPM>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>0.01 6 2400 (A:PROP RPM:#ENGINE_ID#, percent) (A:ANIMATION DELTA TIME, seconds) * * * * </ANIM_CODE>
+			<UseTemplate Name="ASOBO_GT_Anim">
+				<ANIM_NAME>engine#ID#</ANIM_NAME>
+				<ANIM_CODE>0.06 #MAX_RPM# (A:PROP RPM:#ENGINE_NUMBER#, percent) (A:ANIMATION DELTA TIME, seconds) * * * </ANIM_CODE>
 				<ANIM_LENGTH>100</ANIM_LENGTH>
 				<ANIM_WRAP>1</ANIM_WRAP>
 				<ANIM_DELTA>1</ANIM_DELTA>
 			</UseTemplate>
 	</Template>
 
-	<Template Name="AIG_Engine_Jet_Visibility_Template">
+	<Template Name="AIG_Engine_Visibility_Template">
 		<Parameters Type="Default">
 			<ID>1</ID>
 			<ENGINE_ID>0</ENGINE_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
-			<MIN_PCT_FOR_SLOW>6.25</MIN_PCT_FOR_SLOW>
-			<MIN_PCT_FOR_BLUR>12.5</MIN_PCT_FOR_BLUR>
+			<NODE_PREFIX></NODE_PREFIX>
+			<ENGINE_TYPE>Jet</ENGINE_TYPE>
 		</Parameters>
-		<UseTemplate Name="AIG_Engine_Jet_Visibility_SubTemplate"/>
+		<Switch>
+			<Case Valid="SLOW_NODE_ID">
+				<UseTemplate Name="AIG_Engine_Visibility_SubTemplate"/>
+			</Case>
+			<Default>
+				<UseTemplate Name="AIG_Engine_Visibility_Simple_SubTemplate"/>
+			</Default>
+		</Switch>
 	</Template>
 		
-	<Template Name="AIG_Engine_Jet_Visibility_SubTemplate">
+	<Template Name="AIG_Engine_Visibility_SubTemplate">
 		<Parameters Type="Default">
-			<STILL_NODE_ID>Engine_Jet_Still_#ID#</STILL_NODE_ID>
-			<SLOW_NODE_ID>Engine_Jet_Slow_#ID#</SLOW_NODE_ID>
-			<BLURRED_NODE_ID>Engine_Jet_Blurred_#ID#</BLURRED_NODE_ID>
+			<STILL_NODE_ID>Engine_Still_#ID#</STILL_NODE_ID>
+			<SLOW_NODE_ID>Engine_Slow_#ID#</SLOW_NODE_ID>
+			<BLURRED_NODE_ID>Engine_Blurred_#ID#</BLURRED_NODE_ID>
 			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
 			<SLOW_NODE_ID_COUNT>1</SLOW_NODE_ID_COUNT>
 			<BLURRED_NODE_ID_COUNT>1</BLURRED_NODE_ID_COUNT>
+			<MIN_PCT_FOR_SLOW>6.25</MIN_PCT_FOR_SLOW>
+			<MIN_PCT_FOR_BLUR>12.5</MIN_PCT_FOR_BLUR>
 		</Parameters>
-		<Component ID="Engine_Jet_#ID#_Visibility">
+		<Component ID="Engine#ENGINE_ID#_#ID#_Visibility">
 			<Parameters Type="Default">
 				<STILL_1_NODE_ID>#STILL_NODE_ID#</STILL_1_NODE_ID>
 				<SLOW_1_NODE_ID>#SLOW_NODE_ID#</SLOW_1_NODE_ID>
@@ -201,7 +231,7 @@
 				<PROCESS_PARAM1>True</PROCESS_PARAM1>
 				<PARAM1>NODE_ID</PARAM1>
 				<PARAM1_SUFFIX>_NODE_ID</PARAM1_SUFFIX>
-				<EXIT_TEMPLATE>AIG_Engine_Jet_Visibility_Base_Template</EXIT_TEMPLATE>
+				<EXIT_TEMPLATE>AIG_Engine_Visibility_Base_Template</EXIT_TEMPLATE>
 			</Parameters>
 			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
 				<MAX_ID>#STILL_NODE_ID_COUNT#</MAX_ID>
@@ -220,26 +250,17 @@
 			</UseTemplate>
 		</Component>
 	</Template>
-
-	<Template Name="AIG_Engine_Jet_Visibility_Simple_Template">
+		
+	<Template Name="AIG_Engine_Visibility_Simple_SubTemplate">
 		<Parameters Type="Default">
-			<ID>1</ID>
-			<ENGINE_ID>0</ENGINE_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
+			<STILL_NODE_ID>Engine_Still_#ID#</STILL_NODE_ID>
+			<BLURRED_NODE_ID>Engine_Blurred_#ID#</BLURRED_NODE_ID>
+			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
+			<BLURRED_NODE_ID_COUNT>1</BLURRED_NODE_ID_COUNT>
 			<MIN_PCT_FOR_SLOW>6.25</MIN_PCT_FOR_SLOW>
 			<MIN_PCT_FOR_BLUR>6.25</MIN_PCT_FOR_BLUR>
 		</Parameters>
-		<UseTemplate Name="AIG_Engine_Jet_Visibility_Simple_SubTemplate"/>
-	</Template>
-		
-	<Template Name="AIG_Engine_Jet_Visibility_Simple_SubTemplate">
-		<Parameters Type="Default">
-			<STILL_NODE_ID>Engine_Jet_Still_#ID#</STILL_NODE_ID>
-			<BLURRED_NODE_ID>Engine_Jet_Blurred_#ID#</BLURRED_NODE_ID>
-			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
-			<BLURRED_NODE_ID_COUNT>1</BLURRED_NODE_ID_COUNT>
-		</Parameters>
-		<Component ID="Engine_Jet_#ID#_Visibility">
+		<Component ID="Engine#ENGINE_ID#_#ID#_Visibility">
 			<Parameters Type="Default">
 				<STILL_1_NODE_ID>#STILL_NODE_ID#</STILL_1_NODE_ID>
 				<BLURRED_1_NODE_ID>#BLURRED_NODE_ID#</BLURRED_1_NODE_ID>
@@ -248,7 +269,7 @@
 				<PROCESS_PARAM1>True</PROCESS_PARAM1>
 				<PARAM1>NODE_ID</PARAM1>
 				<PARAM1_SUFFIX>_NODE_ID</PARAM1_SUFFIX>
-				<EXIT_TEMPLATE>AIG_Engine_Jet_Visibility_Base_Template</EXIT_TEMPLATE>
+				<EXIT_TEMPLATE>AIG_Engine_Visibility_Base_Template</EXIT_TEMPLATE>
 			</Parameters>
 			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
 				<MAX_ID>#STILL_NODE_ID_COUNT#</MAX_ID>
@@ -263,258 +284,46 @@
 		</Component>
 	</Template>
 	
-	<Template Name="AIG_Engine_Jet_Visibility_Base_Template">
+	<Template Name="AIG_Engine_Visibility_Base_Template">
 		<Condition NotEmpty="NODE_ID">
 			<True>
 				<Component ID="#NODE_PREFIX##NODE_ID#" Node="#NODE_PREFIX##NODE_ID#">
-					<UseTemplate Name="AIG_Engine_Jet_#STATE#_Template"/>
+					<Condition Check="ENGINE_TYPE" Match="Jet">
+						<True>
+							<UseTemplate Name="AIG_Engine_#STATE#_Template">
+								<ENGINE_TYPE_SIMVAR>TURB ENG N1</ENGINE_TYPE_SIMVAR>
+							</UseTemplate>
+						</True>
+						<False>
+							<UseTemplate Name="AIG_Engine_#STATE#_Template">
+								<ENGINE_TYPE_SIMVAR>PROP RPM</ENGINE_TYPE_SIMVAR>
+							</UseTemplate>
+						</False>
+					</Condition>
 				</Component>
 			</True>
 		</Condition>
 	</Template>
 
-	<Template Name="AIG_Engine_Jet_Still_Template">
+	<Template Name="AIG_Engine_Still_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &lt;</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:#ENGINE_TYPE_SIMVAR#:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &lt;</VISIBILITY_CODE>
 		</UseTemplate>
 	</Template>
 	
-	<Template Name="AIG_Engine_Jet_Slow_Template">
+	<Template Name="AIG_Engine_Slow_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
 			<VISIBILITY_CODE>
-				(A:TURB ENG N1:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &gt;
-				(A:TURB ENG N1:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &lt; and
+				(A:#ENGINE_TYPE_SIMVAR#:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &gt;
+				(A:#ENGINE_TYPE_SIMVAR#:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &lt; and
 			</VISIBILITY_CODE>
 		</UseTemplate>
 	</Template>	
 
-	<Template Name="AIG_Engine_Jet_Blurred_Template">
+	<Template Name="AIG_Engine_Blurred_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &gt;</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(A:#ENGINE_TYPE_SIMVAR#:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &gt;</VISIBILITY_CODE>
 		</UseTemplate>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Visibility_Template">
-		<Parameters Type="Default">
-			<ID>1</ID>
-			<ENGINE_ID>0</ENGINE_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
-			<MIN_PCT_FOR_SLOW>6.25</MIN_PCT_FOR_SLOW>
-			<MIN_PCT_FOR_BLUR>12.5</MIN_PCT_FOR_BLUR>
-		</Parameters>
-		<UseTemplate Name="AIG_Engine_Propeller_Visibility_SubTemplate"/>
-	</Template>
-		
-	<Template Name="AIG_Engine_Propeller_Visibility_SubTemplate">
-		<Parameters Type="Default">
-			<STILL_NODE_ID>Engine_Propeller_Still_#ID#</STILL_NODE_ID>
-			<SLOW_NODE_ID>Engine_Propeller_Slow_#ID#</SLOW_NODE_ID>
-			<BLURRED_NODE_ID>Engine_Propeller_Blurred_#ID#</BLURRED_NODE_ID>
-			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
-			<SLOW_NODE_ID_COUNT>1</SLOW_NODE_ID_COUNT>
-			<BLURRED_NODE_ID_COUNT>1</BLURRED_NODE_ID_COUNT>
-		</Parameters>
-		<Component ID="Engine_Propeller_#ID#_Visibility">
-			<Parameters Type="Default">
-				<STILL_1_NODE_ID>#STILL_NODE_ID#</STILL_1_NODE_ID>
-				<SLOW_1_NODE_ID>#SLOW_NODE_ID#</SLOW_1_NODE_ID>
-				<BLURRED_1_NODE_ID>#BLURRED_NODE_ID#</BLURRED_1_NODE_ID>
-			</Parameters>
-			<Parameters Type="Override">
-				<PROCESS_PARAM1>True</PROCESS_PARAM1>
-				<PARAM1>NODE_ID</PARAM1>
-				<PARAM1_SUFFIX>_NODE_ID</PARAM1_SUFFIX>
-				<EXIT_TEMPLATE>AIG_Engine_Propeller_Visibility_Base_Template</EXIT_TEMPLATE>
-			</Parameters>
-			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
-				<MAX_ID>#STILL_NODE_ID_COUNT#</MAX_ID>
-				<STATE>Still</STATE>
-				<PARAM1_PREFIX>STILL_</PARAM1_PREFIX>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
-				<MAX_ID>#SLOW_NODE_ID_COUNT#</MAX_ID>
-				<STATE>Slow</STATE>
-				<PARAM1_PREFIX>SLOW_</PARAM1_PREFIX>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
-				<MAX_ID>#BLURRED_NODE_ID_COUNT#</MAX_ID>
-				<STATE>Blurred</STATE>
-				<PARAM1_PREFIX>BLURRED_</PARAM1_PREFIX>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Visibility_Simple_Template">
-		<Parameters Type="Default">
-			<ID>1</ID>
-			<ENGINE_ID>0</ENGINE_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
-			<MIN_PCT_FOR_SLOW>6.25</MIN_PCT_FOR_SLOW>
-			<MIN_PCT_FOR_BLUR>6.25</MIN_PCT_FOR_BLUR>
-		</Parameters>
-		<UseTemplate Name="AIG_Engine_Propeller_Visibility_Simple_SubTemplate"/>
-	</Template>
-		
-	<Template Name="AIG_Engine_Propeller_Visibility_Simple_SubTemplate">
-		<Parameters Type="Default">
-			<STILL_NODE_ID>Engine_Propeller_Still_#ID#</STILL_NODE_ID>
-			<BLURRED_NODE_ID>Engine_Propeller_Blurred_#ID#</BLURRED_NODE_ID>
-			<STILL_NODE_ID_COUNT>1</STILL_NODE_ID_COUNT>
-			<BLURRED_NODE_ID_COUNT>1</BLURRED_NODE_ID_COUNT>
-		</Parameters>
-		<Component ID="Engine_Propeller_#ID#_Visibility">
-			<Parameters Type="Default">
-				<STILL_1_NODE_ID>#STILL_NODE_ID#</STILL_1_NODE_ID>
-				<BLURRED_1_NODE_ID>#BLURRED_NODE_ID#</BLURRED_1_NODE_ID>
-			</Parameters>
-			<Parameters Type="Override">
-				<PROCESS_PARAM1>True</PROCESS_PARAM1>
-				<PARAM1>NODE_ID</PARAM1>
-				<PARAM1_SUFFIX>_NODE_ID</PARAM1_SUFFIX>
-				<EXIT_TEMPLATE>AIG_Engine_Propeller_Visibility_Base_Template</EXIT_TEMPLATE>
-			</Parameters>
-			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
-				<MAX_ID>#STILL_NODE_ID_COUNT#</MAX_ID>
-				<STATE>Still</STATE>
-				<PARAM1_PREFIX>STILL_</PARAM1_PREFIX>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
-				<MAX_ID>#BLURRED_NODE_ID_COUNT#</MAX_ID>
-				<STATE>Blurred</STATE>
-				<PARAM1_PREFIX>BLURRED_</PARAM1_PREFIX>
-			</UseTemplate>
-		</Component>
-	</Template>
-	
-	<Template Name="AIG_Engine_Propeller_Visibility_Base_Template">
-		<Condition NotEmpty="NODE_ID">
-			<True>
-				<Component ID="#NODE_PREFIX##NODE_ID#" Node="#NODE_PREFIX##NODE_ID#">
-					<UseTemplate Name="AIG_Engine_Propeller_#STATE#_Template"/>
-				</Component>
-			</True>
-		</Condition>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Still_Template">
-		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &lt;</VISIBILITY_CODE>
-		</UseTemplate>
-	</Template>
-	
-	<Template Name="AIG_Engine_Propeller_Slow_Template">
-		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>
-				(A:PROP RPM:#ENGINE_ID#, Percent) #MIN_PCT_FOR_SLOW# &gt;
-				(A:PROP RPM:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &lt; and
-			</VISIBILITY_CODE>
-		</UseTemplate>
-	</Template>	
-
-	<Template Name="AIG_Engine_Propeller_Blurred_Template">
-		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, Percent) #MIN_PCT_FOR_BLUR# &gt;</VISIBILITY_CODE>
-		</UseTemplate>
-	</Template>
-	
-	
-<!-- Legacy Engine Visibility Codes -->
-
-
-	<Template Name="AIG_Engine_Jet_Still">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Jet_Still_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Jet_Slow">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Jet_Slow_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) 6.25 &gt; (A:TURB ENG N1:#ENGINE_ID#, Percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Jet_Blurred">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Jet_Blurred_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Jet_Blurred_Simple">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Jet_Blurred_Simple_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:TURB ENG N1:#ENGINE_ID#, Percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Still">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Prop_Still_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, percent) 6.25 &lt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Slow">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Prop_Slow_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, percent) 6.25 &gt; (A:PROP RPM:#ENGINE_ID#, percent) 12.5 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Blurred">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Prop_Blurred_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, percent) 12.5 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name="AIG_Engine_Propeller_Blurred_Simple">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-			<ENGINE_ID>0</ENGINE_ID>
-		</Parameters>
-		<Component ID="AIG_Prop_Blurred_Simple_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:PROP RPM:#ENGINE_ID#, percent) 6.25 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
 	</Template>
 
 
@@ -527,25 +336,14 @@
 			<ANIM_LENGTH>200</ANIM_LENGTH>
 			<ANIM_SHARPNESS>0</ANIM_SHARPNESS>
 			<ANIM_CENTER>150</ANIM_CENTER>
+			<ANIM_MIN>100</ANIM_MIN>
+			<ANIM_MAX>200</ANIM_MAX>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ #ANIM_CENTER# } els{ (A:ROTATION VELOCITY BODY Y, Feet) #ANIM_SHARPNESS# * #ANIM_CENTER# + 100 max 200 min }</ANIM_CODE>
-				<ANIM_LENGTH>200</ANIM_LENGTH>
-				<ANIM_LAG>30</ANIM_LAG>
-			</UseTemplate>
-	</Template>
-
-	<Template Name="FAIB_Nosewheel_Steering">
 		<Parameters Type="Default">
-			<ANIM_NAME>custom_anim_C_WHEEL_LR</ANIM_NAME>
-			<ANIM_LENGTH>1000</ANIM_LENGTH>
-			<ANIM_SHARPNESS>0</ANIM_SHARPNESS>
-			<ANIM_CENTER>500</ANIM_CENTER>
+			<ANIM_LAG Process="Int">#ANIM_LENGTH# #ANIM_CENTER# - 2 /</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ #ANIM_CENTER# } els{ (A:ROTATION VELOCITY BODY Y, Feet) #ANIM_SHARPNESS# * #ANIM_CENTER# + 0 max 1000 min }</ANIM_CODE>
-				<ANIM_LENGTH>1000</ANIM_LENGTH>
-				<ANIM_LAG>750</ANIM_LAG>
+			<UseTemplate Name="ASOBO_GT_Anim">
+				<ANIM_CODE>(A:SIM ON GROUND, bool) 0 == if{ #ANIM_CENTER# } els{ (A:ROTATION VELOCITY BODY Y, Feet) #ANIM_SHARPNESS# * #ANIM_CENTER# + #ANIM_MIN# max #ANIM_MAX# min }</ANIM_CODE>
 			</UseTemplate>
 	</Template>
 
@@ -584,7 +382,7 @@
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #FLAP_TO_DEGREES# }</CLIMBING>
 			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>#BEACON_ON#
 				if{ #TAKEOFF_FLAPS#
 				els{ #LANDING_FLAPS# 
@@ -638,7 +436,7 @@
 			<CLIMBING>(A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; (A:VERTICAL SPEED, feet per second) 10 &gt; and if{ #SLAT_TO_DEGREES# }</CLIMBING>
 			<FLIGHT_CONDITIONS>(A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots)</FLIGHT_CONDITIONS>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>#BEACON_ON#
 				if{ #TAKEOFF_SLATS#
 				els{ #LANDING_SLATS# 
@@ -660,83 +458,83 @@
 	<Template Name="AIG_Spoiler_L_key">
 		<Parameters Type="Default">
 			<ANIM_NAME>l_spoiler_key</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 0 &gt; if{ 100 } } els{ (A:AILERON POSITION, percent) -30 &lt; if{ (A:AILERON POSITION, percent) -0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Spoiler_R_key">
 		<Parameters Type="Default">
 			<ANIM_NAME>r_spoiler_key</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>40</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 0 &gt; if{ 100 } } els{ (A:AILERON POSITION, percent) 30 &gt; if{ (A:AILERON POSITION, percent) 0.5 * } els{ (A:SPOILERS HANDLE POSITION, percent) }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>40</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Reverse_Thrust">
 		<Parameters Type="Default">
 			<ANIM_NAME>custom_anim_REV_THRUST</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>20</ANIM_LAG>			
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GROUND VELOCITY, knots) 55 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>20</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Rudder_Deflection">
 		<Parameters Type="Default">
 			<ANIM_NAME>AI_Rudder_wind_deflect</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>8</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:AMBIENT WIND VELOCITY, knots) 8 &gt; (A:LIGHT BEACON, bool) 0 == and if{ (A:PLANE HEADING DEGREES TRUE, degree) (A:AMBIENT WIND DIRECTION, degree) - 0 max 100 min } els{ 50 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>8</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Wingflex">
 		<Parameters Type="Default">
 			<ANIM_NAME>AI_Wingflex</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>55</ANIM_LAG>
 			<WING_ID>0</WING_ID>
 			<INTERVAL1>1.8</INTERVAL1>
 			<INTERVAL2>2.4</INTERVAL2>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:VELOCITY BODY Z, knots) 7 &gt; (A:SIM ON GROUND, bool) 1 == and if{ (P:Local time,seconds) #INTERVAL1# % (P:Local time,seconds) #INTERVAL2# % * 100 * (A:GROUND VELOCITY, knots) / (A:GROUND VELOCITY, knots) 2 / + } els{ (A:SIM ON GROUND, bool) 0 == if{ (A:WING FLEX PCT:#WING_ID#, percent) 0.5 * 75 + } els{ 0 } }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>55</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_ControlSurfacesDroop">
 		<Parameters Type="Default">
 			<ANIM_NAME>droop</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>5</ANIM_LAG>
 			<LIGHT_STATE>1</LIGHT_STATE>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) #LIGHT_STATE# == if{ 0 } els{ 100 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>5</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_Door_Animation">
 		<Parameters Type="Default">
-			<PSXT>False</PSXT>
+			<UseParametersFn Name="AIG_TC_PSXT_Check_Parameters"/>
 		</Parameters>
-			<Condition Check="PSXT" Match="True">
+			<Condition Check="AIG_TC" Match="True">
 				<True>
-					<UseTemplate Name="AIG_PSXT_Door_Animation_Subtemplate"/>
+					<UseTemplate Name="AIG_Standard_Door_Animation_Subtemplate"/>
 				</True>
 				<False>
-					<UseTemplate Name="AIG_Standard_Door_Animation_Subtemplate"/>
+					<UseTemplate Name="AIG_PSXT_Door_Animation_Subtemplate"/>
 				</False>
 			</Condition>
 	</Template>
@@ -753,32 +551,32 @@
 	</Template>
 
 	<Template Name="AIG_PSXT_Door_Animation_Subtemplate">
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == and (A:VELOCITY BODY Z, knots) 0.1 &lt; and (A:VELOCITY BODY Z, knots) -0.1 &gt; and if{ 100 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>8</ANIM_LAG>
-			</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim">
+			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == (A:LIGHT BEACON, bool) 0 == and (A:VELOCITY BODY Z, knots) 0.1 &lt; and (A:VELOCITY BODY Z, knots) -0.1 &gt; and if{ 100 } els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>8</ANIM_LAG>
+		</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_AnimatedLandingLights">
 		<Parameters Type="Default">
 			<ANIM_NAME>light_landing</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>25</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT LANDING, bool) if{ 100 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>25</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
 	<Template Name="AIG_AnimatedLandingTaxiLights">
 		<Parameters Type="Default">
 			<ANIM_NAME>light_taxi</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>25</ANIM_LAG>
 		</Parameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<UseTemplate Name="ASOBO_GT_Anim">
 				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == (A:PLANE ALT ABOVE GROUND, feet) 10000 &lt; and if{ 100 } els{ 0 }</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
-				<ANIM_LAG>25</ANIM_LAG>
 			</UseTemplate>
 	</Template>
 
@@ -789,7 +587,7 @@
 	<Template Name="AIG_Visibility_Template">
 		<DefaultTemplateParameters>
 			<RECURSIVE_ID>2</RECURSIVE_ID>
-			<NODE_PREFIX>node</NODE_PREFIX>
+			<NODE_PREFIX></NODE_PREFIX>
 			<PART>TYPE</PART>
 		</DefaultTemplateParameters>
 		<Component ID="#PART#_#NODE_ID#">
@@ -815,7 +613,7 @@
 
 	<Template Name="AIG_LogoLight_Visibility_Template">
 		<UseTemplate Name="ASOBO_GT_Visibility">
-			<VISIBILITY_CODE>(E:TIME OF DAY, number) 1 != (A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; and if{ 0 } els{ 1 }</VISIBILITY_CODE>
+			<VISIBILITY_CODE>(E:TIME OF DAY, number) 1 == (A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; or if{ 0 } els{ 1 }</VISIBILITY_CODE>
 		</UseTemplate>
 	</Template>
 
@@ -843,66 +641,15 @@
 		</UseTemplate>
 	</Template>
 
-
-<!-- Legacy Visibility Templates -->
-
-
-	<Template Name="AIG_Logolight_Visibility">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-		</Parameters>
-		<Component ID="AIG_Logolight_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:PLANE ALT ABOVE GROUND, feet) 10200 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
+	<Template Name="AIG_MRTT_FormationLight_Visibility_Template">
+		<UseTemplate Name="AIG_MRTT_formation_lights"/>
 	</Template>
 
-	<Template Name="AIG_Landinglight_NoseGear_Visibility">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-		</Parameters>
-		<Component ID="AIG_Gear_Landinglight_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:GEAR CENTER POSITION, percent) 60 &lt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
+	<Template Name="AIG_MRTT_EngineCover_Visibility_Template">
+		<UseTemplate Name="AIG_MRTT_engine_covers"/>
 	</Template>
 
-	<Template Name="AIG_GroundParts_Visibility">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-		</Parameters>
-		<Component ID="AIG_GroundParts_Visibility_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:VELOCITY BODY Z,feet per second) 0.5 &gt; (A:LIGHT BEACON,bool) or if{ 0 } els{ 1 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
 
-	<Template Name="AIG_LandingLightSplash_Visibility">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-		</Parameters>
-		<Component ID="AIG_LandingLightSplash_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:LIGHT LANDING, bool) 1 == if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-	
-	<Template Name="AIG_TaxiLightSplash_Visibility">
-		<Parameters Type="Default"> 
-			<NODE_ID>__NO_NODE__</NODE_ID>
-		</Parameters>
-		<Component ID="AIG_TaxiLightSplash_#NODE_ID#" Node="#NODE_ID#">
-			<UseTemplate Name="ASOBO_GT_Visibility_Code">
-				<VISIBILITY_CODE>(A:LIGHT TAXI, bool) 1 == if{ 1 } els{ 0 }</VISIBILITY_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-	
-	
 <!-- Cabin Lights Intensity -->
 
 

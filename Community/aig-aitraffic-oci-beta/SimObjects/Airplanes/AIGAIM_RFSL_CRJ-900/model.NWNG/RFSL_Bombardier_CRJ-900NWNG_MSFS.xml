@@ -8,58 +8,13 @@
 		<LOD minSize="0.5" ModelFile="RFSL_Bombardier_CRJ-900NWNG_MSFS_LOD1.gltf"/>
 	</LODS>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\RFSL_Bombardier_CRJ.xml"/>
 	
-	<Component ID="RFSL_Bombardier_CRJ_Templates">
-		<UseTemplate Name="RFSL_Bombardier_CRJ_Common"/>
-		<UseTemplate Name="RFSL_Bombardier_CRJ_Slats"/>
-	</Component>
-	
-	<Component ID="Engine_Visibility">
-		<Component ID="Engine1">
-			<Parameters Type="Override">
-				<ENGINE_ID>1</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>70</STILL_NODE_ID>
-				<SLOW_NODE_ID>66</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>26</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>71</STILL_NODE_ID>
-				<SLOW_NODE_ID>67</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>27</BLURRED_NODE_ID>
-			</UseTemplate>
+		<Component ID="RFSL_Bombardier_CRJ_Templates">
+			<UseTemplate Name="RFSL_Bombardier_CRJ_Slats"/>
 		</Component>
-		<Component ID="Engine2">
-			<Parameters Type="Override">
-				<ENGINE_ID>2</ENGINE_ID>
-			</Parameters>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>1</ID>
-				<STILL_NODE_ID>72</STILL_NODE_ID>
-				<SLOW_NODE_ID>68</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>64</BLURRED_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="AIG_Engine_Jet_Visibility_Template">
-				<ID>2</ID>
-				<STILL_NODE_ID>73</STILL_NODE_ID>
-				<SLOW_NODE_ID>69</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>65</BLURRED_NODE_ID>
-			</UseTemplate>
-		</Component>
-	</Component>
 
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>node2</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
+	</Behaviors>
 
-  </Behaviors>
 </ModelInfo>

@@ -2,16 +2,16 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="50" ModelFile="AIG_DHC-Dash-8-100-NL_LOD0.gltf">
+		<LOD minSize="70" ModelFile="AIG_DHC-Dash-8-100-NL_LOD0.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
-		<LOD minSize="25" ModelFile="AIG_DHC-Dash-8-100-NL_LOD1.gltf">
+		<LOD minSize="50" ModelFile="AIG_DHC-Dash-8-100-NL_LOD1.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
-		<LOD minSize="10" ModelFile="AIG_DHC-Dash-8-100-NL_LOD2.gltf">
+		<LOD minSize="25" ModelFile="AIG_DHC-Dash-8-100-NL_LOD2.gltf">
 			<AttachModel id="Antenna"/>
 		</LOD>
-		<LOD minSize="1" ModelFile="AIG_DHC-Dash-8-100-NL_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_DHC-Dash-8-100-NL_LOD3.gltf"/>
 		<LOD minSize="0.5" ModelFile="AIG_DHC-Dash-8-100-NL_LOD4.gltf"/>
 	</LODS>
 
@@ -21,21 +21,20 @@
 		</ModelAttachment>
 	</ModelAttachments>
 
-<Behaviors>
-	<Include ModelBehaviorFile="AIG\AircraftBases\AIG_DeHavilland_Dash8.xml"/>
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_DeHavilland_Dash8.xml"/>
 	
-	<Component ID="AIG_DeHavilland_Dash8_Templates">
-		<UseTemplate Name="AIG_DeHavilland_Dash8_Common"/>
-		<UseTemplate Name="AIG_DeHavilland_Dash8-100"/>
-	</Component>
+		<Component ID="AIG_DeHavilland_Dash8_Templates">
+			<UseTemplate Name="AIG_DeHavilland_Dash8-100"/>
+		</Component>
 
-	<Component ID="Fuselage_DimCabin">
-		<UseTemplate Name="AIG_Fuselage_DimCabin">
-			<NODE_ID>fuselage</NODE_ID>
-			<TIME_START>26100</TIME_START>
-			<TIME_END>80100</TIME_END>
-		</UseTemplate>
-	</Component>
+		<Component ID="Fuselage_DimCabin">
+			<UseTemplate Name="AIG_Fuselage_DimCabin">
+				<NODE_ID>fuselage</NODE_ID>
+				<TIME_START>26100</TIME_START>
+				<TIME_END>80100</TIME_END>
+			</UseTemplate>
+		</Component>
 
-  </Behaviors>
+	</Behaviors>
 </ModelInfo>
