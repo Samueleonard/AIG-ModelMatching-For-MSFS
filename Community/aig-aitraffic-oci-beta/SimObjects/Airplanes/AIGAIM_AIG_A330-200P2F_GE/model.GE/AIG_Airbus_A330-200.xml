@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="80" ModelFile="AIG_Airbus_A330-200_GE_LOD0.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="30" ModelFile="AIG_Airbus_A330-200_GE_LOD1.gltf">
+			<AttachModel id="CargoDoors"/>
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="3" ModelFile="AIG_Airbus_A330-200_GE_LOD2.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_Airbus_A330-200_GE_LOD3.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="CargoDoors">
+			<Model>AIG_Airbus_A330-200_GE_cargoP2F.xml</Model>
+		</ModelAttachment>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Airbus_A330.xml"/>
+	
+		<Component ID="AIG_Airbus_A330_Templates">
+			<UseTemplate Name="AIG_Airbus_A330_GE_Engine_Visibility"/>
+		</Component>
+
+	</Behaviors>
+</ModelInfo>

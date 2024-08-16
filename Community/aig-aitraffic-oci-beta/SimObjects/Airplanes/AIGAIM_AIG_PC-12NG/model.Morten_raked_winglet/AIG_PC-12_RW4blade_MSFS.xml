@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD0.gltf"/>
+		<LOD minSize="40" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD1.gltf"/>
+		<LOD minSize="30" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD2.gltf"/>
+		<LOD minSize="15" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD3.gltf"/>
+		<LOD minSize="3" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD4.gltf"/>
+		<LOD minSize="0.5" ModelFile="AIG_PC-12_RW4blade_MSFS_LOD5.gltf"/>
+	</LODS>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\AIG_Pilatus_PC12.xml"/>
+	</Behaviors>
+
+</ModelInfo>
