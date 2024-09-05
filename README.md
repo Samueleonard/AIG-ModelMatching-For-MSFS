@@ -11,7 +11,7 @@ Below is an AIG install for MSFS ONLY - EXCLUDING offline AI flight plans.
 
 Download from - 
 
-[Google Drive](https://drive.google.com/file/d/19ZEbFDJhkXqIGovS_WOh2p-tStWvQ-Zt/view?usp=sharing)  (~4gb zipped download, ~66gb unzipped)
+[Google Drive](https://drive.google.com/file/d/19ZEbFDJhkXqIGovS_WOh2p-tStWvQ-Zt/view?usp=sharing)  (~4.4gb zipped download, ~69gb unzipped)
 
 Use an extraction tool such as [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) to extract and drag **ALL** 3 included folders into your community folder. 
 
