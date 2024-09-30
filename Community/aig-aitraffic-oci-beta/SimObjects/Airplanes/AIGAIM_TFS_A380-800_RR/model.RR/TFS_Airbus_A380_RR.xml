@@ -2,19 +2,19 @@
 <ModelInfo>
 
 	<LODS>
-		<LOD minSize="60" ModelFile="TFS_Airbus_A380_RR_LOD0.gltf">
+		<LOD minSize="30" ModelFile="TFS_Airbus_A380_RR_LOD0.gltf">
 			<AttachModel id="CargoDoors"/>
 			<AttachModel id="LogoLights"/>
 		</LOD>
-		<LOD minSize="50" ModelFile="TFS_Airbus_A380_RR_LOD1.gltf">
+		<LOD minSize="20" ModelFile="TFS_Airbus_A380_RR_LOD1.gltf">
 			<AttachModel id="CargoDoors"/>
 			<AttachModel id="LogoLights"/>
 		</LOD>
-		<LOD minSize="40" ModelFile="TFS_Airbus_A380_RR_LOD2.gltf">
+		<LOD minSize="10" ModelFile="TFS_Airbus_A380_RR_LOD2.gltf">
 			<AttachModel id="CargoDoors"/>
 			<AttachModel id="LogoLights"/>
 		</LOD>
-		<LOD minSize="30" ModelFile="TFS_Airbus_A380_RR_LOD3.gltf">
+		<LOD minSize="5" ModelFile="TFS_Airbus_A380_RR_LOD3.gltf">
 			<AttachModel id="CargoDoors"/>
 			<AttachModel id="LogoLights"/>
 		</LOD>

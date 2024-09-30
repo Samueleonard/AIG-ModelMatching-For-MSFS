@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+
+	<LODS>
+		<LOD minSize="50" ModelFile="FAIB_A319S_CFML_LOD0.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="37" ModelFile="FAIB_A319S_CFML_LOD1.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="25" ModelFile="FAIB_A319S_CFML_LOD2.gltf">
+			<AttachModel id="LogoLights"/>
+		</LOD>
+		<LOD minSize="3" ModelFile="FAIB_A319S_CFML_LOD3.gltf"/>
+		<LOD minSize="0.5" ModelFile="FAIB_A319S_CFML_LOD4.gltf"/>
+	</LODS>
+	<ModelAttachments>
+		<ModelAttachment id="LogoLights">
+			<Model>Logo_Lights.xml</Model>
+		</ModelAttachment>
+	</ModelAttachments>
+
+	<Behaviors>
+		<IncludeBase ModelBehaviorFile="AIG\AircraftBases\FAIB_Airbus_A320.xml"/>
+
+		<Component ID="FAIB_A319S_Templates">
+			<UseTemplate Name="FAIB_A319S_Parts_Visibility"/>
+		</Component>
+		
+	</Behaviors>
+
+</ModelInfo>
