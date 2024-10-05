@@ -1,11 +1,9 @@
-# AIG-Model Matching-For-MSFS
+# AIG-Model Matching-For-MSFS 2020
 ## Introduction
 
-**THIS PACK IS RARELY UPDATED AS OF MARCH 2024.** I may look at revisiting it from time to time to keep it up to date with any big AIG changes.
-
-
-Below is an AIG install for MSFS ONLY - EXCLUDING offline AI flight plans.
-  
+**THIS PACK IS NOW FINISHED AS OF 5 SEPTEMBER 2024 AND WILL NOT BE UPDATED BY ME**
+In preparation for MSFS 2024, which will likely require large model/texture changes in order to take advantage of new features, I am leaving this pack in its current state to see what happens next with AIG and default MSFS AI Traffic.
+You should face no issues using this on vatsim, it is more than future proofed.
 
 ## <b>INSTALL</b>
 
