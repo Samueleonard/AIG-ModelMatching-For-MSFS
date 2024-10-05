@@ -5,7 +5,7 @@ import time
 import webbrowser
 
 githubFolderPath = "C:\\Users\\samue\\Documents\\GitHub\\AIG-ModelMatching-For-MSFS\\Community\\"
-comFolderPathMain = "F:\\MSFS Addons\\AI Traffic\\Air Traffic\\"
+comFolderPathMain = "F:\MSFS\Addons\AI Traffic\\"
 #names of the folders/files inside the aig main folder that we will copy
 componentFolderNames = ["Effects", "SimObjects", "Sound", "Texture", "Traffic Files", "BritishAvgeeks-AIG-MSFS-Vatsim-Rules.vmr", "layout.json", "manifest.json"]
 
